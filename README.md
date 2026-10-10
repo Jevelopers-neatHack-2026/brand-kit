@@ -88,7 +88,7 @@ The script takes no arguments. It shapes `fonts/Fraunces[SOFT,WONK,opsz,wght].tt
 
 ## Related repositories
 
-This kit covers the master brand: app UI, logo, marketing and packaging. Stub editions (Classic, Letterpress, Risograph, Minimal, Researched) are the user's artwork with their own palettes ([two tiers](SPEC.md#two-tiers)).
+This kit covers the master brand: app UI, logo, marketing and packaging. Stub editions (Classic, Letterpress, Risograph, Minimal, Researched) are the user's artwork with their own palettes ([two tiers](SPEC.md#two-tiers)); the edition system is specified in [getticketstub.com `docs/studio/stub-system.md`](https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/main/docs/studio/stub-system.md).
 
 - [getticketstub.com](https://github.com/Jevelopers-neatHack-2026/getticketstub.com): the studio app, which carries copies of these logos in [`public/brand`](https://github.com/Jevelopers-neatHack-2026/getticketstub.com/tree/main/public/brand)
 - [creative-engine](https://github.com/Jevelopers-neatHack-2026/creative-engine/blob/main/docs/architecture/OWNERSHIP.md) owns artwork versions; [print-production](https://github.com/Jevelopers-neatHack-2026/print-production/blob/main/docs/architecture/OWNERSHIP.md) owns printable composition
