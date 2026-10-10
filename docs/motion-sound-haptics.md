@@ -22,7 +22,7 @@ Every interaction should feel like handling paper. Tokens are in `tokens/tokens.
 
 ## Sound
 
-Sound is **on by default**, with a mute toggle always visible in the top bar. Source all sounds from **[cuelume.dev](https://cuelume.dev/)** and keep each one under 600 ms (the printer loop is the exception), mixed quietly at -18 LUFS or below.
+Sound is **on by default**, with a mute toggle always visible in the top bar. Synthesize every sound live with the Web Audio API, built the way **[cuelume.dev](https://cuelume.dev/)** builds its sounds (rules below). Keep each one under 600 ms (the printer loop is the exception), mixed quietly at -18 LUFS or below.
 
 | Event | Character |
 |---|---|
@@ -38,6 +38,20 @@ Sound is **on by default**, with a mute toggle always visible in the top bar. So
 | Add to cart | Rubber stamp |
 
 - **Browser rule:** audio can only start after the first user gesture. The drop or tap that starts a stub unlocks it.
+
+### Rules: sounds must never be harsh or interchangeable
+
+The first build got both wrong. Every cue was a 1–2 ms burst of high-passed noise with an exponential attack, so they all sounded like the same sharp click. These rules come from how cuelume builds its sounds (MIT, [source](https://github.com/danielwh2/cuelume)):
+
+1. **Swell in, don't click.** Every layer rises along a straight line (1–6 ms for strikes, 50+ ms for air), then dies away exponentially. An exponential attack stays silent and then jumps in, which is heard as a late second hit.
+2. **No unfiltered noise, and nothing centred above 5 kHz.** Noise is always band- or low-passed at the material's hardness: felt about 1 kHz, card about 2.4 kHz, a hard mallet about 3 kHz.
+3. **Struck objects, not test tones.** Tones are sines at the modes of a real object (free bar 1 / 2.76 / 5.40, marimba bar 1 / 3.99). Higher modes die out faster (decay ∝ 1/ratio). A knock is a sine struck 1.6× sharp that drops to its pitch in 18 ms.
+4. **One shared room.** Every cue sends about -22 dB into one short stereo room (8 ms to the first reflection, 250 ms tail, walls low-passed at 3.5 kHz), then goes through one limiter. Results (success) send twice as much.
+5. **One job, one shape.** Pick by the job (tap, select, toggle, open, close, drop, success, stamp, flick, flip, tear, pin, print). Each has its own layers. Never make a cue by changing the volume or EQ of another.
+6. **Alive, not random.** Frequent cues vary each strike by about 1–3% in pitch and 10% in level, and each layer's ring varies by up to 10%. Outcomes play the same every time. A cue that repeats within 70–220 ms gets lighter (up to -22% level, -25% length). Each cue plays one voice at a time, so a new play fades the last one out over 80 ms instead of stacking on it.
+7. **Emphasis by arrangement.** "Subtle" (frequent actions) drops the ornament layers, and "strong" (rare, important) adds one low layer of its own.
+
+The reference implementation is `getticketstub.com/src/customer/studio/feedback.ts`, with an audition board at `/parts`.
 
 ## Haptics
 
