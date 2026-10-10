@@ -19,7 +19,7 @@ Real stamped foil has a fixed shape and a colour that shifts as you move it. We 
 | **Brand foil** (Ts stamp, foil titles) | Text or logo raster, white on black | `--ts-foil` (copper → orange → cyan) |
 | **Gold / copper foil** (Letterpress, Researched editions) | Text raster | Copper-weighted foil |
 | **Spot holo** (lamplight, windows in art) | Highlight mask taken from the art (about 6% coverage) | `--ts-holo-spectrum` |
-| **Holographic stock** (print upgrade) | Full-bleed halftone, no mask | `--ts-holo-spectrum` |
+| **Holographic stock** (print upgrade) | Full-bleed **flake film**: seeded fractal noise, thresholded so only the brightest flakes catch light. Never a halftone dot grid | A softened spectrum, screened onto dark areas and multiplied into light stock, only inside the pool of light |
 | **Emboss / deboss** | Height map from the text raster | Light and shadow driven by the same light position (new; not in coven-cave) |
 
 The full rainbow appears only on holographic stock and spot holo. Everything branded uses the brand foil.
@@ -44,10 +44,12 @@ The first board shipped with a foil effect that snapped on when the pointer ente
 |---|---|---|
 | Brand foil sheen (copper/cyan band, about 40% of the gradient length, travels 90% across) | `overlay` | 0.5 |
 | Glare (white radial) | `overlay` | 0.3 at the centre |
-| Rainbow spectrum (holo stock only) | `screen`, multiplied into a plate | 0.94 (coven-cave's 0.42 + 0.52) |
+| Rainbow spectrum (holo stock only) | `screen` on dark, `multiply` on light stock, both through the flake plate | Screen 0.12 + 0.6 × glow, multiply 0.06 + 0.8 × glow. coven-cave's 0.42 + 0.52 was tuned for dark cards and turned cream stock into polka dots |
 
 - **Never use `color-dodge`** or full-coverage rainbow on the brand mark. Dodge blows out the orange.
 - **Tilt is at most ±11°.**
+- **Holo never animates on its own** (no looping keyframes) and is never a second layer on the frame or mat. It lives on the stub's face and moves only with the light.
+- **No visible pattern at rest.** Holo stock at rest should look like the matte stub from arm's length. If you can see dots or a grid, the plate is too coarse.
 
 ### Acceptance check
 
