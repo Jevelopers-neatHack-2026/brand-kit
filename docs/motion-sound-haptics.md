@@ -27,7 +27,7 @@ Sound is **on by default**, with a mute toggle always visible in the top bar. Sy
 | Event | Character |
 |---|---|
 | Ticket dropped | Soft paper slide, short |
-| Printing (loop while researching) | Thermal printer whirr, low and steady; fades out on completion |
+| Printing (while the stub feeds) | Thermal head stepping the paper: soft ticks in short runs, timed with the feed, over a faint paper whisper. No hum or steady drone (it reads as a microwave); very quiet |
 | Print complete | Single crisp paper snap together with the shutter flash |
 | Style shuffle | Card flick |
 | Remix | Short shuffle and riffle |
