@@ -55,7 +55,7 @@ The first board shipped with a foil effect that snapped on when the pointer ente
 
 Before you ship a foil change:
 - At 60 Hz, sheen opacity may change by **at most 0.02 per frame** while entering, moving or leaving. Today's values give 0.018 at 60 Hz.
-- Watch it at real speed on a dark and on a light background. If you notice the foil before you notice the stamp, it's too strong. If you have to hunt for it while moving the pointer, it's too weak.
+- The app is always on cream paper (no dark stage), so foil and holo are tuned for light stock first: multiply tints do the work, and the screen layer only lifts dark art inside the stub. Watch it at real speed on the cream desk and on dark art. If you notice the foil before you notice the stamp, it's too strong. If you have to hunt for it while moving the pointer, it's too weak.
 
 **Calibration history:** sheen 0.32 with `soft-light` and glare 0.18 was too subtle, because `soft-light` barely changes orange. Sheen 0.5 with `overlay` and glare 0.3 is the current setting. When you raise the caps, slow `tauGlowIn` to keep the 0.02 per-frame limit; the per-frame step scales with cap × (1 − e^(−16.7/τ)).
 

@@ -23,10 +23,10 @@ Every design decision below has to serve that sentence. "Keep the night" asks fo
 | Direction | Look | Verdict |
 |---|---|---|
 | A. Paper Desk | Cream stock, warm window light, letterpress serif | The base. It reads as tactile and as a keepsake. |
-| B. Night Stage | Ink and moss, copper-to-cyan foil light leaks | Used for moments: printing, reveal, finishes, tear. It reads as premium. |
+| B. Night Stage | Ink and moss, copper-to-cyan foil light leaks | Dropped for the app. The studio never goes dark; the night tokens stay in the brand kit for the print and marketing material that needs a dark ground. |
 | C. Box Office | Thermal mono, Swiss grid, security wave | Rejected as the master brand, because it feels transactional (it's what a ticketing vendor looks like). It survives as the Classic stub edition. |
 
-**Recommended: A + B, "paper by day, foil by night".** The everyday studio is paper, so it feels like handling a real stub. The moments that sell the product switch to the dark stage, because foil only glows against dark.
+**Decided: A only, "always on paper".** The whole studio is cream paper, so it always feels like handling a real stub. There is no dark stage: printing, the finish picker, the tear and a lifted stub all happen on the paper desk. The moments are sold by physical depth (a printer sitting on the desk, a stub raised under a warm pool of light with a deep soft shadow) and by motion and sound, not by switching the room dark. Foil is tuned to read on cream (multiply on light stock).
 
 ## Two tiers
 
@@ -39,10 +39,10 @@ Every design decision below has to serve that sentence. "Keep the night" asks fo
 |---|---|---|---|
 | Ticket Orange | `#E4572E` | Primary. CTAs, the stamp, the one orange accent in generated art | Ink label on orange 5.0:1. On cream: large text only (3.1:1) |
 | Copper | `#B4693E` | Secondary. Foil gradient start, premium tiers (print, frame) | Large text only on cream (3.6:1) |
-| Stage Moss | `#26302A` | Secondary dark. Raised surfaces at night (sheets, panels, printing screen) | Cream on moss 11.6:1 |
+| Stage Moss | `#26302A` | Secondary dark. Brand and print material only; the app has no night surfaces | Cream on moss 11.6:1 |
 | Holo Cyan | `#7CC6D2` | Accent. Foil gradient end, focus and selection on dark | 9.5:1 on ink. Never text on cream |
 | Stub Cream | `#F4ECDD` | Neutral light. Paper, day background | |
-| Night Ink | `#17140F` | Neutral dark. Body text, night background | 15.6:1 on cream |
+| Night Ink | `#17140F` | Neutral dark. Body text on paper, the printer body object | 15.6:1 on cream |
 
 - **Muted text** is ink or cream at 66% opacity: 5.6:1 on cream, 7.3:1 on ink. It is not a seventh colour.
 - **Foil** is `linear-gradient(135deg, copper 0%, orange 45%, cyan 100%)`.

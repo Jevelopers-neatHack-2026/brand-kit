@@ -17,6 +17,7 @@ Every interaction should feel like handling paper. Tokens are in `tokens/tokens.
 - **Spring for drag-spin and swipe:** stiffness 0.055, damping 0.9, stepped at a fixed 60 Hz, maximum velocity 34. A fixed step means the stub settles in the same time on a 60 Hz phone and a 120 Hz laptop.
 - **Tilt:** at most ±11° with 1400 px perspective.
 - **Foil and tilt never step.** Pointer and gyro inputs are eased every frame (tilt τ 110 ms, glow in 400 ms and out 600 ms) instead of being set directly. See "Rules: foil must never pop" in `material-foil.md`.
+- **The app stays on paper.** There is no dark stage and no lights-down transition. Printing, the finish picker, the tear and a lifted stub all happen on the same cream desk; depth comes from contact shadows and a warm pool of light, and the motion and sound carry the moment.
 - **Signature move: the tear.** Drag along the perforation. The stub follows with slight resistance; past 60% it rips free, flies to the wall, rotates to a random angle between -4° and 4°, and pins.
 - **Reduced motion:** no tilt, spin or glitch. Foil holds a still sheen (`glow` 0.45), and transitions become instant cross-fades.
 
