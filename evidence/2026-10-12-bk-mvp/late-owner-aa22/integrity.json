@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "scope": "Late owner aa22 source evidence; no merge or domain approval",
+  "previous_evidence_commit": "1273c0f4f129a68769eaa57cb9cf7ed60fd4f0bd",
+  "files": [
+    {
+      "path": "root/report.json",
+      "source": "/dev/shm/brand-kit-aa22-validation-5ecc3c6cf97a/report.json",
+      "bytes": 3893,
+      "sha256": "b230a92935d65b26d6736a927746f04fc5b2d6fbc1c934d717bc6616de8a22aa",
+      "original_sha256": "b230a92935d65b26d6736a927746f04fc5b2d6fbc1c934d717bc6616de8a22aa",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "root/00.stdout.txt",
+      "source": "/dev/shm/brand-kit-aa22-validation-5ecc3c6cf97a/00.stdout.txt",
+      "bytes": 21380,
+      "sha256": "bc728bb28b010167bebcab39a5ee3d0116ea0d0dde8b32e9d5bef96b8f0f4764",
+      "original_sha256": "bc728bb28b010167bebcab39a5ee3d0116ea0d0dde8b32e9d5bef96b8f0f4764",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "root/00.stderr.txt",
+      "source": "/dev/shm/brand-kit-aa22-validation-5ecc3c6cf97a/00.stderr.txt",
+      "bytes": 35178,
+      "sha256": "5018e4247977ea603dfd127ac9bf10f74204c3874fc88f3a2e4279c0eca0a57f",
+      "original_sha256": "5018e4247977ea603dfd127ac9bf10f74204c3874fc88f3a2e4279c0eca0a57f",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "root/01.stdout.txt",
+      "source": "/dev/shm/brand-kit-aa22-validation-5ecc3c6cf97a/01.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "root/01.stderr.txt",
+      "source": "/dev/shm/brand-kit-aa22-validation-5ecc3c6cf97a/01.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "root/02.stdout.txt",
+      "source": "/dev/shm/brand-kit-aa22-validation-5ecc3c6cf97a/02.stdout.txt",
+      "bytes": 31,
+      "sha256": "e845351fccaa5a3139d0bc08dab1519a74d92bba2711b198faa993341b1c489e",
+      "original_sha256": "e845351fccaa5a3139d0bc08dab1519a74d92bba2711b198faa993341b1c489e",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "root/02.stderr.txt",
+      "source": "/dev/shm/brand-kit-aa22-validation-5ecc3c6cf97a/02.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "root/03.stdout.txt",
+      "source": "/dev/shm/brand-kit-aa22-validation-5ecc3c6cf97a/03.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "root/03.stderr.txt",
+      "source": "/dev/shm/brand-kit-aa22-validation-5ecc3c6cf97a/03.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "review/review.json",
+      "source": "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a/review.json",
+      "bytes": 9389,
+      "sha256": "deed39e78178059a8a5a59c85b01ef6d2270a47cc3ed628622de8ebad7998544",
+      "original_sha256": "deed39e78178059a8a5a59c85b01ef6d2270a47cc3ed628622de8ebad7998544",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "review/attributable-summary.txt",
+      "source": "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a/attributable-summary.txt",
+      "bytes": 2862,
+      "sha256": "2f3706a47e03d80bebac023ea3db32b07fb4ce56df7362e27a55f7d455ece84d",
+      "original_sha256": "2f3706a47e03d80bebac023ea3db32b07fb4ce56df7362e27a55f7d455ece84d",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "review/source-proof.json",
+      "source": "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a/source-proof.json",
+      "bytes": 1387,
+      "sha256": "2f35b836f0ad67c8f2d90e7ad683dad7cefb71362331d5aa0a86c3f1378fee33",
+      "original_sha256": "2f35b836f0ad67c8f2d90e7ad683dad7cefb71362331d5aa0a86c3f1378fee33",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "review/commands.json",
+      "source": "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a/commands.json",
+      "bytes": 2667,
+      "sha256": "9a287cf27c5f229f261cefcfc72b96cd850576091ccad26aeb5e00b4a682cca0",
+      "original_sha256": "9a287cf27c5f229f261cefcfc72b96cd850576091ccad26aeb5e00b4a682cca0",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "review/ownership.diff",
+      "source": "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a/ownership.diff",
+      "bytes": 1469,
+      "sha256": "22af0359f5dd40a9ec24d08269108a99218a1dc35c27534181296039a38115c9",
+      "original_sha256": "22af0359f5dd40a9ec24d08269108a99218a1dc35c27534181296039a38115c9",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "review/diff-check.stdout",
+      "source": "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a/diff-check.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "review/diff-check.stderr",
+      "source": "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a/diff-check.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "final-owner-scope-refresh.json",
+      "source": "/dev/shm/brand-kit-final-refresh-5ecc3c6cf97a/final-delta-20261012T183903Z.json",
+      "bytes": 7339,
+      "sha256": "d86c2299c24dd735440196e12113cbf2996fc9967393e07797fc76a0a8d16385",
+      "original_sha256": "d86c2299c24dd735440196e12113cbf2996fc9967393e07797fc76a0a8d16385",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior-e4-publication-verification.json",
+      "source": "/dev/shm/ticketstub-brand-e4-5ecc3c6cf97a/published-verification.json",
+      "bytes": 729,
+      "sha256": "7e9c4603ee941134314d4d38f857014c796ecee4f02843d69e30ddcf95f042b0",
+      "original_sha256": "7e9c4603ee941134314d4d38f857014c796ecee4f02843d69e30ddcf95f042b0",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "README.md",
+      "origin": "root-authored scoped late-owner source/evidence interpretation",
+      "bytes": 7168,
+      "sha256": "7984662af50ca81d79331ab843c8b48c93d38e25ce7058896976701c816578d7"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "scope": "E5 publication review addendum; no domain or model-qualification acceptance",
+  "files": [
+    {
+      "path": "review.json",
+      "source": "/dev/shm/brand-kit-e5-publication-review-5ecc3c6cf97a/review.json",
+      "sha256": "586e3109989d201502115126a1674fcd23ced63f5fa2ab7c568f011d6f18e40b",
+      "bytes": 10365,
+      "byte_identical_copy": true
+    },
+    {
+      "path": "attributable-summary.txt",
+      "source": "/dev/shm/brand-kit-e5-publication-review-5ecc3c6cf97a/attributable-summary.txt",
+      "sha256": "704bfc9e0cd69dd597b599df0d871fd37bbebad979e8a1f05eb34b5af10cc079",
+      "bytes": 2583,
+      "byte_identical_copy": true
+    },
+    {
+      "path": "README.md",
+      "origin": "root-authored publication scope",
+      "sha256": "82bf964c2a8d3b56b62c074f933d53e9c598167a310a57b12518fe5bd617fe95",
+      "bytes": 1498
+    }
+  ]
+}

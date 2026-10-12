@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "kind": "read_only_exact_head_technical_source_delta_review",
+  "reviewer": "/root/pr3_reconcile",
+  "observed_at_utc": "2026-10-12 18:43:23 UTC",
+  "verdict": "TECHNICAL_SOURCE_DELTA_ACCEPTABLE; MERGE_HOLD_UPSTREAM_AND_OWNER_REVIEW_QUALIFICATION",
+  "candidate": {
+    "sha": "aa22b3833a7510e1ece215926faab6c6394e5258",
+    "tree": "7fcbfa65fd3423fec10b77d90f7655d2b228e84a",
+    "parents": [
+      "6416a5018066f229a9f3dfa2d82c96bc080e5e50",
+      "e254df5444f0bfedd5526b0e148b0cdf36cbd31f"
+    ],
+    "github_mergeable": true,
+    "github_mergeable_state": "clean"
+  },
+  "ancestry": {
+    "prior_reviewed": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "new_source_commit": "6416a5018066f229a9f3dfa2d82c96bc080e5e50",
+    "new_source_parent": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "normal_integration_second_parent": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "prior_is_ancestor": true,
+    "main_is_ancestor": true,
+    "tree_equal_to_first_parent": true,
+    "tree_equal_to_prior_reviewed": false
+  },
+  "source_scope": {
+    "changed_from_prior": [
+      {
+        "path": "docs/architecture/OWNERSHIP.md",
+        "additions": 1,
+        "deletions": 1,
+        "line": 3,
+        "purpose": "Refresh latest observed source to actual M4 after PR28, retaining initial M2 review history."
+      }
+    ],
+    "other_files_byte_identical": 116,
+    "tracked_files": 117,
+    "tree_responses_complete": true,
+    "changed_vs_main": [
+      "docs/architecture/ACCEPTANCE.md",
+      "docs/architecture/OWNERSHIP.md",
+      "docs/source-of-truth.md"
+    ],
+    "new_code_or_assets": false,
+    "new_approval_or_authority": false,
+    "source_findings": [],
+    "additional_repository_correction_needed": false
+  },
+  "source_integrity": {
+    "git_blob": "7fa7e8f864d9b9f1049e6b932e4721d7dc2ba503",
+    "candidate_sha256": "fa2e5912867d183667ead22d3f877f46e264cd29f90faf509bf97aeb5324d993",
+    "prior_sha256": "b10a615b845768ad71e00a011ee91a174e5b289fdf764eb3adfd24f035572d8a",
+    "all_other_OWNERSHIP_bytes_identical": true,
+    "check_mode": "Exact fetched candidate bytes; independently verified Git blob hash; isolated temporary index/worktree versus exact previously reviewed blob.",
+    "git_diff_check_exit": 0,
+    "preliminary_no_index_result": {
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "",
+      "disposition": "Retained exactly; not counted as a passing check."
+    }
+  },
+  "states": {
+    "pr25": {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25",
+      "state": "open",
+      "draft": false,
+      "updated_at": "2026-10-12T18:36:26Z",
+      "head": "aa22b3833a7510e1ece215926faab6c6394e5258",
+      "body_explicitly_states_scoped_adoption": true,
+      "body_uses_full_template": true
+    },
+    "pr27": {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/27",
+      "state": "closed",
+      "closed_at": "2026-10-12T18:25:04Z",
+      "merged": false,
+      "head": "ba65bb20e9f4e820666cbb3a40154c74676d133d"
+    },
+    "main": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f"
+  },
+  "holds": [
+    {
+      "kind": "UPSTREAM_PREREQUISITE",
+      "repository": "Jevelopers-neatHack-2026/getticketstub.com",
+      "pr": 117,
+      "state": "open",
+      "head": "60d3b6aa074caddca4d362ba8b13b56fe4436177",
+      "merged": false,
+      "checks": [
+        {
+          "name": "build-and-smoke",
+          "status": "completed",
+          "conclusion": "failure",
+          "completed_at": "2026-10-12T17:59:47Z",
+          "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/actions/runs/38287279004/job/114938560052"
+        }
+      ],
+      "needed_action": "Product owner resolves actual failure, obtains applicable review/checks and merges117; brand owner verifies resulting default-branch target and refreshes current candidate before merging."
+    },
+    {
+      "kind": "OWNER_STATED_REVIEWER_QUALIFICATION",
+      "source": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25",
+      "source_updated_at": "2026-10-12T18:36:26Z",
+      "owner_record": "Requested Astra High dispatch rejected because that owner's runtime accepts only xhigh; authorized Opus5.5 runner reported unavailable.",
+      "independently_verified_runner_constraint": false,
+      "underlying_qualification_assignment_verified": false,
+      "satisfied_by_this_review": false,
+      "waived_by_this_review": false,
+      "needed_action": "Owning supervisor supplies the actual required qualified exact-head review or an accountable determination of the authorized review route. No capability, appointment or waiver is invented."
+    }
+  ],
+  "review_status": {
+    "technical_delta_accepted": true,
+    "policy_qualified_runner_approval_claimed": false,
+    "formal_github_reviews": [],
+    "current_check_runs": 0,
+    "current_status_contexts": 0,
+    "full_functional_suite_by_this_reviewer": "NOT_RUN \u2014 no new implementation risk; supervisor runs separate exact-head validation.",
+    "authorship_exclusion": "Earlier authored baseline docs/tooling are not independently reapproved. This review covers the other owner's one-line source update and preservation of reviewed source bytes."
+  },
+  "prior_evidence": {
+    "ba65_review_sha256": "458636bcc8ca9c5b40c66a124d3aca2d5ac181463a52d83dfddb1d05cc5d959a",
+    "ba65_review_receipt": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25#issuecomment-6130119982",
+    "E4_commit": "1273c0f4f129a68769eaa57cb9cf7ed60fd4f0bd",
+    "preservation": "Prior statuses, checks, reviews and failures remain pinned to their original revisions and dates."
+  },
+  "source_mutations": false,
+  "remote_mutations": false,
+  "attributable_summary": "Technical source review by /root/pr3_reconcile at 18:43:23 UTC: no source correction is needed at PR #25 head aa22b3833a7510e1ece215926faab6c6394e5258, tree 7fcbfa65fd3423fec10b77d90f7655d2b228e84a. This is a new review of its narrow source delta, not a relabeling of the prior ba65bb20 review.\n\nThe normal first-parent chain is ba65bb20e9f4e820666cbb3a40154c74676d133d \u2192 6416a5018066f229a9f3dfa2d82c96bc080e5e50 \u2192 aa22b3833a7510e1ece215926faab6c6394e5258. The merge's second parent is actual main e254df5444f0bfedd5526b0e148b0cdf36cbd31f. The merge itself is tree-identical to 6416. Compared with reviewed ba65, exactly one line in docs/architecture/OWNERSHIP.md changes: it identifies M4 as the latest observed main after PR #28 and preserves M2 as the initial review source. That statement matches the actual main and merge history. The other 116 files are byte-identical; no implementation, asset, approval, provenance or contract changes occurred. Against current main, the candidate still changes only the same three documentation files.\n\nThe actual OWNERSHIP bytes were retrieved at aa22 and independently hashed: Git blob 7fa7e8f864d9b9f1049e6b932e4721d7dc2ba503, SHA-256 fa2e5912867d183667ead22d3f877f46e264cd29f90faf509bf97aeb5324d993. A byte comparison confirms only that one paragraph line changed. A conventional git diff --check against an isolated temporary index containing the exact prior blob passed. An initial no-index --check invocation returned 1 with no diagnostics; that result is preserved and is not labeled a pass. No full functional suite was rerun by this reviewer; the supervisor is running its separate exact-head checks.\n\nCurrent state changes are explicit: PR #25's updated body now states adoption of the scoped corrections from #27 and uses the full template. PR #27 is closed without merge, at 18:25:04 UTC, with its ba65 head/history preserved. Actual main remains M4. The previous E4 and ba65 snapshots remain dated historical evidence.\n\nTwo independent merge holds remain. Product PR #117 is still OPEN at 60d3b6aa074caddca4d362ba8b13b56fe4436177; its current build-and-smoke check failed at 17:59:47 UTC. The owner additionally records an exact-head reviewer-qualification condition, reporting a rejected Astra High dispatch and an unavailable authorized Opus 5.5 runner. I have not verified that runner condition or its originating assignment. This ordinary technical source review does not satisfy or waive that unverified qualification. The current brand policy is not silently rewritten by this observation. No formal GitHub review or current-head check success is inferred from empty collections.\n\nVerdict: technical source delta is acceptable, with no actionable repository correction identified; retain Product #117 and the owner-stated reviewer-qualification holds. No source or remote mutation was performed.",
+  "evidence_sha256": {
+    "candidate-OWNERSHIP.md": "fa2e5912867d183667ead22d3f877f46e264cd29f90faf509bf97aeb5324d993",
+    "commands.json": "9a287cf27c5f229f261cefcfc72b96cd850576091ccad26aeb5e00b4a682cca0",
+    "diff-check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "diff-check.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ownership.diff": "22af0359f5dd40a9ec24d08269108a99218a1dc35c27534181296039a38115c9",
+    "prior-OWNERSHIP.md": "b10a615b845768ad71e00a011ee91a174e5b289fdf764eb3adfd24f035572d8a",
+    "remote-evidence.json": "673d53f1aa8fba3f4fd00d389e945400e390fdd507047ac88bd8dfbbc6a72fa4",
+    "source-proof.json": "2f35b836f0ad67c8f2d90e7ad683dad7cefb71362331d5aa0a86c3f1378fee33"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "actual_candidate": "aa22b3833a7510e1ece215926faab6c6394e5258",
+  "tree": "7fcbfa65fd3423fec10b77d90f7655d2b228e84a",
+  "new_blob_verified_from_exact_API_bytes": "7fa7e8f864d9b9f1049e6b932e4721d7dc2ba503",
+  "candidate_source_sha256": "fa2e5912867d183667ead22d3f877f46e264cd29f90faf509bf97aeb5324d993",
+  "prior_source_sha256": "b10a615b845768ad71e00a011ee91a174e5b289fdf764eb3adfd24f035572d8a",
+  "only_one_line_replaced": true,
+  "changed_line_number": 3,
+  "new_line": "**Repository role:** First-party identity sources, working assets, token tooling and usage guidance. **Accountable role:** Product and frontend. **Latest observed source:** current main at `e254df5444f0bfedd5526b0e148b0cdf36cbd31f` after PR #28\u2019s one-paragraph source-index correction; initial documentation review used main `a664cc99884b2679f2c6ea15c6c3e8b98b768755` on 2026-10-12.",
+  "tree_comparison": {
+    "changed": [
+      {
+        "path": "docs/architecture/OWNERSHIP.md",
+        "prior_sha": "9ed7f80660f74f9099790f32fa170573445166f2",
+        "new_sha": "7fa7e8f864d9b9f1049e6b932e4721d7dc2ba503"
+      }
+    ],
+    "unchanged_count": 116,
+    "current_blobs": 117,
+    "prior_blobs": 117,
+    "current_truncated": false,
+    "prior_truncated": false
+  },
+  "line_qualification": "Latest observed M4 pin and prior M2 review date; no ownership, rights, artifact or release approval change."
+}

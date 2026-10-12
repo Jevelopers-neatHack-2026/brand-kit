@@ -1,0 +1,14 @@
+{
+  "sha": "1273c0f4f129a68769eaa57cb9cf7ed60fd4f0bd",
+  "tree": "b4bc9d179f13870b3828e35b03ccbce5c8d9a01d",
+  "parent": "a6e94be639cc516d0c94b0473edf61437ec4a07a",
+  "verified_files": 185,
+  "source_packet_files": 177,
+  "publication_addendum_files": 8,
+  "ref_matches": true,
+  "all_blob_hashes_match": true,
+  "main_unchanged": true,
+  "verified_at": "2026-10-12 18:37:04 UTC",
+  "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/1273c0f4f129a68769eaa57cb9cf7ed60fd4f0bd/evidence/2026-10-12-bk-mvp/docs-followup/README.md",
+  "review_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/1273c0f4f129a68769eaa57cb9cf7ed60fd4f0bd/evidence/2026-10-12-bk-mvp/docs-followup-publication/review.json"
+}

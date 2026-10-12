@@ -1,0 +1,82 @@
+[
+  {
+    "argv": [
+      "git",
+      "show",
+      "ba65bb20e9f4e820666cbb3a40154c74676d133d:docs/architecture/OWNERSHIP.md"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit",
+    "exit_code": 0,
+    "result": "read exact previously reviewed blob",
+    "stdout_sha256": "b10a615b845768ad71e00a011ee91a174e5b289fdf764eb3adfd24f035572d8a",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "git",
+      "diff",
+      "--no-index",
+      "--check",
+      "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a/prior-OWNERSHIP.md",
+      "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a/candidate-OWNERSHIP.md"
+    ],
+    "cwd": "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a",
+    "started_at": "2026-10-12T18:41:46.215455+00:00",
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "git",
+      "--git-dir=/workspace/scratch/5ecc3c6cf97a/brand-kit/.git",
+      "--work-tree=/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a/isolated-worktree",
+      "read-tree",
+      "--empty"
+    ],
+    "cwd": "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a",
+    "GIT_INDEX_FILE": "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a/review.index",
+    "GIT_WORK_TREE": "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a/isolated-worktree",
+    "GIT_OPTIONAL_LOCKS": "0",
+    "started_at": "2026-10-12T18:42:45.859407+00:00",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "git",
+      "--git-dir=/workspace/scratch/5ecc3c6cf97a/brand-kit/.git",
+      "--work-tree=/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a/isolated-worktree",
+      "update-index",
+      "--add",
+      "--cacheinfo",
+      "100644,9ed7f80660f74f9099790f32fa170573445166f2,docs/architecture/OWNERSHIP.md"
+    ],
+    "cwd": "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a",
+    "GIT_INDEX_FILE": "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a/review.index",
+    "GIT_WORK_TREE": "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a/isolated-worktree",
+    "GIT_OPTIONAL_LOCKS": "0",
+    "started_at": "2026-10-12T18:42:45.861048+00:00",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "git",
+      "--git-dir=/workspace/scratch/5ecc3c6cf97a/brand-kit/.git",
+      "--work-tree=/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a/isolated-worktree",
+      "diff",
+      "--check"
+    ],
+    "cwd": "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a",
+    "GIT_INDEX_FILE": "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a/review.index",
+    "GIT_WORK_TREE": "/dev/shm/brand-kit-aa22-review-5ecc3c6cf97a/isolated-worktree",
+    "GIT_OPTIONAL_LOCKS": "0",
+    "started_at": "2026-10-12T18:42:45.863383+00:00",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

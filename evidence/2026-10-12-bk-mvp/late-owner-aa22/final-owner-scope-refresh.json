@@ -1,0 +1,192 @@
+{
+  "schema": "ticketstub-final-post-e4-delta@1",
+  "observed_at": "2026-10-12T18:39:03.760Z",
+  "reviewer": "Astra agent /root/asset_pipeline",
+  "mode": "Read-only GitHub refresh; no source edits, remote mutations or test execution.",
+  "compared_to": "2026-10-12T18:20:01.707Z",
+  "published_prior_evidence": "1273c0f4f129a68769eaa57cb9cf7ed60fd4f0bd",
+  "verdict": "No new domain approval or acceptance input. New PR25 source head requires fresh scoped review/affected verification; it is not qualified for merge because Product117 remains open with a failed current-head check.",
+  "main": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+  "issues": [
+    {
+      "number": 4,
+      "state": "open",
+      "body_sha256": "a6cd93cc504598ee2a10770e39e0f3bd4aa56d85875ea83dfcf3780b000e8566",
+      "body_unchanged": true,
+      "latest_comment_id": 6129954526,
+      "latest_comment_at": "2026-10-12T18:13:07Z",
+      "new_comments": []
+    },
+    {
+      "number": 5,
+      "state": "open",
+      "body_sha256": "a64fbfd9ee2634f68ad0b3ca4d97331b66999d70311a782953ad6b444c27234a",
+      "body_unchanged": true,
+      "latest_comment_id": 6129876484,
+      "latest_comment_at": "2026-10-12T18:07:55Z",
+      "new_comments": []
+    },
+    {
+      "number": 6,
+      "state": "closed",
+      "body_sha256": "5a665e3392ce95ab4a369a751c61844e3e173df99ddaa8e3614ac68389ee444f",
+      "body_unchanged": true,
+      "latest_comment_id": 6129290656,
+      "latest_comment_at": "2026-10-12T17:30:25Z",
+      "new_comments": []
+    },
+    {
+      "number": 7,
+      "state": "open",
+      "body_sha256": "b6a55e3078ad754901825061e76cfceb5eda43899057c24ae7c61c517926ec9e",
+      "body_unchanged": true,
+      "latest_comment_id": 6129464568,
+      "latest_comment_at": "2026-10-12T17:41:30Z",
+      "new_comments": []
+    },
+    {
+      "number": 9,
+      "state": "open",
+      "body_sha256": "8658ad44f32b1a76a218cdee2610d1607718c9af598332dffc7b8b9da4426015",
+      "body_unchanged": true,
+      "latest_comment_id": 6129464881,
+      "latest_comment_at": "2026-10-12T17:41:32Z",
+      "new_comments": []
+    },
+    {
+      "number": 11,
+      "state": "open",
+      "body_sha256": "188946a8b268dbeeb33b44243112e0835a40ed6ad1c9af92ad2ed160714a6c9b",
+      "body_unchanged": true,
+      "latest_comment_id": 6129465100,
+      "latest_comment_at": "2026-10-12T17:41:32Z",
+      "new_comments": []
+    },
+    {
+      "number": 12,
+      "state": "open",
+      "body_sha256": "71e461516893df2a2321a584d8c699ca70e2435cb56f6f25c69ba69eeee2ee41",
+      "body_unchanged": true,
+      "latest_comment_id": 6129465319,
+      "latest_comment_at": "2026-10-12T17:41:33Z",
+      "new_comments": []
+    },
+    {
+      "number": 13,
+      "state": "open",
+      "body_sha256": "8dc5f8d6b5b8b0e4631ab2aa196c9129b6049febec1acb8691182fc343345358",
+      "body_unchanged": true,
+      "latest_comment_id": 6129465542,
+      "latest_comment_at": "2026-10-12T17:41:34Z",
+      "new_comments": []
+    },
+    {
+      "number": 14,
+      "state": "open",
+      "body_sha256": "e8b6d6d42db6d061f5222b7be8d8199691dd523cf7cc8fba81c5650b7d68674c",
+      "body_unchanged": true,
+      "latest_comment_id": 6129876896,
+      "latest_comment_at": "2026-10-12T18:07:56Z",
+      "new_comments": []
+    },
+    {
+      "number": 15,
+      "state": "open",
+      "body_sha256": "167f400b8eff9a2bf0b3adae2bb9916705f16a36452276c9962d8411391d3691",
+      "body_unchanged": true,
+      "latest_comment_id": 6129877202,
+      "latest_comment_at": "2026-10-12T18:07:58Z",
+      "new_comments": []
+    }
+  ],
+  "pr3": {
+    "state": "open",
+    "head": "289b22659f0699649abd65ba7a3b7e710839f4d3",
+    "mergeable": false,
+    "mergeable_state": "dirty",
+    "last_hold_comment": 6129482528,
+    "last_hold_at": "2026-10-12T17:42:44Z",
+    "new_comments": [],
+    "disposition": "Partial-supersession HOLD unchanged; no identity/foil/sound decision."
+  },
+  "pr25": {
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25",
+    "state": "open",
+    "draft": false,
+    "head": "aa22b3833a7510e1ece215926faab6c6394e5258",
+    "base": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "updated_at": "2026-10-12T18:36:26Z",
+    "mergeable": true,
+    "mergeable_state": "clean",
+    "body_sha256": "cd9702507586f3b7c2eb0fa163d03924a7a5f0b0ea930a0c796d623c85f8ea70",
+    "new_delta_from_reviewed_ba65": "Only OWNERSHIP.md observed-source paragraph changes to the exact M4 pin while preserving the dated M2 observation; compare API reports ba65 is an ancestor. The complete current diff against M4 remains three documentation files.",
+    "complete_current_files": [
+      {
+        "path": "docs/architecture/ACCEPTANCE.md",
+        "git_blob": "31fc1870af89cbfd6333f177700d1f0a75513919"
+      },
+      {
+        "path": "docs/architecture/OWNERSHIP.md",
+        "git_blob": "7fa7e8f864d9b9f1049e6b932e4721d7dc2ba503"
+      },
+      {
+        "path": "docs/source-of-truth.md",
+        "git_blob": "f648fca3a58154fad3b58b8dfc0e3c0a5f5994e5"
+      }
+    ],
+    "current_check_runs": 0,
+    "legacy_status": "pending",
+    "legacy_status_count": 0,
+    "reviews": 0,
+    "owner_recorded_remaining_steps": "Exact-aa22 independent review/affected checks are pending; Product117 must merge, then its actual default-branch document/anchors must be verified. ba65's 289-test result remains historical.",
+    "qualified_for_merge": false
+  },
+  "pr27": {
+    "state": "closed",
+    "merged": false,
+    "closed_at": "2026-10-12T18:25:04Z",
+    "head": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "disposition_comment": 6130139950,
+    "disposition": "Closed as an exact duplicate carried into original PR25; branch/evidence preserved. This is not a gate or domain acceptance."
+  },
+  "product117": {
+    "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/117",
+    "state": "open",
+    "merged": false,
+    "head": "60d3b6aa074caddca4d362ba8b13b56fe4436177",
+    "main": "01c65ae2290447c523823bf4601d6373ce4c6ca2",
+    "updated_at": "2026-10-12T18:27:36Z",
+    "mergeable": true,
+    "mergeable_state": "unstable",
+    "checks": [
+      {
+        "id": 114938560052,
+        "head": "60d3b6aa074caddca4d362ba8b13b56fe4436177",
+        "name": "build-and-smoke",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2026-10-12T17:54:59Z",
+        "completed_at": "2026-10-12T17:59:47Z",
+        "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/actions/runs/38287279004/job/114938560052"
+      }
+    ],
+    "legacy_status": {
+      "state": "pending",
+      "count": 0
+    },
+    "next_action": "Product owner fixes failed build-and-smoke, reruns required failed/skipped checks, obtains applicable review and merges; brand owner then verifies actual main target. No foreign merge authorized here."
+  },
+  "no_new_inputs": [
+    "identity ratification",
+    "asset/font rights or allowlist approval",
+    "external-font/version/rollback decision",
+    "Product/Landing/Marketing artifact ACK",
+    "scope waiver"
+  ],
+  "limitations": [
+    "Empty check/review/status collections are not success.",
+    "New PR25 observed-source pin is documentation only and grants no domain approval.",
+    "Current source checks and any final evidence handoff comments are root's separate work."
+  ],
+  "mutations": false
+}
