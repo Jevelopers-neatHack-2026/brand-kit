@@ -1,0 +1,2 @@
+/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python -I tools/check_governance.py
+governance docs OK

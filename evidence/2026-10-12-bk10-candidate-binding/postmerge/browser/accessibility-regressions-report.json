@@ -1,0 +1,90 @@
+{
+  "schema": "ticketstub-browser-negative-regressions@1",
+  "mode": "synthetic baseline and deliberately invalid local fixture copies; no owner acceptance",
+  "outcome": "pass",
+  "release_eligible": false,
+  "cases": [
+    {
+      "name": "baseline",
+      "mode": "synthetic",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "outcome": "pass",
+      "browser_report": "fixture/out/brand/accessibility-browser/2026-10-12T18-00-32-367Z/report.json",
+      "browser_report_sha256": "d505816a9de422905fbfac42de471aa5ade6e904c1f6dd28b8b9d0bd5181a9c8",
+      "browser_outcome": "pass-local-fixture",
+      "reason": null,
+      "source_unchanged": true,
+      "changed_inputs": []
+    },
+    {
+      "name": "invisible-focus",
+      "mode": "synthetic",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "outcome": "pass",
+      "browser_report": "fixture/out/brand/accessibility-browser/2026-10-12T18-00-37-935Z/report.json",
+      "browser_report_sha256": "774d4423a186e8eb573a382fd5a3512af63739e7374286e778299091856f47a1",
+      "browser_outcome": "error",
+      "reason": "os-light: focus indicator is invisible or below 3:1 against its adjacent surface",
+      "source_unchanged": null,
+      "changed_inputs": []
+    },
+    {
+      "name": "ancestor-clipping",
+      "mode": "synthetic",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "outcome": "pass",
+      "browser_report": "fixture/out/brand/accessibility-browser/2026-10-12T18-00-39-311Z/report.json",
+      "browser_report_sha256": "ff06456a12036cd666c1f0a81df4d994ba35bd72a6dc2693c5ba8f8cf1df4b3e",
+      "browser_outcome": "error",
+      "reason": "os-light: clipped essential fixture content at 200% layout zoom",
+      "source_unchanged": null,
+      "changed_inputs": []
+    },
+    {
+      "name": "clipped-focus-ring",
+      "mode": "synthetic",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "outcome": "pass",
+      "browser_report": "fixture/out/brand/accessibility-browser/2026-10-12T18-00-41-192Z/report.json",
+      "browser_report_sha256": "0129ec87ff9dc11ece6147241cd8f0a0b9fd9d97b7835d14f1b836da4f60cd11",
+      "browser_outcome": "error",
+      "reason": "os-light: focus outline is clipped or its clipping effect is unsupported",
+      "source_unchanged": null,
+      "changed_inputs": []
+    },
+    {
+      "name": "source-drift-during-run",
+      "mode": "synthetic",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "outcome": "pass",
+      "browser_report": "fixture/out/brand/accessibility-browser/2026-10-12T18-00-42-774Z/report.json",
+      "browser_report_sha256": "ab6cef6db524176790ff42bc58a97349b4c351ea3ce431d2a64e02ec9780b587",
+      "browser_outcome": "error",
+      "reason": "source inputs changed during browser verification; frozen observations cannot approve the changed candidate",
+      "source_unchanged": false,
+      "changed_inputs": [
+        "tools/accessibility-fixture/fixture.css"
+      ]
+    }
+  ],
+  "source_revision": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+  "runner_sha256": "3cb8e39b83f6fbe58380e534685ae75ae4b9a0a59248d430d3a4ea7a4276becb",
+  "inputs_sha256": {
+    "tokens/tokens.css": "e34223aecf3b5459f046506f5bb97b415b0feeef1d237021d672c5cc59ef3f98",
+    "tokens/tokens.json": "f441264f2e56f8fc8be5129a5a5b3f50403582ee5eb43821c7afb3ed1129b551",
+    "tokens/profile.json": "18ce404d9e9f667bcab5a6cc0a87ca7be9e9866c5b7e69bff0c529e21742fef3",
+    "tokens/mapping.json": "7db9104591711ff10a86f2fa26f2ec64fc995f3fb5eec9b7040be6ae363ffb45",
+    "tools/accessibility-fixture/index.html": "ee827b92eef36ef05ea630afc496d2bd954fbbfaddb6a274a938197f15c3c483",
+    "tools/accessibility-fixture/fixture.css": "fba1a8bcda50b739c3c6df2046d5c98fbd62a948be97d502bc6191960e965d4b",
+    "tools/accessibility-fixture/fixture.js": "1a4605cc0177079be3d1ccadfa259f400727a2a1cfb2e5d741b973977c86234c",
+    "tools/check_accessibility_browser.cjs": "9ba79204f4c604ab58df4aed8c20b6736cab895fbf154948658ddf4b59d1847e",
+    "tools/browser-dev/package.json": "a6bd1b89da41442895e2da086554cf735943d96dedf1a71fb79cd70cd1595e50",
+    "tools/browser-dev/package-lock.json": "1cc174b0a3d51c115cecba0fde9b6eb56794c4443d442dd180dd53eeaae6ca15"
+  },
+  "finished_at": "2026-10-12T18:00:48.582Z"
+}

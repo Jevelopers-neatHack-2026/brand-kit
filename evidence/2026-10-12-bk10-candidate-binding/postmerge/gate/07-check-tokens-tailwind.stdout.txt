@@ -1,0 +1,11 @@
+/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python -I tools/build_tokens.py check
+check-tokens: OK (82 tokens; 2 builds identical; outputs match committed files; CSS/JSON parity in 5 contexts)
+/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python -m unittest tools/tests/test_tokens.py
+cd tools/tokens-dev && npm ci --ignore-scripts --no-audit --no-fund
+
+added 72 packages in 699ms
+/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python -I tools/check_tokens_tailwind.py
+INFO tailwindcss 3.4.19 (pin 3.4.19), node v24.19.0
+INFO 40 Tailwind-mapped tokens produced the expected utility declarations
+INFO additions over the pre-BK-03A preset: borderRadius.pill, transitionDuration.shutter, transitionDuration.print-sweep
+check-tokens-tailwind: OK (real Tailwind build; no browser rendering was performed)

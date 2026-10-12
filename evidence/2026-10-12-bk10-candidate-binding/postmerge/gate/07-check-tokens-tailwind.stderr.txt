@@ -1,0 +1,6 @@
+..................................................................
+----------------------------------------------------------------------
+Ran 66 tests in 1.864s
+
+OK
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.

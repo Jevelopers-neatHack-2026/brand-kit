@@ -1,0 +1,29 @@
+{
+  "evidence_commit": "9bb2e7c79ee1c1a34bbde813f0b93f3e9ae447f3",
+  "published_files": 126,
+  "candidate_tree_unchanged": true,
+  "all_published_bytes_match_local": true,
+  "manifest_original_and_published_hashes_verified": 123,
+  "sha256sum_entries_verified": 125,
+  "redactions_confined_to_recorded_lines": [
+    {
+      "path": "prior/baseline/make-check.log",
+      "lines": 11
+    },
+    {
+      "path": "review/local/02-stdout.log",
+      "lines": 11
+    }
+  ],
+  "actual_gate": {
+    "source": "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465",
+    "counts": {
+      "pass": 14,
+      "fail": 3
+    },
+    "blockers": 30,
+    "release_approved": false
+  },
+  "independent_review_original_preserved": "34efab85a352fda34beec28ad73d22110e03b55262fc13524e989d990351e27a",
+  "validation_note": "An initial reviewer-only path restriction to validation/ rejected legitimate browser logs under the candidate worktree out/ directory. Rerun bounded original-source reads to this task workspace; no artifact/content mismatch was found."
+}

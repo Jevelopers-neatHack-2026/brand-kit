@@ -1,0 +1,944 @@
+{
+  "schema": "ticketstub-local-consumer-browser@1",
+  "mode": "synthetic local review archive",
+  "outcome": "pass",
+  "started_at": "2026-10-12T18:02:12.775Z",
+  "cases": [
+    {
+      "id": "plain-os-light-1080-no-preference",
+      "fixture": "plain",
+      "theme": "os-light",
+      "selected": "auto",
+      "colorScheme": "light",
+      "viewport_width": 1080,
+      "reduced_motion": "no-preference",
+      "measurements": {
+        "canvas": "rgb(244, 236, 221)",
+        "overflow": false,
+        "reducedMotion": false,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(244, 236, 221)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          },
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": [
+          {
+            "loaded": true,
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(244, 236, 221)",
+            "width": 200,
+            "contrast": 15.645459255762226
+          }
+        ]
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(23, 20, 15)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 15.645459255762226
+        },
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "pass",
+      "failures": [],
+      "screenshot": "plain-os-light-1080-no-preference.png",
+      "screenshot_sha256": "bd6fb84579a82083fafb053cb03ee6639e373cbc0c029814fdcf6de6a810b213"
+    },
+    {
+      "id": "plain-os-light-375-reduce",
+      "fixture": "plain",
+      "theme": "os-light",
+      "selected": "auto",
+      "colorScheme": "light",
+      "viewport_width": 375,
+      "reduced_motion": "reduce",
+      "measurements": {
+        "canvas": "rgb(244, 236, 221)",
+        "overflow": false,
+        "reducedMotion": true,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(244, 236, 221)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          },
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": [
+          {
+            "loaded": true,
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(244, 236, 221)",
+            "width": 200,
+            "contrast": 15.645459255762226
+          }
+        ]
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(23, 20, 15)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 15.645459255762226
+        },
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "pass",
+      "failures": [],
+      "screenshot": "plain-os-light-375-reduce.png",
+      "screenshot_sha256": "c3455695e83ab1f6fca16dd6acefe007635bab5acd913dbc09ebcd337a999ec2"
+    },
+    {
+      "id": "plain-os-dark-1080-no-preference",
+      "fixture": "plain",
+      "theme": "os-dark",
+      "selected": "auto",
+      "colorScheme": "dark",
+      "viewport_width": 1080,
+      "reduced_motion": "no-preference",
+      "measurements": {
+        "canvas": "rgb(23, 20, 15)",
+        "overflow": false,
+        "reducedMotion": false,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          },
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": [
+          {
+            "loaded": true,
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(244, 236, 221)",
+            "width": 200,
+            "contrast": 15.645459255762226
+          }
+        ]
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        },
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "pass",
+      "failures": [],
+      "screenshot": "plain-os-dark-1080-no-preference.png",
+      "screenshot_sha256": "95ae4e14835890cb88ff96adb0ca36d9b1308b7779f8b2a14bbf36719eca8006"
+    },
+    {
+      "id": "plain-os-dark-375-reduce",
+      "fixture": "plain",
+      "theme": "os-dark",
+      "selected": "auto",
+      "colorScheme": "dark",
+      "viewport_width": 375,
+      "reduced_motion": "reduce",
+      "measurements": {
+        "canvas": "rgb(23, 20, 15)",
+        "overflow": false,
+        "reducedMotion": true,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          },
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": [
+          {
+            "loaded": true,
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(244, 236, 221)",
+            "width": 200,
+            "contrast": 15.645459255762226
+          }
+        ]
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        },
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "pass",
+      "failures": [],
+      "screenshot": "plain-os-dark-375-reduce.png",
+      "screenshot_sha256": "3962ba3a67918933819d7b28734b0f3fdc9e2a9bbce22977b8c6a5bd11b91074"
+    },
+    {
+      "id": "plain-explicit-light-1080-no-preference",
+      "fixture": "plain",
+      "theme": "explicit-light",
+      "selected": "light",
+      "colorScheme": "dark",
+      "viewport_width": 1080,
+      "reduced_motion": "no-preference",
+      "measurements": {
+        "canvas": "rgb(244, 236, 221)",
+        "overflow": false,
+        "reducedMotion": false,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(244, 236, 221)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          },
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": [
+          {
+            "loaded": true,
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(244, 236, 221)",
+            "width": 200,
+            "contrast": 15.645459255762226
+          }
+        ]
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(23, 20, 15)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 15.645459255762226
+        },
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "pass",
+      "failures": [],
+      "screenshot": "plain-explicit-light-1080-no-preference.png",
+      "screenshot_sha256": "bd6fb84579a82083fafb053cb03ee6639e373cbc0c029814fdcf6de6a810b213"
+    },
+    {
+      "id": "plain-explicit-light-375-reduce",
+      "fixture": "plain",
+      "theme": "explicit-light",
+      "selected": "light",
+      "colorScheme": "dark",
+      "viewport_width": 375,
+      "reduced_motion": "reduce",
+      "measurements": {
+        "canvas": "rgb(244, 236, 221)",
+        "overflow": false,
+        "reducedMotion": true,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(244, 236, 221)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          },
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": [
+          {
+            "loaded": true,
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(244, 236, 221)",
+            "width": 200,
+            "contrast": 15.645459255762226
+          }
+        ]
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(23, 20, 15)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 15.645459255762226
+        },
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "pass",
+      "failures": [],
+      "screenshot": "plain-explicit-light-375-reduce.png",
+      "screenshot_sha256": "c3455695e83ab1f6fca16dd6acefe007635bab5acd913dbc09ebcd337a999ec2"
+    },
+    {
+      "id": "plain-explicit-dark-1080-no-preference",
+      "fixture": "plain",
+      "theme": "explicit-dark",
+      "selected": "dark",
+      "colorScheme": "light",
+      "viewport_width": 1080,
+      "reduced_motion": "no-preference",
+      "measurements": {
+        "canvas": "rgb(23, 20, 15)",
+        "overflow": false,
+        "reducedMotion": false,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          },
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": [
+          {
+            "loaded": true,
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(244, 236, 221)",
+            "width": 200,
+            "contrast": 15.645459255762226
+          }
+        ]
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        },
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "pass",
+      "failures": [],
+      "screenshot": "plain-explicit-dark-1080-no-preference.png",
+      "screenshot_sha256": "95ae4e14835890cb88ff96adb0ca36d9b1308b7779f8b2a14bbf36719eca8006"
+    },
+    {
+      "id": "plain-explicit-dark-375-reduce",
+      "fixture": "plain",
+      "theme": "explicit-dark",
+      "selected": "dark",
+      "colorScheme": "light",
+      "viewport_width": 375,
+      "reduced_motion": "reduce",
+      "measurements": {
+        "canvas": "rgb(23, 20, 15)",
+        "overflow": false,
+        "reducedMotion": true,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          },
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": [
+          {
+            "loaded": true,
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(244, 236, 221)",
+            "width": 200,
+            "contrast": 15.645459255762226
+          }
+        ]
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        },
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "pass",
+      "failures": [],
+      "screenshot": "plain-explicit-dark-375-reduce.png",
+      "screenshot_sha256": "3962ba3a67918933819d7b28734b0f3fdc9e2a9bbce22977b8c6a5bd11b91074"
+    },
+    {
+      "id": "tailwind-os-light-1080-no-preference",
+      "fixture": "tailwind",
+      "theme": "os-light",
+      "selected": "auto",
+      "colorScheme": "light",
+      "viewport_width": 1080,
+      "reduced_motion": "no-preference",
+      "measurements": {
+        "canvas": "rgb(244, 236, 221)",
+        "overflow": false,
+        "reducedMotion": false,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(244, 236, 221)",
+            "transitionDuration": "0.24s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": []
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(23, 20, 15)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 15.645459255762226
+        }
+      ],
+      "outcome": "pass",
+      "failures": [],
+      "screenshot": "tailwind-os-light-1080-no-preference.png",
+      "screenshot_sha256": "67a710e36b4c93403a1c0cc56fa62dff9dcf9b2bc992e9a29bbf3e48800e244e"
+    },
+    {
+      "id": "tailwind-os-light-375-reduce",
+      "fixture": "tailwind",
+      "theme": "os-light",
+      "selected": "auto",
+      "colorScheme": "light",
+      "viewport_width": 375,
+      "reduced_motion": "reduce",
+      "measurements": {
+        "canvas": "rgb(244, 236, 221)",
+        "overflow": false,
+        "reducedMotion": true,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(244, 236, 221)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": []
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(23, 20, 15)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 15.645459255762226
+        }
+      ],
+      "outcome": "pass",
+      "failures": [],
+      "screenshot": "tailwind-os-light-375-reduce.png",
+      "screenshot_sha256": "9e1055eed165fb1b7fcb7b67cbe1fa1480cd1ae984a4ea69c126d0f7b8c18c2a"
+    },
+    {
+      "id": "tailwind-os-dark-1080-no-preference",
+      "fixture": "tailwind",
+      "theme": "os-dark",
+      "selected": "auto",
+      "colorScheme": "dark",
+      "viewport_width": 1080,
+      "reduced_motion": "no-preference",
+      "measurements": {
+        "canvas": "rgb(23, 20, 15)",
+        "overflow": false,
+        "reducedMotion": false,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0.24s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": []
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "pass",
+      "failures": [],
+      "screenshot": "tailwind-os-dark-1080-no-preference.png",
+      "screenshot_sha256": "134e98a3a84ad7e9346aab36d0b504e8d3a4fdf46050946e4b23515ca9e12d07"
+    },
+    {
+      "id": "tailwind-os-dark-375-reduce",
+      "fixture": "tailwind",
+      "theme": "os-dark",
+      "selected": "auto",
+      "colorScheme": "dark",
+      "viewport_width": 375,
+      "reduced_motion": "reduce",
+      "measurements": {
+        "canvas": "rgb(23, 20, 15)",
+        "overflow": false,
+        "reducedMotion": true,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": []
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "pass",
+      "failures": [],
+      "screenshot": "tailwind-os-dark-375-reduce.png",
+      "screenshot_sha256": "a0f1f4458bf7663596285f8d13dc888754a81fd779ad726a46fa48fce12df135"
+    },
+    {
+      "id": "tailwind-explicit-light-1080-no-preference",
+      "fixture": "tailwind",
+      "theme": "explicit-light",
+      "selected": "light",
+      "colorScheme": "dark",
+      "viewport_width": 1080,
+      "reduced_motion": "no-preference",
+      "measurements": {
+        "canvas": "rgb(244, 236, 221)",
+        "overflow": false,
+        "reducedMotion": false,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(244, 236, 221)",
+            "transitionDuration": "0.24s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": []
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(23, 20, 15)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 15.645459255762226
+        }
+      ],
+      "outcome": "pass",
+      "failures": [],
+      "screenshot": "tailwind-explicit-light-1080-no-preference.png",
+      "screenshot_sha256": "67a710e36b4c93403a1c0cc56fa62dff9dcf9b2bc992e9a29bbf3e48800e244e"
+    },
+    {
+      "id": "tailwind-explicit-light-375-reduce",
+      "fixture": "tailwind",
+      "theme": "explicit-light",
+      "selected": "light",
+      "colorScheme": "dark",
+      "viewport_width": 375,
+      "reduced_motion": "reduce",
+      "measurements": {
+        "canvas": "rgb(244, 236, 221)",
+        "overflow": false,
+        "reducedMotion": true,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(244, 236, 221)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": []
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(23, 20, 15)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 15.645459255762226
+        }
+      ],
+      "outcome": "pass",
+      "failures": [],
+      "screenshot": "tailwind-explicit-light-375-reduce.png",
+      "screenshot_sha256": "9e1055eed165fb1b7fcb7b67cbe1fa1480cd1ae984a4ea69c126d0f7b8c18c2a"
+    },
+    {
+      "id": "tailwind-explicit-dark-1080-no-preference",
+      "fixture": "tailwind",
+      "theme": "explicit-dark",
+      "selected": "dark",
+      "colorScheme": "light",
+      "viewport_width": 1080,
+      "reduced_motion": "no-preference",
+      "measurements": {
+        "canvas": "rgb(23, 20, 15)",
+        "overflow": false,
+        "reducedMotion": false,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0.24s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": []
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "pass",
+      "failures": [],
+      "screenshot": "tailwind-explicit-dark-1080-no-preference.png",
+      "screenshot_sha256": "134e98a3a84ad7e9346aab36d0b504e8d3a4fdf46050946e4b23515ca9e12d07"
+    },
+    {
+      "id": "tailwind-explicit-dark-375-reduce",
+      "fixture": "tailwind",
+      "theme": "explicit-dark",
+      "selected": "dark",
+      "colorScheme": "light",
+      "viewport_width": 375,
+      "reduced_motion": "reduce",
+      "measurements": {
+        "canvas": "rgb(23, 20, 15)",
+        "overflow": false,
+        "reducedMotion": true,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": []
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 4,
+          "ringUnclipped": true,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "pass",
+      "failures": [],
+      "screenshot": "tailwind-explicit-dark-375-reduce.png",
+      "screenshot_sha256": "a0f1f4458bf7663596285f8d13dc888754a81fd779ad726a46fa48fce12df135"
+    }
+  ],
+  "blocked_external_requests": 0,
+  "release_approved": false,
+  "consumer_adoption": false,
+  "font_provider_checks": "not_run",
+  "limitations": [
+    "Platform fallback fonts only; no external-font availability evidence.",
+    "Automated local Chromium layout, contrast and keyboard checks; no assistive-technology or human acceptance.",
+    "No consumer application, provider behavior, real-browser zoom, rights or release approval is asserted."
+  ],
+  "checker_sha256": "569d72cf5b91a8ca78dc88b5348f814dec828810de702f6acab843f06f4a97d2",
+  "package": {
+    "source_sha": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+    "source_tree": "1d9d3f7e030cf65f4737b7fe2446c83ade441579",
+    "archive_sha256": "104b4937646886f44cac78508439779db559bebe1a86ebe6acbdaf832314b99f",
+    "files_digest": "738026492ee5ce8b9e8b39e04e20e994fd48d6954acfc39621acaaa2bc4963b5",
+    "fixture_sha256": {
+      "distribution/fixtures/plain.html.in": "885de693c4400d3bea5b339534e5dc5e1fd37e5778b4a18016dd01a7a111cb43",
+      "distribution/fixtures/plain.css": "90965f8529fff2f018d80a943a42e0d99bbdcff14b000138a54a9c8611ba30b4",
+      "distribution/fixtures/tailwind.html.in": "a84185e7911bbc50f1bcd733e7d75ba589022d3cc982e9cf3833d9502261d5e5",
+      "distribution/fixtures/tailwind.css": "0e5844ec75de2fb4a76097b26bb624bf8f9d9cf59f6d947855b743dd25f920fb"
+    },
+    "tailwind": {
+      "status": "pass",
+      "required": true,
+      "tailwind": "3.4.19",
+      "node": "v24.19.0",
+      "utilities_checked": 4,
+      "local_links_after_compile": {
+        "plain.html": 3,
+        "tailwind.html": 2
+      },
+      "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css"
+    },
+    "compiled_css_sha256": "6aafe7be64c2527eafd85d1290ceb529edf6584bd2f27121072fd1c17b55e03f"
+  },
+  "playwright": "1.56.1",
+  "served_sha256": {
+    "/plain.html": "885de693c4400d3bea5b339534e5dc5e1fd37e5778b4a18016dd01a7a111cb43",
+    "/plain.css": "90965f8529fff2f018d80a943a42e0d99bbdcff14b000138a54a9c8611ba30b4",
+    "/tailwind.html": "a84185e7911bbc50f1bcd733e7d75ba589022d3cc982e9cf3833d9502261d5e5",
+    "/compiled.css": "6aafe7be64c2527eafd85d1290ceb529edf6584bd2f27121072fd1c17b55e03f",
+    "/brand-kit/tokens/tokens.css": "e34223aecf3b5459f046506f5bb97b415b0feeef1d237021d672c5cc59ef3f98",
+    "/brand-kit/logo/wordmark.svg": "4efa5c6a27904c18dcb2dc482d1d6c525fbcaabed74914129efa1af9e834fb4c"
+  },
+  "browser": "141.0.7390.37",
+  "node": "v24.19.0",
+  "source_and_input_drift": "none",
+  "finished_at": "2026-10-12T18:02:30.943Z"
+}

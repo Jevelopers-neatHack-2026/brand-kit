@@ -1,0 +1,15 @@
+/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python -m unittest discover -s tools/tests -v
+FAIL uncatalogued file: notes.md
+check-inventory: 1 problem(s)
+check-inventory: OK (4 entries cover all tracked files)
+check-inventory: OK (4 entries cover all tracked files)
+FAIL uncatalogued file: stray.txt
+check-inventory: 1 problem(s)
+FAIL README.md: broken local link 'docs/nope.md'
+local links resolved: 0; broken: 1
+external links UNCHECKED (offline mode, not verified): 0
+FAIL missing required input: README.md
+FAIL missing required input: docs/source-of-truth.md
+FAIL missing required input: no tracked .md or .html files to check
+local links resolved: 0; broken: 3
+external links UNCHECKED (offline mode, not verified): 0

@@ -1,0 +1,2 @@
+PYTHON="/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python" node tools/check_consumer_browser.cjs
+{"outcome":"pass","cases":16,"report":"/workspace/scratch/3af480cc2b4f/postmerge-bk10-41001e1/out/brand/consumer-browser/2026-10-12T18-02-12-774Z/report.json","release_approved":false}

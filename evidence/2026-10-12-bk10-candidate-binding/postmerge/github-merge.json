@@ -1,0 +1,58 @@
+{
+  "merge_preflight": {
+    "observed_at": "2026-10-12 17:58:54 UTC",
+    "head_sha": "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465",
+    "base_sha": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+    "mergeable": true,
+    "mergeable_state": "clean",
+    "draft": false,
+    "formal_reviews": [],
+    "inline_comments": [],
+    "check_runs": {
+      "total_count": 0,
+      "check_runs": []
+    },
+    "commit_status": {
+      "state": "pending",
+      "total_count": 0,
+      "statuses": []
+    },
+    "security": {
+      "blockingSeverityThreshold": "P0",
+      "headSha": "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465",
+      "mergeGateEnabled": false,
+      "pullRequestNumber": 26,
+      "repository": "Jevelopers-neatHack-2026/brand-kit",
+      "status": "completed"
+    },
+    "security_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/26#issuecomment-6129668098",
+    "main_protected": false,
+    "rulesets": [],
+    "classic_protection": "GET returned 403 Resource not accessible by integration; no bypass requested",
+    "independent_review": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/26#issuecomment-6129693359",
+    "premerge_disposition": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/26#issuecomment-6129728165"
+  },
+  "merge_result": {
+    "sha": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+    "merged": true,
+    "message": "Pull Request successfully merged"
+  },
+  "postmerge_pr": {
+    "number": 26,
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/26",
+    "merged": true,
+    "merged_at": "2026-10-12T17:59:04Z",
+    "merge_commit_sha": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+    "head_sha": "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465",
+    "base_sha": "a664cc99884b2679f2c6ea15c6c3e8b98b768755"
+  },
+  "merge_commit": {
+    "sha": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+    "tree": "1d9d3f7e030cf65f4737b7fe2446c83ade441579",
+    "parents": [
+      "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+      "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465"
+    ]
+  },
+  "metadata_selection": "GitHub account/repository metadata and avatar query URLs omitted as unrelated to merge verification."
+}

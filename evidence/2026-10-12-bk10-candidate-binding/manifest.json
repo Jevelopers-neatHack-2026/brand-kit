@@ -1134,6 +1134,467 @@
       "published_sha256": "e00b472703de6fcf24b4701ba7255f51fd0efe6438e773059fdc1e3636d3967d",
       "withheld_line_numbers": [],
       "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/01-git-fetch.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/01-git-fetch.log",
+      "origin": "actual postmerge command/setup execution against exact main SHA",
+      "original_sha256": "bb11aacc8235a5140009a234b17b0be08f8db9e17167a6b0cdb0da9ba9e2e490",
+      "published_sha256": "bb11aacc8235a5140009a234b17b0be08f8db9e17167a6b0cdb0da9ba9e2e490",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/02-worktree.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/02-worktree.log",
+      "origin": "actual postmerge command/setup execution against exact main SHA",
+      "original_sha256": "db10a09a09c24f398043b163c7018e01ee0e4c574f40675bcd029b5c628eeb6d",
+      "published_sha256": "db10a09a09c24f398043b163c7018e01ee0e4c574f40675bcd029b5c628eeb6d",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/03-npm-ci.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/03-npm-ci.log",
+      "origin": "actual postmerge command/setup execution against exact main SHA",
+      "original_sha256": "3a782ceca0f380f7d02c3a3072ebc501aed7c7eac1f34066a9c91c352e334a5a",
+      "published_sha256": "3a782ceca0f380f7d02c3a3072ebc501aed7c7eac1f34066a9c91c352e334a5a",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/04-npm-ci.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/04-npm-ci.log",
+      "origin": "actual postmerge command/setup execution against exact main SHA",
+      "original_sha256": "6ec07ccef59e849b07ba728d70ab962446734bafe484447561a07b2feaa5b42a",
+      "published_sha256": "6ec07ccef59e849b07ba728d70ab962446734bafe484447561a07b2feaa5b42a",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/05-diff-check.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/05-diff-check.log",
+      "origin": "actual postmerge command/setup execution against exact main SHA",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/06-token-json.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/06-token-json.log",
+      "origin": "actual postmerge command/setup execution against exact main SHA",
+      "original_sha256": "bc47b86f4a320262484a2c71015923345596e35c04662045cfd714e6c70f9085",
+      "published_sha256": "bc47b86f4a320262484a2c71015923345596e35c04662045cfd714e6c70f9085",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/command.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/command.json",
+      "origin": "actual postmerge command/setup execution against exact main SHA",
+      "original_sha256": "23dae105d881774c03e63d956e498baf675a2311ff28ccf99c2a26138e85e16a",
+      "published_sha256": "23dae105d881774c03e63d956e498baf675a2311ff28ccf99c2a26138e85e16a",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate-command.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate-command.log",
+      "origin": "actual postmerge command/setup execution against exact main SHA",
+      "original_sha256": "340fee5bdd42f3ab2f65ff52f1e138d336e4a2286c6af5611feeaf6780eb28ea",
+      "published_sha256": "340fee5bdd42f3ab2f65ff52f1e138d336e4a2286c6af5611feeaf6780eb28ea",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/setup.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/setup.json",
+      "origin": "actual postmerge command/setup execution against exact main SHA",
+      "original_sha256": "33f52388926d06489a818bee1c2727df01aaae0f034ed0c393216dd43b5c2e2f",
+      "published_sha256": "33f52388926d06489a818bee1c2727df01aaae0f034ed0c393216dd43b5c2e2f",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/01-check-inventory.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/01-check-inventory.stderr.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/01-check-inventory.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/01-check-inventory.stdout.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "1659b05a9874c5399ae177b40ce2ecdbbd635f584881fb96b03ebbe41b794edc",
+      "published_sha256": "1659b05a9874c5399ae177b40ce2ecdbbd635f584881fb96b03ebbe41b794edc",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/02-check-links.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/02-check-links.stderr.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/02-check-links.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/02-check-links.stdout.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "ccfd0c22ba1e2d733b9e23d89eb1ced20421a27db47dd924abd2f4d41ce03389",
+      "published_sha256": "ccfd0c22ba1e2d733b9e23d89eb1ced20421a27db47dd924abd2f4d41ce03389",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/03-check-governance.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/03-check-governance.stderr.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/03-check-governance.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/03-check-governance.stdout.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "da79dfd0aa257a62d6fe871a3dd662300c5213bd345bc93062e51ed44e08c598",
+      "published_sha256": "da79dfd0aa257a62d6fe871a3dd662300c5213bd345bc93062e51ed44e08c598",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/04-check-provenance.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/04-check-provenance.stderr.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748",
+      "published_sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/04-check-provenance.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/04-check-provenance.stdout.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "58e836815eaf7fcb89cfe40026b56fdd56ac143644dd040646722e3c6abb59fe",
+      "published_sha256": "58e836815eaf7fcb89cfe40026b56fdd56ac143644dd040646722e3c6abb59fe",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/05-build-tokens.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/05-build-tokens.stderr.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/05-build-tokens.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/05-build-tokens.stdout.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "ff22e12b0f529d3a421dabef72905f4c15ddf87171642466c6654bbab80c4d94",
+      "published_sha256": "ff22e12b0f529d3a421dabef72905f4c15ddf87171642466c6654bbab80c4d94",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/06-check-tokens.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/06-check-tokens.stderr.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "8dafddb2a58420560291284599f37279975cd6408e417aa7119de393a1996b81",
+      "published_sha256": "8dafddb2a58420560291284599f37279975cd6408e417aa7119de393a1996b81",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/06-check-tokens.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/06-check-tokens.stdout.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "00fdd3c3a426aa3f354019eb14682cb353c3dc8abbeb841ba6f0965c74f87b6d",
+      "published_sha256": "00fdd3c3a426aa3f354019eb14682cb353c3dc8abbeb841ba6f0965c74f87b6d",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/07-check-tokens-tailwind.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/07-check-tokens-tailwind.stderr.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "8d04ec97034445e8d5b51a88f4a4c8d7cfe7d5707fb00e69a6305ec5461a2dc2",
+      "published_sha256": "8d04ec97034445e8d5b51a88f4a4c8d7cfe7d5707fb00e69a6305ec5461a2dc2",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/07-check-tokens-tailwind.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/07-check-tokens-tailwind.stdout.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "918c8fff454cc97ca5c33adc528a937ecb745cc651c0da95f557855a6a475f4c",
+      "published_sha256": "918c8fff454cc97ca5c33adc528a937ecb745cc651c0da95f557855a6a475f4c",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/08-build-assets.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/08-build-assets.stderr.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/08-build-assets.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/08-build-assets.stdout.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "73cdc1d392b66b42c559d55a144116da096c53fbbb071619b3841f98e940aa30",
+      "published_sha256": "73cdc1d392b66b42c559d55a144116da096c53fbbb071619b3841f98e940aa30",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/09-check-assets.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/09-check-assets.stderr.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "c6193e1e6fc9f627a50db9173b5a0f683999942fd9816d7d5348abf7e175f4bd",
+      "published_sha256": "c6193e1e6fc9f627a50db9173b5a0f683999942fd9816d7d5348abf7e175f4bd",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/09-check-assets.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/09-check-assets.stdout.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "7e1982b2625dae65c5f775db798060949bc8186b9098597ef33b203c8498f112",
+      "published_sha256": "7e1982b2625dae65c5f775db798060949bc8186b9098597ef33b203c8498f112",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/10-check-accessibility.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/10-check-accessibility.stderr.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "5914d76b4ef231210c4baeb7e0cddcb2cf25c96da37f2adff37750ff44e8c69a",
+      "published_sha256": "5914d76b4ef231210c4baeb7e0cddcb2cf25c96da37f2adff37750ff44e8c69a",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/10-check-accessibility.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/10-check-accessibility.stdout.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "d41c1dd8a360364d189d1f8bc25269404baf4c4c3c49e98fb20660799ddb2ea6",
+      "published_sha256": "d41c1dd8a360364d189d1f8bc25269404baf4c4c3c49e98fb20660799ddb2ea6",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/11-check-accessibility-browser.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/11-check-accessibility-browser.stderr.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "b6df657e47bb44cc3fd288800942be76abceb64f1164e23d6635d0e38641ae7a",
+      "published_sha256": "b6df657e47bb44cc3fd288800942be76abceb64f1164e23d6635d0e38641ae7a",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/11-check-accessibility-browser.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/11-check-accessibility-browser.stdout.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "49db27ffa04abb227b2b34c89e0d2f97127272b5a2f9d4fe2a34be46d1125fe9",
+      "published_sha256": "49db27ffa04abb227b2b34c89e0d2f97127272b5a2f9d4fe2a34be46d1125fe9",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/12-check-guidelines.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/12-check-guidelines.stderr.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "380ddd0c5803f35e00a5d4befc2e1b02256eeebae5a3a234247f7a73bb0f9f07",
+      "published_sha256": "380ddd0c5803f35e00a5d4befc2e1b02256eeebae5a3a234247f7a73bb0f9f07",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/12-check-guidelines.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/12-check-guidelines.stdout.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "771759ae7b2217484da8f0e4c7f19d789f9e1e205aeb74a6c4fa949b2662261f",
+      "published_sha256": "771759ae7b2217484da8f0e4c7f19d789f9e1e205aeb74a6c4fa949b2662261f",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/13-test.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/13-test.stderr.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "0ffa3ac32a25888e3076721c0aa7ead526bfc2e24592cbb36d6ee140773f6df3",
+      "published_sha256": "0ffa3ac32a25888e3076721c0aa7ead526bfc2e24592cbb36d6ee140773f6df3",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/13-test.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/13-test.stdout.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "6afd50dbf539fb43ea71244556a556221603ab5c4145743d150d991c3653e89a",
+      "published_sha256": "6afd50dbf539fb43ea71244556a556221603ab5c4145743d150d991c3653e89a",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/14-check-package.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/14-check-package.stderr.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/14-check-package.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/14-check-package.stdout.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "b76afe8d2c58cebefd3aa87c4262c1102c326a320bf787b0dbc00c4d62f8df60",
+      "published_sha256": "b76afe8d2c58cebefd3aa87c4262c1102c326a320bf787b0dbc00c4d62f8df60",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/15-package-brand.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/15-package-brand.stderr.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "71e89083a078a0bf21890172988d4e41be2e94bd1a107f2ee5a610b26082839d",
+      "published_sha256": "71e89083a078a0bf21890172988d4e41be2e94bd1a107f2ee5a610b26082839d",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/15-package-brand.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/15-package-brand.stdout.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "6c3760dea7dbeb4a619dcc6d392e93e703c8d7497ff0af0c03573b68dcc7f778",
+      "published_sha256": "6c3760dea7dbeb4a619dcc6d392e93e703c8d7497ff0af0c03573b68dcc7f778",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/16-check-consumers.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/16-check-consumers.stderr.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "0c081ca0951218d833ad2144a1c2d89211fe6336f0630bb6d988107976581cd0",
+      "published_sha256": "0c081ca0951218d833ad2144a1c2d89211fe6336f0630bb6d988107976581cd0",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/16-check-consumers.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/16-check-consumers.stdout.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "81f2bc4e80072bc17084e8986f5d98acbb14e74a244dc9a5e3ed97e5693b5153",
+      "published_sha256": "81f2bc4e80072bc17084e8986f5d98acbb14e74a244dc9a5e3ed97e5693b5153",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/17-check-consumers-browser.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/17-check-consumers-browser.stderr.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/17-check-consumers-browser.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/17-check-consumers-browser.stdout.txt",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "5dd0a29f7fc81eca593e35a3cb0bd01787b668a9d4d9f98b4e466dd7167115fa",
+      "published_sha256": "5dd0a29f7fc81eca593e35a3cb0bd01787b668a9d4d9f98b4e466dd7167115fa",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/report.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/report.json",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "2674501d12129b86524c9de20956883ac053d2615286eb037a78a094294f41d4",
+      "published_sha256": "2674501d12129b86524c9de20956883ac053d2615286eb037a78a094294f41d4",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/asset-review-manifest.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/asset-review/manifest.json",
+      "origin": "actual local asset export metadata; not an approved distribution",
+      "original_sha256": "cfd412b0598189f1fc47375da186cfcee104a65c3cc6a81a92dd5fe18bfc1ed1",
+      "published_sha256": "cfd412b0598189f1fc47375da186cfcee104a65c3cc6a81a92dd5fe18bfc1ed1",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/browser/accessibility-report.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/postmerge-bk10-41001e1/out/brand/accessibility-browser/2026-10-12T18-00-48-666Z/report.json",
+      "origin": "actual local Chromium execution; synthetic local fixtures, not deployed consumer acceptance",
+      "original_sha256": "328598850225842e2696f85302bb0e64b7409ceeed4d9c2e57128251e17210bb",
+      "published_sha256": "328598850225842e2696f85302bb0e64b7409ceeed4d9c2e57128251e17210bb",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/browser/accessibility-regressions-report.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/postmerge-bk10-41001e1/out/brand/accessibility-browser-regressions/2026-10-12T18-00-32-274Z-guNCun/report.json",
+      "origin": "actual local Chromium execution; synthetic local fixtures, not deployed consumer acceptance",
+      "original_sha256": "964e0707e2e1aeba0ea75e5ed71245dcf4402787355b4c6f0cc994376a8c12f0",
+      "published_sha256": "964e0707e2e1aeba0ea75e5ed71245dcf4402787355b4c6f0cc994376a8c12f0",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/browser/consumer-report.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/postmerge-bk10-41001e1/out/brand/consumer-browser/2026-10-12T18-02-12-774Z/report.json",
+      "origin": "actual local Chromium execution; synthetic local fixtures, not deployed consumer acceptance",
+      "original_sha256": "967ddecb933fbe99d591bd32fc98cd50728bb79de9912d807c3ac216ed825724",
+      "published_sha256": "967ddecb933fbe99d591bd32fc98cd50728bb79de9912d807c3ac216ed825724",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/github-merge.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/merge-26-sanitized.json",
+      "origin": "selected fresh GitHub preflight, normal merge response, and resulting main/parent/tree metadata; unrelated account/repository fields omitted",
+      "original_sha256": "e6d297442bbc53dc3b5fcce7633a537633ae013a65942e79c9d115644fa1f7ac",
+      "published_sha256": "e6d297442bbc53dc3b5fcce7633a537633ae013a65942e79c9d115644fa1f7ac",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/published/pr26-evidence-integrity.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/pr26-evidence-integrity.json",
+      "origin": "independent reviewer verification of prior immutable candidate evidence commit",
+      "original_sha256": "51e7206f272eadfbee40b3f9ce3538e2701e05e2a2c2c907630fb59216664683",
+      "published_sha256": "51e7206f272eadfbee40b3f9ce3538e2701e05e2a2c2c907630fb59216664683",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
     }
-  ]
+  ],
+  "updated_at": "2026-10-12T18:04:31.474300+00:00",
+  "previous_evidence_commit": "9bb2e7c79ee1c1a34bbde813f0b93f3e9ae447f3",
+  "postmerge": {
+    "source_sha": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+    "source_tree": "1d9d3f7e030cf65f4737b7fe2446c83ade441579",
+    "pass": 14,
+    "fail": 3,
+    "unit_tests": 289,
+    "blockers": 30,
+    "release_approved": false
+  }
 }
