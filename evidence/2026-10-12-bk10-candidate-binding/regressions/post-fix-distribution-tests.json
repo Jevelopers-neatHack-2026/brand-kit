@@ -1,0 +1,14 @@
+{
+  "scope": "Synthetic isolated distribution/gate regressions; not actual acceptance",
+  "command": [
+    "/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "tools.tests.test_distribution"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 59.623,
+  "implementation_sha256": "bde695e6fa604a68cbf063bc8b126ec03ffbf6453c82ac1f9b39faade1c68a62",
+  "tests_sha256": "d059b9363af3835acc2f82bcd513c5bf7ff3ff5de937fd8bb3427ef83fe5d45e"
+}

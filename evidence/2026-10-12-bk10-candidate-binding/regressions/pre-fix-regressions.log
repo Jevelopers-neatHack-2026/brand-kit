@@ -1,0 +1,77 @@
+test_gate_binds_approved_subset_to_actual_package_output (tools.tests.test_distribution.DistributionTests.test_gate_binds_approved_subset_to_actual_package_output) ... FAIL
+test_gate_stale_consumer_receipt_does_not_approve_subset (tools.tests.test_distribution.DistributionTests.test_gate_stale_consumer_receipt_does_not_approve_subset) ... FAIL
+test_gate_requires_matching_package_bytes_and_successful_command (tools.tests.test_distribution.DistributionTests.test_gate_requires_matching_package_bytes_and_successful_command) ... 
+  test_gate_requires_matching_package_bytes_and_successful_command (tools.tests.test_distribution.DistributionTests.test_gate_requires_matching_package_bytes_and_successful_command) (case='missing') ... FAIL
+  test_gate_requires_matching_package_bytes_and_successful_command (tools.tests.test_distribution.DistributionTests.test_gate_requires_matching_package_bytes_and_successful_command) (case='tampered') ... FAIL
+  test_gate_requires_matching_package_bytes_and_successful_command (tools.tests.test_distribution.DistributionTests.test_gate_requires_matching_package_bytes_and_successful_command) (case='failed_command') ... ERROR
+test_gate_review_archive_is_diagnostic_when_approval_is_absent (tools.tests.test_distribution.DistributionTests.test_gate_review_archive_is_diagnostic_when_approval_is_absent) ... ERROR
+test_gate_asset_builds_use_fresh_outputs_across_revisions (tools.tests.test_distribution.DistributionTests.test_gate_asset_builds_use_fresh_outputs_across_revisions) ... FAIL
+
+======================================================================
+ERROR: test_gate_requires_matching_package_bytes_and_successful_command (tools.tests.test_distribution.DistributionTests.test_gate_requires_matching_package_bytes_and_successful_command) (case='failed_command')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/3af480cc2b4f/brand-kit/tools/tests/test_distribution.py", line 555, in test_gate_requires_matching_package_bytes_and_successful_command
+    self.assertTrue(report["artifact"]["from_package_brand"])
+                    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'from_package_brand'
+
+======================================================================
+ERROR: test_gate_review_archive_is_diagnostic_when_approval_is_absent (tools.tests.test_distribution.DistributionTests.test_gate_review_archive_is_diagnostic_when_approval_is_absent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/3af480cc2b4f/brand-kit/tools/tests/test_distribution.py", line 569, in test_gate_review_archive_is_diagnostic_when_approval_is_absent
+    self.assertEqual(report["artifact"]["path"], "review-brand.zip")
+                     ~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'path'
+
+======================================================================
+FAIL: test_gate_binds_approved_subset_to_actual_package_output (tools.tests.test_distribution.DistributionTests.test_gate_binds_approved_subset_to_actual_package_output)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/3af480cc2b4f/brand-kit/tools/tests/test_distribution.py", line 500, in test_gate_binds_approved_subset_to_actual_package_output
+    self.assertEqual(report["result"], "recorded_checks_pass", report["blockers"])
+AssertionError: 'blocked' != 'recorded_checks_pass'
+- blocked
++ recorded_checks_pass
+ : ['BK-01: acceptance evidence is stale for the exact candidate', 'BK-02: acceptance evidence is stale for the exact candidate', 'BK-03A: acceptance evidence is stale for the exact candidate', 'BK-03B: acceptance evidence is stale for the exact candidate', 'BK-04: acceptance evidence is stale for the exact candidate', 'BK-05: acceptance evidence is stale for the exact candidate', 'BK-06: acceptance evidence is stale for the exact candidate', 'BK-07: acceptance evidence is stale for the exact candidate', 'BK-08: acceptance evidence is stale for the exact candidate', 'BK-09: acceptance evidence is stale for the exact candidate', 'getticketstub.com: acknowledgment does not bind this exact export', 'landing-page-repo: acknowledgment does not bind this exact export', 'marketing-material: acknowledgment does not bind this exact export', 'identity_ratification: evidence is stale for the exact exported files', 'rights_review: evidence is stale for the exact exported files', 'visual_assets: evidence is stale for the exact exported files', 'browser_accessibility: evidence is stale for the exact exported files', 'external_font_available_and_unavailable: evidence is stale for the exact exported files', 'claims_review: evidence is stale for the exact exported files', 'sanitization_and_history: evidence is stale for the exact exported files', 'upgrade_and_approved_rollback: evidence is stale for the exact exported files', 'release review is stale for the exact exported files']
+
+======================================================================
+FAIL: test_gate_stale_consumer_receipt_does_not_approve_subset (tools.tests.test_distribution.DistributionTests.test_gate_stale_consumer_receipt_does_not_approve_subset)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/3af480cc2b4f/brand-kit/tools/tests/test_distribution.py", line 530, in test_gate_stale_consumer_receipt_does_not_approve_subset
+    self.assertIn("getticketstub.com: acknowledgment does not bind this exact export", report["blockers"])
+AssertionError: 'getticketstub.com: acknowledgment does not bind this exact export' not found in ['BK-01: acceptance evidence is stale for the exact candidate', 'BK-02: acceptance evidence is stale for the exact candidate', 'BK-03A: acceptance evidence is stale for the exact candidate', 'BK-03B: acceptance evidence is stale for the exact candidate', 'BK-04: acceptance evidence is stale for the exact candidate', 'BK-05: acceptance evidence is stale for the exact candidate', 'BK-06: acceptance evidence is stale for the exact candidate', 'BK-07: acceptance evidence is stale for the exact candidate', 'BK-08: acceptance evidence is stale for the exact candidate', 'BK-09: acceptance evidence is stale for the exact candidate', 'landing-page-repo: acknowledgment does not bind this exact export', 'marketing-material: acknowledgment does not bind this exact export', 'identity_ratification: evidence is stale for the exact exported files', 'rights_review: evidence is stale for the exact exported files', 'visual_assets: evidence is stale for the exact exported files', 'browser_accessibility: evidence is stale for the exact exported files', 'external_font_available_and_unavailable: evidence is stale for the exact exported files', 'claims_review: evidence is stale for the exact exported files', 'sanitization_and_history: evidence is stale for the exact exported files', 'upgrade_and_approved_rollback: evidence is stale for the exact exported files', 'release review is stale for the exact exported files']
+
+======================================================================
+FAIL: test_gate_requires_matching_package_bytes_and_successful_command (tools.tests.test_distribution.DistributionTests.test_gate_requires_matching_package_bytes_and_successful_command) (case='missing')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/3af480cc2b4f/brand-kit/tools/tests/test_distribution.py", line 553, in test_gate_requires_matching_package_bytes_and_successful_command
+    self.assertTrue(any("package-brand" in blocker for blocker in report["blockers"]))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_gate_requires_matching_package_bytes_and_successful_command (tools.tests.test_distribution.DistributionTests.test_gate_requires_matching_package_bytes_and_successful_command) (case='tampered')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/3af480cc2b4f/brand-kit/tools/tests/test_distribution.py", line 553, in test_gate_requires_matching_package_bytes_and_successful_command
+    self.assertTrue(any("package-brand" in blocker for blocker in report["blockers"]))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_gate_asset_builds_use_fresh_outputs_across_revisions (tools.tests.test_distribution.DistributionTests.test_gate_asset_builds_use_fresh_outputs_across_revisions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/3af480cc2b4f/brand-kit/tools/tests/test_distribution.py", line 597, in test_gate_asset_builds_use_fresh_outputs_across_revisions
+    self.assertEqual(result["result"], "pass", result)
+AssertionError: 'fail' != 'pass'
+- fail
++ pass
+ : {'target': 'build-assets', 'command': ['make', 'build-assets'], 'required': True, 'started_at': '2026-10-12T17:38:45.944021+00:00', 'elapsed_seconds': 0.033, 'exit_code': 2, 'result': 'fail', 'reason': None, 'streams': {'stdout': {'path': '01-build-assets.stdout.txt', 'sha256': '93a147a412da160bb18d88131d76d5af114f795459df6d606ae26dfcc2027195', 'original_stream_sha256': '93a147a412da160bb18d88131d76d5af114f795459df6d606ae26dfcc2027195', 'sanitized': True}, 'stderr': {'path': '01-build-assets.stderr.txt', 'sha256': 'eeaadf24c41b2b5d0a90ca381cb8aa524c25ba2a5087d06964840beba7ea1ad9', 'original_stream_sha256': 'eeaadf24c41b2b5d0a90ca381cb8aa524c25ba2a5087d06964840beba7ea1ad9', 'sanitized': True}}, 'mode': 'local_repository_check', 'provider_execution_authorized': False}
+
+----------------------------------------------------------------------
+Ran 5 tests in 11.281s
+
+FAILED (failures=5, errors=2)

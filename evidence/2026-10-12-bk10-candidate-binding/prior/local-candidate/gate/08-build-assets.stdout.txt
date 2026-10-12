@@ -1,0 +1,5 @@
+/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python -I tools/build_assets.py build --output-dir "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/asset-review"
+Built local review artifacts: /workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/asset-review
+Source revision: 6df0b84cd556b9405903a425965bed85eb018014; input changes: 0
+Manifest SHA-256: 019ad4815e5dacc1d9975bcfa39763474c9a14633e485562db5a3f3eb9f88bbc
+Release/identity/rights/consumer approval: PENDING. No font distribution or provider call.

@@ -1,0 +1,11 @@
+Collecting fonttools==4.66.1 (from -r tools/assets/requirements.txt (line 3))
+  Using cached fonttools-4.66.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.4 MB)
+Collecting uharfbuzz==0.56.3 (from -r tools/assets/requirements.txt (line 4))
+  Using cached uharfbuzz-0.56.3-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (2.1 MB)
+Collecting Pillow==12.3.0 (from -r tools/assets/requirements.txt (line 5))
+  Using cached pillow-12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.9 MB)
+Installing collected packages: uharfbuzz, Pillow, fonttools
+Successfully installed Pillow-12.3.0 fonttools-4.66.1 uharfbuzz-0.56.3
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: python -m pip install --upgrade pip

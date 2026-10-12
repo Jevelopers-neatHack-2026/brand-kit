@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-12T17:44:29.804879+00:00",
+  "reviewer": "Independent pr_reconciliation subagent; no authorship of this candidate",
+  "verdict": "APPROVE",
+  "scope": "Technical gate correctness and factual documentation reconciliation only",
+  "base_sha": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+  "head_sha": "6df0b84cd556b9405903a425965bed85eb018014",
+  "head_tree": "1d9d3f7e030cf65f4737b7fe2446c83ade441579",
+  "diff_sha256": "cd67ea34d88b08be6a02837b8e106e61d0af874757ecc3aece309949cd80a25c",
+  "changed_files": [
+    {
+      "path": "docs/brand-governance.md",
+      "sha256": "ea1248927feeec6df1d4051d22e47edfa2043d08e03787d6b6bdc2ee42039f2c"
+    },
+    {
+      "path": "docs/consumers.md",
+      "sha256": "622830721acf520070b5de0adf10c8fa69ec7439e6b8d878c1af8d804639cf91"
+    },
+    {
+      "path": "docs/distribution.md",
+      "sha256": "51ab59640b585e17a72739d98f71b0a14c518ddb3d00a8efbb80f2e8577a6a5d"
+    },
+    {
+      "path": "docs/identity-decision-packet.md",
+      "sha256": "1185fef2d70037e473c6299b55e01ac2f377c4241819471b009e52af0b44a29e"
+    },
+    {
+      "path": "tools/check_brand_release.py",
+      "sha256": "bf1512a7fa3f33d2f5f3f99afe43b11452076b505d7de16c2807b5b8f36abe22"
+    },
+    {
+      "path": "tools/tests/test_distribution.py",
+      "sha256": "40f5a89a0cb213114592fcf3fce8bc96c430773f3f0b828271daa505fff556b6"
+    }
+  ],
+  "findings": [],
+  "source_evidence": [
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/7#issuecomment-6105489382",
+      "verified": "Exact comment fetched independently; records user-assigned marketing root reviewer/receiver and preserves source-owned rights."
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/5#issuecomment-6112307412",
+      "verified": "Exact later comment fetched independently; confirms same role and no invented human-only marketing dependency."
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/landing-page-repo/blob/dda1b5d48e71ed9c111b82111676b7ef033fe5ef/integration/brand-consumption.md",
+      "blob_sha": "aac353c1195f10fda0e337f1c557d94b1864b378",
+      "verified": "Fetched independently; supports six-family/fallback/Archivo and 17x21 CSS stamp observations; all approval and rendered evidence pending."
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/marketing-material/blob/79ae21607eb4d98188f85ce3c42b8be6eb5688bc/review/brand-consumption.md",
+      "blob_sha": "950df41c6753f17806e2f122c8e79c2b23a3b4b2",
+      "verified": "Fetched independently; source reference only, upstream binaries not imported, final conformance blocked."
+    }
+  ],
+  "commands": [
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+        "6df0b84cd556b9405903a425965bed85eb018014"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.007,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/01-stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/01-stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "command": [
+        "make",
+        "check",
+        "PYTHON=/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 69.596,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/02-stdout.log",
+          "sha256": "cdcce8e28344e3f6dc0534f40f5e103c87cfd1cfe87e044ab71a37819ff72581"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/02-stderr.log",
+          "sha256": "f68747891cd3b7dc147dcd9a869f9c2fdd1f3782d68d809b708f7adb966745f1"
+        }
+      }
+    },
+    {
+      "command": [
+        "make",
+        "check-package",
+        "PYTHON=/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.787,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/03-stdout.log",
+          "sha256": "5804579e0603c7f1c61f439a1115168342a2c25c6ebf33306d384094652428c6"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/03-stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "command": [
+        "make",
+        "check-provenance",
+        "PYTHON=/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python"
+      ],
+      "exit_code": 2,
+      "elapsed_seconds": 0.173,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/04-stdout.log",
+          "sha256": "58e836815eaf7fcb89cfe40026b56fdd56ac143644dd040646722e3c6abb59fe"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/04-stderr.log",
+          "sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748"
+        }
+      }
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--porcelain"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.005,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/05-stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/05-stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    }
+  ],
+  "verification_summary": {
+    "make_check": "PASS: 289 tests, 117 inventory entries, 378 resolved local links; 163 external links UNCHECKED by offline checker. Token determinism/parity, governance, provenance structure, contrast, guidelines passed.",
+    "check_package": "PASS: deterministic 25-file local review archive; source 6df0b84cd556b9405903a425965bed85eb018014; release_approved false.",
+    "check_provenance": "EXPECTED BLOCKED exit 2: 23 uncleared core files; empty/unreviewed allowlist; six reported problems. This remains a failed release prerequisite, not a release pass.",
+    "working_tree": "Clean after verification."
+  },
+  "technical_conclusions": [
+    "The approved subset is reconstructed separately from the larger review proposal. Manual and consumer receipts bind its exact file-set digest.",
+    "The actual package-brand output must exist as a regular nonsymlink file and match the reconstructed ZIP bytes. Failed command outcome remains blocking even if matching output exists.",
+    "Unapproved review fallback is retained as diagnostics with an explicit blocker. No archive or synthetic receipt grants release approval.",
+    "Asset builds use each fresh gate output directory; existing evidence and earlier failed outputs remain intact.",
+    "Nested exception details are excluded from reports through fixed messages, with a sentinel regression.",
+    "Documentation records pre-existing foreign supervisor authority without assigning it to this reviewer or brand-kit agent. Identity rules, actual approvals, tokens/assets and consumer files are unchanged."
+  ],
+  "limitations": [
+    "This is not a formal submitted GitHub review or an accountable brand/rights/font/consumer/release decision.",
+    "Synthetic test receipts are validator fixtures only; no real acceptance record was changed.",
+    "No external font/provider/consumer-browser evidence was acquired in this review; root is running the broader actual gate.",
+    "CLI publication requires API recreation; actual published head/parent/tree confirmation remains pending. Full structural results here bind the local prepublication SHA."
+  ],
+  "release_approved": false,
+  "brand_identity_approved": false,
+  "consumer_ack_supplied": false,
+  "published_head_confirmation_pending": true
+}

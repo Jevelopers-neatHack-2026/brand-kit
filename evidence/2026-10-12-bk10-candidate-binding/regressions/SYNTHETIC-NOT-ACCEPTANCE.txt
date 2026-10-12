@@ -1,0 +1,6 @@
+Synthetic local pre-fix reproduction only. Baseline implementation: a664cc99884b2679f2c6ea15c6c3e8b98b768755.
+No real approval, reviewer acknowledgment, provider call, consumer adoption or release evidence.
+All Make checks were mocked successful; Tailwind was mocked in a separate normal consumer check.
+Actual archive, provenance shape, file-set digest and receipt binding code ran against a private temporary Git fixture.
+The gate chose the 25-file review digest instead of the approved-shaped 21-file subset, causing 22 false stale-receipt blockers.
+The temporary fixture and output were not committed or published to the brand-kit repository.

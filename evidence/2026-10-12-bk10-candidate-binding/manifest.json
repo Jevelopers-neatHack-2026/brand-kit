@@ -1,0 +1,1139 @@
+{
+  "recorded_at": "2026-10-12T17:52:18.172544+00:00",
+  "candidate_sha": "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465",
+  "candidate_tree": "1d9d3f7e030cf65f4737b7fe2446c83ade441579",
+  "release_approved": false,
+  "files": [
+    {
+      "path": "candidate/command.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/command.json",
+      "origin": "actual local command execution against the recorded source revision",
+      "original_sha256": "a0b090db4957d454db686511a39a313a8faf6bd3b4c173b6f5a2880810ff06e3",
+      "published_sha256": "a0b090db4957d454db686511a39a313a8faf6bd3b4c173b6f5a2880810ff06e3",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate-command.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate-command.log",
+      "origin": "actual local command execution against the recorded source revision",
+      "original_sha256": "67cef1a2af594ccf625a0278015f9be765e4a9b7721d6210fadfef698fe0580d",
+      "published_sha256": "67cef1a2af594ccf625a0278015f9be765e4a9b7721d6210fadfef698fe0580d",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/01-check-inventory.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/01-check-inventory.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/01-check-inventory.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/01-check-inventory.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "1659b05a9874c5399ae177b40ce2ecdbbd635f584881fb96b03ebbe41b794edc",
+      "published_sha256": "1659b05a9874c5399ae177b40ce2ecdbbd635f584881fb96b03ebbe41b794edc",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/02-check-links.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/02-check-links.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/02-check-links.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/02-check-links.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "ccfd0c22ba1e2d733b9e23d89eb1ced20421a27db47dd924abd2f4d41ce03389",
+      "published_sha256": "ccfd0c22ba1e2d733b9e23d89eb1ced20421a27db47dd924abd2f4d41ce03389",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/03-check-governance.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/03-check-governance.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/03-check-governance.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/03-check-governance.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "da79dfd0aa257a62d6fe871a3dd662300c5213bd345bc93062e51ed44e08c598",
+      "published_sha256": "da79dfd0aa257a62d6fe871a3dd662300c5213bd345bc93062e51ed44e08c598",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/04-check-provenance.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/04-check-provenance.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748",
+      "published_sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/04-check-provenance.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/04-check-provenance.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "58e836815eaf7fcb89cfe40026b56fdd56ac143644dd040646722e3c6abb59fe",
+      "published_sha256": "58e836815eaf7fcb89cfe40026b56fdd56ac143644dd040646722e3c6abb59fe",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/05-build-tokens.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/05-build-tokens.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/05-build-tokens.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/05-build-tokens.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "ff22e12b0f529d3a421dabef72905f4c15ddf87171642466c6654bbab80c4d94",
+      "published_sha256": "ff22e12b0f529d3a421dabef72905f4c15ddf87171642466c6654bbab80c4d94",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/06-check-tokens.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/06-check-tokens.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "e29b5f9c16b95312b03e27b4fa0c028df10bdb31226c58a44a646f499008d48f",
+      "published_sha256": "e29b5f9c16b95312b03e27b4fa0c028df10bdb31226c58a44a646f499008d48f",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/06-check-tokens.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/06-check-tokens.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "00fdd3c3a426aa3f354019eb14682cb353c3dc8abbeb841ba6f0965c74f87b6d",
+      "published_sha256": "00fdd3c3a426aa3f354019eb14682cb353c3dc8abbeb841ba6f0965c74f87b6d",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/07-check-tokens-tailwind.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/07-check-tokens-tailwind.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "69b5a1c1750ac6e719e13cd09a642b2d8de5c08f284f31f13670800ebebcdcf2",
+      "published_sha256": "69b5a1c1750ac6e719e13cd09a642b2d8de5c08f284f31f13670800ebebcdcf2",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/07-check-tokens-tailwind.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/07-check-tokens-tailwind.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "9226e73d1c5dcd19348bfb9647b2e31c224ea6d4709ef8e18e38ea78950980bc",
+      "published_sha256": "9226e73d1c5dcd19348bfb9647b2e31c224ea6d4709ef8e18e38ea78950980bc",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/08-build-assets.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/08-build-assets.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/08-build-assets.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/08-build-assets.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "bad99b782b9045c8e26f2d1ac2d9930224c5cb7c3f7df1a02728de52544217d0",
+      "published_sha256": "bad99b782b9045c8e26f2d1ac2d9930224c5cb7c3f7df1a02728de52544217d0",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/09-check-assets.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/09-check-assets.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "7659b45804c92f5b44adefcb0c31f9e434c8ee0bf517c0816e8f90e20b68d3be",
+      "published_sha256": "7659b45804c92f5b44adefcb0c31f9e434c8ee0bf517c0816e8f90e20b68d3be",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/09-check-assets.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/09-check-assets.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "3fa3e1859e63312269d4d2bbff2a58a210a4730e4e20a216bba0e145a7f1f2ed",
+      "published_sha256": "3fa3e1859e63312269d4d2bbff2a58a210a4730e4e20a216bba0e145a7f1f2ed",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/10-check-accessibility.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/10-check-accessibility.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "84eab9a997e07658a8b9fed4b8fd0bc1e5e2be34f2f4ca4a0731e7a93f7ba664",
+      "published_sha256": "84eab9a997e07658a8b9fed4b8fd0bc1e5e2be34f2f4ca4a0731e7a93f7ba664",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/10-check-accessibility.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/10-check-accessibility.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "d41c1dd8a360364d189d1f8bc25269404baf4c4c3c49e98fb20660799ddb2ea6",
+      "published_sha256": "d41c1dd8a360364d189d1f8bc25269404baf4c4c3c49e98fb20660799ddb2ea6",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/11-check-accessibility-browser.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/11-check-accessibility-browser.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "f0c3c74c6ac5090a268a6e04f6ec957cca84a82894c29460156446220f448805",
+      "published_sha256": "f0c3c74c6ac5090a268a6e04f6ec957cca84a82894c29460156446220f448805",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/11-check-accessibility-browser.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/11-check-accessibility-browser.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "69fe33a77f809ebdf8d8d0ddd6d23f47db6664b64ff5c75b6e641c760c111f68",
+      "published_sha256": "69fe33a77f809ebdf8d8d0ddd6d23f47db6664b64ff5c75b6e641c760c111f68",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/12-check-guidelines.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/12-check-guidelines.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "6c7763e8549cc9c046aa5f4ecaddabcf9d8327c2d3093359f4265d86bd229227",
+      "published_sha256": "6c7763e8549cc9c046aa5f4ecaddabcf9d8327c2d3093359f4265d86bd229227",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/12-check-guidelines.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/12-check-guidelines.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "771759ae7b2217484da8f0e4c7f19d789f9e1e205aeb74a6c4fa949b2662261f",
+      "published_sha256": "771759ae7b2217484da8f0e4c7f19d789f9e1e205aeb74a6c4fa949b2662261f",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/13-test.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/13-test.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "4372672c872fe9d8aee68417b53c2a05972b0e68655d0da785ec224a36fe861b",
+      "published_sha256": "4372672c872fe9d8aee68417b53c2a05972b0e68655d0da785ec224a36fe861b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/13-test.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/13-test.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "6afd50dbf539fb43ea71244556a556221603ab5c4145743d150d991c3653e89a",
+      "published_sha256": "6afd50dbf539fb43ea71244556a556221603ab5c4145743d150d991c3653e89a",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/14-check-package.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/14-check-package.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/14-check-package.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/14-check-package.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "513a64acf6016a0f1001c0db673180b7e00c76e27c8ce3f3f875d7708334ece7",
+      "published_sha256": "513a64acf6016a0f1001c0db673180b7e00c76e27c8ce3f3f875d7708334ece7",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/15-package-brand.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/15-package-brand.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "71e89083a078a0bf21890172988d4e41be2e94bd1a107f2ee5a610b26082839d",
+      "published_sha256": "71e89083a078a0bf21890172988d4e41be2e94bd1a107f2ee5a610b26082839d",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/15-package-brand.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/15-package-brand.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "1396acad0bf15d42ca9e1ef9d6db62a5787d86120afc844bb45bb9675c7d2c4f",
+      "published_sha256": "1396acad0bf15d42ca9e1ef9d6db62a5787d86120afc844bb45bb9675c7d2c4f",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/16-check-consumers.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/16-check-consumers.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "0c081ca0951218d833ad2144a1c2d89211fe6336f0630bb6d988107976581cd0",
+      "published_sha256": "0c081ca0951218d833ad2144a1c2d89211fe6336f0630bb6d988107976581cd0",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/16-check-consumers.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/16-check-consumers.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "48fe16f3641565cd32c2703ccdb626b662a4d6b0b518e43026d9be4e700aede3",
+      "published_sha256": "48fe16f3641565cd32c2703ccdb626b662a4d6b0b518e43026d9be4e700aede3",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/17-check-consumers-browser.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/17-check-consumers-browser.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/17-check-consumers-browser.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/17-check-consumers-browser.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "f60bcc6cc5619db315bb140ff4878606d171055312095a00b9fe6f1b8510d654",
+      "published_sha256": "f60bcc6cc5619db315bb140ff4878606d171055312095a00b9fe6f1b8510d654",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/gate/report.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/report.json",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "c29e0e9247b05664ef9e3e17529cf7ffa8375acfc249b537151ba0751d1ef561",
+      "published_sha256": "c29e0e9247b05664ef9e3e17529cf7ffa8375acfc249b537151ba0751d1ef561",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/asset-review-manifest.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/asset-review/manifest.json",
+      "origin": "local reproducible review export metadata; not a released or approved artifact",
+      "original_sha256": "822d5951264aefd2b47889cf207f6c980f859fdbb164acfdb7e9800b8346aca7",
+      "published_sha256": "822d5951264aefd2b47889cf207f6c980f859fdbb164acfdb7e9800b8346aca7",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/command.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/command.json",
+      "origin": "actual local command execution against the recorded source revision",
+      "original_sha256": "6b01632a50845d446960f2f320232a14b92b441306c8b50547197f120aa359c4",
+      "published_sha256": "6b01632a50845d446960f2f320232a14b92b441306c8b50547197f120aa359c4",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate-command.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate-command.log",
+      "origin": "actual local command execution against the recorded source revision",
+      "original_sha256": "cb75f81273ae8d41168cb084a856104cb37f32b41ea326538140ad71f36d9b1f",
+      "published_sha256": "cb75f81273ae8d41168cb084a856104cb37f32b41ea326538140ad71f36d9b1f",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/01-check-inventory.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/01-check-inventory.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/01-check-inventory.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/01-check-inventory.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "1659b05a9874c5399ae177b40ce2ecdbbd635f584881fb96b03ebbe41b794edc",
+      "published_sha256": "1659b05a9874c5399ae177b40ce2ecdbbd635f584881fb96b03ebbe41b794edc",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/02-check-links.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/02-check-links.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/02-check-links.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/02-check-links.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "ccfd0c22ba1e2d733b9e23d89eb1ced20421a27db47dd924abd2f4d41ce03389",
+      "published_sha256": "ccfd0c22ba1e2d733b9e23d89eb1ced20421a27db47dd924abd2f4d41ce03389",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/03-check-governance.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/03-check-governance.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/03-check-governance.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/03-check-governance.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "da79dfd0aa257a62d6fe871a3dd662300c5213bd345bc93062e51ed44e08c598",
+      "published_sha256": "da79dfd0aa257a62d6fe871a3dd662300c5213bd345bc93062e51ed44e08c598",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/04-check-provenance.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/04-check-provenance.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748",
+      "published_sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/04-check-provenance.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/04-check-provenance.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "58e836815eaf7fcb89cfe40026b56fdd56ac143644dd040646722e3c6abb59fe",
+      "published_sha256": "58e836815eaf7fcb89cfe40026b56fdd56ac143644dd040646722e3c6abb59fe",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/05-build-tokens.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/05-build-tokens.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/05-build-tokens.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/05-build-tokens.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "ff22e12b0f529d3a421dabef72905f4c15ddf87171642466c6654bbab80c4d94",
+      "published_sha256": "ff22e12b0f529d3a421dabef72905f4c15ddf87171642466c6654bbab80c4d94",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/06-check-tokens.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/06-check-tokens.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "11f225ee7acc5e10b9bc9e6d47e93b54e26fe0f59069028ab34b69638613ec16",
+      "published_sha256": "11f225ee7acc5e10b9bc9e6d47e93b54e26fe0f59069028ab34b69638613ec16",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/06-check-tokens.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/06-check-tokens.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "00fdd3c3a426aa3f354019eb14682cb353c3dc8abbeb841ba6f0965c74f87b6d",
+      "published_sha256": "00fdd3c3a426aa3f354019eb14682cb353c3dc8abbeb841ba6f0965c74f87b6d",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/07-check-tokens-tailwind.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/07-check-tokens-tailwind.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "76732076d9370dd401475fcfa73e25d570ffa58bf658fc30d00d066c532eddb6",
+      "published_sha256": "76732076d9370dd401475fcfa73e25d570ffa58bf658fc30d00d066c532eddb6",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/07-check-tokens-tailwind.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/07-check-tokens-tailwind.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "758ece69d16f68e5bc141702f230662ab69bb62a1eaa4bbf9943bfb38485b927",
+      "published_sha256": "758ece69d16f68e5bc141702f230662ab69bb62a1eaa4bbf9943bfb38485b927",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/08-build-assets.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/08-build-assets.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/08-build-assets.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/08-build-assets.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "976933c03ad9843d802023b0d77b667ec792853fb6bc1cb51e78aa6e3e4755ba",
+      "published_sha256": "976933c03ad9843d802023b0d77b667ec792853fb6bc1cb51e78aa6e3e4755ba",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/09-check-assets.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/09-check-assets.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "c4ddf6422493c66621a6ae5ab53e57d01eeb7e6a2483011613d4d3b19268ffce",
+      "published_sha256": "c4ddf6422493c66621a6ae5ab53e57d01eeb7e6a2483011613d4d3b19268ffce",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/09-check-assets.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/09-check-assets.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "0ccba5d789c54b1102550cf02a01f489f7544fae3dbd7f440283e88fc30e1463",
+      "published_sha256": "0ccba5d789c54b1102550cf02a01f489f7544fae3dbd7f440283e88fc30e1463",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/10-check-accessibility.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/10-check-accessibility.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "b0ee0766c9119fb966df345fbb03470fa41c5d76afd847712f727e3f70123792",
+      "published_sha256": "b0ee0766c9119fb966df345fbb03470fa41c5d76afd847712f727e3f70123792",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/10-check-accessibility.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/10-check-accessibility.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "d41c1dd8a360364d189d1f8bc25269404baf4c4c3c49e98fb20660799ddb2ea6",
+      "published_sha256": "d41c1dd8a360364d189d1f8bc25269404baf4c4c3c49e98fb20660799ddb2ea6",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/11-check-accessibility-browser.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/11-check-accessibility-browser.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "755b426b01b9d656799a072407504c0e4f7047709b7f90efe031c63c48992bc5",
+      "published_sha256": "755b426b01b9d656799a072407504c0e4f7047709b7f90efe031c63c48992bc5",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/11-check-accessibility-browser.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/11-check-accessibility-browser.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "5f123b261b20ade3396397792dfecdbdd8057f9a8e49e0ae33908e3adff9f5c1",
+      "published_sha256": "5f123b261b20ade3396397792dfecdbdd8057f9a8e49e0ae33908e3adff9f5c1",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/12-check-guidelines.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/12-check-guidelines.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "ced9ba7d410a6643d74f3d374b4119ffbedab3d05d85a1d60d7b989ceabe15a1",
+      "published_sha256": "ced9ba7d410a6643d74f3d374b4119ffbedab3d05d85a1d60d7b989ceabe15a1",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/12-check-guidelines.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/12-check-guidelines.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "771759ae7b2217484da8f0e4c7f19d789f9e1e205aeb74a6c4fa949b2662261f",
+      "published_sha256": "771759ae7b2217484da8f0e4c7f19d789f9e1e205aeb74a6c4fa949b2662261f",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/13-test.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/13-test.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "5c6ca62813cabf8c38883a5136f0736361b3e3db4dafef7d67903cc39d7d930a",
+      "published_sha256": "5c6ca62813cabf8c38883a5136f0736361b3e3db4dafef7d67903cc39d7d930a",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/13-test.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/13-test.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "6afd50dbf539fb43ea71244556a556221603ab5c4145743d150d991c3653e89a",
+      "published_sha256": "6afd50dbf539fb43ea71244556a556221603ab5c4145743d150d991c3653e89a",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/14-check-package.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/14-check-package.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/14-check-package.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/14-check-package.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "5804579e0603c7f1c61f439a1115168342a2c25c6ebf33306d384094652428c6",
+      "published_sha256": "5804579e0603c7f1c61f439a1115168342a2c25c6ebf33306d384094652428c6",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/15-package-brand.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/15-package-brand.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "71e89083a078a0bf21890172988d4e41be2e94bd1a107f2ee5a610b26082839d",
+      "published_sha256": "71e89083a078a0bf21890172988d4e41be2e94bd1a107f2ee5a610b26082839d",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/15-package-brand.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/15-package-brand.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "44cc4af0fc131d7e8ddb61697a19b3fef33e97ad3791988795121938e19c014d",
+      "published_sha256": "44cc4af0fc131d7e8ddb61697a19b3fef33e97ad3791988795121938e19c014d",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/16-check-consumers.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/16-check-consumers.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "0c081ca0951218d833ad2144a1c2d89211fe6336f0630bb6d988107976581cd0",
+      "published_sha256": "0c081ca0951218d833ad2144a1c2d89211fe6336f0630bb6d988107976581cd0",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/16-check-consumers.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/16-check-consumers.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "b2267a7015b47ff82849fecaeb089e8376e13b3348115fc1c513a7ad2178f50d",
+      "published_sha256": "b2267a7015b47ff82849fecaeb089e8376e13b3348115fc1c513a7ad2178f50d",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/17-check-consumers-browser.stderr.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/17-check-consumers-browser.stderr.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/17-check-consumers-browser.stdout.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/17-check-consumers-browser.stdout.txt",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "ea69ee86479b42a017205dfc49d1f36370542bd053bc12b3af03c21981c98228",
+      "published_sha256": "ea69ee86479b42a017205dfc49d1f36370542bd053bc12b3af03c21981c98228",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/gate/report.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/report.json",
+      "origin": "actual local leaf commands; synthetic test cases remain identified in their reports",
+      "original_sha256": "d71bdc2c59240907d4d0211d06a2a3778e48baa7b329d050ad09cb07d02b7b0e",
+      "published_sha256": "d71bdc2c59240907d4d0211d06a2a3778e48baa7b329d050ad09cb07d02b7b0e",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/local-candidate/asset-review-manifest.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/asset-review/manifest.json",
+      "origin": "local reproducible review export metadata; not a released or approved artifact",
+      "original_sha256": "019ad4815e5dacc1d9975bcfa39763474c9a14633e485562db5a3f3eb9f88bbc",
+      "published_sha256": "019ad4815e5dacc1d9975bcfa39763474c9a14633e485562db5a3f3eb9f88bbc",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/baseline/environment.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/baseline-a664cc9/environment.json",
+      "origin": "actual failed baseline setup run; preserved as failed",
+      "original_sha256": "b7962d22e881a0beb5c6ab16be7ef298dc138f626688d490519143595eff5477",
+      "published_sha256": "b7962d22e881a0beb5c6ab16be7ef298dc138f626688d490519143595eff5477",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/baseline/make-check-result.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/baseline-a664cc9/make-check-result.json",
+      "origin": "actual failed baseline setup run; preserved as failed",
+      "original_sha256": "c1a6b25654b92cd0b8a790a3523426394aacb0ce16f23f60fdd9b4f27c3be279",
+      "published_sha256": "c1a6b25654b92cd0b8a790a3523426394aacb0ce16f23f60fdd9b4f27c3be279",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "prior/baseline/make-check.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/baseline-a664cc9/make-check.log",
+      "origin": "actual failed baseline setup run; preserved as failed",
+      "original_sha256": "487fdb4db139abd3c87d028472b7c08ad9bf3ee9b24ea62c26287dd78767079c",
+      "published_sha256": "f4343d39fddb64eb7fbbc54b0f1587e5fa8d90255212894b1e5fe039e33b7fc2",
+      "withheld_line_numbers": [
+        8,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160
+      ],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "regressions/SYNTHETIC-NOT-ACCEPTANCE.txt",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/gate-subset-repro/SYNTHETIC-NOT-ACCEPTANCE.txt",
+      "origin": "SYNTHETIC validator regression fixtures only; no actual approval or consumer ACK",
+      "original_sha256": "c145813cf70af4d6837814f064c4608fa821899aee1d72786967b06ec6a561ac",
+      "published_sha256": "c145813cf70af4d6837814f064c4608fa821899aee1d72786967b06ec6a561ac",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "regressions/gate-report/report.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/gate-subset-repro/gate-report/report.json",
+      "origin": "SYNTHETIC validator regression fixtures only; no actual approval or consumer ACK",
+      "original_sha256": "91efc128b3ff8b09bf122d8232facfa41ad747e92dd16f7d7e7e8380fc40d956",
+      "published_sha256": "91efc128b3ff8b09bf122d8232facfa41ad747e92dd16f7d7e7e8380fc40d956",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "regressions/post-fix-distribution-tests.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/gate-subset-repro/post-fix-distribution-tests.json",
+      "origin": "SYNTHETIC validator regression fixtures only; no actual approval or consumer ACK",
+      "original_sha256": "8b84c181ad2c5820794dafafbeef20ddaacebf0cfb65df6049ab177493b8ab14",
+      "published_sha256": "8b84c181ad2c5820794dafafbeef20ddaacebf0cfb65df6049ab177493b8ab14",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "regressions/post-fix-distribution-tests.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/gate-subset-repro/post-fix-distribution-tests.log",
+      "origin": "SYNTHETIC validator regression fixtures only; no actual approval or consumer ACK",
+      "original_sha256": "8ee400afab20df9cd91dd4a69b2acf3eee3e104ecd644e30343592489f520bd2",
+      "published_sha256": "8ee400afab20df9cd91dd4a69b2acf3eee3e104ecd644e30343592489f520bd2",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "regressions/post-fix-final-gate-tests.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/gate-subset-repro/post-fix-final-gate-tests.json",
+      "origin": "SYNTHETIC validator regression fixtures only; no actual approval or consumer ACK",
+      "original_sha256": "6ecb205f327ca5f275d19d51a21b3cb062317f74ad849f7285ba091119f318ab",
+      "published_sha256": "6ecb205f327ca5f275d19d51a21b3cb062317f74ad849f7285ba091119f318ab",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "regressions/post-fix-final-gate-tests.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/gate-subset-repro/post-fix-final-gate-tests.log",
+      "origin": "SYNTHETIC validator regression fixtures only; no actual approval or consumer ACK",
+      "original_sha256": "6bceeb760c33a22b05c12a301d2602c450339dd8cdcd9f0bd8bb7d8b89a0e2dc",
+      "published_sha256": "6bceeb760c33a22b05c12a301d2602c450339dd8cdcd9f0bd8bb7d8b89a0e2dc",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "regressions/pre-fix-regressions.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/gate-subset-repro/pre-fix-regressions.json",
+      "origin": "SYNTHETIC validator regression fixtures only; no actual approval or consumer ACK",
+      "original_sha256": "9ac4be9fa95ab98cb9fa69f7362dfead5146f9225dac95dcc3809b7bd2f1e071",
+      "published_sha256": "9ac4be9fa95ab98cb9fa69f7362dfead5146f9225dac95dcc3809b7bd2f1e071",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "regressions/pre-fix-regressions.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/gate-subset-repro/pre-fix-regressions.log",
+      "origin": "SYNTHETIC validator regression fixtures only; no actual approval or consumer ACK",
+      "original_sha256": "b355e2afaf3e7b37f91471b93e63642bc2e2b41173a55975dc300a3f785f448c",
+      "published_sha256": "b355e2afaf3e7b37f91471b93e63642bc2e2b41173a55975dc300a3f785f448c",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "regressions/reproduction.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/gate-subset-repro/reproduction.json",
+      "origin": "SYNTHETIC validator regression fixtures only; no actual approval or consumer ACK",
+      "original_sha256": "b3f7faebb67acd91aa42d09944d30157133bfc033b1204102be1b4abd14a606a",
+      "published_sha256": "b3f7faebb67acd91aa42d09944d30157133bfc033b1204102be1b4abd14a606a",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/published/01-stderr.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/01-stderr.log",
+      "origin": "independent agent technical/docs review of the exact published candidate",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/published/01-stdout.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/01-stdout.log",
+      "origin": "independent agent technical/docs review of the exact published candidate",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/published/02-stderr.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/02-stderr.log",
+      "origin": "independent agent technical/docs review of the exact published candidate",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/published/02-stdout.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/02-stdout.log",
+      "origin": "independent agent technical/docs review of the exact published candidate",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/published/03-stderr.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/03-stderr.log",
+      "origin": "independent agent technical/docs review of the exact published candidate",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/published/03-stdout.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/03-stdout.log",
+      "origin": "independent agent technical/docs review of the exact published candidate",
+      "original_sha256": "05f8304432aafb9764f2be580f47cf21bc6391af0662cf4f21a30e80b3684d42",
+      "published_sha256": "05f8304432aafb9764f2be580f47cf21bc6391af0662cf4f21a30e80b3684d42",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/published/04-stderr.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/04-stderr.log",
+      "origin": "independent agent technical/docs review of the exact published candidate",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/published/04-stdout.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/04-stdout.log",
+      "origin": "independent agent technical/docs review of the exact published candidate",
+      "original_sha256": "513a64acf6016a0f1001c0db673180b7e00c76e27c8ce3f3f875d7708334ece7",
+      "published_sha256": "513a64acf6016a0f1001c0db673180b7e00c76e27c8ce3f3f875d7708334ece7",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/published/05-stderr.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/05-stderr.log",
+      "origin": "independent agent technical/docs review of the exact published candidate",
+      "original_sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748",
+      "published_sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/published/05-stdout.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/05-stdout.log",
+      "origin": "independent agent technical/docs review of the exact published candidate",
+      "original_sha256": "58e836815eaf7fcb89cfe40026b56fdd56ac143644dd040646722e3c6abb59fe",
+      "published_sha256": "58e836815eaf7fcb89cfe40026b56fdd56ac143644dd040646722e3c6abb59fe",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/published/06-stderr.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/06-stderr.log",
+      "origin": "independent agent technical/docs review of the exact published candidate",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/published/06-stdout.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/06-stdout.log",
+      "origin": "independent agent technical/docs review of the exact published candidate",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/published/commands.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/commands.json",
+      "origin": "independent agent technical/docs review of the exact published candidate",
+      "original_sha256": "9ddd4d1999f2497cdf684f0f06c21801fe59684482f860ea3fe3ff759f797a2a",
+      "published_sha256": "9ddd4d1999f2497cdf684f0f06c21801fe59684482f860ea3fe3ff759f797a2a",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/published/review.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/review.json",
+      "origin": "independent agent technical/docs review of the exact published candidate",
+      "original_sha256": "34efab85a352fda34beec28ad73d22110e03b55262fc13524e989d990351e27a",
+      "published_sha256": "34efab85a352fda34beec28ad73d22110e03b55262fc13524e989d990351e27a",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/published/review.md",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/review.md",
+      "origin": "independent agent technical/docs review of the exact published candidate",
+      "original_sha256": "4f25c5ee61cc67e695e7aa234800d972f8f025b516f7875d00755d366adb34b2",
+      "published_sha256": "4f25c5ee61cc67e695e7aa234800d972f8f025b516f7875d00755d366adb34b2",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/local/01-stderr.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/01-stderr.log",
+      "origin": "independent agent review of identical prepublication tree; original attribution retained",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/local/01-stdout.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/01-stdout.log",
+      "origin": "independent agent review of identical prepublication tree; original attribution retained",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/local/02-stderr.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/02-stderr.log",
+      "origin": "independent agent review of identical prepublication tree; original attribution retained",
+      "original_sha256": "f68747891cd3b7dc147dcd9a869f9c2fdd1f3782d68d809b708f7adb966745f1",
+      "published_sha256": "f68747891cd3b7dc147dcd9a869f9c2fdd1f3782d68d809b708f7adb966745f1",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/local/02-stdout.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/02-stdout.log",
+      "origin": "independent agent review of identical prepublication tree; original attribution retained",
+      "original_sha256": "cdcce8e28344e3f6dc0534f40f5e103c87cfd1cfe87e044ab71a37819ff72581",
+      "published_sha256": "1fb6facc1fe0fce996e4f652f4738ed0812499df721c248fa201ef05d19c5be5",
+      "withheld_line_numbers": [
+        8,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163
+      ],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/local/03-stderr.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/03-stderr.log",
+      "origin": "independent agent review of identical prepublication tree; original attribution retained",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/local/03-stdout.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/03-stdout.log",
+      "origin": "independent agent review of identical prepublication tree; original attribution retained",
+      "original_sha256": "5804579e0603c7f1c61f439a1115168342a2c25c6ebf33306d384094652428c6",
+      "published_sha256": "5804579e0603c7f1c61f439a1115168342a2c25c6ebf33306d384094652428c6",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/local/04-stderr.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/04-stderr.log",
+      "origin": "independent agent review of identical prepublication tree; original attribution retained",
+      "original_sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748",
+      "published_sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/local/04-stdout.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/04-stdout.log",
+      "origin": "independent agent review of identical prepublication tree; original attribution retained",
+      "original_sha256": "58e836815eaf7fcb89cfe40026b56fdd56ac143644dd040646722e3c6abb59fe",
+      "published_sha256": "58e836815eaf7fcb89cfe40026b56fdd56ac143644dd040646722e3c6abb59fe",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/local/05-stderr.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/05-stderr.log",
+      "origin": "independent agent review of identical prepublication tree; original attribution retained",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/local/05-stdout.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/05-stdout.log",
+      "origin": "independent agent review of identical prepublication tree; original attribution retained",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/local/commands.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/commands.json",
+      "origin": "independent agent review of identical prepublication tree; original attribution retained",
+      "original_sha256": "1415b70d589a7d8274e3c25070a402421a91ef4bb327254c69413bbd13e690dc",
+      "published_sha256": "1415b70d589a7d8274e3c25070a402421a91ef4bb327254c69413bbd13e690dc",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/local/review.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/review.json",
+      "origin": "independent agent review of identical prepublication tree; original attribution retained",
+      "original_sha256": "b23d7f7fb6ed3e83669b6a78a25ac3cd6cdb583ac042f098840ce04a1da85186",
+      "published_sha256": "b23d7f7fb6ed3e83669b6a78a25ac3cd6cdb583ac042f098840ce04a1da85186",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "review/local/review.md",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/review.md",
+      "origin": "independent agent review of identical prepublication tree; original attribution retained",
+      "original_sha256": "8ccfec0865437f8b74d78d41007c1a951663fe7e8998b6461d211f11abb7819f",
+      "published_sha256": "8ccfec0865437f8b74d78d41007c1a951663fe7e8998b6461d211f11abb7819f",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "setup/pinned-python-install.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/pinned-python-install.log",
+      "origin": "actual environment setup; failed installer remains failed, cached runtime verification is separate",
+      "original_sha256": "65c6b1da3041a7c7c5baa2625c53de8bff3a04905be9c12fde9cf070307c9700",
+      "published_sha256": "65c6b1da3041a7c7c5baa2625c53de8bff3a04905be9c12fde9cf070307c9700",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "setup/pinned-browser-install.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/pinned-browser-install.log",
+      "origin": "actual environment setup; failed installer remains failed, cached runtime verification is separate",
+      "original_sha256": "8415e9d30a2a56e2d075cdfb591f7b0f779a9d0efc2ed905fc45efcebeba9361",
+      "published_sha256": "8415e9d30a2a56e2d075cdfb591f7b0f779a9d0efc2ed905fc45efcebeba9361",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "setup/browser-cache.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/browser-cache.json",
+      "origin": "actual environment setup; failed installer remains failed, cached runtime verification is separate",
+      "original_sha256": "405a2c148d1ba84138ba03582758e09292167566051132d546c029b3c55296b1",
+      "published_sha256": "405a2c148d1ba84138ba03582758e09292167566051132d546c029b3c55296b1",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "setup/browser-launch.log",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/browser-launch.log",
+      "origin": "actual environment setup; failed installer remains failed, cached runtime verification is separate",
+      "original_sha256": "0823dbad1cf5d8072aef7d0a4bf7aba5b58d9e44235cd0e17d5158cb5f74ea01",
+      "published_sha256": "0823dbad1cf5d8072aef7d0a4bf7aba5b58d9e44235cd0e17d5158cb5f74ea01",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/browser/accessibility-report.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/candidate-bk10-19c0bf1/out/brand/accessibility-browser/2026-10-12T17-46-26-297Z/report.json",
+      "origin": "actual local Chromium execution; regression and consumer inputs are synthetic local fixtures, not consumer deployment evidence",
+      "original_sha256": "944a5369f4ca0b80c56e22f106f19b4de0b9cf8b8c7440b4e5063a793cbaee73",
+      "published_sha256": "944a5369f4ca0b80c56e22f106f19b4de0b9cf8b8c7440b4e5063a793cbaee73",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/browser/accessibility-regressions-report.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/candidate-bk10-19c0bf1/out/brand/accessibility-browser-regressions/2026-10-12T17-46-10-463Z-BuLmgA/report.json",
+      "origin": "actual local Chromium execution; regression and consumer inputs are synthetic local fixtures, not consumer deployment evidence",
+      "original_sha256": "d595ce6eae8fcf56318f9414efbe3f270669f96e2babd0afc1139647622ad886",
+      "published_sha256": "d595ce6eae8fcf56318f9414efbe3f270669f96e2babd0afc1139647622ad886",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "candidate/browser/consumer-report.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/candidate-bk10-19c0bf1/out/brand/consumer-browser/2026-10-12T17-47-27-113Z/report.json",
+      "origin": "actual local Chromium execution; regression and consumer inputs are synthetic local fixtures, not consumer deployment evidence",
+      "original_sha256": "e00b472703de6fcf24b4701ba7255f51fd0efe6438e773059fdc1e3636d3967d",
+      "published_sha256": "e00b472703de6fcf24b4701ba7255f51fd0efe6438e773059fdc1e3636d3967d",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    }
+  ]
+}

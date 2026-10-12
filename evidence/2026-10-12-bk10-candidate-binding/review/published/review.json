@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-12T17:45:53.245332+00:00",
+  "reviewer": "Independent pr_reconciliation subagent; no authorship of this candidate",
+  "verdict": "APPROVE",
+  "scope": "Technical gate correctness and factual documentation reconciliation only",
+  "base_sha": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+  "head_sha": "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465",
+  "head_tree": "1d9d3f7e030cf65f4737b7fe2446c83ade441579",
+  "diff_sha256": "cd67ea34d88b08be6a02837b8e106e61d0af874757ecc3aece309949cd80a25c",
+  "changed_files": [
+    {
+      "path": "docs/brand-governance.md",
+      "sha256": "ea1248927feeec6df1d4051d22e47edfa2043d08e03787d6b6bdc2ee42039f2c"
+    },
+    {
+      "path": "docs/consumers.md",
+      "sha256": "622830721acf520070b5de0adf10c8fa69ec7439e6b8d878c1af8d804639cf91"
+    },
+    {
+      "path": "docs/distribution.md",
+      "sha256": "51ab59640b585e17a72739d98f71b0a14c518ddb3d00a8efbb80f2e8577a6a5d"
+    },
+    {
+      "path": "docs/identity-decision-packet.md",
+      "sha256": "1185fef2d70037e473c6299b55e01ac2f377c4241819471b009e52af0b44a29e"
+    },
+    {
+      "path": "tools/check_brand_release.py",
+      "sha256": "bf1512a7fa3f33d2f5f3f99afe43b11452076b505d7de16c2807b5b8f36abe22"
+    },
+    {
+      "path": "tools/tests/test_distribution.py",
+      "sha256": "40f5a89a0cb213114592fcf3fce8bc96c430773f3f0b828271daa505fff556b6"
+    }
+  ],
+  "findings": [],
+  "source_evidence": [
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/7#issuecomment-6105489382",
+      "verified": "Exact comment fetched independently; records user-assigned marketing root reviewer/receiver and preserves source-owned rights."
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/5#issuecomment-6112307412",
+      "verified": "Exact later comment fetched independently; confirms same role and no invented human-only marketing dependency."
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/landing-page-repo/blob/dda1b5d48e71ed9c111b82111676b7ef033fe5ef/integration/brand-consumption.md",
+      "blob_sha": "aac353c1195f10fda0e337f1c557d94b1864b378",
+      "verified": "Fetched independently; supports six-family/fallback/Archivo and 17x21 CSS stamp observations; all approval and rendered evidence pending."
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/marketing-material/blob/79ae21607eb4d98188f85ce3c42b8be6eb5688bc/review/brand-consumption.md",
+      "blob_sha": "950df41c6753f17806e2f122c8e79c2b23a3b4b2",
+      "verified": "Fetched independently; source reference only, upstream binaries not imported, final conformance blocked."
+    }
+  ],
+  "commands": [
+    {
+      "command": [
+        "git",
+        "diff",
+        "--exit-code",
+        "6df0b84cd556b9405903a425965bed85eb018014",
+        "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.004,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/01-stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/01-stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+        "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.009,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/02-stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/02-stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "command": [
+        "git",
+        "rev-parse",
+        "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465^{tree}",
+        "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465^"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.004,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/03-stdout.log",
+          "sha256": "05f8304432aafb9764f2be580f47cf21bc6391af0662cf4f21a30e80b3684d42"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/03-stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "command": [
+        "make",
+        "check-package",
+        "PYTHON=/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.187,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/04-stdout.log",
+          "sha256": "513a64acf6016a0f1001c0db673180b7e00c76e27c8ce3f3f875d7708334ece7"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/04-stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "command": [
+        "make",
+        "check-provenance",
+        "PYTHON=/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python"
+      ],
+      "exit_code": 2,
+      "elapsed_seconds": 0.074,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/05-stdout.log",
+          "sha256": "58e836815eaf7fcb89cfe40026b56fdd56ac143644dd040646722e3c6abb59fe"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/05-stderr.log",
+          "sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748"
+        }
+      }
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--porcelain"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.003,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/06-stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-19c0bf1/06-stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    }
+  ],
+  "verification_summary": {
+    "make_check": "PASS: 289 tests, 117 inventory entries, 378 resolved local links; 163 external links UNCHECKED by offline checker. Token determinism/parity, governance, provenance structure, contrast, guidelines passed.",
+    "check_package": "PASS on actual remote SHA: deterministic 25-file local review archive; files_digest 738026492ee5ce8b9e8b39e04e20e994fd48d6954acfc39621acaaa2bc4963b5; archive_sha256 2b2e62a6766bb424e3fa361bdc15b4bec30ef8f9930bfe1f41d3bdf56ecd3e7f; release_approved false.",
+    "check_provenance": "EXPECTED BLOCKED exit 2: 23 uncleared core files; empty/unreviewed allowlist; six reported problems. This remains a failed release prerequisite, not a release pass.",
+    "working_tree": "Clean after verification.",
+    "same_tree": "PASS: remote and local complete Git trees equal 1d9d3f7e030cf65f4737b7fe2446c83ade441579; both base-to-head diffs SHA256 cd67ea34d88b08be6a02837b8e106e61d0af874757ecc3aece309949cd80a25c."
+  },
+  "technical_conclusions": [
+    "The approved subset is reconstructed separately from the larger review proposal. Manual and consumer receipts bind its exact file-set digest.",
+    "The actual package-brand output must exist as a regular nonsymlink file and match the reconstructed ZIP bytes. Failed command outcome remains blocking even if matching output exists.",
+    "Unapproved review fallback is retained as diagnostics with an explicit blocker. No archive or synthetic receipt grants release approval.",
+    "Asset builds use each fresh gate output directory; existing evidence and earlier failed outputs remain intact.",
+    "Nested exception details are excluded from reports through fixed messages, with a sentinel regression.",
+    "Documentation records pre-existing foreign supervisor authority without assigning it to this reviewer or brand-kit agent. Identity rules, actual approvals, tokens/assets and consumer files are unchanged."
+  ],
+  "limitations": [
+    "This is an independent technical/docs review verdict, not a formal GitHub review submission or an accountable brand/rights/font/consumer/release decision.",
+    "Full structural suite (289 tests) was run on the byte-identical local tree at 6df0b84cd556b9405903a425965bed85eb018014; independently reran exact-source package and fail-closed provenance checks on the actual remote commit. Root separately executes the full 17-target gate on the remote commit.",
+    "Synthetic test receipts are validator fixtures only; no real acceptance record was changed.",
+    "No external font/provider/consumer-browser evidence was acquired in this review. Missing rights, identity and consumer acceptance remain release blockers."
+  ],
+  "release_approved": false,
+  "brand_identity_approved": false,
+  "consumer_ack_supplied": false,
+  "published_head_confirmation_pending": false,
+  "published_candidate": {
+    "remote_ref": "refs/heads/fix/bk-10-candidate-evidence",
+    "sha": "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465",
+    "parent_sha": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+    "tree_sha": "1d9d3f7e030cf65f4737b7fe2446c83ade441579",
+    "commit_api_url": "https://api.github.com/repos/Jevelopers-neatHack-2026/brand-kit/git/commits/19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465",
+    "ref_api_url": "https://api.github.com/repos/Jevelopers-neatHack-2026/brand-kit/git/ref/heads/fix/bk-10-candidate-evidence",
+    "independently_fetched_from_github": true
+  },
+  "preserved_local_review": {
+    "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/review.json",
+    "sha256": "b23d7f7fb6ed3e83669b6a78a25ac3cd6cdb583ac042f098840ce04a1da85186",
+    "source_sha": "6df0b84cd556b9405903a425965bed85eb018014",
+    "tree_sha": "1d9d3f7e030cf65f4737b7fe2446c83ade441579",
+    "verification": "Full six-file diff and 289-test suite preserved against local prepublication SHA. Published candidate has identical complete tree and diff; only commit metadata changed."
+  },
+  "source_specific_package_check": {
+    "archive_sha256": "2b2e62a6766bb424e3fa361bdc15b4bec30ef8f9930bfe1f41d3bdf56ecd3e7f",
+    "deterministic": true,
+    "file_count": 25,
+    "files_digest": "738026492ee5ce8b9e8b39e04e20e994fd48d6954acfc39621acaaa2bc4963b5",
+    "mode": "offline_review_candidate",
+    "release_approved": false,
+    "source_sha": "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465",
+    "toolchain": {
+      "python": "3.12.14",
+      "zip": "ZIP_STORED"
+    }
+  }
+}

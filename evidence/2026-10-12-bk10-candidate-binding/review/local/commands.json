@@ -1,0 +1,99 @@
+[
+  {
+    "command": [
+      "git",
+      "diff",
+      "--check",
+      "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+      "6df0b84cd556b9405903a425965bed85eb018014"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.007,
+    "streams": {
+      "stdout": {
+        "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/01-stdout.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/01-stderr.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  },
+  {
+    "command": [
+      "make",
+      "check",
+      "PYTHON=/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 69.596,
+    "streams": {
+      "stdout": {
+        "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/02-stdout.log",
+        "sha256": "cdcce8e28344e3f6dc0534f40f5e103c87cfd1cfe87e044ab71a37819ff72581"
+      },
+      "stderr": {
+        "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/02-stderr.log",
+        "sha256": "f68747891cd3b7dc147dcd9a869f9c2fdd1f3782d68d809b708f7adb966745f1"
+      }
+    }
+  },
+  {
+    "command": [
+      "make",
+      "check-package",
+      "PYTHON=/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 1.787,
+    "streams": {
+      "stdout": {
+        "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/03-stdout.log",
+        "sha256": "5804579e0603c7f1c61f439a1115168342a2c25c6ebf33306d384094652428c6"
+      },
+      "stderr": {
+        "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/03-stderr.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  },
+  {
+    "command": [
+      "make",
+      "check-provenance",
+      "PYTHON=/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python"
+    ],
+    "exit_code": 2,
+    "elapsed_seconds": 0.173,
+    "streams": {
+      "stdout": {
+        "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/04-stdout.log",
+        "sha256": "58e836815eaf7fcb89cfe40026b56fdd56ac143644dd040646722e3c6abb59fe"
+      },
+      "stderr": {
+        "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/04-stderr.log",
+        "sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748"
+      }
+    }
+  },
+  {
+    "command": [
+      "git",
+      "status",
+      "--porcelain"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.005,
+    "streams": {
+      "stdout": {
+        "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/05-stdout.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "/workspace/scratch/3af480cc2b4f/validation/reviews/bk10-6df0b84/05-stderr.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  }
+]

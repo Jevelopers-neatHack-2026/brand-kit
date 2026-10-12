@@ -1,0 +1,188 @@
+{
+  "artifact": {
+    "archive_sha256": "d50c3f05a69d74ff94d1f9fee5d27cf499c4a0534d732278715c2a89d8d8e8c9",
+    "brand_version": null,
+    "files_digest": "bc7cd5a7c7fffe42e8d48059bdebd31b6dc83a24a3ad6d1bf1fc838bc1095dc6",
+    "kind": "review_candidate",
+    "source_sha": "54e40146613ff54411777d53da03c78a3f25d7ad",
+    "token_profile": {
+      "name": "ticketstub-token-profile",
+      "version": "1.0.0"
+    }
+  },
+  "blockers": [
+    "BK-01: acceptance evidence is stale for the exact candidate",
+    "BK-02: acceptance evidence is stale for the exact candidate",
+    "BK-03A: acceptance evidence is stale for the exact candidate",
+    "BK-03B: acceptance evidence is stale for the exact candidate",
+    "BK-04: acceptance evidence is stale for the exact candidate",
+    "BK-05: acceptance evidence is stale for the exact candidate",
+    "BK-06: acceptance evidence is stale for the exact candidate",
+    "BK-07: acceptance evidence is stale for the exact candidate",
+    "BK-08: acceptance evidence is stale for the exact candidate",
+    "BK-09: acceptance evidence is stale for the exact candidate",
+    "getticketstub.com: acknowledgment does not bind this exact export",
+    "landing-page-repo: acknowledgment does not bind this exact export",
+    "marketing-material: acknowledgment does not bind this exact export",
+    "identity_ratification: evidence is stale for the exact exported files",
+    "rights_review: evidence is stale for the exact exported files",
+    "visual_assets: evidence is stale for the exact exported files",
+    "browser_accessibility: evidence is stale for the exact exported files",
+    "external_font_available_and_unavailable: evidence is stale for the exact exported files",
+    "claims_review: evidence is stale for the exact exported files",
+    "sanitization_and_history: evidence is stale for the exact exported files",
+    "upgrade_and_approved_rollback: evidence is stale for the exact exported files",
+    "release review is stale for the exact exported files"
+  ],
+  "commands": [
+    {
+      "exit_code": 0,
+      "mode": "MOCKED FOR ISOLATION",
+      "required": true,
+      "result": "pass",
+      "target": "check-inventory"
+    },
+    {
+      "exit_code": 0,
+      "mode": "MOCKED FOR ISOLATION",
+      "required": true,
+      "result": "pass",
+      "target": "check-links"
+    },
+    {
+      "exit_code": 0,
+      "mode": "MOCKED FOR ISOLATION",
+      "required": true,
+      "result": "pass",
+      "target": "check-governance"
+    },
+    {
+      "exit_code": 0,
+      "mode": "MOCKED FOR ISOLATION",
+      "required": true,
+      "result": "pass",
+      "target": "check-provenance"
+    },
+    {
+      "exit_code": 0,
+      "mode": "MOCKED FOR ISOLATION",
+      "required": true,
+      "result": "pass",
+      "target": "build-tokens"
+    },
+    {
+      "exit_code": 0,
+      "mode": "MOCKED FOR ISOLATION",
+      "required": true,
+      "result": "pass",
+      "target": "check-tokens"
+    },
+    {
+      "exit_code": 0,
+      "mode": "MOCKED FOR ISOLATION",
+      "required": true,
+      "result": "pass",
+      "target": "check-tokens-tailwind"
+    },
+    {
+      "exit_code": 0,
+      "mode": "MOCKED FOR ISOLATION",
+      "required": true,
+      "result": "pass",
+      "target": "build-assets"
+    },
+    {
+      "exit_code": 0,
+      "mode": "MOCKED FOR ISOLATION",
+      "required": true,
+      "result": "pass",
+      "target": "check-assets"
+    },
+    {
+      "exit_code": 0,
+      "mode": "MOCKED FOR ISOLATION",
+      "required": true,
+      "result": "pass",
+      "target": "check-accessibility"
+    },
+    {
+      "exit_code": 0,
+      "mode": "MOCKED FOR ISOLATION",
+      "required": true,
+      "result": "pass",
+      "target": "check-accessibility-browser"
+    },
+    {
+      "exit_code": 0,
+      "mode": "MOCKED FOR ISOLATION",
+      "required": true,
+      "result": "pass",
+      "target": "check-guidelines"
+    },
+    {
+      "exit_code": 0,
+      "mode": "MOCKED FOR ISOLATION",
+      "required": true,
+      "result": "pass",
+      "target": "test"
+    },
+    {
+      "exit_code": 0,
+      "mode": "MOCKED FOR ISOLATION",
+      "required": true,
+      "result": "pass",
+      "target": "check-package"
+    },
+    {
+      "exit_code": 0,
+      "mode": "MOCKED FOR ISOLATION",
+      "required": true,
+      "result": "pass",
+      "target": "package-brand"
+    },
+    {
+      "exit_code": 0,
+      "mode": "MOCKED FOR ISOLATION",
+      "required": true,
+      "result": "pass",
+      "target": "check-consumers"
+    },
+    {
+      "exit_code": 0,
+      "mode": "MOCKED FOR ISOLATION",
+      "required": true,
+      "result": "pass",
+      "target": "check-consumers-browser"
+    }
+  ],
+  "foreign_acceptance_changed": false,
+  "limitations": [
+    "Unsigned local report: data integrity and field checks do not authenticate reviewer authority.",
+    "Required missing, failed and skipped checks remain blocking; no prior failure is overwritten.",
+    "No artifact is published, provider invoked intentionally, gate/epic closed or global criterion verified."
+  ],
+  "next_owner_action": "Product/frontend approver and named technical, provenance, consumer and release reviewers must authenticate exact evidence.",
+  "recorded_at": "2026-10-12T17:35:02.091153+00:00",
+  "release_approved": false,
+  "required_leaves": {
+    "BK-01": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6",
+    "BK-02": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9",
+    "BK-03A": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/10",
+    "BK-03B": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14",
+    "BK-04": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11",
+    "BK-05": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13",
+    "BK-06": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7",
+    "BK-07": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8",
+    "BK-08": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12",
+    "BK-09": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15"
+  },
+  "result": "blocked",
+  "schema_version": 1,
+  "scope": "BK-10 repository-local evidence only",
+  "source_sha": "54e40146613ff54411777d53da03c78a3f25d7ad",
+  "source_tree": "9ed863332cdcba4f52a4fe6504c51f7353e37caf",
+  "toolchain": {
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "python": "3.12.14"
+  }
+}

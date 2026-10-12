@@ -1,0 +1,27 @@
+test_alpha_and_missing_knockout_fail (tools.tests.test_assets.PngValidationTests.test_alpha_and_missing_knockout_fail) ... ok
+test_antialiased_edge_transparency_is_not_required_to_reach_zero (tools.tests.test_assets.PngValidationTests.test_antialiased_edge_transparency_is_not_required_to_reach_zero) ... ok
+test_canonical_png_metadata_and_knockout (tools.tests.test_assets.PngValidationTests.test_canonical_png_metadata_and_knockout) ... ok
+test_corrupt_chunks_fail (tools.tests.test_assets.PngValidationTests.test_corrupt_chunks_fail) ... ok
+test_repeated_encoding_is_byte_stable (tools.tests.test_assets.PngValidationTests.test_repeated_encoding_is_byte_stable) ... ok
+test_resealed_malformed_metadata_and_order_rejected (tools.tests.test_assets.PngValidationTests.test_resealed_malformed_metadata_and_order_rejected) ... ok
+test_unlabeled_rgb_and_wrong_dpi_fail (tools.tests.test_assets.PngValidationTests.test_unlabeled_rgb_and_wrong_dpi_fail) ... ok
+test_wrong_dimensions_fail (tools.tests.test_assets.PngValidationTests.test_wrong_dimensions_fail) ... ok
+test_current_palette_and_source_font_pins_pass (tools.tests.test_assets.SourceParityTests.test_current_palette_and_source_font_pins_pass) ... ok
+test_matrix_cannot_omit_required_review_coverage (tools.tests.test_assets.SourceParityTests.test_matrix_cannot_omit_required_review_coverage) ... ok
+test_palette_drift_fails_before_rebuild (tools.tests.test_assets.SourceParityTests.test_palette_drift_fails_before_rebuild) ... ok
+test_pinned_generator_preserves_every_canonical_svg (tools.tests.test_assets.SourceParityTests.test_pinned_generator_preserves_every_canonical_svg) ... ok
+test_validator_cli_positive_and_negative_exit_codes (tools.tests.test_assets.SourceParityTests.test_validator_cli_positive_and_negative_exit_codes) ... ok
+test_active_external_and_font_content_rejected_before_render (tools.tests.test_assets.SvgValidationTests.test_active_external_and_font_content_rejected_before_render) ... ok
+test_all_canonical_vectors_fit_profile_and_bounds (tools.tests.test_assets.SvgValidationTests.test_all_canonical_vectors_fit_profile_and_bounds) ... ok
+test_currentcolor_requires_explicit_raster_context (tools.tests.test_assets.SvgValidationTests.test_currentcolor_requires_explicit_raster_context) ... ok
+test_event_style_and_external_reference_attributes_rejected (tools.tests.test_assets.SvgValidationTests.test_event_style_and_external_reference_attributes_rejected) ... ok
+test_local_gradient_and_knockout_supported (tools.tests.test_assets.SvgValidationTests.test_local_gradient_and_knockout_supported) ... ok
+test_malformed_viewbox_dimensions_and_aspect_ratio_rejected (tools.tests.test_assets.SvgValidationTests.test_malformed_viewbox_dimensions_and_aspect_ratio_rejected) ... ok
+test_outline_clipping_empty_and_bad_transforms_rejected (tools.tests.test_assets.SvgValidationTests.test_outline_clipping_empty_and_bad_transforms_rejected) ... ok
+test_valid_outlined_fixture (tools.tests.test_assets.SvgValidationTests.test_valid_outlined_fixture) ... ok
+test_xml_declarations_entities_and_processing_instructions_rejected (tools.tests.test_assets.SvgValidationTests.test_xml_declarations_entities_and_processing_instructions_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 1.645s
+
+OK

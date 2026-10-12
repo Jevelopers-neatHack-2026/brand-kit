@@ -1,0 +1,16 @@
+{
+  "scope": "Synthetic isolated regressions with newly added tests against pre-fix implementation; not actual acceptance",
+  "command": [
+    "/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "tools.tests.test_distribution.DistributionTests.test_gate_binds_approved_subset_to_actual_package_output",
+    "tools.tests.test_distribution.DistributionTests.test_gate_stale_consumer_receipt_does_not_approve_subset",
+    "tools.tests.test_distribution.DistributionTests.test_gate_requires_matching_package_bytes_and_successful_command",
+    "tools.tests.test_distribution.DistributionTests.test_gate_review_archive_is_diagnostic_when_approval_is_absent",
+    "tools.tests.test_distribution.DistributionTests.test_gate_asset_builds_use_fresh_outputs_across_revisions"
+  ],
+  "exit_code": 1,
+  "elapsed_seconds": 11.561
+}

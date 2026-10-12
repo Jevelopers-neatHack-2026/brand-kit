@@ -1,0 +1,6 @@
+/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python -I tools/build_assets.py check
+PASS: 14 canonical SVGs unchanged; 4 PNG exports; 80 QA cases; two builds match (185 files).
+Source revision: 19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465; input changes: 0
+Manifest SHA-256: 822d5951264aefd2b47889cf207f6c980f859fdbb164acfdb7e9800b8346aca7
+Release/identity/rights/consumer approval: PENDING. No font distribution or provider call.
+/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python -m unittest tools.tests.test_assets -v

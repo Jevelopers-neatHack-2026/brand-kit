@@ -1,0 +1,9 @@
+{
+  "source": "existing local Chromium cache; reused read-only after failed network installer",
+  "executable": "/tmp/ticketstub-browser-1194/chromium_headless_shell-1194/chrome-linux/headless_shell",
+  "sha256": "6c82af1bb96955970f0ff50884bcbd75f200222414dc136076ada667bf4628d1",
+  "version": "Chromium 141.0.7390.37",
+  "exit_code": 0,
+  "playwright_version": "1.56.1",
+  "installation_attempt": "pinned-browser-install.log retained as failed; cached runtime is separate evidence"
+}

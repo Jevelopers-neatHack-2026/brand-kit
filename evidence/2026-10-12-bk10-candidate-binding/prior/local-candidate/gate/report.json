@@ -1,0 +1,574 @@
+{
+  "artifact": {
+    "archive_sha256": "e2a08376e036133e2d842117576d7c45b31e80379c7e6ac4ffd328062b525f1c",
+    "brand_version": null,
+    "files_digest": "738026492ee5ce8b9e8b39e04e20e994fd48d6954acfc39621acaaa2bc4963b5",
+    "from_package_brand": false,
+    "kind": "review_candidate",
+    "path": "review-brand.zip",
+    "source_sha": "6df0b84cd556b9405903a425965bed85eb018014",
+    "token_profile": {
+      "name": "ticketstub-token-profile",
+      "version": "1.0.0"
+    }
+  },
+  "blockers": [
+    "approved artifact unavailable; review archive is diagnostic only",
+    "no exact reviewed distribution source SHA is recorded",
+    "brand version has not been selected by the owner",
+    "distribution: missing exact decision fields",
+    "font_delivery: missing exact decision fields",
+    "BK-01: missing exact decision fields",
+    "BK-02: missing exact decision fields",
+    "BK-03A: missing exact decision fields",
+    "BK-03B: missing exact decision fields",
+    "BK-04: missing exact decision fields",
+    "BK-05: missing exact decision fields",
+    "BK-06: missing exact decision fields",
+    "BK-07: missing exact decision fields",
+    "BK-08: missing exact decision fields",
+    "BK-09: missing exact decision fields",
+    "getticketstub.com: missing exact decision fields",
+    "landing-page-repo: missing exact decision fields",
+    "marketing-material: missing exact decision fields",
+    "identity_ratification: missing exact decision fields",
+    "rights_review: missing exact decision fields",
+    "visual_assets: missing exact decision fields",
+    "browser_accessibility: missing exact decision fields",
+    "external_font_available_and_unavailable: missing exact decision fields",
+    "claims_review: missing exact decision fields",
+    "sanitization_and_history: missing exact decision fields",
+    "upgrade_and_approved_rollback: missing exact decision fields",
+    "release_review: missing exact decision fields",
+    "check-provenance: required command did not pass",
+    "package-brand: required command did not pass",
+    "check-consumers: required command did not pass"
+  ],
+  "commands": [
+    {
+      "command": [
+        "make",
+        "check-inventory"
+      ],
+      "elapsed_seconds": 0.128,
+      "exit_code": 0,
+      "mode": "local_repository_check",
+      "provider_execution_authorized": false,
+      "reason": null,
+      "required": true,
+      "result": "pass",
+      "started_at": "2026-10-12T17:41:58.221210+00:00",
+      "streams": {
+        "stderr": {
+          "original_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "path": "01-check-inventory.stderr.txt",
+          "sanitized": true,
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+        },
+        "stdout": {
+          "original_stream_sha256": "1659b05a9874c5399ae177b40ce2ecdbbd635f584881fb96b03ebbe41b794edc",
+          "path": "01-check-inventory.stdout.txt",
+          "sanitized": true,
+          "sha256": "1659b05a9874c5399ae177b40ce2ecdbbd635f584881fb96b03ebbe41b794edc"
+        }
+      },
+      "target": "check-inventory"
+    },
+    {
+      "command": [
+        "make",
+        "check-links"
+      ],
+      "elapsed_seconds": 0.263,
+      "exit_code": 0,
+      "mode": "local_repository_check",
+      "provider_execution_authorized": false,
+      "reason": null,
+      "required": true,
+      "result": "pass",
+      "started_at": "2026-10-12T17:41:58.349489+00:00",
+      "streams": {
+        "stderr": {
+          "original_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "path": "02-check-links.stderr.txt",
+          "sanitized": true,
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+        },
+        "stdout": {
+          "original_stream_sha256": "7677a29e8be4168f81640765294dfcefabb90a87f3df9924cb83627dcb3bba50",
+          "path": "02-check-links.stdout.txt",
+          "sanitized": true,
+          "sha256": "ccfd0c22ba1e2d733b9e23d89eb1ced20421a27db47dd924abd2f4d41ce03389"
+        }
+      },
+      "target": "check-links"
+    },
+    {
+      "command": [
+        "make",
+        "check-governance"
+      ],
+      "elapsed_seconds": 0.095,
+      "exit_code": 0,
+      "mode": "local_repository_check",
+      "provider_execution_authorized": false,
+      "reason": null,
+      "required": true,
+      "result": "pass",
+      "started_at": "2026-10-12T17:41:58.612655+00:00",
+      "streams": {
+        "stderr": {
+          "original_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "path": "03-check-governance.stderr.txt",
+          "sanitized": true,
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+        },
+        "stdout": {
+          "original_stream_sha256": "da79dfd0aa257a62d6fe871a3dd662300c5213bd345bc93062e51ed44e08c598",
+          "path": "03-check-governance.stdout.txt",
+          "sanitized": true,
+          "sha256": "da79dfd0aa257a62d6fe871a3dd662300c5213bd345bc93062e51ed44e08c598"
+        }
+      },
+      "target": "check-governance"
+    },
+    {
+      "command": [
+        "make",
+        "check-provenance"
+      ],
+      "elapsed_seconds": 0.219,
+      "exit_code": 2,
+      "mode": "local_repository_check",
+      "provider_execution_authorized": false,
+      "reason": null,
+      "required": true,
+      "result": "fail",
+      "started_at": "2026-10-12T17:41:58.707232+00:00",
+      "streams": {
+        "stderr": {
+          "original_stream_sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748",
+          "path": "04-check-provenance.stderr.txt",
+          "sanitized": true,
+          "sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748"
+        },
+        "stdout": {
+          "original_stream_sha256": "58e836815eaf7fcb89cfe40026b56fdd56ac143644dd040646722e3c6abb59fe",
+          "path": "04-check-provenance.stdout.txt",
+          "sanitized": true,
+          "sha256": "58e836815eaf7fcb89cfe40026b56fdd56ac143644dd040646722e3c6abb59fe"
+        }
+      },
+      "target": "check-provenance"
+    },
+    {
+      "command": [
+        "make",
+        "build-tokens"
+      ],
+      "elapsed_seconds": 0.173,
+      "exit_code": 0,
+      "mode": "local_repository_check",
+      "provider_execution_authorized": false,
+      "reason": null,
+      "required": true,
+      "result": "pass",
+      "started_at": "2026-10-12T17:41:58.926215+00:00",
+      "streams": {
+        "stderr": {
+          "original_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "path": "05-build-tokens.stderr.txt",
+          "sanitized": true,
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+        },
+        "stdout": {
+          "original_stream_sha256": "ff22e12b0f529d3a421dabef72905f4c15ddf87171642466c6654bbab80c4d94",
+          "path": "05-build-tokens.stdout.txt",
+          "sanitized": true,
+          "sha256": "ff22e12b0f529d3a421dabef72905f4c15ddf87171642466c6654bbab80c4d94"
+        }
+      },
+      "target": "build-tokens"
+    },
+    {
+      "command": [
+        "make",
+        "check-tokens"
+      ],
+      "elapsed_seconds": 4.091,
+      "exit_code": 0,
+      "mode": "local_repository_check",
+      "provider_execution_authorized": false,
+      "reason": null,
+      "required": true,
+      "result": "pass",
+      "started_at": "2026-10-12T17:41:59.099419+00:00",
+      "streams": {
+        "stderr": {
+          "original_stream_sha256": "11f225ee7acc5e10b9bc9e6d47e93b54e26fe0f59069028ab34b69638613ec16",
+          "path": "06-check-tokens.stderr.txt",
+          "sanitized": true,
+          "sha256": "11f225ee7acc5e10b9bc9e6d47e93b54e26fe0f59069028ab34b69638613ec16"
+        },
+        "stdout": {
+          "original_stream_sha256": "00fdd3c3a426aa3f354019eb14682cb353c3dc8abbeb841ba6f0965c74f87b6d",
+          "path": "06-check-tokens.stdout.txt",
+          "sanitized": true,
+          "sha256": "00fdd3c3a426aa3f354019eb14682cb353c3dc8abbeb841ba6f0965c74f87b6d"
+        }
+      },
+      "target": "check-tokens"
+    },
+    {
+      "command": [
+        "make",
+        "check-tokens-tailwind"
+      ],
+      "elapsed_seconds": 6.998,
+      "exit_code": 0,
+      "mode": "local_repository_check",
+      "provider_execution_authorized": false,
+      "reason": null,
+      "required": true,
+      "result": "pass",
+      "started_at": "2026-10-12T17:42:03.190145+00:00",
+      "streams": {
+        "stderr": {
+          "original_stream_sha256": "76732076d9370dd401475fcfa73e25d570ffa58bf658fc30d00d066c532eddb6",
+          "path": "07-check-tokens-tailwind.stderr.txt",
+          "sanitized": true,
+          "sha256": "76732076d9370dd401475fcfa73e25d570ffa58bf658fc30d00d066c532eddb6"
+        },
+        "stdout": {
+          "original_stream_sha256": "758ece69d16f68e5bc141702f230662ab69bb62a1eaa4bbf9943bfb38485b927",
+          "path": "07-check-tokens-tailwind.stdout.txt",
+          "sanitized": true,
+          "sha256": "758ece69d16f68e5bc141702f230662ab69bb62a1eaa4bbf9943bfb38485b927"
+        }
+      },
+      "target": "check-tokens-tailwind"
+    },
+    {
+      "command": [
+        "make",
+        "build-assets",
+        "ASSET_OUTPUT=/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/asset-review"
+      ],
+      "elapsed_seconds": 23.704,
+      "exit_code": 0,
+      "mode": "local_repository_check",
+      "provider_execution_authorized": false,
+      "reason": null,
+      "required": true,
+      "result": "pass",
+      "started_at": "2026-10-12T17:42:10.187963+00:00",
+      "streams": {
+        "stderr": {
+          "original_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "path": "08-build-assets.stderr.txt",
+          "sanitized": true,
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+        },
+        "stdout": {
+          "original_stream_sha256": "976933c03ad9843d802023b0d77b667ec792853fb6bc1cb51e78aa6e3e4755ba",
+          "path": "08-build-assets.stdout.txt",
+          "sanitized": true,
+          "sha256": "976933c03ad9843d802023b0d77b667ec792853fb6bc1cb51e78aa6e3e4755ba"
+        }
+      },
+      "target": "build-assets"
+    },
+    {
+      "command": [
+        "make",
+        "check-assets"
+      ],
+      "elapsed_seconds": 48.692,
+      "exit_code": 0,
+      "mode": "local_repository_check",
+      "provider_execution_authorized": false,
+      "reason": null,
+      "required": true,
+      "result": "pass",
+      "started_at": "2026-10-12T17:42:33.892312+00:00",
+      "streams": {
+        "stderr": {
+          "original_stream_sha256": "c4ddf6422493c66621a6ae5ab53e57d01eeb7e6a2483011613d4d3b19268ffce",
+          "path": "09-check-assets.stderr.txt",
+          "sanitized": true,
+          "sha256": "c4ddf6422493c66621a6ae5ab53e57d01eeb7e6a2483011613d4d3b19268ffce"
+        },
+        "stdout": {
+          "original_stream_sha256": "0ccba5d789c54b1102550cf02a01f489f7544fae3dbd7f440283e88fc30e1463",
+          "path": "09-check-assets.stdout.txt",
+          "sanitized": true,
+          "sha256": "0ccba5d789c54b1102550cf02a01f489f7544fae3dbd7f440283e88fc30e1463"
+        }
+      },
+      "target": "check-assets"
+    },
+    {
+      "command": [
+        "make",
+        "check-accessibility"
+      ],
+      "elapsed_seconds": 3.383,
+      "exit_code": 0,
+      "mode": "local_repository_check",
+      "provider_execution_authorized": false,
+      "reason": null,
+      "required": true,
+      "result": "pass",
+      "started_at": "2026-10-12T17:43:22.583964+00:00",
+      "streams": {
+        "stderr": {
+          "original_stream_sha256": "b0ee0766c9119fb966df345fbb03470fa41c5d76afd847712f727e3f70123792",
+          "path": "10-check-accessibility.stderr.txt",
+          "sanitized": true,
+          "sha256": "b0ee0766c9119fb966df345fbb03470fa41c5d76afd847712f727e3f70123792"
+        },
+        "stdout": {
+          "original_stream_sha256": "d41c1dd8a360364d189d1f8bc25269404baf4c4c3c49e98fb20660799ddb2ea6",
+          "path": "10-check-accessibility.stdout.txt",
+          "sanitized": true,
+          "sha256": "d41c1dd8a360364d189d1f8bc25269404baf4c4c3c49e98fb20660799ddb2ea6"
+        }
+      },
+      "target": "check-accessibility"
+    },
+    {
+      "command": [
+        "make",
+        "check-accessibility-browser"
+      ],
+      "elapsed_seconds": 27.234,
+      "exit_code": 0,
+      "mode": "local_repository_check",
+      "provider_execution_authorized": false,
+      "reason": null,
+      "required": true,
+      "result": "pass",
+      "started_at": "2026-10-12T17:43:25.967048+00:00",
+      "streams": {
+        "stderr": {
+          "original_stream_sha256": "755b426b01b9d656799a072407504c0e4f7047709b7f90efe031c63c48992bc5",
+          "path": "11-check-accessibility-browser.stderr.txt",
+          "sanitized": true,
+          "sha256": "755b426b01b9d656799a072407504c0e4f7047709b7f90efe031c63c48992bc5"
+        },
+        "stdout": {
+          "original_stream_sha256": "5f123b261b20ade3396397792dfecdbdd8057f9a8e49e0ae33908e3adff9f5c1",
+          "path": "11-check-accessibility-browser.stdout.txt",
+          "sanitized": true,
+          "sha256": "5f123b261b20ade3396397792dfecdbdd8057f9a8e49e0ae33908e3adff9f5c1"
+        }
+      },
+      "target": "check-accessibility-browser"
+    },
+    {
+      "command": [
+        "make",
+        "check-guidelines"
+      ],
+      "elapsed_seconds": 0.566,
+      "exit_code": 0,
+      "mode": "local_repository_check",
+      "provider_execution_authorized": false,
+      "reason": null,
+      "required": true,
+      "result": "pass",
+      "started_at": "2026-10-12T17:43:53.200763+00:00",
+      "streams": {
+        "stderr": {
+          "original_stream_sha256": "ced9ba7d410a6643d74f3d374b4119ffbedab3d05d85a1d60d7b989ceabe15a1",
+          "path": "12-check-guidelines.stderr.txt",
+          "sanitized": true,
+          "sha256": "ced9ba7d410a6643d74f3d374b4119ffbedab3d05d85a1d60d7b989ceabe15a1"
+        },
+        "stdout": {
+          "original_stream_sha256": "771759ae7b2217484da8f0e4c7f19d789f9e1e205aeb74a6c4fa949b2662261f",
+          "path": "12-check-guidelines.stdout.txt",
+          "sanitized": true,
+          "sha256": "771759ae7b2217484da8f0e4c7f19d789f9e1e205aeb74a6c4fa949b2662261f"
+        }
+      },
+      "target": "check-guidelines"
+    },
+    {
+      "command": [
+        "make",
+        "test"
+      ],
+      "elapsed_seconds": 47.312,
+      "exit_code": 0,
+      "mode": "local_repository_check",
+      "provider_execution_authorized": false,
+      "reason": null,
+      "required": true,
+      "result": "pass",
+      "started_at": "2026-10-12T17:43:53.766486+00:00",
+      "streams": {
+        "stderr": {
+          "original_stream_sha256": "5c6ca62813cabf8c38883a5136f0736361b3e3db4dafef7d67903cc39d7d930a",
+          "path": "13-test.stderr.txt",
+          "sanitized": true,
+          "sha256": "5c6ca62813cabf8c38883a5136f0736361b3e3db4dafef7d67903cc39d7d930a"
+        },
+        "stdout": {
+          "original_stream_sha256": "6afd50dbf539fb43ea71244556a556221603ab5c4145743d150d991c3653e89a",
+          "path": "13-test.stdout.txt",
+          "sanitized": true,
+          "sha256": "6afd50dbf539fb43ea71244556a556221603ab5c4145743d150d991c3653e89a"
+        }
+      },
+      "target": "test"
+    },
+    {
+      "command": [
+        "make",
+        "check-package"
+      ],
+      "elapsed_seconds": 1.041,
+      "exit_code": 0,
+      "mode": "local_repository_check",
+      "provider_execution_authorized": false,
+      "reason": null,
+      "required": true,
+      "result": "pass",
+      "started_at": "2026-10-12T17:44:41.078597+00:00",
+      "streams": {
+        "stderr": {
+          "original_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "path": "14-check-package.stderr.txt",
+          "sanitized": true,
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+        },
+        "stdout": {
+          "original_stream_sha256": "5804579e0603c7f1c61f439a1115168342a2c25c6ebf33306d384094652428c6",
+          "path": "14-check-package.stdout.txt",
+          "sanitized": true,
+          "sha256": "5804579e0603c7f1c61f439a1115168342a2c25c6ebf33306d384094652428c6"
+        }
+      },
+      "target": "check-package"
+    },
+    {
+      "command": [
+        "make",
+        "package-brand",
+        "BRAND_OUTPUT=/workspace/scratch/3af480cc2b4f/validation/candidate-6df0b84/gate/approved-brand.zip"
+      ],
+      "elapsed_seconds": 0.402,
+      "exit_code": 2,
+      "mode": "local_repository_check",
+      "provider_execution_authorized": false,
+      "reason": null,
+      "required": true,
+      "result": "fail",
+      "started_at": "2026-10-12T17:44:42.119286+00:00",
+      "streams": {
+        "stderr": {
+          "original_stream_sha256": "71e89083a078a0bf21890172988d4e41be2e94bd1a107f2ee5a610b26082839d",
+          "path": "15-package-brand.stderr.txt",
+          "sanitized": true,
+          "sha256": "71e89083a078a0bf21890172988d4e41be2e94bd1a107f2ee5a610b26082839d"
+        },
+        "stdout": {
+          "original_stream_sha256": "44cc4af0fc131d7e8ddb61697a19b3fef33e97ad3791988795121938e19c014d",
+          "path": "15-package-brand.stdout.txt",
+          "sanitized": true,
+          "sha256": "44cc4af0fc131d7e8ddb61697a19b3fef33e97ad3791988795121938e19c014d"
+        }
+      },
+      "target": "package-brand"
+    },
+    {
+      "command": [
+        "make",
+        "check-consumers"
+      ],
+      "elapsed_seconds": 1.956,
+      "exit_code": 2,
+      "mode": "local_repository_check",
+      "provider_execution_authorized": false,
+      "reason": null,
+      "required": true,
+      "result": "fail",
+      "started_at": "2026-10-12T17:44:42.521523+00:00",
+      "streams": {
+        "stderr": {
+          "original_stream_sha256": "0c081ca0951218d833ad2144a1c2d89211fe6336f0630bb6d988107976581cd0",
+          "path": "16-check-consumers.stderr.txt",
+          "sanitized": true,
+          "sha256": "0c081ca0951218d833ad2144a1c2d89211fe6336f0630bb6d988107976581cd0"
+        },
+        "stdout": {
+          "original_stream_sha256": "b2267a7015b47ff82849fecaeb089e8376e13b3348115fc1c513a7ad2178f50d",
+          "path": "16-check-consumers.stdout.txt",
+          "sanitized": true,
+          "sha256": "b2267a7015b47ff82849fecaeb089e8376e13b3348115fc1c513a7ad2178f50d"
+        }
+      },
+      "target": "check-consumers"
+    },
+    {
+      "command": [
+        "make",
+        "check-consumers-browser"
+      ],
+      "elapsed_seconds": 18.177,
+      "exit_code": 0,
+      "mode": "local_repository_check",
+      "provider_execution_authorized": false,
+      "reason": null,
+      "required": true,
+      "result": "pass",
+      "started_at": "2026-10-12T17:44:44.477440+00:00",
+      "streams": {
+        "stderr": {
+          "original_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "path": "17-check-consumers-browser.stderr.txt",
+          "sanitized": true,
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+        },
+        "stdout": {
+          "original_stream_sha256": "ea69ee86479b42a017205dfc49d1f36370542bd053bc12b3af03c21981c98228",
+          "path": "17-check-consumers-browser.stdout.txt",
+          "sanitized": true,
+          "sha256": "ea69ee86479b42a017205dfc49d1f36370542bd053bc12b3af03c21981c98228"
+        }
+      },
+      "target": "check-consumers-browser"
+    }
+  ],
+  "foreign_acceptance_changed": false,
+  "limitations": [
+    "Unsigned local report: data integrity and field checks do not authenticate reviewer authority.",
+    "Required missing, failed and skipped checks remain blocking; no prior failure is overwritten.",
+    "No artifact is published, provider invoked intentionally, gate/epic closed or global criterion verified."
+  ],
+  "next_owner_action": "Product/frontend approver and named technical, provenance, consumer and release reviewers must authenticate exact evidence.",
+  "recorded_at": "2026-10-12T17:45:03.701845+00:00",
+  "release_approved": false,
+  "required_leaves": {
+    "BK-01": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6",
+    "BK-02": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9",
+    "BK-03A": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/10",
+    "BK-03B": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14",
+    "BK-04": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11",
+    "BK-05": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13",
+    "BK-06": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7",
+    "BK-07": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8",
+    "BK-08": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12",
+    "BK-09": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15"
+  },
+  "result": "blocked",
+  "schema_version": 1,
+  "scope": "BK-10 repository-local evidence only",
+  "source_sha": "6df0b84cd556b9405903a425965bed85eb018014",
+  "source_tree": "1d9d3f7e030cf65f4737b7fe2446c83ade441579",
+  "toolchain": {
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "python": "3.12.14"
+  }
+}
