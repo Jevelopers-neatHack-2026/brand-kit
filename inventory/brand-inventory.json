@@ -1,0 +1,1082 @@
+{
+  "schema_version": 1,
+  "repository": "Jevelopers-neatHack-2026/brand-kit",
+  "evidence": {
+    "baseline_commit": "74bc86f",
+    "baseline_date": "2026-10-12",
+    "method": "git ls-files compared with entries by tools/check_inventory.py",
+    "issue": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6"
+  },
+  "notes": [
+    "approval_status 'unknown' means no approval record exists in the repository. README states the identity is not ratified. Nothing here records an approval.",
+    "provenance_status values: unknown | derivation-recorded (generator/source known, rights unknown) | licence-text-present (third-party licence bundled).",
+    "release_class values: candidate-unapproved | reference-only | internal. No entry is approved for release; BK-06 decides."
+  ],
+  "enums": {
+    "classification": [
+      "canonical-source",
+      "generated",
+      "guideline",
+      "reference-only",
+      "distributable-readme-only"
+    ],
+    "approval_status": [
+      "unknown"
+    ],
+    "provenance_status": [
+      "unknown",
+      "derivation-recorded",
+      "licence-text-present"
+    ],
+    "release_class": [
+      "candidate-unapproved",
+      "reference-only",
+      "internal"
+    ]
+  },
+  "source_of_truth": [
+    {
+      "topic": "logos-marks",
+      "paths": [
+        "tools/build_logos.py"
+      ],
+      "generated_outputs": [
+        "logo/"
+      ],
+      "note": "Edit the script, regenerate logo/*.svg; never hand-edit SVGs."
+    },
+    {
+      "topic": "iconography",
+      "paths": [],
+      "note": "No icon system exists. See iconography block."
+    },
+    {
+      "topic": "color-tokens",
+      "paths": [
+        "tokens/tokens.json"
+      ],
+      "generated_outputs": [
+        "tokens/tokens.css",
+        "tokens/tailwind.preset.js"
+      ]
+    },
+    {
+      "topic": "typography-tokens",
+      "paths": [
+        "tokens/tokens.json",
+        "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+        "fonts/InterTight[wght].ttf"
+      ]
+    },
+    {
+      "topic": "spacing-layout-tokens",
+      "paths": [
+        "tokens/tokens.json"
+      ],
+      "note": "Spacing/radius/layout values live in tokens.json; no separate layout spec exists."
+    },
+    {
+      "topic": "usage-guidance",
+      "paths": [
+        "SPEC.md",
+        "docs/logo.md",
+        "docs/voice.md",
+        "docs/imagery.md",
+        "docs/motion-sound-haptics.md",
+        "docs/material-foil.md"
+      ]
+    },
+    {
+      "topic": "provenance",
+      "paths": [
+        "fonts/Fraunces-OFL.txt",
+        "fonts/InterTight-OFL.txt",
+        "inventory/brand-inventory.json"
+      ],
+      "note": "Only font licence texts exist; all other provenance/approval is unknown and routed to BK-06."
+    },
+    {
+      "topic": "releases",
+      "paths": [],
+      "note": "No releases, versions or packages exist. Pending BK-03B."
+    }
+  ],
+  "path_map": [
+    {
+      "proposed": "identity/",
+      "actual": [
+        "logo/",
+        "tools/build_logos.py"
+      ],
+      "decision": "keep-current-paths",
+      "rationale": "OWNERSHIP says proposed paths do not relocate existing assets.",
+      "alias": "none now; if moved, keep logo/ as copied/symlinked alias for one release",
+      "affected": [
+        "getticketstub.com public/brand copies",
+        "index.html relative src/href",
+        "tools/build_logos.py OUT path",
+        "README/SPEC/docs links"
+      ]
+    },
+    {
+      "proposed": "tokens/",
+      "actual": [
+        "tokens/"
+      ],
+      "decision": "already-matches",
+      "rationale": "Same path.",
+      "alias": "n/a",
+      "affected": []
+    },
+    {
+      "proposed": "guidelines/",
+      "actual": [
+        "SPEC.md",
+        "docs/logo.md",
+        "docs/voice.md",
+        "docs/imagery.md",
+        "docs/motion-sound-haptics.md",
+        "docs/material-foil.md"
+      ],
+      "decision": "keep-current-paths",
+      "rationale": "Docs are linked from README, SPEC and index.html; moving breaks links with no consumer benefit yet.",
+      "alias": "stub redirect files if moved",
+      "affected": [
+        "README docs links",
+        "SPEC More section"
+      ]
+    },
+    {
+      "proposed": "components/",
+      "actual": [],
+      "decision": "no-assets-exist",
+      "rationale": "Board index.html holds demo patterns; no shared component source exists. Component ownership needs a named application owner.",
+      "alias": "n/a",
+      "affected": []
+    },
+    {
+      "proposed": "licenses-and-provenance/",
+      "actual": [
+        "fonts/Fraunces-OFL.txt",
+        "fonts/InterTight-OFL.txt",
+        "inventory/brand-inventory.json"
+      ],
+      "decision": "keep-current-paths",
+      "rationale": "OFL texts must stay beside the fonts; BK-06 may add a provenance ledger here.",
+      "alias": "n/a",
+      "affected": [
+        "BK-06"
+      ]
+    },
+    {
+      "proposed": "releases/",
+      "actual": [],
+      "decision": "no-assets-exist",
+      "rationale": "No versions or release notes exist yet (BK-03B).",
+      "alias": "n/a",
+      "affected": []
+    }
+  ],
+  "iconography": {
+    "status": "unknown-scope",
+    "finding": "There is no icon library or iconography spec in the repository. logo/favicon.svg and logo/app-icon.svg are logo variants. index.html contains inline demo icons used only as board illustrations. OWNERSHIP lists 'icon treatment' as a responsibility, but no source exists.",
+    "options": [
+      "owned guidance (a future doc in this repo)",
+      "future asset family (new directory, new BK item)",
+      "consumer-owned (getticketstub.com)"
+    ],
+    "decision": "unresolved; handed to BK-02 / consumer owners. Do not claim an icon system exists.",
+    "handoff": "Consumer repositories currently own any UI icons they ship; their inventory is outside this repository."
+  },
+  "external_findings": [
+    {
+      "id": "repo-visibility",
+      "finding": "docs/architecture/OWNERSHIP.md line 3 says the repository is private (verified 2026-10-10). Live GitHub metadata on 2026-10-12 reports visibility PUBLIC (gh repo view). The OWNERSHIP line is stale; it is a BK-07-owned governance doc and is not edited here.",
+      "evidence": "gh repo view Jevelopers-neatHack-2026/brand-kit --json visibility on 2026-10-12",
+      "handoff": "BK-07"
+    },
+    {
+      "id": "pr3-pending",
+      "finding": "PR #3 (open, not merged) repoints ticket-studio links to getticketstub.com/docs/studio/ and proposes 'always on paper'. Its targets 404 on getticketstub.com main as of 2026-10-10 (exist only on getticketstub.com#4 and #20 branches). main still references the nonexistent ticket-studio in SPEC.md, README.md, tokens/tokens.json, docs/material-foil.md.",
+      "handoff": "Merge getticketstub.com#4/#20 first, then PR #3; direction change needs a BK-02 decision record."
+    },
+    {
+      "id": "pr2-edition-handoff",
+      "finding": "PR #2 merged: OWNERSHIP says the edition-system link to ticket-studio requires separate owner confirmation. Preserved as is.",
+      "handoff": "owner confirmation"
+    },
+    {
+      "id": "consumer-copies",
+      "finding": "README claims getticketstub.com ships byte-identical copies of all 14 logos. Not verified in BK-01 (no consumer repo access).",
+      "handoff": "BK-03B/BK-10"
+    }
+  ],
+  "entries": [
+    {
+      "id": "logo/app-icon.svg",
+      "path": "logo/app-icon.svg",
+      "type": "svg",
+      "category": "logo",
+      "classification": "generated",
+      "description": "1024 px app icon, foil stamp on Night Ink",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "derivation-recorded",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "tools/build_logos.py",
+      "generated_by": "tools/build_logos.py",
+      "generated_from": [
+        "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+        "tools/build_logos.py"
+      ],
+      "usage_guidance": "docs/logo.md",
+      "provenance_note": "Outlined from the bundled Fraunces font by tools/build_logos.py (README: reproduced byte for byte 2026-10-11). Design approval and rights to the mark itself are not recorded.",
+      "consumers": [
+        "getticketstub.com public/brand (copy, claimed byte-identical in README; not verified here)"
+      ]
+    },
+    {
+      "id": "logo/favicon.svg",
+      "path": "logo/favicon.svg",
+      "type": "svg",
+      "category": "logo",
+      "classification": "generated",
+      "description": "16-32 px square stamp",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "derivation-recorded",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "tools/build_logos.py",
+      "generated_by": "tools/build_logos.py",
+      "generated_from": [
+        "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+        "tools/build_logos.py"
+      ],
+      "usage_guidance": "docs/logo.md",
+      "provenance_note": "Outlined from the bundled Fraunces font by tools/build_logos.py (README: reproduced byte for byte 2026-10-11). Design approval and rights to the mark itself are not recorded.",
+      "consumers": [
+        "getticketstub.com public/brand (copy, claimed byte-identical in README; not verified here)"
+      ]
+    },
+    {
+      "id": "logo/lockup-horizontal-mono.svg",
+      "path": "logo/lockup-horizontal-mono.svg",
+      "type": "svg",
+      "category": "logo",
+      "classification": "generated",
+      "description": "Horizontal lockup, currentColor",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "derivation-recorded",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "tools/build_logos.py",
+      "generated_by": "tools/build_logos.py",
+      "generated_from": [
+        "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+        "tools/build_logos.py"
+      ],
+      "usage_guidance": "docs/logo.md",
+      "provenance_note": "Outlined from the bundled Fraunces font by tools/build_logos.py (README: reproduced byte for byte 2026-10-11). Design approval and rights to the mark itself are not recorded.",
+      "consumers": [
+        "getticketstub.com public/brand (copy, claimed byte-identical in README; not verified here)"
+      ]
+    },
+    {
+      "id": "logo/lockup-horizontal.svg",
+      "path": "logo/lockup-horizontal.svg",
+      "type": "svg",
+      "category": "logo",
+      "classification": "generated",
+      "description": "Horizontal stamp + wordmark lockup",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "derivation-recorded",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "tools/build_logos.py",
+      "generated_by": "tools/build_logos.py",
+      "generated_from": [
+        "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+        "tools/build_logos.py"
+      ],
+      "usage_guidance": "docs/logo.md",
+      "provenance_note": "Outlined from the bundled Fraunces font by tools/build_logos.py (README: reproduced byte for byte 2026-10-11). Design approval and rights to the mark itself are not recorded.",
+      "consumers": [
+        "getticketstub.com public/brand (copy, claimed byte-identical in README; not verified here)"
+      ]
+    },
+    {
+      "id": "logo/lockup-stacked.svg",
+      "path": "logo/lockup-stacked.svg",
+      "type": "svg",
+      "category": "logo",
+      "classification": "generated",
+      "description": "Stacked lockup",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "derivation-recorded",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "tools/build_logos.py",
+      "generated_by": "tools/build_logos.py",
+      "generated_from": [
+        "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+        "tools/build_logos.py"
+      ],
+      "usage_guidance": "docs/logo.md",
+      "provenance_note": "Outlined from the bundled Fraunces font by tools/build_logos.py (README: reproduced byte for byte 2026-10-11). Design approval and rights to the mark itself are not recorded.",
+      "consumers": [
+        "getticketstub.com public/brand (copy, claimed byte-identical in README; not verified here)"
+      ]
+    },
+    {
+      "id": "logo/ts-stamp-currentcolor.svg",
+      "path": "logo/ts-stamp-currentcolor.svg",
+      "type": "svg",
+      "category": "logo",
+      "classification": "generated",
+      "description": "currentColor stamp for inline use",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "derivation-recorded",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "tools/build_logos.py",
+      "generated_by": "tools/build_logos.py",
+      "generated_from": [
+        "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+        "tools/build_logos.py"
+      ],
+      "usage_guidance": "docs/logo.md",
+      "provenance_note": "Outlined from the bundled Fraunces font by tools/build_logos.py (README: reproduced byte for byte 2026-10-11). Design approval and rights to the mark itself are not recorded.",
+      "consumers": [
+        "getticketstub.com public/brand (copy, claimed byte-identical in README; not verified here)"
+      ]
+    },
+    {
+      "id": "logo/ts-stamp-mono-cream.svg",
+      "path": "logo/ts-stamp-mono-cream.svg",
+      "type": "svg",
+      "category": "logo",
+      "classification": "generated",
+      "description": "Mono cream stamp",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "derivation-recorded",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "tools/build_logos.py",
+      "generated_by": "tools/build_logos.py",
+      "generated_from": [
+        "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+        "tools/build_logos.py"
+      ],
+      "usage_guidance": "docs/logo.md",
+      "provenance_note": "Outlined from the bundled Fraunces font by tools/build_logos.py (README: reproduced byte for byte 2026-10-11). Design approval and rights to the mark itself are not recorded.",
+      "consumers": [
+        "getticketstub.com public/brand (copy, claimed byte-identical in README; not verified here)"
+      ]
+    },
+    {
+      "id": "logo/ts-stamp-mono-ink.svg",
+      "path": "logo/ts-stamp-mono-ink.svg",
+      "type": "svg",
+      "category": "logo",
+      "classification": "generated",
+      "description": "Mono ink stamp",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "derivation-recorded",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "tools/build_logos.py",
+      "generated_by": "tools/build_logos.py",
+      "generated_from": [
+        "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+        "tools/build_logos.py"
+      ],
+      "usage_guidance": "docs/logo.md",
+      "provenance_note": "Outlined from the bundled Fraunces font by tools/build_logos.py (README: reproduced byte for byte 2026-10-11). Design approval and rights to the mark itself are not recorded.",
+      "consumers": [
+        "getticketstub.com public/brand (copy, claimed byte-identical in README; not verified here)"
+      ]
+    },
+    {
+      "id": "logo/ts-stamp-mono-orange.svg",
+      "path": "logo/ts-stamp-mono-orange.svg",
+      "type": "svg",
+      "category": "logo",
+      "classification": "generated",
+      "description": "Mono orange stamp, letters knocked out",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "derivation-recorded",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "tools/build_logos.py",
+      "generated_by": "tools/build_logos.py",
+      "generated_from": [
+        "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+        "tools/build_logos.py"
+      ],
+      "usage_guidance": "docs/logo.md",
+      "provenance_note": "Outlined from the bundled Fraunces font by tools/build_logos.py (README: reproduced byte for byte 2026-10-11). Design approval and rights to the mark itself are not recorded.",
+      "consumers": [
+        "getticketstub.com public/brand (copy, claimed byte-identical in README; not verified here)"
+      ]
+    },
+    {
+      "id": "logo/ts-stamp.svg",
+      "path": "logo/ts-stamp.svg",
+      "type": "svg",
+      "category": "logo",
+      "classification": "generated",
+      "description": "Primary full-colour foil stamp",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "derivation-recorded",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "tools/build_logos.py",
+      "generated_by": "tools/build_logos.py",
+      "generated_from": [
+        "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+        "tools/build_logos.py"
+      ],
+      "usage_guidance": "docs/logo.md",
+      "provenance_note": "Outlined from the bundled Fraunces font by tools/build_logos.py (README: reproduced byte for byte 2026-10-11). Design approval and rights to the mark itself are not recorded.",
+      "consumers": [
+        "getticketstub.com public/brand (copy, claimed byte-identical in README; not verified here)"
+      ]
+    },
+    {
+      "id": "logo/wordmark-compact.svg",
+      "path": "logo/wordmark-compact.svg",
+      "type": "svg",
+      "category": "logo",
+      "classification": "generated",
+      "description": "Compact wordmark without tear dots",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "derivation-recorded",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "tools/build_logos.py",
+      "generated_by": "tools/build_logos.py",
+      "generated_from": [
+        "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+        "tools/build_logos.py"
+      ],
+      "usage_guidance": "docs/logo.md",
+      "provenance_note": "Outlined from the bundled Fraunces font by tools/build_logos.py (README: reproduced byte for byte 2026-10-11). Design approval and rights to the mark itself are not recorded.",
+      "consumers": [
+        "getticketstub.com public/brand (copy, claimed byte-identical in README; not verified here)"
+      ]
+    },
+    {
+      "id": "logo/wordmark-cream.svg",
+      "path": "logo/wordmark-cream.svg",
+      "type": "svg",
+      "category": "logo",
+      "classification": "generated",
+      "description": "Wordmark, cream",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "derivation-recorded",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "tools/build_logos.py",
+      "generated_by": "tools/build_logos.py",
+      "generated_from": [
+        "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+        "tools/build_logos.py"
+      ],
+      "usage_guidance": "docs/logo.md",
+      "provenance_note": "Outlined from the bundled Fraunces font by tools/build_logos.py (README: reproduced byte for byte 2026-10-11). Design approval and rights to the mark itself are not recorded.",
+      "consumers": [
+        "getticketstub.com public/brand (copy, claimed byte-identical in README; not verified here)"
+      ]
+    },
+    {
+      "id": "logo/wordmark-orange.svg",
+      "path": "logo/wordmark-orange.svg",
+      "type": "svg",
+      "category": "logo",
+      "classification": "generated",
+      "description": "Wordmark, orange",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "derivation-recorded",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "tools/build_logos.py",
+      "generated_by": "tools/build_logos.py",
+      "generated_from": [
+        "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+        "tools/build_logos.py"
+      ],
+      "usage_guidance": "docs/logo.md",
+      "provenance_note": "Outlined from the bundled Fraunces font by tools/build_logos.py (README: reproduced byte for byte 2026-10-11). Design approval and rights to the mark itself are not recorded.",
+      "consumers": [
+        "getticketstub.com public/brand (copy, claimed byte-identical in README; not verified here)"
+      ]
+    },
+    {
+      "id": "logo/wordmark.svg",
+      "path": "logo/wordmark.svg",
+      "type": "svg",
+      "category": "logo",
+      "classification": "generated",
+      "description": "Ticket|Stub wordmark, ink",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "derivation-recorded",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "tools/build_logos.py",
+      "generated_by": "tools/build_logos.py",
+      "generated_from": [
+        "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+        "tools/build_logos.py"
+      ],
+      "usage_guidance": "docs/logo.md",
+      "provenance_note": "Outlined from the bundled Fraunces font by tools/build_logos.py (README: reproduced byte for byte 2026-10-11). Design approval and rights to the mark itself are not recorded.",
+      "consumers": [
+        "getticketstub.com public/brand (copy, claimed byte-identical in README; not verified here)"
+      ]
+    },
+    {
+      "id": "tools/build_logos.py",
+      "path": "tools/build_logos.py",
+      "type": "python",
+      "category": "logo",
+      "classification": "canonical-source",
+      "description": "Generator for every logo/*.svg; the canonical source of the logo geometry. Dependencies fonttools and uharfbuzz are unpinned.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "tools/build_logos.py",
+      "generated_from": [],
+      "outputs_glob": "logo/*.svg",
+      "inputs": [
+        "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf"
+      ]
+    },
+    {
+      "id": "tokens/tokens.json",
+      "path": "tokens/tokens.json",
+      "type": "json",
+      "category": "tokens",
+      "classification": "canonical-source",
+      "description": "DTCG token source of truth (colour, semantic, type, spacing/radius, motion).",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "tokens/tokens.json",
+      "sub_categories": [
+        "color",
+        "typography",
+        "spacing-layout"
+      ],
+      "provenance_note": "Derived from SPEC.md values; no approval record. Contains a stale ticket-studio reference (PR #3 pending)."
+    },
+    {
+      "id": "tokens/tokens.css",
+      "path": "tokens/tokens.css",
+      "type": "css",
+      "category": "tokens",
+      "classification": "generated",
+      "description": "CSS variables plus night theme. Header says source of truth is tokens.json, but no generator script is tracked: the derivation is manual/untracked.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "derivation-recorded",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "tokens/tokens.json",
+      "generated_from": [
+        "tokens/tokens.json"
+      ],
+      "generated_by": "unknown (no tracked generator)",
+      "sub_categories": [
+        "color",
+        "typography",
+        "spacing-layout"
+      ],
+      "provenance_note": "Stated derivation from tokens.json; drift is not machine-checked (out of BK-01 scope; candidate for BK-03A).",
+      "external_dependencies": [
+        "https://fonts.googleapis.com (web font @import)"
+      ]
+    },
+    {
+      "id": "tokens/tailwind.preset.js",
+      "path": "tokens/tailwind.preset.js",
+      "type": "javascript",
+      "category": "tokens",
+      "classification": "generated",
+      "description": "Tailwind preset reading the CSS variables.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "derivation-recorded",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "tokens/tokens.json",
+      "generated_from": [
+        "tokens/tokens.css"
+      ],
+      "generated_by": "unknown (no tracked generator)",
+      "sub_categories": [
+        "color",
+        "typography",
+        "spacing-layout"
+      ],
+      "provenance_note": "References tokens.css variables; consumed as @ticketstub/brand-kit/tokens/tailwind.preset.js (no package published)."
+    },
+    {
+      "id": "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+      "path": "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+      "type": "ttf",
+      "category": "typography",
+      "classification": "canonical-source",
+      "description": "Fraunces variable font binary (third-party; used as bundled input).",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "licence-text-present",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+      "licence_file": "fonts/Fraunces-OFL.txt",
+      "provenance_note": "SIL OFL 1.1 text bundled next to the file. Upstream URL, version and checksum are not recorded; redistribution policy is BK-06."
+    },
+    {
+      "id": "fonts/Fraunces-OFL.txt",
+      "path": "fonts/Fraunces-OFL.txt",
+      "type": "text",
+      "category": "provenance",
+      "classification": "reference-only",
+      "description": "Fraunces SIL OFL 1.1 licence text.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "licence-text-present",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "fonts/Fraunces-OFL.txt",
+      "provenance_note": "Third-party licence text; keep alongside the font.",
+      "covers": [
+        "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf"
+      ]
+    },
+    {
+      "id": "fonts/InterTight[wght].ttf",
+      "path": "fonts/InterTight[wght].ttf",
+      "type": "ttf",
+      "category": "typography",
+      "classification": "canonical-source",
+      "description": "InterTight variable font binary (third-party; used as bundled input).",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "licence-text-present",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "fonts/InterTight[wght].ttf",
+      "licence_file": "fonts/InterTight-OFL.txt",
+      "provenance_note": "SIL OFL 1.1 text bundled next to the file. Upstream URL, version and checksum are not recorded; redistribution policy is BK-06."
+    },
+    {
+      "id": "fonts/InterTight-OFL.txt",
+      "path": "fonts/InterTight-OFL.txt",
+      "type": "text",
+      "category": "provenance",
+      "classification": "reference-only",
+      "description": "InterTight SIL OFL 1.1 licence text.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "licence-text-present",
+      "release_class": "candidate-unapproved",
+      "canonical_authority": "fonts/InterTight-OFL.txt",
+      "provenance_note": "Third-party licence text; keep alongside the font.",
+      "covers": [
+        "fonts/InterTight[wght].ttf"
+      ]
+    },
+    {
+      "id": "SPEC.md",
+      "path": "SPEC.md",
+      "type": "markdown",
+      "category": "guideline",
+      "classification": "guideline",
+      "description": "Compact brand spec: positioning, colour with contrast, type, logo rationale, don'ts. Authority for prose values; tokens.json carries machine values.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "SPEC.md",
+      "sub_categories": [
+        "color",
+        "typography",
+        "logo",
+        "usage"
+      ],
+      "provenance_note": "Contains stale ticket-studio reference (PR #3 pending) and the unmerged 'always on paper' direction question."
+    },
+    {
+      "id": "index.html",
+      "path": "index.html",
+      "type": "html",
+      "category": "guideline",
+      "classification": "guideline",
+      "description": "Visual brand board. Loads Google Fonts from the network; embeds references/ and logo/ by relative path.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "index.html",
+      "references_paths": [
+        "logo/favicon.svg",
+        "logo/app-icon.svg",
+        "references/mockup-art-glasgow.webp"
+      ],
+      "sub_categories": [
+        "logo",
+        "color",
+        "typography",
+        "spacing-layout",
+        "usage",
+        "iconography-demo"
+      ],
+      "provenance_note": "Inline demo icons are board illustrations, not an icon asset family."
+    },
+    {
+      "id": "README.md",
+      "path": "README.md",
+      "type": "markdown",
+      "category": "guideline",
+      "classification": "guideline",
+      "description": "Repository front door; links the source-of-truth index.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "README.md"
+    },
+    {
+      "id": "docs/logo.md",
+      "path": "docs/logo.md",
+      "type": "markdown",
+      "category": "guideline",
+      "classification": "guideline",
+      "description": "Logo usage rules",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "docs/logo.md"
+    },
+    {
+      "id": "docs/voice.md",
+      "path": "docs/voice.md",
+      "type": "markdown",
+      "category": "guideline",
+      "classification": "guideline",
+      "description": "Voice and tone",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "docs/voice.md"
+    },
+    {
+      "id": "docs/imagery.md",
+      "path": "docs/imagery.md",
+      "type": "markdown",
+      "category": "guideline",
+      "classification": "guideline",
+      "description": "Imagery and AI-art rules",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "docs/imagery.md"
+    },
+    {
+      "id": "docs/motion-sound-haptics.md",
+      "path": "docs/motion-sound-haptics.md",
+      "type": "markdown",
+      "category": "guideline",
+      "classification": "guideline",
+      "description": "Motion, sound and haptics guidance",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "docs/motion-sound-haptics.md"
+    },
+    {
+      "id": "docs/material-foil.md",
+      "path": "docs/material-foil.md",
+      "type": "markdown",
+      "category": "guideline",
+      "classification": "guideline",
+      "description": "Foil and holo material guidance (references an external ticket-studio doc; PR #3 pending)",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "docs/material-foil.md"
+    },
+    {
+      "id": "docs/architecture/OWNERSHIP.md",
+      "path": "docs/architecture/OWNERSHIP.md",
+      "type": "markdown",
+      "category": "governance",
+      "classification": "guideline",
+      "description": "Repository responsibilities and proposed module layout. Governance doc owned by BK-07; not edited by BK-01. Still says 'private' (live visibility PUBLIC, see docs/source-of-truth.md).",
+      "owner_role": "Product and frontend (governance edits via BK-07)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "docs/architecture/OWNERSHIP.md"
+    },
+    {
+      "id": "docs/architecture/ACCEPTANCE.md",
+      "path": "docs/architecture/ACCEPTANCE.md",
+      "type": "markdown",
+      "category": "governance",
+      "classification": "guideline",
+      "description": "Acceptance view; authoritative checklist lives in integration-evals.",
+      "owner_role": "Product and frontend (governance edits via BK-07)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "docs/architecture/ACCEPTANCE.md"
+    },
+    {
+      "id": "docs/assets/readme/banner-night.svg",
+      "path": "docs/assets/readme/banner-night.svg",
+      "type": "svg",
+      "category": "readme-asset",
+      "classification": "distributable-readme-only",
+      "description": "README banner (night); hand-authored, not part of the brand asset set.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "docs/assets/readme/banner-night.svg",
+      "provenance_note": "Origin/authoring not recorded; added in commit 5feec6d."
+    },
+    {
+      "id": "docs/assets/readme/banner-day.svg",
+      "path": "docs/assets/readme/banner-day.svg",
+      "type": "svg",
+      "category": "readme-asset",
+      "classification": "distributable-readme-only",
+      "description": "README banner (day); hand-authored, not part of the brand asset set.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "docs/assets/readme/banner-day.svg",
+      "provenance_note": "Origin/authoring not recorded; added in commit 5feec6d."
+    },
+    {
+      "id": "references/mockup-art-glasgow.webp",
+      "path": "references/mockup-art-glasgow.webp",
+      "type": "webp",
+      "category": "reference",
+      "classification": "reference-only",
+      "description": "Generated art mockup (AI-generated per board caption). Reference-only; generator/tool, prompt, licence and rights unknown.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "reference-only",
+      "canonical_authority": "references/mockup-art-glasgow.webp",
+      "provenance_note": "Creation method, tool, prompt and rights are not recorded; routed to BK-06. Do not export until resolved."
+    },
+    {
+      "id": "references/mood-holo-light.webp",
+      "path": "references/mood-holo-light.webp",
+      "type": "webp",
+      "category": "reference",
+      "classification": "reference-only",
+      "description": "Holo finish mood reference. Reference-only; generator/tool, prompt, licence and rights unknown.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "reference-only",
+      "canonical_authority": "references/mood-holo-light.webp",
+      "provenance_note": "Creation method, tool, prompt and rights are not recorded; routed to BK-06. Do not export until resolved."
+    },
+    {
+      "id": "references/mood-stub-back-golden-hour.webp",
+      "path": "references/mood-stub-back-golden-hour.webp",
+      "type": "webp",
+      "category": "reference",
+      "classification": "reference-only",
+      "description": "Paper golden-hour mood reference. Reference-only; generator/tool, prompt, licence and rights unknown.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "reference-only",
+      "canonical_authority": "references/mood-stub-back-golden-hour.webp",
+      "provenance_note": "Creation method, tool, prompt and rights are not recorded; routed to BK-06. Do not export until resolved."
+    },
+    {
+      "id": "references/ts-stamp-emboss-lightleak.webp",
+      "path": "references/ts-stamp-emboss-lightleak.webp",
+      "type": "webp",
+      "category": "reference",
+      "classification": "reference-only",
+      "description": "Blind-emboss stamp reference. Reference-only; generator/tool, prompt, licence and rights unknown.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "reference-only",
+      "canonical_authority": "references/ts-stamp-emboss-lightleak.webp",
+      "provenance_note": "Creation method, tool, prompt and rights are not recorded; routed to BK-06. Do not export until resolved."
+    },
+    {
+      "id": "references/ts-stamp-holo-rainbow.webp",
+      "path": "references/ts-stamp-holo-rainbow.webp",
+      "type": "webp",
+      "category": "reference",
+      "classification": "reference-only",
+      "description": "Rainbow light-leak stamp reference. Reference-only; generator/tool, prompt, licence and rights unknown.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "reference-only",
+      "canonical_authority": "references/ts-stamp-holo-rainbow.webp",
+      "provenance_note": "Creation method, tool, prompt and rights are not recorded; routed to BK-06. Do not export until resolved."
+    },
+    {
+      "id": "references/ts-stamp-square-velvet.webp",
+      "path": "references/ts-stamp-square-velvet.webp",
+      "type": "webp",
+      "category": "reference",
+      "classification": "reference-only",
+      "description": "Square velvet stamp reference. Reference-only; generator/tool, prompt, licence and rights unknown.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "reference-only",
+      "canonical_authority": "references/ts-stamp-square-velvet.webp",
+      "provenance_note": "Creation method, tool, prompt and rights are not recorded; routed to BK-06. Do not export until resolved."
+    },
+    {
+      "id": "references/ts-stamp-vertical-velvet.webp",
+      "path": "references/ts-stamp-vertical-velvet.webp",
+      "type": "webp",
+      "category": "reference",
+      "classification": "reference-only",
+      "description": "Vertical velvet stamp reference. Reference-only; generator/tool, prompt, licence and rights unknown.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "reference-only",
+      "canonical_authority": "references/ts-stamp-vertical-velvet.webp",
+      "provenance_note": "Creation method, tool, prompt and rights are not recorded; routed to BK-06. Do not export until resolved."
+    },
+    {
+      "id": ".gitignore",
+      "path": ".gitignore",
+      "type": "text",
+      "category": "repo-config",
+      "classification": "guideline",
+      "description": "Ignores Python caches and .DS_Store.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": ".gitignore"
+    },
+    {
+      "id": "Makefile",
+      "path": "Makefile",
+      "type": "make",
+      "category": "tooling",
+      "classification": "canonical-source",
+      "description": "Entry points: check-inventory, check-links, test.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "Makefile"
+    },
+    {
+      "id": "inventory/brand-inventory.json",
+      "path": "inventory/brand-inventory.json",
+      "type": "json",
+      "category": "inventory",
+      "classification": "canonical-source",
+      "description": "This machine-readable inventory (hand-maintained).",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "inventory/brand-inventory.json"
+    },
+    {
+      "id": "docs/source-of-truth.md",
+      "path": "docs/source-of-truth.md",
+      "type": "markdown",
+      "category": "inventory",
+      "classification": "guideline",
+      "description": "Human source-of-truth index, actual vs proposed paths, iconography scope.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "docs/source-of-truth.md"
+    },
+    {
+      "id": "docs/inventory-checks.md",
+      "path": "docs/inventory-checks.md",
+      "type": "markdown",
+      "category": "inventory",
+      "classification": "guideline",
+      "description": "How to run the checks; offline vs external limits.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "docs/inventory-checks.md"
+    },
+    {
+      "id": "tools/check_inventory.py",
+      "path": "tools/check_inventory.py",
+      "type": "python",
+      "category": "tooling",
+      "classification": "canonical-source",
+      "description": "Stdlib-only validation tooling for BK-01.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "tools/check_inventory.py"
+    },
+    {
+      "id": "tools/check_links.py",
+      "path": "tools/check_links.py",
+      "type": "python",
+      "category": "tooling",
+      "classification": "canonical-source",
+      "description": "Stdlib-only validation tooling for BK-01.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "tools/check_links.py"
+    },
+    {
+      "id": "tools/inventory_lib.py",
+      "path": "tools/inventory_lib.py",
+      "type": "python",
+      "category": "tooling",
+      "classification": "canonical-source",
+      "description": "Stdlib-only validation tooling for BK-01.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "tools/inventory_lib.py"
+    },
+    {
+      "id": "tools/tests/test_checks.py",
+      "path": "tools/tests/test_checks.py",
+      "type": "python",
+      "category": "tooling",
+      "classification": "canonical-source",
+      "description": "Stdlib-only validation tooling for BK-01.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "tools/tests/test_checks.py"
+    }
+  ]
+}
