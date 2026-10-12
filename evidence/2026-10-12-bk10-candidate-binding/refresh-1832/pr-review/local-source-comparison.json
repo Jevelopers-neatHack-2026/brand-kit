@@ -1,0 +1,28 @@
+{
+  "ancestor_agents": [],
+  "tracked_count": 117,
+  "changed_paths": [
+    "docs/architecture/ACCEPTANCE.md",
+    "docs/architecture/OWNERSHIP.md",
+    "docs/source-of-truth.md"
+  ],
+  "unchanged_paths_count": 114,
+  "base": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+  "head": "aa22b3833a7510e1ece215926faab6c6394e5258",
+  "brand_logo_blobs": {
+    "logo/app-icon.svg": "83d73b396da1c74e868773c426b5118d878f7268",
+    "logo/favicon.svg": "6b4df7c7a909bf46182e69f242ed163f0a34180e",
+    "logo/lockup-horizontal-mono.svg": "73eb76e4ce1ed2db5431f1a21e0214dc92937a64",
+    "logo/lockup-horizontal.svg": "6b17f9f18bd5b5784d5c7ef269e2e35b363d8b95",
+    "logo/lockup-stacked.svg": "d91b363460652bef435ecb1d0aeb6b8fe50b8dc3",
+    "logo/ts-stamp-currentcolor.svg": "7e58592a33301afe223b7541278d3061584417a0",
+    "logo/ts-stamp-mono-cream.svg": "ce2d222ee40d9de9c7c0abca6a09c2a955697ed7",
+    "logo/ts-stamp-mono-ink.svg": "aca1e449b9d1384e8293386df22268da9faae498",
+    "logo/ts-stamp-mono-orange.svg": "9c03e00beb4270082ad8a57fe8ac2a35fe5c254a",
+    "logo/ts-stamp.svg": "dae8c394057e475f59bfd624586246a17784d732",
+    "logo/wordmark-compact.svg": "09acb8303bc9b7279ac70227a823a1203d2f1017",
+    "logo/wordmark-cream.svg": "c0e3be6e098916ccaac69e59dc4860f2b619d27a",
+    "logo/wordmark-orange.svg": "79470025b69f80bed1c3a54770ba8b5e042b0aea",
+    "logo/wordmark.svg": "251a2508a5a04fd05d1f69f2997ddc103d2f8f02"
+  }
+}

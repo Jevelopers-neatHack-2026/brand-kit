@@ -1,0 +1,192 @@
+{
+  "reviewer": "/root/pr_reconciliation_refresh",
+  "completed_at": "2026-10-12T18:39:06.933547+00:00",
+  "independent_of_all_source_authorship": true,
+  "review_type": "Read-only exact-head technical/documentation diagnosis; not policy-qualified model/effort approval, formal GitHub approval, brand ratification, rights clearance or consumer acceptance",
+  "head": "aa22b3833a7510e1ece215926faab6c6394e5258",
+  "base": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+  "tree": "7fcbfa65fd3423fec10b77d90f7655d2b228e84a",
+  "source_findings": [],
+  "source_diagnostic": "PASS: no blocking source defect found in the complete three-document delta",
+  "merge_disposition": "HOLD",
+  "merge_prerequisites": [
+    {
+      "id": "DEP-PRODUCT117",
+      "owner_role": "Product/frontend maintainer and its required independent reviewer",
+      "source": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/117",
+      "state": "open",
+      "head": "60d3b6aa074caddca4d362ba8b13b56fe4436177",
+      "action": "Resolve the current failed build-and-smoke check and applicable review, merge normally, supply resulting main revision and architecture companion blob. Brand then verifies both external links."
+    },
+    {
+      "id": "OWNER-REVIEW-HOLD",
+      "owner_role": "Active brand documentation owner and authorized supervisor",
+      "source": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25",
+      "state": "explicit owner hold in body updated2026-10-12T18:36:26Z",
+      "action": "Obtain the declared policy-qualified independent exact-head review through an available authorized reviewer runtime; this technical diagnosis does not waive that hold."
+    }
+  ],
+  "changed_files": [
+    "docs/architecture/ACCEPTANCE.md",
+    "docs/architecture/OWNERSHIP.md",
+    "docs/source-of-truth.md"
+  ],
+  "unchanged_tracked_files": 114,
+  "validation": {
+    "commands_file": "commands.json",
+    "inventory": 117,
+    "local_links_passed": 387,
+    "local_links_broken": 0,
+    "external_links_unchecked": 167,
+    "guideline_tests_passed": 24,
+    "current_state_main_probe": "actual404 at moving main and exact01c65ae2290447c523823bf4601d6373ce4c6ca2",
+    "current_state_link_occurrences": 2,
+    "clean_checkout_before_after": true
+  },
+  "preserved_history": {
+    "original_proposal_ancestor": "3eebe0c15ed025c5a074b56629c3ca2cf1483829",
+    "corrected_draft_ancestor": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "pr26_main_ancestor": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+    "pr28_main_ancestor": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f"
+  },
+  "historical_logo_comparison": {
+    "brand_sha": "3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4",
+    "product_sha": "783a9fa03e3d64b752cd8c5ad913c223db29118d",
+    "result": "14/14 Git blob matches independently reproduced",
+    "files": [
+      {
+        "product_path": "public/brand/app-icon.svg",
+        "brand_path": "logo/app-icon.svg",
+        "product_blob": "83d73b396da1c74e868773c426b5118d878f7268",
+        "brand_blob": "83d73b396da1c74e868773c426b5118d878f7268",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/favicon.svg",
+        "brand_path": "logo/favicon.svg",
+        "product_blob": "6b4df7c7a909bf46182e69f242ed163f0a34180e",
+        "brand_blob": "6b4df7c7a909bf46182e69f242ed163f0a34180e",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/lockup-horizontal-mono.svg",
+        "brand_path": "logo/lockup-horizontal-mono.svg",
+        "product_blob": "73eb76e4ce1ed2db5431f1a21e0214dc92937a64",
+        "brand_blob": "73eb76e4ce1ed2db5431f1a21e0214dc92937a64",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/lockup-horizontal.svg",
+        "brand_path": "logo/lockup-horizontal.svg",
+        "product_blob": "6b17f9f18bd5b5784d5c7ef269e2e35b363d8b95",
+        "brand_blob": "6b17f9f18bd5b5784d5c7ef269e2e35b363d8b95",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/lockup-stacked.svg",
+        "brand_path": "logo/lockup-stacked.svg",
+        "product_blob": "d91b363460652bef435ecb1d0aeb6b8fe50b8dc3",
+        "brand_blob": "d91b363460652bef435ecb1d0aeb6b8fe50b8dc3",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/ts-stamp-currentcolor.svg",
+        "brand_path": "logo/ts-stamp-currentcolor.svg",
+        "product_blob": "7e58592a33301afe223b7541278d3061584417a0",
+        "brand_blob": "7e58592a33301afe223b7541278d3061584417a0",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/ts-stamp-mono-cream.svg",
+        "brand_path": "logo/ts-stamp-mono-cream.svg",
+        "product_blob": "ce2d222ee40d9de9c7c0abca6a09c2a955697ed7",
+        "brand_blob": "ce2d222ee40d9de9c7c0abca6a09c2a955697ed7",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/ts-stamp-mono-ink.svg",
+        "brand_path": "logo/ts-stamp-mono-ink.svg",
+        "product_blob": "aca1e449b9d1384e8293386df22268da9faae498",
+        "brand_blob": "aca1e449b9d1384e8293386df22268da9faae498",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/ts-stamp-mono-orange.svg",
+        "brand_path": "logo/ts-stamp-mono-orange.svg",
+        "product_blob": "9c03e00beb4270082ad8a57fe8ac2a35fe5c254a",
+        "brand_blob": "9c03e00beb4270082ad8a57fe8ac2a35fe5c254a",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/ts-stamp.svg",
+        "brand_path": "logo/ts-stamp.svg",
+        "product_blob": "dae8c394057e475f59bfd624586246a17784d732",
+        "brand_blob": "dae8c394057e475f59bfd624586246a17784d732",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/wordmark-compact.svg",
+        "brand_path": "logo/wordmark-compact.svg",
+        "product_blob": "09acb8303bc9b7279ac70227a823a1203d2f1017",
+        "brand_blob": "09acb8303bc9b7279ac70227a823a1203d2f1017",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/wordmark-cream.svg",
+        "brand_path": "logo/wordmark-cream.svg",
+        "product_blob": "c0e3be6e098916ccaac69e59dc4860f2b619d27a",
+        "brand_blob": "c0e3be6e098916ccaac69e59dc4860f2b619d27a",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/wordmark-orange.svg",
+        "brand_path": "logo/wordmark-orange.svg",
+        "product_blob": "79470025b69f80bed1c3a54770ba8b5e042b0aea",
+        "brand_blob": "79470025b69f80bed1c3a54770ba8b5e042b0aea",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/wordmark.svg",
+        "brand_path": "logo/wordmark.svg",
+        "product_blob": "251a2508a5a04fd05d1f69f2997ddc103d2f8f02",
+        "brand_blob": "251a2508a5a04fd05d1f69f2997ddc103d2f8f02",
+        "equal": true
+      }
+    ],
+    "limitation": "Source byte identity only; no rights, selected distribution, deployment proof or consumer ACK"
+  },
+  "pr3": {
+    "head": "289b22659f0699649abd65ba7a3b7e710839f4d3",
+    "base_for_comparison": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "state": "open",
+    "mergeable": false,
+    "main_only_commits": 17,
+    "pr_only_commits": 5,
+    "conflicting_files": [
+      "README.md",
+      "SPEC.md",
+      "docs/material-foil.md",
+      "tokens/tokens.json"
+    ],
+    "disposition": "Keep open on existing hold. Neutral link and description work is merged in22/23; unique A-only app, foil/material/blend/rest/loop and WebAudio/sound rules remain unapproved. No uniquely valid neutral delta remains to extract."
+  },
+  "pr27": {
+    "state": "closed",
+    "merged": false,
+    "head": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "disposition": "Closed as exact duplicate at its dated consolidation; retained PR25 now descends from that exact head and advances it. No reopening or new source work indicated."
+  },
+  "environment": {
+    "python": "Python 3.12.14",
+    "git": "git version 2.51.1",
+    "provider_mode": "N/A; no provider request",
+    "model_runtime": "Inherited assistant runtime; exact native effort qualification not independently attested",
+    "usage_cost": "not exposed for this diagnostic; no paid product/provider call"
+  },
+  "limitations": [
+    "Only affected documentation checks were rerun; prior289-test full run remains attributed toba65.",
+    "No new browser, font, raster, provider, deployment, master acceptance or accountable brand decision evidence.",
+    "Classic branch protection access returned403 and remains unknown; empty formal reviews/checks are not success.",
+    "Owner updated PR25 metadata during this review; this evidence is pinned to aa22 and the18:36:26 body, not future edits."
+  ]
+}

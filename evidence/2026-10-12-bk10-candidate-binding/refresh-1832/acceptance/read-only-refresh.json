@@ -1,0 +1,425 @@
+{
+  "refreshed_at_utc": "2026-10-12 18:37:08 UTC",
+  "readonly": true,
+  "source_pins": {
+    "brand-kit": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "integration-evals": "f187722613c61e14e3f4087a66d07b2b1e6820f7",
+    "shared-contracts": "91736a026c02a3206cb7666ebfbe6134692e5a24",
+    "getticketstub.com": "01c65ae2290447c523823bf4601d6373ce4c6ca2",
+    "landing-page-repo": "dda1b5d48e71ed9c111b82111676b7ef033fe5ef",
+    "marketing-material": "79ae21607eb4d98188f85ce3c42b8be6eb5688bc",
+    "team-dashboard": "d65a1540296cf44bc88bf4910b8a8bb07abd248d"
+  },
+  "issues": [
+    {
+      "number": 4,
+      "title": "[BK-EPIC][P0] Deliver the versioned TicketStub product brand kit",
+      "state": "open",
+      "updated_at": "2026-10-12T18:13:07Z",
+      "closed_at": null,
+      "comments_total": 2,
+      "comments_fetched": 2,
+      "assignees": [],
+      "comment_refs": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/4#issuecomment-6129481897",
+          "created_at": "2026-10-12T17:42:41Z",
+          "updated_at": "2026-10-12T17:42:41Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/4#issuecomment-6129954526",
+          "created_at": "2026-10-12T18:13:07Z",
+          "updated_at": "2026-10-12T18:13:07Z"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "[BK-10][P0] Gate brand-kit v1 on approved assets, reproducible exports and consumer evidence",
+      "state": "open",
+      "updated_at": "2026-10-12T18:07:55Z",
+      "closed_at": null,
+      "comments_total": 4,
+      "comments_fetched": 4,
+      "assignees": [],
+      "comment_refs": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5#issuecomment-6118158753",
+          "created_at": "2026-10-12T05:11:14Z",
+          "updated_at": "2026-10-12T05:11:14Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5#issuecomment-6127989269",
+          "created_at": "2026-10-12T16:06:48Z",
+          "updated_at": "2026-10-12T16:06:48Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5#issuecomment-6129481297",
+          "created_at": "2026-10-12T17:42:39Z",
+          "updated_at": "2026-10-12T17:42:39Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5#issuecomment-6129876484",
+          "created_at": "2026-10-12T18:07:55Z",
+          "updated_at": "2026-10-12T18:07:55Z"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "[BK-01][P0] Reconcile the brand inventory and canonical source-of-truth structure",
+      "state": "closed",
+      "updated_at": "2026-10-12T17:30:26Z",
+      "closed_at": "2026-10-12T17:30:26Z",
+      "comments_total": 4,
+      "comments_fetched": 4,
+      "assignees": [],
+      "comment_refs": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6#issuecomment-6117576037",
+          "created_at": "2026-10-12T04:08:53Z",
+          "updated_at": "2026-10-12T04:08:53Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6#issuecomment-6117700508",
+          "created_at": "2026-10-12T04:22:23Z",
+          "updated_at": "2026-10-12T04:22:23Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6#issuecomment-6118159409",
+          "created_at": "2026-10-12T05:11:18Z",
+          "updated_at": "2026-10-12T05:11:18Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6#issuecomment-6129290656",
+          "created_at": "2026-10-12T17:30:25Z",
+          "updated_at": "2026-10-12T17:30:25Z"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "[BK-06][P0] Record asset provenance and enforce the first-party export boundary",
+      "state": "open",
+      "updated_at": "2026-10-12T17:41:30Z",
+      "closed_at": null,
+      "comments_total": 4,
+      "comments_fetched": 4,
+      "assignees": [],
+      "comment_refs": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7#issuecomment-6117727213",
+          "created_at": "2026-10-12T04:25:13Z",
+          "updated_at": "2026-10-12T04:25:13Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7#issuecomment-6117941355",
+          "created_at": "2026-10-12T04:48:20Z",
+          "updated_at": "2026-10-12T04:48:20Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7#issuecomment-6118156729",
+          "created_at": "2026-10-12T05:11:03Z",
+          "updated_at": "2026-10-12T05:11:03Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7#issuecomment-6129464568",
+          "created_at": "2026-10-12T17:41:30Z",
+          "updated_at": "2026-10-12T17:41:30Z"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "[BK-07][P0] Establish brand proposal, approval and change governance",
+      "state": "closed",
+      "updated_at": "2026-10-12T05:11:16Z",
+      "closed_at": "2026-10-12T04:18:18Z",
+      "comments_total": 6,
+      "comments_fetched": 6,
+      "assignees": [],
+      "comment_refs": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6113526793",
+          "created_at": "2026-10-11T20:41:31Z",
+          "updated_at": "2026-10-11T20:41:31Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6116787775",
+          "created_at": "2026-10-12T02:42:03Z",
+          "updated_at": "2026-10-12T02:42:03Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6117576209",
+          "created_at": "2026-10-12T04:08:55Z",
+          "updated_at": "2026-10-12T04:08:55Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6117666809",
+          "created_at": "2026-10-12T04:18:45Z",
+          "updated_at": "2026-10-12T04:18:45Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6117700751",
+          "created_at": "2026-10-12T04:22:25Z",
+          "updated_at": "2026-10-12T04:22:25Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6118159083",
+          "created_at": "2026-10-12T05:11:16Z",
+          "updated_at": "2026-10-12T05:11:16Z"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "[BK-02][P0] Ratify the existing core identity and resolve open brand decisions",
+      "state": "open",
+      "updated_at": "2026-10-12T17:41:32Z",
+      "closed_at": null,
+      "comments_total": 4,
+      "comments_fetched": 4,
+      "assignees": [],
+      "comment_refs": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6104392189",
+          "created_at": "2026-10-11T01:56:12Z",
+          "updated_at": "2026-10-11T01:56:12Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6118156427",
+          "created_at": "2026-10-12T05:11:01Z",
+          "updated_at": "2026-10-12T05:11:01Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6118216028",
+          "created_at": "2026-10-12T05:17:11Z",
+          "updated_at": "2026-10-12T05:17:11Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6129464881",
+          "created_at": "2026-10-12T17:41:32Z",
+          "updated_at": "2026-10-12T17:41:32Z"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "[BK-03A][P0] Define the token schema and generate deterministic consumer outputs",
+      "state": "closed",
+      "updated_at": "2026-10-12T04:48:45Z",
+      "closed_at": "2026-10-12T04:42:25Z",
+      "comments_total": 3,
+      "comments_fetched": 3,
+      "assignees": [],
+      "comment_refs": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/10#issuecomment-6117727396",
+          "created_at": "2026-10-12T04:25:14Z",
+          "updated_at": "2026-10-12T04:25:14Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/10#issuecomment-6117888684",
+          "created_at": "2026-10-12T04:42:47Z",
+          "updated_at": "2026-10-12T04:42:47Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/10#issuecomment-6117945209",
+          "created_at": "2026-10-12T04:48:45Z",
+          "updated_at": "2026-10-12T04:48:45Z"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "[BK-04][P1] Make canonical logo and raster exports reproducible and quality checked",
+      "state": "open",
+      "updated_at": "2026-10-12T17:41:33Z",
+      "closed_at": null,
+      "comments_total": 2,
+      "comments_fetched": 2,
+      "assignees": [],
+      "comment_refs": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11#issuecomment-6118157385",
+          "created_at": "2026-10-12T05:11:06Z",
+          "updated_at": "2026-10-12T05:11:06Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11#issuecomment-6129465100",
+          "created_at": "2026-10-12T17:41:32Z",
+          "updated_at": "2026-10-12T17:41:32Z"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "[BK-08][P0] Validate accessible brand pairings, themes, typography and motion guidance",
+      "state": "open",
+      "updated_at": "2026-10-12T17:41:33Z",
+      "closed_at": null,
+      "comments_total": 2,
+      "comments_fetched": 2,
+      "assignees": [],
+      "comment_refs": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12#issuecomment-6118157751",
+          "created_at": "2026-10-12T05:11:08Z",
+          "updated_at": "2026-10-12T05:11:08Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12#issuecomment-6129465319",
+          "created_at": "2026-10-12T17:41:33Z",
+          "updated_at": "2026-10-12T17:41:33Z"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "[BK-05][P1] Complete cross-surface brand usage rules and reusable examples",
+      "state": "open",
+      "updated_at": "2026-10-12T17:41:34Z",
+      "closed_at": null,
+      "comments_total": 2,
+      "comments_fetched": 2,
+      "assignees": [],
+      "comment_refs": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13#issuecomment-6118158090",
+          "created_at": "2026-10-12T05:11:10Z",
+          "updated_at": "2026-10-12T05:11:10Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13#issuecomment-6129465542",
+          "created_at": "2026-10-12T17:41:34Z",
+          "updated_at": "2026-10-12T17:41:34Z"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "[BK-03B][P0] Define versioned distribution, font delivery and the approved export subset",
+      "state": "open",
+      "updated_at": "2026-10-12T18:07:57Z",
+      "closed_at": null,
+      "comments_total": 4,
+      "comments_fetched": 4,
+      "assignees": [],
+      "comment_refs": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14#issuecomment-6103823848",
+          "created_at": "2026-10-11T00:37:12Z",
+          "updated_at": "2026-10-11T00:37:12Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14#issuecomment-6118157033",
+          "created_at": "2026-10-12T05:11:05Z",
+          "updated_at": "2026-10-12T05:11:05Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14#issuecomment-6129465795",
+          "created_at": "2026-10-12T17:41:35Z",
+          "updated_at": "2026-10-12T17:41:35Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14#issuecomment-6129876896",
+          "created_at": "2026-10-12T18:07:56Z",
+          "updated_at": "2026-10-12T18:07:56Z"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "[BK-09][P1] Document and validate version-pinned product and marketing consumption",
+      "state": "open",
+      "updated_at": "2026-10-12T18:07:58Z",
+      "closed_at": null,
+      "comments_total": 3,
+      "comments_fetched": 3,
+      "assignees": [],
+      "comment_refs": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15#issuecomment-6118158404",
+          "created_at": "2026-10-12T05:11:12Z",
+          "updated_at": "2026-10-12T05:11:12Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15#issuecomment-6129466012",
+          "created_at": "2026-10-12T17:41:36Z",
+          "updated_at": "2026-10-12T17:41:36Z"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15#issuecomment-6129877202",
+          "created_at": "2026-10-12T18:07:58Z",
+          "updated_at": "2026-10-12T18:07:58Z"
+        }
+      ]
+    }
+  ],
+  "approval_state": {
+    "provenance_records": 34,
+    "unknown_rights_records": 34,
+    "uncleared_core_files": 23,
+    "allowlist_entries": 0,
+    "allowlist_review": "UNKNOWN",
+    "distribution_acceptance": {
+      "schema_version": 1,
+      "source_sha": null,
+      "brand_version": null,
+      "distribution": null,
+      "font_delivery": null,
+      "consumer_acknowledgments": {
+        "getticketstub.com": null,
+        "landing-page-repo": null,
+        "marketing-material": null
+      },
+      "release_review": null,
+      "leaf_evidence": {
+        "BK-01": null,
+        "BK-02": null,
+        "BK-03A": null,
+        "BK-03B": null,
+        "BK-04": null,
+        "BK-05": null,
+        "BK-06": null,
+        "BK-07": null,
+        "BK-08": null,
+        "BK-09": null
+      },
+      "manual_evidence": {
+        "identity_ratification": null,
+        "rights_review": null,
+        "visual_assets": null,
+        "browser_accessibility": null,
+        "external_font_available_and_unavailable": null,
+        "claims_review": null,
+        "sanitization_and_history": null,
+        "upgrade_and_approved_rollback": null
+      }
+    }
+  },
+  "criterion_map": {
+    "prior_evidence_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/ca716e1fd218bd9ecdc49675f92f94520998b3d0/evidence/2026-10-12-bk-mvp/postmerge/criterion-map.json",
+    "mapped_rows": 74,
+    "all_current_implementation_paths_exist": true,
+    "note": "Historical run attribution remains unchanged. Current source path availability is a read-only refresh, not a rerun or domain approval."
+  },
+  "new_owner_decisions_found": false,
+  "product_font_observation": {
+    "source_sha": "01c65ae2290447c523823bf4601d6373ce4c6ca2",
+    "path": "src/customer/landing/landing.css",
+    "blob_sha": "ae487f5ff76c3149e7e21ea66ce5a05357f973cf",
+    "introduced_by": "8a1bf549c61b50d5d284c8851c7479c5c7ba13d6",
+    "introduced_at": "2026-10-12T05:26:35Z",
+    "families": [
+      "Abril Fatface",
+      "Archivo",
+      "Big Shoulders Display",
+      "Fraunces",
+      "IBM Plex Mono",
+      "Inter Tight"
+    ],
+    "local_woff2_paths": 10,
+    "note": "Pre-existing additional Product-owned font-delivery surface. Source observation only; no browser, deployment, privacy or font permission claimed."
+  }
+}

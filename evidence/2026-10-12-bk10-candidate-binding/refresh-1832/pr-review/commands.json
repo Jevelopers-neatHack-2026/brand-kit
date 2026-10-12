@@ -1,0 +1,252 @@
+[
+  {
+    "name": "revision-before",
+    "command": [
+      "git",
+      "show",
+      "--no-patch",
+      "--format=%H%n%T%n%P%n%s",
+      "HEAD"
+    ],
+    "cwd": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/checkout",
+    "started_at": "2026-10-12T18:35:18.719466+00:00",
+    "ended_at": "2026-10-12T18:35:18.722057+00:00",
+    "duration_seconds": 0.003,
+    "exit_code": 0,
+    "output_path": "revision-before.log",
+    "output_sha256": "544002e3fee6bf24b5e105c56610cd8be28e2eb53785157ae61604b9890fabc2"
+  },
+  {
+    "name": "clean-before",
+    "command": [
+      "git",
+      "status",
+      "--porcelain=v1"
+    ],
+    "cwd": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/checkout",
+    "started_at": "2026-10-12T18:35:18.722238+00:00",
+    "ended_at": "2026-10-12T18:35:18.752653+00:00",
+    "duration_seconds": 0.03,
+    "exit_code": 0,
+    "output_path": "clean-before.log",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "full-diff",
+    "command": [
+      "git",
+      "diff",
+      "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "HEAD",
+      "--"
+    ],
+    "cwd": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/checkout",
+    "started_at": "2026-10-12T18:35:18.752942+00:00",
+    "ended_at": "2026-10-12T18:35:18.755466+00:00",
+    "duration_seconds": 0.003,
+    "exit_code": 0,
+    "output_path": "full-diff.log",
+    "output_sha256": "eacae54deb01b9fc19b6c162c7dced33d304127d253bebbdb86e8b38fe2f1d33"
+  },
+  {
+    "name": "diff-check",
+    "command": [
+      "git",
+      "diff",
+      "--check",
+      "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "HEAD",
+      "--"
+    ],
+    "cwd": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/checkout",
+    "started_at": "2026-10-12T18:35:18.755666+00:00",
+    "ended_at": "2026-10-12T18:35:18.757995+00:00",
+    "duration_seconds": 0.002,
+    "exit_code": 0,
+    "output_path": "diff-check.log",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "prior-reviewed-delta",
+    "command": [
+      "git",
+      "diff",
+      "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+      "HEAD",
+      "--"
+    ],
+    "cwd": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/checkout",
+    "started_at": "2026-10-12T18:35:18.758174+00:00",
+    "ended_at": "2026-10-12T18:35:18.760150+00:00",
+    "duration_seconds": 0.002,
+    "exit_code": 0,
+    "output_path": "prior-reviewed-delta.log",
+    "output_sha256": "5ea7baf1b96627811417deb3ec3dc95efd9b63239cacc70d1f44d04aac0ffdfc"
+  },
+  {
+    "name": "ancestor-main",
+    "command": [
+      "git",
+      "merge-base",
+      "--is-ancestor",
+      "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "HEAD"
+    ],
+    "cwd": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/checkout",
+    "started_at": "2026-10-12T18:35:18.760329+00:00",
+    "ended_at": "2026-10-12T18:35:18.762168+00:00",
+    "duration_seconds": 0.002,
+    "exit_code": 0,
+    "output_path": "ancestor-main.log",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "ancestor-original-proposal",
+    "command": [
+      "git",
+      "merge-base",
+      "--is-ancestor",
+      "3eebe0c15ed025c5a074b56629c3ca2cf1483829",
+      "HEAD"
+    ],
+    "cwd": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/checkout",
+    "started_at": "2026-10-12T18:35:18.762354+00:00",
+    "ended_at": "2026-10-12T18:35:18.764424+00:00",
+    "duration_seconds": 0.002,
+    "exit_code": 0,
+    "output_path": "ancestor-original-proposal.log",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "ancestor-corrected-draft",
+    "command": [
+      "git",
+      "merge-base",
+      "--is-ancestor",
+      "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+      "HEAD"
+    ],
+    "cwd": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/checkout",
+    "started_at": "2026-10-12T18:35:18.764631+00:00",
+    "ended_at": "2026-10-12T18:35:18.766575+00:00",
+    "duration_seconds": 0.002,
+    "exit_code": 0,
+    "output_path": "ancestor-corrected-draft.log",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "ancestor-pr26-main",
+    "command": [
+      "git",
+      "merge-base",
+      "--is-ancestor",
+      "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "HEAD"
+    ],
+    "cwd": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/checkout",
+    "started_at": "2026-10-12T18:35:18.766835+00:00",
+    "ended_at": "2026-10-12T18:35:18.768984+00:00",
+    "duration_seconds": 0.002,
+    "exit_code": 0,
+    "output_path": "ancestor-pr26-main.log",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "pr3-merge-base",
+    "command": [
+      "git",
+      "merge-base",
+      "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "289b22659f0699649abd65ba7a3b7e710839f4d3"
+    ],
+    "cwd": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/checkout",
+    "started_at": "2026-10-12T18:35:18.769209+00:00",
+    "ended_at": "2026-10-12T18:35:18.772101+00:00",
+    "duration_seconds": 0.003,
+    "exit_code": 0,
+    "output_path": "pr3-merge-base.log",
+    "output_sha256": "afbded1370352cee211f8f3c15434e3470766bbd2d42a2c7d38cf57cc5f58fdf"
+  },
+  {
+    "name": "pr3-ahead-behind",
+    "command": [
+      "git",
+      "rev-list",
+      "--left-right",
+      "--count",
+      "e254df5444f0bfedd5526b0e148b0cdf36cbd31f...289b22659f0699649abd65ba7a3b7e710839f4d3"
+    ],
+    "cwd": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/checkout",
+    "started_at": "2026-10-12T18:35:18.772322+00:00",
+    "ended_at": "2026-10-12T18:35:18.774993+00:00",
+    "duration_seconds": 0.003,
+    "exit_code": 0,
+    "output_path": "pr3-ahead-behind.log",
+    "output_sha256": "c06354113b5e3006bbab3621fdaa2e186ce298d17a5e8d0298b5324bfd8404e0"
+  },
+  {
+    "name": "affected-doc-checks",
+    "command": [
+      "make",
+      "check-inventory",
+      "check-links",
+      "check-governance",
+      "check-guidelines"
+    ],
+    "cwd": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/checkout",
+    "started_at": "2026-10-12T18:35:18.775207+00:00",
+    "ended_at": "2026-10-12T18:35:19.551655+00:00",
+    "duration_seconds": 0.776,
+    "exit_code": 0,
+    "output_path": "affected-doc-checks.log",
+    "output_sha256": "f08245907f43dd2310c969da6f2faaad3e74e6571b3247cd7152e9885dd66b16"
+  },
+  {
+    "name": "clean-after",
+    "command": [
+      "git",
+      "status",
+      "--porcelain=v1"
+    ],
+    "cwd": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/checkout",
+    "started_at": "2026-10-12T18:35:19.552140+00:00",
+    "ended_at": "2026-10-12T18:35:19.555470+00:00",
+    "duration_seconds": 0.003,
+    "exit_code": 0,
+    "output_path": "clean-after.log",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "pr3-conflict-check",
+    "command": [
+      "git",
+      "merge-tree",
+      "--write-tree",
+      "--messages",
+      "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "289b22659f0699649abd65ba7a3b7e710839f4d3"
+    ],
+    "cwd": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/checkout",
+    "started_at": "2026-10-12T18:36:23.914187+00:00",
+    "ended_at": "2026-10-12T18:36:23.920260+00:00",
+    "exit_code": 1,
+    "output_path": "pr3-conflict-check.log",
+    "output_sha256": "467bb7fe8df044885788337ae1b570d7d74b57fcc99378dc2fa336863beab48a"
+  },
+  {
+    "name": "pr25-merge-tree",
+    "command": [
+      "git",
+      "merge-tree",
+      "--write-tree",
+      "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "aa22b3833a7510e1ece215926faab6c6394e5258"
+    ],
+    "cwd": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/checkout",
+    "started_at": "2026-10-12T18:36:23.920317+00:00",
+    "ended_at": "2026-10-12T18:36:23.927262+00:00",
+    "exit_code": 0,
+    "output_path": "pr25-merge-tree.log",
+    "output_sha256": "1f993073003ff30bc8341c361e32c74ae9ebc7df1c1eca6e96e2e4f129f06659"
+  }
+]

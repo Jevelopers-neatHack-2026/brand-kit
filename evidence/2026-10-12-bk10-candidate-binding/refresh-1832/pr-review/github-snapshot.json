@@ -1,0 +1,303 @@
+{
+  "observed_at": "2026-10-12T18:36:41Z",
+  "reviewer": "/root/pr_reconciliation_refresh",
+  "retrieval": "Read-only authenticated GitHub connector and independent local Git checkout",
+  "main": {
+    "sha": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "tree": "32e3904a8d901b9c6cf75ca1e65829fe98df03f0",
+    "protected": false,
+    "rulesets": [],
+    "classic_protection": {
+      "outcome": "response",
+      "data": {
+        "error": "GitHub API error 403: {\"message\":\"Resource not accessible by integration\",\"documentation_url\":\"https://docs.github.com/rest/branches/branch-protection#get-branch-protection\",\"status\":\"403\"}",
+        "error_code": "FORBIDDEN",
+        "error_data": {
+          "message": "Resource not accessible by integration",
+          "documentation_url": "https://docs.github.com/rest/branches/branch-protection#get-branch-protection",
+          "status": "403"
+        }
+      }
+    }
+  },
+  "pulls": [
+    {
+      "number": 3,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3",
+      "title": "Point edition and foil links at getticketstub.com docs/studio",
+      "state": "open",
+      "draft": false,
+      "merged": false,
+      "author": "lmvdz",
+      "head": "289b22659f0699649abd65ba7a3b7e710839f4d3",
+      "head_ref": "docs/studio-links",
+      "base": "74bc86fe5b520cae792066fbe0d7dd129664bbd3",
+      "mergeable": false,
+      "mergeable_state": "dirty",
+      "updated_at": "2026-10-12T17:42:44Z",
+      "requested_reviewers": [
+        "CompleteDotTech"
+      ],
+      "changed_files": 5
+    },
+    {
+      "number": 25,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25",
+      "title": "docs: clarify brand source and distribution status",
+      "state": "open",
+      "draft": false,
+      "merged": false,
+      "author": "CompleteDotTech",
+      "head": "aa22b3833a7510e1ece215926faab6c6394e5258",
+      "head_ref": "docs/org-documentation-20261012",
+      "base": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "mergeable": true,
+      "mergeable_state": "clean",
+      "updated_at": "2026-10-12T18:36:26Z",
+      "requested_reviewers": [],
+      "changed_files": 3
+    },
+    {
+      "number": 27,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/27",
+      "title": "docs: preserve verified evidence in the ownership refresh",
+      "state": "closed",
+      "draft": true,
+      "merged": false,
+      "author": "CompleteDotTech",
+      "head": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+      "head_ref": "docs/bk-pr25-preserve-source-evidence",
+      "base": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "mergeable": true,
+      "mergeable_state": "clean",
+      "updated_at": "2026-10-12T18:25:05Z",
+      "requested_reviewers": [],
+      "changed_files": 3
+    }
+  ],
+  "product": {
+    "main": "01c65ae2290447c523823bf4601d6373ce4c6ca2",
+    "pull": {
+      "number": 117,
+      "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/117",
+      "title": "docs: reconcile current architecture and HTTP boundaries",
+      "state": "open",
+      "draft": false,
+      "merged": false,
+      "author": "CompleteDotTech",
+      "head": "60d3b6aa074caddca4d362ba8b13b56fe4436177",
+      "head_ref": "docs/org-documentation-20261012",
+      "base": "01c65ae2290447c523823bf4601d6373ce4c6ca2",
+      "mergeable": true,
+      "mergeable_state": "unstable",
+      "updated_at": "2026-10-12T18:27:36Z",
+      "requested_reviewers": [],
+      "changed_files": 18
+    },
+    "checks": [
+      {
+        "name": "build-and-smoke",
+        "head_sha": "60d3b6aa074caddca4d362ba8b13b56fe4436177",
+        "status": "completed",
+        "conclusion": "failure",
+        "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/actions/runs/38287279004/job/114938560052"
+      }
+    ]
+  },
+  "brand_reviews": {
+    "pr3": [],
+    "pr25": [],
+    "pr27": [],
+    "pr25_inline": []
+  },
+  "brand_checks": {
+    "pr3": {
+      "count": 0,
+      "status_contexts": 0
+    },
+    "pr25": {
+      "count": 0,
+      "status_contexts": 0
+    },
+    "pr27": {
+      "count": 0
+    }
+  },
+  "current_pr25_body": "## Summary\n\nThis PR updates the maintained brand ownership, source-of-truth, and acceptance guides to match the current repository and preserve the verified history of earlier decisions and handoffs. It adopts the scoped corrections authored in follow-up #27, records the latest source comparison against brand-kit main e254df5444f0bfedd5526b0e148b0cdf36cbd31f, and preserves the immutable 14-SVG comparison as bounded evidence. The changes are documentation only; they do not grant brand, rights, release, or consumer approval.\n\n## Linked issues\n\nRefs Jevelopers-neatHack-2026/brand-kit#27 · Refs Jevelopers-neatHack-2026/getticketstub.com#117\n\n- **Issue key:** N/A — this organization-wide documentation audit has no assigned brand acceptance issue. #27 is the corrective documentation PR; #117 is a documented integration dependency.\n\n## Scope / Non-goals\n\n- **In scope:** correct three maintained documentation files, preserve source ownership and historical evidence, and link to canonical product/master references.\n- **Non-goals:** changing assets, tokens, code, package versions, application behavior, identity decisions, rights or font clearance, public export authorization, releases, provider use, or consumer acceptance.\n\n## Changes\n\n- docs/architecture/OWNERSHIP.md records the current main source pin and keeps the dated visibility history, PR #2 handoff, PR #22 links, PR #3 unresolved proposals, and the 14-SVG evidence scoped to matching Git blobs. The comparison does not establish rights, a selected brand version, distribution approval, or consumer ACK.\n- docs/source-of-truth.md marks former proposed layout/icon references as historical and retains the reviewer-role correction merged through PR #28.\n- docs/architecture/ACCEPTANCE.md points to the canonical integration-evals authority and does not mirror or assert master status.\n- The branch head aa22b3833a7510e1ece215926faab6c6394e5258 has the current main e254df5444f0bfedd5526b0e148b0cdf36cbd31f as its second parent. Its tree changes only the three documentation files relative to current main; no asset, token, dependency, approval record, or application file changes.\n\n## Ownership & design\n\n- **Affected ownership / interfaces:** brand-kit owns identity sources and guidance; Product owns application assembly; event-intelligence owns event asset discovery/permission evaluation; creative-engine owns artwork versioning; print-production owns printable composition; shared-contracts owns canonical interfaces; integration-evals owns master acceptance. No ownership is reassigned.\n- **Design / ADR / catalog links:** [brand source-of-truth index at this candidate](https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/aa22b3833a7510e1ece215926faab6c6394e5258/docs/source-of-truth.md), [PR #3 reconciliation](https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/aa22b3833a7510e1ece215926faab6c6394e5258/docs/identity-decision-packet.md#pr-3-reconciliation), and [shared contract catalog](https://github.com/Jevelopers-neatHack-2026/shared-contracts/blob/91736a026c02a3206cb7666ebfbe6134692e5a24/docs/contract-catalog.md). The current product architecture link targets getticketstub.com PR #117 and resolves on its default branch only after that companion merges. The v1.0 architecture kit remains dated design intent.\n\n## Acceptance criteria → evidence\n\nNo new product or master acceptance criterion is created by this documentation PR.\n\n- [x] Preserve verified source and ownership history while distinguishing historical proposals from current files — corrected pages retain their dated evidence and named owners.\n- [x] Keep the 14-SVG comparison separate from rights, distribution, version selection, and consumer acceptance — exact evidence pins remain in the source guide.\n- [x] Preserve current reviewer-role wording from PR #28 and the unresolved PR #3 decision boundary — source-of-truth page retains the role and pending decisions.\n- [x] Keep master acceptance authoritative — local acceptance page links to integration-evals without claiming status.\n- [ ] Verify and merge product architecture companion #117, then confirm its default-branch link — #117 remains open; its current Application runtime workflow run failed.\n- [ ] Complete policy-qualified independent review of exact head aa22b3833a7510e1ece215926faab6c6394e5258 — still pending; prior scoped review of ba65bb20e9f4e820666cbb3a40154c74676d133d is historical evidence and is not a review of this head.\n- **Acceptance IDs:** ART-05 and EVAL-04 are contextual links only; they remain under the integration-evals master authority, with no state change here.\n\n## Verification\n\n- **Tested revision:** current head aa22b3833a7510e1ece215926faab6c6394e5258; tree 7fcbfa65fd3423fec10b77d90f7655d2b228e84a. Current main is second parent; the documentation candidate is the first parent.\n- **Executed:** a local three-way tree merge of the task candidate with current main completed without conflicts and produced the exact candidate tree. git diff --check against current main passed. The exact PR diff against current main contains only the three listed documentation files.\n- **Previously executed at ba65bb20e9f4e820666cbb3a40154c74676d133d:** PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python PLAYWRIGHT_BROWSERS_PATH=/tmp/ticketstub-browser-1194 make check — exit 0, 289 tests passed in 53.302 seconds; inventory reported 117,387 local links and 0 broken, with 167 external URLs unchecked. This result is pinned to ba65, not relabeled as a test run on aa22.\n- **Previously executed at ba65bb20e9f4e820666cbb3a40154c74676d133d:** git diff --check and the local/remote tree-parity and clean-checkout checks passed. The final navigation scan reported no maintained local-reference findings; cross-repository target freshness is separate.\n- **Planned / not run:** qualifying exact-head independent review, product #117 merge and link verification, any applicable owner review, and post-merge checks.\n- **Limitations / skips:** external URLs are not probed by local navigation checks. Product PR #117 is open at head 60d3b6aa074caddca4d362ba8b13b56fe4436177; its Application runtime workflow run 38287279004 failed the phone/desktop offline analytics journey and later dependent checks were skipped. No success is inferred from empty check-run or status collections.\n- **Evidence links:** [prior scoped source review on ba65](https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25#issuecomment-6130119982) and [product #117 workflow run](https://github.com/Jevelopers-neatHack-2026/getticketstub.com/actions/runs/38287279004).\n- **Provider mode:** N/A — local checks and read-only source review; no provider call.\n- **Paid/live provider authorization and budget:** none occurred.\n- **Paid/live provider cost:** N/A — no paid/live provider call occurred.\n\n## Dependencies / blockers\n\n- **Blocked by:** getticketstub.com#117 — merge the maintained current-architecture companion, then verify the default-branch target and its anchors. Its last inspected head remains open and the Application runtime check failed.\n- **Blocks:** integration of this brand documentation PR until the owner-stated link prerequisite and exact-head review are satisfied. No product acceptance is implied.\n\n## Cross-repo impact\n\nThis PR documents existing ownership and links; it changes no contracts or consumer implementation.\n\n- **Compatibility / migration:** None.\n- **Release / version impact:** None; no package, tag, or deployment is produced.\n- **Producer / consumer acknowledgement:** N/A for unchanged interfaces. Exact artifact ACKs and distribution approval remain pending.\n\n## Security & provenance\n\n- [x] No secrets, tokens, credentials, signed URLs, or customer data were added.\n- [x] No dependency or asset was added; existing provenance remains in its owning records.\n- [x] Paid/live provider use was absent.\n\n## Risk & rollback\n\nThe main risk is a documentation claim becoming stale as source ownership or the product architecture changes. The pages retain dated evidence and name the source authorities. Correct any stale statement in a scoped follow-up or revert this documentation diff; no runtime rollback is needed.\n\n## Reviewer expectations\n\n- **Reviewer role(s) requested:** independent brand-source/documentation reviewer and authorized brand supervisor. Product owns its separate #117 review and merge; source review grants no identity, rights, font, release, or consumer approval.\n- The required policy-qualified exact-head reviewer is blocked: the requested Astra High dispatch was rejected because this runtime accepts only xhigh, and the authorized Opus 5.5 runner is unavailable. Do not treat the earlier ba65 review as approval of aa22.\n- Recheck the exact candidate, current main source pin, retained historical evidence, and #117 target before integration.",
+  "current_pr25_comment_refs": [
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25#issuecomment-6129495151",
+      "updated_at": "2026-10-12T17:45:30Z",
+      "author": "chatgpt-codex-connector[bot]"
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25#issuecomment-6129548550",
+      "updated_at": "2026-10-12T17:46:57Z",
+      "author": "CompleteDotTech"
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25#issuecomment-6129750862",
+      "updated_at": "2026-10-12T18:00:01Z",
+      "author": "CompleteDotTech"
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25#issuecomment-6130119982",
+      "updated_at": "2026-10-12T18:23:44Z",
+      "author": "CompleteDotTech"
+    }
+  ],
+  "pr3_hold_comments": [
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3#issuecomment-6117604850",
+      "updated_at": "2026-10-12T04:12:00Z",
+      "author": "CompleteDotTech",
+      "body": "## Independent review: REQUEST CHANGES\n\nReviewed exact head **289b22659f0699649abd65ba7a3b7e710839f4d3** against base **74bc86fe5b520cae792066fbe0d7dd129664bbd3** on 2026-10-12. This is a review comment, not brand approval or a merge instruction.\n\n### Merge blockers\n\n1. **P1 — Do not assert A-only is decided without its approval record.** [SPEC.md:26–29](https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/289b22659f0699649abd65ba7a3b7e710839f4d3/SPEC.md#L26-L29) changes the master app direction to “Dropped for the app” / “Decided: A only”; the same rule is added to motion and foil guidance. [BK-02's current decision comment](https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6104392189) explicitly requires a recorded, approved decision before this PR merges. [The approver nomination](https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6113526793) and [owner-team/font receipt](https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6116787775) do not supply that decision: they identify CompleteDotTech as accountable approver, record CompleteDotTech/LaJefa/Lars as the owner team, preserve the no-self-hosted-font constraint, and expressly withhold approval of unseen identity/artifacts. Current consumer use of paper is implementation evidence, not ratification. Record the real dated decision against exact files/SHA and its app-versus-marketing scope, or remove the policy change from this link-repair PR. This review does not ratify either A+B or A-only.\n\n2. **P2 — Reconcile the canonical references if the direction change is retained.** [The changed spec](https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/289b22659f0699649abd65ba7a3b7e710839f4d3/SPEC.md#L29) says the studio never has a dark stage, but [README.md:23](https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/289b22659f0699649abd65ba7a3b7e710839f4d3/README.md#L23), [index.html:283–287](https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/289b22659f0699649abd65ba7a3b7e710839f4d3/index.html#L283-L287), and [tokens/tokens.css:1–3](https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/289b22659f0699649abd65ba7a3b7e710839f4d3/tokens/tokens.css#L1-L3) still tell consumers to switch to the night stage for printing/reveal/finishes/tear. The board also retains the thermal-whirr/source-from-cuelume sound guidance while this PR prescribes synthesized stepper ticks. A consumer cannot select a single intended rule from these canonical entry points. After an actual owner decision, update the affected guidance together and explicitly retain/scope dark tokens for permitted marketing/print uses. Merely leaving the contradiction for BK-03A is insufficient for this policy-changing head.\n\n### Upstream links: now resolved in source\n\nThe old 404/merge-order blocker is cleared. getticketstub.com [PR #4](https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/4) and [PR #20](https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/20) are merged. At current main **388005240aa62374d49f709afc300adb5e98cd98**, these paths were read successfully:\n\n- [docs/studio/stub-system.md](https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/388005240aa62374d49f709afc300adb5e98cd98/docs/studio/stub-system.md)\n- [docs/studio/research/holo-foil-technique.md](https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/388005240aa62374d49f709afc300adb5e98cd98/docs/studio/research/holo-foil-technique.md)\n- [/parts route source](https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/388005240aa62374d49f709afc300adb5e98cd98/src/app/parts/page.tsx), which renders PartsBoard; [feedback.ts](https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/388005240aa62374d49f709afc300adb5e98cd98/src/customer/studio/feedback.ts) also exists in the source tree.\n\nThis verifies source availability, not a deployed `/parts` endpoint or whole-product readiness. The PR description's current upstream-blocker statements are stale.\n\n### Narrow follow-up\n\nPrepare a link-only revision/PR: retain the README/SPEC/foil-source/token-description path corrections, update README's stale `ticket-studio` status sentence, and refresh the PR dependency evidence. Move the A-only and new foil/motion/sound policy into a clearly pending BK-02/BK-08 review proposal. That proposal should request the exact scoped owner decision and carry the corresponding README/board/token-guidance reconciliation; it must not invent approval. This allows the verified link repair to advance independently.\n\n### Verification\n\n- `git diff --check 74bc86fe5b520cae792066fbe0d7dd129664bbd3...289b22659f0699649abd65ba7a3b7e710839f4d3`: PASS.\n- Exact-head `tokens/tokens.json` parses: PASS.\n- Diff contains five documentation/description files; no logo SVGs or token numeric values change. Logo generation was not rerun during this read-only review.\n- No status checks are attached to this PR. No consumer files, local repository files, or branches were changed; no merge performed.\n"
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3#issuecomment-6122164575",
+      "updated_at": "2026-10-12T10:11:32Z",
+      "author": "CompleteDotTech",
+      "body": "Sole Brand owner global-MVP adoption receipt: the isolated link-only correction is merged separately as PR #22, main `3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4`. Independent Astra approved actual candidate `e511f18b1bc19cda152b9a82770d3fabb18594b4` ([review](https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/22#issuecomment-6122144808)); its tree matches the squash merge exactly. All196 tests passed. Only README, SPEC and material-foil documentation changed, one line each; pinned Product43bb721 targets exist. Tokens/assets/fonts/provenance and identity/motion/sound policies are unchanged.\n\nPR #3 remains HOLD/conflicting: the broader A-only, foil and sound changes still need their actual owner decision and reconciled guidance. This narrow merge does not approve those changes or grant asset permissions. The versioned permitted MVP handoff remains blocked by23 uncleared core files, empty/unreviewed allowlist, token/font adoption and exact Product/Print/Fulfillment ACKs. Existing ACK requests Product19#6121957840 and Fulfillment10#6121958209 are preserved; no duplicate request is created here.\n"
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3#issuecomment-6129482528",
+      "updated_at": "2026-10-12T17:42:44Z",
+      "author": "CompleteDotTech",
+      "body": "## Evidence-based disposition: partially superseded, still OPEN / HOLD\n\nPR #22 already merged the valid immutable edition/foil links. PR #23 now integrates the remaining rule-neutral README edition reference and token-root description correction without regressing the merged token-profile description. The [complete hunk disposition](https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/a664cc99884b2679f2c6ea15c6c3e8b98b768755/docs/identity-decision-packet.md#pr-3-reconciliation) records the exact integration and ownership boundaries. PR #24 subsequently improves README setup/validation only.\n\nCurrent main `a664cc99884b2679f2c6ea15c6c3e8b98b768755` has [verified source/tooling evidence](https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/a6e94be639cc516d0c94b0473edf61437ec4a07a/evidence/2026-10-12-bk-mvp/final-main/README.md). This proposal's original head remains `289b22659f0699649abd65ba7a3b7e710839f4d3`; GitHub reports mergeability `false` / `dirty`. The original owner branch has not been overwritten.\n\nUnique **A-only app scope, foil blend/material rules and WebAudio/sound proposals remain unapproved**. They prevent a fully-superseded closure; no current source import or local test constitutes ratification. The [existing hold](https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3#issuecomment-6122164575) and [unanswered scope question](https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6118216028) still govern.\n\n**Next owner action:** the nominated accountable brand approver and required design/accessibility/consumer reviewers must accept, reject or revise the six-decision #9 packet with exact source, date, identity and scope. Preserve the existing Product/Print/Fulfillment ownership and coordination receipts. After that decision, the original author can reconcile the remaining approved delta with current main in an owner-compatible lane, obtain independent review and run its affected checks. Until then this PR remains open on hold; it is neither approved for merge nor falsely closed as entirely superseded."
+    }
+  ],
+  "pr27_duplicate_disposition": [
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/27#issuecomment-6130139950",
+      "updated_at": "2026-10-12T18:25:03Z",
+      "author": "CompleteDotTech",
+      "body": "## Closed as an exact duplicate carried in PR #25\n\nAt 2026-10-12 18:25:03 UTC, both this branch `docs/bk-pr25-preserve-source-evidence` and the retained original PR #25 branch `docs/org-documentation-20261012` point to **`ba65bb20e9f4e820666cbb3a40154c74676d133d`**, tree `b296f348e6ff5f4a642c30af735cffbc7d2627b8`. This PR has **no unique source changes** beyond the exact corrected source now present in [PR #25](https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25). Its original proposal and correction/main-integration commits remain in that ancestry.\n\nThe independent /root/pr3_reconcile comparison verified both PR heads, both remote refs, exact tree and identical three-document delta against main `e254df5444f0bfedd5526b0e148b0cdf36cbd31f`; it also confirmed PR #26 and #28 content is preserved. Report SHA-256: `f62dfc51ea68162de9c15aa4989f80d578d69630076b850464faf3924e3b7a3f`. Existing exact-ba65 source review and the 289-test result have been [carried onto PR #25](https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25#issuecomment-6130119982).\n\n**Disposition:** close this draft duplicate without merging it, preserve the branch and all prior results, and retain original PR #25 as the integration proposal. Git ref identity proves source incorporation; it does not identify the branch updater or supply a separate owner acceptance, rights/identity decision or consumer ACK.\n\n**PR #25 remains open on HOLD.** Its explicit prerequisite, [Product PR #117](https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/117), is still open at `60d3b6aa074caddca4d362ba8b13b56fe4436177`, with a failed current-head build-and-smoke check and absent default-branch architecture target. No merge prerequisite, required check or review is waived. Refresh those conditions before integrating #25. This duplicate closure completes no brand release, gate, epic or foreign/global criterion.\n\nThe historical candidate description and all dated prior evidence remain below and in the conversation; its earlier branch/main states describe those earlier inspection times."
+    }
+  ],
+  "unresolved_identity_comments": [
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6104392189",
+      "id": 6104392189,
+      "author": "CompleteDotTech",
+      "body": "Triage note: Jevelopers-neatHack-2026/brand-kit#3 proposes dropping the night stage for the app (SPEC.md moves from A + B to A only). That decision falls under BK-02.3 and needs a recorded, approved decision here before #3 can merge."
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6118156427",
+      "id": 6118156427,
+      "author": "CompleteDotTech",
+      "body": "MVP follow-up — @lmvdz (Lars)\n\nPlease help coordinate an exact-revision decision on the core identity: approved marks, palette, typography and guides, including Paper Desk-only app versus A+B. PR #3 remains pending; source/code review is not identity approval.\n\nRequested by the repository owner to flag unresolved MVP items. Please coordinate with the existing supervisors/active execution claims; this is a review and coordination request, not a fabricated approval or unilateral responsibility assignment."
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6118216028",
+      "id": 6118216028,
+      "author": "CompleteDotTech",
+      "body": "@lmvdz Lars, Timothy asked me to bring question 1 to you here under BK-02.3, in relation to PR #3:\n\n**Should the app use “always on paper,” with dark styling reserved for marketing or print where appropriate?**\n\n- **A — Approve this direction**, then reconcile the spec, README, visual board and token/motion guidance. **Our suggested option.** It aligns the guidance with the shipped studio while keeping the permitted marketing/print scope explicit.\n- **B — Keep the existing paper-by-day / foil-by-night direction.**\n- **C — Defer the direction decision and make PR #3 a link-only repair.**\n\nWhich option do you recommend, and why? Please clarify the intended app versus marketing/print scope. If this direction has already been decided, please link the dated decision and the source revision it covers so we can resolve the outstanding request without duplicating work.\n\nRelated PR: https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3\nReview findings: https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3#issuecomment-6117604850\n\nThis is a request for your recommendation/decision evidence; it does not record a new approval on Timothy's behalf.\n"
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6129464881",
+      "id": 6129464881,
+      "author": "CompleteDotTech",
+      "body": "**Owner:** CompleteDotTech as nominated accountable brand approver, with design/content, provenance and affected consumer reviewers.\n\nPR #23 supplies the [source/hash decision packet](https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/docs/identity-decision-packet.md) and integrates remaining rule-neutral PR #3 links/description repair while preserving PR #22’s immutable studio links. PR #3 retains unique paper-only, foil and sound proposals; it is not fully superseded. **Next input:** the [nominated approver](https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6113526793) must record a dated decision against the final reviewed SHA: A+B or an always-paper app with explicit marketing/print scope; selected mark variants; palette/type/foil rules; imagery-versus-artwork scope; and UI-icon ownership. The [existing question to Lars](https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6118216028) remains unanswered in the refreshed thread. Include [BK-06 rights](https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7) and migration impact. The packet’s older baseline hashes cannot approve changed files. PR #3’s owner branch remains available pending these decisions.\n\nThe concrete six-decision packet is ready for accept/reject/revise dispositions with reviewer identity, date, exact reviewed source/version and bounded rationale. A nomination or this implementation report is not ratification.\n\n**Verification attached:** [Final-main evidence](https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/a6e94be639cc516d0c94b0473edf61437ec4a07a/evidence/2026-10-12-bk-mvp/final-main/README.md) is bound to `a664cc99884b2679f2c6ea15c6c3e8b98b768755` after PR #24's README merge: 283 tests, deterministic package and actual local CSS/Tailwind consumer checks pass. The three production/receipt checks each still fail with exit 2. [PR #23's full gate](https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/ca716e1fd218bd9ecdc49675f92f94520998b3d0/evidence/2026-10-12-bk-mvp/postmerge/gate/report.json) remains separately bound to `6222a745195e9f15a14069e79210ad45daa16c94`: 14 engineering passes, three prerequisite failures, 29 recorded blockers. The two later documentation files do not change the implementation or distributed payloads. Missing provider/manual/owner cases are not passes. [BK-01 #6 is closed](https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6#issuecomment-6129290656) for inventory only; no other brand, consumer or global acceptance is granted."
+    }
+  ],
+  "policy": {
+    "org_sha": "07d750dfb7feeecdeca7d3d1a2363663d7f3517f",
+    "org_agent_scope": "AGENTS.md explicitly applies to .github; no automatic inheritance",
+    "brand_local_agent_files": [],
+    "contributor_url": "https://github.com/Jevelopers-neatHack-2026/.github/blob/07d750dfb7feeecdeca7d3d1a2363663d7f3517f/CONTRIBUTING.md",
+    "agent_guidance_url": "https://github.com/Jevelopers-neatHack-2026/.github/blob/07d750dfb7feeecdeca7d3d1a2363663d7f3517f/standards/agent-contributors.md",
+    "acceptance_url": "https://github.com/Jevelopers-neatHack-2026/.github/blob/07d750dfb7feeecdeca7d3d1a2363663d7f3517f/standards/acceptance-evidence.md",
+    "security_url": "https://github.com/Jevelopers-neatHack-2026/.github/blob/07d750dfb7feeecdeca7d3d1a2363663d7f3517f/standards/security-secret-handling.md",
+    "pr_template_url": "https://github.com/Jevelopers-neatHack-2026/.github/blob/07d750dfb7feeecdeca7d3d1a2363663d7f3517f/.github/pull_request_template.md",
+    "owner_declared_review_gate": "PR25 current body explicitly requires Astra High or Opus5.5 and reports unavailable exact runtime; this diagnostic does not waive that owner hold."
+  },
+  "required_external_target": {
+    "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/main/docs/architecture/CURRENT-STATE.md",
+    "occurrences": 2,
+    "moving_main": {
+      "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+        "status": "404"
+      }
+    },
+    "exact_main": {
+      "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+        "status": "404"
+      }
+    },
+    "candidate_exists_at": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/60d3b6aa074caddca4d362ba8b13b56fe4436177/docs/architecture/CURRENT-STATE.md",
+    "candidate_blob": "31d199072287b80237a9b7c65deed2c434a188de"
+  },
+  "historical_product_logo_blobs": [
+    {
+      "path": "public/brand/app-icon.svg",
+      "sha": "83d73b396da1c74e868773c426b5118d878f7268"
+    },
+    {
+      "path": "public/brand/favicon.svg",
+      "sha": "6b4df7c7a909bf46182e69f242ed163f0a34180e"
+    },
+    {
+      "path": "public/brand/lockup-horizontal-mono.svg",
+      "sha": "73eb76e4ce1ed2db5431f1a21e0214dc92937a64"
+    },
+    {
+      "path": "public/brand/lockup-horizontal.svg",
+      "sha": "6b17f9f18bd5b5784d5c7ef269e2e35b363d8b95"
+    },
+    {
+      "path": "public/brand/lockup-stacked.svg",
+      "sha": "d91b363460652bef435ecb1d0aeb6b8fe50b8dc3"
+    },
+    {
+      "path": "public/brand/ts-stamp-currentcolor.svg",
+      "sha": "7e58592a33301afe223b7541278d3061584417a0"
+    },
+    {
+      "path": "public/brand/ts-stamp-mono-cream.svg",
+      "sha": "ce2d222ee40d9de9c7c0abca6a09c2a955697ed7"
+    },
+    {
+      "path": "public/brand/ts-stamp-mono-ink.svg",
+      "sha": "aca1e449b9d1384e8293386df22268da9faae498"
+    },
+    {
+      "path": "public/brand/ts-stamp-mono-orange.svg",
+      "sha": "9c03e00beb4270082ad8a57fe8ac2a35fe5c254a"
+    },
+    {
+      "path": "public/brand/ts-stamp.svg",
+      "sha": "dae8c394057e475f59bfd624586246a17784d732"
+    },
+    {
+      "path": "public/brand/wordmark-compact.svg",
+      "sha": "09acb8303bc9b7279ac70227a823a1203d2f1017"
+    },
+    {
+      "path": "public/brand/wordmark-cream.svg",
+      "sha": "c0e3be6e098916ccaac69e59dc4860f2b619d27a"
+    },
+    {
+      "path": "public/brand/wordmark-orange.svg",
+      "sha": "79470025b69f80bed1c3a54770ba8b5e042b0aea"
+    },
+    {
+      "path": "public/brand/wordmark.svg",
+      "sha": "251a2508a5a04fd05d1f69f2997ddc103d2f8f02"
+    }
+  ],
+  "master_context": {
+    "source": "https://github.com/Jevelopers-neatHack-2026/integration-evals/blob/56018576a9450a2bb46aa55ed3b2f9d9ae97e50d/planning/acceptance-checklist.md",
+    "sha": "d7d60c221d8bf163638399d50470bff0b5bddd6f",
+    "claim": "Pinned ART-05 and EVAL-04 headings, owner roles and planned context found; no master status is updated."
+  },
+  "caveat": "Empty status/check/review collections are absence, not passing checks, formal approval, or merge eligibility. No provider request, remote mutation, source change, issue closure or merge occurred."
+}
+

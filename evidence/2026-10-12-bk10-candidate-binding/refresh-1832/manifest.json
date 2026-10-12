@@ -1,0 +1,393 @@
+{
+  "created_at_utc": "2026-10-12T18:45:48.731218+00:00",
+  "source_revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+  "previous_evidence_commit": "cd744af6da5b1f89f410383fac5937e1ea8d6705",
+  "record_type": "append-only public engineering evidence; not a canonical acceptance schema",
+  "release_approved": false,
+  "files": [
+    {
+      "path": "postmerge/01-python-version.stderr.txt",
+      "origin": "actual local postmerge command evidence; synthetic negative-test output remains labeled",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/postmerge-e254df5/01-python-version.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "postmerge/01-python-version.stdout.txt",
+      "origin": "actual local postmerge command evidence; synthetic negative-test output remains labeled",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/postmerge-e254df5/01-python-version.stdout.txt",
+      "original_sha256": "1136b347106711865de4555f802cbe2530f9f9a0802157234e7d833ee0465278",
+      "published_sha256": "1136b347106711865de4555f802cbe2530f9f9a0802157234e7d833ee0465278",
+      "bytes": 61,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "postmerge/02-asset-library-versions.stderr.txt",
+      "origin": "actual local postmerge command evidence; synthetic negative-test output remains labeled",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/postmerge-e254df5/02-asset-library-versions.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "postmerge/02-asset-library-versions.stdout.txt",
+      "origin": "actual local postmerge command evidence; synthetic negative-test output remains labeled",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/postmerge-e254df5/02-asset-library-versions.stdout.txt",
+      "original_sha256": "2f7d8fb241806bafa02061ab5f4a89f68983ef3cf6f7cf8d1f374706c4e725e4",
+      "published_sha256": "2f7d8fb241806bafa02061ab5f4a89f68983ef3cf6f7cf8d1f374706c4e725e4",
+      "bytes": 67,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "postmerge/03-inkscape-version.stderr.txt",
+      "origin": "actual local postmerge command evidence; synthetic negative-test output remains labeled",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/postmerge-e254df5/03-inkscape-version.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "postmerge/03-inkscape-version.stdout.txt",
+      "origin": "actual local postmerge command evidence; synthetic negative-test output remains labeled",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/postmerge-e254df5/03-inkscape-version.stdout.txt",
+      "original_sha256": "09f993f834813212b64386a0e119d9c28b877e64c59d4e6dd0b58a3e60d52070",
+      "published_sha256": "09f993f834813212b64386a0e119d9c28b877e64c59d4e6dd0b58a3e60d52070",
+      "bytes": 40,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "postmerge/04-diff-check.stderr.txt",
+      "origin": "actual local postmerge command evidence; synthetic negative-test output remains labeled",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/postmerge-e254df5/04-diff-check.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "postmerge/04-diff-check.stdout.txt",
+      "origin": "actual local postmerge command evidence; synthetic negative-test output remains labeled",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/postmerge-e254df5/04-diff-check.stdout.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "postmerge/05-make-check.stderr.txt",
+      "origin": "actual local postmerge command evidence; synthetic negative-test output remains labeled",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/postmerge-e254df5/05-make-check.stderr.txt",
+      "original_sha256": "0a2d110380fcf1f16419982cc480d050d603aeaa0a75d345a0c0d573d0c5bb4e",
+      "published_sha256": "0a2d110380fcf1f16419982cc480d050d603aeaa0a75d345a0c0d573d0c5bb4e",
+      "bytes": 35178,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "postmerge/05-make-check.stdout.txt",
+      "origin": "actual local postmerge command evidence; synthetic negative-test output remains labeled",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/postmerge-e254df5/05-make-check.stdout.txt",
+      "original_sha256": "719bfdeac2f0cef5a6fcb073b31bbdf44993087fb4a4b2d198ae99d12e344b7e",
+      "published_sha256": "719bfdeac2f0cef5a6fcb073b31bbdf44993087fb4a4b2d198ae99d12e344b7e",
+      "bytes": 20928,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "postmerge/06-check-package.stderr.txt",
+      "origin": "actual local postmerge command evidence; synthetic negative-test output remains labeled",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/postmerge-e254df5/06-check-package.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "postmerge/06-check-package.stdout.txt",
+      "origin": "actual local postmerge command evidence; synthetic negative-test output remains labeled",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/postmerge-e254df5/06-check-package.stdout.txt",
+      "original_sha256": "e212f72753bbea6c664abfb5aea827dfd593c15eec3c06e81cac9c8a9585fba7",
+      "published_sha256": "e212f72753bbea6c664abfb5aea827dfd593c15eec3c06e81cac9c8a9585fba7",
+      "bytes": 492,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "postmerge/changed-source.diff",
+      "origin": "actual local postmerge command evidence; synthetic negative-test output remains labeled",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/postmerge-e254df5/changed-source.diff",
+      "original_sha256": "29c35135d1251700583d413b1d01133c9c224e2ee50b82cfa509528df38cd5d4",
+      "published_sha256": "29c35135d1251700583d413b1d01133c9c224e2ee50b82cfa509528df38cd5d4",
+      "bytes": 3107,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "postmerge/execution.json",
+      "origin": "actual local postmerge command evidence; synthetic negative-test output remains labeled",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/postmerge-e254df5/execution.json",
+      "original_sha256": "d49082b46f596870fadc8a732318bd4a5679e5b1aaac798c1e134dc25c786cc3",
+      "published_sha256": "d49082b46f596870fadc8a732318bd4a5679e5b1aaac798c1e134dc25c786cc3",
+      "bytes": 7791,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "postmerge/source-tree.json",
+      "origin": "actual local postmerge command evidence; synthetic negative-test output remains labeled",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/postmerge-e254df5/source-tree.json",
+      "original_sha256": "609e7a914b5159d0fa85fffa7f257822b3d20e2cd15b7296788b61bedaa3ae96",
+      "published_sha256": "609e7a914b5159d0fa85fffa7f257822b3d20e2cd15b7296788b61bedaa3ae96",
+      "bytes": 16025,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "independent-review/postmerge-e254df5-review.json",
+      "origin": "independent review of postmerge source, log integrity and public text scope",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/implementation/postmerge-e254df5-review.json",
+      "original_sha256": "007c19f3e34e9327d80d1ee41d72c08e6e0d06f203b5eb5f72a0584c380d21e5",
+      "published_sha256": "007c19f3e34e9327d80d1ee41d72c08e6e0d06f203b5eb5f72a0584c380d21e5",
+      "bytes": 13052,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "independent-review/postmerge-e254df5-review.md",
+      "origin": "independent review of postmerge source, log integrity and public text scope",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/implementation/postmerge-e254df5-review.md",
+      "original_sha256": "4b42b2c3663378ae5f8f75c2c0f5527e1d81bc22bc3bdf940148a9e97474dc9b",
+      "published_sha256": "4b42b2c3663378ae5f8f75c2c0f5527e1d81bc22bc3bdf940148a9e97474dc9b",
+      "bytes": 3819,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/SHA256SUMS",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/SHA256SUMS",
+      "original_sha256": "f40d0508b651be9b31e105e0894e5f23a92dcfc32d04244c2a911dedb7ec9da8",
+      "published_sha256": "f40d0508b651be9b31e105e0894e5f23a92dcfc32d04244c2a911dedb7ec9da8",
+      "bytes": 1721,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/affected-doc-checks.log",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/affected-doc-checks.log",
+      "original_sha256": "f08245907f43dd2310c969da6f2faaad3e74e6571b3247cd7152e9885dd66b16",
+      "published_sha256": "f08245907f43dd2310c969da6f2faaad3e74e6571b3247cd7152e9885dd66b16",
+      "bytes": 19973,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/ancestor-corrected-draft.log",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/ancestor-corrected-draft.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/ancestor-main.log",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/ancestor-main.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/ancestor-original-proposal.log",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/ancestor-original-proposal.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/ancestor-pr26-main.log",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/ancestor-pr26-main.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/clean-after.log",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/clean-after.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/clean-before.log",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/clean-before.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/commands.json",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/commands.json",
+      "original_sha256": "5aa92f443d81eb296b3fb25e4fe9e1f6336e7859c5e321474c9728333b8343c1",
+      "published_sha256": "5aa92f443d81eb296b3fb25e4fe9e1f6336e7859c5e321474c9728333b8343c1",
+      "bytes": 8419,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/diff-check.log",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/diff-check.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/full-diff.log",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/full-diff.log",
+      "original_sha256": "eacae54deb01b9fc19b6c162c7dced33d304127d253bebbdb86e8b38fe2f1d33",
+      "published_sha256": "eacae54deb01b9fc19b6c162c7dced33d304127d253bebbdb86e8b38fe2f1d33",
+      "bytes": 18264,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/github-snapshot.json",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/github-snapshot.json",
+      "original_sha256": "ab8db9c65f9fa61de9c0e3bdd89c88442062f11adca25bb7afa75d3b202cbb57",
+      "published_sha256": "ab8db9c65f9fa61de9c0e3bdd89c88442062f11adca25bb7afa75d3b202cbb57",
+      "bytes": 35351,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/local-source-comparison.json",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/local-source-comparison.json",
+      "original_sha256": "f3c0bdee3e6ab605c7ebe0e0bd98d556676cc4a9889f26ce929b2fe6bb6ec3ed",
+      "published_sha256": "f3c0bdee3e6ab605c7ebe0e0bd98d556676cc4a9889f26ce929b2fe6bb6ec3ed",
+      "bytes": 1413,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/pr25-merge-tree.log",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/pr25-merge-tree.log",
+      "original_sha256": "1f993073003ff30bc8341c361e32c74ae9ebc7df1c1eca6e96e2e4f129f06659",
+      "published_sha256": "1f993073003ff30bc8341c361e32c74ae9ebc7df1c1eca6e96e2e4f129f06659",
+      "bytes": 41,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/pr3-ahead-behind.log",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/pr3-ahead-behind.log",
+      "original_sha256": "c06354113b5e3006bbab3621fdaa2e186ce298d17a5e8d0298b5324bfd8404e0",
+      "published_sha256": "c06354113b5e3006bbab3621fdaa2e186ce298d17a5e8d0298b5324bfd8404e0",
+      "bytes": 5,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/pr3-conflict-check.log",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/pr3-conflict-check.log",
+      "original_sha256": "467bb7fe8df044885788337ae1b570d7d74b57fcc99378dc2fa336863beab48a",
+      "published_sha256": "467bb7fe8df044885788337ae1b570d7d74b57fcc99378dc2fa336863beab48a",
+      "bytes": 1183,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/pr3-merge-base.log",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/pr3-merge-base.log",
+      "original_sha256": "afbded1370352cee211f8f3c15434e3470766bbd2d42a2c7d38cf57cc5f58fdf",
+      "published_sha256": "afbded1370352cee211f8f3c15434e3470766bbd2d42a2c7d38cf57cc5f58fdf",
+      "bytes": 41,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/prior-reviewed-delta.log",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/prior-reviewed-delta.log",
+      "original_sha256": "5ea7baf1b96627811417deb3ec3dc95efd9b63239cacc70d1f44d04aac0ffdfc",
+      "published_sha256": "5ea7baf1b96627811417deb3ec3dc95efd9b63239cacc70d1f44d04aac0ffdfc",
+      "bytes": 1564,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/review.json",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/review.json",
+      "original_sha256": "bdb451d2bf45b26209a9c10e794a53508cd8fef142865f436316c0b84a4d5e18",
+      "published_sha256": "bdb451d2bf45b26209a9c10e794a53508cd8fef142865f436316c0b84a4d5e18",
+      "bytes": 8645,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/review.md",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/review.md",
+      "original_sha256": "d99638e96687168985c18a76c00f84b217fa90d68d0873f1b28c76836ba5d740",
+      "published_sha256": "d99638e96687168985c18a76c00f84b217fa90d68d0873f1b28c76836ba5d740",
+      "bytes": 7881,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "pr-review/revision-before.log",
+      "origin": "independent read-only exact-head PR and policy diagnosis; owner hold retained; checkout excluded",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/pr-review/revision-before.log",
+      "original_sha256": "544002e3fee6bf24b5e105c56610cd8be28e2eb53785157ae61604b9890fabc2",
+      "published_sha256": "544002e3fee6bf24b5e105c56610cd8be28e2eb53785157ae61604b9890fabc2",
+      "bytes": 216,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "acceptance/read-only-refresh.json",
+      "origin": "read-only issue/owner/source refresh; original timestamp record must be read with its explicit addendum",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/acceptance-refresh-1832/read-only-refresh.json",
+      "original_sha256": "72f38f2da7193d64bc1c7e928c68d721b50046a9a0151f57f66b4e216f519932",
+      "published_sha256": "72f38f2da7193d64bc1c7e928c68d721b50046a9a0151f57f66b4e216f519932",
+      "bytes": 15874,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "acceptance/font-timestamp-addendum.json",
+      "origin": "read-only issue/owner/source refresh; original timestamp record must be read with its explicit addendum",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/acceptance-refresh-1832/font-timestamp-addendum.json",
+      "original_sha256": "121b37db68ea3cd28c5d9a2807b64f8b0a24fb463532a48c4fbf4b4fee3911c9",
+      "published_sha256": "121b37db68ea3cd28c5d9a2807b64f8b0a24fb463532a48c4fbf4b4fee3911c9",
+      "bytes": 3385,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "root-observations.json",
+      "origin": "root public GitHub source and metadata observations, including retained retrieval diagnostics",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/resume-20261012-1832/root-observations.json",
+      "original_sha256": "1f041849fca18e452413503ffe6c83f58e317790c04e312892cbc2dd94b2b101",
+      "published_sha256": "1f041849fca18e452413503ffe6c83f58e317790c04e312892cbc2dd94b2b101",
+      "bytes": 4396,
+      "transformation": "none; original bytes retained"
+    },
+    {
+      "path": "run_postmerge_docs_e254.py",
+      "origin": "actual postmerge execution harness; no repository source mutation",
+      "original_path": "/workspace/scratch/3af480cc2b4f/validation/run_postmerge_docs_e254.py",
+      "original_sha256": "e33a41442d4533678245a1a2e09df72a063329577e746d69cd0d437b8c35a419",
+      "published_sha256": "e33a41442d4533678245a1a2e09df72a063329577e746d69cd0d437b8c35a419",
+      "bytes": 6626,
+      "transformation": "none; original bytes retained"
+    }
+  ],
+  "publication_review": {
+    "postmerge_evidence": "independent-review/postmerge-e254df5-review.md",
+    "pr_source_scope": "pr-review/review.md",
+    "known_public_query_parameters": "Reviewed as ordinary public font and badge parameters; no access credentials observed.",
+    "font_timestamp_correction": "acceptance/font-timestamp-addendum.json"
+  }
+}

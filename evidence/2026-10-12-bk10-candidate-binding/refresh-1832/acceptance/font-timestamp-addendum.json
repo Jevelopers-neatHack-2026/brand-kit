@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-12 18:40:47 UTC",
+  "kind": "timestamp-correction",
+  "original_file": "read-only-refresh.json",
+  "original_sha256": "72f38f2da7193d64bc1c7e928c68d721b50046a9a0151f57f66b4e216f519932",
+  "original_preserved": true,
+  "corrected_field": "product_font_observation.introduced_at",
+  "correction": "The original introduced_at value is the commit author timestamp. It must not be represented as the commit committer timestamp or independently verified merge/publication time.",
+  "source": {
+    "repository": "Jevelopers-neatHack-2026/getticketstub.com",
+    "inspected_ref": "01c65ae2290447c523823bf4601d6373ce4c6ca2",
+    "history_url": "https://api.github.com/repos/Jevelopers-neatHack-2026/getticketstub.com/commits?path=src%2Fcustomer%2Flanding%2Flanding.css&sha=01c65ae2290447c523823bf4601d6373ce4c6ca2&per_page=100",
+    "path_history_count": 1,
+    "commit": "8a1bf549c61b50d5d284c8851c7479c5c7ba13d6",
+    "author_timestamp": "2026-10-12T05:26:35Z",
+    "committer_timestamp": "2026-10-12T15:14:41Z",
+    "merge_or_publication_timestamp": "not established by these fields",
+    "merged_by_pull_request": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/104",
+    "merge_commit": "138e4b9019c0f5a55ad5e3f586d129216b680e4d",
+    "merged_at_from_pull_request": "2026-10-12T17:17:51Z"
+  },
+  "prior_source_comparison": {
+    "prior_inspected_ref": "138e4b9019c0f5a55ad5e3f586d129216b680e4d",
+    "source_url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/138e4b9019c0f5a55ad5e3f586d129216b680e4d/src/customer/landing/landing.css",
+    "merge_pull_request": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/104",
+    "path": "src/customer/landing/landing.css",
+    "prior_blob_sha": "ae487f5ff76c3149e7e21ea66ce5a05357f973cf",
+    "current_blob_sha": "ae487f5ff76c3149e7e21ea66ce5a05357f973cf",
+    "same_blob": true
+  },
+  "conclusion": "The 05:26:35Z author timestamp and 15:14:41Z committer timestamp are distinct metadata fields. Separately, GitHub PR #104 records the landing import merged at 2026-10-12T17:17:51Z as 138e4b9019c0f5a55ad5e3f586d129216b680e4d, and the same CSS blob is present there and at current source 01c65ae2. This confirms it predates the previous pass's final 18:11 UTC refresh; it is a newly inspected consumer source surface, not a new change during this 18:32 UTC refresh.",
+  "limitations": [
+    "Read-only source, Git metadata and GitHub pull-request inspection only.",
+    "No runtime, deployment, font/rights approval, provider response, or consumer acceptance is established.",
+    "Author and committer timestamps do not independently prove publication or merge time; merged_at is reported separately from the actual GitHub PR record.",
+    "Failed prior-path lookup is retained and does not count as a successful comparison."
+  ],
+  "retained_diagnostic_failure": {
+    "request": "https://api.github.com/repos/Jevelopers-neatHack-2026/getticketstub.com/contents/src/customer/landing/landing.css?ref=b5573270af362295c126e8b0be61b64f748c09a5",
+    "result": "HTTP 404 Not Found",
+    "meaning": "The earlier 16:51:22Z Product merge b5573270 does not contain the later landing import. The 17:41 Brand handoff cited that earlier source for its SVG/font-layout observations. This failed lookup is not used as presence evidence."
+  }
+}

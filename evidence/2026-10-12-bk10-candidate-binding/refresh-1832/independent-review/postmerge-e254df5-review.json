@@ -1,0 +1,366 @@
+{
+  "blocking_findings": [],
+  "candidate_revision": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+  "decision": "APPROVE_EVIDENCE_INTEGRITY_AND_SCOPE",
+  "evidence_files": [
+    {
+      "bytes": 0,
+      "path": "01-python-version.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 61,
+      "path": "01-python-version.stdout.txt",
+      "sha256": "1136b347106711865de4555f802cbe2530f9f9a0802157234e7d833ee0465278"
+    },
+    {
+      "bytes": 0,
+      "path": "02-asset-library-versions.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 67,
+      "path": "02-asset-library-versions.stdout.txt",
+      "sha256": "2f7d8fb241806bafa02061ab5f4a89f68983ef3cf6f7cf8d1f374706c4e725e4"
+    },
+    {
+      "bytes": 0,
+      "path": "03-inkscape-version.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 40,
+      "path": "03-inkscape-version.stdout.txt",
+      "sha256": "09f993f834813212b64386a0e119d9c28b877e64c59d4e6dd0b58a3e60d52070"
+    },
+    {
+      "bytes": 0,
+      "path": "04-diff-check.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "path": "04-diff-check.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 35178,
+      "path": "05-make-check.stderr.txt",
+      "sha256": "0a2d110380fcf1f16419982cc480d050d603aeaa0a75d345a0c0d573d0c5bb4e"
+    },
+    {
+      "bytes": 20928,
+      "path": "05-make-check.stdout.txt",
+      "sha256": "719bfdeac2f0cef5a6fcb073b31bbdf44993087fb4a4b2d198ae99d12e344b7e"
+    },
+    {
+      "bytes": 0,
+      "path": "06-check-package.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 492,
+      "path": "06-check-package.stdout.txt",
+      "sha256": "e212f72753bbea6c664abfb5aea827dfd593c15eec3c06e81cac9c8a9585fba7"
+    },
+    {
+      "bytes": 3107,
+      "path": "changed-source.diff",
+      "sha256": "29c35135d1251700583d413b1d01133c9c224e2ee50b82cfa509528df38cd5d4"
+    },
+    {
+      "bytes": 7791,
+      "path": "execution.json",
+      "sha256": "d49082b46f596870fadc8a732318bd4a5679e5b1aaac798c1e134dc25c786cc3"
+    },
+    {
+      "bytes": 16025,
+      "path": "source-tree.json",
+      "sha256": "609e7a914b5159d0fa85fffa7f257822b3d20e2cd15b7296788b61bedaa3ae96"
+    }
+  ],
+  "execution_sha256": "d49082b46f596870fadc8a732318bd4a5679e5b1aaac798c1e134dc25c786cc3",
+  "foreign_acceptance_changed": false,
+  "github_commit_verified": "https://github.com/Jevelopers-neatHack-2026/brand-kit/commit/e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+  "github_parents": [
+    "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+    "1603948d569ae2eb48693d7f4a40cce45b8111b1"
+  ],
+  "historical_gate": {
+    "blockers": 30,
+    "failed_commands": [
+      {
+        "exit_code": 2,
+        "result": "fail",
+        "target": "check-provenance"
+      },
+      {
+        "exit_code": 2,
+        "result": "fail",
+        "target": "package-brand"
+      },
+      {
+        "exit_code": 2,
+        "result": "fail",
+        "target": "check-consumers"
+      }
+    ],
+    "passed_commands": 14,
+    "release_approved": false,
+    "report_sha256": "2674501d12129b86524c9de20956883ac053d2615286eb037a78a094294f41d4",
+    "rerun_here": false,
+    "result": "blocked",
+    "source_revision": "41001e1875c544d21ad6b481cfe98c9283b0c58c"
+  },
+  "independence": "Reviewer authored neither PR28 source changes nor the postmerge runner/logs. Reviewer performed read-only source, report and digest verification; no broad tests were rerun.",
+  "negative_results": "Inventory/link FAIL lines in make-check stdout are deliberately invalid synthetic fixture results; the named 289-test suite finishes OK without failures or skips. These are not actual current-source failures and are not approval evidence.",
+  "outcomes": {
+    "all_recorded_exit_codes": 0,
+    "check_package": {
+      "archive_sha256": "87c4f0ad8e428f9adbd3e1607063372369c5d4022ccdadd67eb7d5fdeacac1e1",
+      "deterministic": true,
+      "file_count": 25,
+      "files_digest": "738026492ee5ce8b9e8b39e04e20e994fd48d6954acfc39621acaaa2bc4963b5",
+      "mode": "offline_review_candidate",
+      "release_approved": false,
+      "source_sha": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "toolchain": {
+        "python": "3.12.14",
+        "zip": "ZIP_STORED"
+      }
+    },
+    "external_links_unchecked": 163,
+    "full_suite_seconds": 40.998,
+    "inventory_entries": 117,
+    "local_links_broken": 0,
+    "local_links_resolved": 379,
+    "make_check": "pass",
+    "named_full_suite_tests": 289,
+    "palette_pairs": 36,
+    "recorded_commands": 6,
+    "semantic_pairs": 26,
+    "tokens": 82
+  },
+  "prior_revision": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+  "record_type": "independent review of local postmerge command evidence",
+  "release_approved": false,
+  "reviewed_at_utc": "2026-10-12T18:41:37.458247+00:00",
+  "reviewer": "/root/implementation_refresh",
+  "runner_sha256": "e33a41442d4533678245a1a2e09df72a063329577e746d69cd0d437b8c35a419",
+  "scope_limits": [
+    "No new brand, rights, font, asset, public-claim, consumer, release or global acceptance approval.",
+    "Full 17-target gate and actual approved-font, true browser 200% zoom, AT and accountable manual review were not rerun. Historical failures remain failures.",
+    "Current evidence verifies local repository checks and an unapproved offline review package only; 163 external URLs remain unchecked.",
+    "No tracked source or remote resource was modified by this review. Original evidence files remain byte-identical."
+  ],
+  "sensitive_data_review": {
+    "blocking_findings": [],
+    "heuristic_hits": [
+      {
+        "disposition": "benign public source URL; font axes or badge styling only; no credential or customer content",
+        "domain": "fonts.googleapis.com",
+        "kind": "URL with credentials or query",
+        "line": 8,
+        "path": "05-make-check.stdout.txt",
+        "query_keys": [
+          "display",
+          "family"
+        ]
+      },
+      {
+        "disposition": "benign public source URL; font axes or badge styling only; no credential or customer content",
+        "domain": "img.shields.io",
+        "kind": "URL with credentials or query",
+        "line": 154,
+        "path": "05-make-check.stdout.txt",
+        "query_keys": [
+          "style"
+        ]
+      },
+      {
+        "disposition": "benign public source URL; font axes or badge styling only; no credential or customer content",
+        "domain": "img.shields.io",
+        "kind": "URL with credentials or query",
+        "line": 155,
+        "path": "05-make-check.stdout.txt",
+        "query_keys": [
+          "style"
+        ]
+      },
+      {
+        "disposition": "benign public source URL; font axes or badge styling only; no credential or customer content",
+        "domain": "img.shields.io",
+        "kind": "URL with credentials or query",
+        "line": 156,
+        "path": "05-make-check.stdout.txt",
+        "query_keys": [
+          "style"
+        ]
+      },
+      {
+        "disposition": "benign public source URL; font axes or badge styling only; no credential or customer content",
+        "domain": "img.shields.io",
+        "kind": "URL with credentials or query",
+        "line": 157,
+        "path": "05-make-check.stdout.txt",
+        "query_keys": [
+          "style"
+        ]
+      },
+      {
+        "disposition": "benign public source URL; font axes or badge styling only; no credential or customer content",
+        "domain": "img.shields.io",
+        "kind": "URL with credentials or query",
+        "line": 158,
+        "path": "05-make-check.stdout.txt",
+        "query_keys": [
+          "style"
+        ]
+      },
+      {
+        "disposition": "benign public source URL; font axes or badge styling only; no credential or customer content",
+        "domain": "img.shields.io",
+        "kind": "URL with credentials or query",
+        "line": 159,
+        "path": "05-make-check.stdout.txt",
+        "query_keys": [
+          "style"
+        ]
+      },
+      {
+        "disposition": "benign public source URL; font axes or badge styling only; no credential or customer content",
+        "domain": "img.shields.io",
+        "kind": "URL with credentials or query",
+        "line": 160,
+        "path": "05-make-check.stdout.txt",
+        "query_keys": [
+          "labelColor",
+          "style"
+        ]
+      },
+      {
+        "disposition": "benign public source URL; font axes or badge styling only; no credential or customer content",
+        "domain": "img.shields.io",
+        "kind": "URL with credentials or query",
+        "line": 161,
+        "path": "05-make-check.stdout.txt",
+        "query_keys": [
+          "labelColor",
+          "style"
+        ]
+      },
+      {
+        "disposition": "benign public source URL; font axes or badge styling only; no credential or customer content",
+        "domain": "img.shields.io",
+        "kind": "URL with credentials or query",
+        "line": 162,
+        "path": "05-make-check.stdout.txt",
+        "query_keys": [
+          "labelColor",
+          "style"
+        ]
+      },
+      {
+        "disposition": "benign public source URL; font axes or badge styling only; no credential or customer content",
+        "domain": "img.shields.io",
+        "kind": "URL with credentials or query",
+        "line": 163,
+        "path": "05-make-check.stdout.txt",
+        "query_keys": [
+          "labelColor",
+          "style"
+        ]
+      }
+    ],
+    "method": "All 12 streams and execution/diff/tree text inspected. Repository secret-pattern scan matched 11 publicly defined font/badge query URLs only, individually reviewed for domains and parameter names. No credential, signed URL, customer data or private transcript observed. This is bounded content review, not authentication of external decisions.",
+    "reviewed_text_files": 15
+  },
+  "source_revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+  "source_tree": "32e3904a8d901b9c6cf75ca1e65829fe98df03f0",
+  "source_verification": {
+    "candidate_tree_equals_merged_main": true,
+    "changed_paths": [
+      "docs/source-of-truth.md"
+    ],
+    "changed_source_diff_matches_git": true,
+    "clean_before": "recorded by reviewed runner; reviewer did not independently observe pre-execution state",
+    "current_checkout_clean": true,
+    "source_tree_inventory_matches_git": true,
+    "tracked_files": 117,
+    "unchanged_tracked_files": 116
+  },
+  "stream_verification": [
+    {
+      "bytes": 61,
+      "matches_record": true,
+      "path": "01-python-version.stdout.txt",
+      "sha256": "1136b347106711865de4555f802cbe2530f9f9a0802157234e7d833ee0465278"
+    },
+    {
+      "bytes": 0,
+      "matches_record": true,
+      "path": "01-python-version.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 67,
+      "matches_record": true,
+      "path": "02-asset-library-versions.stdout.txt",
+      "sha256": "2f7d8fb241806bafa02061ab5f4a89f68983ef3cf6f7cf8d1f374706c4e725e4"
+    },
+    {
+      "bytes": 0,
+      "matches_record": true,
+      "path": "02-asset-library-versions.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 40,
+      "matches_record": true,
+      "path": "03-inkscape-version.stdout.txt",
+      "sha256": "09f993f834813212b64386a0e119d9c28b877e64c59d4e6dd0b58a3e60d52070"
+    },
+    {
+      "bytes": 0,
+      "matches_record": true,
+      "path": "03-inkscape-version.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "matches_record": true,
+      "path": "04-diff-check.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "matches_record": true,
+      "path": "04-diff-check.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 20928,
+      "matches_record": true,
+      "path": "05-make-check.stdout.txt",
+      "sha256": "719bfdeac2f0cef5a6fcb073b31bbdf44993087fb4a4b2d198ae99d12e344b7e"
+    },
+    {
+      "bytes": 35178,
+      "matches_record": true,
+      "path": "05-make-check.stderr.txt",
+      "sha256": "0a2d110380fcf1f16419982cc480d050d603aeaa0a75d345a0c0d573d0c5bb4e"
+    },
+    {
+      "bytes": 492,
+      "matches_record": true,
+      "path": "06-check-package.stdout.txt",
+      "sha256": "e212f72753bbea6c664abfb5aea827dfd593c15eec3c06e81cac9c8a9585fba7"
+    },
+    {
+      "bytes": 0,
+      "matches_record": true,
+      "path": "06-check-package.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

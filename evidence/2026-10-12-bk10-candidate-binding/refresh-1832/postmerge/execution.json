@@ -1,0 +1,166 @@
+{
+  "record_type": "local repository postmerge verification; not an acceptance schema",
+  "repository": "Jevelopers-neatHack-2026/brand-kit",
+  "issue_refs": [
+    "Refs #5",
+    "Refs #28"
+  ],
+  "acceptance_ids": "N/A: documentation and local package verification; no master acceptance decision",
+  "source_revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+  "source_tree": "32e3904a8d901b9c6cf75ca1e65829fe98df03f0",
+  "merged_candidate_revision": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+  "merged_candidate_tree": "32e3904a8d901b9c6cf75ca1e65829fe98df03f0",
+  "prior_verified_revision": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+  "prior_immutable_evidence": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/cd744af6da5b1f89f410383fac5937e1ea8d6705/evidence/2026-10-12-bk10-candidate-binding/postmerge/README.md",
+  "tracked_file_count": 117,
+  "changed_paths_from_prior_main": [
+    "docs/source-of-truth.md"
+  ],
+  "unchanged_tracked_file_count": 116,
+  "source_index_sha256": "03b142d9bfa054fc759e594bfd6c2e66c8203dcde579ee113a5af46f0997019f",
+  "clean_before": true,
+  "started_at_utc": "2026-10-12T18:38:31.007579+00:00",
+  "captured_by": "brand-kit execution supervisor /root; postmerge command evidence only",
+  "environment": {
+    "cwd": "/workspace/scratch/3af480cc2b4f/postmerge-docs-e254df5",
+    "PYTHON": "/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python",
+    "PLAYWRIGHT_BROWSERS_PATH": "/tmp/ticketstub-browser-1194"
+  },
+  "evidence_origin": "fresh local execution against exact committed public repository source; negative-test inputs are independently synthetic fixtures",
+  "execution_mode": "local/offline source checks and synthetic unit tests",
+  "provider_mode": "N/A: no font, paid, live or sandbox provider request",
+  "provider_budget_cost_usage": "N/A: no provider operation occurred; no claim about product costs",
+  "access_class": "public repository command evidence, subject to publication review",
+  "commands": [
+    {
+      "label": "python-version",
+      "argv": [
+        "/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python",
+        "-VV"
+      ],
+      "cwd": "/workspace/scratch/3af480cc2b4f/postmerge-docs-e254df5",
+      "source_revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "started_at_utc": "2026-10-12T18:38:31.007676+00:00",
+      "finished_at_utc": "2026-10-12T18:38:31.009431+00:00",
+      "elapsed_seconds": 0.00176,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "pass",
+      "stdout": "01-python-version.stdout.txt",
+      "stdout_sha256": "1136b347106711865de4555f802cbe2530f9f9a0802157234e7d833ee0465278",
+      "stderr": "01-python-version.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "asset-library-versions",
+      "argv": [
+        "/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python",
+        "-c",
+        "import importlib.metadata,json; print(json.dumps({n:importlib.metadata.version(n) for n in (\"fonttools\",\"uharfbuzz\",\"Pillow\")},sort_keys=True))"
+      ],
+      "cwd": "/workspace/scratch/3af480cc2b4f/postmerge-docs-e254df5",
+      "source_revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "started_at_utc": "2026-10-12T18:38:31.009743+00:00",
+      "finished_at_utc": "2026-10-12T18:38:31.072485+00:00",
+      "elapsed_seconds": 0.062756,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "pass",
+      "stdout": "02-asset-library-versions.stdout.txt",
+      "stdout_sha256": "2f7d8fb241806bafa02061ab5f4a89f68983ef3cf6f7cf8d1f374706c4e725e4",
+      "stderr": "02-asset-library-versions.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "inkscape-version",
+      "argv": [
+        "inkscape",
+        "--version"
+      ],
+      "cwd": "/workspace/scratch/3af480cc2b4f/postmerge-docs-e254df5",
+      "source_revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "started_at_utc": "2026-10-12T18:38:31.072939+00:00",
+      "finished_at_utc": "2026-10-12T18:38:31.127300+00:00",
+      "elapsed_seconds": 0.054589,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "pass",
+      "stdout": "03-inkscape-version.stdout.txt",
+      "stdout_sha256": "09f993f834813212b64386a0e119d9c28b877e64c59d4e6dd0b58a3e60d52070",
+      "stderr": "03-inkscape-version.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "diff-check",
+      "argv": [
+        "git",
+        "diff",
+        "--check",
+        "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+        "e254df5444f0bfedd5526b0e148b0cdf36cbd31f"
+      ],
+      "cwd": "/workspace/scratch/3af480cc2b4f/postmerge-docs-e254df5",
+      "source_revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "started_at_utc": "2026-10-12T18:38:31.127874+00:00",
+      "finished_at_utc": "2026-10-12T18:38:31.130658+00:00",
+      "elapsed_seconds": 0.002786,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "pass",
+      "stdout": "04-diff-check.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "04-diff-check.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "make-check",
+      "argv": [
+        "make",
+        "check"
+      ],
+      "cwd": "/workspace/scratch/3af480cc2b4f/postmerge-docs-e254df5",
+      "source_revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "started_at_utc": "2026-10-12T18:38:31.131202+00:00",
+      "finished_at_utc": "2026-10-12T18:39:15.430647+00:00",
+      "elapsed_seconds": 44.299465,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "pass",
+      "stdout": "05-make-check.stdout.txt",
+      "stdout_sha256": "719bfdeac2f0cef5a6fcb073b31bbdf44993087fb4a4b2d198ae99d12e344b7e",
+      "stderr": "05-make-check.stderr.txt",
+      "stderr_sha256": "0a2d110380fcf1f16419982cc480d050d603aeaa0a75d345a0c0d573d0c5bb4e"
+    },
+    {
+      "label": "check-package",
+      "argv": [
+        "make",
+        "check-package"
+      ],
+      "cwd": "/workspace/scratch/3af480cc2b4f/postmerge-docs-e254df5",
+      "source_revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "started_at_utc": "2026-10-12T18:39:15.431487+00:00",
+      "finished_at_utc": "2026-10-12T18:39:16.364622+00:00",
+      "elapsed_seconds": 0.93314,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "pass",
+      "stdout": "06-check-package.stdout.txt",
+      "stdout_sha256": "e212f72753bbea6c664abfb5aea827dfd593c15eec3c06e81cac9c8a9585fba7",
+      "stderr": "06-check-package.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "not_rerun": [
+    "Full 17-target BK-10 release gate: code and all fixtures unchanged; the actual 41001e1 gate result remains historical BLOCKED with 30 blockers, 14 passes and 3 failures.",
+    "Actual approved-font available/unavailable, real browser UI 200% zoom, assistive technology and manual visual/channel/claims acceptance: required inputs/owners still absent; no pass inferred.",
+    "External navigation URLs: not probed by local link checker; separately scoped GitHub target diagnostics are separate records."
+  ],
+  "release_approved": false,
+  "clean_after": true,
+  "final_source_revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+  "finished_at_utc": "2026-10-12T18:39:16.371512+00:00",
+  "candidate_tree_matches_main": true,
+  "checks_passed": true,
+  "postmerge_verification_passed": true
+}

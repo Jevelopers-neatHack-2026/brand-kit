@@ -1,0 +1,104 @@
+{
+  "assembled_at_utc": "2026-10-12 18:43:50 UTC",
+  "note": "Each underlying GitHub observation retains its own timestamp in the linked review/refresh reports; this is a summary assembled after those reads, not a new provider or runtime result.",
+  "brand_main": {
+    "sha": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "tree": "32e3904a8d901b9c6cf75ca1e65829fe98df03f0"
+  },
+  "pr28_comments_before_postmerge_attachment": [
+    {
+      "id": 6129913342,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/28#issuecomment-6129913342",
+      "updated_at": "2026-10-12T18:11:54Z"
+    },
+    {
+      "id": 6129925234,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/28#issuecomment-6129925234",
+      "updated_at": "2026-10-12T18:11:11Z"
+    },
+    {
+      "id": 6129953693,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/28#issuecomment-6129953693",
+      "updated_at": "2026-10-12T18:13:03Z"
+    }
+  ],
+  "retained_evidence_branch_before_append": {
+    "name": "evidence/bk-10-candidate-binding-20261012",
+    "commit": {
+      "sha": "cd744af6da5b1f89f410383fac5937e1ea8d6705",
+      "url": "https://api.github.com/repos/Jevelopers-neatHack-2026/brand-kit/commits/cd744af6da5b1f89f410383fac5937e1ea8d6705"
+    },
+    "protected": false
+  },
+  "product_css": {
+    "source_sha": "01c65ae2290447c523823bf4601d6373ce4c6ca2",
+    "path": "src/customer/landing/landing.css",
+    "blob_sha": "ae487f5ff76c3149e7e21ea66ce5a05357f973cf",
+    "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/01c65ae2290447c523823bf4601d6373ce4c6ca2/src/customer/landing/landing.css",
+    "observation": "Root read the pinned raw CSS and confirmed explicit local WOFF2 declarations for six families. Blob identity is cross-referenced from the independent acceptance refresh's GitHub tree inspection."
+  },
+  "product_font_directory": [
+    {
+      "path": "public/landing/fonts/abril-fatface-normal-400.woff2",
+      "sha": "c84b11fe14f95316a09d7dfc5b3733f27d011f63",
+      "size": 13156
+    },
+    {
+      "path": "public/landing/fonts/archivo-italic-100-900.woff2",
+      "sha": "61556524b786842cc50a43356d5487f2c188330c",
+      "size": 101676
+    },
+    {
+      "path": "public/landing/fonts/archivo-normal-100-900.woff2",
+      "sha": "e2448d0561ffdb0b0974d063a7cdbb712f41ad49",
+      "size": 90104
+    },
+    {
+      "path": "public/landing/fonts/big-shoulders-display-normal-600.woff2",
+      "sha": "b1d217e04d5d43b4aea8e0aefa7ce9532596d972",
+      "size": 35436
+    },
+    {
+      "path": "public/landing/fonts/fraunces-italic-400-700.woff2",
+      "sha": "b2cf6488f732b4d102ca6b8b6bad4a9117d00153",
+      "size": 81520
+    },
+    {
+      "path": "public/landing/fonts/fraunces-normal-400-700.woff2",
+      "sha": "cb295bf0e09bde54e1846be5553ddcf0e089e680",
+      "size": 67304
+    },
+    {
+      "path": "public/landing/fonts/ibm-plex-mono-normal-400.woff2",
+      "sha": "0804aaff92260b5359330f63e05b9ac25ccabeee",
+      "size": 14708
+    },
+    {
+      "path": "public/landing/fonts/ibm-plex-mono-normal-500.woff2",
+      "sha": "090f82f7ec7997047324e07650865305a099969a",
+      "size": 14888
+    },
+    {
+      "path": "public/landing/fonts/ibm-plex-mono-normal-600.woff2",
+      "sha": "67aeeb0104a02cf060b813abf6dcb6fdb97b7512",
+      "size": 15620
+    },
+    {
+      "path": "public/landing/fonts/inter-tight-normal-400-700.woff2",
+      "sha": "d8f79a69e4733c1a3d6df3f6ceb4164d492761bc",
+      "size": 44872
+    }
+  ],
+  "product_import_merge": {
+    "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/104",
+    "merged": true,
+    "merged_at": "2026-10-12T17:17:51Z",
+    "merge_commit_sha": "138e4b9019c0f5a55ad5e3f586d129216b680e4d",
+    "head": "980104c9bf5949a3bc1bf480f90f7e6fdba98c6c"
+  },
+  "provider_mode": "N/A: read-only public GitHub source metadata, no font/provider execution",
+  "retrieval_diagnostics": [
+    "An encoded-slash branches URL was rejected as an invalid path (HTTP400); the supported branches collection subsequently confirmed the evidence branch at cd744af6da5b1f89f410383fac5937e1ea8d6705.",
+    "The CSS contents endpoint returned raw CSS through the connector; an attempted JSON parse failed before any write. The pinned raw CSS was independently read successfully. No validation or permission result is inferred from that parse attempt."
+  ]
+}
