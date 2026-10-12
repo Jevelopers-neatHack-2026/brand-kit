@@ -9,13 +9,18 @@ ROOT = Path(__file__).resolve().parents[1]
 INVENTORY = "inventory/brand-inventory.json"
 
 
-def list_files(root: Path) -> list[str]:
-    """Tracked plus untracked-unignored files via git; falls back to a filesystem walk outside a git work tree."""
+def list_files(root: Path, include_untracked: bool = False) -> list[str]:
+    """Tracked paths per the git index, including tracked paths deleted from the work tree.
+
+    Untracked-unignored files are added only with include_untracked (authoring aid, never the default).
+    Outside a git work tree there is no index, so a filesystem walk is used.
+    """
+    cmd = ["git", "-C", str(root), "ls-files", "-z", "--cached"]
+    if include_untracked:
+        cmd += ["--others", "--exclude-standard"]
     try:
-        out = subprocess.run(["git", "-C", str(root), "ls-files", "-z", "--cached", "--others", "--exclude-standard"], check=True,
-                             capture_output=True, text=True).stdout
-        files = [f for f in out.split("\0") if f]
-        return sorted(f for f in set(files) if (root / f).is_file())
+        out = subprocess.run(cmd, check=True, capture_output=True, text=True).stdout
+        return sorted({f for f in out.split("\0") if f})
     except (subprocess.CalledProcessError, FileNotFoundError):
         found = []
         for dirpath, dirnames, filenames in os.walk(root):

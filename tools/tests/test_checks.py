@@ -1,6 +1,7 @@
 """Negative and positive tests for the BK-01 checks. Run: python3 -m unittest discover -s tools/tests"""
 import json
 import shutil
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -84,7 +85,99 @@ class InventoryTests(Fixture):
         self.assertEqual(check_inventory.main(["--root", str(self.tmp)]), 1)
 
 
+class GitFixture(Fixture):
+    def setUp(self):
+        super().setUp()
+        git = ["git", "-C", str(self.tmp), "-c", "user.name=t", "-c", "user.email=t@example.invalid"]
+        self.git = git
+        subprocess.run(git + ["init", "-q"], check=True)
+        subprocess.run(git + ["add", "-A"], check=True)
+        subprocess.run(git + ["commit", "-q", "-m", "x"], check=True)
+
+
+class GitTests(GitFixture):
+    def test_clean_git_fixture_passes(self):
+        self.assertEqual(check_inventory.check(self.tmp), [])
+
+    def test_deleted_tracked_file_removed_from_inventory_fails(self):
+        (self.tmp / "SPEC.md").unlink()
+        self.entries = [e for e in self.entries if e["path"] != "SPEC.md"]
+        self.write()
+        self.assertIn("uncatalogued file: SPEC.md", self.problems())
+
+    def test_deleted_tracked_file_still_in_inventory_fails(self):
+        (self.tmp / "SPEC.md").unlink()
+        self.assertIn("path does not exist", self.problems())
+
+    def test_untracked_notes_ignored_by_default(self):
+        (self.tmp / "notes.md").write_text("scratch\n")
+        self.assertEqual(check_inventory.check(self.tmp), [])
+        self.assertEqual(check_inventory.main(["--root", str(self.tmp)]), 0)
+
+    def test_untracked_notes_flagged_with_option(self):
+        (self.tmp / "notes.md").write_text("scratch\n")
+        self.assertIn("uncatalogued file: notes.md",
+                      "\n".join(check_inventory.check(self.tmp, include_untracked=True)))
+        self.assertEqual(check_inventory.main(["--root", str(self.tmp), "--include-untracked"]), 1)
+
+    def test_untracked_broken_link_ignored_by_default(self):
+        (self.tmp / "notes.md").write_text("[x](nope.md)\n")
+        self.assertEqual(check_links.check(self.tmp)[0], [])
+        self.assertTrue(check_links.check(self.tmp, include_untracked=True)[0])
+
+    def test_deleted_tracked_markdown_does_not_crash_links(self):
+        (self.tmp / "SPEC.md").unlink()
+        errors, _, _ = check_links.check(self.tmp)
+        self.assertTrue(any("broken local link 'SPEC.md" in e for e in errors))
+
+
 class LinkTests(Fixture):
+    def test_empty_root_fails(self):
+        empty = Path(tempfile.mkdtemp())
+        try:
+            errors, _, _ = check_links.check(empty)
+            self.assertIn("missing required input: README.md", errors)
+            self.assertIn("missing required input: no tracked .md or .html files to check", errors)
+            self.assertEqual(check_links.main(["--root", str(empty)]), 1)
+        finally:
+            shutil.rmtree(empty)
+
+    def test_missing_index_doc_fails(self):
+        (self.tmp / "docs/source-of-truth.md").unlink()
+        self.assertTrue(any("missing required input: docs/source-of-truth.md" in e
+                            for e in check_links.check(self.tmp)[0]))
+
+    def test_reference_definition_broken_target(self):
+        (self.tmp / "README.md").write_text("[x][a]\n\n[a]: docs/nope.md\n")
+        self.assertTrue(any("broken local link 'docs/nope.md'" in e for e in check_links.check(self.tmp)[0]))
+
+    def test_reference_image_and_angle_target_and_anchor(self):
+        (self.tmp / "README.md").write_text("![i][img] [c][] [s]\n\n[img]: <gone.png> \"t\"\n[C]: SPEC.md#nothing\n[s]: SPEC.md#colour\n")
+        errors = check_links.check(self.tmp)[0]
+        self.assertTrue(any("gone.png" in e for e in errors))
+        self.assertTrue(any("missing anchor '#nothing'" in e for e in errors))
+        self.assertEqual(len(errors), 2)
+
+    def test_reference_undefined_label(self):
+        (self.tmp / "README.md").write_text("[x][missing] [y][]\n")
+        errors = check_links.check(self.tmp)[0]
+        self.assertTrue(any("'[missing]' has no definition" in e for e in errors))
+        self.assertTrue(any("'[y]' has no definition" in e for e in errors))
+
+    def test_reference_empty_target(self):
+        (self.tmp / "README.md").write_text("[x][a]\n\n[a]: \n")
+        self.assertTrue(any("empty target" in e for e in check_links.check(self.tmp)[0]))
+
+    def test_valid_reference_passes_and_external_listed(self):
+        (self.tmp / "README.md").write_text("[x][a] [y][B]\n\n[a]: SPEC.md#colour\n[b]: https://example.invalid/\n")
+        errors, ext, ok = check_links.check(self.tmp)
+        self.assertEqual(errors, [])
+        self.assertEqual(ext, {"https://example.invalid/"})
+
+    def test_reference_in_code_fence_ignored(self):
+        (self.tmp / "README.md").write_text("```\n[x][nope]\n[a]: gone.md\n```\n")
+        self.assertEqual(check_links.check(self.tmp)[0], [])
+
     def test_valid_links_pass(self):
         errors, ext, ok = check_links.check(self.tmp)
         self.assertEqual(errors, [])

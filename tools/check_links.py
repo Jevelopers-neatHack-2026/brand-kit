@@ -4,7 +4,8 @@ Default mode is offline and deterministic: local file and Markdown-anchor target
 resolved against the checkout; http(s) links are only listed as UNCHECKED, never
 reported as verified. `--external` additionally sends one HEAD/GET request per external
 URL (network, non-deterministic; reachability only, not that the content is correct).
-Exit 0 only when no local link is broken (and, with --external, none failed).
+Reference-style definitions and uses are checked too. Only tracked files are scanned
+unless `--include-untracked`. Exit 0 only when required inputs exist and no local link is broken (and, with --external, none failed).
 
     python3 tools/check_links.py [--root DIR] [--external]
 """
@@ -21,6 +22,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from inventory_lib import ROOT, list_files  # noqa: E402
 
 MD_LINK = re.compile(r"!?\[[^\]]*\]\(\s*<?([^)\s>]+)>?(?:\s+\"[^\"]*\")?\s*\)")
+REF_DEF = re.compile(r"^ {0,3}\[([^\]]+)\]:[ \t]*(<[^>\n]*>|\S*)", re.M)
+REF_USE = re.compile(r"!?\[((?:[^\[\]\\]|\\.)*)\]\[([^\]]*)\]")
 HTML_ATTR = re.compile(r"""\b(?:src|href|srcset)\s*=\s*["']([^"']+)["']""", re.I)
 CSS_URL = re.compile(r"""url\(\s*["']?([^"')]+)["']?\s*\)""", re.I)
 FENCE = re.compile(r"^(```|~~~).*?^\1", re.S | re.M)
@@ -46,27 +49,58 @@ def anchors(path: Path) -> set[str]:
     return out
 
 
-def extract(path: Path) -> list[str]:
+def norm_label(label: str) -> str:
+    return re.sub(r"\s+", " ", label.strip()).lower()
+
+
+def extract(path: Path) -> tuple[list[str], list[str]]:
+    """Return (link targets, problems found while parsing, e.g. undefined or empty reference definitions)."""
     text = path.read_text(encoding="utf-8")
+    problems: list[str] = []
     if path.suffix == ".md":
         text = INLINE_CODE.sub("", FENCE.sub("", text))
         links = MD_LINK.findall(text) + HTML_ATTR.findall(text)
+        defs: dict[str, str] = {}
+        for m in REF_DEF.finditer(text):
+            label, target = norm_label(m.group(1)), m.group(2)
+            if label.startswith("^"):
+                continue
+            target = target[1:-1].strip() if target.startswith("<") else target
+            if not target:
+                problems.append(f"reference definition '[{m.group(1)}]' has an empty target")
+                continue
+            defs.setdefault(label, target)
+            links.append(target)
+        for m in REF_USE.finditer(REF_DEF.sub("", text)):
+            label = norm_label(m.group(2) or m.group(1))
+            if not label.startswith("^") and label not in defs:
+                problems.append(f"reference '[{m.group(2) or m.group(1)}]' has no definition")
     else:
         links = HTML_ATTR.findall(text) + CSS_URL.findall(text)
-    return [u for part in links for u in (part.split(",") if "," in part and " " in part.strip() else [part])]
+    return [u for part in links for u in (part.split(",") if "," in part and " " in part.strip() else [part])], problems
 
 
-def check(root: Path) -> tuple[list[str], set[str], int]:
+REQUIRED_INPUTS = ("README.md", "docs/source-of-truth.md")
+
+
+def check(root: Path, include_untracked: bool = False) -> tuple[list[str], set[str], int]:
     errors: list[str] = []
     external: set[str] = set()
     local_ok = 0
-    for rel in list_files(root):
+    scanned = 0
+    for req in REQUIRED_INPUTS:
+        if not (root / req).is_file():
+            errors.append(f"missing required input: {req}")
+    for rel in list_files(root, include_untracked):
         if not rel.endswith((".md", ".html")):
             continue
         src = root / rel
         if not src.is_file():
-            continue
-        for raw in extract(src):
+            continue  # tracked but deleted: check-inventory reports it
+        scanned += 1
+        urls, problems = extract(src)
+        errors.extend(f"{rel}: {p}" for p in problems)
+        for raw in urls:
             url = raw.strip().split(" ")[0]
             if not url or url.startswith(("mailto:", "data:", "javascript:")):
                 continue
@@ -88,6 +122,8 @@ def check(root: Path) -> tuple[list[str], set[str], int]:
                     errors.append(f"{rel}: missing anchor '#{parts.fragment}' in {target.relative_to(root.resolve())}")
                     continue
             local_ok += 1
+    if scanned == 0:
+        errors.append("missing required input: no tracked .md or .html files to check")
     return errors, external, local_ok
 
 
@@ -108,8 +144,10 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--root", type=Path, default=ROOT)
     ap.add_argument("--external", action="store_true", help="also probe external URLs over the network")
+    ap.add_argument("--include-untracked", action="store_true",
+                    help="authoring aid: also scan untracked-unignored files (default: tracked files only)")
     args = ap.parse_args(argv)
-    errors, external, ok = check(args.root.resolve())
+    errors, external, ok = check(args.root.resolve(), args.include_untracked)
     for e in errors:
         print(f"FAIL {e}")
     print(f"local links resolved: {ok}; broken: {len(errors)}")

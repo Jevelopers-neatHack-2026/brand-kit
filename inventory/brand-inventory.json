@@ -197,8 +197,8 @@
     },
     {
       "id": "pr3-pending",
-      "finding": "PR #3 (open, not merged) repoints ticket-studio links to getticketstub.com/docs/studio/ and proposes 'always on paper'. Its targets 404 on getticketstub.com main as of 2026-10-10 (exist only on getticketstub.com#4 and #20 branches). main still references the nonexistent ticket-studio in SPEC.md, README.md, tokens/tokens.json, docs/material-foil.md.",
-      "handoff": "Merge getticketstub.com#4/#20 first, then PR #3; direction change needs a BK-02 decision record."
+      "finding": "PR #3 (open, not merged) repoints ticket-studio links to getticketstub.com/docs/studio/ and proposes 'always on paper'. As of 2026-10-12 getticketstub.com main (388005240aa62374d49f709afc300adb5e98cd98) contains docs/studio/stub-system.md and docs/studio/research/holo-foil-technique.md (PR #3 targets), plus docs/studio/ docs, src/app/parts and src/customer/studio/feedback.ts; getticketstub.com #20 merged 2026-10-11T14:56:06Z and #4 merged 2026-10-12T03:51:44Z. Supersedes the 2026-10-10 finding that targets existed only on branches. Link-target evidence only; does not show the studio identity is approved, ratified or deployed. brand-kit main still references the nonexistent ticket-studio in SPEC.md, README.md, tokens/tokens.json, docs/material-foil.md.",
+      "handoff": "PR #3 targets now resolve on getticketstub.com main; merging PR #3 still needs owner review, and the direction change needs a BK-02 decision record."
     },
     {
       "id": "pr2-edition-handoff",

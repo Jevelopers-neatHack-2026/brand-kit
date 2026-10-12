@@ -19,7 +19,7 @@ REQUIRED = ["id", "path", "type", "category", "classification", "description", "
 INDEX_DOC = "docs/source-of-truth.md"
 
 
-def check(root: Path) -> list[str]:
+def check(root: Path, include_untracked: bool = False) -> list[str]:
     errors: list[str] = []
     inv_path = root / INVENTORY
     if not inv_path.is_file():
@@ -69,7 +69,7 @@ def check(root: Path) -> list[str]:
             elif not (root / ref).is_file():
                 errors.append(f"{where}: reference '{ref}' does not exist")
 
-    tracked = set(list_files(root))
+    tracked = set(list_files(root, include_untracked))
     for f in sorted(tracked - all_paths):
         errors.append(f"uncatalogued file: {f}")
     for f in sorted(all_paths - tracked):
@@ -105,8 +105,10 @@ def check(root: Path) -> list[str]:
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--root", type=Path, default=ROOT)
+    ap.add_argument("--include-untracked", action="store_true",
+                    help="authoring aid: also require untracked-unignored files to be catalogued (default: tracked files only)")
     args = ap.parse_args(argv)
-    errors = check(args.root.resolve())
+    errors = check(args.root.resolve(), args.include_untracked)
     if errors:
         for e in errors:
             print(f"FAIL {e}")
