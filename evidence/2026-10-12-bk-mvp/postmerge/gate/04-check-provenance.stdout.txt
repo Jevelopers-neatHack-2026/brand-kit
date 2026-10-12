@@ -1,0 +1,10 @@
+make[1]: Entering directory '/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate'
+/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python -I tools/check_provenance.py
+FAIL core asset rights/approval not cleared for 23 core file(s), e.g. 'fonts/Fraunces[SOFT,WONK,opsz,wght].ttf'; an otherwise complete register does not lift this
+FAIL allowlist is empty: no reviewed export candidate exists
+FAIL allowlist review.reviewer is UNKNOWN: the exact candidate list has not been reviewed
+FAIL allowlist review.evidence is UNKNOWN: the exact candidate list has not been reviewed
+FAIL allowlist review.date is UNKNOWN: the exact candidate list has not been reviewed
+FAIL allowlist status is not 'reviewed'
+check-provenance: 6 problem(s) -- NOT release eligible
+make[1]: Leaving directory '/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate'

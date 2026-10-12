@@ -1,0 +1,140 @@
+{
+  "source_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+  "source_tree": "9b4e5bffc559494731cfdcc23c5df7582792736c",
+  "mode": "actual local source/package checks; synthetic consumer fixture; no provider execution or acceptance",
+  "commands": [
+    {
+      "label": "register",
+      "command": [
+        "make",
+        "check-provenance-register"
+      ],
+      "started_at": "2026-10-12T17:18:39.296243+00:00",
+      "exit_code": 0,
+      "streams": {
+        "stdout": {
+          "path": "register.stdout.txt",
+          "sha256": "c512bf3339922dea3883721f9a76ca0d3f11fb2adcc300d01f5a0562acea1a26"
+        },
+        "stderr": {
+          "path": "register.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "outcome": "pass"
+    },
+    {
+      "label": "local-consumers",
+      "command": [
+        "make",
+        "check-consumers-local"
+      ],
+      "started_at": "2026-10-12T17:18:39.410805+00:00",
+      "exit_code": 0,
+      "streams": {
+        "stdout": {
+          "path": "local-consumers.stdout.txt",
+          "sha256": "f06f6a3e4e52c2b30e73afe792cffb130c2548482df4e916e9dc59b02b48de58"
+        },
+        "stderr": {
+          "path": "local-consumers.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "outcome": "pass"
+    },
+    {
+      "label": "diff",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "started_at": "2026-10-12T17:18:41.871271+00:00",
+      "exit_code": 0,
+      "streams": {
+        "stdout": {
+          "path": "diff.stdout.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "diff.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "outcome": "pass"
+    },
+    {
+      "label": "candidate-equality",
+      "command": [
+        "git",
+        "diff",
+        "--exit-code",
+        "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+        "HEAD"
+      ],
+      "started_at": "2026-10-12T17:18:41.873679+00:00",
+      "exit_code": 0,
+      "streams": {
+        "stdout": {
+          "path": "candidate-equality.stdout.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "candidate-equality.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "outcome": "pass"
+    },
+    {
+      "label": "clean",
+      "command": [
+        "git",
+        "status",
+        "--porcelain",
+        "--untracked-files=all"
+      ],
+      "started_at": "2026-10-12T17:18:41.875959+00:00",
+      "exit_code": 0,
+      "streams": {
+        "stdout": {
+          "path": "clean.stdout.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "clean.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "outcome": "pass"
+    },
+    {
+      "label": "path-review",
+      "command": [
+        "rg",
+        "-n",
+        "ticket-studio|identity/|guidelines/|private",
+        "README.md",
+        "SPEC.md",
+        "docs",
+        "tokens"
+      ],
+      "started_at": "2026-10-12T17:18:41.879606+00:00",
+      "exit_code": 0,
+      "streams": {
+        "stdout": {
+          "path": "path-review.stdout.txt",
+          "sha256": "892f7269da0c6db53bebe1096aa2504bacca7dd26b443b9a64f1cd70a233eb78"
+        },
+        "stderr": {
+          "path": "path-review.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "outcome": "pass"
+    }
+  ],
+  "path_review_disposition": "Root inspected all 16 matching lines: two scope/approval mentions; provenance scan limitation; governance pending identity link; PR3 historical path disposition; identity packet source/exclusion notes; historical visibility; two proposed architecture paths; public-export exclusion; unchanged edition ownership; two explicit proposed-to-actual path mappings; dated visibility correction; preserved PR2 ticket-studio history. No unresolved current link or unannounced move; unknown rights remain BK-06.",
+  "outcome": "pass"
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-12T17:23:43.888Z",
+  "repository": "Jevelopers-neatHack-2026/brand-kit",
+  "merged_source": {
+    "sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+    "tree": "9b4e5bffc559494731cfdcc23c5df7582792736c",
+    "parents": [
+      "3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4",
+      "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3"
+    ],
+    "main_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+    "reviewed_candidate_sha": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+    "tree_unchanged": true
+  },
+  "pull_request": {
+    "number": 23,
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/23",
+    "state": "closed",
+    "merged": true,
+    "merged_at": "2026-10-12T17:14:04Z",
+    "merge_commit_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+    "head_sha": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3"
+  },
+  "review_policy": {
+    "org_policy_sha": "2f61f8551ecf38170f0c5b225305c950c7c3b222",
+    "comment_review_precedent": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/22#issuecomment-6122144808",
+    "formal_reviews": 0,
+    "required_check_runs": 0,
+    "status_contexts": 0,
+    "rulesets": [],
+    "main_protected": false,
+    "limitations": "Merge-time observed connector state. Formal human brand/rights acceptance was not inferred. Detailed administration protection endpoint was unavailable; no protection or setting changed."
+  },
+  "exact_head_review_comments": [
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/23#issuecomment-6129017149",
+      "source_sha": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+      "type": "attributed independent scoped Astra agent code review, not GitHub self-approval or rights acceptance"
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/23#issuecomment-6129017462",
+      "source_sha": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+      "type": "attributed independent scoped Astra agent code review, not GitHub self-approval or rights acceptance"
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/23#issuecomment-6129017804",
+      "source_sha": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+      "type": "attributed independent scoped Astra agent code review, not GitHub self-approval or rights acceptance"
+    }
+  ],
+  "merge_decision_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/23#issuecomment-6129040504",
+  "evidence_predecessor": {
+    "sha": "b6a2cd5b786443abaf4f4023833753c777be910d",
+    "tree": "38637d6f22f24264fa2e4dbd71a965f946256dcd",
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+  },
+  "issue6_preclosure": {
+    "state": "open",
+    "updated_at": "2026-10-12T05:11:18Z",
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6"
+  },
+  "new_parallel_proposal": {
+    "number": 24,
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/24",
+    "head": "465096e703c2bcc523f8a55905762a11b6993a79",
+    "base": "3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4",
+    "state": "open",
+    "mergeable": false,
+    "disposition": "New README modernization proposal discovered during postmerge refresh. Owner-compatible reconciliation is being handled separately; this packet does not claim its review or merge."
+  },
+  "scope": "Actual PR23 merged-source evidence; no release, deployment, rights approval or foreign acceptance. Existing failed gate and missing acceptance receipts remain unchanged."
+}

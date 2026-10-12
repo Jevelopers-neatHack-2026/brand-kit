@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "reviewer": "independent /root/asset_pipeline reviewer",
+  "reviewed_at": "2026-10-12T17:20:25.693409+00:00",
+  "verdict": "APPROVE scoped postmerge carry-forward; no additional material documentation/evidence mismatch",
+  "scope": "Read-only comparison of published candidate evidence, original recorded outcomes and exact merged source bytes. No implementation changes or additional functional test runs.",
+  "source_identity": {
+    "reviewed_candidate_sha": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+    "merged_source_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+    "tree_sha": "9b4e5bffc559494731cfdcc23c5df7582792736c",
+    "normal_merge_parents": [
+      "3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4",
+      "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3"
+    ],
+    "local_git_file_differences": [],
+    "github_compare": {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/compare/d25cf8a023a7b1d110c105a1c2a36cb5577df7f3...6222a745195e9f15a14069e79210ad45daa16c94",
+      "observed_status": "ahead",
+      "ahead_by": 1,
+      "behind_by": 0,
+      "files": []
+    },
+    "previous_reviewed_path_hash_mismatches": []
+  },
+  "published_evidence": {
+    "commit": "b6a2cd5b786443abaf4f4023833753c777be910d",
+    "readme_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md",
+    "remote_checks": "Fetched immutable README, packet-integrity, gate report, three final scoped reviews and criterion map using the GitHub connector. Their returned Git blob IDs match the corresponding local files. GitHub comparison lists exactly 146 added packet paths.",
+    "fetched_git_blob_ids": {
+      "README.md": "54fb76e74d6c5f87b3e1347e7284be9dc7bc2816",
+      "packet-integrity.json": "71cec799aafee87f67f1c0756a2cae66adb349e0",
+      "gate/d25cf8a/report.json": "22964f3e956d75c29699333e4cae7e00b7758008",
+      "reviews/d25cf8a/distribution-docs.json": "9e6bbb17780fb7ef03602a9e5829ded3e4eca95f",
+      "reviews/d25cf8a/accessibility.json": "3c959bf46d02e788e0062c244c09befdc383076c",
+      "reviews/d25cf8a/assets-metadata.json": "e7a64f0c3d74c365c64e94e5911fd8ea7cd44fc4",
+      "criterion-map.json": "a379b2b4c99908a150144a578be13237a673f258"
+    },
+    "local_integrity_check": {
+      "indexed_files_checked": 145,
+      "size_or_sha256_mismatches": [],
+      "only_unindexed_file": "packet-integrity.json (explicit self-exclusion)",
+      "gate_stream_sha256_mismatches": []
+    },
+    "extra_remote_patch_check": "100 complete added-file patch contents matched published manifest SHA-256 values; no mismatches. Remaining truncated/omitted/one-line patch forms were not reported as verified by that supplementary method."
+  },
+  "summary_cross_checks": {
+    "candidate_gate": {
+      "source_sha": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+      "command_count": 17,
+      "results": {
+        "pass": 14,
+        "fail": 3
+      },
+      "failed_targets": [
+        "check-provenance",
+        "package-brand",
+        "check-consumers"
+      ],
+      "blocker_count": 29,
+      "aggregate": "blocked",
+      "release_approved": false
+    },
+    "review_archive": {
+      "archive_sha256": "df618fc529e02f681707b4aeac9f5d58ee3f8c6d301becb058f3890b8fafc52c",
+      "brand_version": null,
+      "files_digest": "bc7cd5a7c7fffe42e8d48059bdebd31b6dc83a24a3ad6d1bf1fc838bc1095dc6",
+      "kind": "review_candidate",
+      "source_sha": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+      "token_profile": {
+        "name": "ticketstub-token-profile",
+        "version": "1.0.0"
+      }
+    },
+    "recorded_counts_verified_against_logs_and_manifests": {
+      "inventory_paths": 117,
+      "resolved_local_links": 353,
+      "broken_local_links": 0,
+      "external_links_explicitly_unchecked": 160,
+      "tokens": 82,
+      "css_json_contexts": 5,
+      "tailwind_utilities": 40,
+      "total_python_tests": 283,
+      "overlapping_asset_tests": 22,
+      "overlapping_contrast_tests": 12,
+      "overlapping_guideline_tests": 24,
+      "asset_payloads": 184,
+      "asset_files_including_manifest": 185,
+      "asset_qa_cases": 80,
+      "raster_pixel_sizes": [
+        16,
+        24,
+        32,
+        1024
+      ],
+      "general_browser_cases": 4,
+      "browser_regression_expected_outcomes": 5,
+      "consumer_browser_cases": 16,
+      "filesystem_guard_probes": 15,
+      "history_text_blobs": 160,
+      "history_binary_blobs_not_text_scanned": 9
+    },
+    "mode_labels": "Browser/compiler runs are real local executions with synthetic fixtures. The fifteen filesystem probes intentionally fail a synthetic prerequisite and are not additional browser passes. Provider checks remain not_run; genuine browser zoom, external fonts, physical print proof and accountable acceptance remain pending.",
+    "no_overclaim": "The README distinguishes a blocked release gate from passing source/tooling checks, and labels candidate hashes and earlier local revisions accurately. No consumer ACK, deployment, brand/rights approval or foreign acceptance is inferred."
+  },
+  "retained_prior_evidence": {
+    "checked_with_manifest_hashes": [
+      "prior-runs/integration-initial-links-failure.log",
+      "prior-runs/integration-governance-incomplete-failure.log",
+      "negative-evidence/accessibility-missing-runtime.log",
+      "reviews/d7d4fb3/distribution-docs.json",
+      "negative-evidence/consumer-focus-original-falsepass.json",
+      "negative-evidence/consumer-focus-fixed-negative.json",
+      "negative-evidence/output-preservation-original.json",
+      "negative-evidence/output-preservation-final.json",
+      "gate/d7d4fb3/report.json"
+    ],
+    "interpretation": "Original failed, incomplete and false-pass results remain identifiable; later successful negatives are expected-outcome tests and do not rewrite the original result."
+  },
+  "review_carry_forward": {
+    "previous_approval": "triage/final-review-distribution-docs-d25cf8a.json",
+    "previous_approval_sha256": "dc78986156578187584f5eda5d9575a995feb6f4718ec8287c4b011d15c817a3",
+    "basis": "Merged tree and every previously reviewed scoped file hash are unchanged from d25. Existing independent scoped reviews continue to cover their respective non-authored changes.",
+    "self_authored_exclusions": [
+      "Own asset implementation (2f891321, integrated afb59f6); root reviews it.",
+      "Own source-bound distribution metadata/extraction/provider-reporting implementation (e6d4c6e, integrated 39a1de5); root independently reviews it.",
+      "Own accessibility-browser freeze/clipped-ring implementation (7fb13539, integrated fd31017); root independently reviews it.",
+      "Own new guide-source-context prose d340ab76845001f2420a203ad5fe939e47fb09f9 in docs/distribution.md and docs/consumers.md. Independently reviewed and approved by /root/pr3_reconcile; excluded from this reviewer approval."
+    ],
+    "criterion_map_limit": "Only map counts, metadata consistency and explicit pending status are checked here; this is not self-approval of authored criterion dispositions or owner acceptance."
+  },
+  "scope_wording_clarification": {
+    "leaf_and_gate_rows": 74,
+    "leaf_rows": 55,
+    "gate_rows": 19,
+    "issues_in_map": [
+      6,
+      7,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      5
+    ],
+    "epic_dependency_pointer_checkboxes": 11,
+    "action": "Root will make the postmerge supplement and current index/PR wording explicit: 74 leaf/gate rows plus 11 epic pointers, while preserving the original packet.",
+    "effect": "Documentation scope clarification; no code blocker, missing acceptance waiver or additional leaf completion."
+  },
+  "postmerge_validation_boundary": "Root runs and records the fresh 17-command gate against M separately. This reviewer did not rerun it or relabel candidate outcomes as merged-source execution. Artifact manifests containing source_sha must retain their actual source revision even though source trees match.",
+  "material_mismatches": [],
+  "source_mutated": false,
+  "external_or_foreign_mutations": false,
+  "owner_acceptance_granted": false
+}

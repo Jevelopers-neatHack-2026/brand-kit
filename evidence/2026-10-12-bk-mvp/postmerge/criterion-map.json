@@ -1,0 +1,2746 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Exact PR23 postmerge leaf/gate evidence mapping. Scope completion is separate from actual rights, identity, distribution and release approval.",
+  "source_snapshot": {
+    "path": "triage/final-issue-scope.json",
+    "sha256": "b2872742e3f0fac94b1a56e20536f93cb3d284b2a09a71e05f38e9ecbdff8a49",
+    "issue_comments_path": "triage/issue-comments.json",
+    "latest_decision_refs": [
+      {
+        "issue": 6,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6#issuecomment-6117576037"
+      },
+      {
+        "issue": 6,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6#issuecomment-6117700508"
+      },
+      {
+        "issue": 6,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6#issuecomment-6118159409"
+      },
+      {
+        "issue": 7,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7#issuecomment-6117727213"
+      },
+      {
+        "issue": 7,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7#issuecomment-6117941355"
+      },
+      {
+        "issue": 7,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7#issuecomment-6118156729"
+      },
+      {
+        "issue": 9,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6104392189"
+      },
+      {
+        "issue": 9,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6118156427"
+      },
+      {
+        "issue": 9,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6118216028"
+      },
+      {
+        "issue": 11,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11#issuecomment-6118157385"
+      },
+      {
+        "issue": 12,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12#issuecomment-6118157751"
+      },
+      {
+        "issue": 13,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13#issuecomment-6118158090"
+      }
+    ]
+  },
+  "implementation_review_revision": "013988e04c4e8678a85725cd0d92bc8fe6bfdda8",
+  "final_candidate_revision": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+  "merged_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+  "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+  "evidence_urls": [
+    "gate/report.json",
+    "supplemental/report.json",
+    "issue6/closure-recommendation.json",
+    "reviews/carryforward.json",
+    "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+  ],
+  "status_definitions": {
+    "implemented-local-evidence": "Concrete implementation or labelled local evidence exists. This is not full issue acceptance; remaining owner input and final checks still apply.",
+    "awaiting-owner-evidence": "The complete criterion requires actual owner/rights/provider/manual/consumer evidence or an approved predecessor; implementation scaffolding may already exist.",
+    "verified-scoped-completion": "All current issue criteria verified on actual merged source by required checks and scoped independent review. Issue state mutation follows publication of this packet; no other approval is inferred."
+  },
+  "global_limits": [
+    "This packet records actual merged PR23 checks at 6222a745195e9f15a14069e79210ad45daa16c94. Relative evidence paths resolve inside this postmerge packet. Candidate and prior failures remain at the separate immutable predecessor.",
+    "Already-merged predecessor PR references identify reused implementation/context, not proof that the entire criterion is satisfied. Current integration commits are not labelled merged predecessors.",
+    "Only #6 is potentially closable after actual exact merged checks and independent review. #7/#9/#11–#15 and gate #5 remain open for missing evidence; epic #4 closes only after gate acceptance.",
+    "#8 and #10 being closed on GitHub does not supply missing appointments, identity decisions, provenance, font strategy, release acceptance or consumer ACKs.",
+    "@CompleteDotTech is a nominated accountable approver, not a recorded approval. Technical/export, rights and required consumer reviewers still need actual appointments/acknowledgments.",
+    "Existing user constraint forbids self-hosted font delivery. TTFs remain source-only for logo outline generation; external-hosted policy/availability/privacy/fallback evidence is pending.",
+    "Mock/synthetic fixtures, offline review archives, contact sheets and font-fallback/type-enlargement proxies remain labelled local evidence. Required missing cases are not passes.",
+    "Normal release/provenance/package/consumer checks remain blocked on actual missing inputs. Provider receipts are recorded separately from what the offline invocation performed and require independent authentication.",
+    "PR #3 is not fully superseded: PR #22 merged valid immutable links, while paper-only app direction, foil material rules and sound changes require accountable owner decisions.",
+    "Canonical interfaces remain with shared-contracts, app assembly with getticketstub.com and master acceptance with integration-evals. No foreign/global gate or deployment is completed by this map.",
+    "BK-09 closure needs named Product/Landing/Marketing early interface review of the exact producer artifact/local fixtures only; completed consumer implementation/release/tested pins are not prerequisites.",
+    "Master P0 demonstration/financial-integrity, P1 expansion and Production-before-live-commerce priorities govern; local labels do not override them. No external publication/provider request/credential provisioning is authorized by this map.",
+    "Coverage is 74 leaf/gate rows (55 leaf criteria plus 19 gate rows), plus 11 separately mapped epic dependency pointers. The epic pointers are not 11 additional independent acceptance criteria. The earlier shorthand \"all 74 issue checkboxes\" did not include epic #4.",
+    "The gate ran before recording BK-01 closure. Its 29 missing decision/command blockers are retained verbatim, including the unfilled BK-01 distribution-artifact receipt slot. Scoped issue closure does not fabricate an approval ledger entry against a still-unselected release artifact."
+  ],
+  "already_merged_predecessors": {
+    "1": {
+      "pr": 1,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/1",
+      "merged_commit": "65de3e0ce43331449e66bc1c7d98548e45a71329",
+      "scope": "Architecture-kit baseline; not identity approval"
+    },
+    "2": {
+      "pr": 2,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/2",
+      "merged_commit": "3822635aff507cd5918a08a0c636bb0e41705261",
+      "scope": "Edition ownership/reference handoff"
+    },
+    "16": {
+      "pr": 16,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/16",
+      "merged_commit": "74bc86fe5b520cae792066fbe0d7dd129664bbd3",
+      "scope": "README refresh baseline; product claims still require review"
+    },
+    "17": {
+      "pr": 17,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/17",
+      "merged_commit": "00e4129ddce2d8d646b9d6d5a118d254a30b637f",
+      "scope": "Governance scaffolding and simulated process; no actual appointments or approvals"
+    },
+    "18": {
+      "pr": 18,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/18",
+      "merged_commit": "91157ac706b7d47b5d49e398a6db67bd0085d2b9",
+      "scope": "Inventory/source index and local checks"
+    },
+    "19": {
+      "pr": 19,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/19",
+      "merged_commit": "e7b325ebaab63ba2f369779e86a98bd8433b3999",
+      "scope": "Provenance register and fail-closed export checker; rights still unknown"
+    },
+    "20": {
+      "pr": 20,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/20",
+      "merged_commit": "28e64ddbd11c0c5a23143fdfe7118494fdbd54fd",
+      "scope": "Versioned token profile and deterministic CSS/Tailwind output"
+    },
+    "21": {
+      "pr": 21,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/21",
+      "merged_commit": "4ecb06fbbe79da54cfd15ce7d7e3f3573be58295",
+      "scope": "Security review predecessor; does not replace final sanitized review"
+    },
+    "22": {
+      "pr": 22,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/22",
+      "merged_commit": "3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4",
+      "scope": "Pinned studio edition/foil links; no adoption of unique PR #3 identity/material/sound policies"
+    }
+  },
+  "issue_scope": [
+    {
+      "issue": 6,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6",
+      "source_updated_at": "2026-10-12T05:11:18Z",
+      "criteria_count": 6,
+      "closure_disposition": "All six scoped criteria verified on merged M; close after publishing this immutable evidence. No brand/rights/consumer release approval.",
+      "closure_blocked_by_issue_numbers": []
+    },
+    {
+      "issue": 7,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7",
+      "source_updated_at": "2026-10-12T05:11:03Z",
+      "criteria_count": 6,
+      "closure_disposition": "remains open; required owner evidence or prerequisite acceptance missing",
+      "closure_blocked_by_issue_numbers": []
+    },
+    {
+      "issue": 9,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9",
+      "source_updated_at": "2026-10-12T05:17:11Z",
+      "criteria_count": 7,
+      "closure_disposition": "remains open; required owner evidence or prerequisite acceptance missing",
+      "closure_blocked_by_issue_numbers": [
+        7,
+        8
+      ]
+    },
+    {
+      "issue": 11,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11",
+      "source_updated_at": "2026-10-12T05:11:07Z",
+      "criteria_count": 7,
+      "closure_disposition": "remains open; required owner evidence or prerequisite acceptance missing",
+      "closure_blocked_by_issue_numbers": [
+        9
+      ]
+    },
+    {
+      "issue": 12,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12",
+      "source_updated_at": "2026-10-12T05:11:09Z",
+      "criteria_count": 7,
+      "closure_disposition": "remains open; required owner evidence or prerequisite acceptance missing",
+      "closure_blocked_by_issue_numbers": [
+        9,
+        10
+      ]
+    },
+    {
+      "issue": 13,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13",
+      "source_updated_at": "2026-10-12T05:11:10Z",
+      "criteria_count": 8,
+      "closure_disposition": "remains open; required owner evidence or prerequisite acceptance missing",
+      "closure_blocked_by_issue_numbers": [
+        11,
+        12
+      ]
+    },
+    {
+      "issue": 14,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14",
+      "source_updated_at": "2026-10-12T05:11:05Z",
+      "criteria_count": 7,
+      "closure_disposition": "remains open; required owner evidence or prerequisite acceptance missing",
+      "closure_blocked_by_issue_numbers": [
+        10,
+        11,
+        7
+      ]
+    },
+    {
+      "issue": 15,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15",
+      "source_updated_at": "2026-10-12T05:11:12Z",
+      "criteria_count": 7,
+      "closure_disposition": "remains open; required owner evidence or prerequisite acceptance missing",
+      "closure_blocked_by_issue_numbers": [
+        14
+      ]
+    },
+    {
+      "issue": 5,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "source_updated_at": "2026-10-12T16:06:48Z",
+      "criteria_count": 19,
+      "closure_disposition": "remains open; required owner evidence or prerequisite acceptance missing",
+      "closure_blocked_by_issue_numbers": [
+        9,
+        10,
+        14,
+        11,
+        13,
+        7,
+        8,
+        12,
+        15
+      ]
+    }
+  ],
+  "criteria": [
+    {
+      "issue": 6,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6",
+      "key": "BK-01.1",
+      "criterion": "Catalogue every tracked brand asset, font, token, guide and reference with canonical ownership and explicit approval/provenance status.",
+      "implementation_paths": [
+        "inventory/brand-inventory.json",
+        "tools/check_inventory.py",
+        "tools/inventory_lib.py",
+        "docs/source-of-truth.md"
+      ],
+      "already_merged_predecessor_prs": [
+        18,
+        19,
+        20,
+        23
+      ],
+      "remaining_input": "No additional input required for inventory scope. Publish immutable evidence and record scoped closure; rights, identity and other issue decisions remain separate.",
+      "responsible_owner_role": "Product/frontend brand-system maintainer and independent code reviewer",
+      "status": "verified-scoped-completion",
+      "required_evidence": [
+        "Exact merged tracked-file coverage and inventory hash",
+        "make check-inventory plus missing-file/input and untracked-note negative results",
+        "Independent inventory review; unknown rights remain explicit"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md",
+        "issue6/closure-recommendation.json"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 1
+    },
+    {
+      "issue": 6,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6",
+      "key": "BK-01.2",
+      "criterion": "Resolve the README source index and accurately describe the current iconography boundary.",
+      "implementation_paths": [
+        "README.md",
+        "docs/source-of-truth.md",
+        "tools/check_links.py",
+        "inventory/brand-inventory.json"
+      ],
+      "already_merged_predecessor_prs": [
+        18,
+        19,
+        20,
+        22,
+        23
+      ],
+      "remaining_input": "No additional input required for inventory scope. Publish immutable evidence and record scoped closure; rights, identity and other issue decisions remain separate.",
+      "responsible_owner_role": "Product/frontend brand-system maintainer and independent code reviewer",
+      "status": "verified-scoped-completion",
+      "required_evidence": [
+        "Resolved index and all actual local paths at merged SHA",
+        "Explicit current logo-icon-only inventory and undecided future UI-icon ownership; no invented library",
+        "External URL checks labelled separately from local link checks"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md",
+        "issue6/closure-recommendation.json"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 2
+    },
+    {
+      "issue": 6,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6",
+      "key": "BK-01.3",
+      "criterion": "Map planned architecture to actual paths and preserve compatible files and imports.",
+      "implementation_paths": [
+        "docs/source-of-truth.md",
+        "docs/architecture/OWNERSHIP.md",
+        "docs/architecture/ACCEPTANCE.md",
+        "inventory/brand-inventory.json"
+      ],
+      "already_merged_predecessor_prs": [
+        1,
+        2,
+        18,
+        23
+      ],
+      "remaining_input": "No additional input required for inventory scope. Publish immutable evidence and record scoped closure; rights, identity and other issue decisions remain separate.",
+      "responsible_owner_role": "Product/frontend brand-system maintainer and independent code reviewer",
+      "status": "verified-scoped-completion",
+      "required_evidence": [
+        "Actual/proposed path table and rationale",
+        "Diff confirming canonical paths retained and proposed destinations not presented as existing",
+        "Any later path move requires explicit mapping and affected-import evidence"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md",
+        "issue6/closure-recommendation.json"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 3
+    },
+    {
+      "issue": 6,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6",
+      "key": "BK-01.4",
+      "criterion": "Preserve reference/release distinctions and unknown rights; date repository-status corrections without changing settings.",
+      "implementation_paths": [
+        "docs/source-of-truth.md",
+        "README.md",
+        "inventory/brand-inventory.json",
+        "provenance/register.json"
+      ],
+      "already_merged_predecessor_prs": [
+        18,
+        19,
+        23
+      ],
+      "remaining_input": "No additional input required for inventory scope. Publish immutable evidence and record scoped closure; rights, identity and other issue decisions remain separate.",
+      "responsible_owner_role": "Product/frontend brand-system maintainer and independent code reviewer",
+      "status": "verified-scoped-completion",
+      "required_evidence": [
+        "Dated read-only repository-status evidence",
+        "Reference-only/source-only/unknown classifications consistent across index and register",
+        "No settings mutation or inferred asset clearance"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md",
+        "issue6/closure-recommendation.json"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 4
+    },
+    {
+      "issue": 6,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6",
+      "key": "BK-01.5",
+      "criterion": "Reuse valid PR #3 link work and preserve PR #2 edition ownership; state unresolved proposal targets.",
+      "implementation_paths": [
+        "docs/source-of-truth.md",
+        "docs/identity-decision-packet.md",
+        "docs/architecture/OWNERSHIP.md",
+        "docs/material-foil.md",
+        "docs/motion-sound-haptics.md"
+      ],
+      "already_merged_predecessor_prs": [
+        2,
+        18,
+        22,
+        23
+      ],
+      "remaining_input": "No additional input required for inventory scope. Publish immutable evidence and record scoped closure; rights, identity and other issue decisions remain separate.",
+      "responsible_owner_role": "Product/frontend brand-system maintainer and independent code reviewer",
+      "status": "verified-scoped-completion",
+      "required_evidence": [
+        "PR #22 immutable studio links and exact target verification",
+        "PR #3 disposition separating merged links from pending paper-only, foil and sound proposals",
+        "No claim that source availability proves deployment or consumer approval"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md",
+        "issue6/closure-recommendation.json"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 5
+    },
+    {
+      "issue": 6,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6",
+      "key": "BK-01.CMD",
+      "criterion": "Provide documented non-publishing inventory and link Make checks with truthful exit semantics.",
+      "implementation_paths": [
+        "Makefile",
+        "tools/check_inventory.py",
+        "tools/check_links.py",
+        "tools/tests/test_checks.py",
+        "docs/inventory-checks.md"
+      ],
+      "already_merged_predecessor_prs": [
+        18,
+        23
+      ],
+      "remaining_input": "No additional input required for inventory scope. Publish immutable evidence and record scoped closure; rights, identity and other issue decisions remain separate.",
+      "responsible_owner_role": "Product/frontend brand-system maintainer and independent code reviewer",
+      "status": "verified-scoped-completion",
+      "required_evidence": [
+        "make check-inventory and make check-links at candidate and merged SHAs",
+        "Meaningful missing-input/deleted-path/reference-link negatives",
+        "Setup, runtime, output and external-link limitations"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md",
+        "issue6/closure-recommendation.json"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 6
+    },
+    {
+      "issue": 7,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7",
+      "key": "BK-06.1",
+      "criterion": "Record per-file origin, rights, hashes, derivation, notices, uses, restrictions and reviewer status; retain unknowns.",
+      "implementation_paths": [
+        "provenance/register.json",
+        "docs/provenance.md",
+        "tools/check_provenance.py",
+        "inventory/brand-inventory.json"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        18,
+        20,
+        23
+      ],
+      "remaining_input": "Register structure is implemented; actual origins, rights, uses and accountable reviewer evidence remain unavailable for selected core assets.",
+      "responsible_owner_role": "Product/frontend provenance maintainer and appointed Creative/fulfillment rights reviewer",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "Complete tracked asset/font/reference hash coverage",
+        "Explicit unknown origin/rights/reviewer fields",
+        "Actual source and permission receipts or explicit exclusions for release"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 1
+    },
+    {
+      "issue": 7,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7",
+      "key": "BK-06.2",
+      "criterion": "Separate canonical candidates, font dependencies, references and discovered third-party candidates using evidence.",
+      "implementation_paths": [
+        "provenance/register.json",
+        "docs/provenance.md",
+        "docs/claims-register.md",
+        "docs/source-of-truth.md"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        18,
+        23
+      ],
+      "remaining_input": "Accountable provenance review of all seven references and font upstream/version evidence; no visual inference of origin or rights.",
+      "responsible_owner_role": "Product/frontend provenance maintainer and appointed Creative/fulfillment rights reviewer",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "Evidence-based classification table",
+        "Reference captions corrected to unknown origin where unsupported",
+        "Named inclusion/exclusion review; font notices do not establish acquisition history"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 2
+    },
+    {
+      "issue": 7,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7",
+      "key": "BK-06.3",
+      "criterion": "Allowlist only approved assets for permitted uses, preserving decisions and required notices (ART-05 contribution).",
+      "implementation_paths": [
+        "provenance/allowlist.json",
+        "provenance/register.json",
+        "tools/check_provenance.py",
+        "tools/build_distribution.py",
+        "tools/check_consumers.py"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        23
+      ],
+      "remaining_input": "Actual core-asset rights and approval records plus reviewed allowlist; empty allowlist and 23 uncleared core files still block release.",
+      "responsible_owner_role": "Product/frontend provenance maintainer and appointed Creative/fulfillment rights reviewer",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Fail-closed production provenance result while inputs are missing",
+        "Approved exact file/hash/use allowlist and permitted notices after actual decisions",
+        "Negatives for unknown/internal/third-party/missing-notice assets and revoked historical eligibility",
+        "Source-only fonts excluded under no-self-hosting constraint"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 3
+    },
+    {
+      "issue": 7,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7",
+      "key": "BK-06.4",
+      "criterion": "Keep candidate rights evaluation with event-intelligence and production bundle enforcement with creative/production owners.",
+      "implementation_paths": [
+        "docs/provenance.md",
+        "docs/architecture/OWNERSHIP.md",
+        "docs/consumers.md"
+      ],
+      "already_merged_predecessor_prs": [
+        2,
+        19,
+        23
+      ],
+      "remaining_input": "Owner acceptance of the documented boundary where required; no foreign implementation or global ART-05 completion is supplied.",
+      "responsible_owner_role": "Product/frontend provenance maintainer and appointed Creative/fulfillment rights reviewer",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "Canonical owner/contract links and exact handoff boundary",
+        "No third-party candidate dumping or foreign contract redefinition",
+        "Producer contribution explicitly scoped to brand-kit"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 4
+    },
+    {
+      "issue": 7,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7",
+      "key": "BK-06.5",
+      "criterion": "Sanitize provenance/export evidence and relevant history; protect restricted rights and customer records (EVAL-04 contribution).",
+      "implementation_paths": [
+        "docs/provenance.md",
+        "docs/distribution.md",
+        "tools/build_distribution.py",
+        "tools/check_brand_release.py"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        21,
+        23
+      ],
+      "remaining_input": "Named sanitized-data/history review of the exact distributable candidate and restricted evidence handling; scanner coverage alone is incomplete.",
+      "responsible_owner_role": "Product/frontend provenance maintainer and appointed Creative/fulfillment rights reviewer",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Applicable scan/version/scope/results with historical false positives retained",
+        "Manual review of reference binaries, public metadata and evidence coverage limits",
+        "Restricted permission evidence referenced without publishing private documents or customer details"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 5
+    },
+    {
+      "issue": 7,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7",
+      "key": "BK-06.CMD",
+      "criterion": "Provide documented provenance validation that fails on missing required release rights and evidence.",
+      "implementation_paths": [
+        "Makefile",
+        "tools/check_provenance.py",
+        "tools/tests/test_provenance.py",
+        "docs/provenance.md"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        23
+      ],
+      "remaining_input": "Final candidate and merged technical verification; the real release invocation must remain nonzero until owner inputs exist.",
+      "responsible_owner_role": "Product/frontend provenance maintainer and appointed Creative/fulfillment rights reviewer",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "make check-provenance actual blocked result preserved",
+        "Register-only structural pass explicitly separated",
+        "Positive synthetic and invalid unknown/internal/missing-notice/third-party fixture results labelled synthetic"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 6
+    },
+    {
+      "issue": 9,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9",
+      "key": "BK-02.1",
+      "criterion": "Obtain a dated exact-revision master-direction decision; preserve rejected C rationale.",
+      "implementation_paths": [
+        "docs/identity-decision-packet.md",
+        "SPEC.md",
+        "docs/brand-governance.md",
+        "docs/governance/decision-template.md"
+      ],
+      "already_merged_predecessor_prs": [
+        1,
+        17,
+        23
+      ],
+      "remaining_input": "Actual ratification/amendment/rejection of A+B versus PR #3 paper-only app scope; no core choice may remain unresolved.",
+      "responsible_owner_role": "Accountable brand approver (@CompleteDotTech nominated only), design recommender and affected consumer reviewers",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Dated named decision tied to final source SHA and hashes",
+        "Scope, rationale, rejected alternatives and supersession history",
+        "Required technical/provenance/consumer role appointments and acknowledgments"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 1
+    },
+    {
+      "issue": 9,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9",
+      "key": "BK-02.2",
+      "criterion": "Approve canonical mark hierarchy, lockups, mono/currentColor, favicon and app-icon purposes.",
+      "implementation_paths": [
+        "docs/identity-decision-packet.md",
+        "docs/logo.md",
+        "logo/",
+        "provenance/register.json"
+      ],
+      "already_merged_predecessor_prs": [
+        18,
+        19,
+        23
+      ],
+      "remaining_input": "Actual per-variant accept/exclude decisions and permitted combinations; no organizer/sponsor/customer co-brand permission inferred.",
+      "responsible_owner_role": "Accountable brand approver (@CompleteDotTech nominated only), design recommender and affected consumer reviewers",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Exact variant/path/hash table with approval references",
+        "Rights/use evidence for each chosen asset",
+        "Explicit optional exclusions and co-brand boundary"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 2
+    },
+    {
+      "issue": 9,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9",
+      "key": "BK-02.3",
+      "criterion": "Ratify exact six-color palette, day/night semantics and foil scope or record a reviewed migration.",
+      "implementation_paths": [
+        "docs/identity-decision-packet.md",
+        "SPEC.md",
+        "tokens/tokens.json",
+        "tokens/profile.json",
+        "docs/material-foil.md"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        22,
+        23
+      ],
+      "remaining_input": "Accountable app-versus-marketing/print direction decision and exact palette/foil review; PR #3 material changes remain unique pending proposals.",
+      "responsible_owner_role": "Accountable brand approver (@CompleteDotTech nominated only), design recommender and affected consumer reviewers",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Dated palette/theme/foil decision at exact revision",
+        "Preserved numeric values and accessibility restrictions or reviewed change rationale and migration",
+        "Reconciled downstream guidance after the real decision"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 3
+    },
+    {
+      "issue": 9,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9",
+      "key": "BK-02.4",
+      "criterion": "Approve Fraunces/Inter Tight settings, fallback, tabular numerals and permitted delivery.",
+      "implementation_paths": [
+        "docs/identity-decision-packet.md",
+        "SPEC.md",
+        "tokens/profile.json",
+        "distribution/proposal.json",
+        "docs/distribution.md",
+        "fonts/"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        20,
+        23
+      ],
+      "remaining_input": "Actual type and externally hosted font-policy review, upstream provenance and provider/fallback evidence; self-hosting is already prohibited.",
+      "responsible_owner_role": "Accountable brand approver (@CompleteDotTech nominated only), design recommender and affected consumer reviewers",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Family/axis/weight/scale/fallback/tabular approval tied to exact sources",
+        "BK-06 rights evidence and BK-03B network/CSP/privacy/fallback decision",
+        "No TTF runtime distribution or silent token-import network request"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 4
+    },
+    {
+      "issue": 9,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9",
+      "key": "BK-02.5",
+      "criterion": "Resolve imagery and voice applicability to master-brand versus artwork editions.",
+      "implementation_paths": [
+        "docs/identity-decision-packet.md",
+        "docs/imagery.md",
+        "docs/voice.md",
+        "docs/claims-register.md",
+        "SPEC.md"
+      ],
+      "already_merged_predecessor_prs": [
+        2,
+        22,
+        23
+      ],
+      "remaining_input": "Actual brand/content decision on blanket generated-art restrictions with creative-engine input where edition scope is affected.",
+      "responsible_owner_role": "Accountable brand approver (@CompleteDotTech nominated only), design recommender and affected consumer reviewers",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Exact master/artwork scope and named affected-owner review",
+        "Approved voice guidance with unsupported capability and price claims excluded or labelled",
+        "Rights evidence for reusable imagery; references remain excluded"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 5
+    },
+    {
+      "issue": 9,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9",
+      "key": "BK-02.6",
+      "criterion": "Decide reusable UI-icon scope and approve any chosen source/style or explicit consumer handoff.",
+      "implementation_paths": [
+        "docs/identity-decision-packet.md",
+        "docs/source-of-truth.md",
+        "inventory/brand-inventory.json"
+      ],
+      "already_merged_predecessor_prs": [
+        18,
+        23
+      ],
+      "remaining_input": "Actual icon-scope decision and any source/style/owner evidence; current logo icons and board mute illustration do not constitute a UI icon library.",
+      "responsible_owner_role": "Accountable brand approver (@CompleteDotTech nominated only), design recommender and affected consumer reviewers",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Dated icon decision with exact canonical source or consumer handoff",
+        "Approval references for selected elements",
+        "Explicit exclusion of unapproved optional variants"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 6
+    },
+    {
+      "issue": 9,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9",
+      "key": "BK-02.CMD",
+      "criterion": "Reuse local link checks while retaining identity approval and visual walkthroughs as manual requirements.",
+      "implementation_paths": [
+        "Makefile",
+        "tools/check_links.py",
+        "docs/identity-decision-packet.md",
+        "docs/brand-governance.md"
+      ],
+      "already_merged_predecessor_prs": [
+        18,
+        17,
+        23
+      ],
+      "remaining_input": "Final link-check evidence plus actual identity/manual reviews; automation cannot create the missing decision.",
+      "responsible_owner_role": "Accountable brand approver (@CompleteDotTech nominated only), design recommender and affected consumer reviewers",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "make check-links and git diff --check at final revision",
+        "Pinned source-hash packet and independently reviewed links",
+        "Manual decision and visual review recorded separately"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 7
+    },
+    {
+      "issue": 11,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11",
+      "key": "BK-04.1",
+      "criterion": "Bind released variants to canonical generators, fonts, hashes, approvals and token-palette parity.",
+      "implementation_paths": [
+        "tools/build_logos.py",
+        "tools/asset_lib.py",
+        "tools/assets/toolchain.json",
+        "tools/assets/export-matrix.json",
+        "docs/asset-exports.md"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        20,
+        23
+      ],
+      "remaining_input": "Actual BK-02/BK-06 approval references for released assets; current build records null approval and review-only status.",
+      "responsible_owner_role": "Product/frontend asset engineer, appointed technical/export reviewer and accountable brand/rights reviewers",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Source/font/generator/toolchain hashes and palette-parity check",
+        "Unchanged canonical 14 SVG bytes or scoped reviewed correction",
+        "Actual release approval references rather than generated manifest inference"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 1
+    },
+    {
+      "issue": 11,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11",
+      "key": "BK-04.2",
+      "criterion": "Provide pinned deterministic SVG regeneration and direct-vector raster recipes with dimensions, background and color metadata.",
+      "implementation_paths": [
+        "tools/build_assets.py",
+        "tools/asset_lib.py",
+        "tools/assets/toolchain.json",
+        "tools/assets/requirements.txt",
+        "docs/asset-exports.md"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        23
+      ],
+      "remaining_input": "Exact final candidate reproducibility evidence; technical outputs remain local review artifacts until rights/identity acceptance.",
+      "responsible_owner_role": "Product/frontend asset engineer, appointed technical/export reviewer and accountable brand/rights reviewers",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "Pinned Python/fontTools/HarfBuzz/Pillow/Inkscape/Cairo versions",
+        "Two build file sets and hashes; SVG byte parity",
+        "Dimensions/alpha/sRGB and physical-resolution limits recorded"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 2
+    },
+    {
+      "issue": 11,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11",
+      "key": "BK-04.3",
+      "criterion": "Deliver the variant output matrix including 1024px app-icon PNG and explicit unsupported formats.",
+      "implementation_paths": [
+        "tools/assets/export-matrix.json",
+        "tools/build_assets.py",
+        "docs/asset-exports.md",
+        "logo/app-icon.svg"
+      ],
+      "already_merged_predecessor_prs": [
+        18,
+        19,
+        23
+      ],
+      "remaining_input": "Accountable approval of the output subset and actual approved distributable raster artifact; local review PNG exists but is excluded from release.",
+      "responsible_owner_role": "Product/frontend asset engineer, appointed technical/export reviewer and accountable brand/rights reviewers",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "14-vector and justified raster output matrix",
+        "Required 1024px app-icon PNG bytes, hash and source manifest in immutable local evidence",
+        "Supported/unsupported combinations explicit; no font binaries or references distributed"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 3
+    },
+    {
+      "issue": 11,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11",
+      "key": "BK-04.4",
+      "criterion": "Validate safe SVGs, dimensions, outlines, alpha and canonical minimum-size cases.",
+      "implementation_paths": [
+        "tools/check_asset.py",
+        "tools/asset_lib.py",
+        "tools/build_assets.py",
+        "tools/tests/test_assets.py",
+        "tools/assets/export-matrix.json"
+      ],
+      "already_merged_predecessor_prs": [
+        18,
+        23
+      ],
+      "remaining_input": "Final automated results plus accountable minimum-size/readability review; 8mm rendering is not actual physical print acceptance.",
+      "responsible_owner_role": "Product/frontend asset engineer, appointed technical/export reviewer and accountable brand/rights reviewers",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "External-resource/script/active-CSS/viewBox/aspect/glyph/dimension/transparency negatives",
+        "Favicon 16/24/32, stamp 24px/8mm, compact boundary, app 1024 cases at 1x/2x",
+        "Named review of rendered results and physical proof when asserting print quality"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 4
+    },
+    {
+      "issue": 11,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11",
+      "key": "BK-04.5",
+      "criterion": "Render permitted variants on cream, ink and imagery plates and verify clipping, legibility, knockout/currentColor and stable hashes.",
+      "implementation_paths": [
+        "tools/build_assets.py",
+        "tools/asset_lib.py",
+        "tools/assets/export-matrix.json",
+        "docs/asset-exports.md"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        20,
+        23
+      ],
+      "remaining_input": "Actual identity/rights and accountable visual acceptance; synthetic imagery plates and local QA do not approve variants or imagery rights.",
+      "responsible_owner_role": "Product/frontend asset engineer, appointed technical/export reviewer and accountable brand/rights reviewers",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Rendered contact sheets, full case coverage and source comparison",
+        "Two reproducible export manifests/hashes",
+        "Named per-case accept/exclude decisions and explicit local/synthetic/physical-proof limits"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 5
+    },
+    {
+      "issue": 11,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11",
+      "key": "BK-04.6",
+      "criterion": "Reject screenshots, low-resolution references and mockups as canonical marks or approval evidence.",
+      "implementation_paths": [
+        "docs/asset-exports.md",
+        "docs/usage.md",
+        "docs/claims-register.md",
+        "docs/provenance.md"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        23
+      ],
+      "remaining_input": "Final guideline review and links; visual captures remain QA-only.",
+      "responsible_owner_role": "Product/frontend asset engineer, appointed technical/export reviewer and accountable brand/rights reviewers",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "Source-linked rule and examples",
+        "No reference image promoted into canonical or distributable outputs",
+        "Captures clearly labelled review evidence"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 6
+    },
+    {
+      "issue": 11,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11",
+      "key": "BK-04.CMD",
+      "criterion": "Implement pinned non-publishing asset build/check targets with meaningful invalid-input failures.",
+      "implementation_paths": [
+        "Makefile",
+        "tools/build_assets.py",
+        "tools/check_asset.py",
+        "tools/tests/test_assets.py",
+        "docs/asset-exports.md"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        23
+      ],
+      "remaining_input": "Final candidate and postmerge command transcripts; retain earlier failed test results.",
+      "responsible_owner_role": "Product/frontend asset engineer, appointed technical/export reviewer and accountable brand/rights reviewers",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "make build-assets and make check-assets with actual revisions/runtime",
+        "Canonical generator rerun and git diff --exit-code -- logo",
+        "Negative scripts/resources/viewBox/dimensions and repeated-build evidence",
+        "No approval implied by successful local build"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 7
+    },
+    {
+      "issue": 12,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12",
+      "key": "BK-08.1",
+      "criterion": "Compute the actual-token contrast matrix including muted alpha composites and raw/rounded ratios.",
+      "implementation_paths": [
+        "tools/check_accessibility.py",
+        "docs/accessibility/contrast-report.json",
+        "docs/accessibility/contrast-report.md",
+        "tools/tests/test_accessibility.py"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        23
+      ],
+      "remaining_input": "Final exact-token report regeneration and independent review; identity ratification remains separate.",
+      "responsible_owner_role": "Product/frontend accessibility reviewer and accountable brand approver",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "Source token hash and computation/threshold references",
+        "36 palette and 26 semantic calculations with raw/rounded values and cream/ink/moss composites",
+        "Deterministic report parity and prohibited-pair negatives"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 1
+    },
+    {
+      "issue": 12,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12",
+      "key": "BK-08.2",
+      "criterion": "Classify normal/large text, CTA/focus and adjacent surfaces using correct contrast thresholds and exceptions.",
+      "implementation_paths": [
+        "docs/accessibility.md",
+        "docs/accessibility/contrast-report.json",
+        "tools/check_accessibility.py",
+        "tools/tests/test_accessibility.py"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        23
+      ],
+      "remaining_input": "Accountable review of the measured supported-use restrictions against the ratified palette; no whole-product conformance inferred.",
+      "responsible_owner_role": "Product/frontend accessibility reviewer and accountable brand approver",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "4.5 normal, 3 large and 3 meaningful-UI checks using unrounded ratios",
+        "Large-text size/weight definition and adjacent-surface limitations",
+        "Explicit logo/decorative exceptions and orange/cream, copper/ink negative results"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 2
+    },
+    {
+      "issue": 12,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12",
+      "key": "BK-08.3",
+      "criterion": "Review OS/explicit day/night/subtree modes, surface text, CTA, visible focus and non-color-only state.",
+      "implementation_paths": [
+        "tools/accessibility-fixture/",
+        "tools/check_accessibility_browser.cjs",
+        "tools/tests/test_accessibility_browser.cjs",
+        "docs/accessibility.md"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        23
+      ],
+      "remaining_input": "Named accessibility/visual acceptance of the actual candidate; local fixture evidence does not establish consumer behavior.",
+      "responsible_owner_role": "Product/frontend accessibility reviewer and accountable brand approver",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Frozen-source actual-browser evidence for all modes and source-drift check",
+        "Visible/unclipped focus across adjacent surfaces; invisible/clipped-ring negatives",
+        "Busy-image/gradient restrictions and text/state cues",
+        "Runtime, screenshots, scope and any failed predecessor results"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 3
+    },
+    {
+      "issue": 12,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12",
+      "key": "BK-08.4",
+      "criterion": "Demonstrate approved fonts and fallback at true 200% zoom and narrow width without clipped essential text.",
+      "implementation_paths": [
+        "tools/accessibility-fixture/",
+        "tools/check_accessibility_browser.cjs",
+        "docs/accessibility.md",
+        "docs/distribution.md"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        20,
+        23
+      ],
+      "remaining_input": "Approved external font delivery plus actual font-available and true browser-zoom review; offline fallbacks and enlarged-type proxy do not satisfy all required cases.",
+      "responsible_owner_role": "Product/frontend accessibility reviewer and accountable brand approver",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "200% browser zoom and narrow-width visible/clipping review with approved fonts available/unavailable",
+        "Network/loading/fallback behavior and exact browser/font versions",
+        "Clear labels for local enlarged-type proxy and required unexecuted external-font cases"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 4
+    },
+    {
+      "issue": 12,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12",
+      "key": "BK-08.5",
+      "criterion": "Align token/CSS/Tailwind reduced-motion behavior and static alternatives for print-sweep, tilt, foil and reveal.",
+      "implementation_paths": [
+        "tokens/tokens.json",
+        "tokens/tokens.css",
+        "tokens/tailwind.preset.js",
+        "docs/accessibility.md",
+        "docs/motion-sound-haptics.md",
+        "tools/accessibility-fixture/"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        23
+      ],
+      "remaining_input": "Final computed/browser evidence and owner review; applications retain responsibility for their own animation implementation.",
+      "responsible_owner_role": "Product/frontend accessibility reviewer and accountable brand approver",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "Computed CSS/Tailwind motion values and actual reduced-mode static sample",
+        "Print-sweep plus tilt/foil/reveal alternatives",
+        "Consumer responsibility documented; no application motion completion claim"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 5
+    },
+    {
+      "issue": 12,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12",
+      "key": "BK-08.6",
+      "criterion": "Correct numerical/documentation drift while preserving palette/type unless a reviewed migration authorizes change.",
+      "implementation_paths": [
+        "SPEC.md",
+        "tokens/tokens.json",
+        "docs/accessibility.md",
+        "docs/accessibility/contrast-report.md",
+        "tools/check_guidelines.py"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        23
+      ],
+      "remaining_input": "Final source/report comparison and named accessibility/brand review; any future palette/type change returns to BK-02/BK-07.",
+      "responsible_owner_role": "Product/frontend accessibility reviewer and accountable brand approver",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "Corrected muted contrast rounding tied to raw calculations",
+        "Diff showing no silent color/type changes",
+        "Documented approval/migration route for any required identity change"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 6
+    },
+    {
+      "issue": 12,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12",
+      "key": "BK-08.CMD",
+      "criterion": "Provide documented accessibility checks with negative controls and distinct browser/manual evidence.",
+      "implementation_paths": [
+        "Makefile",
+        "tools/check_accessibility.py",
+        "tools/check_accessibility_browser.cjs",
+        "tools/tests/test_accessibility_browser.cjs",
+        "tools/tests/test_accessibility.py",
+        "docs/accessibility.md"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        23
+      ],
+      "remaining_input": "Final exact candidate and postmerge automation; required missing font/zoom/manual evidence stays open.",
+      "responsible_owner_role": "Product/frontend accessibility reviewer and accountable brand approver",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "make check-accessibility plus actual browser and regression commands",
+        "Missing-runtime failure preserved; no required skipped case recast as pass",
+        "Source freeze/end-hash and clipping/focus negatives with actual runtime versions"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 7
+    },
+    {
+      "issue": 13,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13",
+      "key": "BK-05.1",
+      "criterion": "Map each channel to its approved version, mark, type/color/background and source-linked export example.",
+      "implementation_paths": [
+        "docs/usage.md",
+        "docs/usage-examples.html",
+        "docs/identity-decision-packet.md",
+        "docs/consumers.md"
+      ],
+      "already_merged_predecessor_prs": [
+        2,
+        18,
+        23
+      ],
+      "remaining_input": "Approved identity/version and releasable exports; the implemented channel matrix is explicitly proposal/local review only.",
+      "responsible_owner_role": "Product/frontend design/content reviewer; Marketing MM-02 and Product GT-10B supply claim evidence",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Per-channel exact version/path/export matrix",
+        "Source-linked examples at the final candidate",
+        "Actual brand/content acceptance and relevant asset rights"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 1
+    },
+    {
+      "issue": 13,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13",
+      "key": "BK-05.2",
+      "criterion": "Demonstrate aspect ratio, clear space, minima, substitutions, plates, mono/currentColor and misuse restrictions.",
+      "implementation_paths": [
+        "docs/usage.md",
+        "docs/usage-examples.html",
+        "docs/logo.md",
+        "docs/asset-exports.md"
+      ],
+      "already_merged_predecessor_prs": [
+        18,
+        23
+      ],
+      "remaining_input": "Accountable visual walkthrough and identity/export acceptance; source rules and local examples are implemented.",
+      "responsible_owner_role": "Product/frontend design/content reviewer; Marketing MM-02 and Product GT-10B supply claim evidence",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Positive/negative source-linked size/background examples",
+        "Minimum-size/compact/favicon/plate demonstrations",
+        "No redraw/rotation/re-gradient or palette misuse introduced"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 2
+    },
+    {
+      "issue": 13,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13",
+      "key": "BK-05.3",
+      "criterion": "Limit approved combinations and route unapproved co-brand marks to governance and rights owners.",
+      "implementation_paths": [
+        "docs/usage.md",
+        "docs/identity-decision-packet.md",
+        "docs/provenance.md",
+        "docs/brand-governance.md"
+      ],
+      "already_merged_predecessor_prs": [
+        17,
+        19,
+        23
+      ],
+      "remaining_input": "Actual approved lockup/combination decisions; absent evidence continues to mean no permission.",
+      "responsible_owner_role": "Product/frontend design/content reviewer; Marketing MM-02 and Product GT-10B supply claim evidence",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Exact approved combinations or explicit exclusions",
+        "BK-07 exception and event-intelligence discovery/rights handoff",
+        "No sponsor/customer/organizer endorsement inferred"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 3
+    },
+    {
+      "issue": 13,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13",
+      "key": "BK-05.4",
+      "criterion": "Provide allowed/prohibited logo/color/background examples using accessibility restrictions and approved palette.",
+      "implementation_paths": [
+        "docs/usage-examples.html",
+        "docs/usage.md",
+        "docs/accessibility.md",
+        "docs/accessibility/contrast-report.json"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        23
+      ],
+      "remaining_input": "Ratified palette and accountable brand/accessibility walkthrough of the examples.",
+      "responsible_owner_role": "Product/frontend design/content reviewer; Marketing MM-02 and Product GT-10B supply claim evidence",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Paired positive/negative cases for relevant rules",
+        "Text restrictions trace to actual-token BK-08 report",
+        "Visual review of readable text and correct visible labels"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 4
+    },
+    {
+      "issue": 13,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13",
+      "key": "BK-05.5",
+      "criterion": "State imagery/voice scope and keep references and unapproved screenshots out of reusable collateral.",
+      "implementation_paths": [
+        "docs/usage.md",
+        "docs/imagery.md",
+        "docs/voice.md",
+        "docs/claims-register.md",
+        "docs/identity-decision-packet.md"
+      ],
+      "already_merged_predecessor_prs": [
+        2,
+        19,
+        22,
+        23
+      ],
+      "remaining_input": "BK-02.5 owner decision on master/artwork scope and actual reusable imagery/voice approval.",
+      "responsible_owner_role": "Product/frontend design/content reviewer; Marketing MM-02 and Product GT-10B supply claim evidence",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Canonical imagery/voice links and explicit applicability",
+        "References and unapproved customer screenshots excluded",
+        "Creative-engine review before affecting foreign edition rules"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 5
+    },
+    {
+      "issue": 13,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13",
+      "key": "BK-05.6",
+      "criterion": "Reconcile README, SPEC, board and guides with one canonical rule source and preserved rationale.",
+      "implementation_paths": [
+        "README.md",
+        "SPEC.md",
+        "index.html",
+        "docs/voice.md",
+        "docs/usage.md",
+        "docs/identity-decision-packet.md",
+        "docs/guidelines-source-snapshot.json",
+        "tools/check_guidelines.py"
+      ],
+      "already_merged_predecessor_prs": [
+        16,
+        18,
+        22,
+        23
+      ],
+      "remaining_input": "Final source-hash/link verification and review; unresolved PR #3 policy alternatives remain visibly pending until actual identity decisions.",
+      "responsible_owner_role": "Product/frontend design/content reviewer; Marketing MM-02 and Product GT-10B supply claim evidence",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "Canonical rule links and intentional-diff rationale",
+        "Frozen exact public-source hashes and unknown-change negatives",
+        "Preserved A+B baseline and C rejection without adopting unreviewed PR #3 policy"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 6
+    },
+    {
+      "issue": 13,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13",
+      "key": "BK-05.CMD",
+      "criterion": "Reuse link checks and explicitly retain manual approval and visual walkthrough requirements.",
+      "implementation_paths": [
+        "Makefile",
+        "tools/check_links.py",
+        "tools/check_guidelines.py",
+        "tools/tests/test_guidelines.py",
+        "docs/claims-register.md",
+        "docs/usage.md"
+      ],
+      "already_merged_predecessor_prs": [
+        18,
+        23
+      ],
+      "remaining_input": "Final link/source-negative evidence and actual manual brand/content walkthrough.",
+      "responsible_owner_role": "Product/frontend design/content reviewer; Marketing MM-02 and Product GT-10B supply claim evidence",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "make check-links, make check-guidelines and git diff --check",
+        "Pinned public-claim pattern scan and manual image-only inspection",
+        "Manual review/approval kept distinct from structural pass"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 7
+    },
+    {
+      "issue": 13,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13",
+      "key": "BK-05.7",
+      "criterion": "Inventory public claims and obtain reviewed substantiation, visible illustrative/planned labels or removal.",
+      "implementation_paths": [
+        "docs/claims-register.md",
+        "README.md",
+        "SPEC.md",
+        "index.html",
+        "docs/voice.md",
+        "docs/guidelines-source-snapshot.json",
+        "tools/check_guidelines.py",
+        "tools/tests/test_guidelines.py"
+      ],
+      "already_merged_predecessor_prs": [
+        16,
+        19,
+        23
+      ],
+      "remaining_input": "Named brand/content review of the exact candidate and MM-02 wording/product evidence where claims are retained as factual; label review is still pending.",
+      "responsible_owner_role": "Product/frontend design/content reviewer; Marketing MM-02 and Product GT-10B supply claim evidence",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Complete source/location/disposition inventory including image-only text",
+        "Pinned GT-10B product support and MM-02 approval for verified wording, or reviewed labels/removal",
+        "Exact source/rendered before/after and required claim-pattern scan",
+        "Unsupported present-tense negative rejected; hashes alone cannot approve claims"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 8
+    },
+    {
+      "issue": 14,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14",
+      "key": "BK-03B.1",
+      "criterion": "Select real immutable artifact/version and supported output/import paths without inventing a package.",
+      "implementation_paths": [
+        "distribution/proposal.json",
+        "distribution/acceptance.json",
+        "docs/distribution.md",
+        "tools/build_distribution.py"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        23
+      ],
+      "remaining_input": "Actual reviewed format/version/locator decision and an eligible approved artifact; only a local review ZIP currently exists.",
+      "responsible_owner_role": "Product/frontend release/distribution maintainer, accountable brand approver and font/privacy reviewer",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Named exact proposal/source decision and immutable archive locator",
+        "Brand version, source SHA, archive and file-set hashes",
+        "Working extracted CSS/Tailwind paths; no fictitious npm/public release"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 1
+    },
+    {
+      "issue": 14,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14",
+      "key": "BK-03B.2",
+      "criterion": "Ratify compatibility, additive/breaking changes, deprecation, prerelease and rollback contract with immutable pins.",
+      "implementation_paths": [
+        "distribution/proposal.json",
+        "docs/distribution.md",
+        "docs/consumers.md",
+        "tools/check_consumers.py"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        23
+      ],
+      "remaining_input": "Owner-reviewed version/compatibility/deprecation policy for the real approved contract.",
+      "responsible_owner_role": "Product/frontend release/distribution maintainer, accountable brand approver and font/privacy reviewer",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Exact revision/version/hash pin and stable/evolving classification",
+        "Declared breaking-path negative and migration outcome",
+        "Rollback checks current rights, file set, font policy and decision rather than reviving historical approval"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 2
+    },
+    {
+      "issue": 14,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14",
+      "key": "BK-03B.3",
+      "criterion": "Build only approved allowlisted outputs and notices with source-bound metadata and hashes.",
+      "implementation_paths": [
+        "tools/build_distribution.py",
+        "provenance/allowlist.json",
+        "provenance/register.json",
+        "distribution/acceptance.json",
+        "tools/tests/test_distribution.py"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        20,
+        23
+      ],
+      "remaining_input": "Actual rights/core approval/allowlist and distribution decision; review mode must remain nonreleasable.",
+      "responsible_owner_role": "Product/frontend release/distribution maintainer, accountable brand approver and font/privacy reviewer",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Approved artifact exact file set, notices, hashes and source-derived eligibility",
+        "Negatives for references, path traversal, active SVG, missing notices and resealed metadata promotion",
+        "Source SHA/token profile/brand version/approval references in manifest",
+        "No source-font binaries, private evidence or whole-repository copying"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 3
+    },
+    {
+      "issue": 14,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14",
+      "key": "BK-03B.4",
+      "criterion": "Approve permitted external font delivery, opt-in, network/privacy/fallback and version policy without self-hosting.",
+      "implementation_paths": [
+        "distribution/proposal.json",
+        "distribution/acceptance.json",
+        "docs/distribution.md",
+        "tokens/external-fonts-google.css",
+        "tokens/tokens.css",
+        "tools/check_consumers.py"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        20,
+        23
+      ],
+      "remaining_input": "Actual external-provider strategy review and accountable network-available/unavailable receipts; self-hosting is prohibited by the existing user constraint.",
+      "responsible_owner_role": "Product/frontend release/distribution maintainer, accountable brand approver and font/privacy reviewer",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Exact requested family/axis/style policy and source version implications",
+        "Actual provider/CSP/privacy/network/fallback evidence bound to the artifact and policy",
+        "Offline invocation says performed_this_run=false; supplied evidence remains recorded_unverified until authenticated",
+        "Default token import has no external font request"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 4
+    },
+    {
+      "issue": 14,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14",
+      "key": "BK-03B.5",
+      "criterion": "Validate exact archive bytes, notices, eligibility and clean-extraction CSS/Tailwind importability reproducibly.",
+      "implementation_paths": [
+        "tools/build_distribution.py",
+        "tools/check_consumers.py",
+        "tools/tests/test_distribution.py",
+        "distribution/fixtures/",
+        "tools/tokens-dev/package-lock.json",
+        "docs/distribution.md"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        20,
+        23
+      ],
+      "remaining_input": "Final technical verification and approved-mode rerun after owner inputs; current review archive and labelled synthetic fixtures cannot pass release acceptance.",
+      "responsible_owner_role": "Product/frontend release/distribution maintainer, accountable brand approver and font/privacy reviewer",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "Two clean builds with identical archive/file-set hashes and pinned environment",
+        "Clean-extraction actual CSS/Tailwind and both fixture link checks",
+        "Integrity, missing-import, missing-notice, bad-hash and changed-public-path negatives",
+        "Approved-mode missing-input failure retained alongside local-mode pass"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 5
+    },
+    {
+      "issue": 14,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14",
+      "key": "BK-03B.6",
+      "criterion": "Document a worked baseline upgrade/rollback and separate artifact ownership from early consumer ACK.",
+      "implementation_paths": [
+        "docs/distribution.md",
+        "docs/consumers.md",
+        "tools/check_consumers.py",
+        "tools/tests/fixtures/baseline/"
+      ],
+      "already_merged_predecessor_prs": [
+        2,
+        20,
+        23
+      ],
+      "remaining_input": "Reviewed actual supported artifact/version and compatibility decision; BK-09 named early ACK is separately tracked and consumer release is not prerequisite.",
+      "responsible_owner_role": "Product/frontend release/distribution maintainer, accountable brand approver and font/privacy reviewer",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "Old-to-supported path/name mapping and exact baseline pin",
+        "Executed migration, declared breaking removal and current-eligibility rollback",
+        "Clear distinction between contract review, consumer implementation and deployment"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 6
+    },
+    {
+      "issue": 14,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14",
+      "key": "BK-03B.CMD",
+      "criterion": "Provide non-publishing package build/check targets that fail when required release evidence is missing.",
+      "implementation_paths": [
+        "Makefile",
+        "tools/build_distribution.py",
+        "tools/tests/test_distribution.py",
+        "docs/distribution.md"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        20,
+        23
+      ],
+      "remaining_input": "Final candidate/postmerge command evidence; normal release targets remain blocked until required owner decisions/rights exist.",
+      "responsible_owner_role": "Product/frontend release/distribution maintainer, accountable brand approver and font/privacy reviewer",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "make package-brand and make check-package actual blocked results",
+        "Separate package-brand-review local artifact/hash evidence",
+        "Pinned setup and safe output/extraction semantics with meaningful negatives"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 7
+    },
+    {
+      "issue": 15,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15",
+      "key": "BK-09.1",
+      "criterion": "Name product, landing, dashboard and marketing artifact/path/font ownership and local-versus-consumer responsibilities.",
+      "implementation_paths": [
+        "docs/consumers.md",
+        "docs/architecture/OWNERSHIP.md",
+        "distribution/acceptance.json"
+      ],
+      "already_merged_predecessor_prs": [
+        2,
+        20,
+        22,
+        23
+      ],
+      "remaining_input": "Approved BK-03B artifact contract and named required consumer reviewers; matrix distinguishes roles from appointments.",
+      "responsible_owner_role": "Product/frontend integration-documentation maintainer; named Product, Landing and Marketing consumer reviewers",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "Four-surface consumer matrix with exact supported paths and responsibilities",
+        "Confirmed reviewers only where actual evidence exists",
+        "Consumer source-parity evidence not represented as adoption/deployment/ACK"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 1
+    },
+    {
+      "issue": 15,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15",
+      "key": "BK-09.2",
+      "criterion": "Make plain-CSS and Tailwind examples work with exact artifact/hash, logos, fonts, themes, motion and dashboard isolation.",
+      "implementation_paths": [
+        "docs/consumers.md",
+        "distribution/fixtures/",
+        "tools/check_consumers.py",
+        "tools/check_consumer_browser.cjs"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        23
+      ],
+      "remaining_input": "Real approved BK-03B locator and font policy; local review fixtures are runnable but cannot establish approved-provider availability.",
+      "responsible_owner_role": "Product/frontend integration-documentation maintainer; named Product, Landing and Marketing consumer reviewers",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Clean extraction and checksum verification; actual supported Tailwind build",
+        "Actual local consumer browser day/night/OS/reduced-motion/fallback checks",
+        "Frozen inputs, visible controls, subtree/style isolation and both extracted fixture links",
+        "Required external font evidence separately supplied and authenticated"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 2
+    },
+    {
+      "issue": 15,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15",
+      "key": "BK-09.3",
+      "criterion": "Distinguish stable public assets from evolving/private/source-only material and forbid competing palette/reference copies.",
+      "implementation_paths": [
+        "docs/consumers.md",
+        "docs/distribution.md",
+        "distribution/proposal.json",
+        "tools/build_distribution.py"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        20,
+        23
+      ],
+      "remaining_input": "Actual approved stable subset/version and owner contract review; current classification is a clearly labelled proposal.",
+      "responsible_owner_role": "Product/frontend integration-documentation maintainer; named Product, Landing and Marketing consumer reviewers",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "Public/evolving/private/source-only table",
+        "Allowlist and manifest file boundaries enforced",
+        "No reference scraping, screenshot reuse or competing palette authority"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 3
+    },
+    {
+      "issue": 15,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15",
+      "key": "BK-09.4",
+      "criterion": "Explain and exercise baseline upgrade, declared breaking changes, deprecation, rollback and version alignment.",
+      "implementation_paths": [
+        "docs/consumers.md",
+        "docs/distribution.md",
+        "tools/check_consumers.py",
+        "tools/tests/fixtures/baseline/"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        23
+      ],
+      "remaining_input": "Approved version/deprecation policy and named early contract review; current local migration is technical evidence only.",
+      "responsible_owner_role": "Product/frontend integration-documentation maintainer; named Product, Landing and Marketing consumer reviewers",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "Worked baseline migration and rollback command logs",
+        "Missing/renamed public token/path failure and documented resolution",
+        "Exact pins and current-eligibility checks for historical artifact restoration"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 4
+    },
+    {
+      "issue": 15,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15",
+      "key": "BK-09.5",
+      "criterion": "Preserve owner handoffs and reuse verified edition/foil links without claiming deployments.",
+      "implementation_paths": [
+        "docs/consumers.md",
+        "docs/architecture/OWNERSHIP.md",
+        "docs/identity-decision-packet.md",
+        "docs/source-of-truth.md",
+        "docs/material-foil.md",
+        "docs/motion-sound-haptics.md"
+      ],
+      "already_merged_predecessor_prs": [
+        2,
+        22,
+        23
+      ],
+      "remaining_input": "Final verified link evidence and any actual owner acceptance; unresolved unique PR #3 identity/material/sound work remains pending.",
+      "responsible_owner_role": "Product/frontend integration-documentation maintainer; named Product, Landing and Marketing consumer reviewers",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "Immutable PR #22 source-target verification",
+        "Brand/app/landing/marketing/event-intelligence/shared-contracts boundaries",
+        "Source availability and 14-logo blob parity labelled without deployment/acceptance claims"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 5
+    },
+    {
+      "issue": 15,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15",
+      "key": "BK-09.6",
+      "criterion": "Obtain named Product, Landing and Marketing early acknowledgments of the exact artifact/allowlist/font/upgrade contract.",
+      "implementation_paths": [
+        "distribution/acceptance.json",
+        "docs/consumers.md",
+        "tools/check_consumers.py"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        22,
+        23
+      ],
+      "remaining_input": "Actual named Product, Landing and Marketing early interface ACKs of the reviewed BK-03B contract and local fixtures; none may be fabricated.",
+      "responsible_owner_role": "Product/frontend integration-documentation maintainer; named Product, Landing and Marketing consumer reviewers",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Named reviewer/date/receipt for exact artifact locator/version/hash/file set/font policy",
+        "Fixture feedback and resolved or explicitly blocked disposition",
+        "Independent authenticity check of recorded receipts",
+        "No consumer implementation, deployment or tested consumer commit pins required for this criterion"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 6
+    },
+    {
+      "issue": 15,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15",
+      "key": "BK-09.CMD",
+      "criterion": "Provide local consumer validation that fails for missing required contract evidence and never mutates consumer repositories.",
+      "implementation_paths": [
+        "Makefile",
+        "tools/check_consumers.py",
+        "tools/check_consumer_browser.cjs",
+        "tools/tests/test_distribution.py",
+        "docs/consumers.md"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        23
+      ],
+      "remaining_input": "Final exact candidate runs and actual missing approvals/ACKs; normal-mode block remains expected until provided.",
+      "responsible_owner_role": "Product/frontend integration-documentation maintainer; named Product, Landing and Marketing consumer reviewers",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "make check-consumers actual blocked result; separate --local result",
+        "Actual CSS/Tailwind/extracted browser checks with pinned runtime",
+        "Missing/stale evidence, resealed manifest, historical revocation and missing-import negatives",
+        "Provided external receipts reported separately from execution in this invocation"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 7
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.1",
+      "criterion": "Require implementation and decision evidence for inventory and every required BK-02–BK-09 leaf.",
+      "implementation_paths": [
+        "tools/check_brand_release.py",
+        "distribution/acceptance.json",
+        "docs/architecture/ACCEPTANCE.md"
+      ],
+      "already_merged_predecessor_prs": [
+        17,
+        18,
+        19,
+        20,
+        22,
+        23
+      ],
+      "remaining_input": "All required leaf outcomes and accountable evidence; GitHub closure of #8/#10 does not grant missing role appointments or acceptance.",
+      "responsible_owner_role": "Product/frontend release maintainer, accountable brand approver and independent consumer reviewer",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Every leaf URL, exact deliverable revision, validation and review receipt",
+        "Open core approval/rights/font/consumer blockers explicitly retained",
+        "No closure from backlog creation, structural tooling or code merge alone"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 1
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.2",
+      "criterion": "Require an actually approved identity version and canonical stable/evolving guidance with explicit optional exclusions.",
+      "implementation_paths": [
+        "docs/identity-decision-packet.md",
+        "distribution/acceptance.json",
+        "docs/usage.md",
+        "docs/distribution.md"
+      ],
+      "already_merged_predecessor_prs": [
+        17,
+        18,
+        20,
+        23
+      ],
+      "remaining_input": "Actual identity/rights/role decisions for the exact final candidate; no unresolved core choice or silent waiver.",
+      "responsible_owner_role": "Product/frontend release maintainer, accountable brand approver and independent consumer reviewer",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Named dated brand decision, final hashes and scope",
+        "Canonical logo/font/imagery/voice links and stable/evolving contract",
+        "Explicit excluded optional variants and no reused baseline approval hash"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 2
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.3",
+      "criterion": "Require passing deterministic token exports, immutable distribution, approved asset matrix and migration contract.",
+      "implementation_paths": [
+        "tools/check_brand_release.py",
+        "tools/build_tokens.py",
+        "tools/build_assets.py",
+        "tools/build_distribution.py",
+        "tools/check_consumers.py",
+        "docs/distribution.md"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        20,
+        23
+      ],
+      "remaining_input": "Eligible approved subset/version and exact-candidate aggregate evidence; local implementation is prepared but the release remains blocked.",
+      "responsible_owner_role": "Product/frontend release maintainer, accountable brand approver and independent consumer reviewer",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Two build comparisons, token/schema/adapter checks and canonical/raster hashes",
+        "Real approved distribution artifact/imports",
+        "Worked upgrade/rollback and preserved failing required results"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 3
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.4",
+      "criterion": "Require provenance, use and approval for every distributed asset; contribute scoped ART-05 evidence.",
+      "implementation_paths": [
+        "provenance/register.json",
+        "provenance/allowlist.json",
+        "tools/check_provenance.py",
+        "tools/build_distribution.py"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        23
+      ],
+      "remaining_input": "Actual cleared core rights, approved allowlist and required notices; fonts remain source-only and references/customer/discovered assets excluded.",
+      "responsible_owner_role": "Product/frontend release maintainer, accountable brand approver and independent consumer reviewer",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Exact distributed file/hash/use/approval report",
+        "Unknown/internal/customer/third-party and missing-notice rejection",
+        "Brand contribution only; ART-05 global acceptance stays with its canonical owner"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 4
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.5",
+      "criterion": "Review assets, docs, evidence and relevant history for secrets and unnecessary customer data; contribute scoped EVAL-04 evidence.",
+      "implementation_paths": [
+        "docs/provenance.md",
+        "docs/distribution.md",
+        "tools/check_brand_release.py"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        21,
+        23
+      ],
+      "remaining_input": "Final sanitized scan and named manual review, including binary/history/public-evidence coverage limits.",
+      "responsible_owner_role": "Product/frontend release maintainer, accountable brand approver and independent consumer reviewer",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Scanner version/command/revision/scope and sanitized results",
+        "Retained historical findings and scoped false-positive disposition",
+        "Manual public-data/history review receipt without publishing suspected exposures",
+        "No foreign/global EVAL-04 completion claim"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 5
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.6",
+      "criterion": "Require accessibility and consumer fixture evidence, resolved links and no unexplained drift at the exact candidate.",
+      "implementation_paths": [
+        "tools/check_brand_release.py",
+        "tools/check_accessibility.py",
+        "tools/check_accessibility_browser.cjs",
+        "tools/check_consumer_browser.cjs",
+        "tools/check_consumers.py",
+        "tools/check_links.py"
+      ],
+      "already_merged_predecessor_prs": [
+        18,
+        20,
+        22,
+        23
+      ],
+      "remaining_input": "Final candidate/merged reports plus required font-available, true zoom and accountable visual checks; any missing required case remains blocked.",
+      "responsible_owner_role": "Product/frontend release maintainer, accountable brand approver and independent consumer reviewer",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Exact revision source-frozen contrast/theme/focus/motion/type/consumer reports",
+        "Actual CSS/Tailwind/browser modes and local links",
+        "No unexplained source/output drift and preserved negative/recovery results",
+        "Explicit limits of local fixtures, fallback proxies and external receipts"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 6
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.7",
+      "criterion": "Record exact candidate/version/artifact hashes, runtime, results, compatibility, limits and named release review.",
+      "implementation_paths": [
+        "tools/check_brand_release.py",
+        "distribution/acceptance.json",
+        "docs/distribution.md"
+      ],
+      "already_merged_predecessor_prs": [
+        17,
+        19,
+        20,
+        23
+      ],
+      "remaining_input": "Actual approved brand version/artifact and named release/brand/consumer review; evidence URLs and final revisions still to be filled by integration owner.",
+      "responsible_owner_role": "Product/frontend release maintainer, accountable brand approver and independent consumer reviewer",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Immutable release manifest, artifact and sanitized logs with command modes and outcomes",
+        "Named dated review bound to final hashes",
+        "Every required failure/missing evidence blocked with remediation and owner",
+        "No synthetic/provider/consumer result misrepresented as real execution"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 7
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.CMD",
+      "criterion": "Provide a non-publishing aggregate that records all leaf outcomes for one candidate and fails on required missing evidence.",
+      "implementation_paths": [
+        "Makefile",
+        "tools/check_brand_release.py",
+        "tools/tests/test_distribution.py",
+        "docs/distribution.md"
+      ],
+      "already_merged_predecessor_prs": [
+        17,
+        18,
+        19,
+        20,
+        23
+      ],
+      "remaining_input": "Final aggregate execution and immutable report; current actual missing approvals/rights/provider/ACKs intentionally produce a nonzero blocked gate.",
+      "responsible_owner_role": "Product/frontend release maintainer, accountable brand approver and independent consumer reviewer",
+      "status": "implemented-local-evidence",
+      "required_evidence": [
+        "make check-brand-release at exact clean candidate and relevant postmerge checks",
+        "Leaf commands, revisions, modes, tool versions, exit codes and reports recorded",
+        "All required failures preserved; local passes never replace manual acceptance"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 8
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.LEAF.BK-01",
+      "criterion": "Attach BK-01 deliverable SHA, review and validation evidence to the gate leaf index.",
+      "implementation_paths": [
+        "inventory/brand-inventory.json",
+        "docs/source-of-truth.md",
+        "tools/check_inventory.py"
+      ],
+      "already_merged_predecessor_prs": [
+        18,
+        19,
+        20,
+        22,
+        23
+      ],
+      "remaining_input": "Final reviewed merged inventory/link evidence and closure disposition.",
+      "responsible_owner_role": "Product/frontend brand-system maintainer and independent code reviewer",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Immutable issue/PR/commit links and exact command results",
+        "Named applicable review/decision receipt and explicit remaining limits",
+        "Do not infer accountability or acceptance from issue state"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 9
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.LEAF.BK-02",
+      "criterion": "Attach BK-02 deliverable SHA, review and validation evidence to the gate leaf index.",
+      "implementation_paths": [
+        "docs/identity-decision-packet.md",
+        "distribution/acceptance.json"
+      ],
+      "already_merged_predecessor_prs": [
+        17,
+        20,
+        23
+      ],
+      "remaining_input": "Actual exact-revision identity and role decisions.",
+      "responsible_owner_role": "Accountable brand approver (@CompleteDotTech nominated only), design recommender and affected consumer reviewers",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Immutable issue/PR/commit links and exact command results",
+        "Named applicable review/decision receipt and explicit remaining limits",
+        "Do not infer accountability or acceptance from issue state"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 10
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.LEAF.BK-03A",
+      "criterion": "Attach BK-03A deliverable SHA, review and validation evidence to the gate leaf index.",
+      "implementation_paths": [
+        "tokens/profile.json",
+        "tools/build_tokens.py",
+        "docs/token-profile.md"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        23
+      ],
+      "remaining_input": "Attach merged PR #20 and final token evidence; closed issue status is not missing owner acceptance.",
+      "responsible_owner_role": "Product/frontend brand-system maintainer and independent code reviewer",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Immutable issue/PR/commit links and exact command results",
+        "Named applicable review/decision receipt and explicit remaining limits",
+        "Do not infer accountability or acceptance from issue state"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 11
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.LEAF.BK-03B",
+      "criterion": "Attach BK-03B deliverable SHA, review and validation evidence to the gate leaf index.",
+      "implementation_paths": [
+        "distribution/proposal.json",
+        "distribution/acceptance.json",
+        "tools/build_distribution.py"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        20,
+        23
+      ],
+      "remaining_input": "Actual approved version/locator/subset/font decision and valid artifact.",
+      "responsible_owner_role": "Product/frontend release/distribution maintainer, accountable brand approver and font/privacy reviewer",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Immutable issue/PR/commit links and exact command results",
+        "Named applicable review/decision receipt and explicit remaining limits",
+        "Do not infer accountability or acceptance from issue state"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 12
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.LEAF.BK-04",
+      "criterion": "Attach BK-04 deliverable SHA, review and validation evidence to the gate leaf index.",
+      "implementation_paths": [
+        "tools/build_assets.py",
+        "docs/asset-exports.md"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        20,
+        23
+      ],
+      "remaining_input": "Approved assets/raster subset, accountable visual review and final reproducibility evidence.",
+      "responsible_owner_role": "Product/frontend asset engineer, appointed technical/export reviewer and accountable brand/rights reviewers",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Immutable issue/PR/commit links and exact command results",
+        "Named applicable review/decision receipt and explicit remaining limits",
+        "Do not infer accountability or acceptance from issue state"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 13
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.LEAF.BK-05",
+      "criterion": "Attach BK-05 deliverable SHA, review and validation evidence to the gate leaf index.",
+      "implementation_paths": [
+        "docs/usage.md",
+        "docs/claims-register.md"
+      ],
+      "already_merged_predecessor_prs": [
+        16,
+        18,
+        22,
+        23
+      ],
+      "remaining_input": "Approved usage/identity/accessibility and named exact-candidate claim review.",
+      "responsible_owner_role": "Product/frontend design/content reviewer; Marketing MM-02 and Product GT-10B supply claim evidence",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Immutable issue/PR/commit links and exact command results",
+        "Named applicable review/decision receipt and explicit remaining limits",
+        "Do not infer accountability or acceptance from issue state"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 14
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.LEAF.BK-06",
+      "criterion": "Attach BK-06 deliverable SHA, review and validation evidence to the gate leaf index.",
+      "implementation_paths": [
+        "provenance/register.json",
+        "provenance/allowlist.json",
+        "tools/check_provenance.py"
+      ],
+      "already_merged_predecessor_prs": [
+        19,
+        21,
+        23
+      ],
+      "remaining_input": "Actual core rights, approved allowlist and sanitized review.",
+      "responsible_owner_role": "Product/frontend provenance maintainer and appointed Creative/fulfillment rights reviewer",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Immutable issue/PR/commit links and exact command results",
+        "Named applicable review/decision receipt and explicit remaining limits",
+        "Do not infer accountability or acceptance from issue state"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 15
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.LEAF.BK-07",
+      "criterion": "Attach BK-07 deliverable SHA, review and validation evidence to the gate leaf index.",
+      "implementation_paths": [
+        "docs/brand-governance.md",
+        "docs/governance/decision-template.md"
+      ],
+      "already_merged_predecessor_prs": [
+        17,
+        23
+      ],
+      "remaining_input": "Actual role appointments and applicable decisions; a closed scaffolding issue and simulated walkthrough do not grant them.",
+      "responsible_owner_role": "Accountable brand approver (@CompleteDotTech nominated only), design recommender and affected consumer reviewers",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Immutable issue/PR/commit links and exact command results",
+        "Named applicable review/decision receipt and explicit remaining limits",
+        "Do not infer accountability or acceptance from issue state"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 16
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.LEAF.BK-08",
+      "criterion": "Attach BK-08 deliverable SHA, review and validation evidence to the gate leaf index.",
+      "implementation_paths": [
+        "docs/accessibility.md",
+        "tools/check_accessibility.py",
+        "tools/check_accessibility_browser.cjs"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        23
+      ],
+      "remaining_input": "Approved font/true zoom/manual accessibility evidence and exact candidate reports.",
+      "responsible_owner_role": "Product/frontend accessibility reviewer and accountable brand approver",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Immutable issue/PR/commit links and exact command results",
+        "Named applicable review/decision receipt and explicit remaining limits",
+        "Do not infer accountability or acceptance from issue state"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 17
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.LEAF.BK-09",
+      "criterion": "Attach BK-09 deliverable SHA, review and validation evidence to the gate leaf index.",
+      "implementation_paths": [
+        "docs/consumers.md",
+        "distribution/acceptance.json",
+        "tools/check_consumers.py"
+      ],
+      "already_merged_predecessor_prs": [
+        20,
+        22,
+        23
+      ],
+      "remaining_input": "Named Product/Landing/Marketing early interface ACKs of the approved artifact; consumer release not required.",
+      "responsible_owner_role": "Product/frontend integration-documentation maintainer; named Product, Landing and Marketing consumer reviewers",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Immutable issue/PR/commit links and exact command results",
+        "Named applicable review/decision receipt and explicit remaining limits",
+        "Do not infer accountability or acceptance from issue state"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 18
+    },
+    {
+      "issue": 5,
+      "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "key": "BK-10.8",
+      "criterion": "Require reviewed exact-candidate public-claim inventory with substantiated wording, explicit labels or removal.",
+      "implementation_paths": [
+        "docs/claims-register.md",
+        "docs/guidelines-source-snapshot.json",
+        "tools/check_guidelines.py",
+        "tools/tests/test_guidelines.py",
+        "tools/check_brand_release.py",
+        "README.md",
+        "SPEC.md",
+        "index.html",
+        "docs/voice.md"
+      ],
+      "already_merged_predecessor_prs": [
+        16,
+        19,
+        23
+      ],
+      "remaining_input": "Actual brand/content review of BK-05.7, including labels or removal and MM-02/pinned-product evidence for factual claims; no consumer release gate is prerequisite.",
+      "responsible_owner_role": "Product/frontend release maintainer, accountable brand approver and independent consumer reviewer",
+      "status": "awaiting-owner-evidence",
+      "required_evidence": [
+        "Complete exact-source and image-only claim review",
+        "Approved bounded wording and receipts, or reviewed visible illustrative/planned labels/removal",
+        "Unsupported-present-tense negative rejection and final rendered evidence",
+        "Landing/marketing retain publication decisions"
+      ],
+      "evidence_urls": [
+        "gate/report.json",
+        "supplemental/report.json",
+        "reviews/carryforward.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/b6a2cd5b786443abaf4f4023833753c777be910d/evidence/2026-10-12-bk-mvp/candidate/README.md"
+      ],
+      "tested_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "source_checkbox_index": 19
+    }
+  ],
+  "coverage": {
+    "source_checkbox_counts_by_issue": {
+      "6": 6,
+      "7": 6,
+      "9": 7,
+      "11": 7,
+      "12": 7,
+      "13": 8,
+      "14": 7,
+      "15": 7,
+      "5": 19
+    },
+    "mapped_criteria_count": 74,
+    "all_source_checkboxes_mapped": true,
+    "all_implementation_paths_exist_at_observed_checkout": true,
+    "scope": "74 rows across issues #6/#7/#9/#11/#12/#13/#14/#15/#5 only; epic #4 pointers are mapped separately."
+  }
+}

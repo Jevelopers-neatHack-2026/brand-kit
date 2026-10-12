@@ -1,0 +1,4 @@
+FAIL entries[4] (logo/ghost.svg): path does not exist
+FAIL entries[4] (logo/ghost.svg): reference 'logo/ghost.svg' does not exist
+FAIL catalogued path is not a tracked file: logo/ghost.svg
+check-inventory: 3 problem(s)

@@ -1,0 +1,319 @@
+{
+  "schema": "ticketstub-candidate-history-scan@1",
+  "source_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+  "source_tree": "9b4e5bffc559494731cfdcc23c5df7582792736c",
+  "mode": "read-only local heuristic scan of reachable Git text blobs; no matched values retained",
+  "scanner_sha256": "07139a17540ffba4ff1d7dc328e2bbe13730f999e83253d6764def3b8b2acd89",
+  "text_blobs": 160,
+  "binary_blobs_not_text_scanned": 9,
+  "previous_context_review_sha256": "5dc8d4f062a6da0bd5f960b6a4b075675840d99adebda2f62e9795624838e679",
+  "findings": [
+    {
+      "path": "README.md",
+      "blob_sha": "094ed7856dd834a3ea8f0bf0d4c53c4645941664",
+      "content_sha256": "b949a4fff170d775028d9c5db2cb6ef2e32ce482708e1f7a2d69b021f5ceabeb",
+      "findings": {
+        "URL with credentials or query": [
+          13,
+          14,
+          15,
+          16,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "index.html",
+      "blob_sha": "fdfefe5039ec4944595d8f3546d01245863ff272",
+      "content_sha256": "ef7e1c8073736a8fdc2a2f3ba1d4e7029f89fe7f24e61a36d990ef463b5c8e77",
+      "findings": {
+        "URL with credentials or query": [
+          11
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "tokens/external-fonts-google.css",
+      "blob_sha": "5f426b45be6a8ffbcbb40e94abe4a59d0652ddff",
+      "content_sha256": "1ef1548293ec7bc35b11c58a802fb283a4abf795d5344949c5ee0c62b4108595",
+      "findings": {
+        "URL with credentials or query": [
+          13
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "tokens/profile.json",
+      "blob_sha": "b291ff0e346882edd049790cf0275726e1ee1ef4",
+      "content_sha256": "18ce404d9e9f667bcab5a6cc0a87ca7be9e9866c5b7e69bff0c529e21742fef3",
+      "findings": {
+        "URL with credentials or query": [
+          49
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "tools/tests/fixtures/baseline/tokens.css",
+      "blob_sha": "5201162d0c05062cb909e54b2176157a74cecfd1",
+      "content_sha256": "23e1c37d39a7f9eedcdc9a1b9a05439fcf019d3efed36c7467b23e0005463b33",
+      "findings": {
+        "URL with credentials or query": [
+          5
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "tools/tests/test_accessibility_browser.cjs",
+      "blob_sha": "fd6fe001853dc2e96165b0a26754b27a56b7352f",
+      "content_sha256": "3cb8e39b83f6fbe58380e534685ae75ae4b9a0a59248d430d3a4ea7a4276becb",
+      "findings": {
+        "email address": [
+          46
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "tools/tests/test_checks.py",
+      "blob_sha": "45d610a318afcbdef65847c3e079458d1b475e7d",
+      "content_sha256": "d3c17965c4f15d4bb68d8b36cfcb22cffaa71135f9e5050f78df55d98f4adcca",
+      "findings": {
+        "email address": [
+          94
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "tools/tests/test_distribution.py",
+      "blob_sha": "df01735a6599117f2de68f32d2ef5b8353ee8bb3",
+      "content_sha256": "7df24161ccb44e00841bf0a6ce935271117d25910ad209fff1286de144663cff",
+      "findings": {
+        "email address": [
+          46,
+          99
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "tools/tests/test_provenance.py",
+      "blob_sha": "060d9afeac1a27fff6fba73d9ba7f45979d1bacf",
+      "content_sha256": "d0be7c9b9aa91cf5a0fc2c597efc4344a52c654aa1d1e5f33a78e113e7a5dab0",
+      "findings": {
+        "URL with credentials or query": [
+          201
+        ],
+        "email address": [
+          198
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "tools/tests/test_tokens.py",
+      "blob_sha": "caded9b4ed9bf6c129864b961bdd24694a6cac98",
+      "content_sha256": "1fba479d391d8bf65750ac0ad87fdefb6684e427c0a74512198ba73591dcab3e",
+      "findings": {
+        "URL with credentials or query": [
+          443
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "README.md",
+      "blob_sha": "fda2ae5464408a18c93dd8e73a88d65c9317195f",
+      "content_sha256": "39d37729bc1a482b1d44f0462d1ff1841c6a8f144bcc374bf926d92c0e16760a",
+      "findings": {
+        "URL with credentials or query": [
+          13,
+          14,
+          15,
+          16,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "index.html",
+      "blob_sha": "39b0dd3a863d59d789eecefc58ec146651896598",
+      "content_sha256": "13f5a53605fafd8252719b8fb6a126b794fe4cf8cb4859216338f135a4e490fb",
+      "findings": {
+        "URL with credentials or query": [
+          11
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "tokens/external-fonts-google.css",
+      "blob_sha": "f764d8f50bd70efdf4f18476308b3e3e38971c9e",
+      "content_sha256": "e197c96f9db0463aee326cb5db657cd9b9952d47a08e60420de6c6db117ba458",
+      "findings": {
+        "URL with credentials or query": [
+          13
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "tools/tests/test_checks.py",
+      "blob_sha": "35961a7e0504f16b7c4564a9c965cb338d1cf285",
+      "content_sha256": "cb2503146ea5b7638f1411a6ab0ae591c3bd3e636b4c43b728ab31a1e663c259",
+      "findings": {
+        "email address": [
+          94
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "README.md",
+      "blob_sha": "a585b3e185e3e50aa0821085a9487aa1dccdb19e",
+      "content_sha256": "0d2c12499c534fef1fa06b0ed515dd0568246902716601c08839d7183408e036",
+      "findings": {
+        "URL with credentials or query": [
+          13,
+          14,
+          15,
+          16,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "README.md",
+      "blob_sha": "d7b686905515c68a4df1908cbd4cfd18af173d3e",
+      "content_sha256": "8c2e2f759d7dddeaec0aff6c73a9e05f746c3243cf44c252ff3a14bf46d4c391",
+      "findings": {
+        "URL with credentials or query": [
+          13,
+          14,
+          15,
+          16,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "tools/tests/test_checks.py",
+      "blob_sha": "46ce0e2ce423403caf7b4d33c9554bd7fd0166ea",
+      "content_sha256": "d505ca6a06868280a933fd540127696f2baf4267787b288fb1653e9400ac0044",
+      "findings": {
+        "email address": [
+          91
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "README.md",
+      "blob_sha": "adf4f9fe5020c8bf583fb4969aee0e006f1369bc",
+      "content_sha256": "6ee1c03b53481d34447835d6696fd67d068edea59b28b7e68b260145b7e221ec",
+      "findings": {
+        "URL with credentials or query": [
+          13,
+          14,
+          15,
+          16,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "tools/tests/test_checks.py",
+      "blob_sha": "f05e1ca816e482f0425b5992782c7980b02c6607",
+      "content_sha256": "9ec5d3030d6ecf3f62b287d5a5b0c350947f38d08ce112ebc622204c85bc0a35",
+      "findings": {
+        "email address": [
+          91
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "README.md",
+      "blob_sha": "9764c88822afc22d037eb3076e7920d0511be88a",
+      "content_sha256": "1f147555bbea4cc8813e69daa46b5ea3f4cbde322898e3a19edebf3bd32f4ab1",
+      "findings": {
+        "URL with credentials or query": [
+          13,
+          14,
+          15,
+          16,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "index.html",
+      "blob_sha": "a806038d20f64ad0a8f0eea5a2b30d46fa52c998",
+      "content_sha256": "440cce2391f1d1c342796a482a9f3f7dfac8a60ec3b23881543349b48fae1268",
+      "findings": {
+        "URL with credentials or query": [
+          11
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    },
+    {
+      "path": "index.html",
+      "blob_sha": "d0196b8604613bd51d7e6165fd6ec127a4be9288",
+      "content_sha256": "ae0b402699c726e251b5a70e4890ae01c6b4090a1488810970d88a158d1d468d",
+      "findings": {
+        "URL with credentials or query": [
+          11
+        ]
+      },
+      "previously_context_reviewed_identical_blob": true
+    }
+  ],
+  "new_unreviewed_blob_ids": [],
+  "result": "no_new_unreviewed_pattern_matches",
+  "limitations": [
+    "Known matches are carried forward only for identical Git blobs whose safe contexts were previously inspected.",
+    "This heuristic is not a complete secret/customer-data audit or an accountable release sanitization approval.",
+    "Binary images and fonts are not text scanned; separate reference-image review remains pending actual rights decisions."
+  ]
+}

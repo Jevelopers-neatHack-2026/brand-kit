@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "epic_issue": 4,
+  "epic_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/4",
+  "epic_state": "open",
+  "observed_source_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+  "scope": "Exactly the 11 linked implementation checklist pointers; these are dependencies, not additional leaf criteria.",
+  "pointers": [
+    {
+      "key": "BK-01",
+      "issue": 6,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6",
+      "github_state_at_capture": "open",
+      "disposition": "BK-01 scoped completion verified; root will close after publishing evidence.",
+      "evidence": "issue6/closure-recommendation.json"
+    },
+    {
+      "key": "BK-02",
+      "issue": 9,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9",
+      "github_state_at_capture": "open",
+      "disposition": "Remain open; exact missing inputs and roles are in criterion-map.json.",
+      "evidence": "criterion-map.json"
+    },
+    {
+      "key": "BK-03A",
+      "issue": 10,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/10",
+      "github_state_at_capture": "closed",
+      "disposition": "Previously closed on GitHub; issue state does not supply missing identity/role/approved-artifact acceptance receipts.",
+      "evidence": "criterion-map.json"
+    },
+    {
+      "key": "BK-03B",
+      "issue": 14,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14",
+      "github_state_at_capture": "open",
+      "disposition": "Remain open; exact missing inputs and roles are in criterion-map.json.",
+      "evidence": "criterion-map.json"
+    },
+    {
+      "key": "BK-04",
+      "issue": 11,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11",
+      "github_state_at_capture": "open",
+      "disposition": "Remain open; exact missing inputs and roles are in criterion-map.json.",
+      "evidence": "criterion-map.json"
+    },
+    {
+      "key": "BK-05",
+      "issue": 13,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13",
+      "github_state_at_capture": "open",
+      "disposition": "Remain open; exact missing inputs and roles are in criterion-map.json.",
+      "evidence": "criterion-map.json"
+    },
+    {
+      "key": "BK-06",
+      "issue": 7,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7",
+      "github_state_at_capture": "open",
+      "disposition": "Remain open; exact missing inputs and roles are in criterion-map.json.",
+      "evidence": "criterion-map.json"
+    },
+    {
+      "key": "BK-07",
+      "issue": 8,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8",
+      "github_state_at_capture": "closed",
+      "disposition": "Previously closed on GitHub; issue state does not supply missing identity/role/approved-artifact acceptance receipts.",
+      "evidence": "criterion-map.json"
+    },
+    {
+      "key": "BK-08",
+      "issue": 12,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12",
+      "github_state_at_capture": "open",
+      "disposition": "Remain open; exact missing inputs and roles are in criterion-map.json.",
+      "evidence": "criterion-map.json"
+    },
+    {
+      "key": "BK-09",
+      "issue": 15,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15",
+      "github_state_at_capture": "open",
+      "disposition": "Remain open; exact missing inputs and roles are in criterion-map.json.",
+      "evidence": "criterion-map.json"
+    },
+    {
+      "key": "BK-10",
+      "issue": 5,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "github_state_at_capture": "open",
+      "disposition": "Remain open; exact missing inputs and roles are in criterion-map.json.",
+      "evidence": "criterion-map.json"
+    }
+  ],
+  "closure_rule": "Gate #5 remains blocked and open. Close gate and then epic only after all scoped outcomes and actual accountable acceptance are recorded."
+}

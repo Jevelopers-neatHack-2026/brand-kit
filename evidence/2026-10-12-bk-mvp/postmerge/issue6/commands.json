@@ -1,0 +1,235 @@
+{
+  "source_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+  "recorded_at": "2026-10-12T17:16:59.744759+00:00",
+  "commands": [
+    {
+      "name": "inventory",
+      "source_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "command": [
+        "make",
+        "check-inventory",
+        "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+      ],
+      "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-issue6",
+      "mode": "actual merged source",
+      "exit_code": 0,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/inventory.stdout.txt",
+          "sha256": "2b9cf110fcfb0e6ea7c3bee3401e33e02708e220aed4c8b35adee256103ecf67"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/inventory.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "name": "links",
+      "source_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "command": [
+        "make",
+        "check-links",
+        "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+      ],
+      "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-issue6",
+      "mode": "actual merged source",
+      "exit_code": 0,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/links.stdout.txt",
+          "sha256": "0ac40dbbee0e64519b47c2e26640403ec39ed8da163f6443e305d1bf85fae319"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/links.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "name": "governance",
+      "source_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "command": [
+        "make",
+        "check-governance",
+        "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+      ],
+      "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-issue6",
+      "mode": "actual merged source",
+      "exit_code": 0,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/governance.stdout.txt",
+          "sha256": "24719e864e86e498ce68b4605498b5b6d5aed93ffd719a9e25a6e374b936ca12"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/governance.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "name": "checks-unit",
+      "source_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "command": [
+        "/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python",
+        "-m",
+        "unittest",
+        "tools.tests.test_checks",
+        "-v"
+      ],
+      "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-issue6",
+      "mode": "actual merged source",
+      "exit_code": 0,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/checks-unit.stdout.txt",
+          "sha256": "409323100788f55d88a14c3e6b94185b7277bab0c88f335e774a7bd24f36ccd7"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/checks-unit.stderr.txt",
+          "sha256": "ad4ec1459275e7de22bb7c8e9def9b48f4ea1318feb0ea8c983c7b6a088c64aa"
+        }
+      }
+    },
+    {
+      "name": "diff-check",
+      "source_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+        "HEAD"
+      ],
+      "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-issue6",
+      "mode": "actual merged source",
+      "exit_code": 0,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/diff-check.stdout.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/diff-check.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "name": "cli-valid",
+      "source_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "command": [
+        "/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python",
+        "-I",
+        "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-issue6/tools/check_inventory.py",
+        "--root",
+        "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/synthetic-valid"
+      ],
+      "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-issue6",
+      "mode": "synthetic minimal fixture; actual merged command-line checker",
+      "exit_code": 0,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/cli-valid.stdout.txt",
+          "sha256": "9a82f49407d29d4db8090cee9b4889567f8eedb78317c3e2196e5bfed9603800"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/cli-valid.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "expected_exit_code": 0,
+      "expected_diagnostic": null,
+      "fixture_sha256": {
+        "README.md": "0fca8628638a04e4060c4af302dfa155b7afe958c8f798ca1182170978f749f1",
+        "SPEC.md": "e73911f83922ef7f50fb6e6d7a103be6d6f36f4122194fdd55b804889a0ae4f7",
+        "docs/source-of-truth.md": "f7fd12234d4e57439d40ed32c50d2dd7dab32d39d48a0a8060169f61936466d5",
+        "inventory/brand-inventory.json": "8aa5ded58500cc117170c50983926f5b453fb617eb7c43a501fe8cea60bb0d57"
+      }
+    },
+    {
+      "name": "cli-missing-path",
+      "source_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "command": [
+        "/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python",
+        "-I",
+        "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-issue6/tools/check_inventory.py",
+        "--root",
+        "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/synthetic-missing-path"
+      ],
+      "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-issue6",
+      "mode": "synthetic minimal fixture; actual merged command-line checker",
+      "exit_code": 1,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/cli-missing-path.stdout.txt",
+          "sha256": "636da43d30c1900d5679093ced50957c4e8982c2f1794f66b17fdda3b11ba841"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/cli-missing-path.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "expected_exit_code": 1,
+      "expected_diagnostic": "path does not exist",
+      "fixture_sha256": {
+        "README.md": "0fca8628638a04e4060c4af302dfa155b7afe958c8f798ca1182170978f749f1",
+        "SPEC.md": "e73911f83922ef7f50fb6e6d7a103be6d6f36f4122194fdd55b804889a0ae4f7",
+        "docs/source-of-truth.md": "f7fd12234d4e57439d40ed32c50d2dd7dab32d39d48a0a8060169f61936466d5",
+        "inventory/brand-inventory.json": "b688690a97ce3114d06d7320a213cc290b5fd84c30cb81a5cfc87bf5f7ef55d6"
+      }
+    },
+    {
+      "name": "cli-duplicate-id",
+      "source_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "command": [
+        "/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python",
+        "-I",
+        "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-issue6/tools/check_inventory.py",
+        "--root",
+        "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/synthetic-duplicate-id"
+      ],
+      "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-issue6",
+      "mode": "synthetic minimal fixture; actual merged command-line checker",
+      "exit_code": 1,
+      "streams": {
+        "stdout": {
+          "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/cli-duplicate-id.stdout.txt",
+          "sha256": "7f0dc9137c7ae3b7747edda0ba95e764673b4c075e33b35067a63edd0d3210cf"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/cli-duplicate-id.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "expected_exit_code": 1,
+      "expected_diagnostic": "duplicate id",
+      "fixture_sha256": {
+        "README.md": "0fca8628638a04e4060c4af302dfa155b7afe958c8f798ca1182170978f749f1",
+        "SPEC.md": "e73911f83922ef7f50fb6e6d7a103be6d6f36f4122194fdd55b804889a0ae4f7",
+        "docs/source-of-truth.md": "f7fd12234d4e57439d40ed32c50d2dd7dab32d39d48a0a8060169f61936466d5",
+        "inventory/brand-inventory.json": "2b3119953ab57f427035e8f29ee35c6344eb83c4fb3ebb65e6477dd717094c90"
+      }
+    },
+    {
+      "name": "requested-path-status-scan",
+      "command": [
+        "rg",
+        "-n",
+        "ticket-studio|identity/|guidelines/|private",
+        "README.md",
+        "SPEC.md",
+        "docs",
+        "tokens"
+      ],
+      "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-issue6",
+      "source_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+      "exit_code": 0,
+      "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/historical-and-planned-path-scan.txt",
+      "stdout_sha256": "09ccd1637850c0916a197f7283d3dd01290832d820f59238b30d7333aebc6544"
+    }
+  ],
+  "clean_before_and_after": true,
+  "provider_calls": false
+}

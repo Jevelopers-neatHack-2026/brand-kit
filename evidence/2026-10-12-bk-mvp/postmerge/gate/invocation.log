@@ -1,0 +1,3 @@
+/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python -I tools/check_brand_release.py
+{"blockers": 29, "checks": 17, "release_approved": false, "report": "/tmp/brand-gate-parent-76ndvikp/run/report.json", "result": "blocked", "source_sha": "6222a745195e9f15a14069e79210ad45daa16c94"}
+make: *** [Makefile:91: check-brand-release] Error 1

@@ -1,0 +1,1 @@
+check-inventory: OK (4 entries cover all tracked files)

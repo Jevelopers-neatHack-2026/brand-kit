@@ -1,0 +1,25 @@
+{
+  "source_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+  "command": [
+    "make",
+    "check-brand-release"
+  ],
+  "working_directory": "/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate",
+  "environment_overrides": {
+    "PYTHON": "/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python",
+    "PLAYWRIGHT_BROWSERS_PATH": "/tmp/ticketstub-browser-1194",
+    "ASSET_OUTPUT": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-6222a74-assets"
+  },
+  "actual_exit_code": 2,
+  "outcome": "blocked",
+  "command_count": 17,
+  "passing_engineering_commands": 14,
+  "failing_prerequisite_commands": [
+    "check-provenance",
+    "package-brand",
+    "check-consumers"
+  ],
+  "blocker_count": 29,
+  "release_approved": false,
+  "scope": "Actual local compilation/browser execution with labelled synthetic fixtures. No provider execution, font decision or consumer ACK is claimed."
+}

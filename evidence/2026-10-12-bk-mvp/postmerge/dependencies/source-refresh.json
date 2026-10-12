@@ -1,0 +1,666 @@
+{
+  "schema": "ticketstub-owner-handoff-refresh@1",
+  "refreshed_at_utc": "2026-10-12T17:19:12.310Z",
+  "mode": "read-only GitHub issue/body/comment and immutable source inspection; no foreign changes or posts",
+  "brand_merge": "6222a745195e9f15a14069e79210ad45daa16c94",
+  "product": "b5573270af362295c126e8b0be61b64f748c09a5",
+  "landing": "dda1b5d48e71ed9c111b82111676b7ef033fe5ef",
+  "marketing": "79ae21607eb4d98188f85ce3c42b8be6eb5688bc",
+  "shared_contracts": "7251a09c4eaddbb1232d444fd931a01c266095ac",
+  "integration_evals": "56018576a9450a2bb46aa55ed3b2f9d9ae97e50d",
+  "canonical_scope": [
+    "No implementation evidence is claimed by this package.",
+    "P0 is the demo-critical slice, P1 is the next expansion, and Production is a live-launch gate.",
+    "Official event requirements are summarized with primary sources in architecture section 11.",
+    "Original pending states migrate to planned; verified requires actual evidence and tested revisions. Failure results are evidence, not a completion state."
+  ],
+  "canonical_status_counts": {
+    "planned": 44,
+    "verified": 3
+  },
+  "brand_related_master_criteria": [
+    {
+      "id": "ART-05",
+      "category": "Artwork and production",
+      "classification": "team_requirement",
+      "priority": "P0",
+      "owner_role": "Creative and fulfillment",
+      "title": "Approved asset inputs",
+      "verification": "Use only assets with the required approval record in the production bundle.",
+      "evidence_required": "Asset provenance and approval references.",
+      "status": "planned",
+      "evidence_refs": [],
+      "tested_revision_refs": [],
+      "notes": "",
+      "dependencies": [
+        "https://github.com/Jevelopers-neatHack-2026/shared-contracts/issues/1",
+        "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/issues/1",
+        "https://github.com/Jevelopers-neatHack-2026/cost-intelligence/issues/1",
+        "https://github.com/Jevelopers-neatHack-2026/agent-harness/issues/1",
+        "https://github.com/Jevelopers-neatHack-2026/event-intelligence/issues/1",
+        "https://github.com/Jevelopers-neatHack-2026/creative-engine/issues/1"
+      ],
+      "implementation_issue_refs": [
+        "https://github.com/Jevelopers-neatHack-2026/event-intelligence/issues/1",
+        "https://github.com/Jevelopers-neatHack-2026/creative-engine/issues/1",
+        "https://github.com/Jevelopers-neatHack-2026/print-production/issues/1"
+      ]
+    },
+    {
+      "id": "EVAL-04",
+      "category": "Evidence and release",
+      "classification": "team_requirement",
+      "priority": "P0",
+      "owner_role": "Finance and reliability",
+      "title": "Secrets and customer data",
+      "verification": "Review published evidence and repository history for credentials and unnecessary customer or account details.",
+      "evidence_required": "Sanitization review and applicable scanning results.",
+      "status": "planned",
+      "evidence_refs": [],
+      "tested_revision_refs": [],
+      "notes": "",
+      "dependencies": [
+        "https://github.com/Jevelopers-neatHack-2026/agent-harness/issues/1",
+        "https://github.com/Jevelopers-neatHack-2026/event-intelligence/issues/1",
+        "https://github.com/Jevelopers-neatHack-2026/print-production/issues/1",
+        "https://github.com/Jevelopers-neatHack-2026/cost-intelligence/issues/2",
+        "https://github.com/Jevelopers-neatHack-2026/team-dashboard/issues/1",
+        "https://github.com/Jevelopers-neatHack-2026/fulfillment-connectors/issues/1"
+      ],
+      "implementation_issue_refs": [
+        "https://github.com/Jevelopers-neatHack-2026/integration-evals/issues/1"
+      ]
+    }
+  ],
+  "product_svg_comparison": [
+    {
+      "brand_path": "logo/app-icon.svg",
+      "brand_blob": "83d73b396da1c74e868773c426b5118d878f7268",
+      "product_path": "public/brand/app-icon.svg",
+      "product_blob": "83d73b396da1c74e868773c426b5118d878f7268",
+      "identical": true
+    },
+    {
+      "brand_path": "logo/favicon.svg",
+      "brand_blob": "6b4df7c7a909bf46182e69f242ed163f0a34180e",
+      "product_path": "public/brand/favicon.svg",
+      "product_blob": "6b4df7c7a909bf46182e69f242ed163f0a34180e",
+      "identical": true
+    },
+    {
+      "brand_path": "logo/lockup-horizontal-mono.svg",
+      "brand_blob": "73eb76e4ce1ed2db5431f1a21e0214dc92937a64",
+      "product_path": "public/brand/lockup-horizontal-mono.svg",
+      "product_blob": "73eb76e4ce1ed2db5431f1a21e0214dc92937a64",
+      "identical": true
+    },
+    {
+      "brand_path": "logo/lockup-horizontal.svg",
+      "brand_blob": "6b17f9f18bd5b5784d5c7ef269e2e35b363d8b95",
+      "product_path": "public/brand/lockup-horizontal.svg",
+      "product_blob": "6b17f9f18bd5b5784d5c7ef269e2e35b363d8b95",
+      "identical": true
+    },
+    {
+      "brand_path": "logo/lockup-stacked.svg",
+      "brand_blob": "d91b363460652bef435ecb1d0aeb6b8fe50b8dc3",
+      "product_path": "public/brand/lockup-stacked.svg",
+      "product_blob": "d91b363460652bef435ecb1d0aeb6b8fe50b8dc3",
+      "identical": true
+    },
+    {
+      "brand_path": "logo/ts-stamp-currentcolor.svg",
+      "brand_blob": "7e58592a33301afe223b7541278d3061584417a0",
+      "product_path": "public/brand/ts-stamp-currentcolor.svg",
+      "product_blob": "7e58592a33301afe223b7541278d3061584417a0",
+      "identical": true
+    },
+    {
+      "brand_path": "logo/ts-stamp-mono-cream.svg",
+      "brand_blob": "ce2d222ee40d9de9c7c0abca6a09c2a955697ed7",
+      "product_path": "public/brand/ts-stamp-mono-cream.svg",
+      "product_blob": "ce2d222ee40d9de9c7c0abca6a09c2a955697ed7",
+      "identical": true
+    },
+    {
+      "brand_path": "logo/ts-stamp-mono-ink.svg",
+      "brand_blob": "aca1e449b9d1384e8293386df22268da9faae498",
+      "product_path": "public/brand/ts-stamp-mono-ink.svg",
+      "product_blob": "aca1e449b9d1384e8293386df22268da9faae498",
+      "identical": true
+    },
+    {
+      "brand_path": "logo/ts-stamp-mono-orange.svg",
+      "brand_blob": "9c03e00beb4270082ad8a57fe8ac2a35fe5c254a",
+      "product_path": "public/brand/ts-stamp-mono-orange.svg",
+      "product_blob": "9c03e00beb4270082ad8a57fe8ac2a35fe5c254a",
+      "identical": true
+    },
+    {
+      "brand_path": "logo/ts-stamp.svg",
+      "brand_blob": "dae8c394057e475f59bfd624586246a17784d732",
+      "product_path": "public/brand/ts-stamp.svg",
+      "product_blob": "dae8c394057e475f59bfd624586246a17784d732",
+      "identical": true
+    },
+    {
+      "brand_path": "logo/wordmark-compact.svg",
+      "brand_blob": "09acb8303bc9b7279ac70227a823a1203d2f1017",
+      "product_path": "public/brand/wordmark-compact.svg",
+      "product_blob": "09acb8303bc9b7279ac70227a823a1203d2f1017",
+      "identical": true
+    },
+    {
+      "brand_path": "logo/wordmark-cream.svg",
+      "brand_blob": "c0e3be6e098916ccaac69e59dc4860f2b619d27a",
+      "product_path": "public/brand/wordmark-cream.svg",
+      "product_blob": "c0e3be6e098916ccaac69e59dc4860f2b619d27a",
+      "identical": true
+    },
+    {
+      "brand_path": "logo/wordmark-orange.svg",
+      "brand_blob": "79470025b69f80bed1c3a54770ba8b5e042b0aea",
+      "product_path": "public/brand/wordmark-orange.svg",
+      "product_blob": "79470025b69f80bed1c3a54770ba8b5e042b0aea",
+      "identical": true
+    },
+    {
+      "brand_path": "logo/wordmark.svg",
+      "brand_blob": "251a2508a5a04fd05d1f69f2997ddc103d2f8f02",
+      "product_path": "public/brand/wordmark.svg",
+      "product_blob": "251a2508a5a04fd05d1f69f2997ddc103d2f8f02",
+      "identical": true
+    }
+  ],
+  "landing_inventory": {
+    "approvals": {
+      "brand": "PENDING",
+      "publication": "PENDING",
+      "consumerContract": "PENDING",
+      "visual": "PENDING"
+    },
+    "upstream": {
+      "repository": "Jevelopers-neatHack-2026/brand-kit",
+      "revision": "3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4",
+      "approvedArtifact": null,
+      "consumerContract": null,
+      "observedAt": "2026-10-12T16:20:14.763Z",
+      "sources": [
+        {
+          "path": "provenance/allowlist.json",
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/provenance/allowlist.json",
+          "gitBlobSha": "95b87b7e07bf15f00b33544a4c6bb1d81ac0dde0",
+          "sha256": "40b7842c9c30972e95e81f9fe7151aa954bf802d486b0108e244bc0164d38524",
+          "bytes": 426
+        },
+        {
+          "path": "tokens/tokens.json",
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/tokens/tokens.json",
+          "gitBlobSha": "bdc4e0abdc58d815aa46f22e3a38b0cc46307d69",
+          "sha256": "649e570dc1397ef78bc00b28127ce166d640a4187eb2889fb2f57cc54054f228",
+          "bytes": 8345
+        },
+        {
+          "path": "tokens/tokens.css",
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/tokens/tokens.css",
+          "gitBlobSha": "71db82450fe5e476b3bc3559cc042eea2a8f273f",
+          "sha256": "a536e16aa1d25e45449a02e6ed46eeed376dfdbb71fa7c8a33cbc3a070f359b0",
+          "bytes": 3946
+        },
+        {
+          "path": "tokens/external-fonts-google.css",
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/tokens/external-fonts-google.css",
+          "gitBlobSha": "f764d8f50bd70efdf4f18476308b3e3e38971c9e",
+          "sha256": "e197c96f9db0463aee326cb5db657cd9b9952d47a08e60420de6c6db117ba458",
+          "bytes": 1394
+        },
+        {
+          "path": "docs/logo.md",
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/logo.md",
+          "gitBlobSha": "bb109b6492a3434ad3ba16dd7aae68b7480639e9",
+          "sha256": "04aa94912718e8424b03ae7d98d5c1cbc03e2bfb3c664de368e967cd034b3dc3",
+          "bytes": 1799
+        },
+        {
+          "path": "docs/imagery.md",
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/imagery.md",
+          "gitBlobSha": "9ccb69af5d46583390a6bd18b0a6ab7dc782687d",
+          "sha256": "fc38a8ab086e0e69bccfc656ba8e3a444d325e56c60c5c83e3c83ea1ffe05a2c",
+          "bytes": 2210
+        }
+      ],
+      "captureLimit": "Only the empty publication policy is retained as a byte-exact snapshot. Other hashes/value excerpts are read-only source observations, not independently fetched by this offline validator or distribution approval."
+    },
+    "importedBrandFiles": []
+  },
+  "marketing_comparison": {
+    "scope": "MM-06 author comparison and draft consumption record, not canonical brand distribution or approved producer contract",
+    "checkedAt": "2026-10-11 UTC",
+    "visualCandidate": "456053c5a12fa189f3c16a4cd9067a242e218031",
+    "sources": [
+      {
+        "repo": "brand-kit",
+        "revision": "3822635aff507cd5918a08a0c636bb0e41705261",
+        "path": "SPEC.md",
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3822635aff507cd5918a08a0c636bb0e41705261/SPEC.md",
+        "sha256": "b6416fb88c3108b91fa05f3469949bec10144bb8ef2ad9e0e5aea11516b9ddd8",
+        "bytes": 5770
+      },
+      {
+        "repo": "brand-kit",
+        "revision": "3822635aff507cd5918a08a0c636bb0e41705261",
+        "path": "tokens/tokens.json",
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3822635aff507cd5918a08a0c636bb0e41705261/tokens/tokens.json",
+        "sha256": "8fde0d4b27046af5cc8105e6139f61c5010610de341f58fd191ff2ffbb478bfc",
+        "bytes": 6588
+      },
+      {
+        "repo": "brand-kit",
+        "revision": "3822635aff507cd5918a08a0c636bb0e41705261",
+        "path": "docs/voice.md",
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3822635aff507cd5918a08a0c636bb0e41705261/docs/voice.md",
+        "sha256": "6af9864b397a677c6d5af953f2afb85314868a91cd4dfe57bec4b013907b6027",
+        "bytes": 2656
+      },
+      {
+        "repo": "brand-kit",
+        "revision": "3822635aff507cd5918a08a0c636bb0e41705261",
+        "path": "docs/logo.md",
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3822635aff507cd5918a08a0c636bb0e41705261/docs/logo.md",
+        "sha256": "04aa94912718e8424b03ae7d98d5c1cbc03e2bfb3c664de368e967cd034b3dc3",
+        "bytes": 1799
+      },
+      {
+        "repo": "brand-kit",
+        "revision": "3822635aff507cd5918a08a0c636bb0e41705261",
+        "path": "docs/imagery.md",
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3822635aff507cd5918a08a0c636bb0e41705261/docs/imagery.md",
+        "sha256": "fc38a8ab086e0e69bccfc656ba8e3a444d325e56c60c5c83e3c83ea1ffe05a2c",
+        "bytes": 2210
+      },
+      {
+        "repo": "brand-kit",
+        "revision": "3822635aff507cd5918a08a0c636bb0e41705261",
+        "path": "fonts/Fraunces-OFL.txt",
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3822635aff507cd5918a08a0c636bb0e41705261/fonts/Fraunces-OFL.txt",
+        "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+        "bytes": 4391
+      },
+      {
+        "repo": "brand-kit",
+        "revision": "3822635aff507cd5918a08a0c636bb0e41705261",
+        "path": "fonts/InterTight-OFL.txt",
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3822635aff507cd5918a08a0c636bb0e41705261/fonts/InterTight-OFL.txt",
+        "sha256": "50240ab035cf1b6b3307940235481d515c4b6de3ab1fa843dbe59e7892cb9d58",
+        "bytes": 4383
+      },
+      {
+        "repo": "landing-page-repo",
+        "revision": "3f28c8ac691374614354a8e53c1a2520e8c7854c",
+        "path": "docs/architecture/OWNERSHIP.md",
+        "url": "https://github.com/Jevelopers-neatHack-2026/landing-page-repo/blob/3f28c8ac691374614354a8e53c1a2520e8c7854c/docs/architecture/OWNERSHIP.md",
+        "sha256": "de6de2027af647b70b156621ef638c527200622d535fa69d0e46c3c978228256",
+        "bytes": 3119
+      },
+      {
+        "repo": "getticketstub.com",
+        "revision": "5a2986454297dd6df97088a8fbde69adc771f7a0",
+        "path": "docs/architecture/OWNERSHIP.md",
+        "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/5a2986454297dd6df97088a8fbde69adc771f7a0/docs/architecture/OWNERSHIP.md",
+        "sha256": "b0a8d878af54afb521521c88e09a8bda93e4e3cbadd4a6121a1dc9d4cecc1dda",
+        "bytes": 3712
+      }
+    ],
+    "selectedDraftSubset": [
+      "SPEC.md palette/roles/type fallback",
+      "tokens/tokens.json color values and spacing reference",
+      "docs/voice.md plain language principles",
+      "docs/logo.md no-redraw/usage constraints",
+      "docs/imagery.md exclusion constraints"
+    ],
+    "copiedBinaryAssets": [],
+    "approvedSubset": null,
+    "brandConformance": "BLOCKED_PENDING_OWNER_APPROVAL",
+    "accountableMarketingOwner": "User-assigned marketing-material supervisor",
+    "requiredApprovals": [
+      {
+        "owner": "brand-kit producer/reviewer",
+        "issue": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14",
+        "status": "pending",
+        "deliverable": "Approved pinned allowlist and locator"
+      },
+      {
+        "owner": "brand-kit producer and consumer reviewers",
+        "issue": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15",
+        "status": "pending",
+        "deliverable": "Imports/hash/font/fallback/migration contract"
+      },
+      {
+        "owner": "Named brand and landing consumer reviewers",
+        "issue": "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/7",
+        "status": "pending",
+        "deliverable": "Exact two-treatment conformance decision"
+      }
+    ],
+    "treatments": [
+      {
+        "assetId": "DEMO-WORKFLOW-DIAGRAM-001",
+        "source": "demo/diagrams/demo-workflow.svg",
+        "preview": "review/visual/brand-comparison/demo.png",
+        "comparison": "review/visual/brand-comparison/demo.html",
+        "authorFinding": "Draft palette/type fallback roles consistent; conceptual states explicit; no logos; publication/brand blocked"
+      },
+      {
+        "assetId": "LAUNCH-X-KEY-VISUAL-001",
+        "source": "launch/assets/x-submission-key-visual.svg",
+        "preview": "review/visual/brand-comparison/announcement.png",
+        "comparison": "review/visual/brand-comparison/announcement.html",
+        "authorFinding": "Draft night-stage palette and readable feed type consistent; docs CTA; no logos or sponsor claims; publication/brand blocked"
+      }
+    ],
+    "migrationExample": {
+      "hypotheticalChange": "New approved revision changes font fallback or allowed orange treatment; not an actual upstream release",
+      "impactedAssetIds": [
+        "DEMO-WORKFLOW-DIAGRAM-001",
+        "DEMO-SCREENSHOT-SET-001",
+        "DEMO-DECK-SUPPORT-001",
+        "LAUNCH-X-KEY-VISUAL-001",
+        "LAUNCH-X-ALT-TEXT-001"
+      ],
+      "action": "Keep historical pins; obtain approved subset and consumer contract; role-routed edits in new candidate; rerender sources/derivatives, recheck contrast/mobile/text, update canonical inventory/provenance hashes through owner, obtain refreshed independent and owner approval",
+      "rollback": "Use prior pinned bytes only if rights and destination approvals remain valid; revoked assets remain blocked. Retain superseded history with deprecated status, never relabel approval."
+    },
+    "approvalInvariant": "Missing, unknown or revoked required approval cannot be represented as passed conformance. Author alignment is distinct from owner approval.",
+    "browserEvidence": {
+      "command": "node review/visual/brand-comparison/render.mjs",
+      "browser": {
+        "protocolVersion": "1.3",
+        "product": "Chrome/154.0.8037.98",
+        "revision": "@b859317bf11f6be47f9b7799ec690a0a42a1fb33",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "jsVersion": "15.4.80.20"
+      },
+      "node": "v24.15.0",
+      "results": [
+        {
+          "page": "review/visual/brand-comparison/demo.html",
+          "preview": "review/visual/brand-comparison/demo.png",
+          "width": 1800,
+          "height": 1300,
+          "pageErrors": [],
+          "externalRequests": []
+        },
+        {
+          "page": "review/visual/brand-comparison/announcement.html",
+          "preview": "review/visual/brand-comparison/announcement.png",
+          "width": 1800,
+          "height": 1300,
+          "pageErrors": [],
+          "externalRequests": []
+        }
+      ],
+      "authorInspection": "Both final 1800x1300 PNGs opened and inspected by UI author; palette/type/status and actual SVG compared with labeled pinned-source summary. Not owner/independent approval."
+    },
+    "candidateHashes": [
+      {
+        "path": "demo/diagrams/demo-workflow.svg",
+        "sha256": "df5df2078aee74fb36bfe4ed6fc572db5217d2a9a64c47b984e05e19acbf0971"
+      },
+      {
+        "path": "launch/assets/x-submission-key-visual.svg",
+        "sha256": "a900eaa6f9ba444160761910b791a5044cd6fb50fa510721c760142fb1fd4699"
+      },
+      {
+        "path": "review/visual/brand-comparison/demo.html",
+        "sha256": "ac9fc648b0c4a3d720513346679f9abda2658e1216f77486c1c94383e04e53f4"
+      },
+      {
+        "path": "review/visual/brand-comparison/demo.png",
+        "sha256": "f9bd3462c157a474135e72edb0cec80bd1fa78cf5118e2888c5b3d0595cfbd7d"
+      },
+      {
+        "path": "review/visual/brand-comparison/announcement.html",
+        "sha256": "885f7c1289650509afb42991a8754023fe49d30cf4de17a38c2a8118787ff52f"
+      },
+      {
+        "path": "review/visual/brand-comparison/announcement.png",
+        "sha256": "b073ef808cbef97f0abfde4211259da4a03d08638f30430fb9a53dd6977f2676"
+      }
+    ]
+  },
+  "issue_records": [
+    {
+      "repo": "Jevelopers-neatHack-2026/brand-kit",
+      "id": 7,
+      "title": "[BK-06][P0] Record asset provenance and enforce the first-party export boundary",
+      "state": "open",
+      "updated_at": "2026-10-12T05:11:03Z",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7",
+      "comments": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7#issuecomment-6117727213",
+          "body_sha256": "a88c4a96de1ae4a4070025835a1ded115c1ba3681cd6a3f74e556a2d0458345b"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7#issuecomment-6117941355",
+          "body_sha256": "6d7a49b80508ed73c874dbccfc947b2fa978face102885f459bb04822dbcf55d"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7#issuecomment-6118156729",
+          "body_sha256": "c00dfa6a3140486656b3640e57a4d7889d63249eb3eee45994f2f8122a2c9b48"
+        }
+      ]
+    },
+    {
+      "repo": "Jevelopers-neatHack-2026/brand-kit",
+      "id": 8,
+      "title": "[BK-07][P0] Establish brand proposal, approval and change governance",
+      "state": "closed",
+      "updated_at": "2026-10-12T05:11:16Z",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8",
+      "comments": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6113526793",
+          "body_sha256": "3e8f920276be19f5eff93046ea110b101e10c535a42353a380f8bda8c277db62"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6116787775",
+          "body_sha256": "fae5c9e78d49e81169238617a2f62f0172850b39905644a5c4a8718c5c63b88a"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6117576209",
+          "body_sha256": "53d24ba05101db6b7821422a439da0e7535f97f510f662b08d94917ac80fa501"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6117666809",
+          "body_sha256": "7c3350d3997bff34048db965a522d852d41cb122a754f1544de92d3eef2c57c4"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6117700751",
+          "body_sha256": "2929c83b25e2c2bb00f0d24c0a934c4a6a5e907279610b13ac44fc6a687e3f73"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6118159083",
+          "body_sha256": "e9f08cb42d24f74231b54fbaeed21b506d5df6e224751589013225d5db66d71f"
+        }
+      ]
+    },
+    {
+      "repo": "Jevelopers-neatHack-2026/brand-kit",
+      "id": 9,
+      "title": "[BK-02][P0] Ratify the existing core identity and resolve open brand decisions",
+      "state": "open",
+      "updated_at": "2026-10-12T05:17:11Z",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9",
+      "comments": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6104392189",
+          "body_sha256": "85684021c687654e521a5bc4fae986a8f952d676ff8d297bb8fdbd60c8ceaa08"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6118156427",
+          "body_sha256": "cf1c361e8824e27e850ed45827fd32cc59e44ea3a256f59cbce87192e3c470a5"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6118216028",
+          "body_sha256": "93963b5ca4f1d676fd85e4e712857015da5ec23cd294c88d51ddd3053e0b4c95"
+        }
+      ]
+    },
+    {
+      "repo": "Jevelopers-neatHack-2026/brand-kit",
+      "id": 11,
+      "title": "[BK-04][P1] Make canonical logo and raster exports reproducible and quality checked",
+      "state": "open",
+      "updated_at": "2026-10-12T05:11:07Z",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11",
+      "comments": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11#issuecomment-6118157385",
+          "body_sha256": "bc869c30e4a52aca1418d2b58a6a36b3771a50bee79c1469a3cf9c4dd960a76d"
+        }
+      ]
+    },
+    {
+      "repo": "Jevelopers-neatHack-2026/brand-kit",
+      "id": 12,
+      "title": "[BK-08][P0] Validate accessible brand pairings, themes, typography and motion guidance",
+      "state": "open",
+      "updated_at": "2026-10-12T05:11:09Z",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12",
+      "comments": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12#issuecomment-6118157751",
+          "body_sha256": "f7df409b72817ab3163ae1ec908428cf3022318b70dc45119bfcd2089459a237"
+        }
+      ]
+    },
+    {
+      "repo": "Jevelopers-neatHack-2026/brand-kit",
+      "id": 13,
+      "title": "[BK-05][P1] Complete cross-surface brand usage rules and reusable examples",
+      "state": "open",
+      "updated_at": "2026-10-12T05:11:10Z",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13",
+      "comments": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13#issuecomment-6118158090",
+          "body_sha256": "d2a8280da31582f4c7ed60eca0d38fc78d0b1d5db868576ae9ec27546980b1f6"
+        }
+      ]
+    },
+    {
+      "repo": "Jevelopers-neatHack-2026/brand-kit",
+      "id": 14,
+      "title": "[BK-03B][P0] Define versioned distribution, font delivery and the approved export subset",
+      "state": "open",
+      "updated_at": "2026-10-12T05:11:05Z",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14",
+      "comments": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14#issuecomment-6103823848",
+          "body_sha256": "4f3973e0b1c8316dbba8c10f6a15b59dcdb177c9177d2623aaa61321532c33ed"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14#issuecomment-6118157033",
+          "body_sha256": "536d3c8b002c1775a2ce031cbe98a4f98ebad625cbb84bfee759c51ce8b83023"
+        }
+      ]
+    },
+    {
+      "repo": "Jevelopers-neatHack-2026/brand-kit",
+      "id": 15,
+      "title": "[BK-09][P1] Document and validate version-pinned product and marketing consumption",
+      "state": "open",
+      "updated_at": "2026-10-12T05:11:12Z",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15",
+      "comments": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15#issuecomment-6118158404",
+          "body_sha256": "7613811ade754754c8d91eb3002ea38ce21559ff11f4b5f75252004469f5513f"
+        }
+      ]
+    },
+    {
+      "repo": "Jevelopers-neatHack-2026/getticketstub.com",
+      "id": 19,
+      "title": "[GT-10B][P0] Assemble pinned specialist modules and verify the product journey through real application adapters",
+      "state": "open",
+      "updated_at": "2026-10-12T16:14:13Z",
+      "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/issues/19",
+      "comments": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/issues/19#issuecomment-6104421474",
+          "body_sha256": "7d0600b25944994502c3f5271c5ebb201c14466f1e212cfb41de37dfc4b9cd83"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/issues/19#issuecomment-6111667826",
+          "body_sha256": "a2b7a4113ec5776a43c0236684fb8a00799d1a6351cd5b804ba1e9c9477efe80"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/issues/19#issuecomment-6117724292",
+          "body_sha256": "c0e4e18cf5851224838a51ee3aaffdf94c82158b0afaf527d72cf5f064a8e83a"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/issues/19#issuecomment-6118001226",
+          "body_sha256": "d1eb6106ea8a9217cc2a4b272f1e9d418be0f2c1f07e8de6fd29152370bde861"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/issues/19#issuecomment-6121957840",
+          "body_sha256": "d604e903377866a08f0c82c182cc55d2590de22d2f0efdf6867819ccbf38dcef"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/issues/19#issuecomment-6128113909",
+          "body_sha256": "39966d7c6e6d8ef7973911aaa87bd87e49679af7543eaa37802c5bfc79b6870f"
+        }
+      ]
+    },
+    {
+      "repo": "Jevelopers-neatHack-2026/landing-page-repo",
+      "id": 8,
+      "title": "[LP-06][P0] Consume a pinned, publishable brand-kit asset and token subset",
+      "state": "open",
+      "updated_at": "2026-10-11T02:00:23Z",
+      "url": "https://github.com/Jevelopers-neatHack-2026/landing-page-repo/issues/8",
+      "comments": []
+    },
+    {
+      "repo": "Jevelopers-neatHack-2026/marketing-material",
+      "id": 7,
+      "title": "[MM-06][P0] Consume versioned brand guidance across collateral templates",
+      "state": "open",
+      "updated_at": "2026-10-11T04:36:33Z",
+      "url": "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/7",
+      "comments": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/7#issuecomment-6105489382",
+          "body_sha256": "20b139cc99889322340c0d0f5d68b1677ed3592745662b2d2ac937b0f0c928a8"
+        }
+      ]
+    },
+    {
+      "repo": "Jevelopers-neatHack-2026/integration-evals",
+      "id": 1,
+      "title": "[IE-EPIC][P0] Implement WP09 shared engineering and governance verification",
+      "state": "open",
+      "updated_at": "2026-10-12T14:48:44Z",
+      "url": "https://github.com/Jevelopers-neatHack-2026/integration-evals/issues/1",
+      "comments": [
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/integration-evals/issues/1#issuecomment-6122113696",
+          "body_sha256": "e373b7a9b9e7a4703cd7603cdbb6cef0065b46ecf8af02371bc1ab173643fc01"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/integration-evals/issues/1#issuecomment-6122332765",
+          "body_sha256": "5c35b8dce35e78429e6ee72ae1c456ce6f5586b914fb7af59ce0fdc0205f14c2"
+        },
+        {
+          "url": "https://github.com/Jevelopers-neatHack-2026/integration-evals/issues/1#issuecomment-6123227531",
+          "body_sha256": "fafd0a6e5a20eea1256e815da1a9256d39d6abe4f0c70b945d9fd4fa36c4b763"
+        }
+      ]
+    }
+  ],
+  "publication_note": "Curated derivative: all full issue/comment body fields removed, retaining URLs, identities and body hashes. The original full snapshot is not published.",
+  "original_snapshot_sha256": "0b180fa0a20ff77d7d1c9ce103d2c3dea01c8a16dda69791860d4aef5f7a05be"
+}

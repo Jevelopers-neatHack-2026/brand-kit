@@ -1,0 +1,125 @@
+{
+  "observed_at": "2026-10-12T17:19:53.340Z",
+  "issue": {
+    "number": 6,
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6",
+    "title": "[BK-01][P0] Reconcile the brand inventory and canonical source-of-truth structure",
+    "state": "open",
+    "updated_at": "2026-10-12T05:11:18Z",
+    "body_sha256": "fa9a8a79a23100eb4f8a2dcecf30acd98088fa4f622bb129ba243140e41ef275"
+  },
+  "comments": [
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6#issuecomment-6117576037",
+      "id": 6117576037,
+      "author": "CompleteDotTech",
+      "body_sha256": "26966aa28447cff751e1fdbf6774fe6bdd68e5a7193f75a3c864bee29f1bcecd"
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6#issuecomment-6117700508",
+      "id": 6117700508,
+      "author": "CompleteDotTech",
+      "body_sha256": "b6337e140de49d4716dbfd5b00880bf6aa1c12c654f46a5f14b78f8ab9f24890"
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6#issuecomment-6118159409",
+      "id": 6118159409,
+      "author": "CompleteDotTech",
+      "body_sha256": "b7cf21ca093b2e7196696929b9398bd94b6f21652e52e9910d0c613897246196"
+    }
+  ],
+  "remote": {
+    "main_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+    "commit_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+    "tree": "9b4e5bffc559494731cfdcc23c5df7582792736c",
+    "parents": [
+      "3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4",
+      "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3"
+    ],
+    "public": true,
+    "visibility": "public",
+    "commit_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/commit/6222a745195e9f15a14069e79210ad45daa16c94"
+  },
+  "prs": [
+    {
+      "number": 2,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/2",
+      "state": "closed",
+      "merged": true,
+      "merge_commit_sha": "3822635aff507cd5918a08a0c636bb0e41705261",
+      "head": "51a5d86ae8ffa44f8722ffef48e4e16b7451d630",
+      "updated_at": "2026-10-10T06:54:16Z"
+    },
+    {
+      "number": 3,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3",
+      "state": "open",
+      "merged": false,
+      "merge_commit_sha": null,
+      "head": "289b22659f0699649abd65ba7a3b7e710839f4d3",
+      "updated_at": "2026-10-12T10:11:32Z"
+    },
+    {
+      "number": 22,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/22",
+      "state": "closed",
+      "merged": true,
+      "merge_commit_sha": "3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4",
+      "head": "e511f18b1bc19cda152b9a82770d3fabb18594b4",
+      "updated_at": "2026-10-12T10:10:46Z"
+    }
+  ],
+  "pr3_comments": [
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3#issuecomment-6104391510",
+      "id": 6104391510,
+      "author": "CompleteDotTech",
+      "body_sha256": "5c368657f99764802d1d3e5494ee37ab7544e0233c19df674c37fcea965a00be"
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3#issuecomment-6117593010",
+      "id": 6117593010,
+      "author": "lmvdz",
+      "body_sha256": "58c433292bda403fe36b3fd534110cd45069cd4e5cb8bc5c78727aa7ef70c661"
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3#issuecomment-6117604850",
+      "id": 6117604850,
+      "author": "CompleteDotTech",
+      "body_sha256": "48d4189f4f79e45ff20dd90dd5071f47361d1e47429c0835e397a69f3d961dd0"
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3#issuecomment-6117936742",
+      "id": 6117936742,
+      "author": "CompleteDotTech",
+      "body_sha256": "81bcbafb86a7e85d37f67b3a09f6196bcd48d67e5defd61439f47529c2686c56"
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3#issuecomment-6122017963",
+      "id": 6122017963,
+      "author": "CompleteDotTech",
+      "body_sha256": "2ee66af16cbf0c497b8457863a05bc7536f2d38548fa3379197fc8a03c5228ba"
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3#issuecomment-6122164575",
+      "id": 6122164575,
+      "author": "CompleteDotTech",
+      "body_sha256": "59664a8975bbd16f44d55d355adfb3ec00056c9aee9a1a027fb1702fd7545501"
+    }
+  ],
+  "targets": [
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/43bb721f00de1c616e8e8d27efbb87c6bf75bcbf/docs/studio/stub-system.md",
+      "retrieved_utf8_sha256": "2c6cc2d736d4a349334344374ac8bb3fb9ddccfbb42c4cfce8be250ceb470394",
+      "title": "# Stub system",
+      "source_read_succeeded": true
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/43bb721f00de1c616e8e8d27efbb87c6bf75bcbf/docs/studio/research/holo-foil-technique.md",
+      "retrieved_utf8_sha256": "16b115d4fb4ad54b19100c052e476cc4ea4eaaa5d979526247013fb8e9ae82fc",
+      "title": "# Holo foil technique — borrowed from coven-cave",
+      "source_read_succeeded": true
+    }
+  ],
+  "redaction_note": "Full public issue/comment bodies are excluded; original URL, IDs and body hashes remain. This derivative is not represented as the unchanged original remote-evidence.json referenced in the reviewer report."
+}

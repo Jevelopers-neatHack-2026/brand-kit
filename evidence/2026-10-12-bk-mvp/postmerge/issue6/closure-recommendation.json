@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "reviewer": "Astra agent /root/pr3_reconcile",
+  "reviewed_at": "2026-10-12T17:21:51.402292+00:00",
+  "repository": "Jevelopers-neatHack-2026/brand-kit",
+  "issue": 6,
+  "issue_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6",
+  "merged_pr": {
+    "number": 23,
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/23",
+    "state": "closed",
+    "merged": true,
+    "merged_at": "2026-10-12T17:14:04Z",
+    "merge_commit_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+    "head_sha": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+    "base_sha": "3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4"
+  },
+  "source_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+  "source_tree": "9b4e5bffc559494731cfdcc23c5df7582792736c",
+  "reviewed_pr_head": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+  "merge_tree_identical_to_reviewed_head": true,
+  "worktree": "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-issue6",
+  "clean_before_and_after": true,
+  "criterion_count": 6,
+  "criteria": [
+    {
+      "id": "BK-01.1",
+      "status": "satisfied",
+      "finding": "All 117 tracked files are catalogued exactly once with required path/type/classification, source-output relationship where applicable, canonical authority, owner role and approval/provenance fields. All 95 distinct canonical/source/reference file targets were opened and hashed. Every approval remains unknown; derivation-recorded and licence-text-present describe evidence rather than rights approval.",
+      "evidence_paths": [
+        "inventory/brand-inventory.json",
+        "tools/check_inventory.py",
+        "tools/inventory_lib.py"
+      ],
+      "evidence_artifacts": [
+        "coverage-and-references.json",
+        "inventory.stdout.txt",
+        "checks-unit.stderr.txt"
+      ],
+      "source_links": [
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/inventory/brand-inventory.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/tools/check_inventory.py",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/tools/inventory_lib.py"
+      ]
+    },
+    {
+      "id": "BK-01.2",
+      "status": "satisfied",
+      "finding": "README links docs/source-of-truth.md. Its map covers logos/marks, explicit absent icon library and consumer-owned current UI icons, color/type/spacing/layout tokens, usage, provenance and release proposals. Existing path targets resolve; the future icon family/guidance choice remains explicitly unresolved without pretending an icon system exists.",
+      "evidence_paths": [
+        "README.md",
+        "docs/source-of-truth.md",
+        "inventory/brand-inventory.json"
+      ],
+      "evidence_artifacts": [
+        "coverage-and-references.json",
+        "links.stdout.txt"
+      ],
+      "source_links": [
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/README.md",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/docs/source-of-truth.md",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/inventory/brand-inventory.json"
+      ]
+    },
+    {
+      "id": "BK-01.3",
+      "status": "satisfied",
+      "finding": "The source index and path_map retain current canonical paths and explain each proposed architecture path, rationale, conditional alias/redirect and affected import. All 40 paths from the PR #2 source baseline remain at the same paths; no delete/rename occurs. Conditional future migration notes are not an executed move or newly ratified release policy.",
+      "evidence_paths": [
+        "docs/source-of-truth.md",
+        "docs/architecture/OWNERSHIP.md",
+        "inventory/brand-inventory.json"
+      ],
+      "evidence_artifacts": [
+        "coverage-and-references.json",
+        "historical-and-planned-path-scan.txt"
+      ],
+      "source_links": [
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/docs/source-of-truth.md",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/docs/architecture/OWNERSHIP.md",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/inventory/brand-inventory.json"
+      ]
+    },
+    {
+      "id": "BK-01.4",
+      "status": "satisfied",
+      "finding": "Reference-only, candidate-unapproved and internal release classes are explicit; all seven reference images remain reference-only with unknown rights and no file is approved. Missing provenance is routed to BK-06; source-only font constraints and the empty production allowlist remain explicit. Repository visibility is recorded as Public with dated evidence and earlier private status labeled superseded; current GitHub metadata independently confirms public visibility.",
+      "evidence_paths": [
+        "docs/source-of-truth.md",
+        "docs/architecture/OWNERSHIP.md",
+        "inventory/brand-inventory.json",
+        "provenance/register.json",
+        "provenance/allowlist.json"
+      ],
+      "evidence_artifacts": [
+        "coverage-and-references.json",
+        "remote-evidence.json",
+        "historical-and-planned-path-scan.txt"
+      ],
+      "source_links": [
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/docs/source-of-truth.md",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/docs/architecture/OWNERSHIP.md",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/inventory/brand-inventory.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/provenance/register.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/provenance/allowlist.json"
+      ]
+    },
+    {
+      "id": "BK-01.5",
+      "status": "satisfied",
+      "finding": "PR #22 already merged pinned edition/foil navigation. PR #23 supplies the remaining edition paragraph/token-description corrections and explicit PR #3 hunk disposition. Both pinned Product source files were read successfully at 43bb721f00de1c616e8e8d27efbb87c6bf75bcbf. PR #2 remains merged and its edition/artwork/print ownership boundary is preserved semantically. PR #3 remains open at 289b22659f0699649abd65ba7a3b7e710839f4d3 with unique A-only/foil/sound policy proposals held for BK-02/BK-08 decisions; no claim that it is fully superseded or approved is made.",
+      "evidence_paths": [
+        "README.md",
+        "SPEC.md",
+        "docs/material-foil.md",
+        "tokens/tokens.json",
+        "docs/source-of-truth.md",
+        "docs/architecture/OWNERSHIP.md",
+        "docs/identity-decision-packet.md"
+      ],
+      "evidence_artifacts": [
+        "remote-evidence.json",
+        "merge-pr23.json"
+      ],
+      "source_links": [
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/README.md",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/SPEC.md",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/docs/material-foil.md",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/tokens/tokens.json",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/docs/source-of-truth.md",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/docs/architecture/OWNERSHIP.md",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/docs/identity-decision-packet.md"
+      ]
+    },
+    {
+      "id": "BK-01.CMD",
+      "status": "satisfied",
+      "finding": "Both required Make targets are implemented and documented with standard-library setup, outputs and nonzero failure semantics. Actual merged-main invocations passed. Actual CLI execution of the stored valid fixture returns 0, missing-path fixture returns 1 with the required missing-path diagnostic, and duplicate-ID fixture returns 1 with the duplicate-ID diagnostic. No provider or consumer mutation is performed by these checks.",
+      "evidence_paths": [
+        "Makefile",
+        "docs/inventory-checks.md",
+        "tools/check_inventory.py",
+        "tools/check_links.py",
+        "tools/tests/test_checks.py"
+      ],
+      "evidence_artifacts": [
+        "commands.json",
+        "cli-valid.stdout.txt",
+        "cli-missing-path.stdout.txt",
+        "cli-duplicate-id.stdout.txt",
+        "checks-unit.stderr.txt"
+      ],
+      "source_links": [
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/Makefile",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/docs/inventory-checks.md",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/tools/check_inventory.py",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/tools/check_links.py",
+        "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/6222a745195e9f15a14069e79210ad45daa16c94/tools/tests/test_checks.py"
+      ]
+    }
+  ],
+  "all_six_inventory_criteria_satisfied": true,
+  "recommendation": "close BK-01 as completed after supervising owner records this scoped acceptance disposition",
+  "new_external_owner_input_required_for_bk01": false,
+  "new_asset_rights_or_identity_approval_required_for_bk01": false,
+  "basis_for_no_new_rights_prerequisite": "Issue #6 explicitly states: Provenance truth is completed by BK-06, so this inventory must not require rights decisions to close.",
+  "latest_owner_coordination": {
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6#issuecomment-6118159409",
+    "requested_recipient": "lmvdz (Lars)",
+    "interpretation": "Review/coordination request for inventory acceptance disposition, explicitly separate from rights/brand approval; no reviewer appointment or acknowledgment is inferred.",
+    "recipient_acknowledgment_present": false,
+    "supervising_owner_disposition_required_for_record": "Record the exact scope and evidence when closing; the agent does not impersonate the requested recipient."
+  },
+  "independent_acceptance_scope": [
+    "Machine-readable inventory coverage and canonical/source/output reference mapping",
+    "Existing non-authored source index, classification semantics and current-versus-proposed path map",
+    "Current source visibility and PR #2/#3/#22 handoff evidence",
+    "Actual postmerge commands and malformed CLI fixture rejection"
+  ],
+  "authorship_limits": "Reviewer authored portions of README/SPEC/OWNERSHIP/identity and usage documents and the consumer runner during PR #23. Those substantive authored changes are not independently approved here; supervising root review covers the full #6 disposition. Reading their links for inventory mapping is not brand approval.",
+  "verification": {
+    "commands_record": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/commands.json",
+    "actual_positive_commands_passed": 5,
+    "checks_unit_tests_passed": 38,
+    "actual_synthetic_cli_valid_exit": 0,
+    "actual_synthetic_cli_missing_path_exit": 1,
+    "actual_synthetic_cli_duplicate_id_exit": 1,
+    "local_links_resolved": 353,
+    "broken_local_links": 0,
+    "external_links_unchecked": 160,
+    "specifically_refreshed_pinned_product_sources": [
+      {
+        "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/43bb721f00de1c616e8e8d27efbb87c6bf75bcbf/docs/studio/stub-system.md",
+        "retrieved_utf8_sha256": "2c6cc2d736d4a349334344374ac8bb3fb9ddccfbb42c4cfce8be250ceb470394",
+        "title": "# Stub system",
+        "source_read_succeeded": true
+      },
+      {
+        "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/43bb721f00de1c616e8e8d27efbb87c6bf75bcbf/docs/studio/research/holo-foil-technique.md",
+        "retrieved_utf8_sha256": "16b115d4fb4ad54b19100c052e476cc4ea4eaaa5d979526247013fb8e9ae82fc",
+        "title": "# Holo foil technique \u2014 borrowed from coven-cave",
+        "source_read_succeeded": true
+      }
+    ],
+    "canonical_and_source_files_opened": 95,
+    "all_original_pr2_paths_retained": true,
+    "full_17_target_gate_run_by_this_reviewer": false,
+    "full_gate_note": "Root runs the actual merged-main aggregate gate separately; this review does not claim that blocked rights/provider/consumer targets pass."
+  },
+  "scan_dispositions": [
+    {
+      "path": "docs/asset-exports.md",
+      "line": 3,
+      "text": "**BK-04 status: implemented tooling, pending identity/rights/accountable visual acceptance.**",
+      "disposition": "Scoped privacy exclusion, unapproved source context or pending identity/rights requirement; not a claim that a nonexistent path exists or that the repository is currently private."
+    },
+    {
+      "path": "docs/provenance.md",
+      "line": 59,
+      "text": "Review of this change for secrets and personal data, 2026-10-12, limited scope: `gitleaks 8.30.1` (locally installed; nothing installed or called out) over git history (19 commits) and over the working tree reported **no leaks**. The register and allowlist were also scanned by the validator's own patterns. Not covered: the scanner finds known secret shapes only, not private contracts or customer details in prose; GitHub issue and PR text and bundled binaries were not scanned (image and font bytes were not inspected). Commit metadata carries two author email addresses, which are public git metadata and are not copied into any file here. This is not a claim that the repository is free of sensitive data.",
+      "disposition": "Scoped privacy exclusion, unapproved source context or pending identity/rights requirement; not a claim that a nonexistent path exists or that the repository is currently private."
+    },
+    {
+      "path": "docs/brand-governance.md",
+      "line": 105,
+      "text": "The recorded closed state of BK-07 does not fill these rows or close dependent identity/release gates. Further work references the issue neutrally (`Refs #8`) and preserves the missing evidence. The [baseline review packet](identity-decision-packet.md) is a concrete proposal for the accountable owner and required reviewers; every decision remains pending.",
+      "disposition": "Scoped privacy exclusion, unapproved source context or pending identity/rights requirement; not a claim that a nonexistent path exists or that the repository is currently private."
+    },
+    {
+      "path": "docs/identity-decision-packet.md",
+      "line": 79,
+      "text": "| `tokens/tokens.json` root `$description` | Unique rule-neutral path correction remains valid. | Replace only `ticket-studio` with `getticketstub.com docs/studio/stub-system.md`; preserve the merged TicketStub profile / non-DTCG description and token validation. PR #3's whole-line version would regress that profile description. This follow-up integrates the description correction and refreshes exact generated/provenance hashes without changing any token value. |",
+      "disposition": "Historical reference or explicit PR #2/#3 disposition; corrected live navigation uses pinned Product source."
+    },
+    {
+      "path": "docs/identity-decision-packet.md",
+      "line": 91,
+      "text": "The following manifest is computed from Git blob bytes at the fixed baseline revision above, not from the changing working tree. Each source link includes that revision. Every identity/source/output row is **unapproved**; `references/` rows are **excluded, rights unknown**. Font TTF rows are **source-only** under the no-self-hosting constraint. The register/allowlist and governance rows are context, not approval authority.",
+      "disposition": "Scoped privacy exclusion, unapproved source context or pending identity/rights requirement; not a claim that a nonexistent path exists or that the repository is currently private."
+    },
+    {
+      "path": "docs/identity-decision-packet.md",
+      "line": 160,
+      "text": "- **Does not cover:** live commerce, prices, shipping, customer or sponsor marks, event-specific asset rights, actual product capabilities, private customer screenshots, self-hosted runtime fonts, publication, or global release acceptance.",
+      "disposition": "Scoped privacy exclusion, unapproved source context or pending identity/rights requirement; not a claim that a nonexistent path exists or that the repository is currently private."
+    },
+    {
+      "path": "docs/architecture/OWNERSHIP.md",
+      "line": 4,
+      "text": "**Earlier status (history, superseded):** Verified existing on GitHub, private, October 10, 2026.",
+      "disposition": "Dated historical private status explicitly superseded by verified public status."
+    },
+    {
+      "path": "docs/architecture/OWNERSHIP.md",
+      "line": 16,
+      "text": "- `identity/`: Product marks, approved variants, and export guidance.",
+      "disposition": "Explicit Planned internal modules; not an actual moved path."
+    },
+    {
+      "path": "docs/architecture/OWNERSHIP.md",
+      "line": 18,
+      "text": "- `guidelines/`: Identity usage, accessibility, and writing guidance.",
+      "disposition": "Explicit Planned internal modules; not an actual moved path."
+    },
+    {
+      "path": "docs/architecture/OWNERSHIP.md",
+      "line": 36,
+      "text": "- [ ] Public exports omit private or unapproved source material.",
+      "disposition": "Scoped privacy exclusion, unapproved source context or pending identity/rights requirement; not a claim that a nonexistent path exists or that the repository is currently private."
+    },
+    {
+      "path": "docs/architecture/OWNERSHIP.md",
+      "line": 43,
+      "text": "The existing TicketStub identity, `SPEC.md`, logos, fonts and token sources remain authoritative. Proposed module paths describe future organization and do not relocate existing assets. The original `ticket-studio` reference was outside this fourteen-repository plan and required owner confirmation; PR #2 preserved that ownership boundary. PR #22 subsequently merged source links to getticketstub.com at `43bb721f00de1c616e8e8d27efbb87c6bf75bcbf`. This resolves documentation navigation, while creative-engine retains artwork-version ownership and print-production retains printable-composition ownership. No edition contract, product capability or brand direction is reassigned by those links. See the [PR #3 reconciliation](../identity-decision-packet.md#pr-3-reconciliation).",
+      "disposition": "Historical reference or explicit PR #2/#3 disposition; corrected live navigation uses pinned Product source."
+    },
+    {
+      "path": "docs/accessibility.md",
+      "line": 161,
+      "text": "BK-08 remains open until the exact identity/font choices and usage restrictions",
+      "disposition": "Scoped privacy exclusion, unapproved source context or pending identity/rights requirement; not a claim that a nonexistent path exists or that the repository is currently private."
+    },
+    {
+      "path": "docs/source-of-truth.md",
+      "line": 44,
+      "text": "| `identity/` | `logo/`, `tools/build_logos.py` | Keep. The script's output path, `index.html`, docs links and consumer copies in getticketstub.com `public/brand` all use `logo/`. | Keep `logo/` as an alias for one release; update `OUT` in the script and board paths. |",
+      "disposition": "Actual-versus-proposed mapping with keep-current-paths decision and conditional future alias."
+    },
+    {
+      "path": "docs/source-of-truth.md",
+      "line": 46,
+      "text": "| `guidelines/` | `SPEC.md`, `docs/*.md` | Keep. README, SPEC and the board link these. | Leave redirect stubs. |",
+      "disposition": "Actual-versus-proposed mapping with keep-current-paths decision and conditional future alias."
+    },
+    {
+      "path": "docs/source-of-truth.md",
+      "line": 61,
+      "text": "- **Visibility (corrected by PR #17).** `OWNERSHIP.md` now states the repository is *Public*, citing `gh repo view` on 2026-10-12 (`visibility: PUBLIC`). History kept: it said *private* as verified 2026-10-10, and the earlier BK-01 note that this text was stale is superseded. No repository setting was changed.",
+      "disposition": "Dated historical private status explicitly superseded by verified public status."
+    },
+    {
+      "path": "docs/source-of-truth.md",
+      "line": 63,
+      "text": "- **PR #2 (merged).** Its edition-ownership handoff (owner confirmation for the `ticket-studio` link) is preserved unchanged.",
+      "disposition": "Historical reference or explicit PR #2/#3 disposition; corrected live navigation uses pinned Product source."
+    }
+  ],
+  "retained_open_work": [
+    {
+      "issues": [
+        7
+      ],
+      "scope": "Actual origin/rights/provenance and permitted export decisions; unknown remains unknown."
+    },
+    {
+      "issues": [
+        9,
+        12
+      ],
+      "scope": "Identity/day-night/foil/sound proposal and accountable accessibility review; PR #3 remains open."
+    },
+    {
+      "issues": [
+        8,
+        14,
+        15
+      ],
+      "scope": "Unfilled reviewer acknowledgments, font/distribution/version decisions and actual consumer acceptance; issue state #8 is not an approval."
+    },
+    {
+      "issues": [
+        5,
+        4
+      ],
+      "scope": "Repository gate and epic acceptance remain separate; no automatic closure."
+    }
+  ],
+  "inputs_sha256": {
+    "Makefile": "7c9355056ebcc30629415ff56854913a748faf47890424ff71582d2696cf9ea9",
+    "README.md": "b949a4fff170d775028d9c5db2cb6ef2e32ce482708e1f7a2d69b021f5ceabeb",
+    "SPEC.md": "0d9de5f012a3f3671a46b66f3d08910e9e61497df89320563c4488a25f189ade",
+    "docs/architecture/OWNERSHIP.md": "d61f9c7f88f5a0610f4dbedfc90849ddbee01c38212f4c41333b036a0d101abb",
+    "docs/identity-decision-packet.md": "ad3bd084375b64f231e6a11cbf4eec4f9d3344bb9d329879a4e0a7915f6662cd",
+    "docs/inventory-checks.md": "bb1589dad597002a6088e80986e6c7a50bca62df776b9ae3a8a9cc5db5b3e561",
+    "docs/material-foil.md": "a2ea27c65f3d95840a73dbecf1f0dcbf18b685d491a69cc2217352199fc69fb1",
+    "docs/source-of-truth.md": "0f0d5e31d6d1a904002db378303311d26f6a8d3c6b1095308a13d7d6a5dd353d",
+    "inventory/brand-inventory.json": "34a8e0b180ec4ec50baf02994922cf0918a7c14668a294e8f5cd26f80395d3c5",
+    "provenance/allowlist.json": "40b7842c9c30972e95e81f9fe7151aa954bf802d486b0108e244bc0164d38524",
+    "provenance/register.json": "8e6a6349299cb8a9a5e08ad505e6c18c855821d0a0a563329141324a2f46c6ae",
+    "tokens/tokens.json": "f441264f2e56f8fc8be5129a5a5b3f50403582ee5eb43821c7afb3ed1129b551",
+    "tools/check_inventory.py": "f881e58e3e5886a29ce85b299f584aef7f724703b7c244a3f61a0e6b884f864f",
+    "tools/check_links.py": "52eb5e0c7829744304e179bdabea4424d0ab8c754d010aa5b6a9ce5ab2f18fae",
+    "tools/inventory_lib.py": "c97a77be33b43b7f1f5aa2d3bc314f9dc045af3960fbcd4e1daa6b33fcbc0203",
+    "tools/tests/test_checks.py": "d3c17965c4f15d4bb68d8b36cfcb22cffaa71135f9e5050f78df55d98f4adcca"
+  },
+  "evidence_artifacts": {
+    "commands.json": {
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/commands.json",
+      "sha256": "05bce70e5a387b9f679213a2cf82152ff68e96b03b68bbdc356bfb1e033e5af1"
+    },
+    "coverage-and-references.json": {
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/coverage-and-references.json",
+      "sha256": "f90b0c6560920c6c4a0f8bdf5bef3b21a33fef8f8f021e6a676d6d89b5d9694f"
+    },
+    "remote-evidence.json": {
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/remote-evidence.json",
+      "sha256": "b018bef6ea388433dee249e7a7ac4e212cf0ac77e50bacfc7c0aa711c2cab664"
+    },
+    "merge-pr23.json": {
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/merge-pr23.json",
+      "sha256": "1601cc69ea04a840950be126866210e46800bcfa4a993385180dca522d9a689a"
+    },
+    "historical-and-planned-path-scan.txt": {
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-issue6-6222a74/historical-and-planned-path-scan.txt",
+      "sha256": "09ccd1637850c0916a197f7283d3dd01290832d820f59238b30d7333aebc6544"
+    }
+  },
+  "repository_edits_by_reviewer": false,
+  "remote_mutations_by_reviewer": false,
+  "owner_approval_fabricated": false,
+  "verbatim_closure_recommendation": "Postmerge BK-01 review by Astra agent /root/pr3_reconcile: recommend closing issue #6 as completed within its inventory/source-map scope at main 6222a745195e9f15a14069e79210ad45daa16c94 (tree 9b4e5bffc559494731cfdcc23c5df7582792736c). I refreshed the issue body and all three owner comments, actual main, PRs #2/#3/#22/#23 and the two pinned Product source targets. All six current criteria BK-01.1\u2013.5 and BK-01.CMD are satisfied: 117 tracked files are catalogued exactly once; 95 canonical/source/reference targets were opened and hashed; README links the complete source map; current iconography boundaries and all six planned-path mappings are explicit; all 40 original paths remain; all approval states remain unknown with reference/rights gaps routed to BK-06; dated visibility text matches the current public repository; PR #2 ownership is preserved and PR #3 link work is integrated while its unique policy remains held. Actual postmerge make check-inventory, make check-links and make check-governance passed, as did all 38 tests in tools.tests.test_checks and the diff check. The two additional synthetic malformed fixtures were run through the actual merged CLI and correctly returned 1 for missing-path and duplicate-ID errors; their failure output is preserved. Local links:353 resolved,0 broken;160 other external URLs remain unchecked. The issue explicitly says inventory closure must not require rights decisions. The latest owner comment requests acceptance disposition and separates inventory acceptance from brand/rights approval; it is not treated as an @lmvdz acknowledgment or role appointment. No additional brand/rights/provider decision is needed to record BK-01 completion. The supervising owner should record this scoped disposition; no identity, provenance, distribution, consumer, release, epic or foreign acceptance is granted. My independent acceptance is limited to source/inventory mapping, existing non-authored classification/path semantics, commands and handoff preservation. I do not independently approve the substantive documents I authored; the supervising review owns the full issue disposition. No repository or remote issue mutation was performed by this reviewer."
+}

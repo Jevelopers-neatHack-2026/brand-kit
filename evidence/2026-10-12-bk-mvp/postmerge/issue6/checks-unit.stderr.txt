@@ -1,0 +1,43 @@
+test_clean_git_fixture_passes (tools.tests.test_checks.GitTests.test_clean_git_fixture_passes) ... ok
+test_deleted_tracked_file_removed_from_inventory_fails (tools.tests.test_checks.GitTests.test_deleted_tracked_file_removed_from_inventory_fails) ... ok
+test_deleted_tracked_file_still_in_inventory_fails (tools.tests.test_checks.GitTests.test_deleted_tracked_file_still_in_inventory_fails) ... ok
+test_deleted_tracked_markdown_does_not_crash_links (tools.tests.test_checks.GitTests.test_deleted_tracked_markdown_does_not_crash_links) ... ok
+test_untracked_broken_link_ignored_by_default (tools.tests.test_checks.GitTests.test_untracked_broken_link_ignored_by_default) ... ok
+test_untracked_notes_flagged_with_option (tools.tests.test_checks.GitTests.test_untracked_notes_flagged_with_option) ... ok
+test_untracked_notes_ignored_by_default (tools.tests.test_checks.GitTests.test_untracked_notes_ignored_by_default) ... ok
+test_release_eligibility_rejects_contradictory_trailing_text (tools.tests.test_checks.GovernanceTests.test_release_eligibility_rejects_contradictory_trailing_text) ... ok
+test_valid_governance_documents_pass (tools.tests.test_checks.GovernanceTests.test_valid_governance_documents_pass) ... ok
+test_broken_canonical_link (tools.tests.test_checks.InventoryTests.test_broken_canonical_link) ... ok
+test_cli_exit_codes (tools.tests.test_checks.InventoryTests.test_cli_exit_codes) ... ok
+test_duplicate_entry (tools.tests.test_checks.InventoryTests.test_duplicate_entry) ... ok
+test_missing_inventory_is_error (tools.tests.test_checks.InventoryTests.test_missing_inventory_is_error) ... ok
+test_missing_path (tools.tests.test_checks.InventoryTests.test_missing_path) ... ok
+test_uncatalogued_asset (tools.tests.test_checks.InventoryTests.test_uncatalogued_asset) ... ok
+test_unknown_must_be_explicit (tools.tests.test_checks.InventoryTests.test_unknown_must_be_explicit) ... ok
+test_valid_fixture_passes (tools.tests.test_checks.InventoryTests.test_valid_fixture_passes) ... ok
+test_broken_local_link (tools.tests.test_checks.LinkTests.test_broken_local_link) ... ok
+test_code_blocks_ignored (tools.tests.test_checks.LinkTests.test_code_blocks_ignored) ... ok
+test_empty_root_fails (tools.tests.test_checks.LinkTests.test_empty_root_fails) ... ok
+test_external_not_verified_offline (tools.tests.test_checks.LinkTests.test_external_not_verified_offline) ... ok
+test_html_and_css_links (tools.tests.test_checks.LinkTests.test_html_and_css_links) ... ok
+test_missing_anchor (tools.tests.test_checks.LinkTests.test_missing_anchor) ... ok
+test_missing_index_doc_fails (tools.tests.test_checks.LinkTests.test_missing_index_doc_fails) ... ok
+test_reference_definition_broken_target (tools.tests.test_checks.LinkTests.test_reference_definition_broken_target) ... ok
+test_reference_empty_target (tools.tests.test_checks.LinkTests.test_reference_empty_target) ... ok
+test_reference_image_and_angle_target_and_anchor (tools.tests.test_checks.LinkTests.test_reference_image_and_angle_target_and_anchor) ... ok
+test_reference_in_code_fence_ignored (tools.tests.test_checks.LinkTests.test_reference_in_code_fence_ignored) ... ok
+test_reference_undefined_label (tools.tests.test_checks.LinkTests.test_reference_undefined_label) ... ok
+test_shortcut_reference_broken_anchor (tools.tests.test_checks.LinkTests.test_shortcut_reference_broken_anchor) ... ok
+test_shortcut_reference_broken_destination (tools.tests.test_checks.LinkTests.test_shortcut_reference_broken_destination) ... ok
+test_shortcut_reference_external_listed_not_verified (tools.tests.test_checks.LinkTests.test_shortcut_reference_external_listed_not_verified) ... ok
+test_unmatched_plain_brackets_are_text (tools.tests.test_checks.LinkTests.test_unmatched_plain_brackets_are_text) ... ok
+test_valid_links_pass (tools.tests.test_checks.LinkTests.test_valid_links_pass) ... ok
+test_valid_reference_passes_and_external_listed (tools.tests.test_checks.LinkTests.test_valid_reference_passes_and_external_listed) ... ok
+test_valid_shortcut_reference_passes (tools.tests.test_checks.LinkTests.test_valid_shortcut_reference_passes) ... ok
+test_repository_classifications_are_honest (tools.tests.test_checks.RealRepo.test_repository_classifications_are_honest) ... ok
+test_repository_passes (tools.tests.test_checks.RealRepo.test_repository_passes) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.476s
+
+OK

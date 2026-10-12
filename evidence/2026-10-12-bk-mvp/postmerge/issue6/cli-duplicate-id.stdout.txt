@@ -1,0 +1,2 @@
+FAIL entries[1] (SPEC.md): duplicate id 'README.md'
+check-inventory: 1 problem(s)

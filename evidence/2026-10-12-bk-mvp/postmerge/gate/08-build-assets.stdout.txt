@@ -1,0 +1,7 @@
+make[1]: Entering directory '/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate'
+/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python -I tools/build_assets.py build --output-dir "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-6222a74-assets"
+Built local review artifacts: /workspace/scratch/5ecc3c6cf97a/triage/postmerge-6222a74-assets
+Source revision: 6222a745195e9f15a14069e79210ad45daa16c94; input changes: 0
+Manifest SHA-256: 561cbee4bb125927039cfda8e6581a64cd15c8ecef41b91f73dd81139d1f51b4
+Release/identity/rights/consumer approval: PENDING. No font distribution or provider call.
+make[1]: Leaving directory '/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate'
