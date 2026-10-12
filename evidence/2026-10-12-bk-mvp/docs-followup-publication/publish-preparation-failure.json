@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-12T18:29:04.167308+00:00",
+  "command": [
+    "python",
+    "triage/prepare-text-evidence-publish.py",
+    "/workspace/scratch/5ecc3c6cf97a/triage/docs-followup-evidence-packet-v2",
+    "a6e94be639cc516d0c94b0473edf61437ec4a07a",
+    "evidence/2026-10-12-bk-mvp/docs-followup",
+    "docs-e4-preflight"
+  ],
+  "exit_code": 1,
+  "cause": "Started local tree preparation before the separately started fetch completed. The evidence parent tree was not yet available locally; git rev-parse returned128.",
+  "remote_tree_created": false,
+  "remote_commit_created": false,
+  "ref_moved": false,
+  "recovery": "Wait for the actual fetch result, verify the required parent object, then rerun local preparation. Original failure remains recorded; it is not a source validation failure or a pass."
+}

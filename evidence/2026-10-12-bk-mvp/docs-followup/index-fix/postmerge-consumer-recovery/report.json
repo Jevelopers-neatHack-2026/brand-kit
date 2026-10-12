@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+  "mode": "actual local CSS/Tailwind fixtures; no font or commerce provider request",
+  "pinned_tailwind": "3.4.19",
+  "lock_sha256": "f417f529596f2bd358c9bc85f83eb46cdac544a240f7883ec040ff5a31453c3d",
+  "prior_failed_and_skipped_evidence": {
+    "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/report.json",
+    "sha256": "659a79b435beecb2e466573ee7d6e615bfe8494c1a45d16f34848c5f4d3ecf90",
+    "note": "Initial make check-consumers also had a required Tailwind skip because the fresh checkout lacked its pinned local dependency; the earlier report interpretation did not enumerate this additional cause. It remains preserved, not a pass."
+  },
+  "checks": [
+    {
+      "command": [
+        "make",
+        "check-consumers-local"
+      ],
+      "started_utc": "2026-10-12T18:16:30.343735+00:00",
+      "ended_utc": "2026-10-12T18:16:32.305883+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-consumer-recovery/00.stdout.txt",
+        "sha256": "2b7bb7924bf3d16533cc25d7d86fe970d1f7e74266ff39ca75583cb513aa5b16",
+        "bytes": 2504
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-consumer-recovery/00.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    },
+    {
+      "command": [
+        "make",
+        "check-consumers"
+      ],
+      "started_utc": "2026-10-12T18:16:32.306335+00:00",
+      "ended_utc": "2026-10-12T18:16:34.703280+00:00",
+      "exit_code": 2,
+      "outcome": "fail",
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-consumer-recovery/01.stdout.txt",
+        "sha256": "6c5f0c849d91cff03258578f655993c58a9472e2ea0f7fe5481de7155fef50c8",
+        "bytes": 2677
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-consumer-recovery/01.stderr.txt",
+        "sha256": "0c081ca0951218d833ad2144a1c2d89211fe6336f0630bb6d988107976581cd0",
+        "bytes": 49
+      }
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--porcelain",
+        "--untracked-files=all"
+      ],
+      "started_utc": "2026-10-12T18:16:34.703949+00:00",
+      "ended_utc": "2026-10-12T18:16:34.707735+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-consumer-recovery/02.stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-consumer-recovery/02.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    }
+  ],
+  "state": "complete",
+  "release_approved": false
+}

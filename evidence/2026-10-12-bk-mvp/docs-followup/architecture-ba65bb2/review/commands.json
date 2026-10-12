@@ -1,0 +1,202 @@
+[
+  {
+    "name": "inventory",
+    "argv": [
+      "make",
+      "check-inventory",
+      "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr27-review-ba65",
+    "revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "started_at": "2026-10-12T18:03:42.473605+00:00",
+    "duration_seconds": 0.06,
+    "exit_code": 0,
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/inventory.stdout",
+    "stdout_sha256": "2b9cf110fcfb0e6ea7c3bee3401e33e02708e220aed4c8b35adee256103ecf67",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/inventory.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "links",
+    "argv": [
+      "make",
+      "check-links",
+      "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr27-review-ba65",
+    "revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "started_at": "2026-10-12T18:03:42.533554+00:00",
+    "duration_seconds": 0.133,
+    "exit_code": 0,
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/links.stdout",
+    "stdout_sha256": "b62ad85c684f065e99f9df3b7d1e068a88200147d8bc7cf985d769219a75f117",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/links.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "governance",
+    "argv": [
+      "make",
+      "check-governance",
+      "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr27-review-ba65",
+    "revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "started_at": "2026-10-12T18:03:42.667149+00:00",
+    "duration_seconds": 0.028,
+    "exit_code": 0,
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/governance.stdout",
+    "stdout_sha256": "24719e864e86e498ce68b4605498b5b6d5aed93ffd719a9e25a6e374b936ca12",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/governance.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "guidelines",
+    "argv": [
+      "make",
+      "check-guidelines",
+      "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr27-review-ba65",
+    "revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "started_at": "2026-10-12T18:03:42.695351+00:00",
+    "duration_seconds": 0.69,
+    "exit_code": 0,
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/guidelines.stdout",
+    "stdout_sha256": "688960e3a797958de00cbe255e1b7a80a64b7a8ad7ea4b5cd62645bffa2f44eb",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/guidelines.stderr",
+    "stderr_sha256": "b125cd87b9473de6ed5553ad8b33f595eb72de8d82ab3a1518e874f27bc621ec"
+  },
+  {
+    "name": "diff-main",
+    "argv": [
+      "git",
+      "diff",
+      "--check",
+      "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "HEAD"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr27-review-ba65",
+    "revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "started_at": "2026-10-12T18:03:43.385128+00:00",
+    "duration_seconds": 0.003,
+    "exit_code": 0,
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/diff-main.stdout",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/diff-main.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "diff-owner",
+    "argv": [
+      "git",
+      "diff",
+      "--check",
+      "3eebe0c15ed025c5a074b56629c3ca2cf1483829",
+      "HEAD"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr27-review-ba65",
+    "revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "started_at": "2026-10-12T18:03:43.387938+00:00",
+    "duration_seconds": 0.007,
+    "exit_code": 0,
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/diff-owner.stdout",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/diff-owner.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "local-tree-parity",
+    "argv": [
+      "git",
+      "diff",
+      "--exit-code",
+      "7c5c7490fd0e9e1278ef390cf918840920aaab71",
+      "HEAD"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr27-review-ba65",
+    "revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "started_at": "2026-10-12T18:03:43.395073+00:00",
+    "duration_seconds": 0.002,
+    "exit_code": 0,
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/local-tree-parity.stdout",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/local-tree-parity.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "ancestor-prior",
+    "argv": [
+      "git",
+      "merge-base",
+      "--is-ancestor",
+      "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+      "HEAD"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr27-review-ba65",
+    "revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "started_at": "2026-10-12T18:03:43.397331+00:00",
+    "duration_seconds": 0.002,
+    "exit_code": 0,
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/ancestor-prior.stdout",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/ancestor-prior.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "ancestor-main",
+    "argv": [
+      "git",
+      "merge-base",
+      "--is-ancestor",
+      "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "HEAD"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr27-review-ba65",
+    "revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "started_at": "2026-10-12T18:03:43.399366+00:00",
+    "duration_seconds": 0.003,
+    "exit_code": 0,
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/ancestor-main.stdout",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/ancestor-main.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "ancestor-original-owner",
+    "argv": [
+      "git",
+      "merge-base",
+      "--is-ancestor",
+      "3eebe0c15ed025c5a074b56629c3ca2cf1483829",
+      "HEAD"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr27-review-ba65",
+    "revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "started_at": "2026-10-12T18:03:43.402001+00:00",
+    "duration_seconds": 0.002,
+    "exit_code": 0,
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/ancestor-original-owner.stdout",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/ancestor-original-owner.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "clean",
+    "argv": [
+      "git",
+      "status",
+      "--porcelain",
+      "--untracked-files=all"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr27-review-ba65",
+    "revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "started_at": "2026-10-12T18:03:43.404480+00:00",
+    "duration_seconds": 0.018,
+    "exit_code": 0,
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/clean.stdout",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/clean.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

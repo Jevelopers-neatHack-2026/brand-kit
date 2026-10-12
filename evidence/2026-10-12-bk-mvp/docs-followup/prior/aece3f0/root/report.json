@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "revision": "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+  "tree": "cecbd59790c11a9edead8e0e9e50e3061af43711",
+  "local_tree_equivalent_revision": "110310c1998d88c4f559afb2e4574ddf258597de",
+  "base_main": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+  "owner_parent": "3eebe0c15ed025c5a074b56629c3ca2cf1483829",
+  "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr25-candidate",
+  "mode": "local-source; no providers",
+  "environment": {
+    "PYTHON": "/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python",
+    "PLAYWRIGHT_BROWSERS_PATH": "/tmp/ticketstub-browser-1194"
+  },
+  "checks": [
+    {
+      "command": [
+        "make",
+        "check"
+      ],
+      "revision": "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+      "started_utc": "2026-10-12T17:56:25.319212+00:00",
+      "ended_utc": "2026-10-12T17:57:01.462642+00:00",
+      "exit_code": 0,
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-published-candidate-validation/00.stdout.txt",
+        "sha256": "d27e3aba672d6b1f3c9f543fe32f877c04c3d5e6def9477bb6f406feb7c23d05",
+        "bytes": 21017
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-published-candidate-validation/00.stderr.txt",
+        "sha256": "875cfe210bb40238883cec35da4c8e049a3c8ab15f58b73b7bbda5b95d9a9d57",
+        "bytes": 34206
+      }
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+        "HEAD"
+      ],
+      "revision": "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+      "started_utc": "2026-10-12T17:57:01.463213+00:00",
+      "ended_utc": "2026-10-12T17:57:01.466749+00:00",
+      "exit_code": 0,
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-published-candidate-validation/01.stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-published-candidate-validation/01.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--exit-code",
+        "110310c1998d88c4f559afb2e4574ddf258597de",
+        "HEAD"
+      ],
+      "revision": "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+      "started_utc": "2026-10-12T17:57:01.467091+00:00",
+      "ended_utc": "2026-10-12T17:57:01.469081+00:00",
+      "exit_code": 0,
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-published-candidate-validation/02.stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-published-candidate-validation/02.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--porcelain",
+        "--untracked-files=all"
+      ],
+      "revision": "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+      "started_utc": "2026-10-12T17:57:01.469434+00:00",
+      "ended_utc": "2026-10-12T17:57:01.489590+00:00",
+      "exit_code": 0,
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-published-candidate-validation/03.stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-published-candidate-validation/03.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    }
+  ],
+  "state": "complete",
+  "all_commands_zero": true,
+  "external_links": "Unchecked by the local link checker; Product PR117 is a separate prerequisite",
+  "production_eligibility": "Not rerun for documentation-only delta; actual M2 prior failed checks preserved in immutable E3 evidence; no approval changed"
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "mode": "local publication preflight; no upload occurred",
+  "recorded_at": "2026-10-12T18:27:45.985681+00:00",
+  "initial_command": [
+    "python",
+    "triage/assemble-docs-followup-evidence.py"
+  ],
+  "exit_code": 1,
+  "outcome": "failed",
+  "reason": "Publication guard rejected two body keys in role-receipts/independent-wording-review.json; full public comment text must not be included.",
+  "initial_working_directory": "triage/docs-followup-evidence-packet",
+  "initial_working_copy_preserved": true,
+  "source_report_preserved": true,
+  "original_report_sha256": "2ba6c6157747cb7d632dc21f182bcbfab6b97839065a7a2f6603ec8931151e3c",
+  "removed_fields": [
+    {
+      "json_path": "/assignment_evidence/0/body",
+      "source_url": "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/7#issuecomment-6105489382",
+      "source_text_sha256": "20b139cc99889322340c0d0f5d68b1677ed3592745662b2d2ac937b0f0c928a8",
+      "source_text_bytes": 1576
+    },
+    {
+      "json_path": "/assignment_evidence/1/body",
+      "source_url": "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/5#issuecomment-6112307412",
+      "source_text_sha256": "6f85a8143acbb29e0621c0d2439d5293e390ef020daf9614321f9f4031f06df6",
+      "source_text_bytes": 1108
+    }
+  ],
+  "correction": "Use a separately identified curated report with exact source text hashes and original report digest; no weakening of the publication guard. Assemble a distinct v2 packet.",
+  "corrected_source": "triage/e4-role-integration-review-curated.json",
+  "corrected_sha256": "9201c14d156f00ddd01ed44c6423da226221784b632dc8a930f312ad24a235e9"
+}

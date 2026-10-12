@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-12 18:23:03 UTC",
+  "source_repository": "Jevelopers-neatHack-2026/brand-kit",
+  "evidence_commit": "cd744af6da5b1f89f410383fac5937e1ea8d6705",
+  "readme_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/cd744af6da5b1f89f410383fac5937e1ea8d6705/evidence/2026-10-12-bk10-candidate-binding/postmerge/README.md",
+  "gate_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/cd744af6da5b1f89f410383fac5937e1ea8d6705/evidence/2026-10-12-bk10-candidate-binding/postmerge/gate/report.json",
+  "receipt_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/26#issuecomment-6129876234",
+  "attribution": "Other maintainer's actual postmerge run; root fetched and inspected immutable report, not rerun or relabeled as M4",
+  "source_sha": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+  "source_tree": "1d9d3f7e030cf65f4737b7fe2446c83ade441579",
+  "recorded_at": "2026-10-12T18:02:31.771062+00:00",
+  "result": "blocked",
+  "release_approved": false,
+  "blockers": [
+    "approved artifact unavailable; review archive is diagnostic only",
+    "no exact reviewed distribution source SHA is recorded",
+    "brand version has not been selected by the owner",
+    "distribution: missing exact decision fields",
+    "font_delivery: missing exact decision fields",
+    "BK-01: missing exact decision fields",
+    "BK-02: missing exact decision fields",
+    "BK-03A: missing exact decision fields",
+    "BK-03B: missing exact decision fields",
+    "BK-04: missing exact decision fields",
+    "BK-05: missing exact decision fields",
+    "BK-06: missing exact decision fields",
+    "BK-07: missing exact decision fields",
+    "BK-08: missing exact decision fields",
+    "BK-09: missing exact decision fields",
+    "getticketstub.com: missing exact decision fields",
+    "landing-page-repo: missing exact decision fields",
+    "marketing-material: missing exact decision fields",
+    "identity_ratification: missing exact decision fields",
+    "rights_review: missing exact decision fields",
+    "visual_assets: missing exact decision fields",
+    "browser_accessibility: missing exact decision fields",
+    "external_font_available_and_unavailable: missing exact decision fields",
+    "claims_review: missing exact decision fields",
+    "sanitization_and_history: missing exact decision fields",
+    "upgrade_and_approved_rollback: missing exact decision fields",
+    "release_review: missing exact decision fields",
+    "check-provenance: required command did not pass",
+    "package-brand: required command did not pass",
+    "check-consumers: required command did not pass"
+  ],
+  "commands": [
+    {
+      "command": [
+        "make",
+        "check-inventory"
+      ],
+      "target": "check-inventory",
+      "mode": "local_repository_check",
+      "exit_code": 0,
+      "result": "pass",
+      "required": true,
+      "started_at": "2026-10-12T17:59:21.345002+00:00",
+      "elapsed_seconds": 0.043
+    },
+    {
+      "command": [
+        "make",
+        "check-links"
+      ],
+      "target": "check-links",
+      "mode": "local_repository_check",
+      "exit_code": 0,
+      "result": "pass",
+      "required": true,
+      "started_at": "2026-10-12T17:59:21.387721+00:00",
+      "elapsed_seconds": 0.113
+    },
+    {
+      "command": [
+        "make",
+        "check-governance"
+      ],
+      "target": "check-governance",
+      "mode": "local_repository_check",
+      "exit_code": 0,
+      "result": "pass",
+      "required": true,
+      "started_at": "2026-10-12T17:59:21.500511+00:00",
+      "elapsed_seconds": 0.027
+    },
+    {
+      "command": [
+        "make",
+        "check-provenance"
+      ],
+      "target": "check-provenance",
+      "mode": "local_repository_check",
+      "exit_code": 2,
+      "result": "fail",
+      "required": true,
+      "started_at": "2026-10-12T17:59:21.527075+00:00",
+      "elapsed_seconds": 0.064
+    },
+    {
+      "command": [
+        "make",
+        "build-tokens"
+      ],
+      "target": "build-tokens",
+      "mode": "local_repository_check",
+      "exit_code": 0,
+      "result": "pass",
+      "required": true,
+      "started_at": "2026-10-12T17:59:21.590942+00:00",
+      "elapsed_seconds": 0.056
+    },
+    {
+      "command": [
+        "make",
+        "check-tokens"
+      ],
+      "target": "check-tokens",
+      "mode": "local_repository_check",
+      "exit_code": 0,
+      "result": "pass",
+      "required": true,
+      "started_at": "2026-10-12T17:59:21.646628+00:00",
+      "elapsed_seconds": 1.904
+    },
+    {
+      "command": [
+        "make",
+        "check-tokens-tailwind"
+      ],
+      "target": "check-tokens-tailwind",
+      "mode": "local_repository_check",
+      "exit_code": 0,
+      "result": "pass",
+      "required": true,
+      "started_at": "2026-10-12T17:59:23.550450+00:00",
+      "elapsed_seconds": 3.368
+    },
+    {
+      "command": [
+        "make",
+        "build-assets",
+        "ASSET_OUTPUT=/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/asset-review"
+      ],
+      "target": "build-assets",
+      "mode": "local_repository_check",
+      "exit_code": 0,
+      "result": "pass",
+      "required": true,
+      "started_at": "2026-10-12T17:59:26.918862+00:00",
+      "elapsed_seconds": 20.052
+    },
+    {
+      "command": [
+        "make",
+        "check-assets"
+      ],
+      "target": "check-assets",
+      "mode": "local_repository_check",
+      "exit_code": 0,
+      "result": "pass",
+      "required": true,
+      "started_at": "2026-10-12T17:59:46.970618+00:00",
+      "elapsed_seconds": 41.021
+    },
+    {
+      "command": [
+        "make",
+        "check-accessibility"
+      ],
+      "target": "check-accessibility",
+      "mode": "local_repository_check",
+      "exit_code": 0,
+      "result": "pass",
+      "required": true,
+      "started_at": "2026-10-12T18:00:27.991658+00:00",
+      "elapsed_seconds": 2.115
+    },
+    {
+      "command": [
+        "make",
+        "check-accessibility-browser"
+      ],
+      "target": "check-accessibility-browser",
+      "mode": "local_repository_check",
+      "exit_code": 0,
+      "result": "pass",
+      "required": true,
+      "started_at": "2026-10-12T18:00:30.106246+00:00",
+      "elapsed_seconds": 24.461
+    },
+    {
+      "command": [
+        "make",
+        "check-guidelines"
+      ],
+      "target": "check-guidelines",
+      "mode": "local_repository_check",
+      "exit_code": 0,
+      "result": "pass",
+      "required": true,
+      "started_at": "2026-10-12T18:00:54.567011+00:00",
+      "elapsed_seconds": 0.587
+    },
+    {
+      "command": [
+        "make",
+        "test"
+      ],
+      "target": "test",
+      "mode": "local_repository_check",
+      "exit_code": 0,
+      "result": "pass",
+      "required": true,
+      "started_at": "2026-10-12T18:00:55.153672+00:00",
+      "elapsed_seconds": 73.975
+    },
+    {
+      "command": [
+        "make",
+        "check-package"
+      ],
+      "target": "check-package",
+      "mode": "local_repository_check",
+      "exit_code": 0,
+      "result": "pass",
+      "required": true,
+      "started_at": "2026-10-12T18:02:09.128514+00:00",
+      "elapsed_seconds": 1.028
+    },
+    {
+      "command": [
+        "make",
+        "package-brand",
+        "BRAND_OUTPUT=/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/approved-brand.zip"
+      ],
+      "target": "package-brand",
+      "mode": "local_repository_check",
+      "exit_code": 2,
+      "result": "fail",
+      "required": true,
+      "started_at": "2026-10-12T18:02:10.156877+00:00",
+      "elapsed_seconds": 0.44
+    },
+    {
+      "command": [
+        "make",
+        "check-consumers"
+      ],
+      "target": "check-consumers",
+      "mode": "local_repository_check",
+      "exit_code": 2,
+      "result": "fail",
+      "required": true,
+      "started_at": "2026-10-12T18:02:10.597033+00:00",
+      "elapsed_seconds": 2.114
+    },
+    {
+      "command": [
+        "make",
+        "check-consumers-browser"
+      ],
+      "target": "check-consumers-browser",
+      "mode": "local_repository_check",
+      "exit_code": 0,
+      "result": "pass",
+      "required": true,
+      "started_at": "2026-10-12T18:02:12.711335+00:00",
+      "elapsed_seconds": 18.244
+    }
+  ],
+  "artifact": {
+    "archive_sha256": "104b4937646886f44cac78508439779db559bebe1a86ebe6acbdaf832314b99f",
+    "brand_version": null,
+    "files_digest": "738026492ee5ce8b9e8b39e04e20e994fd48d6954acfc39621acaaa2bc4963b5",
+    "from_package_brand": false,
+    "kind": "review_candidate",
+    "path": "review-brand.zip",
+    "source_sha": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+    "token_profile": {
+      "name": "ticketstub-token-profile",
+      "version": "1.0.0"
+    }
+  },
+  "integrity_source": [
+    {
+      "path": "postmerge/command.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/command.json",
+      "origin": "actual postmerge command/setup execution against exact main SHA",
+      "original_sha256": "23dae105d881774c03e63d956e498baf675a2311ff28ccf99c2a26138e85e16a",
+      "published_sha256": "23dae105d881774c03e63d956e498baf675a2311ff28ccf99c2a26138e85e16a",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/gate/report.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/postmerge-41001e1/gate/report.json",
+      "origin": "actual postmerge leaf command; synthetic cases remain labeled",
+      "original_sha256": "2674501d12129b86524c9de20956883ac053d2615286eb037a78a094294f41d4",
+      "published_sha256": "2674501d12129b86524c9de20956883ac053d2615286eb037a78a094294f41d4",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    },
+    {
+      "path": "postmerge/github-merge.json",
+      "source_path": "/workspace/scratch/3af480cc2b4f/validation/merge-26-sanitized.json",
+      "origin": "selected fresh GitHub preflight, normal merge response, and resulting main/parent/tree metadata; unrelated account/repository fields omitted",
+      "original_sha256": "e6d297442bbc53dc3b5fcce7633a537633ae013a65942e79c9d115644fa1f7ac",
+      "published_sha256": "e6d297442bbc53dc3b5fcce7633a537633ae013a65942e79c9d115644fa1f7ac",
+      "withheld_line_numbers": [],
+      "access": "public sanitized engineering evidence"
+    }
+  ],
+  "scope": "The M3 full 17-target gate ran and has 14 passes and 3 failures. M4 differs by one governance paragraph, tested separately. No acceptance granted."
+}

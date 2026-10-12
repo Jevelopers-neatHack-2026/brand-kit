@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "reviewer": "/root/pr3_reconcile — independent Astra source review",
+  "reviewed_at": "2026-10-12 17:58:15 UTC",
+  "verdict": "APPROVE_SCOPED_SOURCE; MERGE_HOLD_UPSTREAM_PREREQUISITE",
+  "merge_ready": false,
+  "candidate": {
+    "repository": "Jevelopers-neatHack-2026/brand-kit",
+    "source_sha": "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+    "tree": "cecbd59790c11a9edead8e0e9e50e3061af43711",
+    "parent": "3eebe0c15ed025c5a074b56629c3ca2cf1483829",
+    "branch": "docs/bk-pr25-preserve-source-evidence",
+    "main_comparison": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+    "local_equivalent_source": "110310c1998d88c4f559afb2e4574ddf258597de",
+    "local_equivalent_is_same_tree": true,
+    "remote_commit_and_ref_independently_verified": true,
+    "isolated_review_checkout": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr25-review-remote"
+  },
+  "scope": {
+    "against_main": [
+      "docs/architecture/OWNERSHIP.md",
+      "docs/architecture/ACCEPTANCE.md",
+      "docs/source-of-truth.md"
+    ],
+    "against_owner": [
+      "docs/architecture/OWNERSHIP.md",
+      "docs/source-of-truth.md"
+    ],
+    "changed_from_main_count": 3,
+    "unchanged_tracked_paths": 114,
+    "independence": "Reviewed the complete final three-file delta against main and corrective delta against original PR25. The reviewer authored portions of the earlier OWNERSHIP baseline; this approval excludes independent reapproval of that baseline and covers the new non-self-authored changes only.",
+    "source_edits_by_reviewer": false,
+    "github_mutations_by_reviewer": false
+  },
+  "findings": [],
+  "prior_findings_resolved": [
+    {
+      "area": "Dated visibility",
+      "result": "Preserves actual2026-10-12 Public record and superseded2026-10-10 Private history at an immutable source link; no settings change or fabricated new command. Fresh API also reports public/private:false."
+    },
+    {
+      "area": "Edition and foreign ownership",
+      "result": "Retains PR2 ticket-studio handoff, creative-engine artwork-version ownership, print-production printable composition and shared-contracts canonical interfaces. Restores event-intelligence research/assets/permission boundary and consumer-owned app behavior."
+    },
+    {
+      "area": "Byte parity vs approval",
+      "result": "Records exact14-SVG comparison product783a9fa03e3d64b752cd8c5ad913c223db29118d versus brand3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4, with source-index link and explicit missing rights/deployment/ACK."
+    },
+    {
+      "area": "PR3/PR22",
+      "result": "Restores merged link repair at3c48922/product43bb721 and links the existing hunk disposition; paper-only app, foil and sound remain pending scoped owner decisions."
+    },
+    {
+      "area": "Font rights",
+      "result": "Existing source-only TTFs and bundled OFL notices are distinguished from unresolved acquisition/rights verification and prohibited self-hosted delivery; no clearance granted."
+    },
+    {
+      "area": "Source-index consistency",
+      "result": "Dates the future-layout and icon-responsibility statements to exact earlier ownership at a664cc99884b2679f2c6ea15c6c3e8b98b768755. Current guide reference is separate; no-move decision and unresolved icon-system decision remain unchanged."
+    },
+    {
+      "area": "Master acceptance",
+      "result": "Pinned checklist56018576a9450a2bb46aa55ed3b2f9d9ae97e50d was retrieved; ART05/EVAL04 headings, P0 priorities and Creative/fulfillment vs Finance/reliability roles match. No master state, foreign code or acceptance changed."
+    }
+  ],
+  "source_preservation": {
+    "four_public_sources_and_snapshot_unchanged": true,
+    "source_sha256": {
+      "docs/architecture/OWNERSHIP.md": "b10a615b845768ad71e00a011ee91a174e5b289fdf764eb3adfd24f035572d8a",
+      "docs/architecture/ACCEPTANCE.md": "ecb06519ba27f57b45c7e005d52aec979500af5daeed33decfe8d3d140aef4e4",
+      "docs/source-of-truth.md": "83c65b0b6a6c2e9d1db925494f4999151ac1924d2019c3a709814bc9da0558b3"
+    },
+    "generated_assets_tokens_tools_and_consumer_fixtures_unchanged": true,
+    "production_allowlist_and_approval_records_unchanged": true,
+    "licence_or_identity_approval_introduced": false
+  },
+  "policy": {
+    "contribution_blob": "1ffae49f24097cf30d64c146b66f63c77f61a2c1",
+    "pr_template_blob": "19c6629bd5a4af6ae27dc12419a80eaf22872cfe",
+    "refreshed_at": "2026-10-12 17:54:46 UTC",
+    "local_rule": "Documentation-only clarifications require a reviewer other than the author and accountable approver informed. No acceptance or configured enforcement is inferred.",
+    "template_requirement": "Use neutral Refs and preserve scope, dependencies, exact revision/evidence, provider mode and review limits. This report does not approve an unseen future PR body.",
+    "inherited_agent_instructions": "No local/ancestor AGENTS was found in the earlier current-main review; no AGENTS path is changed by this candidate."
+  },
+  "executed_validation": {
+    "revision": "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+    "mode": "Offline actual source checks and existing synthetic negative fixtures",
+    "exact_commands_record": "commands.json",
+    "results": [
+      {
+        "command": "make check-inventory PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python",
+        "exit_code": 0,
+        "outcome": "117 entries cover all tracked files"
+      },
+      {
+        "command": "make check-links PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python",
+        "exit_code": 0,
+        "outcome": "385 local links resolved,0 broken;164 external URLs explicitly UNCHECKED"
+      },
+      {
+        "command": "make check-governance PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python",
+        "exit_code": 0,
+        "outcome": "governance shape passes"
+      },
+      {
+        "command": "make check-guidelines PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python",
+        "exit_code": 0,
+        "outcome": "4 frozen public source hashes,14 claim rows,8 usage pairs,14 variants;24 tests pass"
+      },
+      {
+        "command": "git diff --check 3eebe0c15ed025c5a074b56629c3ca2cf1483829 aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+        "exit_code": 0
+      },
+      {
+        "command": "git diff --check a664cc99884b2679f2c6ea15c6c3e8b98b768755 aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+        "exit_code": 0
+      },
+      {
+        "command": "git diff --exit-code 110310c1998d88c4f559afb2e4574ddf258597de aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+        "exit_code": 0,
+        "outcome": "same source tree; this review's checks nevertheless ran directly on remote commit"
+      }
+    ],
+    "clean_before_and_after": true,
+    "local_failures_during_this_review": [],
+    "not_executed": "Root is independently running full make check on exact published commit. Asset rendering, browser matrices, production gates and provider availability were not rerun by this reviewer for this documentation-only change."
+  },
+  "merge_hold": {
+    "status": "BLOCKED",
+    "upstream_pr": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/117",
+    "latest_head": "60d3b6aa074caddca4d362ba8b13b56fe4436177",
+    "observed_state": "open/non-draft, mergeable:true, mergeable_state:unstable",
+    "explicit_author_instruction": "Product117 must merge first so the new CURRENT-STATE.md links resolve on main.",
+    "missing_target": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/main/docs/architecture/CURRENT-STATE.md",
+    "independently_observed_result": "GitHub contents API refmain returns404 NOT_FOUND",
+    "affected_locations": "OWNERSHIP Current handoff and Architecture sources both link the target; candidate now explicitly states the prerequisite.",
+    "owner_role": "Product/frontend architecture documentation owner and Product repository reviewer",
+    "required_next_action": "That owner completes/merges117; then refresh actual Product main, retrieve target successfully, confirm applicable source/policy and recheck original/corrective heads before normal brand merge.",
+    "foreign_merge_authorized": false,
+    "source_approval_waives_prerequisite": false,
+    "external_unchecked_or_404_counted_as_pass": false
+  },
+  "final_remote_guards": {
+    "observed_at": "2026-10-12 17:57:04 UTC",
+    "original_pr25_head": "3eebe0c15ed025c5a074b56629c3ca2cf1483829",
+    "original_pr25_state": "open, unchanged",
+    "corrective_ref_head": "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+    "main": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+    "product117_head": "60d3b6aa074caddca4d362ba8b13b56fe4436177",
+    "product117_state": "open"
+  },
+  "retained_evidence": [
+    {
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-readonly-triage.json",
+      "sha256": "99f1ec3d18b7bd3d6d866114decbdfcd143483d0550107690a42afb5103227c4",
+      "status": "Original findings and404 prerequisite retained; not relabeled a pass."
+    },
+    {
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-followup-validation.json",
+      "status": "Earlier local correction evidence retained."
+    },
+    {
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-followup-final-validation.json",
+      "sha256": "7a68628368f0e63970e1f3885abd2da8d9cb99ecadd4e1ffa577d89e438ca831",
+      "status": "Author's exact110310 equivalent-tree validation, separate from this actual remote-head execution."
+    }
+  ],
+  "attributable_comment_text": "Independent Astra source review by /root/pr3_reconcile: APPROVE the scoped documentation changes at aece3f0e0b14e2154a313ae5f37f8cdebc12fa21, tree cecbd59790c11a9edead8e0e9e50e3061af43711, direct parent original PR25 head 3eebe0c15ed025c5a074b56629c3ca2cf1483829. MERGE HOLD remains for getticketstub.com PR117. I reviewed the full three-file delta against main a664cc99884b2679f2c6ea15c6c3e8b98b768755 and the corrective delta against the original owner proposal; this excludes independent reapproval of baseline text I previously authored.\n\nThe corrections preserve the dated visibility record, PR2/creative/print boundaries, actual 14-SVG comparison, PR22 versus PR3 disposition, source-only font restrictions and master acceptance ownership. The two source-index references now explicitly identify their historical ownership source, preserving no-move and unresolved icon decisions. Four public guideline sources, their frozen snapshot and all implementation/asset/approval data are unchanged.\n\nIn my own clean detached checkout of the exact remote commit, inventory 117, local links 385/0 broken/164 external unchecked, governance, guidelines 24 tests and both diff checks passed. Local 110310 and remote aece3f0 have identical trees; these reviewer checks ran directly on aece3f0.\n\nAt 17:57:04 UTC, original PR25 remained 3eebe0, main remained a664cc, and Product117 remained OPEN at 60d3b6aa074caddca4d362ba8b13b56fe4436177. The required CURRENT-STATE.md/main target still returned 404. Neither local link success nor this source approval satisfies that explicit upstream merge-and-link prerequisite. Preserve the earlier findings/failure evidence and recheck exact heads/target after the Product owner resolves it. No rights, identity, consumer or release acceptance is asserted."
+}

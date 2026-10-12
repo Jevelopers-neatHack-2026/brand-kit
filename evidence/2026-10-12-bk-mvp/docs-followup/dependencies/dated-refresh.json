@@ -1,0 +1,397 @@
+{
+  "schema": "ticketstub-e4-final-dependency-refresh@1",
+  "recorded_at": "2026-10-12T18:09:53.517Z",
+  "mode": "Read-only GitHub/source/CI observations; local curated report only; no foreign mutations or execution.",
+  "hash_convention": "body/content hashes are SHA-256 of returned UTF-8 text. Source canonical JSON hashes recursively sort object keys, preserve array order and use compact UTF-8 JSON.",
+  "product117": {
+    "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/117",
+    "observed_at": "2026-10-12T18:03:46.657Z",
+    "title": "docs: reconcile current architecture and HTTP boundaries",
+    "state": "open",
+    "merged": false,
+    "draft": false,
+    "head_sha": "60d3b6aa074caddca4d362ba8b13b56fe4436177",
+    "base_sha": "01c65ae2290447c523823bf4601d6373ce4c6ca2",
+    "merged_at": null,
+    "actual_merge_sha": null,
+    "author": "CompleteDotTech",
+    "updated_at": "2026-10-12T17:53:55Z",
+    "body_utf8_sha256": "535a89b66e9e1a999fee613ad892b85ee2de4ee93a5e1509262e2efc120ca109",
+    "source_canonical_json_sha256": "91fa661b1ad31ebdd24849497b2abbe09b56863bcf45c1b16e8d8a00b28fa8c8",
+    "checks_observed_at": "2026-10-12T18:04:27.330Z",
+    "current_head_check": {
+      "name": "build-and-smoke",
+      "status": "completed",
+      "conclusion": "failure",
+      "started_at": "2026-10-12T17:54:59Z",
+      "completed_at": "2026-10-12T17:59:47Z",
+      "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/actions/runs/38287279004/job/114938560052",
+      "job_id": 114938560052,
+      "source_canonical_json_sha256": "a582d9356ea1c648520b0e74d9a699f29906748a3f89b2ae40979e0e9bb4c464"
+    },
+    "formal_reviews": 0,
+    "review_observed_at": "2026-10-12T18:06:27.648Z",
+    "prior_bot_review": {
+      "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/117#issuecomment-6129452065",
+      "head_sha": "e83f473d43d6cd0cf535cf20c1a8203e5f6f9e34",
+      "scope": "Older security-summary head; not current candidate approval."
+    },
+    "failure_diagnostic": {
+      "observed_at": "2026-10-12T18:06:46.423Z",
+      "job_logs_utf8_sha256": "2708771137edfc8051c6168a9f7b18e2c8cbed32dc7672a127da16a7351643e9",
+      "command": [
+        "node",
+        "scripts/check-analytics-journeys.mjs"
+      ],
+      "mode": "offline Chrome analytics journeys with synthetic ID",
+      "passed": 285,
+      "failed": 2,
+      "failing_cases": [
+        "[phone] claim: the sheet's Email me a link (submit)",
+        "[phone] claim: the sign-in choice, then a sandbox link at the server's answer; never a login"
+      ],
+      "earlier_steps": "lint, unit tests, typecheck, build and analytics consent/page-view ordering passed.",
+      "skipped_steps": [
+        "Verify authentication, storage fixtures and the agent journey (Chrome, offline)",
+        "Verify production server on platform port"
+      ],
+      "artifact_upload": "Step ran but warned that no files were found at its configured product-evidence path; no artifact upload inferred.",
+      "raw_logs_published": false,
+      "diagnostic_retrieval": "Direct generic jobs/annotations URLs were rejected by connector endpoint policy; purpose-built job-step and log read tools succeeded. No bypass or execution occurred."
+    },
+    "default_main_target": {
+      "observed_at": "2026-10-12T18:05:53.277Z",
+      "source_sha": "01c65ae2290447c523823bf4601d6373ce4c6ca2",
+      "tree_sha": "2bd42a5da3c42cd22529c47fd1f703f495383001",
+      "path": "docs/architecture/CURRENT-STATE.md",
+      "present": false,
+      "complete_tree": true
+    },
+    "candidate_target": {
+      "source_sha": "60d3b6aa074caddca4d362ba8b13b56fe4436177",
+      "git_blob_sha": "31d199072287b80237a9b7c65deed2c434a188de",
+      "bytes": 18430,
+      "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/60d3b6aa074caddca4d362ba8b13b56fe4436177/docs/architecture/CURRENT-STATE.md",
+      "source_read": true,
+      "observed_at": "2026-10-12T17:57:09Z",
+      "limit": "Candidate unchanged in current PR refresh; this is not a main-branch target or merged artifact."
+    },
+    "responsible_role": "Product/frontend repository maintainer; current main labels Product/frontend as proposed owner and leaves named appointments unresolved. CompleteDotTech is the observed PR writer, not an inferred independent reviewer.",
+    "exact_next_action": "Diagnose and correct the two failed phone-claim analytics checks; rerun the failed and skipped affected checks on the actual current candidate, obtain current independent review, and have the authorized Product maintainer merge PR117. Then the brand supervisor must verify CURRENT-STATE.md at the actual default-main revision and record the resulting commit/blob before unblocking dependent brand documentation.",
+    "brand_dependency": "Both Product117 and Brand25 explicitly require Product117 to merge first. Mergeability or earlier source tests do not satisfy the failed-check and missing-main-target prerequisites."
+  },
+  "brand26": {
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/26",
+    "observed_at": "2026-10-12T18:03:46.525Z",
+    "title": "fix: validate the approved brand artifact and isolate gate exports",
+    "state": "closed",
+    "merged": true,
+    "draft": false,
+    "head_sha": "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465",
+    "base_sha": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+    "merged_at": "2026-10-12T17:59:04Z",
+    "actual_merge_sha": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+    "author": "CompleteDotTech",
+    "updated_at": "2026-10-12T17:59:06Z",
+    "body_utf8_sha256": "d0cd1a29cd3cc55bf688ec83ba9feb59bc2fbc39cd248c2c440d12e3deeb02b8",
+    "source_canonical_json_sha256": "9fd282efa525ad6674b4244a7dc96b47d9156513c9dc7fefb8b023a3077c67de",
+    "source_tree": "1d9d3f7e030cf65f4737b7fe2446c83ade441579",
+    "public_postmerge_receipt": {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/26#issuecomment-6129842896",
+      "created_at": "2026-10-12T18:05:59Z",
+      "observed_at": "2026-10-12T18:06:27.648Z",
+      "body_utf8_sha256": "e7b51f0442f7bb8c6ed0cb32297fcacd46ef06b64af0f300630f16c0b592a451",
+      "executor": "Separate brand supervisor's /root/asset_pipeline independent reviewer",
+      "source_sha": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "review_sha256": "48d335d59534d8391cf73f8b9e85a1bf9db94d11a40d1f0268bc775ed7e6468c",
+      "execution_report_sha256": "ce95b8990da40d3f5da53542367b0e37b5e30cdff4d357cd8fb994c26dd02eb9",
+      "reported_results": "35 distribution tests passed in65.042s;24 guideline tests passed; inventory117;378 local links/0broken/163external unchecked; governance and diff checks passed; clean checkout.",
+      "scope": "Actual scoped postmerge checks are now publicly recorded. Immutable copies are promised for E4; this is not the original author's full17-target postmerge gate."
+    },
+    "original_owner_full_postmerge_gate": {
+      "status": "Not observed in the latest PR body/discussion or referenced owner evidence branch",
+      "observation_boundary": "Latest discussion read after18:05:59; owner evidence branch observed18:04:27 still at9bb2e7c; its complete tree inspected18:05:53 contains candidate/prior evidence but no postmerge path. This dated observation is not a claim about future or unlinked evidence.",
+      "action": "Original owner must attach actual41001e1 full-gate commands/results and immutable source-bound reports if performed. Candidate19c0 results must remain candidate evidence."
+    },
+    "retained_published_candidate_gate": {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/9bb2e7c79ee1c1a34bbde813f0b93f3e9ae447f3/evidence/2026-10-12-bk10-candidate-binding/candidate/gate/report.json",
+      "evidence_sha": "9bb2e7c79ee1c1a34bbde813f0b93f3e9ae447f3",
+      "source_sha": "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465",
+      "source_tree": "1d9d3f7e030cf65f4737b7fe2446c83ade441579",
+      "recorded_at": "2026-10-12T17:47:47.700064+00:00",
+      "report_utf8_sha256": "c29e0e9247b05664ef9e3e17529cf7ffa8375acfc249b537151ba0751d1ef561",
+      "source_canonical_json_sha256": "13c9c3b2280030093e5ffa4bc81c1cc9dd3b3d62fe4dc39a5b22b67b20cf5b05",
+      "commands": [
+        {
+          "command": [
+            "make",
+            "check-inventory"
+          ],
+          "result": "pass",
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "make",
+            "check-links"
+          ],
+          "result": "pass",
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "make",
+            "check-governance"
+          ],
+          "result": "pass",
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "make",
+            "check-provenance"
+          ],
+          "result": "fail",
+          "exit_code": 2
+        },
+        {
+          "command": [
+            "make",
+            "build-tokens"
+          ],
+          "result": "pass",
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "make",
+            "check-tokens"
+          ],
+          "result": "pass",
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "make",
+            "check-tokens-tailwind"
+          ],
+          "result": "pass",
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "make",
+            "build-assets",
+            "ASSET_OUTPUT=/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/asset-review"
+          ],
+          "result": "pass",
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "make",
+            "check-assets"
+          ],
+          "result": "pass",
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "make",
+            "check-accessibility"
+          ],
+          "result": "pass",
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "make",
+            "check-accessibility-browser"
+          ],
+          "result": "pass",
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "make",
+            "check-guidelines"
+          ],
+          "result": "pass",
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "make",
+            "test"
+          ],
+          "result": "pass",
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "make",
+            "check-package"
+          ],
+          "result": "pass",
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "make",
+            "package-brand",
+            "BRAND_OUTPUT=/workspace/scratch/3af480cc2b4f/validation/candidate-19c0bf1/gate/approved-brand.zip"
+          ],
+          "result": "fail",
+          "exit_code": 2
+        },
+        {
+          "command": [
+            "make",
+            "check-consumers"
+          ],
+          "result": "fail",
+          "exit_code": 2
+        },
+        {
+          "command": [
+            "make",
+            "check-consumers-browser"
+          ],
+          "result": "pass",
+          "exit_code": 0
+        }
+      ],
+      "passes": 14,
+      "failures": 3,
+      "blockers": 30,
+      "release_approved": false
+    },
+    "acceptance_limit": "No rights, identity, font, approved artifact, consumer ACK, release or foreign/master acceptance inferred."
+  },
+  "brand25": {
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25",
+    "observed_at": "2026-10-12T18:03:46.470Z",
+    "title": "docs: clarify brand source and distribution status",
+    "state": "open",
+    "merged": false,
+    "draft": false,
+    "head_sha": "3eebe0c15ed025c5a074b56629c3ca2cf1483829",
+    "base_sha": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+    "merged_at": null,
+    "actual_merge_sha": null,
+    "author": "CompleteDotTech",
+    "updated_at": "2026-10-12T18:00:01Z",
+    "body_utf8_sha256": "f4d9596f3e3b9f88541ac8992ba08050790e5859c0baa65088be5a3ba8e830c5",
+    "source_canonical_json_sha256": "16b4b4dbe3605b15a356c03091bc5879bf580eefc175794bccb82e4cfc7a92b0"
+  },
+  "brand27": {
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/27",
+    "observed_at": "2026-10-12T18:03:46.625Z",
+    "title": "docs: preserve verified evidence in the ownership refresh",
+    "state": "open",
+    "merged": false,
+    "draft": true,
+    "head_sha": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "base_sha": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+    "merged_at": null,
+    "actual_merge_sha": null,
+    "author": "CompleteDotTech",
+    "updated_at": "2026-10-12T18:02:19Z",
+    "body_utf8_sha256": "c029925f901e0b60a164c56629354c271465fa9faf76def8dd1277db8af10bea",
+    "source_canonical_json_sha256": "d33bdccf5c3a74126989684955a344fecb3672763baa55f913c5752e291dca7d",
+    "raw_mergeability": {
+      "observed_at": "2026-10-12T18:04:27.705Z",
+      "mergeable": null,
+      "mergeable_state": "unknown",
+      "interpretation": "unknown/null, not a demonstrated conflict; normalized false was not used as proof."
+    },
+    "tree": "b296f348e6ff5f4a642c30af735cffbc7d2627b8",
+    "parents": [
+      "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+      "41001e1875c544d21ad6b481cfe98c9283b0c58c"
+    ],
+    "delta_from_current_main": [
+      "docs/architecture/ACCEPTANCE.md",
+      "docs/architecture/OWNERSHIP.md",
+      "docs/source-of-truth.md"
+    ],
+    "deliberate_hold": "Draft while Product117 remains unmerged and current default-main target absent. Current body records earlieraece validation; ba65 validation/review is independently managed by the supervisor and not inferred from that prior body."
+  },
+  "marketing_role_receipts": [
+    {
+      "scope": "MM-06",
+      "url": "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/7#issuecomment-6105489382",
+      "observed_at": "2026-10-12T18:04:27.486Z",
+      "created_at": "2026-10-11T04:36:32Z",
+      "updated_at": "2026-10-11T04:36:32Z",
+      "author": "CompleteDotTech",
+      "body_utf8_sha256": "20b139cc99889322340c0d0f5d68b1677ed3592745662b2d2ac937b0f0c928a8",
+      "source_canonical_json_sha256": "d26b88b7746547d75cd2b99b634e5621f14789a10dd0ad4da95fb2b9b5b07551",
+      "limited_scope": [
+        "The marketing-material supervisor is the user-assigned accountable marketing content/brand/handoff reviewer and receiver.",
+        "MM-06-A remains blocked on an owner-approved subset; MM-06-B met only the preserved historical comparison-image checkpoint.",
+        "No final conformance, source rights, artifact ACK, publication permission or assignment to the brand-kit supervisor follows."
+      ]
+    },
+    {
+      "scope": "MM-02",
+      "url": "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/5#issuecomment-6112307412",
+      "observed_at": "2026-10-12T18:04:27.308Z",
+      "created_at": "2026-10-11T18:34:04Z",
+      "updated_at": "2026-10-11T18:34:04Z",
+      "author": "CompleteDotTech",
+      "body_utf8_sha256": "6f85a8143acbb29e0621c0d2439d5293e390ef020daf9614321f9f4031f06df6",
+      "source_canonical_json_sha256": "0594edab317807b05de7cff9ce8476f00c5242f14e2156df97ba40e8fcab60d9",
+      "limited_scope": [
+        "The same marketing supervisor remains accountable reviewer and receiver; a new invented human marketing-review prerequisite is not required.",
+        "Source/candidate consistency is separate from approved final content, Product/Finance/sponsor/rights/destination permissions.",
+        "The r03 explainer has no new internal content disposition; browser capture stays cancelled."
+      ]
+    }
+  ],
+  "pinned_consumer_source_observations": [
+    {
+      "key": "landing_source",
+      "url": "https://github.com/Jevelopers-neatHack-2026/landing-page-repo/blob/dda1b5d48e71ed9c111b82111676b7ef033fe5ef/integration/brand-consumption.md",
+      "observed_at": "2026-10-12T18:04:27.766Z",
+      "utf8_sha256": "c114fddc76efe93cb0e316d6fed8b4f1019891c8a9f94928a270f7abcb18481f",
+      "utf8_bytes": 11260,
+      "scope": "Provisional source inventory; importedBrandFiles empty. Six Google families differ from the two-family brand adapter, Archivo display differs from canonical Fraunces, and documented17x21px stamp differs from24px minimum. Static source observations, no font-response, rendered-conformance or approval claim."
+    },
+    {
+      "key": "marketing_source",
+      "url": "https://github.com/Jevelopers-neatHack-2026/marketing-material/blob/79ae21607eb4d98188f85ce3c42b8be6eb5688bc/review/brand-consumption.md",
+      "observed_at": "2026-10-12T18:04:27.482Z",
+      "utf8_sha256": "b0ca34576d614fe9e3d6b97a887bf461341bac12750ab571b02d4baf25ffa7e2",
+      "utf8_bytes": 13527,
+      "scope": "Historical draft reference to brand3822635, no approved subset, no logo/binary/font import, platform fallback fonts and separate pending upstream brand/landing decisions. Marketing role receipts qualify the accountable marketing supervisor without supplying an artifact ACK."
+    }
+  ],
+  "policy_refs": [
+    {
+      "repository": ".github",
+      "source_sha": "07d750dfb7feeecdeca7d3d1a2363663d7f3517f",
+      "observed_at": "2026-10-12T18:03:46.407Z",
+      "unchanged_since_previous_refresh": true
+    },
+    {
+      "repository": "shared-contracts",
+      "source_sha": "91736a026c02a3206cb7666ebfbe6134692e5a24",
+      "observed_at": "2026-10-12T18:03:46.304Z",
+      "unchanged_since_previous_refresh": true
+    },
+    {
+      "repository": "integration-evals",
+      "source_sha": "f187722613c61e14e3f4087a66d07b2b1e6820f7",
+      "observed_at": "2026-10-12T18:03:46.325Z",
+      "unchanged_since_previous_refresh": true
+    }
+  ],
+  "policy_comparison_receipt": {
+    "path": "final-dependency-policy-refresh.json",
+    "sha256": "379211e5d7d5c7415d29b80e962fa21e3c6ded647b68b4dd873052f35080d7e0",
+    "scope": "Previous complete unchanged-policy/catalog/master-tree comparison. No new policy ref movement observed."
+  },
+  "publication_scope": "Curated metadata, derived diagnostic summaries and hashes only. Full issue/PR/comment bodies and raw workflow logs are not included. Synthetic/check evidence is not owner acceptance.",
+  "foreign_mutations": false
+}

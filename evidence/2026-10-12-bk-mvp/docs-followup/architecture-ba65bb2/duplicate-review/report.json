@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "kind": "read_only_exact_source_duplication_and_owner_receipt_review",
+  "reviewer": "/root/pr3_reconcile",
+  "observed_at_utc": "2026-10-12 18:23:28 UTC",
+  "recommendation": "CLOSE_OUR_PR27_AS_DUPLICATE_SOURCE_NOW_PRESENT_IN_RETAINED_PR25; PRESERVE_PR25_PRODUCT117_MERGE_HOLD",
+  "original_pr25": {
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25",
+    "state": "open",
+    "author": "CompleteDotTech",
+    "head": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "branch": "docs/org-documentation-20261012",
+    "draft": false,
+    "updated_at": "2026-10-12T18:10:20Z",
+    "reported_base": "41001e1875c544d21ad6b481cfe98c9283b0c58c"
+  },
+  "our_pr27": {
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/27",
+    "state": "open",
+    "head": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "branch": "docs/bk-pr25-preserve-source-evidence",
+    "draft": true,
+    "updated_at": "2026-10-12T18:07:27Z"
+  },
+  "comparison": {
+    "identical_commit": true,
+    "identical_tree": true,
+    "tree": "b296f348e6ff5f4a642c30af735cffbc7d2627b8",
+    "head_parents": [
+      "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+      "41001e1875c544d21ad6b481cfe98c9283b0c58c"
+    ],
+    "two_distinct_remote_refs_independently_verified": true,
+    "main": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "remaining_diff_against_main": [
+      "docs/architecture/ACCEPTANCE.md",
+      "docs/architecture/OWNERSHIP.md",
+      "docs/source-of-truth.md"
+    ],
+    "remaining_diff_stat": "3 files changed,56 insertions,52 deletions",
+    "PR26_six_files_and_PR28_paragraph_preserved": true,
+    "unique_source_content_in_PR27": false
+  },
+  "owner_evidence": {
+    "mechanical_source_incorporation": "VERIFIED",
+    "explicit_adoption_or_approval_comment_found": false,
+    "branch_updater_identity": "NOT_ESTABLISHED by the inspected API evidence.",
+    "current_conversation_comment_count": 3,
+    "latest_comment_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25#issuecomment-6129750862",
+    "latest_comment_created_at": "2026-10-12T18:00:01Z",
+    "latest_comment_kind": "Existing corrective-followup notice; not an adoption/ACK response.",
+    "timeline_event_count": 12,
+    "timeline_corrective_commits": [
+      "3eebe0c15ed025c5a074b56629c3ca2cf1483829",
+      "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+      "ba65bb20e9f4e820666cbb3a40154c74676d133d"
+    ],
+    "body_still_requires_upstream_merge": true,
+    "exact_body_prerequisite": "merge getticketstub.com PR #117 first so the link resolves in the default branch.",
+    "wording_recommendation": "Close as duplicate content now present in PR25; do not claim an unrecorded owner approval or completed architecture acceptance."
+  },
+  "product_prerequisite": {
+    "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/117",
+    "state": "open",
+    "merged": false,
+    "head": "60d3b6aa074caddca4d362ba8b13b56fe4436177",
+    "status": "MERGE_HOLD",
+    "checks": [
+      {
+        "name": "build-and-smoke",
+        "status": "completed",
+        "conclusion": "failure",
+        "head": "60d3b6aa074caddca4d362ba8b13b56fe4436177",
+        "started_at": "2026-10-12T17:54:59Z",
+        "completed_at": "2026-10-12T17:59:47Z",
+        "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/actions/runs/38287279004/job/114938560052"
+      }
+    ],
+    "responsible_owner": "Product owner/supervisor resolves its current-head check failure and applicable reviews, merges117, then brand supervisor verifies actual main target and refreshes original25."
+  },
+  "preserved_review_scope": {
+    "exact_ba65_review_path": "triage/pr27-review-ba65bb2/review.json",
+    "sha256": "458636bcc8ca9c5b40c66a124d3aca2d5ac181463a52d83dfddb1d05cc5d959a",
+    "status": "Remains exact-source review at original recorded time; closure/adoption does not change its merge hold.",
+    "postmerge_main_parity_review": "triage/postmerge-index-e254df5/review.json",
+    "postmerge_main_parity_sha256": "be22d8282264c76f074d46f26bf63949e311f75e6f84a98e81176ad78337d598",
+    "prior_findings_and_failed_results": "All older3eebe0/aece3f0/ba65 snapshots and actual Product404/failure results remain retained with original dates."
+  },
+  "review_limits": {
+    "not_a_new_source_approval": true,
+    "no_new_build_or_browser_tests": "Not warranted for identical source; only current remote ref/PR/timeline/status reads and local diff/tree inspection performed.",
+    "formal_reviews_on_PR25": [],
+    "security_summary_on_PR25": "Completed17:45:29 on3eebe0 only; not currentba65 evidence.",
+    "source_mutations": false,
+    "remote_mutations": false
+  },
+  "attributable_summary": "Read-only duplicate/adoption review by /root/pr3_reconcile at 18:23:28 UTC: original PR #25 and draft PR #27 both point to the exact same commit ba65bb20e9f4e820666cbb3a40154c74676d133d, tree b296f348e6ff5f4a642c30af735cffbc7d2627b8. I verified both PR responses and both distinct branch refs, and the PR #25 timeline includes the corrective aece3f0 and ba65bb20 commits. Actual main remains e254df5444f0bfedd5526b0e148b0cdf36cbd31f.\n\nRecommend closing our PR #27 as a duplicate whose exact corrective source is now present in the retained original PR #25. There is no unique source content in #27 to preserve separately. This disposition does not close #25, merge the architecture work, grant approval, or waive its upstream prerequisite.\n\nQualification: PR #25 currently has only three conversation comments, the latest being the 18:00:01 corrective-followup notice. No later explicit owner adoption/ACK comment was found in those comments or the 12-event timeline; its unchanged body still says Product PR #117 must merge first. The evidence establishes exact source incorporation. It does not identify who advanced the original ref or establish a separate owner acceptance decision. Describe closure as duplicate content now carried by #25, rather than claiming an unrecorded approval.\n\nAgainst actual M4, both proposals have the same remaining three-file delta: docs/architecture/OWNERSHIP.md, docs/architecture/ACCEPTANCE.md and two historical references in docs/source-of-truth.md. The merged PR #26 files and PR #28 governance paragraph are already retained. The earlier exact-head ba65bb20 review remains applicable to that same source, with its original date and scope; earlier aece3f0 and original 3eebe0 findings remain historical.\n\nProduct PR #117 remains OPEN at 60d3b6aa074caddca4d362ba8b13b56fe4436177. Its actual build-and-smoke check FAILED at 17:59:47 UTC (https://github.com/Jevelopers-neatHack-2026/getticketstub.com/actions/runs/38287279004/job/114938560052). The retained PR #25 remains on merge hold until its owner resolves that failure, obtains the applicable review/checks, merges the Product change, and the resulting main target is verified. The stale PR #25 security summary covers original 3eebe0 only; do not relabel it as a current-head result.\n\nNo source or remote mutation was performed by this reviewer.",
+  "remaining_main_diff_sha256": "fb4838f4916d6159bfee31bf6c8a77a19185919bf059d11202385a5c4b02b7e3"
+}

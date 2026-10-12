@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+  "tree": "32e3904a8d901b9c6cf75ca1e65829fe98df03f0",
+  "approved_source_candidate": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+  "base_main": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+  "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr28-candidate",
+  "mode": "local-source; synthetic unit fixtures; no provider requests",
+  "environment": {
+    "PYTHON": "/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python",
+    "PLAYWRIGHT_BROWSERS_PATH": "/tmp/ticketstub-browser-1194"
+  },
+  "checks": [
+    {
+      "command": [
+        "make",
+        "check"
+      ],
+      "revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "started_utc": "2026-10-12T18:14:02.096325+00:00",
+      "ended_utc": "2026-10-12T18:15:12.438064+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/00.stdout.txt",
+        "sha256": "77c0a315127b5bff33f0f9998352589b81043662903c0234086cb7f726225bde",
+        "bytes": 20862
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/00.stderr.txt",
+        "sha256": "b6de68a59d68065b53ad6d78983a83c382b42be6ee3bf43a6cb2b04c27017f91",
+        "bytes": 35178
+      }
+    },
+    {
+      "command": [
+        "make",
+        "check-package"
+      ],
+      "revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "started_utc": "2026-10-12T18:15:12.438830+00:00",
+      "ended_utc": "2026-10-12T18:15:13.555673+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/01.stdout.txt",
+        "sha256": "f5e19bdf1e47d292401b1b055300ac5dc203ffc2e886ce411aa11adedebecfdb",
+        "bytes": 486
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/01.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    },
+    {
+      "command": [
+        "make",
+        "check-provenance"
+      ],
+      "revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "started_utc": "2026-10-12T18:15:13.556255+00:00",
+      "ended_utc": "2026-10-12T18:15:13.634053+00:00",
+      "exit_code": 2,
+      "outcome": "fail",
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/02.stdout.txt",
+        "sha256": "725d12624c694d5d3db67370e1b2d84c466b36d7667f2987fc4156a4c4cf7dde",
+        "bytes": 673
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/02.stderr.txt",
+        "sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748",
+        "bytes": 50
+      }
+    },
+    {
+      "command": [
+        "make",
+        "package-brand"
+      ],
+      "revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "started_utc": "2026-10-12T18:15:13.634621+00:00",
+      "ended_utc": "2026-10-12T18:15:14.114960+00:00",
+      "exit_code": 2,
+      "outcome": "fail",
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/03.stdout.txt",
+        "sha256": "ae29f6caabe23faedb1a84584af21104a48b5df7fb8617ae00b29a7f13cd818b",
+        "bytes": 199
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/03.stderr.txt",
+        "sha256": "71e89083a078a0bf21890172988d4e41be2e94bd1a107f2ee5a610b26082839d",
+        "bytes": 47
+      }
+    },
+    {
+      "command": [
+        "make",
+        "check-consumers"
+      ],
+      "revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "started_utc": "2026-10-12T18:15:14.115607+00:00",
+      "ended_utc": "2026-10-12T18:15:15.750496+00:00",
+      "exit_code": 2,
+      "outcome": "fail",
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/04.stdout.txt",
+        "sha256": "8b0a95b459864f7fbd009d1707d8a43bf7759110079cbf81d0ba1fe01b4bf306",
+        "bytes": 2466
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/04.stderr.txt",
+        "sha256": "0c081ca0951218d833ad2144a1c2d89211fe6336f0630bb6d988107976581cd0",
+        "bytes": 49
+      }
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--exit-code",
+        "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+        "HEAD"
+      ],
+      "revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "started_utc": "2026-10-12T18:15:15.751418+00:00",
+      "ended_utc": "2026-10-12T18:15:15.754066+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/05.stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/05.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+        "HEAD"
+      ],
+      "revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "started_utc": "2026-10-12T18:15:15.755413+00:00",
+      "ended_utc": "2026-10-12T18:15:15.758914+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/06.stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/06.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--porcelain",
+        "--untracked-files=all"
+      ],
+      "revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "started_utc": "2026-10-12T18:15:15.759265+00:00",
+      "ended_utc": "2026-10-12T18:15:15.762991+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/07.stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/07.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    }
+  ],
+  "state": "complete",
+  "passing_commands": 5,
+  "failing_commands": 3,
+  "release_approved": false,
+  "interpretation": "Required local source/package checks pass; actual check-provenance, package-brand and check-consumers failures remain failures caused by missing real approval/rights/version/ACK prerequisites. No full17-target gate rerun for this one-paragraph documentation delta.",
+  "external_links": "163 URLs remain unchecked by local link checker; no new external link or Product117 requirement introduced"
+}

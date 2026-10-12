@@ -1,0 +1,399 @@
+diff --git a/docs/brand-governance.md b/docs/brand-governance.md
+index 6a7b4d6..312e15e 100644
+--- a/docs/brand-governance.md
++++ b/docs/brand-governance.md
+@@ -12,15 +12,17 @@ Controls described here are **manual**. This document does not rely on branch pr
+ | Brand implementation/release owner team | CompleteDotTech, LaJefa, Lars | Recorded by the user. CompleteDotTech is a confirmed GitHub username. The later owner request identifies Lars as **@lmvdz**; this identifies the recipient but supplies no reviewer-role acknowledgement. LaJefa's GitHub handle and the per-person BK-03A/B responsibility split remain **Unknown** | [Original team receipt](https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6116787775); [later owner request to @lmvdz (Lars)](https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6118216028) |
+ | Technical token/export reviewer | **Unknown** | Not appointed | Receipt 2026-10-11 says technical reviewer appointments under BK-07.1 "remain outstanding" |
+ | Provenance/rights reviewer | **Unknown** | Not appointed | same |
+-| Affected consumer reviewers (getticketstub.com, landing-page-repo, team-dashboard, marketing-material) | **Unknown** | Not appointed. No consumer repository has acknowledged a review role | same |
++| Affected consumer reviewer — marketing-material | Existing user-assigned marketing-material root/supervisor | Recorded as accountable marketing content/brand/handoff reviewer and receiver. An acknowledgement of this exact brand artifact remains **pending** | [MM-06 role receipt](https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/7#issuecomment-6105489382); [later MM-02 confirmation](https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/5#issuecomment-6112307412) |
++| Affected consumer reviewers — getticketstub.com, landing-page-repo, team-dashboard | **Unknown** | No reviewer-role acknowledgement found in the reviewed sources; exact-artifact acknowledgements also remain pending | [Original reviewer-gap receipt](https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6113526793) |
+ | Release reviewer/publisher | **Unknown** | Not appointed | Not covered by any receipt |
+ 
+ Notes:
+ 
+ - The nomination does **not** approve unseen identity, token or font artifacts, distribution outputs or a release. BK-02 [#9](https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9) needs a real dated decision against an exact source SHA; BK-03B [#14](https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14) needs a reviewed immutable artifact/version; BK-08 [#12](https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12) and BK-09 [#15](https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15) retain accessibility and consumer review obligations.
+-- Until the technical, provenance and consumer reviewer rows name a person with a linked acknowledgement, a decision that needs them cannot reach **approved**. Repo participants may record execution claims through the existing ownership process ([OWNERSHIP](architecture/OWNERSHIP.md)).
++- The marketing receipts record an existing user-assigned reviewer for that consumer; they do not appoint a new reviewer or transfer that supervisor's authority to the brand-kit execution agent. No additional human-only marketing appointment is inferred. Source-owned identity, rights, font and release decisions still require their actual owners, and the marketing supervisor has not acknowledged this exact brand artifact.
++- Until every required technical, provenance and consumer role has a documented holder and linked acknowledgement for the decision, that decision cannot reach **approved**. Repo participants may record execution claims through the existing ownership process ([OWNERSHIP](architecture/OWNERSHIP.md)).
+ - One person may hold several roles only if the decision record says so. The approver must not be the sole reviewer of a decision they authored unless the record states that explicitly and the other required roles are still filled.
+-- Acknowledgements must be added here as links to a real, dated comment or commit by the person. Do not write one on someone's behalf.
++- Acknowledgements must be added here as links to a real, dated comment or commit by the authorized reviewer. Do not write one on someone's behalf.
+ 
+ ## Standing constraints
+ 
+@@ -46,7 +48,7 @@ Every decision record must carry: exact files, revision (commit SHA) and SHA-256
+ Rules:
+ 
+ 0. **Controlling decision.** Eligibility is judged per exact path and SHA-256. Of all decisions listing that path at that hash, the controlling one is the latest by decision date (record order breaks ties). Only its status counts. A rejected or superseded record does not block a hash if a later `approved` decision lists the same hash (a resubmission, or a successor that carries the file unchanged, or a reinstatement). A hash with no decision, or whose controlling decision is not `approved` or has been revoked, is ineligible. Older records are never edited or deleted.
+-1. Pending assets cannot be labelled approved. "Approved" appears only in a record whose reviewer evidence links to a real dated action by the named person.
++1. Pending assets cannot be labelled approved. "Approved" appears only in a record whose reviewer evidence links to a real dated action by the named authorized reviewer.
+ 2. A decision covers only the listed files at the listed hashes. Any other file or hash is unapproved.
+ 3. Decisions are append-only. Correct a mistake with a new record that supersedes the old one.
+ 4. Simulated records live only in [`governance/simulated-walkthrough.md`](governance/simulated-walkthrough.md), carry the marker `FICTIONAL SIMULATION`, and are never release eligible.
+@@ -77,7 +79,7 @@ When in doubt, use the stricter class. A change that touches consumers needs the
+ 2. is recorded in a revocation entry (date, cause, affected versions, previously approved fallback);
+ 3. is communicated to affected consumers through the version/migration record owned here.
+ 
+-**Consumer notification.** A notification names the affected version, what changed, the fallback version, the action required and a date. Sending it is manual (issue comment or linked document). Delivery is not verified automatically, so record where you sent it. Consumers known today: getticketstub.com, landing-page-repo, team-dashboard, marketing-material ([OWNERSHIP](architecture/OWNERSHIP.md)). The consumer owners are unassigned (see table above).
++**Consumer notification.** A notification names the affected version, what changed, the fallback version, the action required and a date. Sending it is manual (issue comment or linked document). Delivery is not verified automatically, so record where you sent it. Consumers known today: getticketstub.com, landing-page-repo, team-dashboard, marketing-material ([OWNERSHIP](architecture/OWNERSHIP.md)). Use the existing marketing supervisor role and the remaining reviewer gaps in the responsibility table above; recording a role here does not establish notification or an exact-artifact acknowledgement.
+ 
+ ## Release eligibility check
+ 
+@@ -96,7 +98,7 @@ Currently **no decision is approved**, so **no release is eligible**.
+ 
+ - [ ] Technical token/export reviewer named, with linked acknowledgement.
+ - [ ] Provenance/rights reviewer named, with linked acknowledgement.
+-- [ ] Affected consumer reviewers named, with linked acknowledgements.
++- [ ] Missing Product, Landing and Dashboard reviewer roles recorded, with linked acknowledgements; exact-decision acknowledgements from all affected consumers, including the existing marketing supervisor, recorded.
+ - [ ] Release reviewer/publisher named.
+ - [ ] LaJefa's GitHub handle verified; Lars/@lmvdz and the other owner-team members acknowledge the responsibilities assigned to them (or an explicit decision not to assign them).
+ - [ ] Reviewed by the accountable approver (@CompleteDotTech), with a link to that review.
+diff --git a/docs/consumers.md b/docs/consumers.md
+index a378159..1ede255 100644
+--- a/docs/consumers.md
++++ b/docs/consumers.md
+@@ -19,17 +19,42 @@ artifact; source-only references remain outside that artifact.
+ | Consumer | Owning role | Observed source evidence | Required brand contract |
+ |---|---|---|---|
+ | getticketstub.com | Product/frontend application composition | [GT-10B #19](https://github.com/Jevelopers-neatHack-2026/getticketstub.com/issues/19) requires actual brand pins; its assembly tool labels missing pins pending | Approved archive/version/file-set hash, CSS/logo import, external-font policy, exact upgrade/rollback and named acknowledgment |
+-| landing-page-repo | Product/frontend public-site owner, with brand identity reviewer | [LP-06 #8](https://github.com/Jevelopers-neatHack-2026/landing-page-repo/issues/8) allows local work while final brand conformance is blocked | The same approved subset, font rules, public-export limits, representative rendered review and named early acknowledgment |
++| landing-page-repo | Product/frontend public-site owner, with brand identity reviewer | [Provisional consumption at `dda1b5d48e71ed9c111b82111676b7ef033fe5ef`](https://github.com/Jevelopers-neatHack-2026/landing-page-repo/blob/dda1b5d48e71ed9c111b82111676b7ef033fe5ef/integration/brand-consumption.md) inventories existing inline identity, local aliases and external resource declarations against brand source `3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4`; no approved distribution is consumed | The same approved subset, font rules, public-export limits, representative rendered review and named early acknowledgment; [LP-06 #8](https://github.com/Jevelopers-neatHack-2026/landing-page-repo/issues/8) remains open |
+ | team-dashboard | Product/frontend dashboard integration owner | [TD-10 source](https://github.com/Jevelopers-neatHack-2026/team-dashboard/blob/e7e9aece87eac258369ed551cb9800282575cc45/docs/integration/TD-10-components.md) records brand `3822635aff507cd5918a08a0c636bb0e41705261`, isolated styles and platform fallbacks | Deliberate token migration inside `.team-dashboard`, no global resets/font requests, and named design-owner acceptance in its own issue |
+-| marketing-material | Product/frontend collateral owner and brand/landing reviewers | [Draft consumption](https://github.com/Jevelopers-neatHack-2026/marketing-material/blob/62742934652aad8872c388e4d3fa77dddf93cbc9/review/brand-consumption.md) uses `3822635aff507cd5918a08a0c636bb0e41705261` guidance only; no logo/font binary imported; conformance blocked | Approved subset/voice, medium-specific adaptations, exact asset hashes/restrictions and named early acknowledgment |
++| marketing-material | Existing user-assigned marketing-material root/supervisor for content/brand/handoff review and receipt; source-owned brand/rights decisions remain with their owners | [Draft consumption at `79ae21607eb4d98188f85ce3c42b8be6eb5688bc`](https://github.com/Jevelopers-neatHack-2026/marketing-material/blob/79ae21607eb4d98188f85ce3c42b8be6eb5688bc/review/brand-consumption.md) uses `3822635aff507cd5918a08a0c636bb0e41705261` guidance only; no logo/font binary imported; conformance blocked | Approved subset/voice, medium-specific adaptations, exact asset hashes/restrictions and the existing supervisor's early acknowledgment of the exact artifact |
+ 
+ These are read-only observations and role boundaries, not appointments or tested
+-adoption of a new release. Accountable brand approver @CompleteDotTech is nominated;
+-technical, provenance, consumer and release reviewer acknowledgments remain missing
+-in [governance](brand-governance.md). Lars is addressed as @lmvdz in the
++adoption of a new release. Accountable brand approver @CompleteDotTech is nominated.
++Marketing's [MM-06 receipt](https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/7#issuecomment-6105489382)
++and [later MM-02 confirmation](https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/5#issuecomment-6112307412)
++already identify its user-assigned supervisor as accountable marketing
++content/brand/handoff reviewer and receiver. That role evidence does not acknowledge
++this exact brand artifact or transfer the supervisor's authority to this brand-kit
++agent. The remaining role gaps and all missing exact-decision acknowledgments are
++recorded in [governance](brand-governance.md). Lars is addressed as @lmvdz in the
+ [#14 coordination request](https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14#issuecomment-6118157033);
+ that request does not appoint or approve every role.
+ 
++### Landing observations at the inspected revision
++
++The pinned [Landing consumption record](https://github.com/Jevelopers-neatHack-2026/landing-page-repo/blob/dda1b5d48e71ed9c111b82111676b7ef033fe5ef/integration/brand-consumption.md)
++was read on 2026-10-12. It records `importedBrandFiles` as empty and keeps its
++observed upstream allowlist empty. Its local checks establish provisional source
++consistency; they do not establish approval or adoption of a brand release.
++
++| Surface | Landing's recorded source observation | Required owner disposition |
++|---|---|---|
++| External fonts | Six Google Fonts families: Archivo, Big Shoulders Display, IBM Plex Mono, Abril Fatface, Fraunces and Inter Tight. Declared axes/weights differ from the brand source's two-family explicit opt-in. Fetched responses and transitive requests are unmeasured. | Brand/type and privacy owners review the exact families, axes, network/CSP and fallback contract under the existing no-self-hosted-font constraint. |
++| Typography and fallbacks | Fraunces/Inter Tight fallback lists and order differ from the canonical lists; Archivo is the primary display treatment. | Brand/type reviewer accepts the specific consumer adaptation or supplies a reviewed change. Existing use does not amend the master typography. |
++| Stamp size | Existing `.logo-stamp` source is 17 by 21 CSS pixels; the brand logo guide specifies a 24-pixel minimum stamp height. | Landing and brand reviewers resolve the size/variant and inspect the actual rendered placement. This source observation is not a browser measurement. |
++| Inline marks and imagery | Existing inline symbol bytes and ten WebP/JSON assets are inventoried, but exact mark derivation, permissions and rendered placement remain unverified. | Source rights and brand/publication owners provide the applicable evidence before final conformance. A matching file hash does not supply permission. |
++
++These are the consumer's documented observations at the linked revision, not new
++provider or browser tests by brand-kit. They identify concrete review inputs for
++BK-02/BK-03B/BK-09 and LP-06 without changing either repository's identity rules,
++consumer files or approval state. The current brand contract still requires a
++separate exact-artifact acknowledgment.
++
+ ## Obtain, verify and import
+ 
+ Follow [distribution.md](distribution.md) to create or obtain the exact local review
+diff --git a/docs/distribution.md b/docs/distribution.md
+index f111904..1718e9a 100644
+--- a/docs/distribution.md
++++ b/docs/distribution.md
+@@ -178,3 +178,17 @@ passes. Required font, visual, rights, claims, sanitization, migration and named
+ consumer/release evidence stay blocking while null. The report cannot publish,
+ close an issue or change ART-05/EVAL-04/global acceptance; their actual owners retain
+ those decisions. Review the original-source history separately for BK-10.5.
++
++Each gate run sends asset review outputs and the approved package to its own fresh
++evidence directory. A previous run's files remain intact and cannot cause a later
++source revision to collide with a stale default asset build. When approved packaging
++is available, the gate compares the actual `package-brand` archive byte-for-byte
++with a fresh reconstruction and binds manual and consumer receipts to that exact
++approved file set. An approved subset may omit optional review-proposal guides;
++receipts for that subset must not be checked against the larger proposal instead.
++Missing or changed package output blocks the gate even if the command reports success.
++
++If approved packaging is unavailable, the gate may retain an explicitly unapproved
++review archive for diagnosis. That archive does not supply a candidate for release
++acceptance, and the report stays blocked. Synthetic subset, stale-receipt and package
++tampering tests exercise this distinction without adding real approval records.
+diff --git a/docs/identity-decision-packet.md b/docs/identity-decision-packet.md
+index 627e4b9..c4219bd 100644
+--- a/docs/identity-decision-packet.md
++++ b/docs/identity-decision-packet.md
+@@ -170,13 +170,22 @@ The [provenance register](../provenance/register.json) and [allowlist](../proven
+ | Consumer / owner boundary | Required input before a corresponding decision or release | Reviewer / notification evidence |
+ |---|---|---|
+ | getticketstub.com — app assembly | Exact consumed brand revision, app-versus-marketing theme scope, font network strategy, and tested asset/token imports | Reviewer appointment/ACK **pending**; [existing Product handoff](https://github.com/Jevelopers-neatHack-2026/getticketstub.com/issues/19#issuecomment-6121957840) remains the request of record. |
+-| landing-page-repo — rendered landing copy | Exact mark/theme/font adoption and evidence-backed public claims | Reviewer appointment/ACK **pending**; [LP-02](https://github.com/Jevelopers-neatHack-2026/landing-page-repo/issues/4). |
+-| marketing-material — collateral and claim approval | MM-02 approved wording, imagery permissions, exact export version | Reviewer appointment/ACK **pending**; [MM-02](https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/5). |
++| landing-page-repo — rendered landing copy | Exact mark/theme/font adoption and evidence-backed public claims; disposition of the documented font/fallback/stamp differences | Reviewer appointment/ACK **pending**. [LP-06 source at `dda1b5d48e71ed9c111b82111676b7ef033fe5ef`](https://github.com/Jevelopers-neatHack-2026/landing-page-repo/blob/dda1b5d48e71ed9c111b82111676b7ef033fe5ef/integration/brand-consumption.md) supplies provisional observations; [LP-02](https://github.com/Jevelopers-neatHack-2026/landing-page-repo/issues/4) owns rendered copy. |
++| marketing-material — collateral and claim approval | MM-02 approved wording, imagery permissions, exact export version | Existing user-assigned marketing-material root/supervisor is the accountable content/brand/handoff reviewer and receiver per the [MM-06 role receipt](https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/7#issuecomment-6105489382) and [later MM-02 confirmation](https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/5#issuecomment-6112307412). Exact-artifact ACK and this packet's approval remain **pending**. |
+ | team-dashboard — internal financial UI | Token/typography/focus usage, exact imports, financial-state readability evidence | Reviewer appointment/ACK **pending**; [consumer issue #15](https://github.com/Jevelopers-neatHack-2026/team-dashboard/issues/15). |
+ | creative-engine / print-production / fulfillment owner | Artwork-versus-master scope; printable composition, supported formats and permissions; no producer-defined foreign contract | Exact ACKs **pending**; [existing handoff receipt](https://github.com/Jevelopers-neatHack-2026/fulfillment-connectors/issues/10#issuecomment-6121958209) requests exact full-consumer evidence and explicitly preserves a blocked domain ACK. The earlier PR #3 receipt abbreviated this as `Fulfillment10#6121958209`; the destination was verified read-only on 2026-10-12. The shared-contracts owner retains canonical interfaces. |
+ 
+ This document is the reviewable packet, not a sent notification or an ACK. Existing owner requests are linked to avoid inventing or duplicating responses.
+ 
++The marketing role receipt does not transfer that foreign supervisor's authority to
++the brand-kit execution agent or supply source-owned identity/rights approval.
++Landing's exact pinned record now supplies concrete review questions: six external
++font families with differing axes/weights, fallback-order and Archivo display
++adaptations, and a source stamp height of 21 CSS pixels against the existing 24-pixel
++minimum. The [consumer observation matrix](consumers.md#landing-observations-at-the-inspected-revision)
++records those inputs and their owners. No font, typography or size exception is
++approved by adding that source evidence to this packet.
++
+ ## Evidence and validation
+ 
+ The source/ancestry/PR audit is read-only. The baseline and alternative SHAs, exact hunk dispositions, current comments and hash manifest above are reproducible evidence. Required local checks for the combined candidate are `make check-links`, `make check-inventory`, `make check-governance`, affected token/accessibility checks, and `git diff --check`; exact executed revisions and results belong in the integration PR evidence. A passing structure check is not a brand decision. Browser, audio, fallback and consumer review remain required where their acceptance criteria call for them.
+@@ -190,7 +199,8 @@ The public-copy negative fixture is documented in the [claim register](claims-re
+ | Accountable approver | @CompleteDotTech | [Nomination only](https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6113526793) | **Pending** — nomination is not this packet's approval. |
+ | Technical token/export | Unknown | Pending appointment and acknowledgement | **Pending** |
+ | Provenance/rights | Unknown | Pending appointment and acknowledgement | **Pending** |
+-| Affected consumers | Unknown for each required consumer | Pending explicit role ACKs and reviewed source evidence | **Pending** |
++| Marketing consumer | Existing user-assigned marketing-material root/supervisor | [MM-06 role receipt](https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/7#issuecomment-6105489382); [later MM-02 confirmation](https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/5#issuecomment-6112307412) | **Pending** — existing role evidence is not this packet's approval or the exact-artifact ACK. |
++| Other affected consumers | Unknown for each remaining required consumer | Pending explicit role ACKs and reviewed source evidence | **Pending** |
+ | Design recommendation sought from Lars | @lmvdz, identified in the owner's request | [Open BK-02.3 question](https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6118216028) | **Pending** — this request does not appoint every reviewer role. |
+ 
+ Documentation-only reconciliation follows [one independent reviewer other than the author](brand-governance.md#change-classes-bk-073), with the approver informed. Core decisions require the actual roles shown above; independent source review cannot substitute for them.
+diff --git a/docs/source-of-truth.md b/docs/source-of-truth.md
+index 19b6450..f648fca 100644
+--- a/docs/source-of-truth.md
++++ b/docs/source-of-truth.md
+@@ -61,7 +61,7 @@ Imports affected by any future move: the README `@import "brand-kit/tokens/token
+ - **Visibility (corrected by PR #17).** `OWNERSHIP.md` now states the repository is *Public*, citing `gh repo view` on 2026-10-12 (`visibility: PUBLIC`). History kept: it said *private* as verified 2026-10-10, and the earlier BK-01 note that this text was stale is superseded. No repository setting was changed.
+ - **PR #3 and PR #22.** PR #22 merged at `3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4` and pins the README/SPEC/foil links to product `43bb721f00de1c616e8e8d27efbb87c6bf75bcbf`. This integration corrects the remaining token description. PR #3, head `289b22659f0699649abd65ba7a3b7e710839f4d3`, retains unique unapproved identity, foil and sound proposals and remains open. Its [hunk disposition](identity-decision-packet.md) preserves the unanswered owner question. Source availability does not certify deployment or approve direction. History: the earlier 2026-10-10 branch-only finding was superseded by product source `388005240aa62374d49f709afc300adb5e98cd98`, and the subsequent dead-link finding is superseded by PR #22.
+ - **PR #2 (merged).** Its edition-ownership handoff (owner confirmation for the `ticket-studio` link) is preserved unchanged.
+-- **Governance (PR #17, merged).** `docs/brand-governance.md`, `docs/governance/decision-template.md`, `docs/governance/simulated-walkthrough.md` and `tools/check_governance.py` are catalogued. They define process only; no identity, token, font, asset or release is recorded as approved, and the reviewer roles other than the nominated approver remain unfilled.
++- **Governance (PR #17, merged; role evidence reconciled by PR #26).** `docs/brand-governance.md`, `docs/governance/decision-template.md`, `docs/governance/simulated-walkthrough.md` and `tools/check_governance.py` are catalogued. They define process only; no identity, token, font, asset or release is recorded as approved. [Governance](brand-governance.md#responsibility-table-bk-071) records the nominated brand approver and the existing user-assigned marketing-material root/supervisor as that consumer's content/brand/handoff reviewer and receiver. Other reviewer-role gaps and the required exact-decision acknowledgements remain pending; the marketing role record does not acknowledge this brand artifact or transfer authority to the brand-kit execution agent.
+ - **Consumer copies.** A read-only comparison on 2026-10-12 verified that all 14 `public/brand/*.svg` Git blob IDs at [product `783a9fa03e3d64b752cd8c5ad913c223db29118d`](https://github.com/Jevelopers-neatHack-2026/getticketstub.com/tree/783a9fa03e3d64b752cd8c5ad913c223db29118d/public/brand) match brand-kit `logo/*.svg` at the baseline above. [Consumer evidence](consumers.md) records responsibilities and remaining ACKs. This supersedes the earlier unverified-copy observation, but supplies no rights, deployment evidence or consumer approval.
+ 
+ ## Checks
+diff --git a/tools/check_brand_release.py b/tools/check_brand_release.py
+index 8c1e9c2..c9c5c72 100644
+--- a/tools/check_brand_release.py
++++ b/tools/check_brand_release.py
+@@ -48,6 +48,8 @@ def collect_check(root: Path, target: str, output: Path, number: int, timeout: i
+     command = ["make", target]
+     if target == "package-brand":
+         command.append("BRAND_OUTPUT=" + str(output / "approved-brand.zip"))
++    elif target == "build-assets":
++        command.append("ASSET_OUTPUT=" + str(output / "asset-review"))
+     started = datetime.now(timezone.utc).isoformat()
+     begin = time.monotonic()
+     environment = dict(os.environ)
+@@ -135,16 +137,38 @@ def gate(root: Path, output: Path, timeout: int = 180) -> dict:
+     # Record every command, including later checks after an earlier failure.
+     outcomes = [collect_check(root, target, output, n, timeout) for n, target in enumerate(CHECKS, 1)]
+     blockers, archive_info = [], None
++    archive_problem = "exact candidate archive or required approval inputs are unavailable"
+     try:
+-        data, manifest = dist.build_bytes(root, "review")
++        try:
++            data, manifest = dist.build_bytes(root, "approved")
++        except dist.DistributionError:
++            # Missing decisions must still leave a reviewable diagnostic, but the
++            # full proposal is not the file set of a future approved subset.
++            data, manifest = dist.build_bytes(root, "review")
++            archive_name, from_package = "review-brand.zip", False
++            dist.write_new(output / archive_name, data)
++            blockers.append("approved artifact unavailable; review archive is diagnostic only")
++        else:
++            # Bind acceptance to the actual package-brand result, including its
++            # manifest. A successful exit without the exact archive is insufficient.
++            archive_name, from_package = "approved-brand.zip", True
++            packaged = output / archive_name
++            if packaged.is_symlink() or not packaged.is_file():
++                archive_problem = "package-brand did not create a regular approved archive"
++                raise dist.DistributionError(archive_problem)
++            if dist.read_archive(packaged) != data:
++                archive_problem = "package-brand archive differs from the reproducible approved candidate"
++                raise dist.DistributionError(archive_problem)
+         archive_info = {"source_sha": manifest["source_sha"], "archive_sha256": dist.digest(data),
+                         "files_digest": manifest["files_digest"], "kind": manifest["kind"],
+-                        "brand_version": manifest["brand_version"], "token_profile": manifest["token_profile"]}
+-        dist.write_new(output / "review-brand.zip", data)
++                        "brand_version": manifest["brand_version"], "token_profile": manifest["token_profile"],
++                        "path": archive_name, "from_package_brand": from_package}
+         record, missing = dist.accepted_record(root, source)
+         blockers += missing + manual_problems(record, manifest["files_digest"])
+     except (dist.DistributionError, OSError, TypeError, KeyError, ValueError, AttributeError):
+-        blockers.append("exact candidate archive or required approval inputs are unavailable")
++        # Only locally selected fixed messages enter reports; nested exceptions
++        # may include input-derived or sensitive details.
++        blockers.append(archive_problem)
+     for result in outcomes:
+         if result["result"] != "pass":
+             blockers.append(result["target"] + ": required command did not pass")
+diff --git a/tools/tests/test_distribution.py b/tools/tests/test_distribution.py
+index df01735..e32047d 100644
+--- a/tools/tests/test_distribution.py
++++ b/tools/tests/test_distribution.py
+@@ -89,6 +89,19 @@ def approved_shape_fixture(root: Path) -> tuple[bytes, dict]:
+     return dist.build_bytes(root, "approved")
+ 
+ 
++def approved_gate_shape_fixture(root: Path) -> tuple[bytes, dict]:
++    """Complete synthetic gate receipts at the approved subset, not the proposal."""
++    _, manifest = approved_shape_fixture(root)
++    receipt = synthetic_receipt(manifest["files_digest"])
++    record = json.loads((root / dist.REVIEW).read_text())
++    record["leaf_evidence"] = {name: receipt for name in release.LEAVES}
++    record["manual_evidence"] = {name: receipt for name in release.MANUAL}
++    record["release_review"] = receipt
++    (root / dist.REVIEW).write_bytes(dist.canonical(record))
++    commit_synthetic(root, "complete gate receipt shapes; no actual approvals")
++    return dist.build_bytes(root, "approved")
++
++
+ class DistributionTests(unittest.TestCase):
+     @classmethod
+     def setUpClass(cls):
+@@ -466,6 +479,140 @@ class DistributionTests(unittest.TestCase):
+         self.assertEqual(result["status"], "skipped")
+         self.assertTrue(result["required"])
+ 
++    def test_gate_binds_approved_subset_to_actual_package_output(self):
++        # Real archive and receipt validation; leaf command execution is isolated.
++        # These receipt shapes are synthetic, never owner or release evidence.
++        with tempfile.TemporaryDirectory() as tmp:
++            root = Path(tmp) / "source"
++            shutil.copytree(self.root, root)
++            data, manifest = approved_gate_shape_fixture(root)
++            _, proposal = dist.build_bytes(root, "review")
++            self.assertNotEqual(manifest["files_digest"], proposal["files_digest"])
++
++            def synthetic_collect(root, target, output, number, timeout):
++                if target == "package-brand":
++                    dist.write_new(output / "approved-brand.zip", data)
++                return {"target": target, "result": "pass", "required": True, "exit_code": 0}
++
++            output = Path(tmp) / "run"
++            with patch.object(release, "collect_check", side_effect=synthetic_collect):
++                report = release.gate(root, output)
++            self.assertEqual(report["result"], "recorded_checks_pass", report["blockers"])
++            self.assertEqual(report["artifact"]["kind"], "approved_subset")
++            self.assertEqual(report["artifact"]["files_digest"], manifest["files_digest"])
++            self.assertEqual(report["artifact"]["archive_sha256"], dist.digest(data))
++            self.assertEqual(report["artifact"]["path"], "approved-brand.zip")
++            self.assertTrue(report["artifact"]["from_package_brand"])
++            self.assertEqual((output / "approved-brand.zip").read_bytes(), data)
++            self.assertFalse((output / "review-brand.zip").exists())
++            self.assertFalse(report["release_approved"])
++
++    def test_gate_stale_consumer_receipt_does_not_approve_subset(self):
++        with tempfile.TemporaryDirectory() as tmp:
++            root = Path(tmp) / "source"
++            shutil.copytree(self.root, root)
++            approved_gate_shape_fixture(root)
++            _, proposal = dist.build_bytes(root, "review")
++            record = json.loads((root / dist.REVIEW).read_text())
++            record["consumer_acknowledgments"]["getticketstub.com"]["files_digest"] = proposal["files_digest"]
++            (root / dist.REVIEW).write_bytes(dist.canonical(record))
++            commit_synthetic(root, "stale consumer receipt must not approve a different subset")
++            data, _ = dist.build_bytes(root, "approved")
++
++            def synthetic_collect(root, target, output, number, timeout):
++                if target == "package-brand":
++                    dist.write_new(output / "approved-brand.zip", data)
++                return {"target": target, "result": "pass", "required": True, "exit_code": 0}
++
++            with patch.object(release, "collect_check", side_effect=synthetic_collect):
++                report = release.gate(root, Path(tmp) / "run")
++            self.assertEqual(report["result"], "blocked")
++            self.assertIn("getticketstub.com: acknowledgment does not bind this exact export", report["blockers"])
++
++    def test_gate_requires_matching_package_bytes_and_successful_command(self):
++        with tempfile.TemporaryDirectory() as tmp:
++            root = Path(tmp) / "source"
++            shutil.copytree(self.root, root)
++            data, _ = approved_gate_shape_fixture(root)
++            for case in ("missing", "tampered", "failed_command"):
++                with self.subTest(case=case):
++                    def synthetic_collect(root, target, output, number, timeout):
++                        result = "pass"
++                        if target == "package-brand":
++                            if case != "missing":
++                                dist.write_new(output / "approved-brand.zip", data + b"tampered" if case == "tampered" else data)
++                            if case == "failed_command":
++                                result = "fail"
++                        return {"target": target, "result": result, "required": True,
++                                "exit_code": 0 if result == "pass" else 1}
++
++                    output = Path(tmp) / case
++                    with patch.object(release, "collect_check", side_effect=synthetic_collect):
++                        report = release.gate(root, output)
++                    self.assertEqual(report["result"], "blocked")
++                    self.assertTrue(any("package-brand" in blocker for blocker in report["blockers"]))
++                    if case == "failed_command":
++                        self.assertTrue(report["artifact"]["from_package_brand"])
++                    else:
++                        self.assertIsNone(report["artifact"])
++                    if case == "tampered":
++                        self.assertEqual((output / "approved-brand.zip").read_bytes(), data + b"tampered")
++
++    def test_gate_review_archive_is_diagnostic_when_approval_is_absent(self):
++        def synthetic_collect(root, target, output, number, timeout):
++            return {"target": target, "result": "pass", "required": True, "exit_code": 0}
++
++        with tempfile.TemporaryDirectory() as tmp, patch.object(release, "collect_check", side_effect=synthetic_collect):
++            report = release.gate(self.root, Path(tmp) / "run")
++            self.assertEqual(report["result"], "blocked")
++            self.assertEqual(report["artifact"]["kind"], "review_candidate")
++            self.assertEqual(report["artifact"]["path"], "review-brand.zip")
++            self.assertFalse(report["artifact"]["from_package_brand"])
++            self.assertTrue(any("diagnostic only" in blocker for blocker in report["blockers"]))
++            self.assertFalse(report["release_approved"])
++
++    def test_gate_does_not_record_nested_exception_details(self):
++        def synthetic_collect(root, target, output, number, timeout):
++            return {"target": target, "result": "pass", "required": True, "exit_code": 0}
++
++        sentinel = "SYNTHETIC_PRIVATE_DIAGNOSTIC_SENTINEL"
++        with tempfile.TemporaryDirectory() as tmp, \
++                patch.object(release, "collect_check", side_effect=synthetic_collect), \
++                patch.object(dist, "build_bytes", side_effect=dist.DistributionError(sentinel)):
++            output = Path(tmp) / "run"
++            report = release.gate(self.root, output)
++            self.assertEqual(report["result"], "blocked")
++            self.assertIn("exact candidate archive or required approval inputs are unavailable", report["blockers"])
++            self.assertNotIn(sentinel, (output / "report.json").read_text())
++
++    def test_gate_asset_builds_use_fresh_outputs_across_revisions(self):
++        # Use a real Make subprocess and a synthetic builder that preserves any
++        # existing output, as build_assets does. No raster/font dependency needed.
++        with tempfile.TemporaryDirectory() as tmp:
++            root = Path(tmp) / "source"
++            root.mkdir()
++            (root / "Makefile").write_text(
++                'PYTHON ?= python3\nASSET_OUTPUT ?= build/asset-review\n.PHONY: build-assets\n'
++                'build-assets:\n\t"$(PYTHON)" asset-build.py "$(ASSET_OUTPUT)"\n')
++            (root / "asset-build.py").write_text(
++                'from pathlib import Path\nimport sys\n'
++                'output = Path(sys.argv[1])\n'
++                'output.mkdir(parents=True, exist_ok=False)\n'
++                '(output / "source.txt").write_bytes(Path("source.txt").read_bytes())\n')
++            previous = root / "build/asset-review"
++            previous.mkdir(parents=True)
++            (previous / "prior-failure.txt").write_text("preserve this earlier failed snapshot")
++            with patch.dict(release.os.environ, {"PYTHON": sys.executable, "ASSET_OUTPUT": str(previous)}):
++                for revision in ("first-revision", "second-revision"):
++                    output = Path(tmp) / (revision + " run")
++                    output.mkdir()
++                    (root / "source.txt").write_text(revision)
++                    result = release.collect_check(root, "build-assets", output, 1, 10)
++                    self.assertEqual(result["result"], "pass", result)
++                    self.assertEqual((output / "asset-review/source.txt").read_text(), revision)
++            self.assertEqual((previous / "prior-failure.txt").read_text(), "preserve this earlier failed snapshot")
++            self.assertEqual(list(previous.iterdir()), [previous / "prior-failure.txt"])
++
+     def test_gate_retains_failed_and_skipped_required_checks(self):
+         def synthetic_collect(root, target, output, number, timeout):
+             result = "fail" if number == 1 else "skipped" if number == 2 else "pass"

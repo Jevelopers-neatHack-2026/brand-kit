@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "scope": "Final two-commit corrective follow-up to owner PR25; source evidence and dated index links only",
+  "branch": "docs/bk-pr25-preserve-source-evidence",
+  "worktree": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr25-followup",
+  "owner_base_revision": "3eebe0c15ed025c5a074b56629c3ca2cf1483829",
+  "main_base_revision": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+  "revision": "110310c1998d88c4f559afb2e4574ddf258597de",
+  "tree": "cecbd59790c11a9edead8e0e9e50e3061af43711",
+  "first_followup_revision": "0d1d3380012196828d196cf30be219b0efdac007",
+  "changed_paths": [
+    "docs/architecture/OWNERSHIP.md",
+    "docs/source-of-truth.md"
+  ],
+  "second_commit_changes": [
+    "docs/source-of-truth.md: former future-layout paragraph dated and pinned to M2, current guide linked",
+    "docs/source-of-truth.md: former icon-treatment wording dated and pinned to M2; no icon-system approval inferred"
+  ],
+  "unchanged_decisions": [
+    "Current paths remain canonical; no file moves in BK-01.",
+    "No approved reusable icon system exists; BK-02 with consumer owners retains the future decision.",
+    "Product PR117 must merge first; actual external main links and merge state require separate verification."
+  ],
+  "nearby_source_index_review": {
+    "reviewed_sections": [
+      "Source-of-truth map and classifications",
+      "Actual versus proposed paths and table",
+      "Iconography",
+      "Repository status and open handoffs",
+      "Checks"
+    ],
+    "result": "No other objectively stale statement created by PR25 found after the first corrective commit restores visibility history, ownership, PR22/PR3 disposition, font qualifications and exact consumer source comparison."
+  },
+  "owner_branch_untouched": true,
+  "remote_mutations": false,
+  "upstream_dependency": {
+    "repository": "Jevelopers-neatHack-2026/getticketstub.com",
+    "pull_request": 117,
+    "latest_parent_refresh_utc": "2026-10-12T17:53:55Z",
+    "latest_parent_observed_head": "60d3b6aa074caddca4d362ba8b13b56fe4436177",
+    "latest_parent_observed_state": "open",
+    "evidence_source": "Root supplied read-only refresh in the active task; prior local report records earlier e83f473d observation as historical only.",
+    "condition": "PR117 merge must precede this documentation change; current target availability and merge prerequisites remain unverified by local checks."
+  },
+  "policy_revision": "07d750dfb7feeecdeca7d3d1a2363663d7f3517f",
+  "checks": [
+    {
+      "command": [
+        "make",
+        "check-inventory",
+        "check-links",
+        "check-governance",
+        "check-guidelines",
+        "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+      ],
+      "revision": "110310c1998d88c4f559afb2e4574ddf258597de",
+      "started_utc": "2026-10-12T17:55:08.110232+00:00",
+      "ended_utc": "2026-10-12T17:55:08.758704+00:00",
+      "exit_code": 0,
+      "log": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-followup-final-validation-0.log",
+      "log_sha256": "40ef73ba08fbfddcf19abda4479a98f84cbccc4681ba9a354f51a6f5a70631b2"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "3eebe0c15ed025c5a074b56629c3ca2cf1483829",
+        "HEAD"
+      ],
+      "revision": "110310c1998d88c4f559afb2e4574ddf258597de",
+      "started_utc": "2026-10-12T17:55:08.759168+00:00",
+      "ended_utc": "2026-10-12T17:55:08.762003+00:00",
+      "exit_code": 0,
+      "log": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-followup-final-validation-1.log",
+      "log_sha256": "5d981bdb9c9516f457ef5d2a174a888092e8d8ccee1ee8abd40610d326949573"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "0d1d3380012196828d196cf30be219b0efdac007",
+        "HEAD"
+      ],
+      "revision": "110310c1998d88c4f559afb2e4574ddf258597de",
+      "started_utc": "2026-10-12T17:55:08.762171+00:00",
+      "ended_utc": "2026-10-12T17:55:08.764634+00:00",
+      "exit_code": 0,
+      "log": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-followup-final-validation-2.log",
+      "log_sha256": "ee57e40255b94a16f805d3792ba7e0818817fb8e779a2662e6697d1723939ac6"
+    }
+  ],
+  "preserved_prior_validation": {
+    "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-followup-validation.json",
+    "sha256": "1ba19ed7bb1f49e792b1c4b6c0dd2cfd0716b95982d4da240794539c7a2a9d49"
+  },
+  "known_limits": [
+    "External URLs, including the host CURRENT-STATE.md link and pinned historical URLs, remain UNCHECKED by local link checker.",
+    "Existing Git source at exact M2 confirms the historical future-layout/icon-treatment references; no network link reachability inferred.",
+    "No identity, rights, release, provider or consumer approval added.",
+    "Independent review and fresh owner/upstream head checks remain required."
+  ],
+  "failed_checks_this_second_commit": [],
+  "postcheck_git_status": ""
+}

@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-12 18:25:37 UTC",
+  "snapshots": [
+    {
+      "key": "main",
+      "url": "https://api.github.com/repos/Jevelopers-neatHack-2026/brand-kit/branches/main",
+      "sha": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "tree": "32e3904a8d901b9c6cf75ca1e65829fe98df03f0",
+      "protected": false
+    },
+    {
+      "key": "openprs",
+      "url": "https://api.github.com/repos/Jevelopers-neatHack-2026/brand-kit/pulls?state=open&per_page=100",
+      "items": [
+        {
+          "number": 25,
+          "state": "open",
+          "head": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+          "draft": false
+        },
+        {
+          "number": 3,
+          "state": "open",
+          "head": "289b22659f0699649abd65ba7a3b7e710839f4d3",
+          "draft": false
+        }
+      ]
+    },
+    {
+      "key": "pr3",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3",
+      "number": 3,
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": null,
+      "head": "289b22659f0699649abd65ba7a3b7e710839f4d3",
+      "head_ref": "docs/studio-links",
+      "base": "74bc86fe5b520cae792066fbe0d7dd129664bbd3",
+      "mergeable": false,
+      "mergeable_state": "dirty",
+      "draft": false,
+      "updated_at": "2026-10-12T17:42:44Z"
+    },
+    {
+      "key": "pr27",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/27",
+      "number": 27,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-12T18:25:04Z",
+      "head": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+      "head_ref": "docs/bk-pr25-preserve-source-evidence",
+      "base": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "mergeable": true,
+      "mergeable_state": "clean",
+      "draft": true,
+      "updated_at": "2026-10-12T18:25:05Z"
+    },
+    {
+      "key": "product117",
+      "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/117",
+      "number": 117,
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": null,
+      "head": "60d3b6aa074caddca4d362ba8b13b56fe4436177",
+      "head_ref": "docs/org-documentation-20261012",
+      "base": "01c65ae2290447c523823bf4601d6373ce4c6ca2",
+      "mergeable": true,
+      "mergeable_state": "unstable",
+      "draft": false,
+      "updated_at": "2026-10-12T17:53:55Z"
+    },
+    {
+      "key": "pr25",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25",
+      "number": 25,
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": null,
+      "head": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+      "head_ref": "docs/org-documentation-20261012",
+      "base": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "mergeable": true,
+      "mergeable_state": "clean",
+      "draft": false,
+      "updated_at": "2026-10-12T18:24:33Z"
+    }
+  ],
+  "duplicate": {
+    "guard_time": "2026-10-12 18:25:03 UTC",
+    "retained_pr": 25,
+    "closed_duplicate_pr": 27,
+    "exact_head": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "tree": "b296f348e6ff5f4a642c30af735cffbc7d2627b8",
+    "review_report_sha256": "f62dfc51ea68162de9c15aa4989f80d578d69630076b850464faf3924e3b7a3f",
+    "closure_comment": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/27#issuecomment-6130139950",
+    "source_review_carried_to": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25#issuecomment-6130119982",
+    "branch_updater": "not established by inspected evidence",
+    "separate_owner_acceptance_comment_found": false,
+    "root_changed_original_branch": false,
+    "branch_deleted": false,
+    "source_incorporation_not_approval": true
+  },
+  "owner_pr25_description": {
+    "original_text_preserved_verbatim": true,
+    "original_snapshot_updated_at": "2026-10-12T18:10:20Z",
+    "current_template": "GH-PR-TEMPLATE@1.0.0",
+    "still_open": "owner-stated Product117 merge and actual main-link prerequisite",
+    "independent_source_approval_only": true
+  },
+  "scope": {
+    "issue6": "closed; all six criteria remain verified",
+    "open_leaf_issues": [
+      7,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "gate5": "open",
+    "epic4": "open",
+    "release_approved": false,
+    "foreign_acceptance_changed": false
+  },
+  "history": "current-state.json is the earlier18:17 observation, retained as dated history. This later record captures deliberate duplicate closure. No prior failure or skip was rewritten."
+}

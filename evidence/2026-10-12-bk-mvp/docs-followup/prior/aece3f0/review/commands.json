@@ -1,0 +1,113 @@
+[
+  {
+    "name": "inventory",
+    "command": [
+      "make",
+      "check-inventory",
+      "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr25-review-remote",
+    "revision": "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+    "exit_code": 0,
+    "stdout_sha256": "2b9cf110fcfb0e6ea7c3bee3401e33e02708e220aed4c8b35adee256103ecf67",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/inventory.stdout",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/inventory.stderr"
+  },
+  {
+    "name": "links",
+    "command": [
+      "make",
+      "check-links",
+      "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr25-review-remote",
+    "revision": "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+    "exit_code": 0,
+    "stdout_sha256": "b6b1196e25f4adab57eb67d9f0bb781c055ce716cecbfd8efdd68afa36703548",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/links.stdout",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/links.stderr"
+  },
+  {
+    "name": "governance",
+    "command": [
+      "make",
+      "check-governance",
+      "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr25-review-remote",
+    "revision": "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+    "exit_code": 0,
+    "stdout_sha256": "24719e864e86e498ce68b4605498b5b6d5aed93ffd719a9e25a6e374b936ca12",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/governance.stdout",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/governance.stderr"
+  },
+  {
+    "name": "guidelines",
+    "command": [
+      "make",
+      "check-guidelines",
+      "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr25-review-remote",
+    "revision": "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+    "exit_code": 0,
+    "stdout_sha256": "688960e3a797958de00cbe255e1b7a80a64b7a8ad7ea4b5cd62645bffa2f44eb",
+    "stderr_sha256": "f50078b2d6c9b189d5faacb952c122c7c7996d9e88a36ac5369613d1d426315c",
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/guidelines.stdout",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/guidelines.stderr"
+  },
+  {
+    "name": "diff-owner",
+    "command": [
+      "git",
+      "diff",
+      "--check",
+      "3eebe0c15ed025c5a074b56629c3ca2cf1483829",
+      "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr25-review-remote",
+    "revision": "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+    "exit_code": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/diff-owner.stdout",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/diff-owner.stderr"
+  },
+  {
+    "name": "diff-main",
+    "command": [
+      "git",
+      "diff",
+      "--check",
+      "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+      "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr25-review-remote",
+    "revision": "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+    "exit_code": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/diff-main.stdout",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/diff-main.stderr"
+  },
+  {
+    "name": "local-tree-parity",
+    "command": [
+      "git",
+      "diff",
+      "--exit-code",
+      "110310c1998d88c4f559afb2e4574ddf258597de",
+      "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr25-review-remote",
+    "revision": "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+    "exit_code": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/local-tree-parity.stdout",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/local-tree-parity.stderr"
+  }
+]

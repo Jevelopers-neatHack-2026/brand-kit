@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "kind": "independent_evidence_publication_review",
+  "reviewer": "/root/dependency_audit",
+  "recorded_at_utc": "2026-10-12T18:35:02.436884+00:00",
+  "verdict": "APPROVE",
+  "scope": "Exact E4 curated text packet and three root supplemental prepublication records; publication integrity, sanitization and attribution only.",
+  "packet": {
+    "path": "/workspace/scratch/5ecc3c6cf97a/triage/docs-followup-evidence-packet-v2",
+    "files": 177,
+    "bytes": 876743,
+    "indexed_files": 176,
+    "integrity_sha256": "a59028ef528f9a50973438b5df69d1d21006518b38e7b98a3c78a1a0cee46a2d",
+    "readme_sha256": "de3cb26ce4bad0743b0d14baa50f365208a39ecc504e12900fffae1761a88847",
+    "all_original_copies_byte_identical": true,
+    "complete_file_set_verified": true,
+    "packet_rechecked_unchanged_before_verdict": true
+  },
+  "integrity_verification": {
+    "manifest_and_source_copy_pairs": 176,
+    "embedded_original_stream_or_evidence_hash_references": 150,
+    "unique_embedded_original_paths": 149,
+    "exact_source_sha256_comparisons_in_source_proofs": 67,
+    "additional_M1_M4_reference_target_sha256_comparisons": 190,
+    "actual_command_revision_tree_identities": 6,
+    "readme_local_links_resolved": 30,
+    "errors": []
+  },
+  "source_scope": {
+    "M4": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "M4_tree": "32e3904a8d901b9c6cf75ca1e65829fe98df03f0",
+    "reviewed_candidate": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+    "candidate_tree_equal": true,
+    "M3": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+    "tracked_paths": 117,
+    "changed_from_M3": [
+      "docs/source-of-truth.md"
+    ],
+    "other_paths_unchanged": 116,
+    "critical_blob_comparisons": 11,
+    "canonical_svg_blobs_unchanged": 14,
+    "svg_baseline": "3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4",
+    "inventory_reference_targets_rehashed": 95,
+    "reference_targets_unchanged_from_M1": 86,
+    "recorded_intervening_changed_targets": 9,
+    "original_coverage_sha256": "f90b0c6560920c6c4a0f8bdf5bef3b21a33fef8f8f021e6a676d6d89b5d9694f",
+    "source_proof_errors": []
+  },
+  "result_attribution": {
+    "M4_actual_make_check": {
+      "tests": 289,
+      "elapsed_unittest_seconds": 65.771,
+      "inventory_entries": 117,
+      "local_links": 379,
+      "broken_links": 0,
+      "external_urls_unchecked": 163
+    },
+    "M4_original_eight_command_report": {
+      "passing_commands": 5,
+      "failing_commands": 3,
+      "first_tailwind_status": "required skipped; preserved",
+      "earlier_interpretation_correction": "Explicitly documented in recovery report and README; original report not edited"
+    },
+    "M4_dependency_recovery": {
+      "install": "npm ci --offline --ignore-scripts --no-audit --no-fund",
+      "install_exit": 0,
+      "tailwind": "3.4.19",
+      "local_fixture_command_exit": 0,
+      "normal_consumer_gate_exit": 2,
+      "real_consumer_acceptance": false
+    },
+    "M4_review_archive_sha256": "87c4f0ad8e428f9adbd3e1607063372369c5d4022ccdadd67eb7d5fdeacac1e1",
+    "M4_review_archive_mode": "unapproved diagnostic/review candidate; no binary included",
+    "M4_full_17_gate_not_rerun": true,
+    "owner_M3_independent_fetch": {
+      "evidence_commit": "cd744af6da5b1f89f410383fac5937e1ea8d6705",
+      "gate_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/cd744af6da5b1f89f410383fac5937e1ea8d6705/evidence/2026-10-12-bk10-candidate-binding/postmerge/gate/report.json",
+      "gate_sha256": "2674501d12129b86524c9de20956883ac053d2615286eb037a78a094294f41d4",
+      "command_sha256": "23dae105d881774c03e63d956e498baf675a2311ff28ccf99c2a26138e85e16a",
+      "readme_sha256": "18687dc4116576dc5c018cdfb83a2f465d92fa4b42babcca18cdb8639fc21525",
+      "all_17_curated_commands_exact_projection": true,
+      "passing_targets": 14,
+      "failing_targets": 3,
+      "blockers": 30,
+      "aggregate_exit": 1,
+      "release_approved": false,
+      "run_attribution": "Other owner actual M3 execution, independently read; no new execution by this reviewer"
+    },
+    "prior_candidate_results": "aece3f0=283 tests/33.310s; ba65=289/53.302s; candidate160=289/47.428s; all match original streams at their recorded revisions",
+    "consolidation": "Dated18:17 snapshot precedes18:25 PR27 duplicate closure; retained PR25 exact ba65 carries identical source. No branch-updater identity or owner approval invented. Product117 remains observed failed/open with main target absent."
+  },
+  "curation": {
+    "original_role_report_sha256": "2ba6c6157747cb7d632dc21f182bcbfab6b97839065a7a2f6603ec8931151e3c",
+    "curated_role_report_sha256": "9201c14d156f00ddd01ed44c6423da226221784b632dc8a930f312ad24a235e9",
+    "removed_full_bodies": 2,
+    "removed_utf8_bytes": 2684,
+    "source_hashes_and_lengths_verified": true,
+    "all_other_original_fields_unchanged": true,
+    "original_failure_preserved": true,
+    "guard_not_weakened": true
+  },
+  "publication_safety": {
+    "all_files_utf8": true,
+    "symlinks": 0,
+    "nul_bytes": 0,
+    "blocked_full_body_or_conversation_json_keys": 0,
+    "credential_private_key_auth_token_userinfo_url_email_encoded_payload_or_raw_workflow_pattern_findings": 0,
+    "manual_scope_review": "Relevant command streams, reports, documentation diffs, metadata and attributable peer summaries inspected; source-owned public receipts are metadata/hashes or bounded decision summaries, not full conversation copies. No artifact payloads or raw foreign workflow logs included.",
+    "full_repository_history_sanitization_not_claimed": true
+  },
+  "supplemental_records": [
+    {
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/e4-root-prepublication-integrity.json",
+      "sha256": "66c792359392ad8785ea4edaa515555b2017266c27df323a0e982ae2d795aa46",
+      "verdict": "APPROVE_SCOPE"
+    },
+    {
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/e4-root-sensitive-pattern-scan.json",
+      "sha256": "812daf9c2211caf5aab35af910ac5b1cb435ebb0b0ff09864515190dda8bec35",
+      "verdict": "APPROVE_SCOPE"
+    },
+    {
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/e4-publish-preparation-failure.json",
+      "sha256": "3c364d5bad99a590698bbdf73785e96a524c37895b4e8f69b0505d8922d2ee94",
+      "verdict": "APPROVE_SCOPE"
+    }
+  ],
+  "authorship_exclusions": [
+    "dependencies/dated-refresh.json and dependencies/policy-and-canonical-refresh.json were authored by this reviewer; byte preservation only, no independent reapproval of their substantive interpretation.",
+    "Original distribution and first browser fixes authored by this reviewer are not independently reapproved by this evidence audit.",
+    "Other source reviews remain attributable to their actual authors and dates; no formal GitHub approval or missing owner/consumer acceptance inferred."
+  ],
+  "audit_execution": {
+    "mode": "Read-only Python hashlib/JSON/path scans, git show/ls-tree/rev-parse object comparisons, immutable GitHub file GETs; no build, test, browser, provider or consumer execution.",
+    "functional_tests_rerun": false,
+    "diagnostic_reader_error_preserved": {
+      "error": "TypeError: int object is not subscriptable",
+      "cause": "First display-only probe assumed the 95-reference count field was a list. Corrected reader used original coverage mapping and verified all95 target hashes.",
+      "effect": "No source/test result changed; initial tool output remains in conversation."
+    },
+    "artifact_output_location": "Small report and summary written to parent-requested /dev/shm fallback after workspace ENOSPC; no duplicate packet generated."
+  },
+  "findings": [],
+  "blocking_findings": [],
+  "new_domain_acceptance": false,
+  "foreign_mutations": false,
+  "source_mutations": false,
+  "packet_mutations": false,
+  "remote_mutations": false,
+  "attributable_summary": "Independent E4 publication review by /root/dependency_audit: APPROVE for the exact 177-file sanitized text packet, manifest SHA-256 a59028ef528f9a50973438b5df69d1d21006518b38e7b98a3c78a1a0cee46a2d and README SHA-256 de3cb26ce4bad0743b0d14baa50f365208a39ecc504e12900fffae1761a88847. This is publication-integrity and attribution review, not brand, rights, font, consumer or release acceptance.\n\nAll 176 indexed files match their recorded byte counts, hashes and original copies; the complete file set is 177 files / 876,743 bytes. All 150 embedded local stream/evidence hash references match. Exact Git checks confirm M4 e254df5444f0bfedd5526b0e148b0cdf36cbd31f and candidate160 have identical trees, only the reviewed source-index paragraph differs from M3, and all 116 other paths remain unchanged. All 95 prior inventory reference targets were rehashed against M1 and M4: 86 unchanged and exactly nine previously recorded changes. The 14 SVGs match the actual PR22 baseline.\n\nThe README matches actual command streams and keeps the initial required-Tailwind skip, offline recovery, current real prerequisite failures, local candidate results and prior revisions distinct. I independently fetched the immutable owner cd744af6 M3 report and command: their recorded hashes match, all 17 command projections match, and the actual outcome remains 14 passes, three failures, 30 blockers, aggregate exit 1. This is not a full17 gate execution on M4. PR25 remains the retained ba65 source proposal on the Product117 prerequisite; PR27 closure is duplicate consolidation without invented owner approval.\n\nThe two public role-comment bodies were removed only in a clearly identified publication derivative. I verified their exact original hashes and lengths and proved all other original fields and conclusions remain unchanged. Every included file is UTF-8 text with no symlinks or NUL bytes. Content/key/pattern review found no credentials, customer data, private/full conversation bodies, raw foreign workflow transcripts, encoded binaries, fonts or image/archive payloads. The three requested root supplemental JSON records accurately retain their limited preflight scope and initial preparation failure.\n\nI did not independently reapprove my own dated dependency/policy snapshots or original distribution/browser code; those snapshots were checked only for byte preservation, and parent/other reviewers cover their substance. No functional tests were rerun, no packet/source files changed, and no remote mutation was performed. A bounded publication audit supplies no missing repository-history or source-owned acceptance. No blocking findings."
+}

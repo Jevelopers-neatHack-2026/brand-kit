@@ -1,0 +1,11 @@
+Read-only duplicate/adoption review by /root/pr3_reconcile at 18:23:28 UTC: original PR #25 and draft PR #27 both point to the exact same commit ba65bb20e9f4e820666cbb3a40154c74676d133d, tree b296f348e6ff5f4a642c30af735cffbc7d2627b8. I verified both PR responses and both distinct branch refs, and the PR #25 timeline includes the corrective aece3f0 and ba65bb20 commits. Actual main remains e254df5444f0bfedd5526b0e148b0cdf36cbd31f.
+
+Recommend closing our PR #27 as a duplicate whose exact corrective source is now present in the retained original PR #25. There is no unique source content in #27 to preserve separately. This disposition does not close #25, merge the architecture work, grant approval, or waive its upstream prerequisite.
+
+Qualification: PR #25 currently has only three conversation comments, the latest being the 18:00:01 corrective-followup notice. No later explicit owner adoption/ACK comment was found in those comments or the 12-event timeline; its unchanged body still says Product PR #117 must merge first. The evidence establishes exact source incorporation. It does not identify who advanced the original ref or establish a separate owner acceptance decision. Describe closure as duplicate content now carried by #25, rather than claiming an unrecorded approval.
+
+Against actual M4, both proposals have the same remaining three-file delta: docs/architecture/OWNERSHIP.md, docs/architecture/ACCEPTANCE.md and two historical references in docs/source-of-truth.md. The merged PR #26 files and PR #28 governance paragraph are already retained. The earlier exact-head ba65bb20 review remains applicable to that same source, with its original date and scope; earlier aece3f0 and original 3eebe0 findings remain historical.
+
+Product PR #117 remains OPEN at 60d3b6aa074caddca4d362ba8b13b56fe4436177. Its actual build-and-smoke check FAILED at 17:59:47 UTC (https://github.com/Jevelopers-neatHack-2026/getticketstub.com/actions/runs/38287279004/job/114938560052). The retained PR #25 remains on merge hold until its owner resolves that failure, obtains the applicable review/checks, merges the Product change, and the resulting main target is verified. The stale PR #25 security summary covers original 3eebe0 only; do not relabel it as a current-head result.
+
+No source or remote mutation was performed by this reviewer.

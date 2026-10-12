@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "main": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+  "tree": "32e3904a8d901b9c6cf75ca1e65829fe98df03f0",
+  "parents": [
+    "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+    "1603948d569ae2eb48693d7f4a40cce45b8111b1"
+  ],
+  "candidate": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+  "candidate_tree_equal": true,
+  "predecessor_main": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+  "tracked_paths": 117,
+  "main_changed_paths": [
+    "docs/source-of-truth.md"
+  ],
+  "main_unchanged_count": 116,
+  "architecture_candidate": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+  "architecture_diff_against_current_main": [
+    "docs/architecture/ACCEPTANCE.md",
+    "docs/architecture/OWNERSHIP.md",
+    "docs/source-of-truth.md"
+  ],
+  "architecture_unchanged_count": 114,
+  "role_paragraph_sha256": "d885a6bc2a2584d51aab2ecc9a088bd5c63ddfd58ff7b2b10f6bd0695b516aca",
+  "role_paragraph_identical_to_architecture_candidate": true,
+  "source_index_sha256": "03b142d9bfa054fc759e594bfd6c2e66c8203dcde579ee113a5af46f0997019f",
+  "critical_unchanged_from_M3": [
+    {
+      "path": "README.md",
+      "blob": "1b6521ba621d428238cd754fa50135b47c1845ef",
+      "identical": true
+    },
+    {
+      "path": "SPEC.md",
+      "blob": "3ec26c6c6da463a879386a61d37b11a860f8c2b6",
+      "identical": true
+    },
+    {
+      "path": "index.html",
+      "blob": "fdfefe5039ec4944595d8f3546d01245863ff272",
+      "identical": true
+    },
+    {
+      "path": "docs/voice.md",
+      "blob": "5c2524576034484abdc5a67f347fb3c87bcb3179",
+      "identical": true
+    },
+    {
+      "path": "docs/guidelines-source-snapshot.json",
+      "blob": "55020853a28fa48dfe8b4ac2e45b82777cfc70af",
+      "identical": true
+    },
+    {
+      "path": "provenance/register.json",
+      "blob": "e10118bfe7918e19329c3d22c4b25a6d16646a55",
+      "identical": true
+    },
+    {
+      "path": "provenance/allowlist.json",
+      "blob": "95b87b7e07bf15f00b33544a4c6bb1d81ac0dde0",
+      "identical": true
+    },
+    {
+      "path": "distribution/acceptance.json",
+      "blob": "0feb4c0c659d84d3b7068db21eca52215fc1f304",
+      "identical": true
+    },
+    {
+      "path": "distribution/proposal.json",
+      "blob": "9eeb7d91e3f05bc2de06b0bc1cefd02a04c06c4c",
+      "identical": true
+    },
+    {
+      "path": "tools/check_brand_release.py",
+      "blob": "c9c5c722d963d5f3c41f42352f2c8cbdfbec07c3",
+      "identical": true
+    },
+    {
+      "path": "tools/tests/test_distribution.py",
+      "blob": "e32047dc12bbbbd2bab85e15f6550e87b520e0c3",
+      "identical": true
+    }
+  ],
+  "logo_comparison": [
+    {
+      "path": "logo/app-icon.svg",
+      "baseline_blob": "83d73b396da1c74e868773c426b5118d878f7268",
+      "current_blob": "83d73b396da1c74e868773c426b5118d878f7268",
+      "identical": true
+    },
+    {
+      "path": "logo/favicon.svg",
+      "baseline_blob": "6b4df7c7a909bf46182e69f242ed163f0a34180e",
+      "current_blob": "6b4df7c7a909bf46182e69f242ed163f0a34180e",
+      "identical": true
+    },
+    {
+      "path": "logo/lockup-horizontal-mono.svg",
+      "baseline_blob": "73eb76e4ce1ed2db5431f1a21e0214dc92937a64",
+      "current_blob": "73eb76e4ce1ed2db5431f1a21e0214dc92937a64",
+      "identical": true
+    },
+    {
+      "path": "logo/lockup-horizontal.svg",
+      "baseline_blob": "6b17f9f18bd5b5784d5c7ef269e2e35b363d8b95",
+      "current_blob": "6b17f9f18bd5b5784d5c7ef269e2e35b363d8b95",
+      "identical": true
+    },
+    {
+      "path": "logo/lockup-stacked.svg",
+      "baseline_blob": "d91b363460652bef435ecb1d0aeb6b8fe50b8dc3",
+      "current_blob": "d91b363460652bef435ecb1d0aeb6b8fe50b8dc3",
+      "identical": true
+    },
+    {
+      "path": "logo/ts-stamp-currentcolor.svg",
+      "baseline_blob": "7e58592a33301afe223b7541278d3061584417a0",
+      "current_blob": "7e58592a33301afe223b7541278d3061584417a0",
+      "identical": true
+    },
+    {
+      "path": "logo/ts-stamp-mono-cream.svg",
+      "baseline_blob": "ce2d222ee40d9de9c7c0abca6a09c2a955697ed7",
+      "current_blob": "ce2d222ee40d9de9c7c0abca6a09c2a955697ed7",
+      "identical": true
+    },
+    {
+      "path": "logo/ts-stamp-mono-ink.svg",
+      "baseline_blob": "aca1e449b9d1384e8293386df22268da9faae498",
+      "current_blob": "aca1e449b9d1384e8293386df22268da9faae498",
+      "identical": true
+    },
+    {
+      "path": "logo/ts-stamp-mono-orange.svg",
+      "baseline_blob": "9c03e00beb4270082ad8a57fe8ac2a35fe5c254a",
+      "current_blob": "9c03e00beb4270082ad8a57fe8ac2a35fe5c254a",
+      "identical": true
+    },
+    {
+      "path": "logo/ts-stamp.svg",
+      "baseline_blob": "dae8c394057e475f59bfd624586246a17784d732",
+      "current_blob": "dae8c394057e475f59bfd624586246a17784d732",
+      "identical": true
+    },
+    {
+      "path": "logo/wordmark-compact.svg",
+      "baseline_blob": "09acb8303bc9b7279ac70227a823a1203d2f1017",
+      "current_blob": "09acb8303bc9b7279ac70227a823a1203d2f1017",
+      "identical": true
+    },
+    {
+      "path": "logo/wordmark-cream.svg",
+      "baseline_blob": "c0e3be6e098916ccaac69e59dc4860f2b619d27a",
+      "current_blob": "c0e3be6e098916ccaac69e59dc4860f2b619d27a",
+      "identical": true
+    },
+    {
+      "path": "logo/wordmark-orange.svg",
+      "baseline_blob": "79470025b69f80bed1c3a54770ba8b5e042b0aea",
+      "current_blob": "79470025b69f80bed1c3a54770ba8b5e042b0aea",
+      "identical": true
+    },
+    {
+      "path": "logo/wordmark.svg",
+      "baseline_blob": "251a2508a5a04fd05d1f69f2997ddc103d2f8f02",
+      "current_blob": "251a2508a5a04fd05d1f69f2997ddc103d2f8f02",
+      "identical": true
+    }
+  ],
+  "no_approval_state_change": true
+}

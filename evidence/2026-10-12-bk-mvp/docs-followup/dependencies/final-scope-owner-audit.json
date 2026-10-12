@@ -1,0 +1,542 @@
+{
+  "schema": "ticketstub-final-scope-owner-delta-audit@1",
+  "recorded_at": "2026-10-12T18:20:01.707Z",
+  "reviewer": "Astra agent /root/asset_pipeline",
+  "mode": "Read-only current GitHub issue bodies/comment pages/PR review metadata and exact merged source inspection; no code, issue, branch, approval or foreign-record mutations; no new tests in this audit.",
+  "comparison": {
+    "handoff_window_utc": "2026-10-12T17:41:30Z through 2026-10-12T17:42:44Z",
+    "earlier_issue_scope": "triage/final-issue-scope.json",
+    "decision_comparison": "New comments after the final handoff and PR26 receipts were inspected as decisions, not inferred from checkboxes. All non-checkbox issue-body bytes match the earlier scope snapshot.",
+    "final_refresh_unchanged": true
+  },
+  "observed_main": {
+    "sha": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "tree": "32e3904a8d901b9c6cf75ca1e65829fe98df03f0",
+    "github_commit_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/commit/e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "github_tree_matches_local": true,
+    "parent_shas": [
+      "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "1603948d569ae2eb48693d7f4a40cce45b8111b1"
+    ],
+    "tracked_files": 117
+  },
+  "result": {
+    "new_owner_identity_rights_font_version_or_consumer_approval": false,
+    "new_scope_waiver": false,
+    "new_work_unlocked": false,
+    "disposition": "Retain #6 scoped closure and existing #8/#10 closures. #7/#9/#11–#15, gate#5 and epic#4 remain open for exact accountable inputs. PR3 remains on explicit partial-supersession hold.",
+    "implementation_delta": "PR26 owner's postmerge receipt became available: source41001e1, evidencecd744af6. PR28 then corrected the existing Marketing role in the source index; neither change grants domain acceptance.",
+    "current_main_test_attribution": "Root is separately recording fresh checks at e254df5. This audit does not carry older gate outcomes forward as a new executed gate."
+  },
+  "count_boundaries": {
+    "leaf_criteria_in_issues_6_7_9_11_through_15": 55,
+    "independent_gate_criteria_in_issue5": 9,
+    "substantive_leaf_plus_gate_criteria": 64,
+    "gate_dependency_pointer_rows": 10,
+    "leaf_plus_gate_checkbox_rows_in_prior_map": 74,
+    "additional_epic_dependency_pointers": 11,
+    "explanation": "64 substantive criteria +10 gate dependency pointers =74 mapped rows. Epic#4 has11 additional pointers, not11 additional independent acceptance criteria. Canonical integration-evals47 is a separate tracker."
+  },
+  "issues": [
+    {
+      "number": 4,
+      "key": "BK-EPIC",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/4",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-12T18:13:07Z",
+      "body_sha256": "a6cd93cc504598ee2a10770e39e0f3bd4aa56d85875ea83dfcf3780b000e8566",
+      "substantive_body_unchanged_from_prior_scope": true,
+      "body_delta": "BK-01 dependency pointer checked only",
+      "checkbox_rows": 11,
+      "checked_rows": 1,
+      "comment_count": 2,
+      "comment_ids_retrieved": [
+        6129481897,
+        6129954526
+      ],
+      "latest_comment": {
+        "id": 6129954526,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/4#issuecomment-6129954526",
+        "author": "CompleteDotTech",
+        "created_at": "2026-10-12T18:13:07Z",
+        "updated_at": "2026-10-12T18:13:07Z",
+        "body_sha256": "76fd8b6c78db63ec5e6e960c299bbf8f2813b93ce44c584027f9e703850a1a0e",
+        "decision_summary": "PR26 postmerge evidence and producer handoffs are recorded; no new domain decision or consumer ACK. Existing scoped closures and PR3 hold remain."
+      },
+      "new_comments_after_handoff": [
+        6129954526
+      ],
+      "new_owner_approval_or_scope_unlock": false,
+      "responsible_owner_role": "Product/frontend supervisor and release owner",
+      "next_action": "Retain open. Close only after all required leaf outcomes and accountable BK-10 acceptance; master acceptance remains with integration-evals."
+    },
+    {
+      "number": 5,
+      "key": "BK-10",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-12T18:07:55Z",
+      "body_sha256": "a64fbfd9ee2634f68ad0b3ca4d97331b66999d70311a782953ad6b444c27234a",
+      "substantive_body_unchanged_from_prior_scope": true,
+      "body_delta": "BK-01 dependency pointer checked only",
+      "checkbox_rows": 19,
+      "checked_rows": 1,
+      "comment_count": 4,
+      "comment_ids_retrieved": [
+        6118158753,
+        6127989269,
+        6129481297,
+        6129876484
+      ],
+      "latest_comment": {
+        "id": 6129876484,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5#issuecomment-6129876484",
+        "author": "CompleteDotTech",
+        "created_at": "2026-10-12T18:07:55Z",
+        "updated_at": "2026-10-12T18:07:55Z",
+        "body_sha256": "2440e12eac5c855b363196e79f8835a16431c7b7c650affb7734e48059ffd40b",
+        "decision_summary": "PR26 fixes approved-subset/artifact binding and isolated asset outputs. Actual merged-source gate remains blocked: 14 implementation passes, 3 prerequisite failures, 30 blockers."
+      },
+      "new_comments_after_handoff": [
+        6129876484
+      ],
+      "new_owner_approval_or_scope_unlock": false,
+      "responsible_owner_role": "Product/frontend release owner plus required independent/domain reviewers",
+      "next_action": "Obtain required identity, rights, version/font/subset, visual/accessibility/content/history review and exact consumer receipts; authenticate the selected artifact before the release decision."
+    },
+    {
+      "number": 6,
+      "key": "BK-01",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2026-10-12T17:30:26Z",
+      "body_sha256": "5a665e3392ce95ab4a369a751c61844e3e173df99ddaa8e3614ac68389ee444f",
+      "substantive_body_unchanged_from_prior_scope": true,
+      "body_delta": "six scoped inventory checkboxes checked",
+      "checkbox_rows": 6,
+      "checked_rows": 6,
+      "comment_count": 4,
+      "comment_ids_retrieved": [
+        6117576037,
+        6117700508,
+        6118159409,
+        6129290656
+      ],
+      "latest_comment": {
+        "id": 6129290656,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6#issuecomment-6129290656",
+        "author": "CompleteDotTech",
+        "created_at": "2026-10-12T17:30:25Z",
+        "updated_at": "2026-10-12T17:30:25Z",
+        "body_sha256": "2990db17fe19bf591911fed2b9aa59a543667718e0055bf143ca1127b865de06",
+        "decision_summary": "All six inventory/source-map criteria were accepted at merge6222a74 with independent review, real negative checks and immutable evidence; rights and release approval expressly excluded."
+      },
+      "new_comments_after_handoff": [],
+      "new_owner_approval_or_scope_unlock": false,
+      "responsible_owner_role": "Product/frontend brand-system maintainer and supervising source reviewer",
+      "next_action": "Retain scoped closure. Root verifies the current merged revision separately; no new criterion, withdrawal or owner hold was recorded."
+    },
+    {
+      "number": 7,
+      "key": "BK-06",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-12T17:41:30Z",
+      "body_sha256": "b6a55e3078ad754901825061e76cfceb5eda43899057c24ae7c61c517926ec9e",
+      "substantive_body_unchanged_from_prior_scope": true,
+      "body_delta": "none",
+      "checkbox_rows": 6,
+      "checked_rows": 0,
+      "comment_count": 4,
+      "comment_ids_retrieved": [
+        6117727213,
+        6117941355,
+        6118156729,
+        6129464568
+      ],
+      "latest_comment": {
+        "id": 6129464568,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7#issuecomment-6129464568",
+        "author": "CompleteDotTech",
+        "created_at": "2026-10-12T17:41:30Z",
+        "updated_at": "2026-10-12T17:41:30Z",
+        "body_sha256": "52521b1b7e4a01d28a912f64db36b31ad5b94d8a0836bd3b134ccecee6077b44",
+        "decision_summary": "The exact-file register and enforcement tools exist; empty allowlist and uncleared rights remain. Lars coordination did not appoint him to every role."
+      },
+      "new_comments_after_handoff": [],
+      "new_owner_approval_or_scope_unlock": false,
+      "responsible_owner_role": "Brand maintainer with Creative/fulfillment rights reviewer",
+      "next_action": "Provide source/version, rights-holder or acquisition records, intended-use permission, notices and dated per-file verdicts or exclusions; confirm provenance reviewer and named history/evidence sanitization disposition."
+    },
+    {
+      "number": 9,
+      "key": "BK-02",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-12T17:41:32Z",
+      "body_sha256": "8658ad44f32b1a76a218cdee2610d1607718c9af598332dffc7b8b9da4426015",
+      "substantive_body_unchanged_from_prior_scope": true,
+      "body_delta": "none",
+      "checkbox_rows": 7,
+      "checked_rows": 0,
+      "comment_count": 4,
+      "comment_ids_retrieved": [
+        6104392189,
+        6118156427,
+        6118216028,
+        6129464881
+      ],
+      "latest_comment": {
+        "id": 6129464881,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6129464881",
+        "author": "CompleteDotTech",
+        "created_at": "2026-10-12T17:41:32Z",
+        "updated_at": "2026-10-12T17:41:32Z",
+        "body_sha256": "e41257aa5c70fd652334b03d3bd6196d3e412c2bb6721e076f65cc9acdbce768",
+        "decision_summary": "Decision packet is ready; nomination and current consumer behavior are not ratification. The question to Lars is still unanswered and PR3 is only partially superseded."
+      },
+      "new_comments_after_handoff": [],
+      "new_owner_approval_or_scope_unlock": false,
+      "responsible_owner_role": "Nominated accountable brand approver CompleteDotTech plus design/content, provenance and affected consumer reviewers",
+      "next_action": "Record six dated accept/reject/revise decisions against exact reviewed source: A+B versus A-only scope, mark variants, palette/foil, typography, imagery/artwork and icon ownership; include rights and migration impact."
+    },
+    {
+      "number": 11,
+      "key": "BK-04",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-12T17:41:33Z",
+      "body_sha256": "188946a8b268dbeeb33b44243112e0835a40ed6ad1c9af92ad2ed160714a6c9b",
+      "substantive_body_unchanged_from_prior_scope": true,
+      "body_delta": "none",
+      "checkbox_rows": 7,
+      "checked_rows": 0,
+      "comment_count": 2,
+      "comment_ids_retrieved": [
+        6118157385,
+        6129465100
+      ],
+      "latest_comment": {
+        "id": 6129465100,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11#issuecomment-6129465100",
+        "author": "CompleteDotTech",
+        "created_at": "2026-10-12T17:41:32Z",
+        "updated_at": "2026-10-12T17:41:32Z",
+        "body_sha256": "d8898c7fb21d7388bfa75539b4c85f9db766650110398fb72fc279b51416af45",
+        "decision_summary": "Deterministic exports, hostile-input checks and review renders are implemented; canonical14SVG bytes remain preserved. No actual visual or rights approval is supplied."
+      },
+      "new_comments_after_handoff": [],
+      "new_owner_approval_or_scope_unlock": false,
+      "responsible_owner_role": "Brand asset engineer and appointed visual/brand reviewer",
+      "next_action": "After identity/rights selection, accept exact export-manifest/render hashes for favicon16/24/32, stamp24px/8mm, compact wordmark, currentColor/backgrounds and1024px app icon."
+    },
+    {
+      "number": 12,
+      "key": "BK-08",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-12T17:41:33Z",
+      "body_sha256": "71e461516893df2a2321a584d8c699ca70e2435cb56f6f25c69ba69eeee2ee41",
+      "substantive_body_unchanged_from_prior_scope": true,
+      "body_delta": "none",
+      "checkbox_rows": 7,
+      "checked_rows": 0,
+      "comment_count": 2,
+      "comment_ids_retrieved": [
+        6118157751,
+        6129465319
+      ],
+      "latest_comment": {
+        "id": 6129465319,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12#issuecomment-6129465319",
+        "author": "CompleteDotTech",
+        "created_at": "2026-10-12T17:41:33Z",
+        "updated_at": "2026-10-12T17:41:33Z",
+        "body_sha256": "10a83223fecebd6ec12e5d6cfbf4a785ad6b6f65add010785c37e78e996c354c",
+        "decision_summary": "Computed contrast and local theme/motion/fallback/browser evidence exist. CSS zoom proxy and platform-fallback tests do not supply approved-font or manual acceptance."
+      },
+      "new_comments_after_handoff": [],
+      "new_owner_approval_or_scope_unlock": false,
+      "responsible_owner_role": "Accessibility reviewer with brand/type and font-delivery owners",
+      "next_action": "After identity and external-font selection, run approved-font available/unavailable cases at actual200% browser zoom/narrow width and required manual/assistive-technology review; accept pairing restrictions and limits."
+    },
+    {
+      "number": 13,
+      "key": "BK-05",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-12T17:41:34Z",
+      "body_sha256": "8dc5f8d6b5b8b0e4631ab2aa196c9129b6049febec1acb8691182fc343345358",
+      "substantive_body_unchanged_from_prior_scope": true,
+      "body_delta": "none",
+      "checkbox_rows": 8,
+      "checked_rows": 0,
+      "comment_count": 2,
+      "comment_ids_retrieved": [
+        6118158090,
+        6129465542
+      ],
+      "latest_comment": {
+        "id": 6129465542,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13#issuecomment-6129465542",
+        "author": "CompleteDotTech",
+        "created_at": "2026-10-12T17:41:34Z",
+        "updated_at": "2026-10-12T17:41:34Z",
+        "body_sha256": "e021e3e149051e6c667d0962d050fb133f15bf3d7c277fe37aa9f64574853efc",
+        "decision_summary": "Usage examples and public-claim register exist. Claims, imagery/edition/co-brand scope and exact owner review remain pending; BK-05 completion is not a BK-09 prerequisite."
+      },
+      "new_comments_after_handoff": [],
+      "new_owner_approval_or_scope_unlock": false,
+      "responsible_owner_role": "Design/content maintainer with existing Marketing/MM-02 reviewer and brand/accessibility reviewers",
+      "next_action": "Review chosen channel/size/background/usage rules against BK-04/BK-08; obtain accountable claim dispositions tied to MM-02 and pinned GT-10B evidence, preserving illustrative labels until substantiated."
+    },
+    {
+      "number": 14,
+      "key": "BK-03B",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-12T18:07:57Z",
+      "body_sha256": "e8b6d6d42db6d061f5222b7be8d8199691dd523cf7cc8fba81c5650b7d68674c",
+      "substantive_body_unchanged_from_prior_scope": true,
+      "body_delta": "none",
+      "checkbox_rows": 7,
+      "checked_rows": 0,
+      "comment_count": 4,
+      "comment_ids_retrieved": [
+        6103823848,
+        6118157033,
+        6129465795,
+        6129876896
+      ],
+      "latest_comment": {
+        "id": 6129876896,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14#issuecomment-6129876896",
+        "author": "CompleteDotTech",
+        "created_at": "2026-10-12T18:07:56Z",
+        "updated_at": "2026-10-12T18:07:56Z",
+        "body_sha256": "c567d562fd5f129ff440c27fc0d9e1431d0b71b2b1ff4ea717ca7108362e5369",
+        "decision_summary": "PR26 binds actual package output to the approved subset. Local review packaging passes, but no approved locator/version/font decision or rollback approval is supplied."
+      },
+      "new_comments_after_handoff": [
+        6129876896
+      ],
+      "new_owner_approval_or_scope_unlock": false,
+      "responsible_owner_role": "Release/distribution maintainer with brand, provenance and font/privacy reviewers",
+      "next_action": "Select immutable locator/version, rights-cleared subset, compatibility/deprecation and approved rollback target; review exact external provider/families/axes/CSP/privacy/fallback policy and actual available/unavailable-font evidence."
+    },
+    {
+      "number": 15,
+      "key": "BK-09",
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-12T18:07:58Z",
+      "body_sha256": "167f400b8eff9a2bf0b3adae2bb9916705f16a36452276c9962d8411391d3691",
+      "substantive_body_unchanged_from_prior_scope": true,
+      "body_delta": "none",
+      "checkbox_rows": 7,
+      "checked_rows": 0,
+      "comment_count": 3,
+      "comment_ids_retrieved": [
+        6118158404,
+        6129466012,
+        6129877202
+      ],
+      "latest_comment": {
+        "id": 6129877202,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15#issuecomment-6129877202",
+        "author": "CompleteDotTech",
+        "created_at": "2026-10-12T18:07:58Z",
+        "updated_at": "2026-10-12T18:07:58Z",
+        "body_sha256": "41f9196a98290ba1fba40a9fd6d8354e01d085105243843ddeb2e53e211edaf5",
+        "decision_summary": "Marketing's existing assignment and Landing source divergence are recorded. Producer source evidence supplies no consumer ACK, consumer tested revision or approved exception; deployment is not required for early review."
+      },
+      "new_comments_after_handoff": [
+        6129877202
+      ],
+      "new_owner_approval_or_scope_unlock": false,
+      "responsible_owner_role": "Integration documentation owner and named Product, Landing and existing Marketing supervisor/reviewer",
+      "next_action": "After BK-03B supplies the approved artifact, Product, Landing and existing Marketing reviewer each ACK/reject exact locator/version, source/archive/file pins, allowed imports, font/fallback and upgrade/rollback contract with fixture disposition."
+    }
+  ],
+  "pr3": {
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3",
+    "state": "open",
+    "draft": false,
+    "merged": false,
+    "head_sha": "289b22659f0699649abd65ba7a3b7e710839f4d3",
+    "head_branch": "docs/studio-links",
+    "author": "lmvdz",
+    "updated_at": "2026-10-12T17:42:44Z",
+    "body_sha256": "4f3f6385c7294a45639a932221baace8ad2a4fb530ae9bdebe01864a11929c85",
+    "mergeable": false,
+    "mergeable_state": "dirty",
+    "mergeability_observation": "Initial refresh returned null/unknown; final refresh completed as false/dirty. Explicit owner hold remained throughout.",
+    "formal_reviews": 0,
+    "inline_review_comments": 0,
+    "comment_ids_retrieved": [
+      6104391510,
+      6117593010,
+      6117604850,
+      6117936742,
+      6122017963,
+      6122164575,
+      6129482528
+    ],
+    "latest_comment": {
+      "id": 6129482528,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3#issuecomment-6129482528",
+      "author": "CompleteDotTech",
+      "created_at": "2026-10-12T17:42:44Z",
+      "updated_at": "2026-10-12T17:42:44Z",
+      "body_sha256": "bb35af7815b1361b419870ea49e9fb6e4500a93a5ef98dd5a5bc4dcfc33c2f49",
+      "decision_summary": "PR22/#23 integrated valid links and rule-neutral corrections; unique A-only, foil/material and WebAudio/sound policy still needs exact owner decisions. Fully-superseded closure and merge are not authorized by this receipt."
+    },
+    "governing_decision_comment_ids": [
+      6104392189,
+      6118216028,
+      6117604850,
+      6122164575,
+      6129482528
+    ],
+    "new_owner_decision_after_handoff": false,
+    "next_action": "Nominated brand approver and required reviewers disposition the six-decision #9 packet. Original author then reconciles only approved remaining delta in an owner-compatible lane, obtains independent review and runs affected checks; preserve original branch."
+  },
+  "existing_authority_boundaries": {
+    "brand_approver": {
+      "login": "CompleteDotTech",
+      "receipt": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6113526793",
+      "date": "2026-10-11T20:41:31Z",
+      "scope": "Existing accountable approver nomination; no unseen identity/artifact ratification."
+    },
+    "font_constraint": {
+      "receipt": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6116787775",
+      "date": "2026-10-12T02:42:03Z",
+      "scope": "User requires no self-hosted runtime fonts; exact external provider policy/availability remains undecided."
+    },
+    "marketing": {
+      "receipt_urls": [
+        "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/7#issuecomment-6105489382",
+        "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/5#issuecomment-6112307412"
+      ],
+      "fresh_dependency_receipt": "triage/e4-final-dependency-refresh.json",
+      "scope": "Existing user-assigned Marketing supervisor is its content/brand/handoff reviewer and receiver. No new appointment is needed for that role; exact artifact ACK is still missing. No authority transfers to Brand agent."
+    },
+    "already_closed_prerequisites": [
+      {
+        "issue": 8,
+        "state": "closed",
+        "updated_at": "2026-10-12T05:11:16Z",
+        "latest_comment": {
+          "id": 6118159083,
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6118159083",
+          "author": "CompleteDotTech",
+          "created_at": "2026-10-12T05:11:16Z",
+          "updated_at": "2026-10-12T05:11:16Z",
+          "body_sha256": "e9f08cb42d24f74231b54fbaeed21b506d5df6e224751589013225d5db66d71f"
+        },
+        "scope": "Previously scoped governance/token implementation closure; no new domain approval or appointment supplied."
+      },
+      {
+        "issue": 10,
+        "state": "closed",
+        "updated_at": "2026-10-12T04:48:45Z",
+        "latest_comment": {
+          "id": 6117945209,
+          "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/10#issuecomment-6117945209",
+          "author": "CompleteDotTech",
+          "created_at": "2026-10-12T04:48:45Z",
+          "updated_at": "2026-10-12T04:48:45Z",
+          "body_sha256": "408077909df792dcca3d735bc77ece1c6cb2c62ee2de98b452a9fcd5cfb8e0f4"
+        },
+        "scope": "Previously scoped governance/token implementation closure; no new domain approval or appointment supplied."
+      }
+    ]
+  },
+  "exact_source_missing_inputs": {
+    "files": {
+      "docs/source-of-truth.md": {
+        "sha256": "03b142d9bfa054fc759e594bfd6c2e66c8203dcde579ee113a5af46f0997019f",
+        "git_blob": "28df4f19e8b4596e663d60716fb1885e2cc3944f"
+      },
+      "docs/brand-governance.md": {
+        "sha256": "ea1248927feeec6df1d4051d22e47edfa2043d08e03787d6b6bdc2ee42039f2c",
+        "git_blob": "312e15e211a6cb257af655e638cefe6c92a07efd"
+      },
+      "distribution/acceptance.json": {
+        "sha256": "7b1fed909a2be92a1cdc9e68ddb84b8e626d5a58b33526d92d13f4df4151f4ff",
+        "git_blob": "0feb4c0c659d84d3b7068db21eca52215fc1f304"
+      },
+      "distribution/proposal.json": {
+        "sha256": "9b1c84556bf7c1ff3998e53fa1bced6940697dd777384486f391f3e7e3282a61",
+        "git_blob": "9eeb7d91e3f05bc2de06b0bc1cefd02a04c06c4c"
+      },
+      "provenance/allowlist.json": {
+        "sha256": "40b7842c9c30972e95e81f9fe7151aa954bf802d486b0108e244bc0164d38524",
+        "git_blob": "95b87b7e07bf15f00b33544a4c6bb1d81ac0dde0"
+      }
+    },
+    "production_allowlist_entries": 0,
+    "allowlist_review": "UNKNOWN",
+    "selected_brand_version": null,
+    "approved_source_sha": null,
+    "distribution_approval": null,
+    "font_delivery_approval": null,
+    "release_review": null,
+    "required_consumer_acknowledgments": {
+      "getticketstub.com": null,
+      "landing-page-repo": null,
+      "marketing-material": null
+    },
+    "manual_evidence_slots": "All8 manual acceptance slots remain null. All10 artifact-bound leaf slots remain null; this does not negate #6's independent inventory closure."
+  },
+  "latest_pr26_owner_receipt": {
+    "source_revision": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+    "evidence_commit": "cd744af6da5b1f89f410383fac5937e1ea8d6705",
+    "receipt_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5#issuecomment-6129876484",
+    "source_of_reported_counts": "Owner postmerge receipt, newly read in this audit; not a new run by this reviewer.",
+    "reported_tests_passed": 289,
+    "reported_implementation_targets_passed": 14,
+    "reported_prerequisite_targets_failed": 3,
+    "reported_blockers": 30,
+    "reported_aggregate_exit": 1,
+    "release_approved": false,
+    "retained_failures": "check-provenance, package-brand and check-consumers each actually failed with exit2. Older candidate, setup and synthetic pre-fix failures remain separately attributed.",
+    "limit": "Local review/browser evidence does not execute approved external-font availability, manual review or consumer acceptance."
+  },
+  "canonical_acceptance": {
+    "repository": "Jevelopers-neatHack-2026/integration-evals",
+    "live_main_sha": "f187722613c61e14e3f4087a66d07b2b1e6820f7",
+    "ref_changed_since_prior_policy_refresh": false,
+    "counts_mode": "Carry-forward from exact unchanged master JSON after live main-ref refresh; no master record edited.",
+    "proof": "triage/final-dependency-policy-refresh.json",
+    "master_json_url": "https://github.com/Jevelopers-neatHack-2026/integration-evals/blob/f187722613c61e14e3f4087a66d07b2b1e6820f7/planning/acceptance-checklist.json",
+    "master_json_git_blob": "7d7e48f2bb86f563e2f0391cff7c0c5b91320e33",
+    "criteria": 47,
+    "status_counts": {
+      "planned": 44,
+      "verified": 3
+    },
+    "brand_contributions": {
+      "ART-05": "planned",
+      "EVAL-04": "planned"
+    },
+    "priority_order": "P0 demonstration/financial integrity; P1 expansion; Production before live commerce. Local labels do not override master scope.",
+    "authority": "Integration-evals owns canonical acceptance; no local implementation or issue checkbox promotes its criteria."
+  },
+  "exclusions": [
+    "No real identity/rights/font/version/consumer approval fabricated.",
+    "No issue/gate/epic or foreign record changed.",
+    "No full issue/comment bodies, private transcripts, credentials or customer data included.",
+    "This scope audit is not an independent source approval of the reviewer's authored files; root/peer exact-source reviews and fresh tests are separate."
+  ]
+}

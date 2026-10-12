@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+  "command": [
+    "npm",
+    "ci",
+    "--offline",
+    "--ignore-scripts",
+    "--no-audit",
+    "--no-fund"
+  ],
+  "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr28-candidate/tools/tokens-dev",
+  "started_utc": "2026-10-12T18:16:02.915803+00:00",
+  "ended_utc": "2026-10-12T18:16:03.984687+00:00",
+  "exit_code": 0,
+  "reason": "Resolve actual missing pinned Tailwind dependency observed in first M4 consumer run; retain that required skip",
+  "stdout": {
+    "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-consumer-recovery/install.stdout.txt",
+    "sha256": "cd3fffe983a1ac9dd82a1bf81a61f613d1245b7b31a2801db3400b146eae73a5",
+    "bytes": 28
+  },
+  "stderr": {
+    "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-consumer-recovery/install.stderr.txt",
+    "sha256": "7125f194612fcff2f454c05d848e7cb71facc1967b4d5017e25b34fdee3ba74f",
+    "bytes": 99
+  }
+}

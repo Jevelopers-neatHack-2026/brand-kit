@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-12T18:34:14.448082+00:00",
+  "mode": "local publication staging environment recovery, not source or release validation",
+  "initial_command_exit_code": 1,
+  "initial_failure": "OSError Errno28: no space left on device while creating triage/e4-publish-stage. No packet or remote state changed.",
+  "root_filesystem": "32GB full; inode capacity available",
+  "attempted_cleanup": "Removed only Git-ignored, untracked reproducible tools/tokens-dev or tools/browser-dev node_modules from inactive brand checkouts; source, review reports, logs, and current M4 dependencies untouched. Root filesystem continued to report zero available bytes.",
+  "cleanup_checkouts": [
+    "brand-kit-candidate",
+    "brand-distribution",
+    "brand-kit-distribution-review",
+    "brand-accessibility-review",
+    "brand-kit-browser-evidence",
+    "brand-kit-integration"
+  ],
+  "approximate_removed_file_bytes": 93917884,
+  "successful_alternative": "Stage byte-identical text packet and publication addendum in /dev/shm, with its available capacity; use a separate Git index and object directory there. Durable final destination remains the authorized GitHub evidence branch.",
+  "staging_path": "/dev/shm/ticketstub-brand-e4-5ecc3c6cf97a/packet",
+  "free_memory_filesystem_bytes": 5224595456,
+  "source_packet_sha256": "a59028ef528f9a50973438b5df69d1d21006518b38e7b98a3c78a1a0cee46a2d",
+  "all_original_source_evidence_preserved": true,
+  "source_release_outcomes_unchanged": true
+}

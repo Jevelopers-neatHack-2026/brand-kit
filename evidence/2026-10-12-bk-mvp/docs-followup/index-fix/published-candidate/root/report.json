@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "revision": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+  "tree": "32e3904a8d901b9c6cf75ca1e65829fe98df03f0",
+  "local_tree_equivalent_revision": "82a1d29d71f88820dd6e32d97cf85db69c823fb0",
+  "base_main": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+  "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr28-candidate",
+  "mode": "local-source; no providers",
+  "environment": {
+    "PYTHON": "/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python",
+    "PLAYWRIGHT_BROWSERS_PATH": "/tmp/ticketstub-browser-1194"
+  },
+  "checks": [
+    {
+      "command": [
+        "make",
+        "check"
+      ],
+      "revision": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+      "started_utc": "2026-10-12T18:08:18.818385+00:00",
+      "ended_utc": "2026-10-12T18:09:10.372762+00:00",
+      "exit_code": 0,
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-published-candidate-validation/00.stdout.txt",
+        "sha256": "77c0a315127b5bff33f0f9998352589b81043662903c0234086cb7f726225bde",
+        "bytes": 20862
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-published-candidate-validation/00.stderr.txt",
+        "sha256": "091a7cf5fd83d8c28b73476071ffe67e16ad3a6a8718153ee07637b867ff7eb3",
+        "bytes": 35178
+      }
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+        "HEAD"
+      ],
+      "revision": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+      "started_utc": "2026-10-12T18:09:10.373306+00:00",
+      "ended_utc": "2026-10-12T18:09:10.376266+00:00",
+      "exit_code": 0,
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-published-candidate-validation/01.stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-published-candidate-validation/01.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--exit-code",
+        "82a1d29d71f88820dd6e32d97cf85db69c823fb0",
+        "HEAD"
+      ],
+      "revision": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+      "started_utc": "2026-10-12T18:09:10.376609+00:00",
+      "ended_utc": "2026-10-12T18:09:10.379011+00:00",
+      "exit_code": 0,
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-published-candidate-validation/02.stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-published-candidate-validation/02.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--porcelain",
+        "--untracked-files=all"
+      ],
+      "revision": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+      "started_utc": "2026-10-12T18:09:10.379292+00:00",
+      "ended_utc": "2026-10-12T18:09:10.402934+00:00",
+      "exit_code": 0,
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-published-candidate-validation/03.stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-published-candidate-validation/03.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    }
+  ],
+  "state": "complete",
+  "all_commands_zero": true,
+  "external_links": "163 URLs remain unchecked by local link checker; no external link added or Product117 requirement introduced",
+  "source_scope": "Only one source-index paragraph changed; 116 other tracked paths unchanged from actual base main"
+}

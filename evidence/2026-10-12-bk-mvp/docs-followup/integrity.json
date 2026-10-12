@@ -1,0 +1,1774 @@
+{
+  "schema_version": 1,
+  "scope": "Source and documentation evidence only; no release approval",
+  "files": [
+    {
+      "path": "prior/local-first/report.json",
+      "bytes": 3800,
+      "sha256": "1ba19ed7bb1f49e792b1c4b6c0dd2cfd0716b95982d4da240794539c7a2a9d49",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-followup-validation.json",
+      "source_sha256": "1ba19ed7bb1f49e792b1c4b6c0dd2cfd0716b95982d4da240794539c7a2a9d49",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/local-first/check-0.log",
+      "bytes": 19924,
+      "sha256": "ea8757201aad58a8c23e5e3be5a784c2a97a7cb64fc6c9253ac8c558a3daa2bd",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-followup-validation-0.log",
+      "source_sha256": "ea8757201aad58a8c23e5e3be5a784c2a97a7cb64fc6c9253ac8c558a3daa2bd",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/local-first/check-1.log",
+      "bytes": 274,
+      "sha256": "f322940743c4398ff7a28650b0bcd3ecf7488fe42efefbec087f7a384bebc723",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-followup-validation-1.log",
+      "source_sha256": "f322940743c4398ff7a28650b0bcd3ecf7488fe42efefbec087f7a384bebc723",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/local-final/report.json",
+      "bytes": 4896,
+      "sha256": "7a68628368f0e63970e1f3885abd2da8d9cb99ecadd4e1ffa577d89e438ca831",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-followup-final-validation.json",
+      "source_sha256": "7a68628368f0e63970e1f3885abd2da8d9cb99ecadd4e1ffa577d89e438ca831",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/local-final/check-0.log",
+      "bytes": 19924,
+      "sha256": "40ef73ba08fbfddcf19abda4479a98f84cbccc4681ba9a354f51a6f5a70631b2",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-followup-final-validation-0.log",
+      "source_sha256": "40ef73ba08fbfddcf19abda4479a98f84cbccc4681ba9a354f51a6f5a70631b2",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/local-final/check-1.log",
+      "bytes": 274,
+      "sha256": "5d981bdb9c9516f457ef5d2a174a888092e8d8ccee1ee8abd40610d326949573",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-followup-final-validation-1.log",
+      "source_sha256": "5d981bdb9c9516f457ef5d2a174a888092e8d8ccee1ee8abd40610d326949573",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/local-final/check-2.log",
+      "bytes": 274,
+      "sha256": "ee57e40255b94a16f805d3792ba7e0818817fb8e779a2662e6697d1723939ac6",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-followup-final-validation-2.log",
+      "source_sha256": "ee57e40255b94a16f805d3792ba7e0818817fb8e779a2662e6697d1723939ac6",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/root/00.stderr.txt",
+      "bytes": 34206,
+      "sha256": "875cfe210bb40238883cec35da4c8e049a3c8ab15f58b73b7bbda5b95d9a9d57",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-published-candidate-validation/00.stderr.txt",
+      "source_sha256": "875cfe210bb40238883cec35da4c8e049a3c8ab15f58b73b7bbda5b95d9a9d57",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/root/00.stdout.txt",
+      "bytes": 21017,
+      "sha256": "d27e3aba672d6b1f3c9f543fe32f877c04c3d5e6def9477bb6f406feb7c23d05",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-published-candidate-validation/00.stdout.txt",
+      "source_sha256": "d27e3aba672d6b1f3c9f543fe32f877c04c3d5e6def9477bb6f406feb7c23d05",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/root/01.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-published-candidate-validation/01.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/root/01.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-published-candidate-validation/01.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/root/02.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-published-candidate-validation/02.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/root/02.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-published-candidate-validation/02.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/root/03.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-published-candidate-validation/03.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/root/03.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-published-candidate-validation/03.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/root/report.json",
+      "bytes": 4169,
+      "sha256": "929f90bb05d38279c33a71f0e60dd7f9b0fdd46f6f24b15ef8e29de8f37b083f",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-published-candidate-validation/report.json",
+      "source_sha256": "929f90bb05d38279c33a71f0e60dd7f9b0fdd46f6f24b15ef8e29de8f37b083f",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/review/commands.json",
+      "bytes": 5065,
+      "sha256": "d3e87c9d600b5b51ca24ed645b17036d89390b6f05c186a43802ba186d97c950",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/commands.json",
+      "source_sha256": "d3e87c9d600b5b51ca24ed645b17036d89390b6f05c186a43802ba186d97c950",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/review/diff-main.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/diff-main.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/review/diff-main.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/diff-main.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/review/diff-owner.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/diff-owner.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/review/diff-owner.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/diff-owner.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/review/governance.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/governance.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/review/governance.stdout",
+      "bytes": 107,
+      "sha256": "24719e864e86e498ce68b4605498b5b6d5aed93ffd719a9e25a6e374b936ca12",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/governance.stdout",
+      "source_sha256": "24719e864e86e498ce68b4605498b5b6d5aed93ffd719a9e25a6e374b936ca12",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/review/guidelines.stderr",
+      "bytes": 123,
+      "sha256": "f50078b2d6c9b189d5faacb952c122c7c7996d9e88a36ac5369613d1d426315c",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/guidelines.stderr",
+      "source_sha256": "f50078b2d6c9b189d5faacb952c122c7c7996d9e88a36ac5369613d1d426315c",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/review/guidelines.stdout",
+      "bytes": 416,
+      "sha256": "688960e3a797958de00cbe255e1b7a80a64b7a8ad7ea4b5cd62645bffa2f44eb",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/guidelines.stdout",
+      "source_sha256": "688960e3a797958de00cbe255e1b7a80a64b7a8ad7ea4b5cd62645bffa2f44eb",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/review/inventory.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/inventory.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/review/inventory.stdout",
+      "bytes": 142,
+      "sha256": "2b9cf110fcfb0e6ea7c3bee3401e33e02708e220aed4c8b35adee256103ecf67",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/inventory.stdout",
+      "source_sha256": "2b9cf110fcfb0e6ea7c3bee3401e33e02708e220aed4c8b35adee256103ecf67",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/review/links.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/links.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/review/links.stdout",
+      "bytes": 18792,
+      "sha256": "b6b1196e25f4adab57eb67d9f0bb781c055ce716cecbfd8efdd68afa36703548",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/links.stdout",
+      "source_sha256": "b6b1196e25f4adab57eb67d9f0bb781c055ce716cecbfd8efdd68afa36703548",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/review/local-tree-parity.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/local-tree-parity.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/review/local-tree-parity.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/local-tree-parity.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/review/review.json",
+      "bytes": 11267,
+      "sha256": "27594677dd6f4fa52bf18fdbb9ef1201e2152e2e1397297381b3ba1c692dcff9",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/review.json",
+      "source_sha256": "27594677dd6f4fa52bf18fdbb9ef1201e2152e2e1397297381b3ba1c692dcff9",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/aece3f0/review/source-proof.json",
+      "bytes": 1781,
+      "sha256": "f0d6b6e87e52d6b9b348219b4f5ab7cc0ee5045c94c0935ea2613124db7b4824",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-fix-review-aece3f0/source-proof.json",
+      "source_sha256": "f0d6b6e87e52d6b9b348219b4f5ab7cc0ee5045c94c0935ea2613124db7b4824",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/main-integration-precommit/00.stderr.txt",
+      "bytes": 123,
+      "sha256": "c75373d548ee55abbbc21ab34ea3c5beb0b1c8e388b16862dea15d79ae160c8a",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-main-integration-precommit/00.stderr.txt",
+      "source_sha256": "c75373d548ee55abbbc21ab34ea3c5beb0b1c8e388b16862dea15d79ae160c8a",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/main-integration-precommit/00.stdout.txt",
+      "bytes": 19820,
+      "sha256": "1d85411c42d2a0e2be69aa2a5e9a2a39bd0a61b050691d093e3988ee2218a2af",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-main-integration-precommit/00.stdout.txt",
+      "source_sha256": "1d85411c42d2a0e2be69aa2a5e9a2a39bd0a61b050691d093e3988ee2218a2af",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/main-integration-precommit/01.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-main-integration-precommit/01.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/main-integration-precommit/01.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-main-integration-precommit/01.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/main-integration-precommit/02.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-main-integration-precommit/02.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/main-integration-precommit/02.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-main-integration-precommit/02.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/main-integration-precommit/report.json",
+      "bytes": 2425,
+      "sha256": "b14486448f5e6a465596027d32ad2fde02a2b71d9d6918782fbd3ca57d166716",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-main-integration-precommit/report.json",
+      "source_sha256": "b14486448f5e6a465596027d32ad2fde02a2b71d9d6918782fbd3ca57d166716",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "prior/main-integration-local.json",
+      "bytes": 230,
+      "sha256": "ab8013ced544f1884c7c7316de2a08a4fe2953bc1ba7782ef0061fc0ca4af361",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-main-integration-local.json",
+      "source_sha256": "ab8013ced544f1884c7c7316de2a08a4fe2953bc1ba7782ef0061fc0ca4af361",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/root/00.stderr.txt",
+      "bytes": 35178,
+      "sha256": "bd13ae897ceda12526ff1853ad9c5a516342350b883822fd2198e84d6ad1db27",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-integrated-candidate-validation/00.stderr.txt",
+      "source_sha256": "bd13ae897ceda12526ff1853ad9c5a516342350b883822fd2198e84d6ad1db27",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/root/00.stdout.txt",
+      "bytes": 21380,
+      "sha256": "bc728bb28b010167bebcab39a5ee3d0116ea0d0dde8b32e9d5bef96b8f0f4764",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-integrated-candidate-validation/00.stdout.txt",
+      "source_sha256": "bc728bb28b010167bebcab39a5ee3d0116ea0d0dde8b32e9d5bef96b8f0f4764",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/root/01.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-integrated-candidate-validation/01.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/root/01.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-integrated-candidate-validation/01.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/root/02.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-integrated-candidate-validation/02.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/root/02.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-integrated-candidate-validation/02.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/root/03.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-integrated-candidate-validation/03.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/root/03.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-integrated-candidate-validation/03.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/root/report.json",
+      "bytes": 4234,
+      "sha256": "0317214e2783612786328e0ab22a176103617286816a1316a39319812d5271b1",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-integrated-candidate-validation/report.json",
+      "source_sha256": "0317214e2783612786328e0ab22a176103617286816a1316a39319812d5271b1",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/ancestor-main.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/ancestor-main.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/ancestor-main.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/ancestor-main.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/ancestor-original-owner.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/ancestor-original-owner.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/ancestor-original-owner.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/ancestor-original-owner.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/ancestor-prior.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/ancestor-prior.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/ancestor-prior.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/ancestor-prior.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/attributable-comment.txt",
+      "bytes": 2617,
+      "sha256": "39924645e75e68ff0808969610622bbcc34795c2a43dee11aa64d1fb4752f9a5",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/attributable-comment.txt",
+      "source_sha256": "39924645e75e68ff0808969610622bbcc34795c2a43dee11aa64d1fb4752f9a5",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/clean.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/clean.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/clean.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/clean.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/commands.json",
+      "bytes": 8617,
+      "sha256": "7bc3c1f840cade3258ff5009cd6c5fa45cc3cf72d8ed511f8a0c4858891946cc",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/commands.json",
+      "source_sha256": "7bc3c1f840cade3258ff5009cd6c5fa45cc3cf72d8ed511f8a0c4858891946cc",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/diff-main.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/diff-main.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/diff-main.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/diff-main.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/diff-owner.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/diff-owner.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/diff-owner.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/diff-owner.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/governance.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/governance.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/governance.stdout",
+      "bytes": 107,
+      "sha256": "24719e864e86e498ce68b4605498b5b6d5aed93ffd719a9e25a6e374b936ca12",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/governance.stdout",
+      "source_sha256": "24719e864e86e498ce68b4605498b5b6d5aed93ffd719a9e25a6e374b936ca12",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/guidelines.stderr",
+      "bytes": 123,
+      "sha256": "b125cd87b9473de6ed5553ad8b33f595eb72de8d82ab3a1518e874f27bc621ec",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/guidelines.stderr",
+      "source_sha256": "b125cd87b9473de6ed5553ad8b33f595eb72de8d82ab3a1518e874f27bc621ec",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/guidelines.stdout",
+      "bytes": 416,
+      "sha256": "688960e3a797958de00cbe255e1b7a80a64b7a8ad7ea4b5cd62645bffa2f44eb",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/guidelines.stdout",
+      "source_sha256": "688960e3a797958de00cbe255e1b7a80a64b7a8ad7ea4b5cd62645bffa2f44eb",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/inventory.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/inventory.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/inventory.stdout",
+      "bytes": 142,
+      "sha256": "2b9cf110fcfb0e6ea7c3bee3401e33e02708e220aed4c8b35adee256103ecf67",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/inventory.stdout",
+      "source_sha256": "2b9cf110fcfb0e6ea7c3bee3401e33e02708e220aed4c8b35adee256103ecf67",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/links.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/links.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/links.stdout",
+      "bytes": 19155,
+      "sha256": "b62ad85c684f065e99f9df3b7d1e068a88200147d8bc7cf985d769219a75f117",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/links.stdout",
+      "source_sha256": "b62ad85c684f065e99f9df3b7d1e068a88200147d8bc7cf985d769219a75f117",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/local-tree-parity.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/local-tree-parity.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/local-tree-parity.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/local-tree-parity.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/main.diff",
+      "bytes": 21115,
+      "sha256": "2db0527f0d07f69f5db93ce1bcf605ba743831cf8dc5dca23e0a2fa0c85a498c",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/main.diff",
+      "source_sha256": "2db0527f0d07f69f5db93ce1bcf605ba743831cf8dc5dca23e0a2fa0c85a498c",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/prior.diff",
+      "bytes": 39828,
+      "sha256": "75a829d100b7fa6e99b74acb845031d4835e6860370636b31d6ae0b5deaeba50",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/prior.diff",
+      "source_sha256": "75a829d100b7fa6e99b74acb845031d4835e6860370636b31d6ae0b5deaeba50",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/review.json",
+      "bytes": 10060,
+      "sha256": "458636bcc8ca9c5b40c66a124d3aca2d5ac181463a52d83dfddb1d05cc5d959a",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/review.json",
+      "source_sha256": "458636bcc8ca9c5b40c66a124d3aca2d5ac181463a52d83dfddb1d05cc5d959a",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/review/source-proof.json",
+      "bytes": 11761,
+      "sha256": "52ee06059d5e869e5c3579a16b82402949086ed7dffdcc7b7239414711d0fdc7",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-review-ba65bb2/source-proof.json",
+      "source_sha256": "52ee06059d5e869e5c3579a16b82402949086ed7dffdcc7b7239414711d0fdc7",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/duplicate-review/attributable-summary.txt",
+      "bytes": 2340,
+      "sha256": "a4487df623a0b7179d4f269e6928f0fb0d42f649a868727b99957350e8aa8dad",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-adoption-ba65/attributable-summary.txt",
+      "source_sha256": "a4487df623a0b7179d4f269e6928f0fb0d42f649a868727b99957350e8aa8dad",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/duplicate-review/remaining-main.diff",
+      "bytes": 18161,
+      "sha256": "fb4838f4916d6159bfee31bf6c8a77a19185919bf059d11202385a5c4b02b7e3",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-adoption-ba65/remaining-main.diff",
+      "source_sha256": "fb4838f4916d6159bfee31bf6c8a77a19185919bf059d11202385a5c4b02b7e3",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "architecture-ba65bb2/duplicate-review/report.json",
+      "bytes": 7189,
+      "sha256": "f62dfc51ea68162de9c15aa4989f80d578d69630076b850464faf3924e3b7a3f",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-adoption-ba65/report.json",
+      "source_sha256": "f62dfc51ea68162de9c15aa4989f80d578d69630076b850464faf3924e3b7a3f",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "role-receipts/independent-wording-review.json",
+      "bytes": 7717,
+      "sha256": "9201c14d156f00ddd01ed44c6423da226221784b632dc8a930f312ad24a235e9",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/e4-role-integration-review-curated.json",
+      "source_sha256": "9201c14d156f00ddd01ed44c6423da226221784b632dc8a930f312ad24a235e9",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "publication-preflight-failure.json",
+      "bytes": 1666,
+      "sha256": "ee867b816859dde9750f8bb29bd7816881a1c39547cd420ac9aeb63e2d7e9335",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/e4-assembly-preflight-failure.json",
+      "source_sha256": "ee867b816859dde9750f8bb29bd7816881a1c39547cd420ac9aeb63e2d7e9335",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "merged-pr26/validation.json",
+      "bytes": 3498,
+      "sha256": "ce95b8990da40d3f5da53542367b0e37b5e30cdff4d357cd8fb994c26dd02eb9",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr26-postmerge-validation.json",
+      "source_sha256": "ce95b8990da40d3f5da53542367b0e37b5e30cdff4d357cd8fb994c26dd02eb9",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "merged-pr26/review.json",
+      "bytes": 6236,
+      "sha256": "48d335d59534d8391cf73f8b9e85a1bf9db94d11a40d1f0268bc775ed7e6468c",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr26-postmerge-independent-review.json",
+      "source_sha256": "48d335d59534d8391cf73f8b9e85a1bf9db94d11a40d1f0268bc775ed7e6468c",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "merged-pr26/distribution.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr26-postmerge-distribution.stdout.log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "merged-pr26/distribution.stderr.log",
+      "bytes": 5879,
+      "sha256": "e137912ecca05892ddb3b015bf1935b128469b80fa1febcefdfbb48866a3dda8",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr26-postmerge-distribution.stderr.log",
+      "source_sha256": "e137912ecca05892ddb3b015bf1935b128469b80fa1febcefdfbb48866a3dda8",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "merged-pr26/docs.stdout.log",
+      "bytes": 19302,
+      "sha256": "0364e06a0e27131058900a4cf9b4eab2e43ec6fcdde9e76a83221058cdc84f74",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr26-postmerge-docs.stdout.log",
+      "source_sha256": "0364e06a0e27131058900a4cf9b4eab2e43ec6fcdde9e76a83221058cdc84f74",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "merged-pr26/docs.stderr.log",
+      "bytes": 123,
+      "sha256": "466c534c338bc298965f74c7fbe6a1bfb2097c7e3896dc0f2d838c13c6a60577",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr26-postmerge-docs.stderr.log",
+      "source_sha256": "466c534c338bc298965f74c7fbe6a1bfb2097c7e3896dc0f2d838c13c6a60577",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "merged-pr26/diff.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr26-postmerge-diff.stdout.log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "merged-pr26/diff.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr26-postmerge-diff.stderr.log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/precommit/report.json",
+      "bytes": 2306,
+      "sha256": "68892301f180123dc6d42bba8dc50fff3c973fcd14cad70f2cda67a899a9f174",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-precommit-validation.json",
+      "source_sha256": "68892301f180123dc6d42bba8dc50fff3c973fcd14cad70f2cda67a899a9f174",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/precommit/check-0.log",
+      "bytes": 19893,
+      "sha256": "b190b52bf6c13765988f73de7df4b41703b853a7f08e9087d9dfab3e20a74456",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-precommit-validation-0.log",
+      "source_sha256": "b190b52bf6c13765988f73de7df4b41703b853a7f08e9087d9dfab3e20a74456",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/precommit/check-1.log",
+      "bytes": 352,
+      "sha256": "09dc6ff0d4dfc6be6cf26fe0ead319cc6f91265e89335bf1c6bc22a20cfa3d84",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-precommit-validation-1.log",
+      "source_sha256": "09dc6ff0d4dfc6be6cf26fe0ead319cc6f91265e89335bf1c6bc22a20cfa3d84",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/local-candidate.json",
+      "bytes": 1275,
+      "sha256": "cb8b6e427167c25f2a9d91c707c1f752dbe2e1b6b329d324767ca76fc42b6a9b",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-local-candidate.json",
+      "source_sha256": "cb8b6e427167c25f2a9d91c707c1f752dbe2e1b6b329d324767ca76fc42b6a9b",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/root/00.stderr.txt",
+      "bytes": 35178,
+      "sha256": "091a7cf5fd83d8c28b73476071ffe67e16ad3a6a8718153ee07637b867ff7eb3",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-published-candidate-validation/00.stderr.txt",
+      "source_sha256": "091a7cf5fd83d8c28b73476071ffe67e16ad3a6a8718153ee07637b867ff7eb3",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/root/00.stdout.txt",
+      "bytes": 20862,
+      "sha256": "77c0a315127b5bff33f0f9998352589b81043662903c0234086cb7f726225bde",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-published-candidate-validation/00.stdout.txt",
+      "source_sha256": "77c0a315127b5bff33f0f9998352589b81043662903c0234086cb7f726225bde",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/root/01.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-published-candidate-validation/01.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/root/01.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-published-candidate-validation/01.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/root/02.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-published-candidate-validation/02.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/root/02.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-published-candidate-validation/02.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/root/03.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-published-candidate-validation/03.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/root/03.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-published-candidate-validation/03.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/root/report.json",
+      "bytes": 4099,
+      "sha256": "0328f701b4499c1ee3cd527a8bc64726f8d9e2c5848ebc9f5fbce889ffcfd412",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-published-candidate-validation/report.json",
+      "source_sha256": "0328f701b4499c1ee3cd527a8bc64726f8d9e2c5848ebc9f5fbce889ffcfd412",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/attributable-comment.txt",
+      "bytes": 2583,
+      "sha256": "f44e3ef260cf411e747d81d4f1e47ec163dad50ed80cad97ab2d7496ad0c0236",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/attributable-comment.txt",
+      "source_sha256": "f44e3ef260cf411e747d81d4f1e47ec163dad50ed80cad97ab2d7496ad0c0236",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/clean.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/clean.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/clean.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/clean.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/commands.json",
+      "bytes": 5579,
+      "sha256": "41b2cc7652eb371e20794293f6c9de8f10581bb0969469f8cd5ffc4a6795ec85",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/commands.json",
+      "source_sha256": "41b2cc7652eb371e20794293f6c9de8f10581bb0969469f8cd5ffc4a6795ec85",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/diff-main.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/diff-main.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/diff-main.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/diff-main.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/governance.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/governance.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/governance.stdout",
+      "bytes": 107,
+      "sha256": "24719e864e86e498ce68b4605498b5b6d5aed93ffd719a9e25a6e374b936ca12",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/governance.stdout",
+      "source_sha256": "24719e864e86e498ce68b4605498b5b6d5aed93ffd719a9e25a6e374b936ca12",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/inventory.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/inventory.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/inventory.stdout",
+      "bytes": 142,
+      "sha256": "2b9cf110fcfb0e6ea7c3bee3401e33e02708e220aed4c8b35adee256103ecf67",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/inventory.stdout",
+      "source_sha256": "2b9cf110fcfb0e6ea7c3bee3401e33e02708e220aed4c8b35adee256103ecf67",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/links.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/links.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/links.stdout",
+      "bytes": 18637,
+      "sha256": "c2d7fea657fcbb69da9d157e7f87dbd31eb32925eeaad216a756b7659da7b48f",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/links.stdout",
+      "source_sha256": "c2d7fea657fcbb69da9d157e7f87dbd31eb32925eeaad216a756b7659da7b48f",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/local-tree-parity.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/local-tree-parity.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/local-tree-parity.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/local-tree-parity.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/main-ancestry.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/main-ancestry.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/main-ancestry.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/main-ancestry.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/main.diff",
+      "bytes": 3107,
+      "sha256": "29c35135d1251700583d413b1d01133c9c224e2ee50b82cfa509528df38cd5d4",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/main.diff",
+      "source_sha256": "29c35135d1251700583d413b1d01133c9c224e2ee50b82cfa509528df38cd5d4",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/review.json",
+      "bytes": 8968,
+      "sha256": "a5a7526a783da46af092b1dc97a78132e7de18296f43582582d7368827a6ab44",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/review.json",
+      "source_sha256": "a5a7526a783da46af092b1dc97a78132e7de18296f43582582d7368827a6ab44",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/published-candidate/review/source-proof.json",
+      "bytes": 11513,
+      "sha256": "94158fd65f6b0435e4c6420c2229002baf6592f1f2efa43a18b4a372567849fb",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/source-proof.json",
+      "source_sha256": "94158fd65f6b0435e4c6420c2229002baf6592f1f2efa43a18b4a372567849fb",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge/00.stderr.txt",
+      "bytes": 35178,
+      "sha256": "b6de68a59d68065b53ad6d78983a83c382b42be6ee3bf43a6cb2b04c27017f91",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/00.stderr.txt",
+      "source_sha256": "b6de68a59d68065b53ad6d78983a83c382b42be6ee3bf43a6cb2b04c27017f91",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge/00.stdout.txt",
+      "bytes": 20862,
+      "sha256": "77c0a315127b5bff33f0f9998352589b81043662903c0234086cb7f726225bde",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/00.stdout.txt",
+      "source_sha256": "77c0a315127b5bff33f0f9998352589b81043662903c0234086cb7f726225bde",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge/01.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/01.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge/01.stdout.txt",
+      "bytes": 486,
+      "sha256": "f5e19bdf1e47d292401b1b055300ac5dc203ffc2e886ce411aa11adedebecfdb",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/01.stdout.txt",
+      "source_sha256": "f5e19bdf1e47d292401b1b055300ac5dc203ffc2e886ce411aa11adedebecfdb",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge/02.stderr.txt",
+      "bytes": 50,
+      "sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/02.stderr.txt",
+      "source_sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge/02.stdout.txt",
+      "bytes": 673,
+      "sha256": "725d12624c694d5d3db67370e1b2d84c466b36d7667f2987fc4156a4c4cf7dde",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/02.stdout.txt",
+      "source_sha256": "725d12624c694d5d3db67370e1b2d84c466b36d7667f2987fc4156a4c4cf7dde",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge/03.stderr.txt",
+      "bytes": 47,
+      "sha256": "71e89083a078a0bf21890172988d4e41be2e94bd1a107f2ee5a610b26082839d",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/03.stderr.txt",
+      "source_sha256": "71e89083a078a0bf21890172988d4e41be2e94bd1a107f2ee5a610b26082839d",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge/03.stdout.txt",
+      "bytes": 199,
+      "sha256": "ae29f6caabe23faedb1a84584af21104a48b5df7fb8617ae00b29a7f13cd818b",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/03.stdout.txt",
+      "source_sha256": "ae29f6caabe23faedb1a84584af21104a48b5df7fb8617ae00b29a7f13cd818b",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge/04.stderr.txt",
+      "bytes": 49,
+      "sha256": "0c081ca0951218d833ad2144a1c2d89211fe6336f0630bb6d988107976581cd0",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/04.stderr.txt",
+      "source_sha256": "0c081ca0951218d833ad2144a1c2d89211fe6336f0630bb6d988107976581cd0",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge/04.stdout.txt",
+      "bytes": 2466,
+      "sha256": "8b0a95b459864f7fbd009d1707d8a43bf7759110079cbf81d0ba1fe01b4bf306",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/04.stdout.txt",
+      "source_sha256": "8b0a95b459864f7fbd009d1707d8a43bf7759110079cbf81d0ba1fe01b4bf306",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge/05.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/05.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge/05.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/05.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge/06.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/06.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge/06.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/06.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge/07.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/07.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge/07.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/07.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge/report.json",
+      "bytes": 7426,
+      "sha256": "659a79b435beecb2e466573ee7d6e615bfe8494c1a45d16f34848c5f4d3ecf90",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-validation/report.json",
+      "source_sha256": "659a79b435beecb2e466573ee7d6e615bfe8494c1a45d16f34848c5f4d3ecf90",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-consumer-recovery/00.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-consumer-recovery/00.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-consumer-recovery/00.stdout.txt",
+      "bytes": 2504,
+      "sha256": "2b7bb7924bf3d16533cc25d7d86fe970d1f7e74266ff39ca75583cb513aa5b16",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-consumer-recovery/00.stdout.txt",
+      "source_sha256": "2b7bb7924bf3d16533cc25d7d86fe970d1f7e74266ff39ca75583cb513aa5b16",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-consumer-recovery/01.stderr.txt",
+      "bytes": 49,
+      "sha256": "0c081ca0951218d833ad2144a1c2d89211fe6336f0630bb6d988107976581cd0",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-consumer-recovery/01.stderr.txt",
+      "source_sha256": "0c081ca0951218d833ad2144a1c2d89211fe6336f0630bb6d988107976581cd0",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-consumer-recovery/01.stdout.txt",
+      "bytes": 2677,
+      "sha256": "6c5f0c849d91cff03258578f655993c58a9472e2ea0f7fe5481de7155fef50c8",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-consumer-recovery/01.stdout.txt",
+      "source_sha256": "6c5f0c849d91cff03258578f655993c58a9472e2ea0f7fe5481de7155fef50c8",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-consumer-recovery/02.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-consumer-recovery/02.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-consumer-recovery/02.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-consumer-recovery/02.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-consumer-recovery/install.json",
+      "bytes": 980,
+      "sha256": "b37452a15522705829f1e4a3bca7ff32e3201a32757b4286ec38eac7737a56e5",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-consumer-recovery/install.json",
+      "source_sha256": "b37452a15522705829f1e4a3bca7ff32e3201a32757b4286ec38eac7737a56e5",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-consumer-recovery/install.stderr.txt",
+      "bytes": 99,
+      "sha256": "7125f194612fcff2f454c05d848e7cb71facc1967b4d5017e25b34fdee3ba74f",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-consumer-recovery/install.stderr.txt",
+      "source_sha256": "7125f194612fcff2f454c05d848e7cb71facc1967b4d5017e25b34fdee3ba74f",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-consumer-recovery/install.stdout.txt",
+      "bytes": 28,
+      "sha256": "cd3fffe983a1ac9dd82a1bf81a61f613d1245b7b31a2801db3400b146eae73a5",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-consumer-recovery/install.stdout.txt",
+      "source_sha256": "cd3fffe983a1ac9dd82a1bf81a61f613d1245b7b31a2801db3400b146eae73a5",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-consumer-recovery/report.json",
+      "bytes": 3029,
+      "sha256": "2ed75dc7fe510392fac6bf96d2225dedda7a9edc2dbcfffc24d85d9bb36ba8bc",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-postmerge-consumer-recovery/report.json",
+      "source_sha256": "2ed75dc7fe510392fac6bf96d2225dedda7a9edc2dbcfffc24d85d9bb36ba8bc",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-review/attributable-summary.txt",
+      "bytes": 2159,
+      "sha256": "735c2108704823120e19e871462f314d7970b3f702291dd6484b6c9bbaa8d9b1",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/attributable-summary.txt",
+      "source_sha256": "735c2108704823120e19e871462f314d7970b3f702291dd6484b6c9bbaa8d9b1",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-review/candidate-ancestry.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/candidate-ancestry.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-review/candidate-ancestry.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/candidate-ancestry.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-review/candidate-tree-parity.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/candidate-tree-parity.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-review/candidate-tree-parity.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/candidate-tree-parity.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-review/clean.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/clean.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-review/clean.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/clean.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-review/commands.json",
+      "bytes": 5014,
+      "sha256": "8f3ce426644958df81a00f05a2e9465209d48abe0d137d33c82608e34c40b99f",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/commands.json",
+      "source_sha256": "8f3ce426644958df81a00f05a2e9465209d48abe0d137d33c82608e34c40b99f",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-review/diff-main.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/diff-main.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-review/diff-main.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/diff-main.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-review/merged.diff",
+      "bytes": 3107,
+      "sha256": "29c35135d1251700583d413b1d01133c9c224e2ee50b82cfa509528df38cd5d4",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/merged.diff",
+      "source_sha256": "29c35135d1251700583d413b1d01133c9c224e2ee50b82cfa509528df38cd5d4",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-review/pr27-remaining-diff.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/pr27-remaining-diff.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-review/pr27-remaining-diff.stdout",
+      "bytes": 87,
+      "sha256": "ec7cea8158cd1ecbe0ddcc1e16ad36e806ae66dc982880f188a79bbda436315a",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/pr27-remaining-diff.stdout",
+      "source_sha256": "ec7cea8158cd1ecbe0ddcc1e16ad36e806ae66dc982880f188a79bbda436315a",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-review/pr27-remaining.diff",
+      "bytes": 18161,
+      "sha256": "fb4838f4916d6159bfee31bf6c8a77a19185919bf059d11202385a5c4b02b7e3",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/pr27-remaining.diff",
+      "source_sha256": "fb4838f4916d6159bfee31bf6c8a77a19185919bf059d11202385a5c4b02b7e3",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-review/prior-main-ancestry.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/prior-main-ancestry.stderr",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-review/prior-main-ancestry.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/prior-main-ancestry.stdout",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-review/review.json",
+      "bytes": 9907,
+      "sha256": "be22d8282264c76f074d46f26bf63949e311f75e6f84a98e81176ad78337d598",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/review.json",
+      "source_sha256": "be22d8282264c76f074d46f26bf63949e311f75e6f84a98e81176ad78337d598",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "index-fix/postmerge-review/source-proof.json",
+      "bytes": 5023,
+      "sha256": "6daf7bb28a45d1d543d0249fe3545ff69e623a1fe4aecccffd376dc1656b9441",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/source-proof.json",
+      "source_sha256": "6daf7bb28a45d1d543d0249fe3545ff69e623a1fe4aecccffd376dc1656b9441",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "dependencies/dated-refresh.json",
+      "bytes": 18239,
+      "sha256": "eb41c61daf3655ca678d5d530e3e998d549b36fc0b83109a433ea723ad46e63e",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/e4-final-dependency-refresh.json",
+      "source_sha256": "eb41c61daf3655ca678d5d530e3e998d549b36fc0b83109a433ea723ad46e63e",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "dependencies/policy-and-canonical-refresh.json",
+      "bytes": 17317,
+      "sha256": "379211e5d7d5c7415d29b80e962fa21e3c6ded647b68b4dd873052f35080d7e0",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/final-dependency-policy-refresh.json",
+      "source_sha256": "379211e5d7d5c7415d29b80e962fa21e3c6ded647b68b4dd873052f35080d7e0",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "dependencies/final-scope-owner-audit.json",
+      "bytes": 27295,
+      "sha256": "774022098b13534896b4388f78231387b1eea87a2587f5c3d35a0fcf2ece24b5",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/final-scope-owner-delta-audit.json",
+      "source_sha256": "774022098b13534896b4388f78231387b1eea87a2587f5c3d35a0fcf2ece24b5",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "merged-pr26/owner-full-gate-observation.json",
+      "bytes": 10536,
+      "sha256": "28d4a8adbbe77ba8ea2a15d09113dd4b96a46f1083c79b62b5ede422cfc6858b",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/e4-owner-postmerge.json",
+      "source_sha256": "28d4a8adbbe77ba8ea2a15d09113dd4b96a46f1083c79b62b5ede422cfc6858b",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "current-state.json",
+      "bytes": 9368,
+      "sha256": "94ab3114c708672970005b958dee05babbbc57e8b72e17fc4203e9b8feb338ce",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/e4-publication-state.json",
+      "source_sha256": "94ab3114c708672970005b958dee05babbbc57e8b72e17fc4203e9b8feb338ce",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "consolidation-state.json",
+      "bytes": 4562,
+      "sha256": "d3bb99163914e4175c81fc10e508cf99a19c9eff46c2162e05d552ebdd3a9057",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/e4-consolidation-state.json",
+      "source_sha256": "d3bb99163914e4175c81fc10e508cf99a19c9eff46c2162e05d552ebdd3a9057",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "source-proof.json",
+      "bytes": 5587,
+      "sha256": "a3cb444c95a4763890cdf1623e752d937259a7a6d94465d8eb6f1c4cdcd9681e",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/e4-source-proof.json",
+      "source_sha256": "a3cb444c95a4763890cdf1623e752d937259a7a6d94465d8eb6f1c4cdcd9681e",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 18657,
+      "sha256": "de3cb26ce4bad0743b0d14baa50f365208a39ecc504e12900fffae1761a88847",
+      "origin": "actual local execution or curated source observation; see the record",
+      "access": "public sanitized text",
+      "source_file": "/workspace/scratch/5ecc3c6cf97a/triage/e4-readme.md",
+      "source_sha256": "de3cb26ce4bad0743b0d14baa50f365208a39ecc504e12900fffae1761a88847",
+      "byte_identical_copy": true
+    }
+  ],
+  "excluded": [
+    "raw GitHub conversation bodies",
+    "raw external workflow logs",
+    "generated ZIPs or images",
+    "source fonts or reference images",
+    "credentials and customer data"
+  ],
+  "prior_evidence_retained": true
+}

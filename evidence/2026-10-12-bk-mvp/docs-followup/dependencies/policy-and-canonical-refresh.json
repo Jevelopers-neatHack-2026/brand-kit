@@ -1,0 +1,312 @@
+{
+  "schema": "ticketstub-final-dependency-policy-refresh@1",
+  "refreshed_at": "2026-10-12T17:47:28.532Z",
+  "mode": "read-only immutable GitHub commit comparisons, full untruncated Git-tree blob comparison and current governing-source inspection; no repository mutations",
+  "brand_verified_main": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+  "comparison_proof": [
+    {
+      "repository": "Jevelopers-neatHack-2026/.github",
+      "base": "2f61f8551ecf38170f0c5b225305c950c7c3b222",
+      "head": "07d750dfb7feeecdeca7d3d1a2363663d7f3517f",
+      "compare_url": "https://github.com/Jevelopers-neatHack-2026/.github/compare/2f61f8551ecf38170f0c5b225305c950c7c3b222...07d750dfb7feeecdeca7d3d1a2363663d7f3517f",
+      "trees_untruncated": true,
+      "old_blob_count": 68,
+      "new_blob_count": 68,
+      "changed_paths": [
+        "README.md",
+        "profile/README.md",
+        "templates/README.md"
+      ],
+      "unchanged_blob_count": 65,
+      "critical_unchanged": [
+        {
+          "path": "CONTRIBUTING.md",
+          "base_blob": "1ffae49f24097cf30d64c146b66f63c77f61a2c1",
+          "head_blob": "1ffae49f24097cf30d64c146b66f63c77f61a2c1",
+          "identical": true,
+          "url": "https://github.com/Jevelopers-neatHack-2026/.github/blob/07d750dfb7feeecdeca7d3d1a2363663d7f3517f/CONTRIBUTING.md"
+        },
+        {
+          "path": ".github/pull_request_template.md",
+          "base_blob": "19c6629bd5a4af6ae27dc12419a80eaf22872cfe",
+          "head_blob": "19c6629bd5a4af6ae27dc12419a80eaf22872cfe",
+          "identical": true,
+          "url": "https://github.com/Jevelopers-neatHack-2026/.github/blob/07d750dfb7feeecdeca7d3d1a2363663d7f3517f/.github/pull_request_template.md"
+        },
+        {
+          "path": "AGENTS.md",
+          "base_blob": "bd6f04af00f88ad7388dc11ec06f64ae97886919",
+          "head_blob": "bd6f04af00f88ad7388dc11ec06f64ae97886919",
+          "identical": true,
+          "url": "https://github.com/Jevelopers-neatHack-2026/.github/blob/07d750dfb7feeecdeca7d3d1a2363663d7f3517f/AGENTS.md"
+        },
+        {
+          "path": "standards/contribution-workflow.md",
+          "base_blob": "5938c64738c887b7676068a108d851e75c4590ff",
+          "head_blob": "5938c64738c887b7676068a108d851e75c4590ff",
+          "identical": true,
+          "url": "https://github.com/Jevelopers-neatHack-2026/.github/blob/07d750dfb7feeecdeca7d3d1a2363663d7f3517f/standards/contribution-workflow.md"
+        },
+        {
+          "path": "standards/agent-contributors.md",
+          "base_blob": "c3863d7dbbf674861ac31d84bd0601ec8bbdcec1",
+          "head_blob": "c3863d7dbbf674861ac31d84bd0601ec8bbdcec1",
+          "identical": true,
+          "url": "https://github.com/Jevelopers-neatHack-2026/.github/blob/07d750dfb7feeecdeca7d3d1a2363663d7f3517f/standards/agent-contributors.md"
+        },
+        {
+          "path": "standards/acceptance-evidence.md",
+          "base_blob": "c88632fb6bc6f5a432dd5193fd1588d3d0d769a3",
+          "head_blob": "c88632fb6bc6f5a432dd5193fd1588d3d0d769a3",
+          "identical": true,
+          "url": "https://github.com/Jevelopers-neatHack-2026/.github/blob/07d750dfb7feeecdeca7d3d1a2363663d7f3517f/standards/acceptance-evidence.md"
+        },
+        {
+          "path": "standards/releases-versioning.md",
+          "base_blob": "e818f9a1a14b164b05d4455ebe00b68217a2619a",
+          "head_blob": "e818f9a1a14b164b05d4455ebe00b68217a2619a",
+          "identical": true,
+          "url": "https://github.com/Jevelopers-neatHack-2026/.github/blob/07d750dfb7feeecdeca7d3d1a2363663d7f3517f/standards/releases-versioning.md"
+        },
+        {
+          "path": "standards/security-secret-handling.md",
+          "base_blob": "3a15d0d4538428ef911b1532c2820e6e835ec19c",
+          "head_blob": "3a15d0d4538428ef911b1532c2820e6e835ec19c",
+          "identical": true,
+          "url": "https://github.com/Jevelopers-neatHack-2026/.github/blob/07d750dfb7feeecdeca7d3d1a2363663d7f3517f/standards/security-secret-handling.md"
+        }
+      ]
+    },
+    {
+      "repository": "Jevelopers-neatHack-2026/shared-contracts",
+      "base": "7251a09c4eaddbb1232d444fd931a01c266095ac",
+      "head": "91736a026c02a3206cb7666ebfbe6134692e5a24",
+      "compare_url": "https://github.com/Jevelopers-neatHack-2026/shared-contracts/compare/7251a09c4eaddbb1232d444fd931a01c266095ac...91736a026c02a3206cb7666ebfbe6134692e5a24",
+      "trees_untruncated": true,
+      "old_blob_count": 25,
+      "new_blob_count": 25,
+      "changed_paths": [
+        "README.md"
+      ],
+      "unchanged_blob_count": 24,
+      "critical_unchanged": [
+        {
+          "path": "docs/contract-catalog.md",
+          "base_blob": "e210b82d23f58ea218ecd79f10339bd8e7205722",
+          "head_blob": "e210b82d23f58ea218ecd79f10339bd8e7205722",
+          "identical": true,
+          "url": "https://github.com/Jevelopers-neatHack-2026/shared-contracts/blob/91736a026c02a3206cb7666ebfbe6134692e5a24/docs/contract-catalog.md"
+        },
+        {
+          "path": "docs/consumer-acceptance-receipt.md",
+          "base_blob": "62f9e42b522a0f1e4821120862b62f3f62cdb2ba",
+          "head_blob": "62f9e42b522a0f1e4821120862b62f3f62cdb2ba",
+          "identical": true,
+          "url": "https://github.com/Jevelopers-neatHack-2026/shared-contracts/blob/91736a026c02a3206cb7666ebfbe6134692e5a24/docs/consumer-acceptance-receipt.md"
+        },
+        {
+          "path": "docs/receipt-checker.md",
+          "base_blob": "34c2aef016338c87a8492c5f6b8eab713c5f7998",
+          "head_blob": "34c2aef016338c87a8492c5f6b8eab713c5f7998",
+          "identical": true,
+          "url": "https://github.com/Jevelopers-neatHack-2026/shared-contracts/blob/91736a026c02a3206cb7666ebfbe6134692e5a24/docs/receipt-checker.md"
+        },
+        {
+          "path": "scripts/check-consumer-receipt.mjs",
+          "base_blob": "70a2034c962f5db3165dbdc3336e94acc5ad0bfd",
+          "head_blob": "70a2034c962f5db3165dbdc3336e94acc5ad0bfd",
+          "identical": true,
+          "url": "https://github.com/Jevelopers-neatHack-2026/shared-contracts/blob/91736a026c02a3206cb7666ebfbe6134692e5a24/scripts/check-consumer-receipt.mjs"
+        },
+        {
+          "path": "docs/architecture/ACCEPTANCE.md",
+          "base_blob": "22e4d84beea26e2afcada3a130abe7cbe31c386b",
+          "head_blob": "22e4d84beea26e2afcada3a130abe7cbe31c386b",
+          "identical": true,
+          "url": "https://github.com/Jevelopers-neatHack-2026/shared-contracts/blob/91736a026c02a3206cb7666ebfbe6134692e5a24/docs/architecture/ACCEPTANCE.md"
+        }
+      ]
+    },
+    {
+      "repository": "Jevelopers-neatHack-2026/integration-evals",
+      "base": "56018576a9450a2bb46aa55ed3b2f9d9ae97e50d",
+      "head": "f187722613c61e14e3f4087a66d07b2b1e6820f7",
+      "compare_url": "https://github.com/Jevelopers-neatHack-2026/integration-evals/compare/56018576a9450a2bb46aa55ed3b2f9d9ae97e50d...f187722613c61e14e3f4087a66d07b2b1e6820f7",
+      "trees_untruncated": true,
+      "old_blob_count": 529,
+      "new_blob_count": 529,
+      "changed_paths": [
+        "README.md",
+        "evidence/README.md"
+      ],
+      "unchanged_blob_count": 527,
+      "critical_unchanged": [
+        {
+          "path": "planning/acceptance-checklist.json",
+          "base_blob": "7d7e48f2bb86f563e2f0391cff7c0c5b91320e33",
+          "head_blob": "7d7e48f2bb86f563e2f0391cff7c0c5b91320e33",
+          "identical": true,
+          "url": "https://github.com/Jevelopers-neatHack-2026/integration-evals/blob/f187722613c61e14e3f4087a66d07b2b1e6820f7/planning/acceptance-checklist.json"
+        },
+        {
+          "path": "planning/acceptance-checklist.md",
+          "base_blob": "d7d60c221d8bf163638399d50470bff0b5bddd6f",
+          "head_blob": "d7d60c221d8bf163638399d50470bff0b5bddd6f",
+          "identical": true,
+          "url": "https://github.com/Jevelopers-neatHack-2026/integration-evals/blob/f187722613c61e14e3f4087a66d07b2b1e6820f7/planning/acceptance-checklist.md"
+        },
+        {
+          "path": "planning/requirements.json",
+          "base_blob": "728b62ea2289ac11e3198311d5d4fc7199c33d1a",
+          "head_blob": "728b62ea2289ac11e3198311d5d4fc7199c33d1a",
+          "identical": true,
+          "url": "https://github.com/Jevelopers-neatHack-2026/integration-evals/blob/f187722613c61e14e3f4087a66d07b2b1e6820f7/planning/requirements.json"
+        },
+        {
+          "path": "benchmarks/policy.json",
+          "base_blob": "e0490cd8b6692390f9234714a5d0ff7401e19456",
+          "head_blob": "e0490cd8b6692390f9234714a5d0ff7401e19456",
+          "identical": true,
+          "url": "https://github.com/Jevelopers-neatHack-2026/integration-evals/blob/f187722613c61e14e3f4087a66d07b2b1e6820f7/benchmarks/policy.json"
+        },
+        {
+          "path": "scenarios/selection.json",
+          "base_blob": "ac56dc543e5c11cd570046b5ff679d866d75bd0a",
+          "head_blob": "ac56dc543e5c11cd570046b5ff679d866d75bd0a",
+          "identical": true,
+          "url": "https://github.com/Jevelopers-neatHack-2026/integration-evals/blob/f187722613c61e14e3f4087a66d07b2b1e6820f7/scenarios/selection.json"
+        }
+      ]
+    }
+  ],
+  "conclusion": "No new brand-kit review rule, canonical contract change, acceptance-state promotion, consumer ACK or permission is supplied by these refreshed refs.",
+  "applicable_policy": {
+    "source_revision": "07d750dfb7feeecdeca7d3d1a2363663d7f3517f",
+    "unchanged": true,
+    "current_rules": [
+      "Use a focused owner-compatible branch; preserve other contributors' history and existing accepted design.",
+      "Read the complete issue and latest relevant review/dependency records; record exact source revision.",
+      "Use GH-PR-TEMPLATE@1.0.0 with neutral Refs; distinguish scope, actual commands, planned checks, skips, artifacts, mode, dependencies and accountable reviewer roles.",
+      "Independent review covers the complete exact candidate and affected checks; material changes require renewed exact-candidate review.",
+      "Contract changes require affected producer and consumer review; a model review is separate from GitHub approval and configured branch protection.",
+      "Authorized supervisor closes only satisfied local issues after merge and required postmerge evidence; integration-evals retains master acceptance.",
+      "AGENTS.md in .github is explicitly local; community-health inheritance does not automatically install it or configure protection."
+    ],
+    "specific_pr25_boundary": "Product PR117 dependency supplied by the current root/PR25 audit remains explicit. These .github changes do not waive that predecessor or authorize overwriting the owner branch."
+  },
+  "organization_documentation_update": {
+    "changed_files": [
+      "README.md",
+      "profile/README.md",
+      "templates/README.md"
+    ],
+    "meaning": "README records previously issued actual maintainer acceptance of the reduced .github repository-guidance scope. Profile qualifies product, physical-product, pricing and brand imagery claims as development/design references. Template index removes an outdated repository count only.",
+    "acceptance_receipts": [
+      {
+        "url": "https://github.com/Jevelopers-neatHack-2026/.github/issues/5#issuecomment-6122075793",
+        "created_at": "2026-10-12T10:05:55Z",
+        "updated_at": "2026-10-12T10:05:55Z",
+        "author": "CompleteDotTech"
+      },
+      {
+        "url": "https://github.com/Jevelopers-neatHack-2026/.github/issues/16#issuecomment-6122141536",
+        "created_at": "2026-10-12T10:09:59Z",
+        "updated_at": "2026-10-12T10:09:59Z",
+        "author": "CompleteDotTech"
+      },
+      {
+        "url": "https://github.com/Jevelopers-neatHack-2026/.github/issues/3#issuecomment-6122142963",
+        "created_at": "2026-10-12T10:10:05Z",
+        "updated_at": "2026-10-12T10:10:05Z",
+        "author": "CompleteDotTech"
+      }
+    ],
+    "chronology": "Receipts were recorded 2026-10-12 10:05:55–10:10:05 UTC against earlier2f61 revision; the documentation merge at07d750 records them later, not a new brand decision.",
+    "exclusions": "Security-reporting/private-route leaves11/13 remain not planned; original full-security scope, hosted execution, destination adoption, settings, master/product/domain/shared-contracts release and consumer pin acceptance remain outside this local decision."
+  },
+  "shared_contracts": {
+    "source_revision": "91736a026c02a3206cb7666ebfbe6134692e5a24",
+    "changed_files": [
+      "README.md"
+    ],
+    "meaning": "README now accurately indexes already-merged local receipt/reporting validators and commands; canonical package remains unpublished and catalog proposed. No schemas, receipts, owner decisions or compatibility policy changed.",
+    "brand_relevant_rules": [
+      "Approval binds an immutable displayed artwork/version; asset rights are not established by public discovery.",
+      "ProductionBundle retains design, renderer/template/font references, files/hashes and chosen product-check evidence.",
+      "Keep serialization deterministic where hashes/approvals bind content; unsupported majors fail with typed actionable errors; affected producer/consumer review remains required.",
+      "A structurally complete metadata receipt does not authenticate claims, people, release authority or adoption."
+    ]
+  },
+  "canonical_acceptance": {
+    "source_revision": "f187722613c61e14e3f4087a66d07b2b1e6820f7",
+    "criterion_count": 47,
+    "status_counts": {
+      "planned": 44,
+      "verified": 3
+    },
+    "scope": [
+      "No implementation evidence is claimed by this package.",
+      "P0 is the demo-critical slice, P1 is the next expansion, and Production is a live-launch gate.",
+      "Official event requirements are summarized with primary sources in architecture section 11.",
+      "Original pending states migrate to planned; verified requires actual evidence and tested revisions. Failure results are evidence, not a completion state."
+    ],
+    "brand_related_criteria": [
+      {
+        "id": "ART-05",
+        "category": "Artwork and production",
+        "classification": "team_requirement",
+        "priority": "P0",
+        "owner_role": "Creative and fulfillment",
+        "title": "Approved asset inputs",
+        "verification": "Use only assets with the required approval record in the production bundle.",
+        "evidence_required": "Asset provenance and approval references.",
+        "status": "planned",
+        "evidence_refs": [],
+        "tested_revision_refs": [],
+        "notes": "",
+        "dependencies": [
+          "https://github.com/Jevelopers-neatHack-2026/shared-contracts/issues/1",
+          "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/issues/1",
+          "https://github.com/Jevelopers-neatHack-2026/cost-intelligence/issues/1",
+          "https://github.com/Jevelopers-neatHack-2026/agent-harness/issues/1",
+          "https://github.com/Jevelopers-neatHack-2026/event-intelligence/issues/1",
+          "https://github.com/Jevelopers-neatHack-2026/creative-engine/issues/1"
+        ],
+        "implementation_issue_refs": [
+          "https://github.com/Jevelopers-neatHack-2026/event-intelligence/issues/1",
+          "https://github.com/Jevelopers-neatHack-2026/creative-engine/issues/1",
+          "https://github.com/Jevelopers-neatHack-2026/print-production/issues/1"
+        ]
+      },
+      {
+        "id": "EVAL-04",
+        "category": "Evidence and release",
+        "classification": "team_requirement",
+        "priority": "P0",
+        "owner_role": "Finance and reliability",
+        "title": "Secrets and customer data",
+        "verification": "Review published evidence and repository history for credentials and unnecessary customer or account details.",
+        "evidence_required": "Sanitization review and applicable scanning results.",
+        "status": "planned",
+        "evidence_refs": [],
+        "tested_revision_refs": [],
+        "notes": "",
+        "dependencies": [
+          "https://github.com/Jevelopers-neatHack-2026/agent-harness/issues/1",
+          "https://github.com/Jevelopers-neatHack-2026/event-intelligence/issues/1",
+          "https://github.com/Jevelopers-neatHack-2026/print-production/issues/1",
+          "https://github.com/Jevelopers-neatHack-2026/cost-intelligence/issues/2",
+          "https://github.com/Jevelopers-neatHack-2026/team-dashboard/issues/1",
+          "https://github.com/Jevelopers-neatHack-2026/fulfillment-connectors/issues/1"
+        ],
+        "implementation_issue_refs": [
+          "https://github.com/Jevelopers-neatHack-2026/integration-evals/issues/1"
+        ]
+      }
+    ],
+    "meaning": "Only README and evidence index changed. Master JSON/Markdown, requirement inventory, selected scenarios and benchmark policy are blob-identical. README describes existing guarded synthetic print profile and evaluation tooling; selected product journey remains NOT_RUN. Owner finance/payment memos and initial-deployment benchmark exception are unchanged, not new operational authority."
+  },
+  "sensitive_content_handling": "Curated metadata and findings only; no full issue/comment bodies, private transcripts, provider credentials or customer data retained.",
+  "required_brand_code_or_gate_change_from_these_refs": false,
+  "foreign_mutations": false
+}

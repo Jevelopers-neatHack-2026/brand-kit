@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "mode": "independent read-only postmerge exact-source validation",
+  "source_sha": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+  "source_tree": "1d9d3f7e030cf65f4737b7fe2446c83ade441579",
+  "reviewed_candidate": "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465",
+  "candidate_tree": "1d9d3f7e030cf65f4737b7fe2446c83ade441579",
+  "changed_files": [
+    "docs/brand-governance.md",
+    "docs/consumers.md",
+    "docs/distribution.md",
+    "docs/identity-decision-packet.md",
+    "tools/check_brand_release.py",
+    "tools/tests/test_distribution.py"
+  ],
+  "commands": [
+    {
+      "name": "distribution",
+      "command": [
+        "/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python",
+        "-m",
+        "unittest",
+        "tools.tests.test_distribution",
+        "-v"
+      ],
+      "revision": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "started_utc": "2026-10-12T18:01:12.368736+00:00",
+      "ended_utc": "2026-10-12T18:02:17.580757+00:00",
+      "exit_code": 0,
+      "stdout": "/workspace/scratch/5ecc3c6cf97a/triage/pr26-postmerge-distribution.stdout.log",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "/workspace/scratch/5ecc3c6cf97a/triage/pr26-postmerge-distribution.stderr.log",
+      "stderr_sha256": "e137912ecca05892ddb3b015bf1935b128469b80fa1febcefdfbb48866a3dda8"
+    },
+    {
+      "name": "docs",
+      "command": [
+        "make",
+        "check-inventory",
+        "check-links",
+        "check-governance",
+        "check-guidelines",
+        "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+      ],
+      "revision": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "started_utc": "2026-10-12T18:02:17.581557+00:00",
+      "ended_utc": "2026-10-12T18:02:18.233050+00:00",
+      "exit_code": 0,
+      "stdout": "/workspace/scratch/5ecc3c6cf97a/triage/pr26-postmerge-docs.stdout.log",
+      "stdout_sha256": "0364e06a0e27131058900a4cf9b4eab2e43ec6fcdde9e76a83221058cdc84f74",
+      "stderr": "/workspace/scratch/5ecc3c6cf97a/triage/pr26-postmerge-docs.stderr.log",
+      "stderr_sha256": "466c534c338bc298965f74c7fbe6a1bfb2097c7e3896dc0f2d838c13c6a60577"
+    },
+    {
+      "name": "diff",
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+        "HEAD"
+      ],
+      "revision": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "started_utc": "2026-10-12T18:02:18.233696+00:00",
+      "ended_utc": "2026-10-12T18:02:18.238271+00:00",
+      "exit_code": 0,
+      "stdout": "/workspace/scratch/5ecc3c6cf97a/triage/pr26-postmerge-diff.stdout.log",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "/workspace/scratch/5ecc3c6cf97a/triage/pr26-postmerge-diff.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "git_status_after": "",
+  "limits": [
+    "Synthetic approved-shaped records and mocked gate leaves in tests are not owner/provider/consumer evidence.",
+    "Actual Make subprocess fresh-output regression ran against a synthetic builder; no new raster or browser run in this independent review.",
+    "Owner published 17-target candidate and separate postmerge gate evidence remain separately attributed; not rerun here.",
+    "External links are unchecked by local link command.",
+    "No source, branch, remote, rights or acceptance mutation."
+  ]
+}

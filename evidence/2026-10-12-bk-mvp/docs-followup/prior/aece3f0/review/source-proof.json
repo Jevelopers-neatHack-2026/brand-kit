@@ -1,0 +1,34 @@
+{
+  "identity": [
+    "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+    "cecbd59790c11a9edead8e0e9e50e3061af43711",
+    "3eebe0c15ed025c5a074b56629c3ca2cf1483829"
+  ],
+  "local_equivalent": "110310c1998d88c4f559afb2e4574ddf258597de",
+  "changed_from_main": [
+    "docs/architecture/ACCEPTANCE.md",
+    "docs/architecture/OWNERSHIP.md",
+    "docs/source-of-truth.md"
+  ],
+  "changed_from_owner": [
+    "docs/architecture/OWNERSHIP.md",
+    "docs/source-of-truth.md"
+  ],
+  "source_hashes": {
+    "docs/architecture/ACCEPTANCE.md": "ecb06519ba27f57b45c7e005d52aec979500af5daeed33decfe8d3d140aef4e4",
+    "docs/architecture/OWNERSHIP.md": "b10a615b845768ad71e00a011ee91a174e5b289fdf764eb3adfd24f035572d8a",
+    "docs/source-of-truth.md": "83c65b0b6a6c2e9d1db925494f4999151ac1924d2019c3a709814bc9da0558b3",
+    "README.md": "d73634363f7d3053b5940aaea13ff08682d57e14c9b0d6f93d312d3cb28366d0",
+    "SPEC.md": "0d9de5f012a3f3671a46b66f3d08910e9e61497df89320563c4488a25f189ade",
+    "index.html": "ef7e1c8073736a8fdc2a2f3ba1d4e7029f89fe7f24e61a36d990ef463b5c8e77",
+    "docs/voice.md": "82ce10f753dfd6f5693c0a70159950e91d0da6ba072b6868704849e58a0a7c9e",
+    "docs/guidelines-source-snapshot.json": "6c48a751d76c9de3a8c31fdf4f13db5ce8515e0e2b3a4a496be54417ec9a3d9f",
+    "inventory/brand-inventory.json": "34a8e0b180ec4ec50baf02994922cf0918a7c14668a294e8f5cd26f80395d3c5",
+    "provenance/allowlist.json": "40b7842c9c30972e95e81f9fe7151aa954bf802d486b0108e244bc0164d38524",
+    "docs/brand-governance.md": "c713ffd4eda035da3cd1dca2cfe45b45d9a76bcc59f3b4f694006fb3e9d6f421",
+    "docs/identity-decision-packet.md": "ad3bd084375b64f231e6a11cbf4eec4f9d3344bb9d329879a4e0a7915f6662cd"
+  },
+  "unchanged_tracked_paths": 114,
+  "source_snapshot_unchanged": true,
+  "clean_before_and_after": true
+}

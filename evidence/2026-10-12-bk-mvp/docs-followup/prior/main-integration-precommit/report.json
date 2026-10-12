@@ -1,0 +1,66 @@
+{
+  "state": "precommit merge working tree; not a committed revision",
+  "parent": "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+  "merged_main": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+  "checks": [
+    {
+      "command": [
+        "make",
+        "check-inventory",
+        "check-links",
+        "check-governance",
+        "check-guidelines",
+        "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+      ],
+      "started_utc": "2026-10-12T18:01:26.279048+00:00",
+      "ended_utc": "2026-10-12T18:01:28.376982+00:00",
+      "exit_code": 0,
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-main-integration-precommit/00.stdout.txt",
+        "sha256": "1d85411c42d2a0e2be69aa2a5e9a2a39bd0a61b050691d093e3988ee2218a2af"
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-main-integration-precommit/00.stderr.txt",
+        "sha256": "c75373d548ee55abbbc21ab34ea3c5beb0b1c8e388b16862dea15d79ae160c8a"
+      }
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21"
+      ],
+      "started_utc": "2026-10-12T18:01:28.377547+00:00",
+      "ended_utc": "2026-10-12T18:01:28.405154+00:00",
+      "exit_code": 0,
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-main-integration-precommit/01.stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-main-integration-precommit/01.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "41001e1875c544d21ad6b481cfe98c9283b0c58c"
+      ],
+      "started_utc": "2026-10-12T18:01:28.405479+00:00",
+      "ended_utc": "2026-10-12T18:01:28.515360+00:00",
+      "exit_code": 0,
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-main-integration-precommit/02.stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-main-integration-precommit/02.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ]
+}

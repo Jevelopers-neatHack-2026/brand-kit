@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "kind": "independent_postmerge_parity_review",
+  "reviewer": "/root/pr3_reconcile",
+  "recorded_at_utc": "2026-10-12 18:16:11 UTC",
+  "verdict": "POSTMERGE_PARITY_VERIFIED; BK01_ACCEPTANCE_CONTINUES",
+  "repository": "Jevelopers-neatHack-2026/brand-kit",
+  "pull_request": 28,
+  "actual_main": {
+    "sha": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "tree": "32e3904a8d901b9c6cf75ca1e65829fe98df03f0",
+    "parents": [
+      "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "1603948d569ae2eb48693d7f4a40cce45b8111b1"
+    ],
+    "git_commit_time": "2026-10-12T18:13:06Z",
+    "github_pr_merged_at": "2026-10-12T18:13:07Z",
+    "merged_by": "CompleteDotTech",
+    "final_ref_confirmed": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f"
+  },
+  "reviewed_candidate": {
+    "sha": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+    "tree": "32e3904a8d901b9c6cf75ca1e65829fe98df03f0",
+    "review_sha256": "a5a7526a783da46af092b1dc97a78132e7de18296f43582582d7368827a6ab44",
+    "review_receipt": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/28#issuecomment-6129925234",
+    "receipt_created_at": "2026-10-12T18:11:11Z"
+  },
+  "scope": "Postmerge byte parity, one-paragraph scope preservation, continued local #6 source/inventory mapping acceptance, and PR27 remaining-diff preservation. No new full tests or source decision approval.",
+  "authorship_limits": "Earlier authored baseline documentation and tooling are not independently reapproved. The supervising root retains full issue acceptance; this review verifies preserved source mapping and the other author's merged correction.",
+  "issue6": {
+    "state": "closed",
+    "updated_at": "2026-10-12T17:30:26Z",
+    "closed_at": "2026-10-12T17:30:26Z",
+    "latest_owner_disposition_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6#issuecomment-6129290656",
+    "all_comments_refreshed": 4,
+    "criteria": [
+      {
+        "id": "BK-01.1",
+        "status": "CONTINUES_SATISFIED",
+        "basis": "All 117 paths retained and inventory/validator/library byte-identical to original closure. All 95 previously opened reference targets remain present and were rehashed:86 original hashes unchanged, nine intervening reviewed PR #24/#26/#28 changes recorded explicitly."
+      },
+      {
+        "id": "BK-01.2",
+        "status": "CONTINUES_SATISFIED",
+        "basis": "README retains its source-index link; entire M4 tree matches the independently checked candidate with379 local links resolved. Required index topics and unresolved/consumer-owned iconography classification remain; only governance-role summary changed versus M3."
+      },
+      {
+        "id": "BK-01.3",
+        "status": "CONTINUES_SATISFIED",
+        "basis": "All six path mappings, current canonical paths, conditional migration notes and main OWNERSHIP remain unchanged. All 117 tracked paths and hence all 40 original PR2 paths remain; no rename or deletion."
+      },
+      {
+        "id": "BK-01.4",
+        "status": "CONTINUES_SATISFIED",
+        "basis": "Inventory classification, provenance register and empty allowlist are unchanged from closure; unknown rights and no release approval remain explicit. Dated public/private history is preserved. Existing marketing role evidence is distinguished from exact-artifact acknowledgement."
+      },
+      {
+        "id": "BK-01.5",
+        "status": "CONTINUES_SATISFIED",
+        "basis": "PR2 artwork/print boundaries, PR22 pinned-link work and PR3 unapproved-proposal disposition remain intact. SPEC, material-foil, tokens and OWNERSHIP are byte-identical to closure; README and identity-packet intervening reviewed changes retain those links/handoffs."
+      },
+      {
+        "id": "BK-01.CMD",
+        "status": "CONTINUES_SATISFIED",
+        "basis": "Makefile, inventory/link tools, library, documented exit semantics and 38-test checks suite are byte-identical to original closure. Original malformed missing-path and duplicate-ID CLI exit 1 evidence is preserved; not rerun or relabeled as fresh in this parity review."
+      }
+    ],
+    "all_six_continue_satisfied": true,
+    "new_gap_found": false,
+    "new_owner_decision_required": false,
+    "rights_decisions_not_required_for_inventory_closure": "Current issue explicitly delegates provenance truth to BK06 and says inventory must not require rights decisions to close.",
+    "original_immutable_review": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/ca716e1fd218bd9ecdc49675f92f94520998b3d0/evidence/2026-10-12-bk-mvp/postmerge/issue6/closure-recommendation.json"
+  },
+  "pr27": {
+    "state": "open",
+    "draft": true,
+    "head": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "same_governance_paragraph": true,
+    "six_PR26_files_preserved": true,
+    "remaining_different_paths": [
+      "docs/architecture/ACCEPTANCE.md",
+      "docs/architecture/OWNERSHIP.md",
+      "docs/source-of-truth.md"
+    ],
+    "source_index_remaining_hunks": "Only the two historical OWNERSHIP layout/icon reference qualifications.",
+    "foreign_prerequisite": {
+      "repository": "Jevelopers-neatHack-2026/getticketstub.com",
+      "pr": 117,
+      "state": "open",
+      "head": "60d3b6aa074caddca4d362ba8b13b56fe4436177",
+      "merged": false,
+      "disposition": "STILL_BLOCKS_PR27; not a prerequisite for the already merged isolated role paragraph."
+    }
+  },
+  "verification": {
+    "executed_here": "Six recorded git parity/diff/ancestry/clean commands on actual M4, plus source-tree and 95-target hash comparisons.",
+    "checks_reused": "Exact source/inventory/provenance/checker bytes and earlier immutable closure/negative evidence; old outcomes remain dated to their actual revisions.",
+    "supervisor_separate_evidence": "Root runs full make check, review package, three actual blocked commands and resulting-main checks. This report does not claim those as reviewer executions.",
+    "provider_mode": "N/A"
+  },
+  "new_acceptance_or_authority_granted": false,
+  "source_mutations": false,
+  "remote_mutations": false,
+  "attributable_summary": "Postmerge verification by /root/pr3_reconcile, recorded at 18:16:11 UTC after the merge: actual main e254df5444f0bfedd5526b0e148b0cdf36cbd31f has tree 32e3904a8d901b9c6cf75ca1e65829fe98df03f0, exactly equal to independently approved candidate 1603948d569ae2eb48693d7f4a40cce45b8111b1. Actual normal parents are 41001e1875c544d21ad6b481cfe98c9283b0c58c and 1603948d569ae2eb48693d7f4a40cce45b8111b1. PR #28 merged at 18:13:07 UTC; the independent source review was posted earlier at 18:11:11 UTC. This is a new postmerge parity receipt, not a backdated approval.\n\nThe merged delta against M3 is exactly the reviewed one-paragraph source-index correction, with 116 other files and every other source-index byte unchanged. No identity, rights, font, release, consumer or foreign acceptance changed. The current #6 body and all four comments retain the six completed BK-01 criteria and the supervisor's scoped closure. Those criteria continue satisfied: inventory and core check/provenance/path inputs are unchanged; all 117 paths remain; the prior 95 reference targets still exist and were rehashed. 86 remain byte-identical to the original 6222 closure evidence; nine intervening PR #24/#26/#28 paths have their old/new hashes explicitly preserved. Original negative results remain historical and are not reported as new executions.\n\nPR #27 remains draft at ba65bb20e9f4e820666cbb3a40154c74676d133d. It already contains the same governance paragraph and all six PR #26 files; its remaining diff against M4 is exactly OWNERSHIP.md, ACCEPTANCE.md and the two historical source-index qualifications. No PR #26/#28 content is lost. Product PR #117 remains OPEN at 60d3b6aa074caddca4d362ba8b13b56fe4436177, so its separate prerequisite still blocks PR #27.\n\nDirect M4 verification ran candidate-tree parity, both ancestor checks, diff checking, remaining-PR27 diff and clean-checkout checks; all succeeded. Fresh source/inventory mapping checks and the full suite/package/real-prerequisite commands are the supervisor's separate actual-M4 evidence. My authorship exclusions and existing unknown approvals remain unchanged. No source or remote mutation was performed.",
+  "evidence_sha256": {
+    "candidate-ancestry.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "candidate-ancestry.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "candidate-tree-parity.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "candidate-tree-parity.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "clean.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "clean.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "commands.json": "8f3ce426644958df81a00f05a2e9465209d48abe0d137d33c82608e34c40b99f",
+    "diff-main.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "diff-main.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "merged.diff": "29c35135d1251700583d413b1d01133c9c224e2ee50b82cfa509528df38cd5d4",
+    "pr27-remaining-diff.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pr27-remaining-diff.stdout": "ec7cea8158cd1ecbe0ddcc1e16ad36e806ae66dc982880f188a79bbda436315a",
+    "pr27-remaining.diff": "fb4838f4916d6159bfee31bf6c8a77a19185919bf059d11202385a5c4b02b7e3",
+    "prior-main-ancestry.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prior-main-ancestry.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "remote-evidence.json": "71544b139f3f672c41d3735c8b3dec456739c4d4754eb03743dcb5ef2ae40c17",
+    "source-proof.json": "6daf7bb28a45d1d543d0249fe3545ff69e623a1fe4aecccffd376dc1656b9441"
+  }
+}

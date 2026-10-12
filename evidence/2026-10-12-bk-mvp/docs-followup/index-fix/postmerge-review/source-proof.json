@@ -1,0 +1,88 @@
+{
+  "actual_main": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+  "actual_tree": "32e3904a8d901b9c6cf75ca1e65829fe98df03f0",
+  "actual_parents": [
+    "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+    "1603948d569ae2eb48693d7f4a40cce45b8111b1"
+  ],
+  "candidate": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+  "all_bytes_identical_to_reviewed_candidate": true,
+  "changed_vs_M3": [
+    "docs/source-of-truth.md"
+  ],
+  "unchanged_vs_M3": 116,
+  "only_governance_paragraph_replaced": true,
+  "source_index_sha256": "03b142d9bfa054fc759e594bfd6c2e66c8203dcde579ee113a5af46f0997019f",
+  "pr27": {
+    "head": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "remaining_different_paths": [
+      "docs/architecture/ACCEPTANCE.md",
+      "docs/architecture/OWNERSHIP.md",
+      "docs/source-of-truth.md"
+    ],
+    "same_governance_paragraph": true,
+    "all_other_paths_identical": true,
+    "PR26_six_files_identical": true
+  },
+  "issue6_reuse": {
+    "original_source": "6222a745195e9f15a14069e79210ad45daa16c94",
+    "original_coverage_sha256": "f90b0c6560920c6c4a0f8bdf5bef3b21a33fef8f8f021e6a676d6d89b5d9694f",
+    "current_all_117_original_tracked_paths_preserved": true,
+    "95_reference_targets_exist_and_rehashed": 95,
+    "reference_hashes_unchanged_count": 86,
+    "reference_hashes_changed_since_original_closure": {
+      "README.md": {
+        "closure_6222_sha256": "b949a4fff170d775028d9c5db2cb6ef2e32ce482708e1f7a2d69b021f5ceabeb",
+        "current_M4_sha256": "d73634363f7d3053b5940aaea13ff08682d57e14c9b0d6f93d312d3cb28366d0"
+      },
+      "docs/brand-governance.md": {
+        "closure_6222_sha256": "c713ffd4eda035da3cd1dca2cfe45b45d9a76bcc59f3b4f694006fb3e9d6f421",
+        "current_M4_sha256": "ea1248927feeec6df1d4051d22e47edfa2043d08e03787d6b6bdc2ee42039f2c"
+      },
+      "docs/consumers.md": {
+        "closure_6222_sha256": "53723abb67ed5346cbaf88e70085dee301fd2cc727bcc6d396c5408522e8f663",
+        "current_M4_sha256": "622830721acf520070b5de0adf10c8fa69ec7439e6b8d878c1af8d804639cf91"
+      },
+      "docs/distribution.md": {
+        "closure_6222_sha256": "6ce378046aeea4e05ca180882197007890575285d1dc773a1ef7d6687910f82b",
+        "current_M4_sha256": "51ab59640b585e17a72739d98f71b0a14c518ddb3d00a8efbb80f2e8577a6a5d"
+      },
+      "docs/guidelines-source-snapshot.json": {
+        "closure_6222_sha256": "a1ded314ab7da0da1d96f5d70a0e09b0799fb18879c6abae41ddc1e86a82f58d",
+        "current_M4_sha256": "6c48a751d76c9de3a8c31fdf4f13db5ce8515e0e2b3a4a496be54417ec9a3d9f"
+      },
+      "docs/identity-decision-packet.md": {
+        "closure_6222_sha256": "ad3bd084375b64f231e6a11cbf4eec4f9d3344bb9d329879a4e0a7915f6662cd",
+        "current_M4_sha256": "1185fef2d70037e473c6299b55e01ac2f377c4241819471b009e52af0b44a29e"
+      },
+      "docs/source-of-truth.md": {
+        "closure_6222_sha256": "0f0d5e31d6d1a904002db378303311d26f6a8d3c6b1095308a13d7d6a5dd353d",
+        "current_M4_sha256": "03b142d9bfa054fc759e594bfd6c2e66c8203dcde579ee113a5af46f0997019f"
+      },
+      "tools/check_brand_release.py": {
+        "closure_6222_sha256": "26a31c01a3aa78bd9468c2680b5b2e332f0f661537e9ec7a705640242b55bbd0",
+        "current_M4_sha256": "bf1512a7fa3f33d2f5f3f99afe43b11452076b505d7de16c2807b5b8f36abe22"
+      },
+      "tools/tests/test_distribution.py": {
+        "closure_6222_sha256": "7df24161ccb44e00841bf0a6ce935271117d25910ad209fff1286de144663cff",
+        "current_M4_sha256": "40f5a89a0cb213114592fcf3fce8bc96c430773f3f0b828271daa505fff556b6"
+      }
+    },
+    "preserved_implementation_and_acceptance_inputs": {
+      "inventory/brand-inventory.json": "34a8e0b180ec4ec50baf02994922cf0918a7c14668a294e8f5cd26f80395d3c5",
+      "provenance/register.json": "8e6a6349299cb8a9a5e08ad505e6c18c855821d0a0a563329141324a2f46c6ae",
+      "provenance/allowlist.json": "40b7842c9c30972e95e81f9fe7151aa954bf802d486b0108e244bc0164d38524",
+      "Makefile": "7c9355056ebcc30629415ff56854913a748faf47890424ff71582d2696cf9ea9",
+      "docs/inventory-checks.md": "bb1589dad597002a6088e80986e6c7a50bca62df776b9ae3a8a9cc5db5b3e561",
+      "tools/check_inventory.py": "f881e58e3e5886a29ce85b299f584aef7f724703b7c244a3f61a0e6b884f864f",
+      "tools/inventory_lib.py": "c97a77be33b43b7f1f5aa2d3bc314f9dc045af3960fbcd4e1daa6b33fcbc0203",
+      "tools/check_links.py": "52eb5e0c7829744304e179bdabea4424d0ab8c754d010aa5b6a9ce5ab2f18fae",
+      "tools/tests/test_checks.py": "d3c17965c4f15d4bb68d8b36cfcb22cffaa71135f9e5050f78df55d98f4adcca",
+      "SPEC.md": "0d9de5f012a3f3671a46b66f3d08910e9e61497df89320563c4488a25f189ade",
+      "docs/material-foil.md": "a2ea27c65f3d95840a73dbecf1f0dcbf18b685d491a69cc2217352199fc69fb1",
+      "tokens/tokens.json": "f441264f2e56f8fc8be5129a5a5b3f50403582ee5eb43821c7afb3ed1129b551",
+      "docs/architecture/OWNERSHIP.md": "d61f9c7f88f5a0610f4dbedfc90849ddbee01c38212f4c41333b036a0d101abb"
+    },
+    "original_cli_negative_results_not_rerun": "Original missing-path and duplicate-ID CLI exit1 evidence preserved; validator code/tests/Makefile are byte-identical."
+  }
+}

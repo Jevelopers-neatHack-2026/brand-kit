@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "scope": "Publication audit addendum, separate from reviewed177-file source packet",
+  "reviewed_source_manifest_sha256": "a59028ef528f9a50973438b5df69d1d21006518b38e7b98a3c78a1a0cee46a2d",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2074,
+      "sha256": "50fa2c380f94b1d1aa036ebd8a389ad67fefa485c58e49abce728e533d6e7c32",
+      "origin": "root-authored scoped publication metadata"
+    },
+    {
+      "path": "attributable-summary.txt",
+      "bytes": 2642,
+      "sha256": "2ce53b851bcf71a99748b2861c580b54cd864cc2ab32b4627bf27fb48d46a3e4",
+      "origin": "root-authored scoped publication metadata",
+      "source": "/dev/shm/brand-kit-e4-review-5ecc3c6cf97a/attributable-summary.txt",
+      "original_sha256": "2ce53b851bcf71a99748b2861c580b54cd864cc2ab32b4627bf27fb48d46a3e4",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "environment-space-recovery.json",
+      "bytes": 1515,
+      "sha256": "edd19ff8546d304b3553a8d9c4ec93dfd308fe8572bc3a7ca70ef1cd9e13dbc3",
+      "origin": "root-authored scoped publication metadata"
+    },
+    {
+      "path": "publish-preparation-failure.json",
+      "bytes": 840,
+      "sha256": "3c364d5bad99a590698bbdf73785e96a524c37895b4e8f69b0505d8922d2ee94",
+      "origin": "root-authored scoped publication metadata",
+      "source": "/workspace/scratch/5ecc3c6cf97a/triage/e4-publish-preparation-failure.json",
+      "original_sha256": "3c364d5bad99a590698bbdf73785e96a524c37895b4e8f69b0505d8922d2ee94",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "review.json",
+      "bytes": 10444,
+      "sha256": "41d11dd67df617eeccf73d096b085b7484dcd08d89c941796e69c8545e0cdcf2",
+      "origin": "root-authored scoped publication metadata",
+      "source": "/dev/shm/brand-kit-e4-review-5ecc3c6cf97a/review.json",
+      "original_sha256": "41d11dd67df617eeccf73d096b085b7484dcd08d89c941796e69c8545e0cdcf2",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "root-prepublication-integrity.json",
+      "bytes": 284,
+      "sha256": "66c792359392ad8785ea4edaa515555b2017266c27df323a0e982ae2d795aa46",
+      "origin": "root-authored scoped publication metadata",
+      "source": "/workspace/scratch/5ecc3c6cf97a/triage/e4-root-prepublication-integrity.json",
+      "original_sha256": "66c792359392ad8785ea4edaa515555b2017266c27df323a0e982ae2d795aa46",
+      "byte_identical_copy": true
+    },
+    {
+      "path": "root-sensitive-pattern-scan.json",
+      "bytes": 102,
+      "sha256": "812daf9c2211caf5aab35af910ac5b1cb435ebb0b0ff09864515190dda8bec35",
+      "origin": "root-authored scoped publication metadata",
+      "source": "/workspace/scratch/5ecc3c6cf97a/triage/e4-root-sensitive-pattern-scan.json",
+      "original_sha256": "812daf9c2211caf5aab35af910ac5b1cb435ebb0b0ff09864515190dda8bec35",
+      "byte_identical_copy": true
+    }
+  ]
+}

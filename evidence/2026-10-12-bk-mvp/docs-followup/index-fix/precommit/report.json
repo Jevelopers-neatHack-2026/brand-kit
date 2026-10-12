@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "mode": "precommit local documentation/source checks",
+  "base_revision": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+  "paragraph_source_revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+  "worktree": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr28-index-role",
+  "branch": "docs/bk-01-marketing-reviewer-index",
+  "changed_file": "docs/source-of-truth.md",
+  "file_sha256": "03b142d9bfa054fc759e594bfd6c2e66c8203dcde579ee113a5af46f0997019f",
+  "paragraph_sha256": "c6062d2b0dcb513a895741406b7ef5a8a90349b55ff4ca7f335ab4a840a0138a",
+  "scope_assertions": {
+    "exact_paragraph_from_proposal": true,
+    "every_other_file_byte_matches_main": true,
+    "main_layout_and_icon_passages_unchanged": true,
+    "architecture_files_unchanged": true,
+    "foreign_link_prerequisite_not_imported": true,
+    "public_source_snapshot_unchanged": true
+  },
+  "checks": [
+    {
+      "command": [
+        "make",
+        "check-inventory",
+        "check-links",
+        "check-governance",
+        "check-guidelines",
+        "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+      ],
+      "started_utc": "2026-10-12T18:06:26.387421+00:00",
+      "ended_utc": "2026-10-12T18:06:27.293827+00:00",
+      "exit_code": 0,
+      "log": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-precommit-validation-0.log",
+      "log_sha256": "b190b52bf6c13765988f73de7df4b41703b853a7f08e9087d9dfab3e20a74456"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "started_utc": "2026-10-12T18:06:27.294643+00:00",
+      "ended_utc": "2026-10-12T18:06:27.350939+00:00",
+      "exit_code": 0,
+      "log": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-precommit-validation-1.log",
+      "log_sha256": "09dc6ff0d4dfc6be6cf26fe0ead319cc6f91265e89335bf1c6bc22a20cfa3d84"
+    }
+  ],
+  "discovery_note": "Initial read-only selector expected the former exact Governance heading and exited1 on its intentionally expanded PR27 heading; no edit had occurred. Reading the source identified the correct full paragraph; this was a lookup assumption failure, not a repository validation failure.",
+  "remaining_review": "Independent documentation review plus root publication and exact published-head make check",
+  "no_external_or_remote_mutation": true
+}

@@ -1,0 +1,115 @@
+[
+  {
+    "name": "candidate-tree-parity",
+    "argv": [
+      "git",
+      "diff",
+      "--exit-code",
+      "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+      "e254df5444f0bfedd5526b0e148b0cdf36cbd31f"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-e254-review",
+    "execution_revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "started_at": "2026-10-12T18:15:03.593004+00:00",
+    "duration_seconds": 0.004,
+    "exit_code": 0,
+    "stdout": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/candidate-tree-parity.stdout",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/candidate-tree-parity.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "diff-main",
+    "argv": [
+      "git",
+      "diff",
+      "--check",
+      "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "e254df5444f0bfedd5526b0e148b0cdf36cbd31f"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-e254-review",
+    "execution_revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "started_at": "2026-10-12T18:15:03.596736+00:00",
+    "duration_seconds": 0.01,
+    "exit_code": 0,
+    "stdout": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/diff-main.stdout",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/diff-main.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "prior-main-ancestry",
+    "argv": [
+      "git",
+      "merge-base",
+      "--is-ancestor",
+      "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "e254df5444f0bfedd5526b0e148b0cdf36cbd31f"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-e254-review",
+    "execution_revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "started_at": "2026-10-12T18:15:03.607198+00:00",
+    "duration_seconds": 0.006,
+    "exit_code": 0,
+    "stdout": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/prior-main-ancestry.stdout",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/prior-main-ancestry.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "candidate-ancestry",
+    "argv": [
+      "git",
+      "merge-base",
+      "--is-ancestor",
+      "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+      "e254df5444f0bfedd5526b0e148b0cdf36cbd31f"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-e254-review",
+    "execution_revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "started_at": "2026-10-12T18:15:03.613061+00:00",
+    "duration_seconds": 0.004,
+    "exit_code": 0,
+    "stdout": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/candidate-ancestry.stdout",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/candidate-ancestry.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "pr27-remaining-diff",
+    "argv": [
+      "git",
+      "diff",
+      "--name-only",
+      "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "ba65bb20e9f4e820666cbb3a40154c74676d133d"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-e254-review",
+    "execution_revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "started_at": "2026-10-12T18:15:03.617496+00:00",
+    "duration_seconds": 0.006,
+    "exit_code": 0,
+    "stdout": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/pr27-remaining-diff.stdout",
+    "stdout_sha256": "ec7cea8158cd1ecbe0ddcc1e16ad36e806ae66dc982880f188a79bbda436315a",
+    "stderr": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/pr27-remaining-diff.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "clean",
+    "argv": [
+      "git",
+      "status",
+      "--porcelain",
+      "--untracked-files=all"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-postmerge-e254-review",
+    "execution_revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "started_at": "2026-10-12T18:15:03.623240+00:00",
+    "duration_seconds": 0.024,
+    "exit_code": 0,
+    "stdout": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/clean.stdout",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-index-e254df5/clean.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

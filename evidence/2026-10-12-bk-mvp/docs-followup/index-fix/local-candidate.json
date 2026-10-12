@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "revision": "82a1d29d71f88820dd6e32d97cf85db69c823fb0",
+  "tree": "32e3904a8d901b9c6cf75ca1e65829fe98df03f0",
+  "base_revision": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+  "branch": "docs/bk-01-marketing-reviewer-index",
+  "worktree": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr28-index-role",
+  "changed_paths": [
+    "docs/source-of-truth.md"
+  ],
+  "diff_sha256": "29c35135d1251700583d413b1d01133c9c224e2ee50b82cfa509528df38cd5d4",
+  "diff_stat": " docs/source-of-truth.md | 2 +-\n 1 file changed, 1 insertion(+), 1 deletion(-)\n",
+  "source_file_sha256": "03b142d9bfa054fc759e594bfd6c2e66c8203dcde579ee113a5af46f0997019f",
+  "paragraph_source_revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+  "validation_stage": "Executed precommit against exact bytes subsequently committed; root will run full make check on published SHA.",
+  "validation_report": "/workspace/scratch/5ecc3c6cf97a/triage/pr28-precommit-validation.json",
+  "validation_report_sha256": "68892301f180123dc6d42bba8dc50fff3c973fcd14cad70f2cda67a899a9f174",
+  "clean_worktree": true,
+  "remote_mutations": false,
+  "source_scope": "Only the Governance bullet in docs/source-of-truth.md; original main layout/icon/architecture and every other tracked file preserved."
+}

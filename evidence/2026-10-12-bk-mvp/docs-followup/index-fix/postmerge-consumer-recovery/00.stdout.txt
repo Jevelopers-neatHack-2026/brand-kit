@@ -1,0 +1,66 @@
+/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python -I tools/check_consumers.py --local
+{
+  "archive_sha256": "87c4f0ad8e428f9adbd3e1607063372369c5d4022ccdadd67eb7d5fdeacac1e1",
+  "checker_sha": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+  "consumer_acknowledgments": {
+    "problems": [
+      "no exact reviewed distribution source SHA is recorded",
+      "brand version has not been selected by the owner",
+      "distribution: missing exact decision fields",
+      "font_delivery: missing exact decision fields",
+      "getticketstub.com: missing exact decision fields",
+      "landing-page-repo: missing exact decision fields",
+      "marketing-material: missing exact decision fields",
+      "external_font_available_and_unavailable: missing exact decision fields"
+    ],
+    "status": "blocked"
+  },
+  "consumer_adoption": false,
+  "external_font_evidence": {
+    "performed_this_run": false,
+    "problems": [
+      "external_font_available_and_unavailable: missing exact decision fields"
+    ],
+    "record": null,
+    "required_for_release": true,
+    "scope": "receipt shape and exact file-set binding; authenticate actual provider/browser outcomes independently",
+    "status": "blocked"
+  },
+  "files_digest": "738026492ee5ce8b9e8b39e04e20e994fd48d6954acfc39621acaaa2bc4963b5",
+  "font_provider_checks": {
+    "performed_this_run": false,
+    "reason": "this offline command never performs provider requests or browser font checks",
+    "status": "not_run"
+  },
+  "limitations": [
+    "CSS inspection is structural; it is not browser font, visual, accessibility or owner review.",
+    "Review acknowledgments are local records; their authenticity requires independent human verification."
+  ],
+  "mode": "offline_review_fixture",
+  "plain_css": {
+    "local_links": 3,
+    "status": "pass"
+  },
+  "recovery": {
+    "exact_bytes_restored": true,
+    "missing_import_rejected": true,
+    "scope": "local re-extraction only; no approved historical rollback target exists"
+  },
+  "release_approved": false,
+  "result": "pass",
+  "schema_version": 1,
+  "scope": "local_fixture_mechanics",
+  "source_sha": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+  "tailwind": {
+    "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css",
+    "local_links_after_compile": {
+      "plain.html": 3,
+      "tailwind.html": 2
+    },
+    "node": "v24.19.0",
+    "required": true,
+    "status": "pass",
+    "tailwind": "3.4.19",
+    "utilities_checked": 4
+  }
+}

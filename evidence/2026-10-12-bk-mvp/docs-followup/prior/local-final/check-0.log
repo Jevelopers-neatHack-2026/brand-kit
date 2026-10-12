@@ -1,0 +1,189 @@
+Command: make check-inventory check-links check-governance check-guidelines PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python
+Revision: 110310c1998d88c4f559afb2e4574ddf258597de
+Mode: local documentation/source validation
+Started: 2026-10-12T17:55:08.110232+00:00
+Ended: 2026-10-12T17:55:08.758704+00:00
+Exit: 0
+STDOUT:
+/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python tools/check_inventory.py
+check-inventory: OK (117 entries cover all tracked files)
+/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python tools/check_links.py
+local links resolved: 385; broken: 0
+external links UNCHECKED (offline mode, not verified): 164
+UNCHECKED https://cuelume.dev/
+UNCHECKED https://fonts.googleapis.com
+UNCHECKED https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..800,0..100,0..1;1,9..144,300..800,0..100,0..1&family=Inter+Tight:wght@400..600&display=swap
+UNCHECKED https://fonts.gstatic.com
+UNCHECKED https://github.com/Jevelopers-neatHack-2026
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/.github/blob/main/CONTRIBUTING.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/README.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/README.md#L103
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/README.md#L21
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/README.md#L23
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/README.md#L44
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/SPEC.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/SPEC.md#L18
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/SPEC.md#L23-L29
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/SPEC.md#L65-L71
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/SPEC.md#L7-L11
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/SPEC.md#L71
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/SPEC.md#L9
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/architecture/OWNERSHIP.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/assets/readme/banner-day.svg
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/assets/readme/banner-night.svg
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/brand-governance.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/imagery.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/logo.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/material-foil.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/motion-sound-haptics.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/token-profile.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/voice.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/voice.md#L12
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/voice.md#L24-L25
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/voice.md#L26-L29
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/voice.md#L30-L34
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/voice.md#L32-L33
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/voice.md#L35
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/voice.md#L36-L37
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/voice.md#L38
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/docs/voice.md#L39
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/fonts/Fraunces%5BSOFT%2CWONK%2Copsz%2Cwght%5D.ttf
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/fonts/Fraunces-OFL.txt
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/fonts/InterTight%5Bwght%5D.ttf
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/fonts/InterTight-OFL.txt
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/index.html
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/index.html#L270
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/index.html#L281-L287
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/index.html#L340
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/index.html#L341
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/index.html#L363-L370
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/index.html#L372-L375
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/index.html#L384-L387
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/index.html#L389-L399
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/index.html#L415
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/index.html#L418-L421
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/index.html#L435
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/index.html#L437
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/index.html#L445-L450
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/index.html#L457
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/inventory/brand-inventory.json
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/logo/app-icon.svg
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/logo/favicon.svg
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/logo/lockup-horizontal-mono.svg
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/logo/lockup-horizontal.svg
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/logo/lockup-stacked.svg
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/logo/ts-stamp-currentcolor.svg
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/logo/ts-stamp-mono-cream.svg
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/logo/ts-stamp-mono-ink.svg
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/logo/ts-stamp-mono-orange.svg
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/logo/ts-stamp.svg
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/logo/wordmark-compact.svg
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/logo/wordmark-cream.svg
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/logo/wordmark-orange.svg
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/logo/wordmark.svg
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/provenance/allowlist.json
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/provenance/register.json
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/references/mockup-art-glasgow.webp
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/references/mood-holo-light.webp
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/references/mood-stub-back-golden-hour.webp
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/references/ts-stamp-emboss-lightleak.webp
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/references/ts-stamp-holo-rainbow.webp
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/references/ts-stamp-square-velvet.webp
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/references/ts-stamp-vertical-velvet.webp
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/tokens/external-fonts-google.css
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/tokens/mapping.json
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/tokens/profile.json
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/tokens/tailwind.preset.js
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/tokens/token-matrix.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/tokens/tokens.css
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/tokens/tokens.json
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/tools/build_logos.py
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/tools/build_tokens.py
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4/tools/token_lib.py
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/a664cc99884b2679f2c6ea15c6c3e8b98b768755/docs/architecture/OWNERSHIP.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/commit/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/compare/74bc86fe5b520cae792066fbe0d7dd129664bbd3...289b22659f0699649abd65ba7a3b7e710839f4d3
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/10
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/11
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/12
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/13
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/14#issuecomment-6118157033
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/15
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/4
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/7
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6113526793
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6116787775
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/8#issuecomment-6118159083
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/9#issuecomment-6118216028
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/2
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/20
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/20#issuecomment-6117881298
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/22
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/22#issuecomment-6122144808
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3#issuecomment-6117604850
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3#issuecomment-6122164575
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/creative-engine/blob/main/docs/architecture/OWNERSHIP.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/fulfillment-connectors/issues/10#issuecomment-6121958209
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/getticketstub.com
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/43bb721f00de1c616e8e8d27efbb87c6bf75bcbf/docs/studio/research/holo-foil-technique.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/43bb721f00de1c616e8e8d27efbb87c6bf75bcbf/docs/studio/stub-system.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/main/docs/architecture-kit/v1.0/README.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/main/docs/architecture-kit/v1.0/docs/architecture.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/main/docs/architecture/CURRENT-STATE.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/main/docs/planning/implementation-plan.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/getticketstub.com/issues/19
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/getticketstub.com/issues/19#issuecomment-6121957840
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/117
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/20
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/4
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/getticketstub.com/tree/783a9fa03e3d64b752cd8c5ad913c223db29118d/public/brand
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/getticketstub.com/tree/main/public/brand
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/integration-evals/blob/56018576a9450a2bb46aa55ed3b2f9d9ae97e50d/planning/acceptance-checklist.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/integration-evals/blob/56018576a9450a2bb46aa55ed3b2f9d9ae97e50d/planning/acceptance-checklist.md#art-05-approved-asset-inputs
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/integration-evals/blob/56018576a9450a2bb46aa55ed3b2f9d9ae97e50d/planning/acceptance-checklist.md#eval-04-secrets-and-customer-data
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/landing-page-repo
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/landing-page-repo/issues/4
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/landing-page-repo/issues/8
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/marketing-material
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/marketing-material/blob/62742934652aad8872c388e4d3fa77dddf93cbc9/review/brand-consumption.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/5
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/print-production/blob/main/docs/architecture/OWNERSHIP.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/shared-contracts/blob/main/docs/contract-catalog.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/team-dashboard/blob/e7e9aece87eac258369ed551cb9800282575cc45/docs/integration/TD-10-components.md
+UNCHECKED https://github.com/Jevelopers-neatHack-2026/team-dashboard/issues/15
+UNCHECKED https://github.com/microsoft/playwright/tree/v1.56.1
+UNCHECKED https://img.shields.io/badge/-%2317140F-17140F?style=flat-square
+UNCHECKED https://img.shields.io/badge/-%2326302A-26302A?style=flat-square
+UNCHECKED https://img.shields.io/badge/-%237CC6D2-7CC6D2?style=flat-square
+UNCHECKED https://img.shields.io/badge/-%23B4693E-B4693E?style=flat-square
+UNCHECKED https://img.shields.io/badge/-%23E4572E-E4572E?style=flat-square
+UNCHECKED https://img.shields.io/badge/-%23F4ECDD-F4ECDD?style=flat-square
+UNCHECKED https://img.shields.io/badge/TicketStub-ecosystem-E4572E?style=flat-square&labelColor=17140F
+UNCHECKED https://img.shields.io/badge/brand%20board-index.html-26302A?style=flat-square&labelColor=17140F
+UNCHECKED https://img.shields.io/badge/fonts-SIL%20OFL%201.1-7CC6D2?style=flat-square&labelColor=17140F
+UNCHECKED https://img.shields.io/badge/status-unversioned%20source-B4693E?style=flat-square&labelColor=17140F
+UNCHECKED https://www.designtokens.org/
+UNCHECKED https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html
+UNCHECKED https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html
+UNCHECKED https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html
+UNCHECKED https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html
+/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python -I tools/check_governance.py
+governance docs OK
+/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python -I tools/check_guidelines.py
+guidelines: PASS — 4 public source hashes, 14 claim rows, 8 usage pairs, 14 canonical SVG variants
+Scope: local source snapshot and structure only. Public claim approvals remain PENDING; release eligibility is NOT established.
+/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python -m unittest tools.tests.test_guidelines
+
+STDERR:
+........................
+----------------------------------------------------------------------
+Ran 24 tests in 0.366s
+
+OK

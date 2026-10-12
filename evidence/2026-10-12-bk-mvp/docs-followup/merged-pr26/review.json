@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "reviewer": "/root/asset_pipeline",
+  "reviewed_at_utc": "2026-10-12T18:03:39.828114+00:00",
+  "review_kind": "independent postmerge implementation review",
+  "verdict": "APPROVE_SCOPED_IMPLEMENTATION",
+  "source_sha": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+  "source_tree": "1d9d3f7e030cf65f4737b7fe2446c83ade441579",
+  "premerge_candidate_sha": "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465",
+  "candidate_tree_equal": true,
+  "base_sha": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+  "diff_sha256": "cd67ea34d88b08be6a02837b8e106e61d0af874757ecc3aece309949cd80a25c",
+  "current_diff_authored_by_reviewer": false,
+  "scope": {
+    "independently_reviewed_delta": [
+      "docs/brand-governance.md",
+      "docs/consumers.md",
+      "docs/distribution.md",
+      "docs/identity-decision-packet.md",
+      "tools/check_brand_release.py",
+      "tools/tests/test_distribution.py"
+    ],
+    "context_read": [
+      "tools/build_distribution.py: source identity, approved source package derivation, archive reads and acceptance fields",
+      "tools/check_consumers.py receipt contract via existing tests and unchanged previously reviewed code"
+    ],
+    "exclusions": [
+      "No retrospective claim of this reviewer approving PR26 before its owner merged it.",
+      "Unchanged code previously authored by this reviewer is not independently reapproved by this report.",
+      "Full 17-target gate, raster/browser runs, authentic provider behavior and manual/consumer/identity/rights/release approvals are outside this independent rerun."
+    ]
+  },
+  "code_findings": [],
+  "code_review_conclusions": [
+    "Approved source subset is derived first; actual package-brand output must be a regular nonsymlink file with bytes equal to a fresh approved reconstruction.",
+    "Receipt comparisons use that approved subset files_digest; missing/tampered output and failed commands remain blockers.",
+    "Unavailable approved packaging can retain a review archive only with an explicit diagnostic blocker and release_approved=false.",
+    "Each asset build receives a per-run ASSET_OUTPUT under the fresh gate output directory; inherited stale default output is preserved.",
+    "Nested archive exceptions cannot insert input-derived detail into new gate diagnostic fields; fixed error messages are selected locally.",
+    "Source identity is checked again after the gate, and prior required failure/skip handling remains intact."
+  ],
+  "validation": {
+    "report": "/workspace/scratch/5ecc3c6cf97a/triage/pr26-postmerge-validation.json",
+    "sha256": "ce95b8990da40d3f5da53542367b0e37b5e30cdff4d357cd8fb994c26dd02eb9",
+    "distribution_tests": 35,
+    "distribution_elapsed_seconds": 65.042,
+    "new_gate_regressions": 6,
+    "guidelines_tests": 24,
+    "inventory_entries": 117,
+    "local_links": 378,
+    "broken_local_links": 0,
+    "external_links_unchecked": 163,
+    "worktree_clean": true
+  },
+  "negative_and_recovery_scope": [
+    "Synthetic complete approved-subset receipts versus larger review proposal",
+    "Stale consumer acknowledgment digest blocks subset acceptance",
+    "Missing archive, tampered archive and failed package command remain blocked",
+    "Absent approval yields diagnostic review artifact and blocked result",
+    "Synthetic private exception sentinel is absent from report",
+    "Actual Make subprocess builds two synthetic source revisions into distinct paths and preserves earlier failure snapshot",
+    "Existing archive mutation, source binding, current revocation, unsafe path, malformed manifest and extraction recovery cases remain in the 35-test suite"
+  ],
+  "synthetic_limits": "Approval-shaped fixtures and mocked leaf results authenticate no real reviewer, rights, provider or consumer evidence. The fresh-output regression runs actual Make with a synthetic builder, not Inkscape.",
+  "documentation_followup": {
+    "file": "docs/source-of-truth.md",
+    "section": "Repository status and open handoffs / Governance",
+    "finding": "Unchanged sentence says reviewer roles other than the nominated approver remain unfilled, contradicting the now-recorded existing marketing supervisor role.",
+    "disposition": "Root reported applying a narrow correction in the separate PR27 integration; final PR27 source has not yet been reviewed by this report and is not claimed merged.",
+    "severity": "Documentation consistency; no blocking implementation defect in PR26 code."
+  },
+  "source_receipt_scope": "Root and pr3 independently read the two cited MM role receipts and confirmed the existing foreign marketing reviewer/receiver role. This does not supply an exact-artifact ACK or transfer that role to the brand execution agent. A separate dependency reviewer is checking the pinned Landing/Marketing source observations.",
+  "retained_failure_evidence": [
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/9bb2e7c79ee1c1a34bbde813f0b93f3e9ae447f3/evidence/2026-10-12-bk10-candidate-binding/regressions/reproduction.json",
+      "git_blob_sha": "382e6296170f07dc0b02dc4f657fbb760d7613f8",
+      "independently_read": true,
+      "scope": "Published synthetic pre-fix record: 21-file approved subset versus 25-file review proposal, 22 false stale blockers, mocked Make checks. No real approval evidence."
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/9bb2e7c79ee1c1a34bbde813f0b93f3e9ae447f3/evidence/2026-10-12-bk10-candidate-binding/README.md",
+      "git_blob_sha": "2aecae9a384a4068d8127a54232385bc50dffa29",
+      "independently_read": true,
+      "scope": "Packet index preserves missing-uharfbuzz and failed Chromium-installer histories and labels candidate 14-pass/3-fail/30-blocker result; this reviewer did not rerun or independently verify every packet stream."
+    }
+  ],
+  "owner_full_gate_attribution": "Owner published candidate gate at19c0bf1 with 289 tests,14 passing targets,3 failed release prerequisites,30 blockers. Any fresh owner postmerge full-gate evidence must be cited separately; these counts are not this reviewer\u2019s own rerun.",
+  "source_modified": false,
+  "remote_mutations": false,
+  "release_approved": false,
+  "foreign_acceptance_changed": false
+}

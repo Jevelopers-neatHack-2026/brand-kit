@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+  "tree": "b296f348e6ff5f4a642c30af735cffbc7d2627b8",
+  "local_tree_equivalent_revision": "7c5c7490fd0e9e1278ef390cf918840920aaab71",
+  "base_main": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+  "parents": [
+    "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+    "41001e1875c544d21ad6b481cfe98c9283b0c58c"
+  ],
+  "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr25-candidate",
+  "mode": "local-source; no providers",
+  "environment": {
+    "PYTHON": "/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python",
+    "PLAYWRIGHT_BROWSERS_PATH": "/tmp/ticketstub-browser-1194"
+  },
+  "checks": [
+    {
+      "command": [
+        "make",
+        "check"
+      ],
+      "revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+      "started_utc": "2026-10-12T18:03:00.449304+00:00",
+      "ended_utc": "2026-10-12T18:03:57.395411+00:00",
+      "exit_code": 0,
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-integrated-candidate-validation/00.stdout.txt",
+        "sha256": "bc728bb28b010167bebcab39a5ee3d0116ea0d0dde8b32e9d5bef96b8f0f4764",
+        "bytes": 21380
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-integrated-candidate-validation/00.stderr.txt",
+        "sha256": "bd13ae897ceda12526ff1853ad9c5a516342350b883822fd2198e84d6ad1db27",
+        "bytes": 35178
+      }
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+        "HEAD"
+      ],
+      "revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+      "started_utc": "2026-10-12T18:03:57.396026+00:00",
+      "ended_utc": "2026-10-12T18:03:57.399407+00:00",
+      "exit_code": 0,
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-integrated-candidate-validation/01.stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-integrated-candidate-validation/01.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--exit-code",
+        "7c5c7490fd0e9e1278ef390cf918840920aaab71",
+        "HEAD"
+      ],
+      "revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+      "started_utc": "2026-10-12T18:03:57.399819+00:00",
+      "ended_utc": "2026-10-12T18:03:57.401866+00:00",
+      "exit_code": 0,
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-integrated-candidate-validation/02.stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-integrated-candidate-validation/02.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--porcelain",
+        "--untracked-files=all"
+      ],
+      "revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+      "started_utc": "2026-10-12T18:03:57.402231+00:00",
+      "ended_utc": "2026-10-12T18:03:57.404954+00:00",
+      "exit_code": 0,
+      "stdout": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-integrated-candidate-validation/03.stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "stderr": {
+        "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr27-integrated-candidate-validation/03.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    }
+  ],
+  "state": "complete",
+  "all_commands_zero": true,
+  "external_links": "167 URLs unchecked by local checker; Product117 merge and required main target need independent verification",
+  "production_eligibility": "No release/identity/rights/consumer approvals added; PR26 source and tests preserved byte-for-byte"
+}

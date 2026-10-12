@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "scope": "Minimal corrective follow-up retaining all unique valid PR25 rewrite and Product117 prerequisite",
+  "branch": "docs/bk-pr25-preserve-source-evidence",
+  "worktree": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr25-followup",
+  "owner_base_revision": "3eebe0c15ed025c5a074b56629c3ca2cf1483829",
+  "main_base_revision": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+  "revision": "0d1d3380012196828d196cf30be219b0efdac007",
+  "tree": "9b66ba2ff31e5f71daaa31e8056ea27e22563b67",
+  "changed_paths": [
+    "docs/architecture/OWNERSHIP.md"
+  ],
+  "owner_branch_untouched": true,
+  "remote_mutations": false,
+  "upstream_dependency": {
+    "repository": "Jevelopers-neatHack-2026/getticketstub.com",
+    "pull_request": 117,
+    "observed_head": "e83f473d43d6cd0cf535cf20c1a8203e5f6f9e34",
+    "observed_state": "open",
+    "condition": "Owner requires PR117 merged before this documentation change so the main CURRENT-STATE.md links resolve; actual merge and targets require a fresh separate check. No foreign merge authorization inferred."
+  },
+  "policy_revision": "07d750dfb7feeecdeca7d3d1a2363663d7f3517f",
+  "checks": [
+    {
+      "command": [
+        "make",
+        "check-inventory",
+        "check-links",
+        "check-governance",
+        "check-guidelines",
+        "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+      ],
+      "revision": "0d1d3380012196828d196cf30be219b0efdac007",
+      "started_utc": "2026-10-12T17:48:28.500029+00:00",
+      "ended_utc": "2026-10-12T17:48:29.813042+00:00",
+      "exit_code": 0,
+      "log": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-followup-validation-0.log",
+      "log_sha256": "ea8757201aad58a8c23e5e3be5a784c2a97a7cb64fc6c9253ac8c558a3daa2bd"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "3eebe0c15ed025c5a074b56629c3ca2cf1483829",
+        "HEAD"
+      ],
+      "revision": "0d1d3380012196828d196cf30be219b0efdac007",
+      "started_utc": "2026-10-12T17:48:29.813574+00:00",
+      "ended_utc": "2026-10-12T17:48:29.816908+00:00",
+      "exit_code": 0,
+      "log": "/workspace/scratch/5ecc3c6cf97a/triage/pr25-followup-validation-1.log",
+      "log_sha256": "f322940743c4398ff7a28650b0bcd3ecf7488fe42efefbec087f7a384bebc723"
+    }
+  ],
+  "byte_preservation": {
+    "docs/architecture/ACCEPTANCE.md": {
+      "base_blob": "31fc1870af89cbfd6333f177700d1f0a75513919",
+      "candidate_blob": "31fc1870af89cbfd6333f177700d1f0a75513919"
+    },
+    "README.md": {
+      "base_blob": "1b6521ba621d428238cd754fa50135b47c1845ef",
+      "candidate_blob": "1b6521ba621d428238cd754fa50135b47c1845ef"
+    },
+    "SPEC.md": {
+      "base_blob": "3ec26c6c6da463a879386a61d37b11a860f8c2b6",
+      "candidate_blob": "3ec26c6c6da463a879386a61d37b11a860f8c2b6"
+    },
+    "index.html": {
+      "base_blob": "fdfefe5039ec4944595d8f3546d01245863ff272",
+      "candidate_blob": "fdfefe5039ec4944595d8f3546d01245863ff272"
+    },
+    "docs/voice.md": {
+      "base_blob": "5c2524576034484abdc5a67f347fb3c87bcb3179",
+      "candidate_blob": "5c2524576034484abdc5a67f347fb3c87bcb3179"
+    },
+    "docs/guidelines-source-snapshot.json": {
+      "base_blob": "55020853a28fa48dfe8b4ac2e45b82777cfc70af",
+      "candidate_blob": "55020853a28fa48dfe8b4ac2e45b82777cfc70af"
+    }
+  },
+  "known_limits": [
+    "External URLs, including current host architecture, remain UNCHECKED by local link checker.",
+    "Only documentation changed; no browser/asset/package reruns or new tests required for this local scope.",
+    "No identity, rights, release, provider or consumer approval added.",
+    "Independent documentation review, owner-head refresh and upstream prerequisite remain before merge."
+  ],
+  "prior_check_failures_this_followup": [],
+  "postcheck_git_status": ""
+}

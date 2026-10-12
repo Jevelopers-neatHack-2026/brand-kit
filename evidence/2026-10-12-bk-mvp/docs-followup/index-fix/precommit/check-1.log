@@ -1,0 +1,10 @@
+Command: git diff --check
+Base: 41001e1875c544d21ad6b481cfe98c9283b0c58c
+Mode: local precommit documentation validation; single source-index paragraph dirty
+Candidate file SHA256: 03b142d9bfa054fc759e594bfd6c2e66c8203dcde579ee113a5af46f0997019f
+Started: 2026-10-12T18:06:27.294643+00:00
+Ended: 2026-10-12T18:06:27.350939+00:00
+Exit: 0
+STDOUT:
+
+STDERR:

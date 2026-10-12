@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "kind": "read_only_role_assignment_integration_review",
+  "reviewer": "/root/pr3_reconcile",
+  "observed_at_utc": "2026-10-12T18:01:44Z",
+  "scope": "PR26 documentation role delta and one proposed source-index reconciliation; no code/gate review; no source edits or remote mutations",
+  "authorship_exclusion": "Prior authored baseline docs are excluded; review concerns the other owner's PR26 delta and root's new source-index paragraph only.",
+  "owner_activity": {
+    "author": "CompleteDotTech",
+    "pr": 26,
+    "state": "MERGED",
+    "head": "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465",
+    "merge": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+    "tree": "1d9d3f7e030cf65f4737b7fe2446c83ade441579",
+    "merged_at": "2026-10-12T17:59:04Z",
+    "parents": [
+      "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+      "19c0bf1f0a89d00cadb1da1bb4028c8fdfccf465"
+    ],
+    "independent_review_receipt": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/26#issuecomment-6129693359"
+  },
+  "assignment_evidence": [
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/7#issuecomment-6105489382",
+      "author": "CompleteDotTech",
+      "created_at": "2026-10-11T04:36:32Z",
+      "updated_at": "2026-10-11T04:36:32Z",
+      "source_text_sha256": "20b139cc99889322340c0d0f5d68b1677ed3592745662b2d2ac937b0f0c928a8",
+      "source_text_bytes": 1576,
+      "publication_note": "Full public conversation text withheld; exact URL, author, time and hash retained. Root and the original reviewer inspected the source."
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/5#issuecomment-6112307412",
+      "author": "CompleteDotTech",
+      "created_at": "2026-10-11T18:34:04Z",
+      "updated_at": "2026-10-11T18:34:04Z",
+      "source_text_sha256": "6f85a8143acbb29e0621c0d2439d5293e390ef020daf9614321f9f4031f06df6",
+      "source_text_bytes": 1108,
+      "publication_note": "Full public conversation text withheld; exact URL, author, time and hash retained. Root and the original reviewer inspected the source."
+    }
+  ],
+  "authority_interpretation": {
+    "assigned_role": "Existing user-assigned marketing-material root/supervisor is the accountable marketing content/brand/handoff reviewer and receiver",
+    "no_new_assignment": true,
+    "no_transfer_to_brand_execution_agent": true,
+    "no_exact_brand_artifact_ack": true,
+    "no_brand_identity_rights_font_or_release_approval": true,
+    "other_roles": "Technical, provenance/rights, Product/Landing/Dashboard reviewer gaps, release reviewer/publisher, exact-decision acknowledgements remain pending."
+  },
+  "minimal_correction": {
+    "path": "docs/source-of-truth.md",
+    "section": "Repository status and open handoffs / Governance",
+    "reason": "Blanket claim that every reviewer role apart from nominated brand approver is unfilled is stale after existing marketing assignment is recorded by PR26.",
+    "observed_proposed_wording": "Governance (PR #17, merged; role evidence reconciled by PR #26). The existing linked responsibility table records the nominated brand approver and existing user-assigned marketing-material root/supervisor as that consumer's content/brand/handoff reviewer and receiver. Other reviewer-role gaps and exact-decision acknowledgements remain pending; role does not acknowledge this brand artifact or transfer authority to the brand-kit execution agent.",
+    "verdict": "APPROVE_WORDING_ONLY_PENDING_FINAL_EXACT_HEAD",
+    "anchor": "docs/brand-governance.md#responsibility-table-bk-071",
+    "anchor_confirmed_heading": "Responsibility table (BK-07.1)"
+  },
+  "ownership_disposition": {
+    "path": "docs/architecture/OWNERSHIP.md",
+    "change_required": false,
+    "reason": "Its no-consumer-ACK statements describe missing exact artifact/release acceptance, not absent role assignment. Existing source pins, ownership boundaries and Product117 prerequisite remain accurate."
+  },
+  "source_review": {
+    "prior_candidate": "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+    "working_checkout": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr25-candidate",
+    "observed_HEAD": "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+    "observed_MERGE_HEAD": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+    "condition": "Uncommitted root-owned integration; this review is not a final candidate approval."
+  },
+  "blocking_prerequisite": {
+    "repository": "Jevelopers-neatHack-2026/getticketstub.com",
+    "pr": 117,
+    "status": "Not re-evaluated in this narrowly scoped role review; prior actual OPEN/404 results remain preserved and are not converted to a pass."
+  },
+  "commands": [
+    "rg -n 'responsibility|reviewer|unfilled|unassigned|appointed|acknowledge|ACK|marketing' docs/source-of-truth.md docs/architecture/OWNERSHIP.md docs/brand-governance.md docs/identity-decision-packet.md docs/consumers.md",
+    "git diff -- docs/architecture/OWNERSHIP.md",
+    "git diff aece3f0e0b14e2154a313ae5f37f8cdebc12fa21 --name-only",
+    "sed -n '1,14p' docs/brand-governance.md",
+    "sed -n '1,90p' docs/architecture/OWNERSHIP.md",
+    "git rev-parse HEAD",
+    "git rev-parse --verify MERGE_HEAD"
+  ],
+  "validation_limits": "Source reading and role evidence/anchor review only. Parent performs affected checks on final committed candidate; asset agent reviews PR26 code. This review supplies no source-owned accountable decision.",
+  "observed_source_sha256": {
+    "docs/source-of-truth.md": "11f452af00b620addbaccb5a52d5ad5eb65beaa990f095b5c0fc90674a06365d",
+    "docs/architecture/OWNERSHIP.md": "b10a615b845768ad71e00a011ee91a174e5b289fdf764eb3adfd24f035572d8a",
+    "docs/brand-governance.md": "ea1248927feeec6df1d4051d22e47edfa2043d08e03787d6b6bdc2ee42039f2c",
+    "docs/consumers.md": "622830721acf520070b5de0adf10c8fa69ec7439e6b8d878c1af8d804639cf91",
+    "docs/identity-decision-packet.md": "1185fef2d70037e473c6299b55e01ac2f377c4241819471b009e52af0b44a29e"
+  },
+  "byte_parity_checks": [
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--exit-code",
+        "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+        "--",
+        "docs/brand-governance.md",
+        "docs/consumers.md",
+        "docs/distribution.md",
+        "docs/identity-decision-packet.md"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--exit-code",
+        "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+        "--",
+        "docs/architecture/OWNERSHIP.md"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "publication_provenance": {
+    "original_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr26-role-integration-review.json",
+    "original_sha256": "2ba6c6157747cb7d632dc21f182bcbfab6b97839065a7a2f6603ec8931151e3c",
+    "transformation": "Remove two full public comment bodies; retain exact source metadata, text hashes and all review conclusions. No actual result changed.",
+    "removed_fields": [
+      {
+        "json_path": "/assignment_evidence/0/body",
+        "source_url": "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/7#issuecomment-6105489382",
+        "source_text_sha256": "20b139cc99889322340c0d0f5d68b1677ed3592745662b2d2ac937b0f0c928a8",
+        "source_text_bytes": 1576
+      },
+      {
+        "json_path": "/assignment_evidence/1/body",
+        "source_url": "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/5#issuecomment-6112307412",
+        "source_text_sha256": "6f85a8143acbb29e0621c0d2439d5293e390ef020daf9614321f9f4031f06df6",
+        "source_text_bytes": 1108
+      }
+    ],
+    "original_preserved": true
+  }
+}

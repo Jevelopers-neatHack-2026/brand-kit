@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-12 18:17:20 UTC",
+  "access": "public sanitized metadata; no raw conversation bodies or workflow logs",
+  "snapshots": [
+    {
+      "key": "main",
+      "url": "https://api.github.com/repos/Jevelopers-neatHack-2026/brand-kit/branches/main",
+      "sha": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "tree": "32e3904a8d901b9c6cf75ca1e65829fe98df03f0",
+      "protected": false
+    },
+    {
+      "key": "pr28",
+      "url": "https://api.github.com/repos/Jevelopers-neatHack-2026/brand-kit/pulls/28",
+      "number": 28,
+      "html_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/28",
+      "head": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+      "head_ref": "docs/bk-01-marketing-reviewer-index",
+      "base": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "state": "closed",
+      "merged": true,
+      "merged_at": "2026-10-12T18:13:07Z",
+      "merge_commit_sha": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "mergeable": null,
+      "mergeable_state": "unknown",
+      "draft": false,
+      "updated_at": "2026-10-12T18:13:09Z"
+    },
+    {
+      "key": "pr27",
+      "url": "https://api.github.com/repos/Jevelopers-neatHack-2026/brand-kit/pulls/27",
+      "number": 27,
+      "html_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/27",
+      "head": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+      "head_ref": "docs/bk-pr25-preserve-source-evidence",
+      "base": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "mergeable": true,
+      "mergeable_state": "clean",
+      "draft": true,
+      "updated_at": "2026-10-12T18:07:27Z"
+    },
+    {
+      "key": "pr25",
+      "url": "https://api.github.com/repos/Jevelopers-neatHack-2026/brand-kit/pulls/25",
+      "number": 25,
+      "html_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25",
+      "head": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+      "head_ref": "docs/org-documentation-20261012",
+      "base": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "mergeable": null,
+      "mergeable_state": "unknown",
+      "draft": false,
+      "updated_at": "2026-10-12T18:10:20Z"
+    },
+    {
+      "key": "pr3",
+      "url": "https://api.github.com/repos/Jevelopers-neatHack-2026/brand-kit/pulls/3",
+      "number": 3,
+      "html_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3",
+      "head": "289b22659f0699649abd65ba7a3b7e710839f4d3",
+      "head_ref": "docs/studio-links",
+      "base": "74bc86fe5b520cae792066fbe0d7dd129664bbd3",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "mergeable": false,
+      "mergeable_state": "dirty",
+      "draft": false,
+      "updated_at": "2026-10-12T17:42:44Z"
+    },
+    {
+      "key": "product117",
+      "url": "https://api.github.com/repos/Jevelopers-neatHack-2026/getticketstub.com/pulls/117",
+      "number": 117,
+      "html_url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/117",
+      "head": "60d3b6aa074caddca4d362ba8b13b56fe4436177",
+      "head_ref": "docs/org-documentation-20261012",
+      "base": "01c65ae2290447c523823bf4601d6373ce4c6ca2",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "mergeable": true,
+      "mergeable_state": "unstable",
+      "draft": false,
+      "updated_at": "2026-10-12T17:53:55Z"
+    },
+    {
+      "key": "openprs",
+      "url": "https://api.github.com/repos/Jevelopers-neatHack-2026/brand-kit/pulls?state=open&per_page=100",
+      "items": [
+        {
+          "number": 27,
+          "head": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+          "draft": true,
+          "title": "docs: preserve verified evidence in the ownership refresh"
+        },
+        {
+          "number": 25,
+          "head": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+          "draft": false,
+          "title": "docs: clarify brand source and distribution status"
+        },
+        {
+          "number": 3,
+          "head": "289b22659f0699649abd65ba7a3b7e710839f4d3",
+          "draft": false,
+          "title": "Point edition and foil links at getticketstub.com docs/studio"
+        }
+      ]
+    }
+  ],
+  "pr28_premerge_guard": {
+    "at": {
+      "current_time": "2026-10-12 18:13:03 UTC"
+    },
+    "head": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+    "base": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+    "mergeable": true,
+    "mergeable_state": "clean",
+    "draft": false,
+    "protected": false,
+    "check_runs": 0,
+    "status_contexts": 0,
+    "rulesets": [],
+    "formal_reviews": 0,
+    "inline_comments": 0,
+    "security_review": "completed at 2026-10-12T18:11:53.408178Z on exact1603948; no findings in fetched review/inline threads",
+    "independent_review_comment": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/28#issuecomment-6129925234",
+    "validation_report_sha256": "0328f701b4499c1ee3cd527a8bc64726f8d9e2c5848ebc9f5fbce889ffcfd412"
+  },
+  "pr28_merge_result": {
+    "sha": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "merged": true,
+    "message": "Pull Request successfully merged"
+  },
+  "pr28_review_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/28#issuecomment-6129925234",
+  "pr26_independent_postmerge_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/26#issuecomment-6129842896",
+  "product_job_review": {
+    "source": "purpose-built GitHub workflow run/job tools",
+    "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/actions/runs/38287279004/job/114938560052",
+    "jobs": [
+      {
+        "id": 114938560052,
+        "name": "build-and-smoke",
+        "status": "completed",
+        "conclusion": "failure",
+        "run_id": 38287279004,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-node@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Select pinned npm",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Run npm ci",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Run npm run lint",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 6
+          },
+          {
+            "name": "Run npm test",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 7
+          },
+          {
+            "name": "Run npm run typecheck",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 8
+          },
+          {
+            "name": "Run npm run build",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 9
+          },
+          {
+            "name": "Verify analytics consent and page-view ordering in Chrome (offline, synthetic ID)",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 10
+          },
+          {
+            "name": "Verify analytics customer journeys in Chrome (offline, synthetic ID, phone and desktop)",
+            "status": "completed",
+            "conclusion": "failure",
+            "number": 11
+          },
+          {
+            "name": "Verify authentication, storage fixtures and the agent journey (Chrome, offline)",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 12
+          },
+          {
+            "name": "Verify production server on platform port",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 13
+          },
+          {
+            "name": "Retain product verification evidence",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 14
+          },
+          {
+            "name": "Post Run actions/setup-node@v4",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 27
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 28
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 29
+          }
+        ]
+      }
+    ]
+  },
+  "limits": [
+    "All observations are dated; moving refs are navigation only.",
+    "PR27 remains an independently reviewed source proposal, not merged acceptance.",
+    "No foreign implementation, provider call, rights/identity/consumer approval or global criterion mutation."
+  ]
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "name": "inventory",
+    "argv": [
+      "make",
+      "check-inventory",
+      "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-index-role-review-1603948",
+    "revision": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+    "started_at": "2026-10-12T18:08:45.569769+00:00",
+    "duration_seconds": 0.07,
+    "exit_code": 0,
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/inventory.stdout",
+    "stdout_sha256": "2b9cf110fcfb0e6ea7c3bee3401e33e02708e220aed4c8b35adee256103ecf67",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/inventory.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "links",
+    "argv": [
+      "make",
+      "check-links",
+      "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-index-role-review-1603948",
+    "revision": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+    "started_at": "2026-10-12T18:08:45.639589+00:00",
+    "duration_seconds": 0.143,
+    "exit_code": 0,
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/links.stdout",
+    "stdout_sha256": "c2d7fea657fcbb69da9d157e7f87dbd31eb32925eeaad216a756b7659da7b48f",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/links.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "governance",
+    "argv": [
+      "make",
+      "check-governance",
+      "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-index-role-review-1603948",
+    "revision": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+    "started_at": "2026-10-12T18:08:45.782742+00:00",
+    "duration_seconds": 0.047,
+    "exit_code": 0,
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/governance.stdout",
+    "stdout_sha256": "24719e864e86e498ce68b4605498b5b6d5aed93ffd719a9e25a6e374b936ca12",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/governance.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "diff-main",
+    "argv": [
+      "git",
+      "diff",
+      "--check",
+      "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "HEAD"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-index-role-review-1603948",
+    "revision": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+    "started_at": "2026-10-12T18:08:45.830195+00:00",
+    "duration_seconds": 0.004,
+    "exit_code": 0,
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/diff-main.stdout",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/diff-main.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "local-tree-parity",
+    "argv": [
+      "git",
+      "diff",
+      "--exit-code",
+      "82a1d29d71f88820dd6e32d97cf85db69c823fb0",
+      "HEAD"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-index-role-review-1603948",
+    "revision": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+    "started_at": "2026-10-12T18:08:45.834648+00:00",
+    "duration_seconds": 0.003,
+    "exit_code": 0,
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/local-tree-parity.stdout",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/local-tree-parity.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "main-ancestry",
+    "argv": [
+      "git",
+      "merge-base",
+      "--is-ancestor",
+      "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "HEAD"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-index-role-review-1603948",
+    "revision": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+    "started_at": "2026-10-12T18:08:45.838113+00:00",
+    "duration_seconds": 0.002,
+    "exit_code": 0,
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/main-ancestry.stdout",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/main-ancestry.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "clean",
+    "argv": [
+      "git",
+      "status",
+      "--porcelain",
+      "--untracked-files=all"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-index-role-review-1603948",
+    "revision": "1603948d569ae2eb48693d7f4a40cce45b8111b1",
+    "started_at": "2026-10-12T18:08:45.840532+00:00",
+    "duration_seconds": 0.019,
+    "exit_code": 0,
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/clean.stdout",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/index-role-review-1603948/clean.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "kind": "independent_exact_remote_source_review",
+  "reviewer": "/root/pr3_reconcile",
+  "reviewed_at_utc": "2026-10-12 18:04:10 UTC",
+  "verdict": "APPROVE_SCOPED_SOURCE; MERGE_HOLD_UPSTREAM_PREREQUISITE",
+  "candidate": {
+    "sha": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "tree": "b296f348e6ff5f4a642c30af735cffbc7d2627b8",
+    "parents": [
+      "aece3f0e0b14e2154a313ae5f37f8cdebc12fa21",
+      "41001e1875c544d21ad6b481cfe98c9283b0c58c"
+    ],
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/commit/ba65bb20e9f4e820666cbb3a40154c74676d133d"
+  },
+  "repository": "Jevelopers-neatHack-2026/brand-kit",
+  "pull_request": 27,
+  "checkout": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr27-review-ba65",
+  "source_scope": [
+    "docs/architecture/OWNERSHIP.md",
+    "docs/architecture/ACCEPTANCE.md",
+    "docs/source-of-truth.md"
+  ],
+  "authorship_exclusions": "Earlier authored baseline docs and guidelines/consumer-browser implementation are not independently reapproved. This review covers other authors' documentation deltas, the new source-index paragraph, and preservation of merged source bytes. PR26 gate semantics are separately reviewed by asset_pipeline, outside this review.",
+  "conclusions": [
+    "Actual remote SHA/tree and normal parents independently verified against GitHub and own clean detached checkout.",
+    "114 of 117 tracked files are identical to actual M3. All six PR26 files are preserved without alteration.",
+    "OWNERSHIP and ACCEPTANCE remain byte-identical to the prior approved documentation candidate aece3f0.",
+    "One new governance paragraph accurately preserves the marketing consumer's existing assignment, all missing artifact/decision ACKs, and source-owned approval boundaries.",
+    "Two historical layout/icon references remain pinned to their actual former OWNERSHIP source; no moves or icon decisions.",
+    "Prior corrections preserve verified visibility history, creative/print/shared-contract ownership, exact 14-SVG comparison, PR22 versus PR3 disposition, and source-only font restrictions.",
+    "No implementation, asset, release decision, allowlist, acceptance record or frozen public source changed relative to M3."
+  ],
+  "role_evidence": [
+    "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/7#issuecomment-6105489382",
+    "https://github.com/Jevelopers-neatHack-2026/marketing-material/issues/5#issuecomment-6112307412"
+  ],
+  "validation": {
+    "revision": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+    "python": "/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python",
+    "inventory_entries": 117,
+    "links": {
+      "local_resolved": 387,
+      "broken": 0,
+      "external_unchecked": 167
+    },
+    "governance": "PASS",
+    "guidelines": {
+      "result": "PASS",
+      "public_sources": 4,
+      "claims": 14,
+      "usage_pairs": 8,
+      "canonical_svg_variants": 14,
+      "tests": 24
+    },
+    "diff_main": "PASS",
+    "diff_original_owner": "PASS",
+    "normal_ancestry": "PASS",
+    "local_equivalent_tree": "PASS",
+    "clean_checkout": true,
+    "full_make_check": "Not run by this reviewer; supervisor runs independently on the exact published candidate.",
+    "asset_browser_provider_validation": "Not rerun by this reviewer. No new implementation/payload delta vs actual main; no provider request."
+  },
+  "blocking_prerequisites": [
+    {
+      "repository": "Jevelopers-neatHack-2026/getticketstub.com",
+      "pull_request": 117,
+      "status": "OPEN",
+      "head": "60d3b6aa074caddca4d362ba8b13b56fe4436177",
+      "missing_input": "Actual approved upstream merge and successful read of the required CURRENT-STATE.md/main target.",
+      "responsible_owner": "Product repository owner/supervisor; brand supervisor must verify the resulting target and refresh current PR heads.",
+      "failure": "Actual GitHub contents request returned 404 NOT_FOUND.",
+      "must_not_treat_as_pass": "Offline local link resolution or this source review."
+    }
+  ],
+  "findings": {
+    "source_blockers": [],
+    "metadata_pending": [
+      "Update PR27 body from prior aece/283 evidence to exact current candidate and current actually executed checks, retaining earlier results as historical."
+    ],
+    "github_enforcement": "No configured-protection or successful required-check inference; fetched current check-run and status-context collections are empty, formal reviews empty."
+  },
+  "prior_evidence_preserved": [
+    {
+      "path": "triage/pr25-fix-review-aece3f0/review.json",
+      "sha256": "27594677dd6f4fa52bf18fdbb9ef1201e2152e2e1397297381b3ba1c692dcff9"
+    },
+    {
+      "path": "triage/pr26-role-integration-review.json",
+      "sha256": "2ba6c6157747cb7d632dc21f182bcbfab6b97839065a7a2f6603ec8931151e3c"
+    }
+  ],
+  "attributable_comment": "Independent source review by /root/pr3_reconcile: APPROVE the scoped documentation changes at ba65bb20e9f4e820666cbb3a40154c74676d133d, tree b296f348e6ff5f4a642c30af735cffbc7d2627b8. MERGE HOLD remains for getticketstub.com PR #117.\n\nI independently verified the actual remote commit and its normal merge parents: previously reviewed aece3f0e0b14e2154a313ae5f37f8cdebc12fa21 and actual merged main 41001e1875c544d21ad6b481cfe98c9283b0c58c. In my clean detached checkout, 114 of 117 tracked files, including all six owner-authored PR #26 files, are byte-identical to that main. OWNERSHIP.md and ACCEPTANCE.md are unchanged from the prior reviewed candidate. The only additional correction beyond that integration is the source-index governance paragraph.\n\nThe paragraph accurately records marketing-material's existing user-assigned root/supervisor as that consumer's accountable content/brand/handoff reviewer and receiver, as evidenced by MM-06 comment 6105489382 and the later MM-02 comment 6112307412. It retains the remaining reviewer gaps and required exact-decision acknowledgements; it supplies no brand-artifact ACK, source-owned approval or authority transfer. Its local responsibility-table anchor is valid. The historical source-layout/icon qualifications and prior PR #25 source/ownership corrections remain intact.\n\nExecuted directly on remote ba65bb20: inventory 117 PASS; local links 387 resolved / 0 broken / 167 external explicitly UNCHECKED; governance PASS; guidelines 4 public source hashes, 14 claim rows, 8 usage pairs and 14 canonical SVG variants plus 24 tests PASS; both diff checks, all three ancestor checks, local/remote tree parity and clean-worktree check PASS. This review excludes independent reapproval of my earlier authored baseline docs, guideline/consumer-browser implementations, and PR #26's gate semantics; it verifies the new documentation delta and preservation of the owner's merged files.\n\nAt 18:04:10 UTC, PR #27 remained the exact reviewed head and deliberate draft; original PR #25 remained 3eebe0c15ed025c5a074b56629c3ca2cf1483829; main remained 41001e1875c544d21ad6b481cfe98c9283b0c58c. Product PR #117 remained OPEN at 60d3b6aa074caddca4d362ba8b13b56fe4436177, and the required CURRENT-STATE.md/main target returned an actual 404. No formal review/check-run/status-context success is inferred from the empty API collections. Preserve the prior reviews and failed external target result; refresh the upstream merge and actual main document before lifting the draft/merge hold. Source approval does not establish identity, rights, font, consumer or release acceptance.",
+  "same_source_index_bytes_as_wording_review": true,
+  "evidence_sha256": {
+    "ancestor-main.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ancestor-main.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ancestor-original-owner.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ancestor-original-owner.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ancestor-prior.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ancestor-prior.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "clean.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "clean.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "commands.json": "7bc3c1f840cade3258ff5009cd6c5fa45cc3cf72d8ed511f8a0c4858891946cc",
+    "diff-main.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "diff-main.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "diff-owner.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "diff-owner.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "governance.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "governance.stdout": "24719e864e86e498ce68b4605498b5b6d5aed93ffd719a9e25a6e374b936ca12",
+    "guidelines.stderr": "b125cd87b9473de6ed5553ad8b33f595eb72de8d82ab3a1518e874f27bc621ec",
+    "guidelines.stdout": "688960e3a797958de00cbe255e1b7a80a64b7a8ad7ea4b5cd62645bffa2f44eb",
+    "inventory.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "inventory.stdout": "2b9cf110fcfb0e6ea7c3bee3401e33e02708e220aed4c8b35adee256103ecf67",
+    "links.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "links.stdout": "b62ad85c684f065e99f9df3b7d1e068a88200147d8bc7cf985d769219a75f117",
+    "local-tree-parity.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "local-tree-parity.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "main.diff": "2db0527f0d07f69f5db93ce1bcf605ba743831cf8dc5dca23e0a2fa0c85a498c",
+    "prior.diff": "75a829d100b7fa6e99b74acb845031d4835e6860370636b31d6ae0b5deaeba50",
+    "remote-evidence.json": "523135c4dc05daebf1119620a0babb0a2445e7d8ecbd25b10b4940175a4a2dc4",
+    "source-proof.json": "52ee06059d5e869e5c3579a16b82402949086ed7dffdcc7b7239414711d0fdc7"
+  }
+}
