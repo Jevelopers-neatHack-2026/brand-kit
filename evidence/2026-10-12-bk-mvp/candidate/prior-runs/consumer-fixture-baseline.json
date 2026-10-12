@@ -1,0 +1,974 @@
+{
+  "schema": "ticketstub-local-consumer-browser@1",
+  "mode": "synthetic local review archive",
+  "outcome": "fail",
+  "started_at": "2026-10-12T16:47:12.369Z",
+  "cases": [
+    {
+      "id": "plain-os-light-1080-no-preference",
+      "fixture": "plain",
+      "theme": "os-light",
+      "selected": "auto",
+      "colorScheme": "light",
+      "viewport_width": 1080,
+      "reduced_motion": "no-preference",
+      "measurements": {
+        "canvas": "rgb(244, 236, 221)",
+        "overflow": false,
+        "reducedMotion": false,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(244, 236, 221)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          },
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": [
+          {
+            "loaded": true,
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(244, 236, 221)",
+            "width": 200,
+            "contrast": 15.645459255762226
+          }
+        ]
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(23, 20, 15)",
+          "width": 3,
+          "style": "solid",
+          "offset": 3,
+          "inViewport": true,
+          "contrast": 15.645459255762226
+        },
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 3,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "fail",
+      "failures": [
+        "keyboard focus lacks a visible separated contrasting outline",
+        "keyboard focus lacks a visible separated contrasting outline"
+      ],
+      "screenshot": "plain-os-light-1080-no-preference.png",
+      "screenshot_sha256": "0f27de517c918d1bc49a77aa60625db168a569844d9dba84b3a94abc174f9205"
+    },
+    {
+      "id": "plain-os-light-375-reduce",
+      "fixture": "plain",
+      "theme": "os-light",
+      "selected": "auto",
+      "colorScheme": "light",
+      "viewport_width": 375,
+      "reduced_motion": "reduce",
+      "measurements": {
+        "canvas": "rgb(244, 236, 221)",
+        "overflow": false,
+        "reducedMotion": true,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(244, 236, 221)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          },
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": [
+          {
+            "loaded": true,
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(244, 236, 221)",
+            "width": 200,
+            "contrast": 15.645459255762226
+          }
+        ]
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(23, 20, 15)",
+          "width": 3,
+          "style": "solid",
+          "offset": 3,
+          "inViewport": true,
+          "contrast": 15.645459255762226
+        },
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 3,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "fail",
+      "failures": [
+        "keyboard focus lacks a visible separated contrasting outline",
+        "keyboard focus lacks a visible separated contrasting outline"
+      ],
+      "screenshot": "plain-os-light-375-reduce.png",
+      "screenshot_sha256": "87acad2721cc03077b4ea53bc23d8f03758ddd281186097afbae2e049aad16b0"
+    },
+    {
+      "id": "plain-os-dark-1080-no-preference",
+      "fixture": "plain",
+      "theme": "os-dark",
+      "selected": "auto",
+      "colorScheme": "dark",
+      "viewport_width": 1080,
+      "reduced_motion": "no-preference",
+      "measurements": {
+        "canvas": "rgb(23, 20, 15)",
+        "overflow": false,
+        "reducedMotion": false,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          },
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": [
+          {
+            "loaded": true,
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(23, 20, 15)",
+            "width": 200,
+            "contrast": 1
+          }
+        ]
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 3,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        },
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 3,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "fail",
+      "failures": [
+        "ink logo lacks the intended visible contrasting surface",
+        "keyboard focus lacks a visible separated contrasting outline",
+        "keyboard focus lacks a visible separated contrasting outline"
+      ],
+      "screenshot": "plain-os-dark-1080-no-preference.png",
+      "screenshot_sha256": "0db55d2275ab7ac7b64f500757e4637639a33ea11425acb5a225347c6cd0f757"
+    },
+    {
+      "id": "plain-os-dark-375-reduce",
+      "fixture": "plain",
+      "theme": "os-dark",
+      "selected": "auto",
+      "colorScheme": "dark",
+      "viewport_width": 375,
+      "reduced_motion": "reduce",
+      "measurements": {
+        "canvas": "rgb(23, 20, 15)",
+        "overflow": false,
+        "reducedMotion": true,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          },
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": [
+          {
+            "loaded": true,
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(23, 20, 15)",
+            "width": 200,
+            "contrast": 1
+          }
+        ]
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 3,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        },
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 3,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "fail",
+      "failures": [
+        "ink logo lacks the intended visible contrasting surface",
+        "keyboard focus lacks a visible separated contrasting outline",
+        "keyboard focus lacks a visible separated contrasting outline"
+      ],
+      "screenshot": "plain-os-dark-375-reduce.png",
+      "screenshot_sha256": "d8bacbb4e180cfb15733dd17df2da4ca7e5047a458343048e235c8d925de65ce"
+    },
+    {
+      "id": "plain-explicit-light-1080-no-preference",
+      "fixture": "plain",
+      "theme": "explicit-light",
+      "selected": "light",
+      "colorScheme": "dark",
+      "viewport_width": 1080,
+      "reduced_motion": "no-preference",
+      "measurements": {
+        "canvas": "rgb(244, 236, 221)",
+        "overflow": false,
+        "reducedMotion": false,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(244, 236, 221)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          },
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": [
+          {
+            "loaded": true,
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(244, 236, 221)",
+            "width": 200,
+            "contrast": 15.645459255762226
+          }
+        ]
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(23, 20, 15)",
+          "width": 3,
+          "style": "solid",
+          "offset": 3,
+          "inViewport": true,
+          "contrast": 15.645459255762226
+        },
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 3,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "fail",
+      "failures": [
+        "keyboard focus lacks a visible separated contrasting outline",
+        "keyboard focus lacks a visible separated contrasting outline"
+      ],
+      "screenshot": "plain-explicit-light-1080-no-preference.png",
+      "screenshot_sha256": "0f27de517c918d1bc49a77aa60625db168a569844d9dba84b3a94abc174f9205"
+    },
+    {
+      "id": "plain-explicit-light-375-reduce",
+      "fixture": "plain",
+      "theme": "explicit-light",
+      "selected": "light",
+      "colorScheme": "dark",
+      "viewport_width": 375,
+      "reduced_motion": "reduce",
+      "measurements": {
+        "canvas": "rgb(244, 236, 221)",
+        "overflow": false,
+        "reducedMotion": true,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(244, 236, 221)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          },
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": [
+          {
+            "loaded": true,
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(244, 236, 221)",
+            "width": 200,
+            "contrast": 15.645459255762226
+          }
+        ]
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(23, 20, 15)",
+          "width": 3,
+          "style": "solid",
+          "offset": 3,
+          "inViewport": true,
+          "contrast": 15.645459255762226
+        },
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 3,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "fail",
+      "failures": [
+        "keyboard focus lacks a visible separated contrasting outline",
+        "keyboard focus lacks a visible separated contrasting outline"
+      ],
+      "screenshot": "plain-explicit-light-375-reduce.png",
+      "screenshot_sha256": "87acad2721cc03077b4ea53bc23d8f03758ddd281186097afbae2e049aad16b0"
+    },
+    {
+      "id": "plain-explicit-dark-1080-no-preference",
+      "fixture": "plain",
+      "theme": "explicit-dark",
+      "selected": "dark",
+      "colorScheme": "light",
+      "viewport_width": 1080,
+      "reduced_motion": "no-preference",
+      "measurements": {
+        "canvas": "rgb(23, 20, 15)",
+        "overflow": false,
+        "reducedMotion": false,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          },
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": [
+          {
+            "loaded": true,
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(23, 20, 15)",
+            "width": 200,
+            "contrast": 1
+          }
+        ]
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 3,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        },
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 3,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "fail",
+      "failures": [
+        "ink logo lacks the intended visible contrasting surface",
+        "keyboard focus lacks a visible separated contrasting outline",
+        "keyboard focus lacks a visible separated contrasting outline"
+      ],
+      "screenshot": "plain-explicit-dark-1080-no-preference.png",
+      "screenshot_sha256": "38362c25b923ae4363ea697055f2409ed5b4da6f52b9f759d6df5450967ad037"
+    },
+    {
+      "id": "plain-explicit-dark-375-reduce",
+      "fixture": "plain",
+      "theme": "explicit-dark",
+      "selected": "dark",
+      "colorScheme": "light",
+      "viewport_width": 375,
+      "reduced_motion": "reduce",
+      "measurements": {
+        "canvas": "rgb(23, 20, 15)",
+        "overflow": false,
+        "reducedMotion": true,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          },
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": "rgb(23, 20, 15)",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": [
+          {
+            "loaded": true,
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(23, 20, 15)",
+            "width": 200,
+            "contrast": 1
+          }
+        ]
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 3,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        },
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(124, 198, 210)",
+          "width": 3,
+          "style": "solid",
+          "offset": 3,
+          "inViewport": true,
+          "contrast": 9.502672588295185
+        }
+      ],
+      "outcome": "fail",
+      "failures": [
+        "ink logo lacks the intended visible contrasting surface",
+        "keyboard focus lacks a visible separated contrasting outline",
+        "keyboard focus lacks a visible separated contrasting outline"
+      ],
+      "screenshot": "plain-explicit-dark-375-reduce.png",
+      "screenshot_sha256": "d8bacbb4e180cfb15733dd17df2da4ca7e5047a458343048e235c8d925de65ce"
+    },
+    {
+      "id": "tailwind-os-light-1080-no-preference",
+      "fixture": "tailwind",
+      "theme": "os-light",
+      "selected": "auto",
+      "colorScheme": "light",
+      "viewport_width": 1080,
+      "reduced_motion": "no-preference",
+      "measurements": {
+        "canvas": null,
+        "overflow": false,
+        "reducedMotion": false,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": null,
+            "transitionDuration": "0.24s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": []
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(23, 20, 15)",
+          "width": 0,
+          "style": "auto",
+          "offset": 0,
+          "inViewport": true,
+          "contrast": null
+        }
+      ],
+      "outcome": "fail",
+      "failures": [
+        "canvas does not use selected semantic background",
+        "keyboard focus lacks a visible separated contrasting outline"
+      ],
+      "screenshot": "tailwind-os-light-1080-no-preference.png",
+      "screenshot_sha256": "7f509f9a1cd236c672069574ddd11650c0af28169d905fcfaca36ec6b5363066"
+    },
+    {
+      "id": "tailwind-os-light-375-reduce",
+      "fixture": "tailwind",
+      "theme": "os-light",
+      "selected": "auto",
+      "colorScheme": "light",
+      "viewport_width": 375,
+      "reduced_motion": "reduce",
+      "measurements": {
+        "canvas": null,
+        "overflow": false,
+        "reducedMotion": true,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": null,
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": []
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(16, 16, 16)",
+          "width": 1,
+          "style": "auto",
+          "offset": 0,
+          "inViewport": true,
+          "contrast": null
+        }
+      ],
+      "outcome": "fail",
+      "failures": [
+        "canvas does not use selected semantic background",
+        "keyboard focus lacks a visible separated contrasting outline"
+      ],
+      "screenshot": "tailwind-os-light-375-reduce.png",
+      "screenshot_sha256": "e93379c297895ad7a32f516e2a3098d655ae553bf78792b74e378002b6d15a6e"
+    },
+    {
+      "id": "tailwind-os-dark-1080-no-preference",
+      "fixture": "tailwind",
+      "theme": "os-dark",
+      "selected": "auto",
+      "colorScheme": "dark",
+      "viewport_width": 1080,
+      "reduced_motion": "no-preference",
+      "measurements": {
+        "canvas": null,
+        "overflow": false,
+        "reducedMotion": false,
+        "buttons": [
+          {
+            "foreground": "rgb(35, 32, 26)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": null,
+            "transitionDuration": "0.24s",
+            "animationName": "none",
+            "contrast": 4.409580302522597
+          }
+        ],
+        "logos": []
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(35, 32, 26)",
+          "width": 0,
+          "style": "auto",
+          "offset": 0,
+          "inViewport": true,
+          "contrast": null
+        }
+      ],
+      "outcome": "fail",
+      "failures": [
+        "canvas does not use selected semantic background",
+        "normal CTA label contrast below 4.5:1",
+        "keyboard focus lacks a visible separated contrasting outline"
+      ],
+      "screenshot": "tailwind-os-dark-1080-no-preference.png",
+      "screenshot_sha256": "63692413b44072f3ade5e51465b2557493ca2892c2e03d9b6e6c0fa3b127f9d4"
+    },
+    {
+      "id": "tailwind-os-dark-375-reduce",
+      "fixture": "tailwind",
+      "theme": "os-dark",
+      "selected": "auto",
+      "colorScheme": "dark",
+      "viewport_width": 375,
+      "reduced_motion": "reduce",
+      "measurements": {
+        "canvas": null,
+        "overflow": false,
+        "reducedMotion": true,
+        "buttons": [
+          {
+            "foreground": "rgb(244, 236, 221)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": null,
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 3.1375624232528887
+          }
+        ],
+        "logos": []
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(16, 16, 16)",
+          "width": 1,
+          "style": "auto",
+          "offset": 0,
+          "inViewport": true,
+          "contrast": null
+        }
+      ],
+      "outcome": "fail",
+      "failures": [
+        "canvas does not use selected semantic background",
+        "normal CTA label contrast below 4.5:1",
+        "keyboard focus lacks a visible separated contrasting outline"
+      ],
+      "screenshot": "tailwind-os-dark-375-reduce.png",
+      "screenshot_sha256": "e30eb1288ebf133bfa9aba8ec4777bf1f0504906108041625ddde89389ece795"
+    },
+    {
+      "id": "tailwind-explicit-light-1080-no-preference",
+      "fixture": "tailwind",
+      "theme": "explicit-light",
+      "selected": "light",
+      "colorScheme": "dark",
+      "viewport_width": 1080,
+      "reduced_motion": "no-preference",
+      "measurements": {
+        "canvas": null,
+        "overflow": false,
+        "reducedMotion": false,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": null,
+            "transitionDuration": "0.24s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": []
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(23, 20, 15)",
+          "width": 0,
+          "style": "auto",
+          "offset": 0,
+          "inViewport": true,
+          "contrast": null
+        }
+      ],
+      "outcome": "fail",
+      "failures": [
+        "canvas does not use selected semantic background",
+        "keyboard focus lacks a visible separated contrasting outline"
+      ],
+      "screenshot": "tailwind-explicit-light-1080-no-preference.png",
+      "screenshot_sha256": "5ad19f168515bc879d6676efec3f64bae2896e66a32732bb9fb1c5ece0dcac31"
+    },
+    {
+      "id": "tailwind-explicit-light-375-reduce",
+      "fixture": "tailwind",
+      "theme": "explicit-light",
+      "selected": "light",
+      "colorScheme": "dark",
+      "viewport_width": 375,
+      "reduced_motion": "reduce",
+      "measurements": {
+        "canvas": null,
+        "overflow": false,
+        "reducedMotion": true,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": null,
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": []
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(16, 16, 16)",
+          "width": 1,
+          "style": "auto",
+          "offset": 0,
+          "inViewport": true,
+          "contrast": null
+        }
+      ],
+      "outcome": "fail",
+      "failures": [
+        "canvas does not use selected semantic background",
+        "keyboard focus lacks a visible separated contrasting outline"
+      ],
+      "screenshot": "tailwind-explicit-light-375-reduce.png",
+      "screenshot_sha256": "e93379c297895ad7a32f516e2a3098d655ae553bf78792b74e378002b6d15a6e"
+    },
+    {
+      "id": "tailwind-explicit-dark-1080-no-preference",
+      "fixture": "tailwind",
+      "theme": "explicit-dark",
+      "selected": "dark",
+      "colorScheme": "light",
+      "viewport_width": 1080,
+      "reduced_motion": "no-preference",
+      "measurements": {
+        "canvas": null,
+        "overflow": false,
+        "reducedMotion": false,
+        "buttons": [
+          {
+            "foreground": "rgb(23, 20, 15)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": null,
+            "transitionDuration": "0.24s",
+            "animationName": "none",
+            "contrast": 4.986501348885257
+          }
+        ],
+        "logos": []
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(23, 20, 15)",
+          "width": 0,
+          "style": "auto",
+          "offset": 0,
+          "inViewport": true,
+          "contrast": null
+        }
+      ],
+      "outcome": "fail",
+      "failures": [
+        "canvas does not use selected semantic background",
+        "keyboard focus lacks a visible separated contrasting outline"
+      ],
+      "screenshot": "tailwind-explicit-dark-1080-no-preference.png",
+      "screenshot_sha256": "adb611f7a79a87b838c03c528b5df9b9c5235c802d260bd4a1e1fad496e8c827"
+    },
+    {
+      "id": "tailwind-explicit-dark-375-reduce",
+      "fixture": "tailwind",
+      "theme": "explicit-dark",
+      "selected": "dark",
+      "colorScheme": "light",
+      "viewport_width": 375,
+      "reduced_motion": "reduce",
+      "measurements": {
+        "canvas": null,
+        "overflow": false,
+        "reducedMotion": true,
+        "buttons": [
+          {
+            "foreground": "rgb(244, 236, 221)",
+            "background": "rgb(228, 87, 46)",
+            "surrounding": null,
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "contrast": 3.1375624232528887
+          }
+        ],
+        "logos": []
+      },
+      "focus": [
+        {
+          "button": true,
+          "visible": true,
+          "color": "rgb(16, 16, 16)",
+          "width": 1,
+          "style": "auto",
+          "offset": 0,
+          "inViewport": true,
+          "contrast": null
+        }
+      ],
+      "outcome": "fail",
+      "failures": [
+        "canvas does not use selected semantic background",
+        "normal CTA label contrast below 4.5:1",
+        "keyboard focus lacks a visible separated contrasting outline"
+      ],
+      "screenshot": "tailwind-explicit-dark-375-reduce.png",
+      "screenshot_sha256": "e30eb1288ebf133bfa9aba8ec4777bf1f0504906108041625ddde89389ece795"
+    }
+  ],
+  "blocked_external_requests": 0,
+  "release_approved": false,
+  "consumer_adoption": false,
+  "font_provider_checks": "not_run",
+  "limitations": [
+    "Platform fallback fonts only; no external-font availability evidence.",
+    "Automated local Chromium layout, contrast and keyboard checks; no assistive-technology or human acceptance.",
+    "No consumer application, provider behavior, real-browser zoom, rights or release approval is asserted."
+  ],
+  "checker_sha256": "f3eb4f1f6204db5527f324ac7f60c57de251603884f0f2a4205fed83d5383daa",
+  "package": {
+    "source_sha": "4e9666630803b8dad43325e42a6f83fa8bed03db",
+    "source_tree": "7ff7c61ca12dcc8b6b9f243e213210ff6f9995c6",
+    "archive_sha256": "c0891c19230ef76e1f6716e23fc47d19cf3e0c08ae3da44eab080d23c75c9ee2",
+    "files_digest": "de3f6e73a2e1d06fc5dd1b5c1273e68908f9547b36dc717fed03e1af565246be",
+    "fixture_sha256": {
+      "distribution/fixtures/plain.html.in": "ac8d54a5b44b060d87a864ac46062df4dc22627664f397b5c221c40b6d26dee1",
+      "distribution/fixtures/plain.css": "2475065d5bcbc6b5eb7a235b0728c893b3eae5839372d98d42a4a1575ed65a98",
+      "distribution/fixtures/tailwind.html.in": "a2e51c8c5c23a5749d30f961872a88f24215e0f2ea76f73f09cc802868294ebd",
+      "distribution/fixtures/tailwind.css": "0e5844ec75de2fb4a76097b26bb624bf8f9d9cf59f6d947855b743dd25f920fb"
+    },
+    "tailwind": {
+      "status": "pass",
+      "required": true,
+      "tailwind": "3.4.19",
+      "node": "v24.19.0",
+      "utilities_checked": 4,
+      "local_links_after_compile": {
+        "plain.html": 3,
+        "tailwind.html": 2
+      },
+      "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css"
+    },
+    "compiled_css_sha256": "cf3573c5e99d547d1adc321f684fc24328c9f604d20a4ba3b1b6ac364bf593e9"
+  },
+  "playwright": "1.56.1",
+  "served_sha256": {
+    "/plain.html": "ac8d54a5b44b060d87a864ac46062df4dc22627664f397b5c221c40b6d26dee1",
+    "/plain.css": "2475065d5bcbc6b5eb7a235b0728c893b3eae5839372d98d42a4a1575ed65a98",
+    "/tailwind.html": "a2e51c8c5c23a5749d30f961872a88f24215e0f2ea76f73f09cc802868294ebd",
+    "/compiled.css": "cf3573c5e99d547d1adc321f684fc24328c9f604d20a4ba3b1b6ac364bf593e9",
+    "/brand-kit/tokens/tokens.css": "e34223aecf3b5459f046506f5bb97b415b0feeef1d237021d672c5cc59ef3f98",
+    "/brand-kit/logo/wordmark.svg": "4efa5c6a27904c18dcb2dc482d1d6c525fbcaabed74914129efa1af9e834fb4c"
+  },
+  "browser": "141.0.7390.37",
+  "node": "v24.19.0",
+  "finished_at": "2026-10-12T16:47:29.570Z"
+}

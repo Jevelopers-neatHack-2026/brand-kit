@@ -1,0 +1,3228 @@
+{
+  "approval_reference": null,
+  "excluded_backgrounds": [
+    {
+      "background": "ink",
+      "reason": "Not a documented supported contrast context; use the corresponding mono variant",
+      "source": "logo/ts-stamp-mono-ink.svg"
+    },
+    {
+      "background": "cream",
+      "reason": "Not a documented supported contrast context; use the corresponding mono variant",
+      "source": "logo/ts-stamp-mono-cream.svg"
+    },
+    {
+      "background": "ink",
+      "reason": "Not a documented supported contrast context; use the corresponding mono variant",
+      "source": "logo/wordmark.svg"
+    },
+    {
+      "background": "cream",
+      "reason": "Not a documented supported contrast context; use the corresponding mono variant",
+      "source": "logo/wordmark-cream.svg"
+    },
+    {
+      "background": "ink",
+      "reason": "Not a documented supported contrast context; use the corresponding mono variant",
+      "source": "logo/wordmark-compact.svg"
+    },
+    {
+      "background": "ink",
+      "reason": "Not a documented supported contrast context; use the corresponding mono variant",
+      "source": "logo/lockup-horizontal.svg"
+    },
+    {
+      "background": "ink",
+      "reason": "Not a documented supported contrast context; use the corresponding mono variant",
+      "source": "logo/lockup-stacked.svg"
+    }
+  ],
+  "files": [
+    {
+      "path": "LOCAL-REVIEW-ONLY.txt",
+      "sha256": "f9216e7ab2e3da00afcbebe62c959fa7f85413f68fd76c41ef3274da27bc9f76"
+    },
+    {
+      "path": "png/app-icon-1024.png",
+      "sha256": "ddac5bc29b0c53ee3e67490d191fe066110878bf59ec2f2ac624ca16d7a65811"
+    },
+    {
+      "path": "png/favicon-16.png",
+      "sha256": "283d61b14524e9dbf2f41373c4cd54f51dfaf33a10beb6b4169d2333659eecec"
+    },
+    {
+      "path": "png/favicon-24.png",
+      "sha256": "5b10ad693151f88a7afc174d272e374622e8af513ca0f42a70a1e2652d8450c5"
+    },
+    {
+      "path": "png/favicon-32.png",
+      "sha256": "26c0f7329fbbc1ea9ac522965ac0da8349218cfc0b793f16ecafd57375fe5040"
+    },
+    {
+      "path": "qa/contact-app-icon-1x.png",
+      "sha256": "af9aeb434345b2d5a1bb714eac58490d9cc54142ba2e52536b6fd7102f452424"
+    },
+    {
+      "path": "qa/contact-app-icon-2x.png",
+      "sha256": "8ed6c92be3f7cd334d48c9941237d9337614b8b29b674cc6fdb286e062b3d90d"
+    },
+    {
+      "path": "qa/contact-compact-wordmark-1x.png",
+      "sha256": "4a04a97c2c2a87cc15e5cd8bd946993f7f4eaaf76420d4624098b69bd6f259cb"
+    },
+    {
+      "path": "qa/contact-compact-wordmark-2x.png",
+      "sha256": "22ca663cf900cff0b9f7c667f796966e074d11f1033621c3feeff058d55f982c"
+    },
+    {
+      "path": "qa/contact-favicon-1x.png",
+      "sha256": "c0d18e4f00b4bf356c1c7fce016ddd885734540b7293cad681ee22621fb12a5c"
+    },
+    {
+      "path": "qa/contact-favicon-2x.png",
+      "sha256": "26750a3fa5b13284aa3056a4ccfc3ecdcca59c3ce2f9849abf65606503a2d8ba"
+    },
+    {
+      "path": "qa/contact-horizontal-lockup-1x.png",
+      "sha256": "29262a76fb31facdc5df629bd8bc91b7f866b31089ab47ca231d100ea10da834"
+    },
+    {
+      "path": "qa/contact-horizontal-lockup-2x.png",
+      "sha256": "ba50779b11c7462e47f41b12d8e485bc7257b0a0f2df3f24bdc024e3de51cde2"
+    },
+    {
+      "path": "qa/contact-imagery-plates-1x.png",
+      "sha256": "ae125dcc47139cdd806a79b84e074f44046aa11a1efcff73a9cdc3315ab42487"
+    },
+    {
+      "path": "qa/contact-imagery-plates-2x.png",
+      "sha256": "a160d0fda54d9e6186c6ed4da52a19ac7e534e906a9bd6ab02f230670aec0aa0"
+    },
+    {
+      "path": "qa/contact-stacked-lockup-1x.png",
+      "sha256": "24780646f2c5216053febcd0ce56d226e92ccadd805ee49e3ff5d6e1d9fa8a5b"
+    },
+    {
+      "path": "qa/contact-stacked-lockup-2x.png",
+      "sha256": "b4f6904a70d3772886d58d21b71480eb343f659bb04d0673e8f7cd41ef2584df"
+    },
+    {
+      "path": "qa/contact-stamp-1x.png",
+      "sha256": "bf64dba89bfc7ef90b7885c8f7b8b95587a5a9b6fdf490d3c536f51aa43d7e6d"
+    },
+    {
+      "path": "qa/contact-stamp-2x.png",
+      "sha256": "ff1ec2cfb6ade5681ada39e9d37fe1ca371fe1805cc3e487861f2a048b52324f"
+    },
+    {
+      "path": "qa/contact-wordmark-1x.png",
+      "sha256": "d06180ebf3611827fba5097551f7bd138310333b6f050c7ff07a16e67788a9d5"
+    },
+    {
+      "path": "qa/contact-wordmark-2x.png",
+      "sha256": "87e6063ee081b0ece7db3c7b87572abc5f72a59e26d9058253040f20f8c1acac"
+    },
+    {
+      "path": "qa/panels/app-icon-256px-wide-cream-1x.png",
+      "sha256": "700010338733fe7b4852674919258f7d9f92c73148192a0f0f767bbbb1e148d4"
+    },
+    {
+      "path": "qa/panels/app-icon-256px-wide-cream-2x.png",
+      "sha256": "19d84df38e3e4565f89b73da49af3daed7b3ad87f34e590228b4086d77348b5b"
+    },
+    {
+      "path": "qa/panels/app-icon-256px-wide-ink-1x.png",
+      "sha256": "24092573400b8214a7af435209e4cc519a2a11ee3910f502d093341feafa164c"
+    },
+    {
+      "path": "qa/panels/app-icon-256px-wide-ink-2x.png",
+      "sha256": "aeb5c73248cc03b6cef868db812c39a32e5c6fbe9f9e7a83028e4c3fee03711c"
+    },
+    {
+      "path": "qa/panels/favicon-16px-cream-1x.png",
+      "sha256": "69af91a108c335189e02460b389ee23e36d5e281738658acaa3fb8d259aec024"
+    },
+    {
+      "path": "qa/panels/favicon-16px-cream-2x.png",
+      "sha256": "784001e0d650610272278eff40b4a31c45cf9fa2b098999b0fd2f40c73733799"
+    },
+    {
+      "path": "qa/panels/favicon-16px-ink-1x.png",
+      "sha256": "869bd12b4994d6ab2a22131056d61b0808f3d172cfad3eb93dc0234979aa2828"
+    },
+    {
+      "path": "qa/panels/favicon-16px-ink-2x.png",
+      "sha256": "cad9eb4cedc78c767557a43d33f26cc3ee2e97757a5e7d161e947e5c6ca7e7da"
+    },
+    {
+      "path": "qa/panels/favicon-24px-cream-1x.png",
+      "sha256": "8554bf54db450b6a11160e58595ec98578c73b9f9d2615118b40b525508874e7"
+    },
+    {
+      "path": "qa/panels/favicon-24px-cream-2x.png",
+      "sha256": "1552ba6fe6754510385ba07d6131601130d620479731994f26a7f2ce7620117e"
+    },
+    {
+      "path": "qa/panels/favicon-24px-ink-1x.png",
+      "sha256": "12c646cd0a184986832b68f742370b15822cf29a970f197da986dfaecd4e1a06"
+    },
+    {
+      "path": "qa/panels/favicon-24px-ink-2x.png",
+      "sha256": "3c585c40ad70aff989778966edc51c57a7eb37fb5faa82740dde390b20c4652e"
+    },
+    {
+      "path": "qa/panels/favicon-32px-cream-1x.png",
+      "sha256": "32603f75bf24f8cca2a7045b3d2f120c11c34c31a9811bf31c36d9d5ac6a8871"
+    },
+    {
+      "path": "qa/panels/favicon-32px-cream-2x.png",
+      "sha256": "fe1f5297690f1ace71f0e75da9df7af77972bee614f01e209dd6af2fd84e8679"
+    },
+    {
+      "path": "qa/panels/favicon-32px-ink-1x.png",
+      "sha256": "ab510df46247f8afd869ed89cf8b827527fffec118a6c76b3f7682cd9c1168f2"
+    },
+    {
+      "path": "qa/panels/favicon-32px-ink-2x.png",
+      "sha256": "917ebff5199018b638c4590dad12ba7a574c0a9c5c7e146598e94af4fd63a263"
+    },
+    {
+      "path": "qa/panels/lockup-horizontal-240px-wide-cream-1x.png",
+      "sha256": "e874878f17c06a11c2c171fc674bd4751ce23cb8030a33f3e3c8e341df405720"
+    },
+    {
+      "path": "qa/panels/lockup-horizontal-240px-wide-cream-2x.png",
+      "sha256": "d4eea0f274006b718080ce0f4f9277a7f99f492ad224bf24901fc9d0b0e6ded7"
+    },
+    {
+      "path": "qa/panels/lockup-horizontal-mono-240px-wide-cream-1x.png",
+      "sha256": "e396f985a76cc3f5e6f35c699337a3465b9bfeb3809fa2c74e34ece90e38668e"
+    },
+    {
+      "path": "qa/panels/lockup-horizontal-mono-240px-wide-cream-2x.png",
+      "sha256": "62ed7445b9482c446768ff64b321c530c9c6c67f826c11b93259f7b2ab01278d"
+    },
+    {
+      "path": "qa/panels/lockup-horizontal-mono-240px-wide-ink-1x.png",
+      "sha256": "bd6d1b2a4e5843612002f3604a7420bf79606cbd759ce9bb093db7e926450205"
+    },
+    {
+      "path": "qa/panels/lockup-horizontal-mono-240px-wide-ink-2x.png",
+      "sha256": "909750e2f27bfc1054baf601fabbd7a3128be160ac89f160a75cafa67e910122"
+    },
+    {
+      "path": "qa/panels/lockup-stacked-180px-wide-cream-1x.png",
+      "sha256": "d70bcf246c7cf36349f498c5f8faa7400325934f745e040f240c0358c185d2c7"
+    },
+    {
+      "path": "qa/panels/lockup-stacked-180px-wide-cream-2x.png",
+      "sha256": "2c0c461f202c4fc595401c985ab5f9cd8cd86f789cfa23baedb3db409fb463eb"
+    },
+    {
+      "path": "qa/panels/ts-stamp-24px-tall-cream-1x.png",
+      "sha256": "02d4614aec3bd2faaca0035fdf4ce1696a14f3477176925185db6551108dc61e"
+    },
+    {
+      "path": "qa/panels/ts-stamp-24px-tall-cream-2x.png",
+      "sha256": "e034906698423859482e3087c91121d591b0387dcfcced6b7928ac0bc42b9b56"
+    },
+    {
+      "path": "qa/panels/ts-stamp-24px-tall-ink-1x.png",
+      "sha256": "46ed85666403793266d59c4c14d5f4d6ea6c90c44ee12d7346f42369004d85fc"
+    },
+    {
+      "path": "qa/panels/ts-stamp-24px-tall-ink-2x.png",
+      "sha256": "5b8d575d351be6c0163e657aa731cee617bb5d37e0ea57aae740b57d944b0902"
+    },
+    {
+      "path": "qa/panels/ts-stamp-8mm-print-sample-cream-1x.png",
+      "sha256": "45575c2a6b08173c568e8a9abbbf6feffa3d0880b0a895bf0fc5bbebed485f19"
+    },
+    {
+      "path": "qa/panels/ts-stamp-8mm-print-sample-cream-2x.png",
+      "sha256": "550c11bfe603a50868c4e409cfaaaefe8c33259fac42834f537fab1cb9411f39"
+    },
+    {
+      "path": "qa/panels/ts-stamp-8mm-print-sample-ink-1x.png",
+      "sha256": "936f6a752b7261e1ba66a26c78e1464f5a33918b741210e5f79aba724f4ebe80"
+    },
+    {
+      "path": "qa/panels/ts-stamp-8mm-print-sample-ink-2x.png",
+      "sha256": "add4842026d5e9aadc90c3985b088c76214f0509f7d7854fe8cb6d49ea8432b0"
+    },
+    {
+      "path": "qa/panels/ts-stamp-currentcolor-24px-tall-cream-1x.png",
+      "sha256": "164e5e5f23e5de74d0314d8995e3506f583f47228573bf910ab3aeb842c229ff"
+    },
+    {
+      "path": "qa/panels/ts-stamp-currentcolor-24px-tall-cream-2x.png",
+      "sha256": "8d1afb8424805f75e921e0e4d1b1e7e3f96cb7d6da9c0ccbae8fd1db98845121"
+    },
+    {
+      "path": "qa/panels/ts-stamp-currentcolor-24px-tall-ink-1x.png",
+      "sha256": "ba6727bf93d5cac2db31db79297b612fd822e02c0c791395285a6d695362004f"
+    },
+    {
+      "path": "qa/panels/ts-stamp-currentcolor-24px-tall-ink-2x.png",
+      "sha256": "8fb13e5cacc021ed0a9172849e9d581eda223c62f752a984df4ffa6f3b9bfda6"
+    },
+    {
+      "path": "qa/panels/ts-stamp-currentcolor-8mm-print-sample-cream-1x.png",
+      "sha256": "068ea407850aa77b1587d077aab8045baab4ac4d9e8bbcfa6fe565cd914e9bee"
+    },
+    {
+      "path": "qa/panels/ts-stamp-currentcolor-8mm-print-sample-cream-2x.png",
+      "sha256": "1ef1f03d2d570147d641a5d7b57b9a8335aca618d0c6a2acb9c0ae8a71fe0e25"
+    },
+    {
+      "path": "qa/panels/ts-stamp-currentcolor-8mm-print-sample-ink-1x.png",
+      "sha256": "a412abeb67b1f76d20846a85938339cbe0d9cc13b96c070cd92b25a2932016eb"
+    },
+    {
+      "path": "qa/panels/ts-stamp-currentcolor-8mm-print-sample-ink-2x.png",
+      "sha256": "2caeee328f188f8133faa346c9474c22a93cb73d8d9e9ead05019ab15201c267"
+    },
+    {
+      "path": "qa/panels/ts-stamp-mono-cream-24px-tall-ink-1x.png",
+      "sha256": "c7cfc57d5ded66931701580ba95e2d5a2d0d4f70b4dafe0715de7e6187fd7f40"
+    },
+    {
+      "path": "qa/panels/ts-stamp-mono-cream-24px-tall-ink-2x.png",
+      "sha256": "2dfb7c0dadc5853cf88f3794a6ec936ccbcdd3b2cb0cbed5cbe972de28a91510"
+    },
+    {
+      "path": "qa/panels/ts-stamp-mono-cream-8mm-print-sample-ink-1x.png",
+      "sha256": "cebe4db474b5f5d7edcc0710d467190782cf4bdc75d3b857b44018f0a7e11f22"
+    },
+    {
+      "path": "qa/panels/ts-stamp-mono-cream-8mm-print-sample-ink-2x.png",
+      "sha256": "562f456c3f33a525b988c0710677888ac9119830bcbab13b4afccc5a8d4b7fbd"
+    },
+    {
+      "path": "qa/panels/ts-stamp-mono-ink-24px-tall-cream-1x.png",
+      "sha256": "4b8403b09d6776eccbdb443ad7c4f06435414da96881db9c1d00d88217629cfe"
+    },
+    {
+      "path": "qa/panels/ts-stamp-mono-ink-24px-tall-cream-2x.png",
+      "sha256": "95b540937d5a16ed9e3cd87954113407185c600d8d5d127c357b0733be827123"
+    },
+    {
+      "path": "qa/panels/ts-stamp-mono-ink-8mm-print-sample-cream-1x.png",
+      "sha256": "90b4118005b5af29a17dd19cde03c6b4b569b9abd1504e7f728d437a542f603f"
+    },
+    {
+      "path": "qa/panels/ts-stamp-mono-ink-8mm-print-sample-cream-2x.png",
+      "sha256": "a0d3b05034b14817964b51b58c0ac2ec4912298c1f75c156feba36c219124ba9"
+    },
+    {
+      "path": "qa/panels/ts-stamp-mono-orange-24px-tall-cream-1x.png",
+      "sha256": "2183b6cc9322302818afb273e91ce9fa1bbbfb940cab9f57e2b22509ae3ce72d"
+    },
+    {
+      "path": "qa/panels/ts-stamp-mono-orange-24px-tall-cream-2x.png",
+      "sha256": "30c7e1724d804fb3562495fbbeae4c53ab9f0ae2a4f92f01878728d944c6efe7"
+    },
+    {
+      "path": "qa/panels/ts-stamp-mono-orange-24px-tall-ink-1x.png",
+      "sha256": "21169f121e51a419db17c145e03f652c739b0a5aa456217c24a08c9699ba851f"
+    },
+    {
+      "path": "qa/panels/ts-stamp-mono-orange-24px-tall-ink-2x.png",
+      "sha256": "49db6f81490d67d31ae5d529094e5133c781d0aff42cb12a300f9d7a21a23d36"
+    },
+    {
+      "path": "qa/panels/ts-stamp-mono-orange-8mm-print-sample-cream-1x.png",
+      "sha256": "2b8322c0164bfd71d2aabd13020429922f8566f06fc17e63c27cb5993147c600"
+    },
+    {
+      "path": "qa/panels/ts-stamp-mono-orange-8mm-print-sample-cream-2x.png",
+      "sha256": "fc73b7776765447016cf35915429b3371d568b62cda5083143915af3a9eed3f5"
+    },
+    {
+      "path": "qa/panels/ts-stamp-mono-orange-8mm-print-sample-ink-1x.png",
+      "sha256": "f3e2a996c75a8e3afed6a3139ea6e2c84afa4b70746df29c271805c8ee3f73e9"
+    },
+    {
+      "path": "qa/panels/ts-stamp-mono-orange-8mm-print-sample-ink-2x.png",
+      "sha256": "16296b9f23ec7c11cda088f82b5e5b034c11856cbf3e6048b6b2595b5c71bd08"
+    },
+    {
+      "path": "qa/panels/wordmark-120px-wide-cream-1x.png",
+      "sha256": "0e3c7bf7d706fdf8d3cd60e9186a9a8d93204286f688f77c84a059ef9a3fc1b3"
+    },
+    {
+      "path": "qa/panels/wordmark-120px-wide-cream-2x.png",
+      "sha256": "5b647afdf3251b2f276cbbfc848adc06dfd6e44c038338056d6603ad2e5ed06f"
+    },
+    {
+      "path": "qa/panels/wordmark-compact-119px-wide-cream-1x.png",
+      "sha256": "4cdfd8a79a231dd2347a886c9e5872d2a189d58630128d888c6f6c4d0e15796a"
+    },
+    {
+      "path": "qa/panels/wordmark-compact-119px-wide-cream-2x.png",
+      "sha256": "89c84793e65e96cc8bda01397568aa1ddb987fa09b2c578a6a4058b717d0f6bd"
+    },
+    {
+      "path": "qa/panels/wordmark-compact-120px-wide-cream-1x.png",
+      "sha256": "82d78f28310faabcb9fa2ff5aa98348c92691f00c525b79be75f255d924c365f"
+    },
+    {
+      "path": "qa/panels/wordmark-compact-120px-wide-cream-2x.png",
+      "sha256": "99e952fd1d2c2a758285ca17cb72eb840d8dad89cf35961e346367492b2ff123"
+    },
+    {
+      "path": "qa/panels/wordmark-cream-120px-wide-ink-1x.png",
+      "sha256": "a8a755c4aae95213a4ba7bbfaf0749f08243da59a284eec291600ff3419e6f55"
+    },
+    {
+      "path": "qa/panels/wordmark-cream-120px-wide-ink-2x.png",
+      "sha256": "a92885a1cbee82391db83d417a98e35821729647af6966dfd95698c23fd16344"
+    },
+    {
+      "path": "qa/panels/wordmark-orange-120px-wide-cream-1x.png",
+      "sha256": "ad5b746e235c4732ce15f32c98bf9815a46f9e7e14662b6baac0bf486dcdb94d"
+    },
+    {
+      "path": "qa/panels/wordmark-orange-120px-wide-cream-2x.png",
+      "sha256": "25aea75b7167ec8cba7f2f4dd8d609c0f3812fab38f6c40826c6a9811f0ff9e2"
+    },
+    {
+      "path": "qa/panels/wordmark-orange-120px-wide-ink-1x.png",
+      "sha256": "05b5cc14d0eb2726855ee011c694e3b23b8e2a6d80b14d5306f8440df350cc68"
+    },
+    {
+      "path": "qa/panels/wordmark-orange-120px-wide-ink-2x.png",
+      "sha256": "adf59e7b14956e6181bc88e890c86afc7727e6db73377f559803754281bd6d8b"
+    },
+    {
+      "path": "qa/plates/ts-stamp-currentcolor-24px-tall-cream-1x.png",
+      "sha256": "c3b1fc1dfbc6418fbc798e17926198be08b33db404566d23d088cbc24524e76b"
+    },
+    {
+      "path": "qa/plates/ts-stamp-currentcolor-24px-tall-cream-2x.png",
+      "sha256": "69b335943d8c2e0b1fccddfbad1a5ec70925ef81b94153865536f02f9db60fa7"
+    },
+    {
+      "path": "qa/plates/ts-stamp-currentcolor-24px-tall-ink-1x.png",
+      "sha256": "6373db5aff0461dfe816eddb67178c7bf60fd9da99e47939b63aedb20e92444c"
+    },
+    {
+      "path": "qa/plates/ts-stamp-currentcolor-24px-tall-ink-2x.png",
+      "sha256": "87dcb6c15c1ad6fb37eb865baa9c3469ae8f08dfff7355ea9850ef63df396b03"
+    },
+    {
+      "path": "qa/plates/ts-stamp-mono-cream-24px-tall-ink-1x.png",
+      "sha256": "6373db5aff0461dfe816eddb67178c7bf60fd9da99e47939b63aedb20e92444c"
+    },
+    {
+      "path": "qa/plates/ts-stamp-mono-cream-24px-tall-ink-2x.png",
+      "sha256": "87dcb6c15c1ad6fb37eb865baa9c3469ae8f08dfff7355ea9850ef63df396b03"
+    },
+    {
+      "path": "qa/plates/ts-stamp-mono-ink-24px-tall-cream-1x.png",
+      "sha256": "c3b1fc1dfbc6418fbc798e17926198be08b33db404566d23d088cbc24524e76b"
+    },
+    {
+      "path": "qa/plates/ts-stamp-mono-ink-24px-tall-cream-2x.png",
+      "sha256": "69b335943d8c2e0b1fccddfbad1a5ec70925ef81b94153865536f02f9db60fa7"
+    },
+    {
+      "path": "qa/plates/ts-stamp-mono-orange-24px-tall-cream-1x.png",
+      "sha256": "7c12b9619b4de24f2fb1348ce08797b9ce51e43f34700564647dce738d66b1a2"
+    },
+    {
+      "path": "qa/plates/ts-stamp-mono-orange-24px-tall-cream-2x.png",
+      "sha256": "08353b90f9417006040d4c2d70da709c1d4632a29938653bfdb614a736014f40"
+    },
+    {
+      "path": "qa/plates/ts-stamp-mono-orange-24px-tall-ink-1x.png",
+      "sha256": "0ff6913ca7db15ad5afe83f6b66536e2bf794fac31628d81975349536ef3449f"
+    },
+    {
+      "path": "qa/plates/ts-stamp-mono-orange-24px-tall-ink-2x.png",
+      "sha256": "1b47939ec627af6029e077ed9efa4a87fd4a0f6e754392d5a5a62d7b569b1343"
+    },
+    {
+      "path": "qa/renders/app-icon-256px-wide-cream-1x.png",
+      "sha256": "dd4d6ceca0e2e0f88dcf401b91feb55d3c071c717b5a2379213ebab4d533148e"
+    },
+    {
+      "path": "qa/renders/app-icon-256px-wide-cream-2x.png",
+      "sha256": "c3951f1e718b6861fce9caf06c450312ac94685f7a2136cf4a9732077b7090a7"
+    },
+    {
+      "path": "qa/renders/app-icon-256px-wide-ink-1x.png",
+      "sha256": "dd4d6ceca0e2e0f88dcf401b91feb55d3c071c717b5a2379213ebab4d533148e"
+    },
+    {
+      "path": "qa/renders/app-icon-256px-wide-ink-2x.png",
+      "sha256": "c3951f1e718b6861fce9caf06c450312ac94685f7a2136cf4a9732077b7090a7"
+    },
+    {
+      "path": "qa/renders/favicon-16px-cream-1x.png",
+      "sha256": "283d61b14524e9dbf2f41373c4cd54f51dfaf33a10beb6b4169d2333659eecec"
+    },
+    {
+      "path": "qa/renders/favicon-16px-cream-2x.png",
+      "sha256": "aeed6162cf27bc93fa5fd6f01df45bfd69ba76ea56c7b73c45dddf083e278202"
+    },
+    {
+      "path": "qa/renders/favicon-16px-ink-1x.png",
+      "sha256": "283d61b14524e9dbf2f41373c4cd54f51dfaf33a10beb6b4169d2333659eecec"
+    },
+    {
+      "path": "qa/renders/favicon-16px-ink-2x.png",
+      "sha256": "aeed6162cf27bc93fa5fd6f01df45bfd69ba76ea56c7b73c45dddf083e278202"
+    },
+    {
+      "path": "qa/renders/favicon-24px-cream-1x.png",
+      "sha256": "5b10ad693151f88a7afc174d272e374622e8af513ca0f42a70a1e2652d8450c5"
+    },
+    {
+      "path": "qa/renders/favicon-24px-cream-2x.png",
+      "sha256": "f6a9e0eeaa71ed0459e1213dda855355ddf24bffca20c2ec0b438fbb635ca5bd"
+    },
+    {
+      "path": "qa/renders/favicon-24px-ink-1x.png",
+      "sha256": "5b10ad693151f88a7afc174d272e374622e8af513ca0f42a70a1e2652d8450c5"
+    },
+    {
+      "path": "qa/renders/favicon-24px-ink-2x.png",
+      "sha256": "f6a9e0eeaa71ed0459e1213dda855355ddf24bffca20c2ec0b438fbb635ca5bd"
+    },
+    {
+      "path": "qa/renders/favicon-32px-cream-1x.png",
+      "sha256": "26c0f7329fbbc1ea9ac522965ac0da8349218cfc0b793f16ecafd57375fe5040"
+    },
+    {
+      "path": "qa/renders/favicon-32px-cream-2x.png",
+      "sha256": "3f9a5043ae16fff4dd4a9f86a26d2587170a12afe139232c47dc0f70ab0d7cf7"
+    },
+    {
+      "path": "qa/renders/favicon-32px-ink-1x.png",
+      "sha256": "26c0f7329fbbc1ea9ac522965ac0da8349218cfc0b793f16ecafd57375fe5040"
+    },
+    {
+      "path": "qa/renders/favicon-32px-ink-2x.png",
+      "sha256": "3f9a5043ae16fff4dd4a9f86a26d2587170a12afe139232c47dc0f70ab0d7cf7"
+    },
+    {
+      "path": "qa/renders/lockup-horizontal-240px-wide-cream-1x.png",
+      "sha256": "a3441b81da1f361eb7bbd113484b0c8f6c7358bb54379fbbf933a1934d20e38a"
+    },
+    {
+      "path": "qa/renders/lockup-horizontal-240px-wide-cream-2x.png",
+      "sha256": "a26c69de51d230a07908e45ae7eec9f96cd2150e8e2c43205ed18da1adbdf613"
+    },
+    {
+      "path": "qa/renders/lockup-horizontal-mono-240px-wide-cream-1x.png",
+      "sha256": "6dc022d59618764f41e2d922b038c47a59c661f16134c2e9b04cb8cd698c1b65"
+    },
+    {
+      "path": "qa/renders/lockup-horizontal-mono-240px-wide-cream-2x.png",
+      "sha256": "9fe71d31ef5cbe2c5581e582d1117b039641a1886fc6cdc4dea0123c369dc159"
+    },
+    {
+      "path": "qa/renders/lockup-horizontal-mono-240px-wide-ink-1x.png",
+      "sha256": "d4fb72b7264cad9c8f7639dc0d7f1b99f3d7d5cdfa8e583b644621442f07b072"
+    },
+    {
+      "path": "qa/renders/lockup-horizontal-mono-240px-wide-ink-2x.png",
+      "sha256": "48483d9a086a7dfca7a4d7c8df8f9c80684989843e363c7d13d56ae95b750f0e"
+    },
+    {
+      "path": "qa/renders/lockup-stacked-180px-wide-cream-1x.png",
+      "sha256": "d063ffc645f9f8c621910f7c828cba9754f637e945005a11e9b481895b389ef1"
+    },
+    {
+      "path": "qa/renders/lockup-stacked-180px-wide-cream-2x.png",
+      "sha256": "a6ee2a423b1174b2e133158bca885bcdf010e04dbf280038b20ff3ac4cd60237"
+    },
+    {
+      "path": "qa/renders/ts-stamp-24px-tall-cream-1x.png",
+      "sha256": "1059a0c68a63fdeede6d47be16d9aee4b76149e8fcea026c487903619544c37c"
+    },
+    {
+      "path": "qa/renders/ts-stamp-24px-tall-cream-2x.png",
+      "sha256": "025b7dea61b181a89e1e0ee373daa02d7e2b9499a730e2bf453ecc06fbea9553"
+    },
+    {
+      "path": "qa/renders/ts-stamp-24px-tall-ink-1x.png",
+      "sha256": "1059a0c68a63fdeede6d47be16d9aee4b76149e8fcea026c487903619544c37c"
+    },
+    {
+      "path": "qa/renders/ts-stamp-24px-tall-ink-2x.png",
+      "sha256": "025b7dea61b181a89e1e0ee373daa02d7e2b9499a730e2bf453ecc06fbea9553"
+    },
+    {
+      "path": "qa/renders/ts-stamp-8mm-print-sample-cream-1x.png",
+      "sha256": "5d6cf38e5b2702522d67988238f5de3eef3eca2bf8ff3c07b118a26d04c385b6"
+    },
+    {
+      "path": "qa/renders/ts-stamp-8mm-print-sample-cream-2x.png",
+      "sha256": "cc97a60201024caa52a18b94c69df13291758d3b31ade45fbe5185b033ea2eb9"
+    },
+    {
+      "path": "qa/renders/ts-stamp-8mm-print-sample-ink-1x.png",
+      "sha256": "5d6cf38e5b2702522d67988238f5de3eef3eca2bf8ff3c07b118a26d04c385b6"
+    },
+    {
+      "path": "qa/renders/ts-stamp-8mm-print-sample-ink-2x.png",
+      "sha256": "cc97a60201024caa52a18b94c69df13291758d3b31ade45fbe5185b033ea2eb9"
+    },
+    {
+      "path": "qa/renders/ts-stamp-currentcolor-24px-tall-cream-1x.png",
+      "sha256": "468efa22175b4792038d7b0f669ae577ae6e93dd0904b3f15dc3d9cd698b645e"
+    },
+    {
+      "path": "qa/renders/ts-stamp-currentcolor-24px-tall-cream-2x.png",
+      "sha256": "b719f8a43519c805f5e1efc18e9e20e98ebc3d0179c49b54b96e1132ee4954f4"
+    },
+    {
+      "path": "qa/renders/ts-stamp-currentcolor-24px-tall-ink-1x.png",
+      "sha256": "86ebc33d795f7c00263b91cefbd86b14d3beeeed3b8909e36fc394dc3006f395"
+    },
+    {
+      "path": "qa/renders/ts-stamp-currentcolor-24px-tall-ink-2x.png",
+      "sha256": "fd8f80bdf72be9592d24f24e0b69ec6491056a68cb9fcf93270e847d7f35161d"
+    },
+    {
+      "path": "qa/renders/ts-stamp-currentcolor-8mm-print-sample-cream-1x.png",
+      "sha256": "b948f5711321a61b396bc3779dc0a64182e80fd5fde25a0d7ed33f8484f3b27f"
+    },
+    {
+      "path": "qa/renders/ts-stamp-currentcolor-8mm-print-sample-cream-2x.png",
+      "sha256": "4924a4ad8a26fd37a950f65768a48d2c2beee317ded0c33e8340531ca3489ea2"
+    },
+    {
+      "path": "qa/renders/ts-stamp-currentcolor-8mm-print-sample-ink-1x.png",
+      "sha256": "5056adab5af95316930b56a6007ce1f526cab4ab5892cf6ad3c472a044d27f9a"
+    },
+    {
+      "path": "qa/renders/ts-stamp-currentcolor-8mm-print-sample-ink-2x.png",
+      "sha256": "5ae58051f8c99a8ab72478bebeac5e6396e7e125272cf08e2ec6ee66d305dd22"
+    },
+    {
+      "path": "qa/renders/ts-stamp-mono-cream-24px-tall-ink-1x.png",
+      "sha256": "86ebc33d795f7c00263b91cefbd86b14d3beeeed3b8909e36fc394dc3006f395"
+    },
+    {
+      "path": "qa/renders/ts-stamp-mono-cream-24px-tall-ink-2x.png",
+      "sha256": "fd8f80bdf72be9592d24f24e0b69ec6491056a68cb9fcf93270e847d7f35161d"
+    },
+    {
+      "path": "qa/renders/ts-stamp-mono-cream-8mm-print-sample-ink-1x.png",
+      "sha256": "5056adab5af95316930b56a6007ce1f526cab4ab5892cf6ad3c472a044d27f9a"
+    },
+    {
+      "path": "qa/renders/ts-stamp-mono-cream-8mm-print-sample-ink-2x.png",
+      "sha256": "5ae58051f8c99a8ab72478bebeac5e6396e7e125272cf08e2ec6ee66d305dd22"
+    },
+    {
+      "path": "qa/renders/ts-stamp-mono-ink-24px-tall-cream-1x.png",
+      "sha256": "468efa22175b4792038d7b0f669ae577ae6e93dd0904b3f15dc3d9cd698b645e"
+    },
+    {
+      "path": "qa/renders/ts-stamp-mono-ink-24px-tall-cream-2x.png",
+      "sha256": "b719f8a43519c805f5e1efc18e9e20e98ebc3d0179c49b54b96e1132ee4954f4"
+    },
+    {
+      "path": "qa/renders/ts-stamp-mono-ink-8mm-print-sample-cream-1x.png",
+      "sha256": "b948f5711321a61b396bc3779dc0a64182e80fd5fde25a0d7ed33f8484f3b27f"
+    },
+    {
+      "path": "qa/renders/ts-stamp-mono-ink-8mm-print-sample-cream-2x.png",
+      "sha256": "4924a4ad8a26fd37a950f65768a48d2c2beee317ded0c33e8340531ca3489ea2"
+    },
+    {
+      "path": "qa/renders/ts-stamp-mono-orange-24px-tall-cream-1x.png",
+      "sha256": "d555350d1cb495f3286fcefd72dab1a5911abe37dab2482e8a55e12307ea1af9"
+    },
+    {
+      "path": "qa/renders/ts-stamp-mono-orange-24px-tall-cream-2x.png",
+      "sha256": "3e1cf70dd13739f88efe051862906e6e9c988fcc7b1acd733925bee26793742c"
+    },
+    {
+      "path": "qa/renders/ts-stamp-mono-orange-24px-tall-ink-1x.png",
+      "sha256": "d555350d1cb495f3286fcefd72dab1a5911abe37dab2482e8a55e12307ea1af9"
+    },
+    {
+      "path": "qa/renders/ts-stamp-mono-orange-24px-tall-ink-2x.png",
+      "sha256": "3e1cf70dd13739f88efe051862906e6e9c988fcc7b1acd733925bee26793742c"
+    },
+    {
+      "path": "qa/renders/ts-stamp-mono-orange-8mm-print-sample-cream-1x.png",
+      "sha256": "59172b0ae66142186ad566d7d420edc97d54cd9158f6a640dd93c4ac87b60ee3"
+    },
+    {
+      "path": "qa/renders/ts-stamp-mono-orange-8mm-print-sample-cream-2x.png",
+      "sha256": "0fb96fc84426d655e07b718d8cf95a3bb22f8d095d122d1a64ee384cd2d9853e"
+    },
+    {
+      "path": "qa/renders/ts-stamp-mono-orange-8mm-print-sample-ink-1x.png",
+      "sha256": "59172b0ae66142186ad566d7d420edc97d54cd9158f6a640dd93c4ac87b60ee3"
+    },
+    {
+      "path": "qa/renders/ts-stamp-mono-orange-8mm-print-sample-ink-2x.png",
+      "sha256": "0fb96fc84426d655e07b718d8cf95a3bb22f8d095d122d1a64ee384cd2d9853e"
+    },
+    {
+      "path": "qa/renders/wordmark-120px-wide-cream-1x.png",
+      "sha256": "de019581cb71baae976152acf828cade0c531f8f405e103459dcf2dad9361af7"
+    },
+    {
+      "path": "qa/renders/wordmark-120px-wide-cream-2x.png",
+      "sha256": "e5bc877c4d761e0313926c5dc63ae2b0580b6776d5c5e476fb15322afb6af069"
+    },
+    {
+      "path": "qa/renders/wordmark-compact-119px-wide-cream-1x.png",
+      "sha256": "b32cab64840aa84afc195d1c0fc8cd7415782f41b4ba4721867fe4a5add19add"
+    },
+    {
+      "path": "qa/renders/wordmark-compact-119px-wide-cream-2x.png",
+      "sha256": "a5cfc8407dbb4d0f77870ffedb3ba378944ed7d8005b7e44bc97bf29e74ea048"
+    },
+    {
+      "path": "qa/renders/wordmark-compact-120px-wide-cream-1x.png",
+      "sha256": "ea47ea79ec0c7512f2b521060b5329d5bbb4a16e7dffbf5f87400a6f8216bc28"
+    },
+    {
+      "path": "qa/renders/wordmark-compact-120px-wide-cream-2x.png",
+      "sha256": "28cb271eaf1c3d3a2eb41c5c5b12042e4d3dd22aea40b1f7b90c598ca524f48d"
+    },
+    {
+      "path": "qa/renders/wordmark-cream-120px-wide-ink-1x.png",
+      "sha256": "38afa954f342a4b20e20168244a4d6b508f06d3e21a4a0dc488797cce4137fb7"
+    },
+    {
+      "path": "qa/renders/wordmark-cream-120px-wide-ink-2x.png",
+      "sha256": "625dc5ec0b10fcd97bc1a84ca7ebd1bd4292c4c41bdc29b6e1bbc21f7bbbf7d4"
+    },
+    {
+      "path": "qa/renders/wordmark-orange-120px-wide-cream-1x.png",
+      "sha256": "0c66a9d3b18a0e3fd55cdc7f0f576dce34ee7c00729aff5abaa14a8bc2ad5f03"
+    },
+    {
+      "path": "qa/renders/wordmark-orange-120px-wide-cream-2x.png",
+      "sha256": "9069a0cf722a88d1c1740cdf68c959844b9cc36f15fddab22ad9e7c258a54ff6"
+    },
+    {
+      "path": "qa/renders/wordmark-orange-120px-wide-ink-1x.png",
+      "sha256": "0c66a9d3b18a0e3fd55cdc7f0f576dce34ee7c00729aff5abaa14a8bc2ad5f03"
+    },
+    {
+      "path": "qa/renders/wordmark-orange-120px-wide-ink-2x.png",
+      "sha256": "9069a0cf722a88d1c1740cdf68c959844b9cc36f15fddab22ad9e7c258a54ff6"
+    },
+    {
+      "path": "review.html",
+      "sha256": "26a088d9956f516f19d1d2dd0831b65e93bf681dc0a38fe1cb77744331fa7a0e"
+    },
+    {
+      "path": "svg/app-icon.svg",
+      "sha256": "22129ff127d1c229d33206d5df48c36f7e3338cb697ac04fe97090448b77456e"
+    },
+    {
+      "path": "svg/favicon.svg",
+      "sha256": "ad9701d4ae6416c6a9d789c80b422ace7ab70cf1feac57adab4bbcc25d47d3b1"
+    },
+    {
+      "path": "svg/lockup-horizontal-mono.svg",
+      "sha256": "07c25323b72a10cf98b023b95c13fd3e51851405731b04b83f30eaf1d1b6cfe3"
+    },
+    {
+      "path": "svg/lockup-horizontal.svg",
+      "sha256": "1f810daf26caebd3f661b30a4406dbea61d5cd294e6e887c0b994780d9b3750f"
+    },
+    {
+      "path": "svg/lockup-stacked.svg",
+      "sha256": "66a16141405d18cca1ea709c0a8a9d59f248b442e7fc27ffb4e655501741edb0"
+    },
+    {
+      "path": "svg/ts-stamp-currentcolor.svg",
+      "sha256": "61007e1795eac0582f20f57bcdaf83eab5d8c9cadc054e824ce686cf1796a5a9"
+    },
+    {
+      "path": "svg/ts-stamp-mono-cream.svg",
+      "sha256": "077f0b2936af1a842991d5922f5471067486447fb3e9c570b8510f2260f9dae5"
+    },
+    {
+      "path": "svg/ts-stamp-mono-ink.svg",
+      "sha256": "2b3ec01e538a1ff55250965c324ac0e999234a9039b8dbbf8864c09430ea8bae"
+    },
+    {
+      "path": "svg/ts-stamp-mono-orange.svg",
+      "sha256": "f00077dfb41815c3e26d8b32e4d572eff66834861433e301bb208108c21f07a8"
+    },
+    {
+      "path": "svg/ts-stamp.svg",
+      "sha256": "a1279c701ff62a20288854bef1e7a7718128125d745485e30a019f2a2c78efd8"
+    },
+    {
+      "path": "svg/wordmark-compact.svg",
+      "sha256": "9c147c238f5734d0673760ca95c8ea031e313b3fbeb4d91e440e746e49bfa9dc"
+    },
+    {
+      "path": "svg/wordmark-cream.svg",
+      "sha256": "4a0bb63ef3d4712e0ada667d36b8b1f8b4b22cc4049468260d1742ab69cc4478"
+    },
+    {
+      "path": "svg/wordmark-orange.svg",
+      "sha256": "ba247fb4be9ee19803f487ee3abb048b5f0905ef944673a5a78cc4544a2a5906"
+    },
+    {
+      "path": "svg/wordmark.svg",
+      "sha256": "4efa5c6a27904c18dcb2dc482d1d6c525fbcaabed74914129efa1af9e834fb4c"
+    }
+  ],
+  "provider_mode": "N/A \u2014 offline local tooling; no provider calls",
+  "qa": [
+    {
+      "alpha_extrema": [
+        34,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 19,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 24,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-24px-tall-cream-1x.png",
+      "render": "qa/renders/ts-stamp-24px-tall-cream-1x.png",
+      "rgba_sha256": "963b31503031857121de93485444ceb7863c7ab3ab70dd79bb8dd091e75be4b0",
+      "sha256": "1059a0c68a63fdeede6d47be16d9aee4b76149e8fcea026c487903619544c37c",
+      "size": "24px-tall",
+      "source": "logo/ts-stamp.svg",
+      "width": 19
+    },
+    {
+      "alpha_extrema": [
+        34,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 19,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 24,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-24px-tall-ink-1x.png",
+      "render": "qa/renders/ts-stamp-24px-tall-ink-1x.png",
+      "rgba_sha256": "963b31503031857121de93485444ceb7863c7ab3ab70dd79bb8dd091e75be4b0",
+      "sha256": "1059a0c68a63fdeede6d47be16d9aee4b76149e8fcea026c487903619544c37c",
+      "size": "24px-tall",
+      "source": "logo/ts-stamp.svg",
+      "width": 19
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 19,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 48,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-24px-tall-cream-2x.png",
+      "render": "qa/renders/ts-stamp-24px-tall-cream-2x.png",
+      "rgba_sha256": "ac7cbd7a7d23099b4e8d79c4ca5388eeb77fc11c833f45e1732c4796d563b213",
+      "sha256": "025b7dea61b181a89e1e0ee373daa02d7e2b9499a730e2bf453ecc06fbea9553",
+      "size": "24px-tall",
+      "source": "logo/ts-stamp.svg",
+      "width": 38
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 19,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 48,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-24px-tall-ink-2x.png",
+      "render": "qa/renders/ts-stamp-24px-tall-ink-2x.png",
+      "rgba_sha256": "ac7cbd7a7d23099b4e8d79c4ca5388eeb77fc11c833f45e1732c4796d563b213",
+      "sha256": "025b7dea61b181a89e1e0ee373daa02d7e2b9499a730e2bf453ecc06fbea9553",
+      "size": "24px-tall",
+      "source": "logo/ts-stamp.svg",
+      "width": 38
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 30,
+      "css_width": 24,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "height": 95,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-8mm-print-sample-cream-1x.png",
+      "render": "qa/renders/ts-stamp-8mm-print-sample-cream-1x.png",
+      "rgba_sha256": "9afee7ca4bccd25760c4555573dbf9ba2b58079e62c76feab980163d1a934d30",
+      "sha256": "5d6cf38e5b2702522d67988238f5de3eef3eca2bf8ff3c07b118a26d04c385b6",
+      "size": "8mm-print-sample",
+      "source": "logo/ts-stamp.svg",
+      "width": 76
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 30,
+      "css_width": 24,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "height": 95,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-8mm-print-sample-ink-1x.png",
+      "render": "qa/renders/ts-stamp-8mm-print-sample-ink-1x.png",
+      "rgba_sha256": "9afee7ca4bccd25760c4555573dbf9ba2b58079e62c76feab980163d1a934d30",
+      "sha256": "5d6cf38e5b2702522d67988238f5de3eef3eca2bf8ff3c07b118a26d04c385b6",
+      "size": "8mm-print-sample",
+      "source": "logo/ts-stamp.svg",
+      "width": 76
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 30,
+      "css_width": 24,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "height": 190,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-8mm-print-sample-cream-2x.png",
+      "render": "qa/renders/ts-stamp-8mm-print-sample-cream-2x.png",
+      "rgba_sha256": "4c775bf9c8c63372b30cba3139d094cee8a138a4a6db219e4b43b17cee8d6b1d",
+      "sha256": "cc97a60201024caa52a18b94c69df13291758d3b31ade45fbe5185b033ea2eb9",
+      "size": "8mm-print-sample",
+      "source": "logo/ts-stamp.svg",
+      "width": 152
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 30,
+      "css_width": 24,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "height": 190,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-8mm-print-sample-ink-2x.png",
+      "render": "qa/renders/ts-stamp-8mm-print-sample-ink-2x.png",
+      "rgba_sha256": "4c775bf9c8c63372b30cba3139d094cee8a138a4a6db219e4b43b17cee8d6b1d",
+      "sha256": "cc97a60201024caa52a18b94c69df13291758d3b31ade45fbe5185b033ea2eb9",
+      "size": "8mm-print-sample",
+      "source": "logo/ts-stamp.svg",
+      "width": 152
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 19,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 24,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-mono-orange-24px-tall-cream-1x.png",
+      "render": "qa/renders/ts-stamp-mono-orange-24px-tall-cream-1x.png",
+      "rgba_sha256": "da4bc93ae2983e37887f9e60a348244948808d79a95345a013901a254a49d63a",
+      "sha256": "d555350d1cb495f3286fcefd72dab1a5911abe37dab2482e8a55e12307ea1af9",
+      "size": "24px-tall",
+      "source": "logo/ts-stamp-mono-orange.svg",
+      "width": 19
+    },
+    {
+      "background": "synthetic imagery + cream plate",
+      "density": 1,
+      "manual_review": "pending",
+      "origin": "synthetic checker/stripe drawing with local vector render",
+      "panel": "qa/plates/ts-stamp-mono-orange-24px-tall-cream-1x.png",
+      "source": "logo/ts-stamp-mono-orange.svg"
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 19,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 24,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-mono-orange-24px-tall-ink-1x.png",
+      "render": "qa/renders/ts-stamp-mono-orange-24px-tall-ink-1x.png",
+      "rgba_sha256": "da4bc93ae2983e37887f9e60a348244948808d79a95345a013901a254a49d63a",
+      "sha256": "d555350d1cb495f3286fcefd72dab1a5911abe37dab2482e8a55e12307ea1af9",
+      "size": "24px-tall",
+      "source": "logo/ts-stamp-mono-orange.svg",
+      "width": 19
+    },
+    {
+      "background": "synthetic imagery + ink plate",
+      "density": 1,
+      "manual_review": "pending",
+      "origin": "synthetic checker/stripe drawing with local vector render",
+      "panel": "qa/plates/ts-stamp-mono-orange-24px-tall-ink-1x.png",
+      "source": "logo/ts-stamp-mono-orange.svg"
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 19,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 48,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-mono-orange-24px-tall-cream-2x.png",
+      "render": "qa/renders/ts-stamp-mono-orange-24px-tall-cream-2x.png",
+      "rgba_sha256": "fc952c68bb27c8c4400455ec721aa7a559df85e5d847a53f7c433ed4e4037274",
+      "sha256": "3e1cf70dd13739f88efe051862906e6e9c988fcc7b1acd733925bee26793742c",
+      "size": "24px-tall",
+      "source": "logo/ts-stamp-mono-orange.svg",
+      "width": 38
+    },
+    {
+      "background": "synthetic imagery + cream plate",
+      "density": 2,
+      "manual_review": "pending",
+      "origin": "synthetic checker/stripe drawing with local vector render",
+      "panel": "qa/plates/ts-stamp-mono-orange-24px-tall-cream-2x.png",
+      "source": "logo/ts-stamp-mono-orange.svg"
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 19,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 48,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-mono-orange-24px-tall-ink-2x.png",
+      "render": "qa/renders/ts-stamp-mono-orange-24px-tall-ink-2x.png",
+      "rgba_sha256": "fc952c68bb27c8c4400455ec721aa7a559df85e5d847a53f7c433ed4e4037274",
+      "sha256": "3e1cf70dd13739f88efe051862906e6e9c988fcc7b1acd733925bee26793742c",
+      "size": "24px-tall",
+      "source": "logo/ts-stamp-mono-orange.svg",
+      "width": 38
+    },
+    {
+      "background": "synthetic imagery + ink plate",
+      "density": 2,
+      "manual_review": "pending",
+      "origin": "synthetic checker/stripe drawing with local vector render",
+      "panel": "qa/plates/ts-stamp-mono-orange-24px-tall-ink-2x.png",
+      "source": "logo/ts-stamp-mono-orange.svg"
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 30,
+      "css_width": 24,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "height": 95,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-mono-orange-8mm-print-sample-cream-1x.png",
+      "render": "qa/renders/ts-stamp-mono-orange-8mm-print-sample-cream-1x.png",
+      "rgba_sha256": "2cb70e8e5208a76a635db0589340aca134829a88d7a96e75702d57f4ef10d191",
+      "sha256": "59172b0ae66142186ad566d7d420edc97d54cd9158f6a640dd93c4ac87b60ee3",
+      "size": "8mm-print-sample",
+      "source": "logo/ts-stamp-mono-orange.svg",
+      "width": 76
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 30,
+      "css_width": 24,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "height": 95,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-mono-orange-8mm-print-sample-ink-1x.png",
+      "render": "qa/renders/ts-stamp-mono-orange-8mm-print-sample-ink-1x.png",
+      "rgba_sha256": "2cb70e8e5208a76a635db0589340aca134829a88d7a96e75702d57f4ef10d191",
+      "sha256": "59172b0ae66142186ad566d7d420edc97d54cd9158f6a640dd93c4ac87b60ee3",
+      "size": "8mm-print-sample",
+      "source": "logo/ts-stamp-mono-orange.svg",
+      "width": 76
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 30,
+      "css_width": 24,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "height": 190,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-mono-orange-8mm-print-sample-cream-2x.png",
+      "render": "qa/renders/ts-stamp-mono-orange-8mm-print-sample-cream-2x.png",
+      "rgba_sha256": "65b8a178eb7b21b9ded3824487b97c334752cc4efca1c00665f612d3eefc00e1",
+      "sha256": "0fb96fc84426d655e07b718d8cf95a3bb22f8d095d122d1a64ee384cd2d9853e",
+      "size": "8mm-print-sample",
+      "source": "logo/ts-stamp-mono-orange.svg",
+      "width": 152
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 30,
+      "css_width": 24,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "height": 190,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-mono-orange-8mm-print-sample-ink-2x.png",
+      "render": "qa/renders/ts-stamp-mono-orange-8mm-print-sample-ink-2x.png",
+      "rgba_sha256": "65b8a178eb7b21b9ded3824487b97c334752cc4efca1c00665f612d3eefc00e1",
+      "sha256": "0fb96fc84426d655e07b718d8cf95a3bb22f8d095d122d1a64ee384cd2d9853e",
+      "size": "8mm-print-sample",
+      "source": "logo/ts-stamp-mono-orange.svg",
+      "width": 152
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 19,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 24,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-mono-ink-24px-tall-cream-1x.png",
+      "render": "qa/renders/ts-stamp-mono-ink-24px-tall-cream-1x.png",
+      "rgba_sha256": "d6d658b55c6510b3eb505b8f1b840d3a4553895331ab02257162958b80faeb46",
+      "sha256": "468efa22175b4792038d7b0f669ae577ae6e93dd0904b3f15dc3d9cd698b645e",
+      "size": "24px-tall",
+      "source": "logo/ts-stamp-mono-ink.svg",
+      "width": 19
+    },
+    {
+      "background": "synthetic imagery + cream plate",
+      "density": 1,
+      "manual_review": "pending",
+      "origin": "synthetic checker/stripe drawing with local vector render",
+      "panel": "qa/plates/ts-stamp-mono-ink-24px-tall-cream-1x.png",
+      "source": "logo/ts-stamp-mono-ink.svg"
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 19,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 48,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-mono-ink-24px-tall-cream-2x.png",
+      "render": "qa/renders/ts-stamp-mono-ink-24px-tall-cream-2x.png",
+      "rgba_sha256": "ef7fd55726f54f459cc10db6cfaca11585745a58e939d6ea6e552686a83e6486",
+      "sha256": "b719f8a43519c805f5e1efc18e9e20e98ebc3d0179c49b54b96e1132ee4954f4",
+      "size": "24px-tall",
+      "source": "logo/ts-stamp-mono-ink.svg",
+      "width": 38
+    },
+    {
+      "background": "synthetic imagery + cream plate",
+      "density": 2,
+      "manual_review": "pending",
+      "origin": "synthetic checker/stripe drawing with local vector render",
+      "panel": "qa/plates/ts-stamp-mono-ink-24px-tall-cream-2x.png",
+      "source": "logo/ts-stamp-mono-ink.svg"
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 30,
+      "css_width": 24,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "height": 95,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-mono-ink-8mm-print-sample-cream-1x.png",
+      "render": "qa/renders/ts-stamp-mono-ink-8mm-print-sample-cream-1x.png",
+      "rgba_sha256": "ebb52789bce16a8683690370c38701a74528473e1773aa4e29981e399adaad47",
+      "sha256": "b948f5711321a61b396bc3779dc0a64182e80fd5fde25a0d7ed33f8484f3b27f",
+      "size": "8mm-print-sample",
+      "source": "logo/ts-stamp-mono-ink.svg",
+      "width": 76
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 30,
+      "css_width": 24,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "height": 190,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-mono-ink-8mm-print-sample-cream-2x.png",
+      "render": "qa/renders/ts-stamp-mono-ink-8mm-print-sample-cream-2x.png",
+      "rgba_sha256": "3add06367b323c08540375e3b73ab33e763d701e6227b342da5aecb2a04ab336",
+      "sha256": "4924a4ad8a26fd37a950f65768a48d2c2beee317ded0c33e8340531ca3489ea2",
+      "size": "8mm-print-sample",
+      "source": "logo/ts-stamp-mono-ink.svg",
+      "width": 152
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 19,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 24,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-mono-cream-24px-tall-ink-1x.png",
+      "render": "qa/renders/ts-stamp-mono-cream-24px-tall-ink-1x.png",
+      "rgba_sha256": "be3c6e2e5dbb506e27793a445b41e12e5155fcf49044659f4d1312de7f24b56d",
+      "sha256": "86ebc33d795f7c00263b91cefbd86b14d3beeeed3b8909e36fc394dc3006f395",
+      "size": "24px-tall",
+      "source": "logo/ts-stamp-mono-cream.svg",
+      "width": 19
+    },
+    {
+      "background": "synthetic imagery + ink plate",
+      "density": 1,
+      "manual_review": "pending",
+      "origin": "synthetic checker/stripe drawing with local vector render",
+      "panel": "qa/plates/ts-stamp-mono-cream-24px-tall-ink-1x.png",
+      "source": "logo/ts-stamp-mono-cream.svg"
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 19,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 48,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-mono-cream-24px-tall-ink-2x.png",
+      "render": "qa/renders/ts-stamp-mono-cream-24px-tall-ink-2x.png",
+      "rgba_sha256": "e671a68dc35fe5b1bc2559ea3363604495c11ace6d0b8d71fafc1df3af8b11a1",
+      "sha256": "fd8f80bdf72be9592d24f24e0b69ec6491056a68cb9fcf93270e847d7f35161d",
+      "size": "24px-tall",
+      "source": "logo/ts-stamp-mono-cream.svg",
+      "width": 38
+    },
+    {
+      "background": "synthetic imagery + ink plate",
+      "density": 2,
+      "manual_review": "pending",
+      "origin": "synthetic checker/stripe drawing with local vector render",
+      "panel": "qa/plates/ts-stamp-mono-cream-24px-tall-ink-2x.png",
+      "source": "logo/ts-stamp-mono-cream.svg"
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 30,
+      "css_width": 24,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "height": 95,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-mono-cream-8mm-print-sample-ink-1x.png",
+      "render": "qa/renders/ts-stamp-mono-cream-8mm-print-sample-ink-1x.png",
+      "rgba_sha256": "765206b7fbb92dba24842bc2d7529b7c4e5e56269dbec573465639145385b2ba",
+      "sha256": "5056adab5af95316930b56a6007ce1f526cab4ab5892cf6ad3c472a044d27f9a",
+      "size": "8mm-print-sample",
+      "source": "logo/ts-stamp-mono-cream.svg",
+      "width": 76
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 30,
+      "css_width": 24,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "height": 190,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-mono-cream-8mm-print-sample-ink-2x.png",
+      "render": "qa/renders/ts-stamp-mono-cream-8mm-print-sample-ink-2x.png",
+      "rgba_sha256": "0e448481fcd14147798d0583383e284b283b81211763b09e8806cf1ea0f479d4",
+      "sha256": "5ae58051f8c99a8ab72478bebeac5e6396e7e125272cf08e2ec6ee66d305dd22",
+      "size": "8mm-print-sample",
+      "source": "logo/ts-stamp-mono-cream.svg",
+      "width": 152
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 19,
+      "current_color": "#17140F",
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 24,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-currentcolor-24px-tall-cream-1x.png",
+      "render": "qa/renders/ts-stamp-currentcolor-24px-tall-cream-1x.png",
+      "rgba_sha256": "d6d658b55c6510b3eb505b8f1b840d3a4553895331ab02257162958b80faeb46",
+      "sha256": "468efa22175b4792038d7b0f669ae577ae6e93dd0904b3f15dc3d9cd698b645e",
+      "size": "24px-tall",
+      "source": "logo/ts-stamp-currentcolor.svg",
+      "width": 19
+    },
+    {
+      "background": "synthetic imagery + cream plate",
+      "density": 1,
+      "manual_review": "pending",
+      "origin": "synthetic checker/stripe drawing with local vector render",
+      "panel": "qa/plates/ts-stamp-currentcolor-24px-tall-cream-1x.png",
+      "source": "logo/ts-stamp-currentcolor.svg"
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 19,
+      "current_color": "#F4ECDD",
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 24,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-currentcolor-24px-tall-ink-1x.png",
+      "render": "qa/renders/ts-stamp-currentcolor-24px-tall-ink-1x.png",
+      "rgba_sha256": "be3c6e2e5dbb506e27793a445b41e12e5155fcf49044659f4d1312de7f24b56d",
+      "sha256": "86ebc33d795f7c00263b91cefbd86b14d3beeeed3b8909e36fc394dc3006f395",
+      "size": "24px-tall",
+      "source": "logo/ts-stamp-currentcolor.svg",
+      "width": 19
+    },
+    {
+      "background": "synthetic imagery + ink plate",
+      "density": 1,
+      "manual_review": "pending",
+      "origin": "synthetic checker/stripe drawing with local vector render",
+      "panel": "qa/plates/ts-stamp-currentcolor-24px-tall-ink-1x.png",
+      "source": "logo/ts-stamp-currentcolor.svg"
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 19,
+      "current_color": "#17140F",
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 48,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-currentcolor-24px-tall-cream-2x.png",
+      "render": "qa/renders/ts-stamp-currentcolor-24px-tall-cream-2x.png",
+      "rgba_sha256": "ef7fd55726f54f459cc10db6cfaca11585745a58e939d6ea6e552686a83e6486",
+      "sha256": "b719f8a43519c805f5e1efc18e9e20e98ebc3d0179c49b54b96e1132ee4954f4",
+      "size": "24px-tall",
+      "source": "logo/ts-stamp-currentcolor.svg",
+      "width": 38
+    },
+    {
+      "background": "synthetic imagery + cream plate",
+      "density": 2,
+      "manual_review": "pending",
+      "origin": "synthetic checker/stripe drawing with local vector render",
+      "panel": "qa/plates/ts-stamp-currentcolor-24px-tall-cream-2x.png",
+      "source": "logo/ts-stamp-currentcolor.svg"
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 19,
+      "current_color": "#F4ECDD",
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 48,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-currentcolor-24px-tall-ink-2x.png",
+      "render": "qa/renders/ts-stamp-currentcolor-24px-tall-ink-2x.png",
+      "rgba_sha256": "e671a68dc35fe5b1bc2559ea3363604495c11ace6d0b8d71fafc1df3af8b11a1",
+      "sha256": "fd8f80bdf72be9592d24f24e0b69ec6491056a68cb9fcf93270e847d7f35161d",
+      "size": "24px-tall",
+      "source": "logo/ts-stamp-currentcolor.svg",
+      "width": 38
+    },
+    {
+      "background": "synthetic imagery + ink plate",
+      "density": 2,
+      "manual_review": "pending",
+      "origin": "synthetic checker/stripe drawing with local vector render",
+      "panel": "qa/plates/ts-stamp-currentcolor-24px-tall-ink-2x.png",
+      "source": "logo/ts-stamp-currentcolor.svg"
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 30,
+      "css_width": 24,
+      "current_color": "#17140F",
+      "density": 1,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "height": 95,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-currentcolor-8mm-print-sample-cream-1x.png",
+      "render": "qa/renders/ts-stamp-currentcolor-8mm-print-sample-cream-1x.png",
+      "rgba_sha256": "ebb52789bce16a8683690370c38701a74528473e1773aa4e29981e399adaad47",
+      "sha256": "b948f5711321a61b396bc3779dc0a64182e80fd5fde25a0d7ed33f8484f3b27f",
+      "size": "8mm-print-sample",
+      "source": "logo/ts-stamp-currentcolor.svg",
+      "width": 76
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 30,
+      "css_width": 24,
+      "current_color": "#F4ECDD",
+      "density": 1,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "height": 95,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-currentcolor-8mm-print-sample-ink-1x.png",
+      "render": "qa/renders/ts-stamp-currentcolor-8mm-print-sample-ink-1x.png",
+      "rgba_sha256": "765206b7fbb92dba24842bc2d7529b7c4e5e56269dbec573465639145385b2ba",
+      "sha256": "5056adab5af95316930b56a6007ce1f526cab4ab5892cf6ad3c472a044d27f9a",
+      "size": "8mm-print-sample",
+      "source": "logo/ts-stamp-currentcolor.svg",
+      "width": 76
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 30,
+      "css_width": 24,
+      "current_color": "#17140F",
+      "density": 2,
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "height": 190,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-currentcolor-8mm-print-sample-cream-2x.png",
+      "render": "qa/renders/ts-stamp-currentcolor-8mm-print-sample-cream-2x.png",
+      "rgba_sha256": "3add06367b323c08540375e3b73ab33e763d701e6227b342da5aecb2a04ab336",
+      "sha256": "4924a4ad8a26fd37a950f65768a48d2c2beee317ded0c33e8340531ca3489ea2",
+      "size": "8mm-print-sample",
+      "source": "logo/ts-stamp-currentcolor.svg",
+      "width": 152
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 30,
+      "css_width": 24,
+      "current_color": "#F4ECDD",
+      "density": 2,
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "height": 190,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/ts-stamp-currentcolor-8mm-print-sample-ink-2x.png",
+      "render": "qa/renders/ts-stamp-currentcolor-8mm-print-sample-ink-2x.png",
+      "rgba_sha256": "0e448481fcd14147798d0583383e284b283b81211763b09e8806cf1ea0f479d4",
+      "sha256": "5ae58051f8c99a8ab72478bebeac5e6396e7e125272cf08e2ec6ee66d305dd22",
+      "size": "8mm-print-sample",
+      "source": "logo/ts-stamp-currentcolor.svg",
+      "width": 152
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 16,
+      "css_width": 16,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 16,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/favicon-16px-cream-1x.png",
+      "render": "qa/renders/favicon-16px-cream-1x.png",
+      "rgba_sha256": "cb4de7c0e5b646ec8943eada62c2b760360b05cd8257c40a2b54fcf90309aac9",
+      "sha256": "283d61b14524e9dbf2f41373c4cd54f51dfaf33a10beb6b4169d2333659eecec",
+      "size": "16px",
+      "source": "logo/favicon.svg",
+      "width": 16
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 16,
+      "css_width": 16,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 16,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/favicon-16px-ink-1x.png",
+      "render": "qa/renders/favicon-16px-ink-1x.png",
+      "rgba_sha256": "cb4de7c0e5b646ec8943eada62c2b760360b05cd8257c40a2b54fcf90309aac9",
+      "sha256": "283d61b14524e9dbf2f41373c4cd54f51dfaf33a10beb6b4169d2333659eecec",
+      "size": "16px",
+      "source": "logo/favicon.svg",
+      "width": 16
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 16,
+      "css_width": 16,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 32,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/favicon-16px-cream-2x.png",
+      "render": "qa/renders/favicon-16px-cream-2x.png",
+      "rgba_sha256": "160dbee734dd3afe5de3e9ec28ac4b32f344d5d6efafdc483534f11c9f8d7d1d",
+      "sha256": "aeed6162cf27bc93fa5fd6f01df45bfd69ba76ea56c7b73c45dddf083e278202",
+      "size": "16px",
+      "source": "logo/favicon.svg",
+      "width": 32
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 16,
+      "css_width": 16,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 32,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/favicon-16px-ink-2x.png",
+      "render": "qa/renders/favicon-16px-ink-2x.png",
+      "rgba_sha256": "160dbee734dd3afe5de3e9ec28ac4b32f344d5d6efafdc483534f11c9f8d7d1d",
+      "sha256": "aeed6162cf27bc93fa5fd6f01df45bfd69ba76ea56c7b73c45dddf083e278202",
+      "size": "16px",
+      "source": "logo/favicon.svg",
+      "width": 32
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 24,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 24,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/favicon-24px-cream-1x.png",
+      "render": "qa/renders/favicon-24px-cream-1x.png",
+      "rgba_sha256": "951282a1070909460014f645a6dc50b4cf61eb982833d570bb21ee0bfd3ab8d5",
+      "sha256": "5b10ad693151f88a7afc174d272e374622e8af513ca0f42a70a1e2652d8450c5",
+      "size": "24px",
+      "source": "logo/favicon.svg",
+      "width": 24
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 24,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 24,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/favicon-24px-ink-1x.png",
+      "render": "qa/renders/favicon-24px-ink-1x.png",
+      "rgba_sha256": "951282a1070909460014f645a6dc50b4cf61eb982833d570bb21ee0bfd3ab8d5",
+      "sha256": "5b10ad693151f88a7afc174d272e374622e8af513ca0f42a70a1e2652d8450c5",
+      "size": "24px",
+      "source": "logo/favicon.svg",
+      "width": 24
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 24,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 48,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/favicon-24px-cream-2x.png",
+      "render": "qa/renders/favicon-24px-cream-2x.png",
+      "rgba_sha256": "6d50c21fe066c300e7ac1fd381987c487522e9c28e721f74f61a41dc0cf48c41",
+      "sha256": "f6a9e0eeaa71ed0459e1213dda855355ddf24bffca20c2ec0b438fbb635ca5bd",
+      "size": "24px",
+      "source": "logo/favicon.svg",
+      "width": 48
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 24,
+      "css_width": 24,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 48,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/favicon-24px-ink-2x.png",
+      "render": "qa/renders/favicon-24px-ink-2x.png",
+      "rgba_sha256": "6d50c21fe066c300e7ac1fd381987c487522e9c28e721f74f61a41dc0cf48c41",
+      "sha256": "f6a9e0eeaa71ed0459e1213dda855355ddf24bffca20c2ec0b438fbb635ca5bd",
+      "size": "24px",
+      "source": "logo/favicon.svg",
+      "width": 48
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 32,
+      "css_width": 32,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 32,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/favicon-32px-cream-1x.png",
+      "render": "qa/renders/favicon-32px-cream-1x.png",
+      "rgba_sha256": "160dbee734dd3afe5de3e9ec28ac4b32f344d5d6efafdc483534f11c9f8d7d1d",
+      "sha256": "26c0f7329fbbc1ea9ac522965ac0da8349218cfc0b793f16ecafd57375fe5040",
+      "size": "32px",
+      "source": "logo/favicon.svg",
+      "width": 32
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 32,
+      "css_width": 32,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 32,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/favicon-32px-ink-1x.png",
+      "render": "qa/renders/favicon-32px-ink-1x.png",
+      "rgba_sha256": "160dbee734dd3afe5de3e9ec28ac4b32f344d5d6efafdc483534f11c9f8d7d1d",
+      "sha256": "26c0f7329fbbc1ea9ac522965ac0da8349218cfc0b793f16ecafd57375fe5040",
+      "size": "32px",
+      "source": "logo/favicon.svg",
+      "width": 32
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 32,
+      "css_width": 32,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 64,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/favicon-32px-cream-2x.png",
+      "render": "qa/renders/favicon-32px-cream-2x.png",
+      "rgba_sha256": "08e608613f4ef28ccb8259e7e7d964edf3bf27083eb55fad2a0bfd09d7d07a2d",
+      "sha256": "3f9a5043ae16fff4dd4a9f86a26d2587170a12afe139232c47dc0f70ab0d7cf7",
+      "size": "32px",
+      "source": "logo/favicon.svg",
+      "width": 64
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 32,
+      "css_width": 32,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 64,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/favicon-32px-ink-2x.png",
+      "render": "qa/renders/favicon-32px-ink-2x.png",
+      "rgba_sha256": "08e608613f4ef28ccb8259e7e7d964edf3bf27083eb55fad2a0bfd09d7d07a2d",
+      "sha256": "3f9a5043ae16fff4dd4a9f86a26d2587170a12afe139232c47dc0f70ab0d7cf7",
+      "size": "32px",
+      "source": "logo/favicon.svg",
+      "width": 64
+    },
+    {
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 256,
+      "css_width": 256,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 256,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/app-icon-256px-wide-cream-1x.png",
+      "render": "qa/renders/app-icon-256px-wide-cream-1x.png",
+      "rgba_sha256": "a2b41110b277a4f02b8b32d4ef355a076eecef2627edb08fcad6a06d1cb10aae",
+      "sha256": "dd4d6ceca0e2e0f88dcf401b91feb55d3c071c717b5a2379213ebab4d533148e",
+      "size": "256px-wide",
+      "source": "logo/app-icon.svg",
+      "width": 256
+    },
+    {
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 256,
+      "css_width": 256,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 256,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/app-icon-256px-wide-ink-1x.png",
+      "render": "qa/renders/app-icon-256px-wide-ink-1x.png",
+      "rgba_sha256": "a2b41110b277a4f02b8b32d4ef355a076eecef2627edb08fcad6a06d1cb10aae",
+      "sha256": "dd4d6ceca0e2e0f88dcf401b91feb55d3c071c717b5a2379213ebab4d533148e",
+      "size": "256px-wide",
+      "source": "logo/app-icon.svg",
+      "width": 256
+    },
+    {
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 256,
+      "css_width": 256,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 512,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/app-icon-256px-wide-cream-2x.png",
+      "render": "qa/renders/app-icon-256px-wide-cream-2x.png",
+      "rgba_sha256": "e323fb879b4eefb5d5270e23cef1b95e939975aede6bc067cae28a286072dff1",
+      "sha256": "c3951f1e718b6861fce9caf06c450312ac94685f7a2136cf4a9732077b7090a7",
+      "size": "256px-wide",
+      "source": "logo/app-icon.svg",
+      "width": 512
+    },
+    {
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 256,
+      "css_width": 256,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 512,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/app-icon-256px-wide-ink-2x.png",
+      "render": "qa/renders/app-icon-256px-wide-ink-2x.png",
+      "rgba_sha256": "e323fb879b4eefb5d5270e23cef1b95e939975aede6bc067cae28a286072dff1",
+      "sha256": "c3951f1e718b6861fce9caf06c450312ac94685f7a2136cf4a9732077b7090a7",
+      "size": "256px-wide",
+      "source": "logo/app-icon.svg",
+      "width": 512
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 26,
+      "css_width": 120,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 26,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/wordmark-120px-wide-cream-1x.png",
+      "render": "qa/renders/wordmark-120px-wide-cream-1x.png",
+      "rgba_sha256": "39ef4cafc578275aa77865dc248f6d044079810aade4225a34e19f49edd3acd3",
+      "sha256": "de019581cb71baae976152acf828cade0c531f8f405e103459dcf2dad9361af7",
+      "size": "120px-wide",
+      "source": "logo/wordmark.svg",
+      "width": 120
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 26,
+      "css_width": 120,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 52,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/wordmark-120px-wide-cream-2x.png",
+      "render": "qa/renders/wordmark-120px-wide-cream-2x.png",
+      "rgba_sha256": "5c16559635ba2f63b18da120c0686cce9d4f7174ffb814041091be9b86eb345d",
+      "sha256": "e5bc877c4d761e0313926c5dc63ae2b0580b6776d5c5e476fb15322afb6af069",
+      "size": "120px-wide",
+      "source": "logo/wordmark.svg",
+      "width": 240
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 26,
+      "css_width": 120,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 26,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/wordmark-cream-120px-wide-ink-1x.png",
+      "render": "qa/renders/wordmark-cream-120px-wide-ink-1x.png",
+      "rgba_sha256": "849fcdd32782de81f3cfc0ff62618ef6063abec80fa36707c8d6aa613bc6a99d",
+      "sha256": "38afa954f342a4b20e20168244a4d6b508f06d3e21a4a0dc488797cce4137fb7",
+      "size": "120px-wide",
+      "source": "logo/wordmark-cream.svg",
+      "width": 120
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 26,
+      "css_width": 120,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 52,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/wordmark-cream-120px-wide-ink-2x.png",
+      "render": "qa/renders/wordmark-cream-120px-wide-ink-2x.png",
+      "rgba_sha256": "a482692965ec94a82f4de03864abdf7c3707fd6c8f557c32bda8b584f321ae3e",
+      "sha256": "625dc5ec0b10fcd97bc1a84ca7ebd1bd4292c4c41bdc29b6e1bbc21f7bbbf7d4",
+      "size": "120px-wide",
+      "source": "logo/wordmark-cream.svg",
+      "width": 240
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 26,
+      "css_width": 120,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 26,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/wordmark-orange-120px-wide-cream-1x.png",
+      "render": "qa/renders/wordmark-orange-120px-wide-cream-1x.png",
+      "rgba_sha256": "68ef4872c08d37009e5b1928979f5e77220d9c5913e2d3c2a9cfae2b27b34a64",
+      "sha256": "0c66a9d3b18a0e3fd55cdc7f0f576dce34ee7c00729aff5abaa14a8bc2ad5f03",
+      "size": "120px-wide",
+      "source": "logo/wordmark-orange.svg",
+      "width": 120
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 26,
+      "css_width": 120,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 26,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/wordmark-orange-120px-wide-ink-1x.png",
+      "render": "qa/renders/wordmark-orange-120px-wide-ink-1x.png",
+      "rgba_sha256": "68ef4872c08d37009e5b1928979f5e77220d9c5913e2d3c2a9cfae2b27b34a64",
+      "sha256": "0c66a9d3b18a0e3fd55cdc7f0f576dce34ee7c00729aff5abaa14a8bc2ad5f03",
+      "size": "120px-wide",
+      "source": "logo/wordmark-orange.svg",
+      "width": 120
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 26,
+      "css_width": 120,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 52,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/wordmark-orange-120px-wide-cream-2x.png",
+      "render": "qa/renders/wordmark-orange-120px-wide-cream-2x.png",
+      "rgba_sha256": "57c2b307509817889c0f0364e9abfc3b844fb01adfbd870b2c9486cd0d7f5122",
+      "sha256": "9069a0cf722a88d1c1740cdf68c959844b9cc36f15fddab22ad9e7c258a54ff6",
+      "size": "120px-wide",
+      "source": "logo/wordmark-orange.svg",
+      "width": 240
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 26,
+      "css_width": 120,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 52,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/wordmark-orange-120px-wide-ink-2x.png",
+      "render": "qa/renders/wordmark-orange-120px-wide-ink-2x.png",
+      "rgba_sha256": "57c2b307509817889c0f0364e9abfc3b844fb01adfbd870b2c9486cd0d7f5122",
+      "sha256": "9069a0cf722a88d1c1740cdf68c959844b9cc36f15fddab22ad9e7c258a54ff6",
+      "size": "120px-wide",
+      "source": "logo/wordmark-orange.svg",
+      "width": 240
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 27,
+      "css_width": 119,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 27,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/wordmark-compact-119px-wide-cream-1x.png",
+      "render": "qa/renders/wordmark-compact-119px-wide-cream-1x.png",
+      "rgba_sha256": "27cd1f53a46538ffd534382493016c99637499d784136e8a465afd2f59a7c593",
+      "sha256": "b32cab64840aa84afc195d1c0fc8cd7415782f41b4ba4721867fe4a5add19add",
+      "size": "119px-wide",
+      "source": "logo/wordmark-compact.svg",
+      "width": 119
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 27,
+      "css_width": 119,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 54,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/wordmark-compact-119px-wide-cream-2x.png",
+      "render": "qa/renders/wordmark-compact-119px-wide-cream-2x.png",
+      "rgba_sha256": "ca1821783d98f1bde642d52a51102a590734b68d617ff05fc973449145250e05",
+      "sha256": "a5cfc8407dbb4d0f77870ffedb3ba378944ed7d8005b7e44bc97bf29e74ea048",
+      "size": "119px-wide",
+      "source": "logo/wordmark-compact.svg",
+      "width": 238
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 28,
+      "css_width": 120,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 28,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/wordmark-compact-120px-wide-cream-1x.png",
+      "render": "qa/renders/wordmark-compact-120px-wide-cream-1x.png",
+      "rgba_sha256": "a644bd407ad1f153b498309943f72b4e6f7adfc6364faf572054205b647c9b99",
+      "sha256": "ea47ea79ec0c7512f2b521060b5329d5bbb4a16e7dffbf5f87400a6f8216bc28",
+      "size": "120px-wide",
+      "source": "logo/wordmark-compact.svg",
+      "width": 120
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 28,
+      "css_width": 120,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 56,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/wordmark-compact-120px-wide-cream-2x.png",
+      "render": "qa/renders/wordmark-compact-120px-wide-cream-2x.png",
+      "rgba_sha256": "b011fb4a3135a290efc51003b9366a1fd03076c549c838e8242fd9ff235c58bd",
+      "sha256": "28cb271eaf1c3d3a2eb41c5c5b12042e4d3dd22aea40b1f7b90c598ca524f48d",
+      "size": "120px-wide",
+      "source": "logo/wordmark-compact.svg",
+      "width": 240
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 52,
+      "css_width": 240,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 52,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/lockup-horizontal-240px-wide-cream-1x.png",
+      "render": "qa/renders/lockup-horizontal-240px-wide-cream-1x.png",
+      "rgba_sha256": "a8d43878b0b9e5da3e8b6eb2b63986e048b7ce844227177a86770060b34e9111",
+      "sha256": "a3441b81da1f361eb7bbd113484b0c8f6c7358bb54379fbbf933a1934d20e38a",
+      "size": "240px-wide",
+      "source": "logo/lockup-horizontal.svg",
+      "width": 240
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 52,
+      "css_width": 240,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 104,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/lockup-horizontal-240px-wide-cream-2x.png",
+      "render": "qa/renders/lockup-horizontal-240px-wide-cream-2x.png",
+      "rgba_sha256": "09aa1bd598acc5fd8005a919c98a68addbfa6a131a680ba795bb7d607567c6c3",
+      "sha256": "a26c69de51d230a07908e45ae7eec9f96cd2150e8e2c43205ed18da1adbdf613",
+      "size": "240px-wide",
+      "source": "logo/lockup-horizontal.svg",
+      "width": 480
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 52,
+      "css_width": 240,
+      "current_color": "#17140F",
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 52,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/lockup-horizontal-mono-240px-wide-cream-1x.png",
+      "render": "qa/renders/lockup-horizontal-mono-240px-wide-cream-1x.png",
+      "rgba_sha256": "c50b376a1dd73eea352ce2a28b3b9a5b506739044764e0e88a409a82113771af",
+      "sha256": "6dc022d59618764f41e2d922b038c47a59c661f16134c2e9b04cb8cd698c1b65",
+      "size": "240px-wide",
+      "source": "logo/lockup-horizontal-mono.svg",
+      "width": 240
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 52,
+      "css_width": 240,
+      "current_color": "#F4ECDD",
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 52,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/lockup-horizontal-mono-240px-wide-ink-1x.png",
+      "render": "qa/renders/lockup-horizontal-mono-240px-wide-ink-1x.png",
+      "rgba_sha256": "66bf747d4ca3621f340df960d190b5c7853737086a652b40713133c051938929",
+      "sha256": "d4fb72b7264cad9c8f7639dc0d7f1b99f3d7d5cdfa8e583b644621442f07b072",
+      "size": "240px-wide",
+      "source": "logo/lockup-horizontal-mono.svg",
+      "width": 240
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 52,
+      "css_width": 240,
+      "current_color": "#17140F",
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 104,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/lockup-horizontal-mono-240px-wide-cream-2x.png",
+      "render": "qa/renders/lockup-horizontal-mono-240px-wide-cream-2x.png",
+      "rgba_sha256": "a4b2249cfe7daf5ef2c5b8f67c26648047485f4cd02613c9495d5577a379e8de",
+      "sha256": "9fe71d31ef5cbe2c5581e582d1117b039641a1886fc6cdc4dea0123c369dc159",
+      "size": "240px-wide",
+      "source": "logo/lockup-horizontal-mono.svg",
+      "width": 480
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "ink",
+      "color_space": "sRGB",
+      "css_height": 52,
+      "css_width": 240,
+      "current_color": "#F4ECDD",
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 104,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/lockup-horizontal-mono-240px-wide-ink-2x.png",
+      "render": "qa/renders/lockup-horizontal-mono-240px-wide-ink-2x.png",
+      "rgba_sha256": "a39ccf589c9ea6387330f3428025722b23cea74372d4f5ab62ab0638fcadd1ee",
+      "sha256": "48483d9a086a7dfca7a4d7c8df8f9c80684989843e363c7d13d56ae95b750f0e",
+      "size": "240px-wide",
+      "source": "logo/lockup-horizontal-mono.svg",
+      "width": 480
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 123,
+      "css_width": 180,
+      "current_color": null,
+      "density": 1,
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 123,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/lockup-stacked-180px-wide-cream-1x.png",
+      "render": "qa/renders/lockup-stacked-180px-wide-cream-1x.png",
+      "rgba_sha256": "d312809c99f46623e9935d96bf42d89407469ced2666c415abc7a0df522cee54",
+      "sha256": "d063ffc645f9f8c621910f7c828cba9754f637e945005a11e9b481895b389ef1",
+      "size": "180px-wide",
+      "source": "logo/lockup-stacked.svg",
+      "width": 180
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "background": "cream",
+      "color_space": "sRGB",
+      "css_height": 123,
+      "css_width": 180,
+      "current_color": null,
+      "density": 2,
+      "dpi": [
+        191.99859999999998,
+        191.99859999999998
+      ],
+      "height": 246,
+      "manual_review": "pending",
+      "mode": "RGBA",
+      "origin": "local vector render; synthetic QA context",
+      "panel": "qa/panels/lockup-stacked-180px-wide-cream-2x.png",
+      "render": "qa/renders/lockup-stacked-180px-wide-cream-2x.png",
+      "rgba_sha256": "3770bbd7792eace66a65799026ffbcce37b822db7ee842d797b7854d84650e57",
+      "sha256": "a6ee2a423b1174b2e133158bca885bcdf010e04dbf280038b20ff3ac4cd60237",
+      "size": "180px-wide",
+      "source": "logo/lockup-stacked.svg",
+      "width": 360
+    }
+  ],
+  "rasters": [
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval_reference": null,
+      "color_space": "sRGB",
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 16,
+      "mode": "RGBA",
+      "path": "png/favicon-16.png",
+      "purpose": "Browser fallback review at 16 CSS px",
+      "release_eligible": false,
+      "rgba_sha256": "cb4de7c0e5b646ec8943eada62c2b760360b05cd8257c40a2b54fcf90309aac9",
+      "sha256": "283d61b14524e9dbf2f41373c4cd54f51dfaf33a10beb6b4169d2333659eecec",
+      "source": "logo/favicon.svg",
+      "width": 16
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval_reference": null,
+      "color_space": "sRGB",
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 24,
+      "mode": "RGBA",
+      "path": "png/favicon-24.png",
+      "purpose": "Browser fallback review at 24 CSS px",
+      "release_eligible": false,
+      "rgba_sha256": "951282a1070909460014f645a6dc50b4cf61eb982833d570bb21ee0bfd3ab8d5",
+      "sha256": "5b10ad693151f88a7afc174d272e374622e8af513ca0f42a70a1e2652d8450c5",
+      "source": "logo/favicon.svg",
+      "width": 24
+    },
+    {
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval_reference": null,
+      "color_space": "sRGB",
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 32,
+      "mode": "RGBA",
+      "path": "png/favicon-32.png",
+      "purpose": "Browser fallback review at 32 CSS px",
+      "release_eligible": false,
+      "rgba_sha256": "160dbee734dd3afe5de3e9ec28ac4b32f344d5d6efafdc483534f11c9f8d7d1d",
+      "sha256": "26c0f7329fbbc1ea9ac522965ac0da8349218cfc0b793f16ecafd57375fe5040",
+      "source": "logo/favicon.svg",
+      "width": 32
+    },
+    {
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "approval_reference": null,
+      "color_space": "sRGB",
+      "dpi": [
+        96.012,
+        96.012
+      ],
+      "height": 1024,
+      "mode": "RGBA",
+      "path": "png/app-icon-1024.png",
+      "purpose": "Required 1024 px app-icon candidate; no corner mask or app-store submission",
+      "release_eligible": false,
+      "rgba_sha256": "a59d0668d18f5286be26f2056513eee4bd57983c7728cf1f0ffccfc4fd94cd83",
+      "sha256": "ddac5bc29b0c53ee3e67490d191fe066110878bf59ec2f2ac624ca16d7a65811",
+      "source": "logo/app-icon.svg",
+      "width": 1024
+    }
+  ],
+  "release_eligible": false,
+  "schema_version": 1,
+  "source": {
+    "input_worktree_changes": [],
+    "inputs": [
+      {
+        "path": "fonts/Fraunces-OFL.txt",
+        "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b"
+      },
+      {
+        "path": "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+        "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb"
+      },
+      {
+        "path": "logo/app-icon.svg",
+        "sha256": "22129ff127d1c229d33206d5df48c36f7e3338cb697ac04fe97090448b77456e"
+      },
+      {
+        "path": "logo/favicon.svg",
+        "sha256": "ad9701d4ae6416c6a9d789c80b422ace7ab70cf1feac57adab4bbcc25d47d3b1"
+      },
+      {
+        "path": "logo/lockup-horizontal-mono.svg",
+        "sha256": "07c25323b72a10cf98b023b95c13fd3e51851405731b04b83f30eaf1d1b6cfe3"
+      },
+      {
+        "path": "logo/lockup-horizontal.svg",
+        "sha256": "1f810daf26caebd3f661b30a4406dbea61d5cd294e6e887c0b994780d9b3750f"
+      },
+      {
+        "path": "logo/lockup-stacked.svg",
+        "sha256": "66a16141405d18cca1ea709c0a8a9d59f248b442e7fc27ffb4e655501741edb0"
+      },
+      {
+        "path": "logo/ts-stamp-currentcolor.svg",
+        "sha256": "61007e1795eac0582f20f57bcdaf83eab5d8c9cadc054e824ce686cf1796a5a9"
+      },
+      {
+        "path": "logo/ts-stamp-mono-cream.svg",
+        "sha256": "077f0b2936af1a842991d5922f5471067486447fb3e9c570b8510f2260f9dae5"
+      },
+      {
+        "path": "logo/ts-stamp-mono-ink.svg",
+        "sha256": "2b3ec01e538a1ff55250965c324ac0e999234a9039b8dbbf8864c09430ea8bae"
+      },
+      {
+        "path": "logo/ts-stamp-mono-orange.svg",
+        "sha256": "f00077dfb41815c3e26d8b32e4d572eff66834861433e301bb208108c21f07a8"
+      },
+      {
+        "path": "logo/ts-stamp.svg",
+        "sha256": "a1279c701ff62a20288854bef1e7a7718128125d745485e30a019f2a2c78efd8"
+      },
+      {
+        "path": "logo/wordmark-compact.svg",
+        "sha256": "9c147c238f5734d0673760ca95c8ea031e313b3fbeb4d91e440e746e49bfa9dc"
+      },
+      {
+        "path": "logo/wordmark-cream.svg",
+        "sha256": "4a0bb63ef3d4712e0ada667d36b8b1f8b4b22cc4049468260d1742ab69cc4478"
+      },
+      {
+        "path": "logo/wordmark-orange.svg",
+        "sha256": "ba247fb4be9ee19803f487ee3abb048b5f0905ef944673a5a78cc4544a2a5906"
+      },
+      {
+        "path": "logo/wordmark.svg",
+        "sha256": "4efa5c6a27904c18dcb2dc482d1d6c525fbcaabed74914129efa1af9e834fb4c"
+      },
+      {
+        "path": "tokens/tokens.json",
+        "sha256": "f441264f2e56f8fc8be5129a5a5b3f50403582ee5eb43821c7afb3ed1129b551"
+      },
+      {
+        "path": "tools/asset_lib.py",
+        "sha256": "1f2e2426aff4298c5433437e19f8f98cdecaa1d81e96a1aa34ed448a7151eac6"
+      },
+      {
+        "path": "tools/assets/export-matrix.json",
+        "sha256": "76eaabd3a5923a63471af5b6aab5f7b761007c87d2fa7f515c3e31468756979f"
+      },
+      {
+        "path": "tools/assets/requirements.txt",
+        "sha256": "48392b83c5c0517221ff710a06a11279c3249b77c2b2d0756c72567105299fc6"
+      },
+      {
+        "path": "tools/assets/toolchain.json",
+        "sha256": "bda1bd8911080c944c5e2114d2a1d9e507b2fcc25bd736c981cb10860742955b"
+      },
+      {
+        "path": "tools/build_assets.py",
+        "sha256": "a5ff6a6733f6ae303dee8de2a14b15177e473299241190ff26943a9dc28c782b"
+      },
+      {
+        "path": "tools/build_logos.py",
+        "sha256": "6d6419ca22d79f0f542666c3ee20301d3d2653d81ffb1d2d248d1c97e05b9a06"
+      },
+      {
+        "path": "tools/check_asset.py",
+        "sha256": "c8027e2592e4fd453df043825196c208b7a1c794e7a65167fffdeca377b61e68"
+      },
+      {
+        "path": "tools/tests/test_assets.py",
+        "sha256": "08c0852f67e7be9c58e0bc47a61d6caa22f8964a52141f738bc501c36bec278c"
+      }
+    ],
+    "repository": "Jevelopers-neatHack-2026/brand-kit",
+    "revision": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3"
+  },
+  "status": "local-review-only",
+  "toolchain": {
+    "platform": "linux-x86_64",
+    "python": "3.12.14",
+    "python_packages": {
+      "Pillow": "12.3.0",
+      "fonttools": "4.66.1",
+      "uharfbuzz": "0.56.3"
+    },
+    "renderer_debug_info": "Inkscape 1.2.2 (b0a8486541, 2022-12-01)\n\n    GLib version:     2.80.0\n    GTK version:      3.24.41\n    glibmm version:   2.66.7\n    gtkmm version:    3.24.9\n    libxml2 version:  2.9.14\n    libxslt version:  1.1.39\n    Cairo version:    1.18.0\n    Pango version:    1.52.1\n    HarfBuzz version: 8.3.0\n\n    OS version:       Ubuntu 24.04.3 LTS",
+    "renderer_sha256": "8b8a08d59ce5d1aa50aac509e9781a49175a470fd1c8560a4d83ce7a22057f61",
+    "renderer_version": "Inkscape 1.2.2 (b0a8486541, 2022-12-01)",
+    "zlib_runtime": "1.3.2"
+  },
+  "unsupported_formats": [
+    "JPEG",
+    "WebP",
+    "ICO",
+    "PDF",
+    "EPS",
+    "CMYK print separations",
+    "font files"
+  ],
+  "vectors": [
+    {
+      "approval_reference": null,
+      "current_color": false,
+      "outline_bounds": [
+        -0.0,
+        0.0,
+        80.0,
+        100.0
+      ],
+      "path": "svg/ts-stamp.svg",
+      "path_count": 2,
+      "release_eligible": false,
+      "sha256": "a1279c701ff62a20288854bef1e7a7718128125d745485e30a019f2a2c78efd8",
+      "source": "logo/ts-stamp.svg",
+      "viewBox": [
+        0.0,
+        0.0,
+        80.0,
+        100.0
+      ]
+    },
+    {
+      "approval_reference": null,
+      "current_color": false,
+      "outline_bounds": [
+        -0.0,
+        0.0,
+        80.0,
+        100.0
+      ],
+      "path": "svg/ts-stamp-mono-orange.svg",
+      "path_count": 1,
+      "release_eligible": false,
+      "sha256": "f00077dfb41815c3e26d8b32e4d572eff66834861433e301bb208108c21f07a8",
+      "source": "logo/ts-stamp-mono-orange.svg",
+      "viewBox": [
+        0.0,
+        0.0,
+        80.0,
+        100.0
+      ]
+    },
+    {
+      "approval_reference": null,
+      "current_color": false,
+      "outline_bounds": [
+        -0.0,
+        0.0,
+        80.0,
+        100.0
+      ],
+      "path": "svg/ts-stamp-mono-ink.svg",
+      "path_count": 1,
+      "release_eligible": false,
+      "sha256": "2b3ec01e538a1ff55250965c324ac0e999234a9039b8dbbf8864c09430ea8bae",
+      "source": "logo/ts-stamp-mono-ink.svg",
+      "viewBox": [
+        0.0,
+        0.0,
+        80.0,
+        100.0
+      ]
+    },
+    {
+      "approval_reference": null,
+      "current_color": false,
+      "outline_bounds": [
+        -0.0,
+        0.0,
+        80.0,
+        100.0
+      ],
+      "path": "svg/ts-stamp-mono-cream.svg",
+      "path_count": 1,
+      "release_eligible": false,
+      "sha256": "077f0b2936af1a842991d5922f5471067486447fb3e9c570b8510f2260f9dae5",
+      "source": "logo/ts-stamp-mono-cream.svg",
+      "viewBox": [
+        0.0,
+        0.0,
+        80.0,
+        100.0
+      ]
+    },
+    {
+      "approval_reference": null,
+      "current_color": true,
+      "outline_bounds": [
+        -0.0,
+        0.0,
+        80.0,
+        100.0
+      ],
+      "path": "svg/ts-stamp-currentcolor.svg",
+      "path_count": 1,
+      "release_eligible": false,
+      "sha256": "61007e1795eac0582f20f57bcdaf83eab5d8c9cadc054e824ce686cf1796a5a9",
+      "source": "logo/ts-stamp-currentcolor.svg",
+      "viewBox": [
+        0.0,
+        0.0,
+        80.0,
+        100.0
+      ]
+    },
+    {
+      "approval_reference": null,
+      "current_color": false,
+      "outline_bounds": [
+        0.5,
+        0.5,
+        23.5,
+        23.5
+      ],
+      "path": "svg/favicon.svg",
+      "path_count": 1,
+      "release_eligible": false,
+      "sha256": "ad9701d4ae6416c6a9d789c80b422ace7ab70cf1feac57adab4bbcc25d47d3b1",
+      "source": "logo/favicon.svg",
+      "viewBox": [
+        0.0,
+        0.0,
+        24.0,
+        24.0
+      ]
+    },
+    {
+      "approval_reference": null,
+      "current_color": false,
+      "outline_bounds": [
+        0.0,
+        0.0,
+        1024.0,
+        1024.0
+      ],
+      "path": "svg/app-icon.svg",
+      "path_count": 2,
+      "release_eligible": false,
+      "sha256": "22129ff127d1c229d33206d5df48c36f7e3338cb697ac04fe97090448b77456e",
+      "source": "logo/app-icon.svg",
+      "viewBox": [
+        0.0,
+        0.0,
+        1024.0,
+        1024.0
+      ]
+    },
+    {
+      "approval_reference": null,
+      "current_color": false,
+      "outline_bounds": [
+        1.45698,
+        1.9,
+        463.6,
+        79.1
+      ],
+      "path": "svg/wordmark.svg",
+      "path_count": 2,
+      "release_eligible": false,
+      "sha256": "4efa5c6a27904c18dcb2dc482d1d6c525fbcaabed74914129efa1af9e834fb4c",
+      "source": "logo/wordmark.svg",
+      "viewBox": [
+        0.0,
+        0.0,
+        465.9,
+        100.0
+      ]
+    },
+    {
+      "approval_reference": null,
+      "current_color": false,
+      "outline_bounds": [
+        1.45698,
+        1.9,
+        463.6,
+        79.1
+      ],
+      "path": "svg/wordmark-cream.svg",
+      "path_count": 2,
+      "release_eligible": false,
+      "sha256": "4a0bb63ef3d4712e0ada667d36b8b1f8b4b22cc4049468260d1742ab69cc4478",
+      "source": "logo/wordmark-cream.svg",
+      "viewBox": [
+        0.0,
+        0.0,
+        465.9,
+        100.0
+      ]
+    },
+    {
+      "approval_reference": null,
+      "current_color": false,
+      "outline_bounds": [
+        1.45698,
+        1.9,
+        463.6,
+        79.1
+      ],
+      "path": "svg/wordmark-orange.svg",
+      "path_count": 2,
+      "release_eligible": false,
+      "sha256": "ba247fb4be9ee19803f487ee3abb048b5f0905ef944673a5a78cc4544a2a5906",
+      "source": "logo/wordmark-orange.svg",
+      "viewBox": [
+        0.0,
+        0.0,
+        465.9,
+        100.0
+      ]
+    },
+    {
+      "approval_reference": null,
+      "current_color": false,
+      "outline_bounds": [
+        1.45698,
+        1.9,
+        433.6,
+        77.2
+      ],
+      "path": "svg/wordmark-compact.svg",
+      "path_count": 1,
+      "release_eligible": false,
+      "sha256": "9c147c238f5734d0673760ca95c8ea031e313b3fbeb4d91e440e746e49bfa9dc",
+      "source": "logo/wordmark-compact.svg",
+      "viewBox": [
+        0.0,
+        0.0,
+        435.9,
+        100.0
+      ]
+    },
+    {
+      "approval_reference": null,
+      "current_color": false,
+      "outline_bounds": [
+        -0.0,
+        0.0,
+        612.0,
+        133.0
+      ],
+      "path": "svg/lockup-horizontal.svg",
+      "path_count": 4,
+      "release_eligible": false,
+      "sha256": "1f810daf26caebd3f661b30a4406dbea61d5cd294e6e887c0b994780d9b3750f",
+      "source": "logo/lockup-horizontal.svg",
+      "viewBox": [
+        0.0,
+        0.0,
+        614.3,
+        133.0
+      ]
+    },
+    {
+      "approval_reference": null,
+      "current_color": true,
+      "outline_bounds": [
+        -0.0,
+        0.0,
+        612.0,
+        133.0
+      ],
+      "path": "svg/lockup-horizontal-mono.svg",
+      "path_count": 3,
+      "release_eligible": false,
+      "sha256": "07c25323b72a10cf98b023b95c13fd3e51851405731b04b83f30eaf1d1b6cfe3",
+      "source": "logo/lockup-horizontal-mono.svg",
+      "viewBox": [
+        0.0,
+        0.0,
+        614.3,
+        133.0
+      ]
+    },
+    {
+      "approval_reference": null,
+      "current_color": false,
+      "outline_bounds": [
+        1.45698,
+        0.0,
+        463.6,
+        297.1
+      ],
+      "path": "svg/lockup-stacked.svg",
+      "path_count": 4,
+      "release_eligible": false,
+      "sha256": "66a16141405d18cca1ea709c0a8a9d59f248b442e7fc27ffb4e655501741edb0",
+      "source": "logo/lockup-stacked.svg",
+      "viewBox": [
+        0.0,
+        0.0,
+        465.9,
+        318.0
+      ]
+    }
+  ],
+  "visual_review": "pending accountable technical/brand/consumer review; physical print proof not performed"
+}

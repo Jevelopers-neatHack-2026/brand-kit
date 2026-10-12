@@ -1,0 +1,73 @@
+{
+  "candidate": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+  "scope": "Proposed review archive Markdown links; no archive mutation",
+  "included_guide_count": 4,
+  "missing": [
+    {
+      "guide": "docs/consumers.md",
+      "line": 21,
+      "link": "brand-governance.md",
+      "resolved_archive_path": "docs/brand-governance.md",
+      "exists_in_source": true
+    },
+    {
+      "guide": "docs/consumers.md",
+      "line": 120,
+      "link": "accessibility.md",
+      "resolved_archive_path": "docs/accessibility.md",
+      "exists_in_source": true
+    },
+    {
+      "guide": "docs/distribution.md",
+      "line": 24,
+      "link": "../distribution/proposal.json",
+      "resolved_archive_path": "distribution/proposal.json",
+      "exists_in_source": true
+    },
+    {
+      "guide": "docs/distribution.md",
+      "line": 126,
+      "link": "../distribution/acceptance.json",
+      "resolved_archive_path": "distribution/acceptance.json",
+      "exists_in_source": true
+    },
+    {
+      "guide": "docs/distribution.md",
+      "line": 127,
+      "link": "brand-governance.md",
+      "resolved_archive_path": "docs/brand-governance.md",
+      "exists_in_source": true
+    },
+    {
+      "guide": "docs/token-profile.md",
+      "line": 7,
+      "link": "../tools/token_lib.py",
+      "resolved_archive_path": "tools/token_lib.py",
+      "exists_in_source": true
+    },
+    {
+      "guide": "docs/token-profile.md",
+      "line": 54,
+      "link": "../tools/tokens-dev/package.json",
+      "resolved_archive_path": "tools/tokens-dev/package.json",
+      "exists_in_source": true
+    },
+    {
+      "guide": "docs/token-profile.md",
+      "line": 84,
+      "link": "motion-sound-haptics.md",
+      "resolved_archive_path": "docs/motion-sound-haptics.md",
+      "exists_in_source": true
+    },
+    {
+      "guide": "docs/token-profile.md",
+      "line": 104,
+      "link": "../SPEC.md",
+      "resolved_archive_path": "SPEC.md",
+      "exists_in_source": true
+    }
+  ],
+  "resolved_count": 7,
+  "missing_count": 9,
+  "interpretation": "All missing targets exist in source but are deliberately excluded from the review archive. Current guides do not explicitly define an archive source-context-link resolution rule."
+}

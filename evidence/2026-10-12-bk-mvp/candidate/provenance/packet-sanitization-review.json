@@ -1,0 +1,14 @@
+{
+  "scope": "Read-only pattern scan of the 143 collected text files before README and packet-review additions; no matched values retained",
+  "flagged_lines": 33,
+  "classified_public_query_hosts": {
+    "fonts.googleapis.com": 3,
+    "img.shields.io": 30
+  },
+  "unexplained": [],
+  "result": "no_unexplained_match",
+  "limitations": [
+    "Not a complete security/legal review or named release approval.",
+    "Current source/history and original gate sanitization metadata remain separately recorded."
+  ]
+}

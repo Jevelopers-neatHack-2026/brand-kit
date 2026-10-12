@@ -1,0 +1,239 @@
+{
+  "schema": "ticketstub-scoped-independent-review@1",
+  "reviewed_at_utc": "2026-10-12T17:05:51.266564+00:00",
+  "reviewer": "dependency_audit",
+  "repository": "Jevelopers-neatHack-2026/brand-kit",
+  "candidate_sha": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+  "candidate_tree": "9b4e5bffc559494731cfdcc23c5df7582792736c",
+  "clean_checkout_verified": true,
+  "candidate_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/commit/d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+  "verdict": "approved_scoped",
+  "blocking_findings": [],
+  "summary": "The independently authored accessibility, consumer fixture, output guard and packaged-guide clarification changes have no remaining blocking finding in this review scope. The previously reproduced consumer focus-ring defect was fixed and independently reviewed by asset_pipeline; its author does not self-approve that fix here.",
+  "scope": [
+    {
+      "slice": "Root contrast calculations, tests, generated evidence, accessibility fixture and guidance",
+      "verdict": "approved_scoped",
+      "basis": "Identical bytes to the prior reviewed candidate for all corresponding files. Prior review checked alpha composition, unrounded contrast thresholds, known failing controls, semantic theme and focus restrictions, reduced motion, and explicit pending font/browser-zoom/human requirements. Unchanged file hashes are recorded below; prior runs retain their original SHA."
+    },
+    {
+      "slice": "Asset-agent frozen-source and clipped-ring delta 7fb13539 in general browser checker/regressions",
+      "verdict": "approved_scoped",
+      "basis": "Exact bytes unchanged from reviewed d7 candidate. Same snapshot bytes are hashed and served, source drift prevents a pass, and full offset-ring geometry is checked against clipping ancestors. Prior root-run reports and expected-error regression results remain linked in the prior review and are not relabeled as d25 runs."
+    },
+    {
+      "slice": "Consumer fixture corrections and original consumer runner authored by pr3_reconcile, excluding reviewer-authored focus fix",
+      "verdict": "approved_scoped",
+      "basis": "All four fixture files are unchanged. Cream plate and ink CTA label preserve the intended contrast in dark themes. Original runner binds verified local package, source, templates, real compiler/browser and rendered assets, distinguishes all local synthetic evidence from owner adoption, and preserves unavailable-font/manual requirements. The prior clipping defect was resolved by separately reviewed follow-up 11d5fe."
+    },
+    {
+      "slice": "Root output guard 43f9e035fc03442fb05613bba562527ed215793e",
+      "verdict": "approved_scoped",
+      "basis": "Read the root-only diff and executed 15 focused filesystem probes. Existing files/directories, symlinks and dangling links, including ancestors and default output, reject before preparation. Final report collisions and reserved directory identity replacement reject without overwriting sentinels. A new path exclusively records a deliberate prerequisite failure, with directory mode 0700 and report mode 0600. Exact checker bytes match the remote candidate."
+    },
+    {
+      "slice": "New packaged guide context notes in docs/distribution.md and docs/consumers.md",
+      "verdict": "approved_scoped",
+      "basis": "Read the exact new paragraphs. They distinguish relative links to packaged content from source-only references, require a separate trusted clean checkout at MANIFEST source_sha for excluded files and producer commands, and make no claim that archive hashes establish rights or release eligibility. Original distribution guide authorship remains excluded."
+    }
+  ],
+  "unchanged_reviewed_files": [
+    "tools/check_accessibility.py",
+    "tools/tests/test_accessibility.py",
+    "docs/accessibility.md",
+    "docs/accessibility/contrast-report.json",
+    "docs/accessibility/contrast-report.md",
+    "tools/accessibility-fixture/index.html",
+    "tools/accessibility-fixture/fixture.css",
+    "tools/accessibility-fixture/fixture.js",
+    "tools/check_accessibility_browser.cjs",
+    "tools/tests/test_accessibility_browser.cjs",
+    "distribution/fixtures/plain.html.in",
+    "distribution/fixtures/plain.css",
+    "distribution/fixtures/tailwind.html.in",
+    "distribution/fixtures/tailwind.css"
+  ],
+  "current_reviewed_file_sha256": {
+    "tools/check_accessibility.py": "bb2f07e525fa33940c878d8f848e38dc4d6c7529616f39c743095b7a84c2267d",
+    "tools/tests/test_accessibility.py": "09e8c14da95c130cf73a82c40a36c51db443546d191d61b9ce59e778a58c9e1e",
+    "docs/accessibility.md": "dfdbfd8824b36576f6a1786d3a0bb1f4aff41181369e620fed98a62f68b5ecaa",
+    "docs/accessibility/contrast-report.json": "ae86ac08cf8a955710c91360ffc5fcbde16587e71aeab2662962a15d33041279",
+    "docs/accessibility/contrast-report.md": "88130e7e40c537676ce7602ea9a448b7bce755c53da89cb4d54556cc4e1bc932",
+    "tools/accessibility-fixture/index.html": "ee827b92eef36ef05ea630afc496d2bd954fbbfaddb6a274a938197f15c3c483",
+    "tools/accessibility-fixture/fixture.css": "fba1a8bcda50b739c3c6df2046d5c98fbd62a948be97d502bc6191960e965d4b",
+    "tools/accessibility-fixture/fixture.js": "1a4605cc0177079be3d1ccadfa259f400727a2a1cfb2e5d741b973977c86234c",
+    "tools/check_accessibility_browser.cjs": "9ba79204f4c604ab58df4aed8c20b6736cab895fbf154948658ddf4b59d1847e",
+    "tools/tests/test_accessibility_browser.cjs": "3cb8e39b83f6fbe58380e534685ae75ae4b9a0a59248d430d3a4ea7a4276becb",
+    "tools/check_consumer_browser.cjs": "569d72cf5b91a8ca78dc88b5348f814dec828810de702f6acab843f06f4a97d2",
+    "distribution/fixtures/plain.html.in": "885de693c4400d3bea5b339534e5dc5e1fd37e5778b4a18016dd01a7a111cb43",
+    "distribution/fixtures/plain.css": "90965f8529fff2f018d80a943a42e0d99bbdcff14b000138a54a9c8611ba30b4",
+    "distribution/fixtures/tailwind.html.in": "a84185e7911bbc50f1bcd733e7d75ba589022d3cc982e9cf3833d9502261d5e5",
+    "distribution/fixtures/tailwind.css": "0e5844ec75de2fb4a76097b26bb624bf8f9d9cf59f6d947855b743dd25f920fb",
+    "docs/consumers.md": "53723abb67ed5346cbaf88e70085dee301fd2cc727bcc6d396c5408522e8f663"
+  },
+  "new_guide_file_sha256": {
+    "docs/distribution.md": "6ce378046aeea4e05ca180882197007890575285d1dc773a1ef7d6687910f82b"
+  },
+  "previous_review": {
+    "path": "/workspace/scratch/5ecc3c6cf97a/triage/final-review-accessibility.json",
+    "sha256": "cc6c9237d1aeb94ff9b7adcb78bc4e7fdeb7e86ce869ec2ab1a50dba0d372dfd",
+    "candidate_sha": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+    "candidate_tree": "8fa6555f217cf4ba141f54b3f0b5bae9e33078a3",
+    "verdict": "changes_requested",
+    "preserved": true
+  },
+  "prior_defect_resolution": {
+    "id": "CONSUMER-FOCUS-ANCESTOR-CLIP",
+    "status": "fixed in candidate; independent fix review delegated to asset_pipeline",
+    "fix_sha": "11d5feebbaf5bbc72fd7602241b10d7e81cbcf3c",
+    "validation_path": "/workspace/scratch/5ecc3c6cf97a/triage/consumer-focus-final-yh0xf6x1/validation.json",
+    "validation_sha256": "ce066fc8ad48b727247e6e40165057b7d415edfad7180eac0d8cf0042bddbd02",
+    "independent_review_source": "Direct collaboration messages from root and asset_pipeline confirm scoped approval of 11d5fe. This statement does not represent a GitHub approval or a named accessibility owner signature."
+  },
+  "guard_runtime_evidence": {
+    "path": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/guard-probes.json",
+    "sha256": "27045adde3d1b641ab4478dc8326025f0435975061332e81006b5ab291ca906e",
+    "executed_checker_source_sha": "43f9e035fc03442fb05613bba562527ed215793e",
+    "executed_checker_source_tree": "e2fc4102c9b9e09ad43d26628942cbeab521e00b",
+    "checker_sha256": "569d72cf5b91a8ca78dc88b5348f814dec828810de702f6acab843f06f4a97d2",
+    "current_candidate_checker_identical": true,
+    "case_count": 15,
+    "outcome": "pass",
+    "cases": [
+      {
+        "id": "existing-directory",
+        "exit_code": 1,
+        "outcome": "error",
+        "assertions": "pass",
+        "preparation_invoked": false,
+        "prior_paths_preserved": true
+      },
+      {
+        "id": "existing-file",
+        "exit_code": 1,
+        "outcome": "error",
+        "assertions": "pass",
+        "preparation_invoked": false,
+        "prior_paths_preserved": true
+      },
+      {
+        "id": "symlink-output",
+        "exit_code": 1,
+        "outcome": "error",
+        "assertions": "pass",
+        "preparation_invoked": false,
+        "prior_paths_preserved": true
+      },
+      {
+        "id": "dangling-output",
+        "exit_code": 1,
+        "outcome": "error",
+        "assertions": "pass",
+        "preparation_invoked": false,
+        "prior_paths_preserved": true
+      },
+      {
+        "id": "symlink-ancestor",
+        "exit_code": 1,
+        "outcome": "error",
+        "assertions": "pass",
+        "preparation_invoked": false,
+        "prior_paths_preserved": true
+      },
+      {
+        "id": "dangling-ancestor",
+        "exit_code": 1,
+        "outcome": "error",
+        "assertions": "pass",
+        "preparation_invoked": false,
+        "prior_paths_preserved": true
+      },
+      {
+        "id": "file-ancestor",
+        "exit_code": 1,
+        "outcome": "error",
+        "assertions": "pass",
+        "preparation_invoked": false,
+        "prior_paths_preserved": true
+      },
+      {
+        "id": "default-existing",
+        "exit_code": 1,
+        "outcome": "error",
+        "assertions": "pass",
+        "preparation_invoked": false,
+        "prior_paths_preserved": true
+      },
+      {
+        "id": "default-symlink-ancestor",
+        "exit_code": 1,
+        "outcome": "error",
+        "assertions": "pass",
+        "preparation_invoked": false,
+        "prior_paths_preserved": true
+      },
+      {
+        "id": "fresh-missing-ancestors",
+        "exit_code": 1,
+        "outcome": "error",
+        "assertions": "pass",
+        "preparation_invoked": true,
+        "prior_paths_preserved": true
+      },
+      {
+        "id": "report-collision",
+        "exit_code": 1,
+        "outcome": "error",
+        "assertions": "pass",
+        "preparation_invoked": true,
+        "prior_paths_preserved": true
+      },
+      {
+        "id": "report-symlink",
+        "exit_code": 1,
+        "outcome": "error",
+        "assertions": "pass",
+        "preparation_invoked": true,
+        "prior_paths_preserved": true
+      },
+      {
+        "id": "report-dangling-symlink",
+        "exit_code": 1,
+        "outcome": "error",
+        "assertions": "pass",
+        "preparation_invoked": true,
+        "prior_paths_preserved": true
+      },
+      {
+        "id": "replace-directory",
+        "exit_code": 1,
+        "outcome": "error",
+        "assertions": "pass",
+        "preparation_invoked": true,
+        "prior_paths_preserved": true
+      },
+      {
+        "id": "replace-with-symlink",
+        "exit_code": 1,
+        "outcome": "error",
+        "assertions": "pass",
+        "preparation_invoked": true,
+        "prior_paths_preserved": true
+      }
+    ],
+    "mode": "Synthetic filesystem controls execute the real runner output guard. Package preparation deliberately exits before compiler/browser. Fixed Date is a labeled control for deterministic default-output collision paths; it is not a real browser-run timestamp.",
+    "command_details": "Exact command arguments, environment controls, before/after path types/hashes and process outcomes are retained per case in the linked record."
+  },
+  "excluded_from_independent_approval": [
+    "Reviewer-authored original distribution/consumer/release tooling, contracts, policies and tests; root and other agents cover them.",
+    "Reviewer-authored original general browser fix a0510f12bf2ba4de13b23b881d7bcf5beed74e57 and original regressions; root covers them.",
+    "Reviewer-authored consumer focus fix 11d5feebbaf5bbc72fd7602241b10d7e81cbcf3c; asset_pipeline independently reviewed it.",
+    "Whole-PR release gates, GitHub branch/review policy decisions, named rights/accessibility/font approvals, live provider behavior, foreign consumer adoption and global acceptance."
+  ],
+  "limitations": [
+    "Root records the full 17-command gate and final browser baseline separately. This review does not claim those current-candidate commands passed.",
+    "No new browser pass is inferred from the 15 filesystem controls; required fonts-available, actual browser zoom, AT/manual review and named approvals remain pending.",
+    "No GitHub review was posted by this agent. This is a scoped technical review, not an owner or release approval."
+  ],
+  "github_posted": false
+}

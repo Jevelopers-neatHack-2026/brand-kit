@@ -1,0 +1,68 @@
+{
+  "source_revision": "4e9666630803b8dad43325e42a6f83fa8bed03db",
+  "source_mode": "exact Git blob bytes; isolated temporary checkout",
+  "executed_with": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "provider_mode": "offline; no browser/provider request",
+  "approval": "none; engineering review only",
+  "inputs_sha256": {
+    "tools/asset_lib.py": "1f2e2426aff4298c5433437e19f8f98cdecaa1d81e96a1aa34ed448a7151eac6",
+    "tools/build_assets.py": "a5ff6a6733f6ae303dee8de2a14b15177e473299241190ff26943a9dc28c782b",
+    "tools/build_logos.py": "6d6419ca22d79f0f542666c3ee20301d3d2653d81ffb1d2d248d1c97e05b9a06",
+    "tools/assets/export-matrix.json": "76eaabd3a5923a63471af5b6aab5f7b761007c87d2fa7f515c3e31468756979f",
+    "tools/assets/toolchain.json": "bda1bd8911080c944c5e2114d2a1d9e507b2fcc25bd736c981cb10860742955b",
+    "logo/ts-stamp.svg": "a1279c701ff62a20288854bef1e7a7718128125d745485e30a019f2a2c78efd8",
+    "logo/ts-stamp-mono-orange.svg": "f00077dfb41815c3e26d8b32e4d572eff66834861433e301bb208108c21f07a8",
+    "logo/ts-stamp-mono-ink.svg": "2b3ec01e538a1ff55250965c324ac0e999234a9039b8dbbf8864c09430ea8bae",
+    "logo/ts-stamp-mono-cream.svg": "077f0b2936af1a842991d5922f5471067486447fb3e9c570b8510f2260f9dae5",
+    "logo/ts-stamp-currentcolor.svg": "61007e1795eac0582f20f57bcdaf83eab5d8c9cadc054e824ce686cf1796a5a9",
+    "logo/favicon.svg": "ad9701d4ae6416c6a9d789c80b422ace7ab70cf1feac57adab4bbcc25d47d3b1",
+    "logo/app-icon.svg": "22129ff127d1c229d33206d5df48c36f7e3338cb697ac04fe97090448b77456e",
+    "logo/wordmark.svg": "4efa5c6a27904c18dcb2dc482d1d6c525fbcaabed74914129efa1af9e834fb4c",
+    "logo/wordmark-cream.svg": "4a0bb63ef3d4712e0ada667d36b8b1f8b4b22cc4049468260d1742ab69cc4478",
+    "logo/wordmark-orange.svg": "ba247fb4be9ee19803f487ee3abb048b5f0905ef944673a5a78cc4544a2a5906",
+    "logo/wordmark-compact.svg": "9c147c238f5734d0673760ca95c8ea031e313b3fbeb4d91e440e746e49bfa9dc",
+    "logo/lockup-horizontal.svg": "1f810daf26caebd3f661b30a4406dbea61d5cd294e6e887c0b994780d9b3750f",
+    "logo/lockup-horizontal-mono.svg": "07c25323b72a10cf98b023b95c13fd3e51851405731b04b83f30eaf1d1b6cfe3",
+    "logo/lockup-stacked.svg": "66a16141405d18cca1ea709c0a8a9d59f248b442e7fc27ffb4e655501741edb0"
+  },
+  "cases": [
+    {
+      "case": "missing-favicons",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true,
+      "mode": "synthetic in-memory matrix mutation"
+    },
+    {
+      "case": "wrong-stamp-kind",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true,
+      "mode": "synthetic in-memory matrix mutation"
+    },
+    {
+      "case": "cream-on-cream-context",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true,
+      "mode": "synthetic in-memory matrix mutation"
+    },
+    {
+      "case": "IEND-extra-payload",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true,
+      "fixture_sha256": "2731f689aa3ade73f58a0ee7a13b37dbb2d003efb6d00cf01387dce4b1e73373",
+      "mode": "synthetic 20x20 PNG; altered chunk length/payload with correct CRC"
+    },
+    {
+      "case": "sRGB-extra-payload",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true,
+      "fixture_sha256": "00fbf4de16bfaee00dee829a2ae2561e2d64d8b229fa437260d283a7c931f2e2",
+      "mode": "synthetic 20x20 PNG; altered chunk length/payload with correct CRC"
+    }
+  ],
+  "outcome": "pass"
+}

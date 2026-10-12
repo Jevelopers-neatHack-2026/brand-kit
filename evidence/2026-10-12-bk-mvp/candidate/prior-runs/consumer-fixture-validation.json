@@ -1,0 +1,72 @@
+{
+  "source_sha": "2122142133bbf393667eafebf32563e1ce46ca48",
+  "commits": [
+    "2122142133bbf393667eafebf32563e1ce46ca48 Require all consumer fixture controls in browser checks",
+    "853a474578d966d6523e90c9832bc4a435bf5883 Keep consumer keyboard focus immediate during motion",
+    "6bf3239e2ca966e22e1d244d3fd4ef0825b76262 Fix theme contrast in packaged consumer fixtures"
+  ],
+  "clean": true,
+  "browser": {
+    "command": "PLAYWRIGHT_BROWSERS_PATH=/tmp/ticketstub-browser-1194 node tools/check_consumer_browser.cjs /workspace/scratch/5ecc3c6cf97a/brand-consumer-fixtures /workspace/scratch/5ecc3c6cf97a/triage/consumer-fixture-browser/final-candidate",
+    "exit_code": 0,
+    "outcome": "pass",
+    "cases": 16,
+    "playwright": "1.56.1",
+    "chromium": "141.0.7390.37",
+    "node": "v24.19.0",
+    "report_sha256": "ad2f7e738d5682c57ce2f1c3a18b90ec2cb986984ffc79ab7ff985b3b12a89cc",
+    "source_and_input_drift": "none",
+    "blocked_external_requests": 0,
+    "package": {
+      "source_sha": "2122142133bbf393667eafebf32563e1ce46ca48",
+      "source_tree": "e03e10e36945a268d59999d9b0257c587bbd10d6",
+      "archive_sha256": "591ed3be7bd239f386804ac1637100f47850c0dd425db277147907cefbda087f",
+      "files_digest": "9b5753c2322f2aa8e4ba6e165e4a522e517d9f0f202a0772d04d4879dab80a16",
+      "fixture_sha256": {
+        "distribution/fixtures/plain.html.in": "885de693c4400d3bea5b339534e5dc5e1fd37e5778b4a18016dd01a7a111cb43",
+        "distribution/fixtures/plain.css": "90965f8529fff2f018d80a943a42e0d99bbdcff14b000138a54a9c8611ba30b4",
+        "distribution/fixtures/tailwind.html.in": "a84185e7911bbc50f1bcd733e7d75ba589022d3cc982e9cf3833d9502261d5e5",
+        "distribution/fixtures/tailwind.css": "0e5844ec75de2fb4a76097b26bb624bf8f9d9cf59f6d947855b743dd25f920fb"
+      },
+      "tailwind": {
+        "status": "pass",
+        "required": true,
+        "tailwind": "3.4.19",
+        "node": "v24.19.0",
+        "utilities_checked": 4,
+        "local_links_after_compile": {
+          "plain.html": 3,
+          "tailwind.html": 2
+        },
+        "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css"
+      },
+      "compiled_css_sha256": "6aafe7be64c2527eafd85d1290ceb529edf6584bd2f27121072fd1c17b55e03f"
+    }
+  },
+  "local_consumer": {
+    "command": "python3 -I tools/check_consumers.py --local",
+    "exit_code": 0,
+    "outcome": "pass",
+    "report_sha256": "6d030085d2943f32573ec03060024e307b272b0becb88f160b4df2e38c53b3f2",
+    "tailwind": {
+      "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css",
+      "local_links_after_compile": {
+        "plain.html": 3,
+        "tailwind.html": 2
+      },
+      "node": "v24.19.0",
+      "required": true,
+      "status": "pass",
+      "tailwind": "3.4.19",
+      "utilities_checked": 4
+    },
+    "recovery": {
+      "exact_bytes_restored": true,
+      "missing_import_rejected": true,
+      "scope": "local re-extraction only; no approved historical rollback target exists"
+    },
+    "consumer_acknowledgments": "blocked",
+    "font_provider_checks": "not_run"
+  },
+  "scope": "Synthetic local extracted consumer fixtures only; no provider/font-available request, rights decision, consumer ACK, adoption, release or foreign acceptance."
+}

@@ -1,0 +1,83 @@
+{
+  "candidate": "a0510f12bf2ba4de13b23b881d7bcf5beed74e57",
+  "source_worktree": "/workspace/scratch/5ecc3c6cf97a/brand-accessibility-review",
+  "mode": "local source review; synthetic browser mutation tests; no human accessibility or release approval",
+  "node": "v24.19.0",
+  "python": "Python 3.12.14",
+  "commands": [
+    {
+      "command": "make check-accessibility",
+      "revision": "a0510f12bf2ba4de13b23b881d7bcf5beed74e57",
+      "exit": 0,
+      "summary": "66 token tests + 12 contrast tests, 36 palette pairs and 26 semantic pairs pass"
+    },
+    {
+      "command": "PLAYWRIGHT_BROWSERS_PATH=/tmp/ticketstub-browser-1194 node tools/tests/test_accessibility_browser.cjs",
+      "revision": "a0510f12bf2ba4de13b23b881d7bcf5beed74e57",
+      "exit": 0,
+      "summary": "Copied baseline passes all four scenarios; transparent outline and ancestor clipping fail the actual browser check with the required distinct assertion reason"
+    },
+    {
+      "command": "PLAYWRIGHT_BROWSERS_PATH=/tmp/ticketstub-browser-unavailable-negative node tools/tests/test_accessibility_browser.cjs",
+      "revision": "a0510f12bf2ba4de13b23b881d7bcf5beed74e57",
+      "exit": 1,
+      "classification": "expected prerequisite-negative rejection, all three cases explicitly fail; no unavailable browser counted as negative-case success"
+    },
+    {
+      "command": "git status --short && git diff --check",
+      "revision": "a0510f12bf2ba4de13b23b881d7bcf5beed74e57",
+      "exit": 0,
+      "summary": "clean"
+    }
+  ],
+  "reports": [
+    {
+      "label": "original_false_passes",
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/a11y-review-w9ots_ff/negative-review-results.json",
+      "sha256": "77562ac5a004039d64aec00ff89ef472a10905a18f775ccb48d24387d550b636",
+      "outcome": "both negative mutations incorrectly exited zero"
+    },
+    {
+      "label": "regression_red_before_checker_fix",
+      "path": "/workspace/scratch/5ecc3c6cf97a/brand-accessibility-review/out/brand/accessibility-browser-regressions/2026-10-12T16-29-10-824Z-KqsxYJ/report.json",
+      "sha256": "c33b1234eab362a0440b96385bb7364c700a24a517515a81e9947a2a56d9d70c",
+      "outcome": "fail"
+    },
+    {
+      "label": "precommit_fixed_regressions",
+      "path": "/workspace/scratch/5ecc3c6cf97a/brand-accessibility-review/out/brand/accessibility-browser-regressions/2026-10-12T16-30-16-874Z-w5SAOp/report.json",
+      "sha256": "a0e90f3ad60356c0c8c7ef0ac911a9ce157fda458e850e58b6a64581e91758ce",
+      "outcome": "pass"
+    },
+    {
+      "label": "exact_commit_fixed_regressions",
+      "path": "/workspace/scratch/5ecc3c6cf97a/brand-accessibility-review/out/brand/accessibility-browser-regressions/2026-10-12T16-31-21-445Z-vzH0Ox/report.json",
+      "sha256": "10cb936daaae24e93c848b6272138def4f55bbc75ad3babc689d0b6f804d3053",
+      "outcome": "pass"
+    },
+    {
+      "label": "exact_commit_missing_browser_negative",
+      "path": "/workspace/scratch/5ecc3c6cf97a/brand-accessibility-review/out/brand/accessibility-browser-regressions/2026-10-12T16-31-21-459Z-o2r5Dx/report.json",
+      "sha256": "2a443e74c17ea61525b04f4ebae58cc35fcbfa02a1bbfe047e6338ce51644d8b",
+      "outcome": "fail"
+    },
+    {
+      "label": "shared_disposable_intermediate_failure_1",
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/a11y-review-w9ots_ff/out/brand/accessibility-browser/2026-10-12T16-27-42-935Z/report.json",
+      "sha256": "9ef12977285a817d75a8c235569b91207ea4acafa1f3b4b6b1fd585b15126931",
+      "outcome": "error"
+    },
+    {
+      "label": "shared_disposable_intermediate_failure_2",
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/a11y-review-w9ots_ff/out/brand/accessibility-browser/2026-10-12T16-29-05-971Z/report.json",
+      "sha256": "7620e282ed4005cceba5179cffd3a41287f07c5e30027262fff29f40f46d1b83",
+      "outcome": "error"
+    }
+  ],
+  "history_note": "The shared original disposable copy changed while intermediate fix runs were in progress; its two failures are preserved but are not clean candidate validation. The dedicated branch and runner create isolated snapshots. The first regression runner red result reproduced both original false passes. The fixed exact-commit results are the current evidence.",
+  "remaining": [
+    "Parent independent review of these authored fixes",
+    "Parent inventory + Makefile + release leaf integration",
+    "Approved fonts, true browser zoom, named accessibility acceptance and real consumer ACKs remain pending"
+  ]
+}

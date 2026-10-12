@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "reviewer": "Astra agent /root/pr3_reconcile",
+  "review_type": "independent exact-candidate scoped engineering review",
+  "reviewed_at": "2026-10-12T17:04:36.440079+00:00",
+  "source_sha": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+  "source_tree": "9b4e5bffc559494731cfdcc23c5df7582792736c",
+  "remote_evidence": {
+    "branch_url": "https://api.github.com/repos/Jevelopers-neatHack-2026/brand-kit/git/ref/heads/integration/bk-mvp-readiness-20261012",
+    "ref": "refs/heads/integration/bk-mvp-readiness-20261012",
+    "branch_sha": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+    "commit_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/commit/d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+    "source_sha": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+    "source_tree": "9b4e5bffc559494731cfdcc23c5df7582792736c",
+    "parents": [
+      "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0"
+    ]
+  },
+  "clean_before_and_after": true,
+  "disposition": "APPROVE",
+  "blocking_findings": [],
+  "carried_review": {
+    "path": "/workspace/scratch/5ecc3c6cf97a/triage/final-review-assets-metadata.json",
+    "sha256": "dcfb58c5302077725dadc9918d6c36ca4f79c12dd13fc4c7a00986ffa4308b0a",
+    "source_sha": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+    "unchanged_path_count": 40,
+    "byte_comparisons": {
+      "Makefile": {
+        "prior_sha256": "7c9355056ebcc30629415ff56854913a748faf47890424ff71582d2696cf9ea9",
+        "candidate_sha256": "7c9355056ebcc30629415ff56854913a748faf47890424ff71582d2696cf9ea9",
+        "identical": true
+      },
+      "docs/source-of-truth.md": {
+        "prior_sha256": "0f0d5e31d6d1a904002db378303311d26f6a8d3c6b1095308a13d7d6a5dd353d",
+        "candidate_sha256": "0f0d5e31d6d1a904002db378303311d26f6a8d3c6b1095308a13d7d6a5dd353d",
+        "identical": true
+      },
+      "fonts/Fraunces-OFL.txt": {
+        "prior_sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+        "candidate_sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+        "identical": true
+      },
+      "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf": {
+        "prior_sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb",
+        "candidate_sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb",
+        "identical": true
+      },
+      "fonts/InterTight-OFL.txt": {
+        "prior_sha256": "50240ab035cf1b6b3307940235481d515c4b6de3ab1fa843dbe59e7892cb9d58",
+        "candidate_sha256": "50240ab035cf1b6b3307940235481d515c4b6de3ab1fa843dbe59e7892cb9d58",
+        "identical": true
+      },
+      "fonts/InterTight[wght].ttf": {
+        "prior_sha256": "b81b73dcb64df3c230cabade7df6c5773bf863233f24c9ee51087519f1f88b6f",
+        "candidate_sha256": "b81b73dcb64df3c230cabade7df6c5773bf863233f24c9ee51087519f1f88b6f",
+        "identical": true
+      },
+      "inventory/brand-inventory.json": {
+        "prior_sha256": "34a8e0b180ec4ec50baf02994922cf0918a7c14668a294e8f5cd26f80395d3c5",
+        "candidate_sha256": "34a8e0b180ec4ec50baf02994922cf0918a7c14668a294e8f5cd26f80395d3c5",
+        "identical": true
+      },
+      "logo/app-icon.svg": {
+        "prior_sha256": "22129ff127d1c229d33206d5df48c36f7e3338cb697ac04fe97090448b77456e",
+        "candidate_sha256": "22129ff127d1c229d33206d5df48c36f7e3338cb697ac04fe97090448b77456e",
+        "identical": true
+      },
+      "logo/favicon.svg": {
+        "prior_sha256": "ad9701d4ae6416c6a9d789c80b422ace7ab70cf1feac57adab4bbcc25d47d3b1",
+        "candidate_sha256": "ad9701d4ae6416c6a9d789c80b422ace7ab70cf1feac57adab4bbcc25d47d3b1",
+        "identical": true
+      },
+      "logo/lockup-horizontal-mono.svg": {
+        "prior_sha256": "07c25323b72a10cf98b023b95c13fd3e51851405731b04b83f30eaf1d1b6cfe3",
+        "candidate_sha256": "07c25323b72a10cf98b023b95c13fd3e51851405731b04b83f30eaf1d1b6cfe3",
+        "identical": true
+      },
+      "logo/lockup-horizontal.svg": {
+        "prior_sha256": "1f810daf26caebd3f661b30a4406dbea61d5cd294e6e887c0b994780d9b3750f",
+        "candidate_sha256": "1f810daf26caebd3f661b30a4406dbea61d5cd294e6e887c0b994780d9b3750f",
+        "identical": true
+      },
+      "logo/lockup-stacked.svg": {
+        "prior_sha256": "66a16141405d18cca1ea709c0a8a9d59f248b442e7fc27ffb4e655501741edb0",
+        "candidate_sha256": "66a16141405d18cca1ea709c0a8a9d59f248b442e7fc27ffb4e655501741edb0",
+        "identical": true
+      },
+      "logo/ts-stamp-currentcolor.svg": {
+        "prior_sha256": "61007e1795eac0582f20f57bcdaf83eab5d8c9cadc054e824ce686cf1796a5a9",
+        "candidate_sha256": "61007e1795eac0582f20f57bcdaf83eab5d8c9cadc054e824ce686cf1796a5a9",
+        "identical": true
+      },
+      "logo/ts-stamp-mono-cream.svg": {
+        "prior_sha256": "077f0b2936af1a842991d5922f5471067486447fb3e9c570b8510f2260f9dae5",
+        "candidate_sha256": "077f0b2936af1a842991d5922f5471067486447fb3e9c570b8510f2260f9dae5",
+        "identical": true
+      },
+      "logo/ts-stamp-mono-ink.svg": {
+        "prior_sha256": "2b3ec01e538a1ff55250965c324ac0e999234a9039b8dbbf8864c09430ea8bae",
+        "candidate_sha256": "2b3ec01e538a1ff55250965c324ac0e999234a9039b8dbbf8864c09430ea8bae",
+        "identical": true
+      },
+      "logo/ts-stamp-mono-orange.svg": {
+        "prior_sha256": "f00077dfb41815c3e26d8b32e4d572eff66834861433e301bb208108c21f07a8",
+        "candidate_sha256": "f00077dfb41815c3e26d8b32e4d572eff66834861433e301bb208108c21f07a8",
+        "identical": true
+      },
+      "logo/ts-stamp.svg": {
+        "prior_sha256": "a1279c701ff62a20288854bef1e7a7718128125d745485e30a019f2a2c78efd8",
+        "candidate_sha256": "a1279c701ff62a20288854bef1e7a7718128125d745485e30a019f2a2c78efd8",
+        "identical": true
+      },
+      "logo/wordmark-compact.svg": {
+        "prior_sha256": "9c147c238f5734d0673760ca95c8ea031e313b3fbeb4d91e440e746e49bfa9dc",
+        "candidate_sha256": "9c147c238f5734d0673760ca95c8ea031e313b3fbeb4d91e440e746e49bfa9dc",
+        "identical": true
+      },
+      "logo/wordmark-cream.svg": {
+        "prior_sha256": "4a0bb63ef3d4712e0ada667d36b8b1f8b4b22cc4049468260d1742ab69cc4478",
+        "candidate_sha256": "4a0bb63ef3d4712e0ada667d36b8b1f8b4b22cc4049468260d1742ab69cc4478",
+        "identical": true
+      },
+      "logo/wordmark-orange.svg": {
+        "prior_sha256": "ba247fb4be9ee19803f487ee3abb048b5f0905ef944673a5a78cc4544a2a5906",
+        "candidate_sha256": "ba247fb4be9ee19803f487ee3abb048b5f0905ef944673a5a78cc4544a2a5906",
+        "identical": true
+      },
+      "logo/wordmark.svg": {
+        "prior_sha256": "4efa5c6a27904c18dcb2dc482d1d6c525fbcaabed74914129efa1af9e834fb4c",
+        "candidate_sha256": "4efa5c6a27904c18dcb2dc482d1d6c525fbcaabed74914129efa1af9e834fb4c",
+        "identical": true
+      },
+      "provenance/allowlist.json": {
+        "prior_sha256": "40b7842c9c30972e95e81f9fe7151aa954bf802d486b0108e244bc0164d38524",
+        "candidate_sha256": "40b7842c9c30972e95e81f9fe7151aa954bf802d486b0108e244bc0164d38524",
+        "identical": true
+      },
+      "provenance/register.json": {
+        "prior_sha256": "8e6a6349299cb8a9a5e08ad505e6c18c855821d0a0a563329141324a2f46c6ae",
+        "candidate_sha256": "8e6a6349299cb8a9a5e08ad505e6c18c855821d0a0a563329141324a2f46c6ae",
+        "identical": true
+      },
+      "tokens/external-fonts-google.css": {
+        "prior_sha256": "1ef1548293ec7bc35b11c58a802fb283a4abf795d5344949c5ee0c62b4108595",
+        "candidate_sha256": "1ef1548293ec7bc35b11c58a802fb283a4abf795d5344949c5ee0c62b4108595",
+        "identical": true
+      },
+      "tokens/mapping.json": {
+        "prior_sha256": "7db9104591711ff10a86f2fa26f2ec64fc995f3fb5eec9b7040be6ae363ffb45",
+        "candidate_sha256": "7db9104591711ff10a86f2fa26f2ec64fc995f3fb5eec9b7040be6ae363ffb45",
+        "identical": true
+      },
+      "tokens/profile.json": {
+        "prior_sha256": "18ce404d9e9f667bcab5a6cc0a87ca7be9e9866c5b7e69bff0c529e21742fef3",
+        "candidate_sha256": "18ce404d9e9f667bcab5a6cc0a87ca7be9e9866c5b7e69bff0c529e21742fef3",
+        "identical": true
+      },
+      "tokens/tailwind.preset.js": {
+        "prior_sha256": "44a48264838822b41954f946765264740196621b4504947258e54734b20c79ae",
+        "candidate_sha256": "44a48264838822b41954f946765264740196621b4504947258e54734b20c79ae",
+        "identical": true
+      },
+      "tokens/token-matrix.md": {
+        "prior_sha256": "45808874e91f2821e179b66726ed8d21b835c7565d46fe4e19ffccce8f8def82",
+        "candidate_sha256": "45808874e91f2821e179b66726ed8d21b835c7565d46fe4e19ffccce8f8def82",
+        "identical": true
+      },
+      "tokens/tokens.css": {
+        "prior_sha256": "e34223aecf3b5459f046506f5bb97b415b0feeef1d237021d672c5cc59ef3f98",
+        "candidate_sha256": "e34223aecf3b5459f046506f5bb97b415b0feeef1d237021d672c5cc59ef3f98",
+        "identical": true
+      },
+      "tokens/tokens.json": {
+        "prior_sha256": "f441264f2e56f8fc8be5129a5a5b3f50403582ee5eb43821c7afb3ed1129b551",
+        "candidate_sha256": "f441264f2e56f8fc8be5129a5a5b3f50403582ee5eb43821c7afb3ed1129b551",
+        "identical": true
+      },
+      "tools/asset_lib.py": {
+        "prior_sha256": "1f2e2426aff4298c5433437e19f8f98cdecaa1d81e96a1aa34ed448a7151eac6",
+        "candidate_sha256": "1f2e2426aff4298c5433437e19f8f98cdecaa1d81e96a1aa34ed448a7151eac6",
+        "identical": true
+      },
+      "tools/assets/export-matrix.json": {
+        "prior_sha256": "76eaabd3a5923a63471af5b6aab5f7b761007c87d2fa7f515c3e31468756979f",
+        "candidate_sha256": "76eaabd3a5923a63471af5b6aab5f7b761007c87d2fa7f515c3e31468756979f",
+        "identical": true
+      },
+      "tools/assets/requirements.txt": {
+        "prior_sha256": "48392b83c5c0517221ff710a06a11279c3249b77c2b2d0756c72567105299fc6",
+        "candidate_sha256": "48392b83c5c0517221ff710a06a11279c3249b77c2b2d0756c72567105299fc6",
+        "identical": true
+      },
+      "tools/assets/toolchain.json": {
+        "prior_sha256": "bda1bd8911080c944c5e2114d2a1d9e507b2fcc25bd736c981cb10860742955b",
+        "candidate_sha256": "bda1bd8911080c944c5e2114d2a1d9e507b2fcc25bd736c981cb10860742955b",
+        "identical": true
+      },
+      "tools/build_assets.py": {
+        "prior_sha256": "a5ff6a6733f6ae303dee8de2a14b15177e473299241190ff26943a9dc28c782b",
+        "candidate_sha256": "a5ff6a6733f6ae303dee8de2a14b15177e473299241190ff26943a9dc28c782b",
+        "identical": true
+      },
+      "tools/build_logos.py": {
+        "prior_sha256": "6d6419ca22d79f0f542666c3ee20301d3d2653d81ffb1d2d248d1c97e05b9a06",
+        "candidate_sha256": "6d6419ca22d79f0f542666c3ee20301d3d2653d81ffb1d2d248d1c97e05b9a06",
+        "identical": true
+      },
+      "tools/check_asset.py": {
+        "prior_sha256": "c8027e2592e4fd453df043825196c208b7a1c794e7a65167fffdeca377b61e68",
+        "candidate_sha256": "c8027e2592e4fd453df043825196c208b7a1c794e7a65167fffdeca377b61e68",
+        "identical": true
+      },
+      "tools/check_brand_release.py": {
+        "prior_sha256": "26a31c01a3aa78bd9468c2680b5b2e332f0f661537e9ec7a705640242b55bbd0",
+        "candidate_sha256": "26a31c01a3aa78bd9468c2680b5b2e332f0f661537e9ec7a705640242b55bbd0",
+        "identical": true
+      },
+      "tools/tests/test_assets.py": {
+        "prior_sha256": "08c0852f67e7be9c58e0bc47a61d6caa22f8964a52141f738bc501c36bec278c",
+        "candidate_sha256": "08c0852f67e7be9c58e0bc47a61d6caa22f8964a52141f738bc501c36bec278c",
+        "identical": true
+      },
+      "tools/tests/test_checks.py": {
+        "prior_sha256": "d3c17965c4f15d4bb68d8b36cfcb22cffaa71135f9e5050f78df55d98f4adcca",
+        "candidate_sha256": "d3c17965c4f15d4bb68d8b36cfcb22cffaa71135f9e5050f78df55d98f4adcca",
+        "identical": true
+      }
+    }
+  },
+  "carried_followup_reviews": {
+    "path": "/workspace/scratch/5ecc3c6cf97a/triage/followup-review-output-and-guide-context.json",
+    "sha256": "469b7b287e1d39ad61be6072d084269ff45a246fdf6dae286bb7505ca1de75ad",
+    "byte_comparisons": {
+      "tools/check_consumer_browser.cjs": {
+        "prior_reviewed_source": "43f9e035fc03442fb05613bba562527ed215793e",
+        "prior_sha256": "569d72cf5b91a8ca78dc88b5348f814dec828810de702f6acab843f06f4a97d2",
+        "candidate_sha256": "569d72cf5b91a8ca78dc88b5348f814dec828810de702f6acab843f06f4a97d2",
+        "identical": true
+      },
+      "docs/distribution.md": {
+        "prior_reviewed_source": "d340ab76845001f2420a203ad5fe939e47fb09f9",
+        "prior_sha256": "6ce378046aeea4e05ca180882197007890575285d1dc773a1ef7d6687910f82b",
+        "candidate_sha256": "6ce378046aeea4e05ca180882197007890575285d1dc773a1ef7d6687910f82b",
+        "identical": true
+      },
+      "docs/consumers.md": {
+        "prior_reviewed_source": "d340ab76845001f2420a203ad5fe939e47fb09f9",
+        "prior_sha256": "53723abb67ed5346cbaf88e70085dee301fd2cc727bcc6d396c5408522e8f663",
+        "candidate_sha256": "53723abb67ed5346cbaf88e70085dee301fd2cc727bcc6d396c5408522e8f663",
+        "identical": true
+      }
+    }
+  },
+  "actual_checks_this_review": [
+    {
+      "command": "GitHub GET branch ref and exact Git commit",
+      "outcome": "pass",
+      "scope": "remote branch SHA and commit tree match local clean detached checkout"
+    },
+    {
+      "command": "Exact Git blob SHA-256 and byte comparisons for the prior scoped review and follow-up files",
+      "outcome": "pass",
+      "unchanged_prior_scope_paths": 40,
+      "unchanged_followup_files": 3
+    },
+    {
+      "command": "git diff --check d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0 HEAD",
+      "exit_code": 0
+    }
+  ],
+  "new_full_suite_or_browser_execution_by_this_reviewer": false,
+  "retained_prior_results_note": "Previous actual commands and outcomes stay in their original d7/guard/guide reports; no prior pass has been relabeled as a new execution. Root runs the full exact-head gate and dependency reviewer owns runtime filesystem/clipping negatives.",
+  "approval_exclusions": [
+    "Previously authored guide content, identity/usage/claim docs and guidelines checker/tests",
+    "Previously authored distribution consumer fixtures and base consumer browser runner",
+    "Dependency-owned consumer/distribution implementation and focus-clipping/runtime filesystem regression work",
+    "Owner rights/identity/provider/font/consumer/release decisions and foreign/global acceptance"
+  ],
+  "repository_edits_by_reviewer": false,
+  "github_mutations_by_reviewer": false,
+  "verbatim_review_summary": "Independent scoped engineering review by Astra agent /root/pr3_reconcile: APPROVE at d25cf8a023a7b1d110c105a1c2a36cb5577df7f3 (tree 9b4e5bffc559494731cfdcc23c5df7582792736c). I refreshed the GitHub branch and commit and confirmed the clean detached checkout. All 40 asset, font, token, provenance, inventory and integration-metadata paths in my prior d7d4fb3 review are byte-identical on this candidate; that scoped review carries forward by exact comparison. The prior reviewed output-reservation delta at 43f9e035fc03442fb05613bba562527ed215793e and guide-context additions at d340ab76845001f2420a203ad5fe939e47fb09f9 are also present with exactly the reviewed bytes. The output guard rejects existing or unsafe destinations before reservation, rechecks directory identity, and writes the final report exclusively. The guide notes bind source-only links and producer commands to the trusted exact MANIFEST source SHA without expanding exports or inferring current approval. Previously recorded focused checks remain attached to their actual revisions: four governance/inventory/link/classification tests at d7, syntax at the guard revision, and 353 local links with zero broken at the guide revision; 160 external URLs remain unchecked. These are not relabeled as new executions. No blocking finding remains in my scope. My own original guide, guidelines, consumer fixture and browser-runner implementation, and the dependency reviewer's focus-clipping/runtime guard checks, remain outside this independent approval. The root's exact-head aggregate gate and other reviewers' runtime results remain separate. This is engineering approval only; identity, rights, provider fonts, named consumer acceptance, release/gate/epic closure and foreign/global acceptance are not supplied. No repository or GitHub mutation was performed by this reviewer."
+}

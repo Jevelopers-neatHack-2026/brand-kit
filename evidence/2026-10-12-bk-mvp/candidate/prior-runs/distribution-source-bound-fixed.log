@@ -1,0 +1,32 @@
+test_consumer_recomputes_source_metadata_after_resealing (test_distribution.DistributionTests.test_consumer_recomputes_source_metadata_after_resealing) ... ok
+test_css_plain_import_and_network_negative (test_distribution.DistributionTests.test_css_plain_import_and_network_negative) ... ok
+test_deterministic_review_build_with_explicit_nonapproval (test_distribution.DistributionTests.test_deterministic_review_build_with_explicit_nonapproval) ... ok
+test_dirty_tree_and_hidden_index_changes_block_build (test_distribution.DistributionTests.test_dirty_tree_and_hidden_index_changes_block_build) ... ok
+test_duplicate_json_keys_are_rejected (test_distribution.DistributionTests.test_duplicate_json_keys_are_rejected) ... ok
+test_existing_output_and_symlink_are_refused (test_distribution.DistributionTests.test_existing_output_and_symlink_are_refused) ... ok
+test_external_font_receipt_is_separate_from_execution (test_distribution.DistributionTests.test_external_font_receipt_is_separate_from_execution) ... ok
+test_font_and_reference_source_bytes_are_absent (test_distribution.DistributionTests.test_font_and_reference_source_bytes_are_absent) ... ok
+test_gate_retains_failed_and_skipped_required_checks (test_distribution.DistributionTests.test_gate_retains_failed_and_skipped_required_checks) ... ok
+test_independent_checksum_pin_is_required (test_distribution.DistributionTests.test_independent_checksum_pin_is_required) ... ok
+test_manifest_cannot_claim_release_or_change_source (test_distribution.DistributionTests.test_manifest_cannot_claim_release_or_change_source) ... ok
+test_missing_and_tampered_members_are_rejected (test_distribution.DistributionTests.test_missing_and_tampered_members_are_rejected) ... ok
+test_missing_tailwind_is_required_skip (test_distribution.DistributionTests.test_missing_tailwind_is_required_skip) ... ok
+test_moving_partial_and_unknown_refs_are_rejected (test_distribution.DistributionTests.test_moving_partial_and_unknown_refs_are_rejected) ... ok
+test_no_named_acknowledgment_is_fabricated (test_distribution.DistributionTests.test_no_named_acknowledgment_is_fabricated) ... ok
+test_normal_contract_report_cannot_convert_missing_provider_evidence_to_pass (test_distribution.DistributionTests.test_normal_contract_report_cannot_convert_missing_provider_evidence_to_pass) ... ok
+test_production_blocks_empty_allowlist_and_missing_rights (test_distribution.DistributionTests.test_production_blocks_empty_allowlist_and_missing_rights) ... ok
+test_removed_tokens_and_paths_need_breaking_migration (test_distribution.DistributionTests.test_removed_tokens_and_paths_need_breaking_migration) ... ok
+test_rendered_fixture_links_require_logo_and_compiled_css (test_distribution.DistributionTests.test_rendered_fixture_links_require_logo_and_compiled_css) ... ok
+test_resealed_path_selection_must_match_source_proposal (test_distribution.DistributionTests.test_resealed_path_selection_must_match_source_proposal) ... ok
+test_resealed_provenance_cannot_clear_or_hide_unknown_rights (test_distribution.DistributionTests.test_resealed_provenance_cannot_clear_or_hide_unknown_rights) ... ok
+test_resealed_review_cannot_promote_itself_to_approved (test_distribution.DistributionTests.test_resealed_review_cannot_promote_itself_to_approved) ... ok
+test_source_provenance_uses_pinned_tree_not_mutable_checkout (test_distribution.DistributionTests.test_source_provenance_uses_pinned_tree_not_mutable_checkout) ... ok
+test_symlinks_and_compressed_archives_are_rejected (test_distribution.DistributionTests.test_symlinks_and_compressed_archives_are_rejected) ... ok
+test_unlisted_member_and_reference_and_font_are_rejected (test_distribution.DistributionTests.test_unlisted_member_and_reference_and_font_are_rejected) ... ok
+test_unsafe_duplicate_and_case_colliding_paths_are_rejected (test_distribution.DistributionTests.test_unsafe_duplicate_and_case_colliding_paths_are_rejected) ... ok
+test_wrong_manifest_types_fail_closed (test_distribution.DistributionTests.test_wrong_manifest_types_fail_closed) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 13.506s
+
+OK

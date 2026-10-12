@@ -1,0 +1,175 @@
+{
+  "recorded_at": "2026-10-12 17:06:51 UTC",
+  "repository": "Jevelopers-neatHack-2026/brand-kit",
+  "repository_visibility": "public",
+  "applicable_policy_source": "2f61f8551ecf38170f0c5b225305c950c7c3b222",
+  "main": {
+    "name": "main",
+    "commit": {
+      "sha": "3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4",
+      "url": "https://api.github.com/repos/Jevelopers-neatHack-2026/brand-kit/commits/3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4"
+    },
+    "protected": false
+  },
+  "candidate": {
+    "name": "integration/bk-mvp-readiness-20261012",
+    "commit": {
+      "sha": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+      "url": "https://api.github.com/repos/Jevelopers-neatHack-2026/brand-kit/commits/d25cf8a023a7b1d110c105a1c2a36cb5577df7f3"
+    },
+    "protected": false
+  },
+  "pr3": {
+    "name": "docs/studio-links",
+    "commit": {
+      "sha": "289b22659f0699649abd65ba7a3b7e710839f4d3",
+      "url": "https://api.github.com/repos/Jevelopers-neatHack-2026/brand-kit/commits/289b22659f0699649abd65ba7a3b7e710839f4d3"
+    },
+    "protected": false
+  },
+  "pr23": {
+    "number": 23,
+    "head": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+    "base": "3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4",
+    "mergeable": true,
+    "mergeable_state": "clean",
+    "draft": false
+  },
+  "merge_methods": {
+    "merge": true,
+    "squash": true,
+    "rebase": true
+  },
+  "rulesets": [],
+  "formal_reviews": [],
+  "check_runs": [],
+  "status_contexts": [],
+  "actions_runs": [],
+  "review_mode": "Independent scoped exact-head agent review recorded in PR conversation comments, following PR22 precedent; no formal GitHub self-approval and no named brand/rights/consumer acceptance",
+  "detailed_branch_protection": "Not available through connector; public branch listing reports main protected=false; no settings changed",
+  "consumer_svg_parity": {
+    "brand_source_revision": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+    "product_source_revision": "b5573270af362295c126e8b0be61b64f748c09a5",
+    "mode": "read-only exact Git blob comparison; no consumer browser/acceptance or rights claim",
+    "pairs": [
+      {
+        "source_path": "logo/app-icon.svg",
+        "brand_git_blob": "83d73b396da1c74e868773c426b5118d878f7268",
+        "consumer_path": "public/brand/app-icon.svg",
+        "consumer_git_blob": "83d73b396da1c74e868773c426b5118d878f7268",
+        "equal": true
+      },
+      {
+        "source_path": "logo/favicon.svg",
+        "brand_git_blob": "6b4df7c7a909bf46182e69f242ed163f0a34180e",
+        "consumer_path": "public/brand/favicon.svg",
+        "consumer_git_blob": "6b4df7c7a909bf46182e69f242ed163f0a34180e",
+        "equal": true
+      },
+      {
+        "source_path": "logo/lockup-horizontal-mono.svg",
+        "brand_git_blob": "73eb76e4ce1ed2db5431f1a21e0214dc92937a64",
+        "consumer_path": "public/brand/lockup-horizontal-mono.svg",
+        "consumer_git_blob": "73eb76e4ce1ed2db5431f1a21e0214dc92937a64",
+        "equal": true
+      },
+      {
+        "source_path": "logo/lockup-horizontal.svg",
+        "brand_git_blob": "6b17f9f18bd5b5784d5c7ef269e2e35b363d8b95",
+        "consumer_path": "public/brand/lockup-horizontal.svg",
+        "consumer_git_blob": "6b17f9f18bd5b5784d5c7ef269e2e35b363d8b95",
+        "equal": true
+      },
+      {
+        "source_path": "logo/lockup-stacked.svg",
+        "brand_git_blob": "d91b363460652bef435ecb1d0aeb6b8fe50b8dc3",
+        "consumer_path": "public/brand/lockup-stacked.svg",
+        "consumer_git_blob": "d91b363460652bef435ecb1d0aeb6b8fe50b8dc3",
+        "equal": true
+      },
+      {
+        "source_path": "logo/ts-stamp-currentcolor.svg",
+        "brand_git_blob": "7e58592a33301afe223b7541278d3061584417a0",
+        "consumer_path": "public/brand/ts-stamp-currentcolor.svg",
+        "consumer_git_blob": "7e58592a33301afe223b7541278d3061584417a0",
+        "equal": true
+      },
+      {
+        "source_path": "logo/ts-stamp-mono-cream.svg",
+        "brand_git_blob": "ce2d222ee40d9de9c7c0abca6a09c2a955697ed7",
+        "consumer_path": "public/brand/ts-stamp-mono-cream.svg",
+        "consumer_git_blob": "ce2d222ee40d9de9c7c0abca6a09c2a955697ed7",
+        "equal": true
+      },
+      {
+        "source_path": "logo/ts-stamp-mono-ink.svg",
+        "brand_git_blob": "aca1e449b9d1384e8293386df22268da9faae498",
+        "consumer_path": "public/brand/ts-stamp-mono-ink.svg",
+        "consumer_git_blob": "aca1e449b9d1384e8293386df22268da9faae498",
+        "equal": true
+      },
+      {
+        "source_path": "logo/ts-stamp-mono-orange.svg",
+        "brand_git_blob": "9c03e00beb4270082ad8a57fe8ac2a35fe5c254a",
+        "consumer_path": "public/brand/ts-stamp-mono-orange.svg",
+        "consumer_git_blob": "9c03e00beb4270082ad8a57fe8ac2a35fe5c254a",
+        "equal": true
+      },
+      {
+        "source_path": "logo/ts-stamp.svg",
+        "brand_git_blob": "dae8c394057e475f59bfd624586246a17784d732",
+        "consumer_path": "public/brand/ts-stamp.svg",
+        "consumer_git_blob": "dae8c394057e475f59bfd624586246a17784d732",
+        "equal": true
+      },
+      {
+        "source_path": "logo/wordmark-compact.svg",
+        "brand_git_blob": "09acb8303bc9b7279ac70227a823a1203d2f1017",
+        "consumer_path": "public/brand/wordmark-compact.svg",
+        "consumer_git_blob": "09acb8303bc9b7279ac70227a823a1203d2f1017",
+        "equal": true
+      },
+      {
+        "source_path": "logo/wordmark-cream.svg",
+        "brand_git_blob": "c0e3be6e098916ccaac69e59dc4860f2b619d27a",
+        "consumer_path": "public/brand/wordmark-cream.svg",
+        "consumer_git_blob": "c0e3be6e098916ccaac69e59dc4860f2b619d27a",
+        "equal": true
+      },
+      {
+        "source_path": "logo/wordmark-orange.svg",
+        "brand_git_blob": "79470025b69f80bed1c3a54770ba8b5e042b0aea",
+        "consumer_path": "public/brand/wordmark-orange.svg",
+        "consumer_git_blob": "79470025b69f80bed1c3a54770ba8b5e042b0aea",
+        "equal": true
+      },
+      {
+        "source_path": "logo/wordmark.svg",
+        "brand_git_blob": "251a2508a5a04fd05d1f69f2997ddc103d2f8f02",
+        "consumer_path": "public/brand/wordmark.svg",
+        "consumer_git_blob": "251a2508a5a04fd05d1f69f2997ddc103d2f8f02",
+        "equal": true
+      }
+    ],
+    "previous_product_source_revision": "6daafba1a3384b20ad181b957fd5d5715da29153",
+    "latest_product_change": "PR103 HTTP origin/receipt settlement; no public/brand SVG or pinned studio document changed",
+    "studio_targets": [
+      {
+        "path": "docs/studio/stub-system.md",
+        "blob_sha": "63be6828dd8cda4d80ff2f62668fdd6a32daa3d6"
+      },
+      {
+        "path": "docs/studio/research/holo-foil-technique.md",
+        "blob_sha": "515b9df91b5be9d76adfa3f795e1de7a7fe5ea48"
+      }
+    ]
+  },
+  "dependency_refresh": {
+    "checked_at": "2026-10-12 17:10:53 UTC",
+    "shared_contracts": "7251a09c4eaddbb1232d444fd931a01c266095ac",
+    "integration_evals": "56018576a9450a2bb46aa55ed3b2f9d9ae97e50d",
+    "acceptance_checklist_git_blob": "7d7e48f2bb86f563e2f0391cff7c0c5b91320e33",
+    "change_scope": "Product PR103 and integration-evals PR58 add unrelated implementation; Product's 14 brand SVGs and both pinned studio targets are unchanged. Integration-evals commit diff leaves canonical acceptance checklist unchanged.",
+    "foreign_acceptance_changed": false
+  }
+}

@@ -1,0 +1,5 @@
+make[1]: Entering directory '/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate'
+/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python -I tools/build_tokens.py check
+check-tokens: OK (82 tokens; 2 builds identical; outputs match committed files; CSS/JSON parity in 5 contexts)
+/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python -m unittest tools/tests/test_tokens.py
+make[1]: Leaving directory '/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate'

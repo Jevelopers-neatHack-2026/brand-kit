@@ -1,0 +1,87 @@
+{
+  "scope": "local installed development dependency metadata; no new asset rights or distribution permission is inferred",
+  "packages": [
+    {
+      "name": "fonttools",
+      "version": "4.66.1",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_file_hashes": [
+        {
+          "path": "fonttools-4.66.1.dist-info/licenses/LICENSE",
+          "sha256": "6787208f83f659ccbc2223b2fde952ffa6f7e8aca62f1a8a2bf5bc51bb1b2383"
+        },
+        {
+          "path": "fonttools-4.66.1.dist-info/licenses/LICENSE.external",
+          "sha256": "94a83aaee0729a0f302d34acc4acecbd9d58366f262429075fe557e4a54b2e69"
+        }
+      ]
+    },
+    {
+      "name": "uharfbuzz",
+      "version": "0.56.3",
+      "license_expression": null,
+      "license_metadata": "Apache License 2.0",
+      "license_file_hashes": [
+        {
+          "path": "uharfbuzz-0.56.3.dist-info/licenses/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ]
+    },
+    {
+      "name": "Pillow",
+      "version": "12.3.0",
+      "license_expression": "MIT-CMU",
+      "license_metadata": null,
+      "license_file_hashes": [
+        {
+          "path": "pillow-12.3.0.dist-info/licenses/LICENSE",
+          "sha256": "dda12a98c1979cf3d94df1cff45d27a4cb3f04a60c76f76902ac54cac03ec0ce"
+        }
+      ]
+    },
+    {
+      "name": "tailwindcss",
+      "version": "3.4.19",
+      "license_metadata": "MIT",
+      "license_file_hashes": [
+        {
+          "path": "LICENSE",
+          "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985"
+        }
+      ]
+    },
+    {
+      "name": "playwright",
+      "version": "1.56.1",
+      "license_metadata": "Apache-2.0",
+      "license_file_hashes": [
+        {
+          "path": "LICENSE",
+          "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d"
+        }
+      ]
+    },
+    {
+      "name": "playwright-core",
+      "version": "1.56.1",
+      "license_metadata": "Apache-2.0",
+      "license_file_hashes": [
+        {
+          "path": "LICENSE",
+          "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d"
+        }
+      ]
+    }
+  ],
+  "no_new_runtime_font_bundles": true
+}

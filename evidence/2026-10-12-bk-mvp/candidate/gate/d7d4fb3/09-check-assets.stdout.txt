@@ -1,0 +1,8 @@
+make[1]: Entering directory '/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate'
+/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python -I tools/build_assets.py check
+PASS: 14 canonical SVGs unchanged; 4 PNG exports; 80 QA cases; two builds match (185 files).
+Source revision: d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0; input changes: 0
+Manifest SHA-256: 6d83cba0094ae1c7b5e2ba2fa3658f17c45e33d549163ee5bde92b719e3366b9
+Release/identity/rights/consumer approval: PENDING. No font distribution or provider call.
+/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python -m unittest tools.tests.test_assets -v
+make[1]: Leaving directory '/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate'

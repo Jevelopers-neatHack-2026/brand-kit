@@ -1,0 +1,2 @@
+FAIL: brand-governance.md: broken link identity-decision-packet.md
+exit 1

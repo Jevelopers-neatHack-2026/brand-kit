@@ -1,0 +1,4 @@
+make[1]: Entering directory '/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate'
+/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python -I tools/build_distribution.py build --out "/tmp/brand-gate-parent-vf2bpjh2/run/approved-brand.zip"
+BLOCKED selected source provenance/allowlist blocks approved packaging
+make[1]: Leaving directory '/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate'

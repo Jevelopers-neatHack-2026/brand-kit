@@ -1,0 +1,118 @@
+{
+  "mode": "synthetic disposable source-review probes; no provider request or approval",
+  "runtime": "PLAYWRIGHT_BROWSERS_PATH=/tmp/ticketstub-browser-1194",
+  "prior_runtime_missing_results": "results.json",
+  "cases": [
+    {
+      "name": "focus-clipping",
+      "actual_exit": 0,
+      "report": "/workspace/scratch/5ecc3c6cf97a/triage/docs-a11y-second-review/focus-clipping/out/brand/accessibility-browser/2026-10-12T16-38-23-774Z/report.json",
+      "outcome": "pass-local-fixture",
+      "cases": 4,
+      "reason": null,
+      "focus_samples": [
+        {
+          "tag": "BUTTON",
+          "id": "sample-action",
+          "width": "3px",
+          "offset": "4px",
+          "visible": true,
+          "style": "solid",
+          "color": "rgb(23, 20, 15)",
+          "supported_surface": true,
+          "adjacent_contrast": 14.161717661383834
+        },
+        {
+          "tag": "BUTTON",
+          "id": "sample-action",
+          "width": "3px",
+          "offset": "4px",
+          "visible": true,
+          "style": "solid",
+          "color": "rgb(23, 20, 15)",
+          "supported_surface": true,
+          "adjacent_contrast": 14.161717661383834
+        },
+        {
+          "tag": "BUTTON",
+          "id": "sample-action",
+          "width": "3px",
+          "offset": "4px",
+          "visible": true,
+          "style": "solid",
+          "color": "rgb(124, 198, 210)",
+          "supported_surface": true,
+          "adjacent_contrast": 7.061666420042188
+        },
+        {
+          "tag": "BUTTON",
+          "id": "sample-action",
+          "width": "3px",
+          "offset": "4px",
+          "visible": true,
+          "style": "solid",
+          "color": "rgb(124, 198, 210)",
+          "supported_surface": true,
+          "adjacent_contrast": 7.061666420042188
+        },
+        {
+          "tag": "BUTTON",
+          "id": "sample-action",
+          "width": "3px",
+          "offset": "4px",
+          "visible": true,
+          "style": "solid",
+          "color": "rgb(23, 20, 15)",
+          "supported_surface": true,
+          "adjacent_contrast": 14.161717661383834
+        },
+        {
+          "tag": "BUTTON",
+          "id": "sample-action",
+          "width": "3px",
+          "offset": "4px",
+          "visible": true,
+          "style": "solid",
+          "color": "rgb(23, 20, 15)",
+          "supported_surface": true,
+          "adjacent_contrast": 14.161717661383834
+        },
+        {
+          "tag": "BUTTON",
+          "id": "sample-action",
+          "width": "3px",
+          "offset": "4px",
+          "visible": true,
+          "style": "solid",
+          "color": "rgb(124, 198, 210)",
+          "supported_surface": true,
+          "adjacent_contrast": 7.061666420042188
+        },
+        {
+          "tag": "BUTTON",
+          "id": "sample-action",
+          "width": "3px",
+          "offset": "4px",
+          "visible": true,
+          "style": "solid",
+          "color": "rgb(124, 198, 210)",
+          "supported_surface": true,
+          "adjacent_contrast": 7.061666420042188
+        }
+      ]
+    },
+    {
+      "name": "source-drift",
+      "actual_exit": 0,
+      "report": "/workspace/scratch/5ecc3c6cf97a/triage/docs-a11y-second-review/source-drift/out/brand/accessibility-browser/2026-10-12T16-38-32-473Z/report.json",
+      "outcome": "pass-local-fixture",
+      "cases": 4,
+      "reason": null,
+      "mutation_after_initial_read": true,
+      "before_sha256": "fba1a8bcda50b739c3c6df2046d5c98fbd62a948be97d502bc6191960e965d4b",
+      "reported_sha256": "fba1a8bcda50b739c3c6df2046d5c98fbd62a948be97d502bc6191960e965d4b",
+      "actual_final_sha256": "588780d476ca33d9ef8a75192b15c9b20414cebbccfac4f388b7874dd4d1f821",
+      "reported_worktree_diff_present": false
+    }
+  ]
+}

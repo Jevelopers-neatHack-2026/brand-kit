@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "reviewer": "independent /root/asset_pipeline reviewer",
+  "reviewed_at": "2026-10-12T16:59:35.524200+00:00",
+  "candidate_sha": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+  "candidate_tree": "8fa6555f217cf4ba141f54b3f0b5bae9e33078a3",
+  "working_tree_clean": true,
+  "matches_local_integration_revision": "013988e04c4e8678a85725cd0d92bc8fe6bfdda8",
+  "exact_tree_match": true,
+  "verdict": "request_changes",
+  "scope": "Independent docs/guidelines/numeric-accessibility, non-authored distribution/gate changes, historical current-eligibility fix and new consumer fixture/browser implementation. No brand, rights, release or consumer acceptance.",
+  "excluded_authorship": [
+    "Own asset implementation (2f891321, integrated afb59f6); root reviews it.",
+    "Own source-bound distribution metadata/extraction/provider-reporting implementation (e6d4c6e, integrated 39a1de5); root independently reviews it.",
+    "Own accessibility-browser freeze/clipped-ring implementation (7fb13539, integrated fd31017); root independently reviews it."
+  ],
+  "reviewed_paths_sha256": {
+    "docs/distribution.md": "47a66777c1ac478a1d9cd2c40ba58da476c993323a153e7abe78ba358fa60928",
+    "docs/consumers.md": "d5ce82006702f0ebd6971bce34520316fac7b17c9b5bc7a2a7ca9b65e08784a5",
+    "docs/identity-decision-packet.md": "ad3bd084375b64f231e6a11cbf4eec4f9d3344bb9d329879a4e0a7915f6662cd",
+    "docs/claims-register.md": "7ede13aaddee7756d061a1fae100243d02135364ecbd95b590c89ea1f220dc07",
+    "docs/usage.md": "5dce0185b63be1d7bbbc49630b21a52bfbccd36ecb01123749d9b8fdf67a82fb",
+    "docs/usage-examples.html": "26e4e7d5a58644057c7003eef2e5513bec1e94e05d68ceec8f26f8470f29d3d0",
+    "docs/guidelines-source-snapshot.json": "a1ded314ab7da0da1d96f5d70a0e09b0799fb18879c6abae41ddc1e86a82f58d",
+    "README.md": "b949a4fff170d775028d9c5db2cb6ef2e32ce482708e1f7a2d69b021f5ceabeb",
+    "SPEC.md": "0d9de5f012a3f3671a46b66f3d08910e9e61497df89320563c4488a25f189ade",
+    "index.html": "ef7e1c8073736a8fdc2a2f3ba1d4e7029f89fe7f24e61a36d990ef463b5c8e77",
+    "docs/voice.md": "82ce10f753dfd6f5693c0a70159950e91d0da6ba072b6868704849e58a0a7c9e",
+    "tools/check_guidelines.py": "a15d59812cae1506555c39d9f04a8bad10f2dd189f233a79100e7123b1fdd2ea",
+    "tools/tests/test_guidelines.py": "1c9a2bfcbe86b03de9e2d133ca7e13997564596cd08325c1987734ee15ba4923",
+    "tools/check_accessibility.py": "bb2f07e525fa33940c878d8f848e38dc4d6c7529616f39c743095b7a84c2267d",
+    "tools/tests/test_accessibility.py": "09e8c14da95c130cf73a82c40a36c51db443546d191d61b9ce59e778a58c9e1e",
+    "tools/check_brand_release.py": "26a31c01a3aa78bd9468c2680b5b2e332f0f661537e9ec7a705640242b55bbd0",
+    "tools/check_consumers.py": "5c8518f02013b5f7647394a38764d071bd4789c8162a2e56c83dc4bc892cbbf3",
+    "tools/tests/test_distribution.py": "7df24161ccb44e00841bf0a6ce935271117d25910ad209fff1286de144663cff",
+    "tools/check_consumer_browser.cjs": "5a16653cd3ab4a693c3d44f2f83b1f0c6b56107b15c56929b1c666068572a1c3",
+    "distribution/proposal.json": "9b1c84556bf7c1ff3998e53fa1bced6940697dd777384486f391f3e7e3282a61",
+    "distribution/acceptance.json": "7b1fed909a2be92a1cdc9e68ddb84b8e626d5a58b33526d92d13f4df4151f4ff",
+    "distribution/fixtures/plain.html.in": "885de693c4400d3bea5b339534e5dc5e1fd37e5778b4a18016dd01a7a111cb43",
+    "distribution/fixtures/plain.css": "90965f8529fff2f018d80a943a42e0d99bbdcff14b000138a54a9c8611ba30b4",
+    "distribution/fixtures/tailwind.html.in": "a84185e7911bbc50f1bcd733e7d75ba589022d3cc982e9cf3833d9502261d5e5",
+    "distribution/fixtures/tailwind.css": "0e5844ec75de2fb4a76097b26bb624bf8f9d9cf59f6d947855b743dd25f920fb"
+  },
+  "carried_forward_exact_byte_reviews": [
+    {
+      "revision": "c59cafdca396e7c08e65d0b66989dc6d7b6ffaa2",
+      "paths": [
+        "tools/check_consumers.py",
+        "tools/tests/test_distribution.py"
+      ],
+      "byte_identity_at_candidate": true,
+      "scope": "Non-authored current eligibility/allowlist/path/version/font-policy/decision revocation delta independently approved. Both focused historical-archive regressions passed at c59; synthetic approvals and compiler mock stay labelled.",
+      "evidence": "triage/asset-agent-c59cafd-focused-review.log"
+    },
+    {
+      "revision": "4e96666",
+      "scope": "Previously reviewed public docs/guidelines, fixed source snapshot and root numerical accessibility files are byte-identical at final candidate; no inferred approval or new provider request."
+    }
+  ],
+  "actual_focused_checks": [
+    {
+      "command": "python -I tools/check_guidelines.py",
+      "revision": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+      "exit_code": 0,
+      "result": "pass",
+      "summary": "4 public source hashes, 14 claim rows, 8 usage pairs, 14 canonical SVG variants. Source structure only; approvals remain pending."
+    },
+    {
+      "command": "python -I tools/check_accessibility.py check",
+      "revision": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+      "exit_code": 0,
+      "result": "pass",
+      "summary": "36 palette and 26 semantic pairs using unrounded thresholds; browser/approval evidence separate."
+    },
+    {
+      "command": "node --check tools/check_consumer_browser.cjs",
+      "revision": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+      "exit_code": 0,
+      "result": "pass",
+      "summary": "Syntax check only. Root performs the actual full browser run in the final gate."
+    },
+    {
+      "command": "Synthetic existing-output sentinel probe invoking node tools/check_consumer_browser.cjs ROOT EXISTING_OUTPUT",
+      "revision": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+      "exit_code": 1,
+      "result": "defect_reproduced",
+      "summary": "The command failed, then replaced a synthetic prior failure report with an error report. No real prior evidence was overwritten.",
+      "evidence": "triage/final-consumer-output-preservation-probe.json"
+    }
+  ],
+  "findings": [
+    {
+      "id": "REVIEW-OUTPUT-01",
+      "severity": "blocking for new consumer-browser implementation",
+      "paths": [
+        "tools/check_consumer_browser.cjs"
+      ],
+      "location": "Initial recursive output mkdir and unconditional final report write",
+      "finding": "Reusing an existing explicit output directory accepts the directory, fails when fixture already exists, then overwrites report.json from the prior run. Required prior failures/evidence are not preserved.",
+      "criterion_refs": [
+        "BK-09.CMD",
+        "BK-10.7",
+        "BK-10.CMD",
+        "user workflow 4: preserve prior failed results"
+      ],
+      "reproduction": "triage/final-consumer-output-preservation-probe.json",
+      "minimal_fix": "Reject existing output and symlink traversal before any write; create a fresh directory exclusively. Write report only in a directory owned by this invocation, with exclusive creation. Add a synthetic preservation negative."
+    },
+    {
+      "id": "REVIEW-GUIDE-01",
+      "severity": "nonblocking documented limitation",
+      "paths": [
+        "docs/distribution.md",
+        "docs/consumers.md",
+        "docs/token-profile.md"
+      ],
+      "finding": "Nine raw Markdown guide links refer to existing source-only files deliberately excluded from the proposed archive. The guides do not explicitly explain source_sha context for those links. No code claims to validate all Markdown links from extraction; current CSS/Tailwind and HTML-fixture link claims remain accurate.",
+      "criterion_refs": [
+        "BK-03B.5",
+        "BK-09.2"
+      ],
+      "evidence": "triage/final-guide-link-audit.json",
+      "minimal_fix": "Clarify byte-preserved source-guide snapshots and source_sha checkout/immutable source URL resolution, and that package smoke covers declared files and actual HTML imports rather than standalone Markdown completeness. Do not broaden the allowlist."
+    }
+  ],
+  "release_limits": [
+    "All identity, rights, approved-version, provider, named consumer and release decisions remain pending.",
+    "#6 may be closed only after required final merged checks/review. Other scoped issues and gate remain open.",
+    "Real consumer implementation, release and tested consumer commit pins are not required for BK-09 early contract ACK; do not fabricate ACKs.",
+    "Actual available external fonts, true browser zoom, assistive-technology/manual review and physical print proof remain outside local checks.",
+    "New consumer harness is a fixed synthetic fixture check, not a general accessibility validator.",
+    "Parent/root is running the complete 17-command gate and will attach exact immutable command/report evidence; this focused review does not duplicate or supersede it."
+  ]
+}

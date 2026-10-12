@@ -1,0 +1,64 @@
+{
+  "candidate": "c59cafdca396e7c08e65d0b66989dc6d7b6ffaa2",
+  "reviewed_base": "39a1de5570f0b426410c5b231bcdbb52dc51176f",
+  "mode": "local implementation validation; synthetic rights and acceptance records only; no actual owner, provider or consumer acceptance",
+  "files": [
+    "tools/check_consumers.py",
+    "tools/tests/test_distribution.py"
+  ],
+  "commands": [
+    {
+      "command": "python3 -m unittest tools.tests.test_distribution.DistributionTests.test_historical_archive_does_not_restore_revoked_current_eligibility",
+      "stage": "before fix",
+      "exit": 1,
+      "result": "FAILED (failures=3)",
+      "details": "Each normal historical archive check incorrectly returned pass after core rights were revoked, the allowlist emptied, or an optional exported path removed. Real packaging/provenance/receipt code; Tailwind explicitly mocked."
+    },
+    {
+      "command": "python3 -m unittest tools.tests.test_distribution.DistributionTests.test_historical_archive_does_not_restore_revoked_current_eligibility",
+      "stage": "after eligibility fix",
+      "exit": 0,
+      "result": "one test, three scenarios passed"
+    },
+    {
+      "command": "python3 -m unittest tools.tests.test_distribution",
+      "stage": "eligibility-only intermediate",
+      "exit": 0,
+      "result": "28 tests passed; not final metadata-change validation"
+    },
+    {
+      "command": "python3 -m unittest tools.tests.test_distribution.DistributionTests.test_historical_archive_receipts_bind_current_contract_metadata",
+      "stage": "after metadata fix",
+      "exit": 0,
+      "result": "one test, three scenarios passed"
+    },
+    {
+      "command": "python3 -m unittest tools.tests.test_distribution",
+      "stage": "exact committed candidate",
+      "revision": "c59cafdca396e7c08e65d0b66989dc6d7b6ffaa2",
+      "exit": 0,
+      "result": "29 tests in 58.850s; OK"
+    },
+    {
+      "command": "git status --short && git diff --check",
+      "stage": "exact committed candidate",
+      "exit": 0,
+      "result": "clean"
+    }
+  ],
+  "before_metadata_fix_real_compile_evidence": {
+    "path": "/workspace/scratch/5ecc3c6cf97a/triage/receipt-binding-review-0vz0h62m/review-results.json",
+    "sha256": "c80c887e938f1692925fb38186cb4f0487766eb0f8195b7bca0018ad1c84ee44",
+    "scope": "Actual Tailwind3.4.19 compile; synthetic version and font proposal mutations incorrectly accepted with unchanged file digest; no authentic owner or provider evidence."
+  },
+  "exact_candidate_real_cli_evidence": {
+    "path": "/workspace/scratch/5ecc3c6cf97a/triage/consumer-current-eligibility-9vt0zmg1/validation.json",
+    "sha256": "deee5ed3b3d2f5591e22114f2e92220df18516634dde9a78d8659b36b3ca475c",
+    "scope": "Baseline plus six normal rejection cases and six local mechanical cases; every case ran actual extraction, Tailwind3.4.19 compilation, local links and missing-import recovery."
+  },
+  "remaining": [
+    "Parent independent review and integration",
+    "Required affected tests against integrated and merged candidate",
+    "Real rights/allowlist, version/provider decisions, named consumer ACKs and reviewer/receipt authentication remain pending"
+  ]
+}

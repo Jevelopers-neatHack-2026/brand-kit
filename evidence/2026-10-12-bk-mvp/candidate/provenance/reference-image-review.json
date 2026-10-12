@@ -1,0 +1,64 @@
+{
+  "reviewed_at": "2026-10-12T16:47:50.252475+00:00",
+  "source_revision": "d2ea201abd232c79111d8498fa3743b943ed7963",
+  "reviewer": "GPT-6 Astra integration supervisor",
+  "scope": "Visual inspection of seven existing unchanged WebP references; neither permission nor human release acceptance",
+  "reference_images": [
+    {
+      "path": "references/mockup-art-glasgow.webp",
+      "sha256": "8041fade930456965ef0b746bdb1b41f7662004a83deaec08adb668c05467bad",
+      "visual_observation": "Scenic building/rain reference, with a small unidentified figure. No visible credentials or customer account details were identified; original provenance remains unknown.",
+      "rights_or_origin_inferred": false,
+      "included_in_distribution_proposal": false
+    },
+    {
+      "path": "references/mood-holo-light.webp",
+      "sha256": "bf2935f8e0db7ed568b9f1839e0a7976fb49c37d09650808b8552e8391036a26",
+      "visual_observation": "Unapproved foil reference includes indistinct lettering, barcode and numeric decoration. Not decoded or treated as customer or approval evidence; excluded from the proposed archive.",
+      "rights_or_origin_inferred": false,
+      "included_in_distribution_proposal": false
+    },
+    {
+      "path": "references/mood-stub-back-golden-hour.webp",
+      "sha256": "63cf425858a83246b749c17a04e220e31267a55c461ff52d210a4e1b7423cb3a",
+      "visual_observation": "Unapproved reference contains face/name-like labels, handwriting, a date-like marking and QR decoration. Their origin and real-person/customer status are not established. Excluded from the proposed consumer archive.",
+      "rights_or_origin_inferred": false,
+      "included_in_distribution_proposal": false
+    },
+    {
+      "path": "references/ts-stamp-emboss-lightleak.webp",
+      "sha256": "fb7a818beb44a4b35ee52486d44ba5b3dfa059398ebc23cf9a1aa6398aa8df74",
+      "visual_observation": "Decorative TS mark/material reference. No visible personal account details or credentials identified. Not a canonical SVG or rights approval.",
+      "rights_or_origin_inferred": false,
+      "included_in_distribution_proposal": false
+    },
+    {
+      "path": "references/ts-stamp-holo-rainbow.webp",
+      "sha256": "b3fc55964c28795c6ec94bdbded4a4ddab9d23ac49712772b7d0f02b36cb3926",
+      "visual_observation": "Decorative TS mark/material reference. No visible personal account details or credentials identified. Not a canonical SVG or rights approval.",
+      "rights_or_origin_inferred": false,
+      "included_in_distribution_proposal": false
+    },
+    {
+      "path": "references/ts-stamp-square-velvet.webp",
+      "sha256": "825bd0fb2367a47829355f8d54645b733a911a11f01234f37f263d49be445b27",
+      "visual_observation": "Decorative TS mark/material reference. No visible personal account details or credentials identified. Not a canonical SVG or rights approval.",
+      "rights_or_origin_inferred": false,
+      "included_in_distribution_proposal": false
+    },
+    {
+      "path": "references/ts-stamp-vertical-velvet.webp",
+      "sha256": "bc447d7200291944b236048285fc64f55b92d15e02a403359b02018c3d206eae",
+      "visual_observation": "Decorative TS mark/material reference. No visible personal account details or credentials identified. Not a canonical SVG or rights approval.",
+      "rights_or_origin_inferred": false,
+      "included_in_distribution_proposal": false
+    }
+  ],
+  "outcome": "excluded_unapproved_references_reviewed",
+  "limitations": [
+    "No identity of depicted people is inferred.",
+    "No new image bytes or font binaries are proposed in this integration.",
+    "Image provenance and required accountable sanitization/claims approval remain blocked.",
+    "Original files were viewed; no contact sheet, image copies or decoded QR payloads are published as evidence."
+  ]
+}

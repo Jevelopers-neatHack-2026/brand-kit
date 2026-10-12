@@ -1,0 +1,4 @@
+make[1]: Entering directory '/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate'
+/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python tools/check_inventory.py
+check-inventory: OK (117 entries cover all tracked files)
+make[1]: Leaving directory '/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate'

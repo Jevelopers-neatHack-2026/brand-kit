@@ -1,0 +1,36 @@
+{
+  "source_sha": "d340ab76845001f2420a203ad5fe939e47fb09f9",
+  "mode": "documentation-only local offline checks",
+  "results": [
+    {
+      "command": [
+        "make",
+        "check-links"
+      ],
+      "exit_code": 0,
+      "log": "/workspace/scratch/5ecc3c6cf97a/triage/guide-context-links-d340ab7.log",
+      "sha256": "a945818a8f4323aba6a01a591d35b9119ca764fa6a1dc9b993168441e8415ca2",
+      "summary": [
+        "python3 tools/check_links.py",
+        "local links resolved: 353; broken: 0",
+        "external links UNCHECKED (offline mode, not verified): 160"
+      ]
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "/workspace/scratch/5ecc3c6cf97a/triage/guide-context-diff-d340ab7.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "summary": []
+    }
+  ],
+  "scope": [
+    "docs/distribution.md",
+    "docs/consumers.md"
+  ],
+  "notes": "External links remain UNCHECKED. No package, rights, consumer ACK or distribution approval is supplied."
+}

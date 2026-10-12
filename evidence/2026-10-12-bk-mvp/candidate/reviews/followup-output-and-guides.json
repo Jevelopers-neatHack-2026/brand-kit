@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "reviewer": "Astra agent /root/pr3_reconcile",
+  "reviewed_at": "2026-10-12T17:03:41.415920+00:00",
+  "review_type": "independent narrow follow-up engineering review",
+  "reviews": [
+    {
+      "source_sha": "43f9e035fc03442fb05613bba562527ed215793e",
+      "source_tree": "e2fc4102c9b9e09ad43d26628942cbeab521e00b",
+      "diff_base": "aefdc47cdb8e2bd4fd05a322350c1279009c2e55",
+      "scope": "Only the root-authored output reservation/final-write delta; not the pre-existing runner authored by this reviewer.",
+      "reviewed_paths": [
+        "tools/check_consumer_browser.cjs"
+      ],
+      "source_sha256": {
+        "tools/check_consumer_browser.cjs": "569d72cf5b91a8ca78dc88b5348f814dec828810de702f6acab843f06f4a97d2"
+      },
+      "diff_sha256": "1970c4c4b965ae7dd0cd8344902e10b4f1e74f0160ad59e9fb1e63bca164dc14",
+      "findings": [
+        "One reservation path handles both default and explicit destinations before Python preparation or output writes.",
+        "Full lstat preflight rejects any existing final entry and symlink/non-directory ancestors, including dangling links.",
+        "Each absent path is created with nonrecursive mkdir and mode0700; successful completion saves the output device/inode identity.",
+        "Only a reserved output is eligible for a report; final traversal and identity recheck precedes exclusive wx creation with mode0600.",
+        "Reservation failure or final collision returns nonzero and report:null; no prior report is rewritten."
+      ],
+      "blocking_findings": [],
+      "disposition": "APPROVE"
+    },
+    {
+      "source_sha": "d340ab76845001f2420a203ad5fe939e47fb09f9",
+      "source_tree": "01a1202d00ba04b5bb3a02e4f55e4a514b9fdd08",
+      "diff_base": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+      "scope": "Only the asset agent-authored 28-line packaged-guide source-context addition; not the earlier guide prose authored by this reviewer.",
+      "reviewed_paths": [
+        "docs/distribution.md",
+        "docs/consumers.md"
+      ],
+      "source_sha256": {
+        "docs/distribution.md": "6ce378046aeea4e05ca180882197007890575285d1dc773a1ef7d6687910f82b",
+        "docs/consumers.md": "53723abb67ed5346cbaf88e70085dee301fd2cc727bcc6d396c5408522e8f663"
+      },
+      "diff_sha256": "e8a5436391d0fbb7faecf04706bb74c2c802ba50fe7e22f577a6b8d01649f492",
+      "findings": [
+        "Exactly four guide paths are present in distribution/proposal.json.",
+        "Guides retain exact source bytes and relative repository paths; excluded references and producer commands require the trusted clean source SHA checkout or immutable source URLs.",
+        "Consumer imports stay bound to the verified extracted artifact; source-context notes do not expand the allowlist.",
+        "The notes do not claim all guide links resolve inside the archive, authenticate rights, or imply current release eligibility."
+      ],
+      "blocking_findings": [],
+      "disposition": "APPROVE"
+    }
+  ],
+  "actual_verification": [
+    {
+      "command": "node --check tools/check_consumer_browser.cjs",
+      "source_sha": "43f9e035fc03442fb05613bba562527ed215793e",
+      "exit_code": 0,
+      "scope": "syntax only; dependency reviewer owns independent runtime filesystem probes"
+    },
+    {
+      "command": "git diff --check d340ab7^ d340ab7",
+      "source_sha": "d340ab76845001f2420a203ad5fe939e47fb09f9",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -I tools/check_links.py",
+      "source_sha": "d340ab76845001f2420a203ad5fe939e47fb09f9",
+      "exit_code": 0,
+      "local_links_resolved": 353,
+      "broken_local_links": 0,
+      "external_links_unchecked": 160,
+      "mode": "offline; no external URL verification"
+    }
+  ],
+  "repository_edits_by_reviewer": false,
+  "github_mutations_by_reviewer": false,
+  "full_runner_approval_asserted": false,
+  "prior_d7_asset_metadata_review": "Retained unchanged; carry to the next remote candidate only after an exact byte comparison on that candidate.",
+  "release_or_owner_acceptance_asserted": false,
+  "verbatim_review_summary": "Independent scoped review by Astra agent /root/pr3_reconcile: APPROVE the root-authored output reservation delta at 43f9e035fc03442fb05613bba562527ed215793e and the asset-agent-authored 28-line guide-context addition at d340ab76845001f2420a203ad5fe939e47fb09f9. The guard rejects prior output and unsafe path components before reservation, restricts final report writing to the saved directory identity, and creates report.json exclusively; syntax passes. The guide additions accurately separate byte-preserved archived guides from trusted source-only references, without expanding exports or inferring current approval. Independent local link verification passes 353 links with zero broken; 160 external links remain unverified. Approval excludes my previously authored runner and guide content. Runtime filesystem negatives and the final combined candidate checks are reported separately by their executing reviewers. No repository or GitHub mutation was performed by this reviewer."
+}

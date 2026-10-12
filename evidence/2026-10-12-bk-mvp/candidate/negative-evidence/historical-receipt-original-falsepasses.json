@@ -1,0 +1,59 @@
+[
+  {
+    "case": "baseline",
+    "result": "pass",
+    "archive_source": "288edd14bba747eeec9d962ca3c470a7d283203a",
+    "checker_source": "288edd14bba747eeec9d962ca3c470a7d283203a",
+    "tailwind": {
+      "status": "pass",
+      "required": true,
+      "tailwind": "3.4.19",
+      "node": "v24.19.0",
+      "utilities_checked": 4,
+      "local_links_after_compile": {
+        "plain.html": 3,
+        "tailwind.html": 2
+      },
+      "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css"
+    },
+    "mode": "synthetic records; real local compile; no authentic owner/provider evidence"
+  },
+  {
+    "case": "mismatched_current_version",
+    "archive_version": "1.0.0",
+    "current_record_version": "2.0.0",
+    "result": "pass",
+    "problems": [],
+    "tailwind": {
+      "status": "pass",
+      "required": true,
+      "tailwind": "3.4.19",
+      "node": "v24.19.0",
+      "utilities_checked": 4,
+      "local_links_after_compile": {
+        "plain.html": 3,
+        "tailwind.html": 2
+      },
+      "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css"
+    },
+    "mode": "synthetic records; real local compile; no authentic owner/provider evidence"
+  },
+  {
+    "case": "changed_font_proposal",
+    "result": "pass",
+    "problems": [],
+    "tailwind": {
+      "status": "pass",
+      "required": true,
+      "tailwind": "3.4.19",
+      "node": "v24.19.0",
+      "utilities_checked": 4,
+      "local_links_after_compile": {
+        "plain.html": 3,
+        "tailwind.html": 2
+      },
+      "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css"
+    },
+    "mode": "synthetic records; real local compile; no authentic owner/provider evidence"
+  }
+]

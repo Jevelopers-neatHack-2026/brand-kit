@@ -1,0 +1,1391 @@
+{
+  "schema": "ticketstub-output-guard-probes@1",
+  "source_sha": "43f9e035fc03442fb05613bba562527ed215793e",
+  "source_tree": "e2fc4102c9b9e09ad43d26628942cbeab521e00b",
+  "checker_sha256": "569d72cf5b91a8ca78dc88b5348f814dec828810de702f6acab843f06f4a97d2",
+  "probe_script_sha256": "c452de431cfe4ee6f19716d004f44729d7ab628aee14a0ef0ed4d37a1e9932d8",
+  "date_control_sha256": "ce7633a1ca66ad85918835eae8d48f7084566c5cdbf1f484edbaed58c701f53d",
+  "outcome": "pass",
+  "case_count": 15,
+  "cases": [
+    {
+      "id": "existing-directory",
+      "mode": "synthetic filesystem guard probe; prerequisite deliberately fails before compiler/browser",
+      "command": [
+        "node",
+        "--require",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fixed-date.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/brand-output-guard-review/tools/check_consumer_browser.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/existing-directory/fake-root",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/existing-directory/result"
+      ],
+      "environment": {
+        "PYTHON": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/synthetic-prerequisite.py",
+        "GUARD_PROBE_MARKER": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/invocations.jsonl",
+        "GUARD_PROBE_MODE": "existing-directory",
+        "GUARD_PROBE_VICTIM": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/existing-directory/protected"
+      },
+      "exit_code": 1,
+      "summary": {
+        "outcome": "error",
+        "cases": 0,
+        "report": null,
+        "error": "Evidence output already exists; choose a new directory",
+        "release_approved": false
+      },
+      "preparation_invoked": false,
+      "prior_paths_preserved": true,
+      "assertions": "pass",
+      "before": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "result": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "result/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "61737f4eaad95224fa06d6487422198750aaa9263dc2047e444ea3f6c31e305d"
+        }
+      },
+      "after": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "result": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "result/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "61737f4eaad95224fa06d6487422198750aaa9263dc2047e444ea3f6c31e305d"
+        },
+        "stderr.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "723a9eb1a276b44404e63356c3b6b8c9de18e57a36714717fc7e70727d751a66"
+        }
+      }
+    },
+    {
+      "id": "existing-file",
+      "mode": "synthetic filesystem guard probe; prerequisite deliberately fails before compiler/browser",
+      "command": [
+        "node",
+        "--require",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fixed-date.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/brand-output-guard-review/tools/check_consumer_browser.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/existing-file/fake-root",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/existing-file/result"
+      ],
+      "environment": {
+        "PYTHON": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/synthetic-prerequisite.py",
+        "GUARD_PROBE_MARKER": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/invocations.jsonl",
+        "GUARD_PROBE_MODE": "existing-file",
+        "GUARD_PROBE_VICTIM": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/existing-file/protected"
+      },
+      "exit_code": 1,
+      "summary": {
+        "outcome": "error",
+        "cases": 0,
+        "report": null,
+        "error": "Evidence output path contains a symlink or non-directory",
+        "release_approved": false
+      },
+      "preparation_invoked": false,
+      "prior_paths_preserved": true,
+      "assertions": "pass",
+      "before": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "result": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "a4d32bb52eae71d6a5d329e988c41ea9f01ea358f026c9c75a6b320d78deca4b"
+        }
+      },
+      "after": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "result": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "a4d32bb52eae71d6a5d329e988c41ea9f01ea358f026c9c75a6b320d78deca4b"
+        },
+        "stderr.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "7e65ef1e11cd125c9ea4d1cb7bbbb9986ec8ba5b3ce73fa460fedb2536daf4ee"
+        }
+      }
+    },
+    {
+      "id": "symlink-output",
+      "mode": "synthetic filesystem guard probe; prerequisite deliberately fails before compiler/browser",
+      "command": [
+        "node",
+        "--require",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fixed-date.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/brand-output-guard-review/tools/check_consumer_browser.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/symlink-output/fake-root",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/symlink-output/result"
+      ],
+      "environment": {
+        "PYTHON": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/synthetic-prerequisite.py",
+        "GUARD_PROBE_MARKER": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/invocations.jsonl",
+        "GUARD_PROBE_MODE": "symlink-output",
+        "GUARD_PROBE_VICTIM": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/symlink-output/protected"
+      },
+      "exit_code": 1,
+      "summary": {
+        "outcome": "error",
+        "cases": 0,
+        "report": null,
+        "error": "Evidence output path contains a symlink or non-directory",
+        "release_approved": false
+      },
+      "preparation_invoked": false,
+      "prior_paths_preserved": true,
+      "assertions": "pass",
+      "before": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "result": {
+          "mode": 511,
+          "kind": "symlink",
+          "target": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/symlink-output/protected"
+        }
+      },
+      "after": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "result": {
+          "mode": 511,
+          "kind": "symlink",
+          "target": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/symlink-output/protected"
+        },
+        "stderr.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "7e65ef1e11cd125c9ea4d1cb7bbbb9986ec8ba5b3ce73fa460fedb2536daf4ee"
+        }
+      }
+    },
+    {
+      "id": "dangling-output",
+      "mode": "synthetic filesystem guard probe; prerequisite deliberately fails before compiler/browser",
+      "command": [
+        "node",
+        "--require",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fixed-date.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/brand-output-guard-review/tools/check_consumer_browser.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/dangling-output/fake-root",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/dangling-output/result"
+      ],
+      "environment": {
+        "PYTHON": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/synthetic-prerequisite.py",
+        "GUARD_PROBE_MARKER": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/invocations.jsonl",
+        "GUARD_PROBE_MODE": "dangling-output",
+        "GUARD_PROBE_VICTIM": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/dangling-output/protected"
+      },
+      "exit_code": 1,
+      "summary": {
+        "outcome": "error",
+        "cases": 0,
+        "report": null,
+        "error": "Evidence output path contains a symlink or non-directory",
+        "release_approved": false
+      },
+      "preparation_invoked": false,
+      "prior_paths_preserved": true,
+      "assertions": "pass",
+      "before": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "result": {
+          "mode": 511,
+          "kind": "symlink",
+          "target": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/dangling-output/nonexistent"
+        }
+      },
+      "after": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "result": {
+          "mode": 511,
+          "kind": "symlink",
+          "target": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/dangling-output/nonexistent"
+        },
+        "stderr.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "7e65ef1e11cd125c9ea4d1cb7bbbb9986ec8ba5b3ce73fa460fedb2536daf4ee"
+        }
+      }
+    },
+    {
+      "id": "symlink-ancestor",
+      "mode": "synthetic filesystem guard probe; prerequisite deliberately fails before compiler/browser",
+      "command": [
+        "node",
+        "--require",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fixed-date.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/brand-output-guard-review/tools/check_consumer_browser.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/symlink-ancestor/fake-root",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/symlink-ancestor/alias/new-child"
+      ],
+      "environment": {
+        "PYTHON": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/synthetic-prerequisite.py",
+        "GUARD_PROBE_MARKER": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/invocations.jsonl",
+        "GUARD_PROBE_MODE": "symlink-ancestor",
+        "GUARD_PROBE_VICTIM": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/symlink-ancestor/protected"
+      },
+      "exit_code": 1,
+      "summary": {
+        "outcome": "error",
+        "cases": 0,
+        "report": null,
+        "error": "Evidence output path contains a symlink or non-directory",
+        "release_approved": false
+      },
+      "preparation_invoked": false,
+      "prior_paths_preserved": true,
+      "assertions": "pass",
+      "before": {
+        "alias": {
+          "mode": 511,
+          "kind": "symlink",
+          "target": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/symlink-ancestor/protected"
+        },
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        }
+      },
+      "after": {
+        "alias": {
+          "mode": 511,
+          "kind": "symlink",
+          "target": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/symlink-ancestor/protected"
+        },
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "stderr.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "7e65ef1e11cd125c9ea4d1cb7bbbb9986ec8ba5b3ce73fa460fedb2536daf4ee"
+        }
+      }
+    },
+    {
+      "id": "dangling-ancestor",
+      "mode": "synthetic filesystem guard probe; prerequisite deliberately fails before compiler/browser",
+      "command": [
+        "node",
+        "--require",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fixed-date.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/brand-output-guard-review/tools/check_consumer_browser.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/dangling-ancestor/fake-root",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/dangling-ancestor/alias/new-child"
+      ],
+      "environment": {
+        "PYTHON": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/synthetic-prerequisite.py",
+        "GUARD_PROBE_MARKER": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/invocations.jsonl",
+        "GUARD_PROBE_MODE": "dangling-ancestor",
+        "GUARD_PROBE_VICTIM": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/dangling-ancestor/protected"
+      },
+      "exit_code": 1,
+      "summary": {
+        "outcome": "error",
+        "cases": 0,
+        "report": null,
+        "error": "Evidence output path contains a symlink or non-directory",
+        "release_approved": false
+      },
+      "preparation_invoked": false,
+      "prior_paths_preserved": true,
+      "assertions": "pass",
+      "before": {
+        "alias": {
+          "mode": 511,
+          "kind": "symlink",
+          "target": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/dangling-ancestor/nonexistent"
+        },
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        }
+      },
+      "after": {
+        "alias": {
+          "mode": 511,
+          "kind": "symlink",
+          "target": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/dangling-ancestor/nonexistent"
+        },
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "stderr.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "7e65ef1e11cd125c9ea4d1cb7bbbb9986ec8ba5b3ce73fa460fedb2536daf4ee"
+        }
+      }
+    },
+    {
+      "id": "file-ancestor",
+      "mode": "synthetic filesystem guard probe; prerequisite deliberately fails before compiler/browser",
+      "command": [
+        "node",
+        "--require",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fixed-date.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/brand-output-guard-review/tools/check_consumer_browser.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/file-ancestor/fake-root",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/file-ancestor/alias/new-child"
+      ],
+      "environment": {
+        "PYTHON": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/synthetic-prerequisite.py",
+        "GUARD_PROBE_MARKER": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/invocations.jsonl",
+        "GUARD_PROBE_MODE": "file-ancestor",
+        "GUARD_PROBE_VICTIM": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/file-ancestor/protected"
+      },
+      "exit_code": 1,
+      "summary": {
+        "outcome": "error",
+        "cases": 0,
+        "report": null,
+        "error": "Evidence output path contains a symlink or non-directory",
+        "release_approved": false
+      },
+      "preparation_invoked": false,
+      "prior_paths_preserved": true,
+      "assertions": "pass",
+      "before": {
+        "alias": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "5d68f3bf1e2b7fb6c52b0f84eb07d53e8de18d29a6379f9281b865b4fb47917d"
+        },
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        }
+      },
+      "after": {
+        "alias": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "5d68f3bf1e2b7fb6c52b0f84eb07d53e8de18d29a6379f9281b865b4fb47917d"
+        },
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "stderr.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "7e65ef1e11cd125c9ea4d1cb7bbbb9986ec8ba5b3ce73fa460fedb2536daf4ee"
+        }
+      }
+    },
+    {
+      "id": "default-existing",
+      "mode": "synthetic filesystem guard probe; prerequisite deliberately fails before compiler/browser",
+      "command": [
+        "node",
+        "--require",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fixed-date.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/brand-output-guard-review/tools/check_consumer_browser.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/default-existing/fake-root"
+      ],
+      "environment": {
+        "PYTHON": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/synthetic-prerequisite.py",
+        "GUARD_PROBE_MARKER": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/invocations.jsonl",
+        "GUARD_PROBE_MODE": "default-existing",
+        "GUARD_PROBE_VICTIM": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/default-existing/protected"
+      },
+      "exit_code": 1,
+      "summary": {
+        "outcome": "error",
+        "cases": 0,
+        "report": null,
+        "error": "Evidence output already exists; choose a new directory",
+        "release_approved": false
+      },
+      "preparation_invoked": false,
+      "prior_paths_preserved": true,
+      "assertions": "pass",
+      "before": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "fake-root/out": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "fake-root/out/brand": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "fake-root/out/brand/consumer-browser": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "fake-root/out/brand/consumer-browser/2026-10-12T17-10-00-000Z": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "fake-root/out/brand/consumer-browser/2026-10-12T17-10-00-000Z/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "5b3e429f43cea9b2550c7c5c2be5a47449b8ffc5df11977f592b8fb9723287e3"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        }
+      },
+      "after": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "fake-root/out": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "fake-root/out/brand": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "fake-root/out/brand/consumer-browser": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "fake-root/out/brand/consumer-browser/2026-10-12T17-10-00-000Z": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "fake-root/out/brand/consumer-browser/2026-10-12T17-10-00-000Z/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "5b3e429f43cea9b2550c7c5c2be5a47449b8ffc5df11977f592b8fb9723287e3"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "stderr.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "723a9eb1a276b44404e63356c3b6b8c9de18e57a36714717fc7e70727d751a66"
+        }
+      }
+    },
+    {
+      "id": "default-symlink-ancestor",
+      "mode": "synthetic filesystem guard probe; prerequisite deliberately fails before compiler/browser",
+      "command": [
+        "node",
+        "--require",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fixed-date.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/brand-output-guard-review/tools/check_consumer_browser.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/default-symlink-ancestor/fake-root"
+      ],
+      "environment": {
+        "PYTHON": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/synthetic-prerequisite.py",
+        "GUARD_PROBE_MARKER": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/invocations.jsonl",
+        "GUARD_PROBE_MODE": "default-symlink-ancestor",
+        "GUARD_PROBE_VICTIM": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/default-symlink-ancestor/protected"
+      },
+      "exit_code": 1,
+      "summary": {
+        "outcome": "error",
+        "cases": 0,
+        "report": null,
+        "error": "Evidence output path contains a symlink or non-directory",
+        "release_approved": false
+      },
+      "preparation_invoked": false,
+      "prior_paths_preserved": true,
+      "assertions": "pass",
+      "before": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "fake-root/out": {
+          "mode": 511,
+          "kind": "symlink",
+          "target": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/default-symlink-ancestor/protected"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        }
+      },
+      "after": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "fake-root/out": {
+          "mode": 511,
+          "kind": "symlink",
+          "target": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/default-symlink-ancestor/protected"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "stderr.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "7e65ef1e11cd125c9ea4d1cb7bbbb9986ec8ba5b3ce73fa460fedb2536daf4ee"
+        }
+      }
+    },
+    {
+      "id": "fresh-missing-ancestors",
+      "mode": "synthetic filesystem guard probe; prerequisite deliberately fails before compiler/browser",
+      "command": [
+        "node",
+        "--require",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fixed-date.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/brand-output-guard-review/tools/check_consumer_browser.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fresh-missing-ancestors/fake-root",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fresh-missing-ancestors/new-parent/new-child/result"
+      ],
+      "environment": {
+        "PYTHON": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/synthetic-prerequisite.py",
+        "GUARD_PROBE_MARKER": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/invocations.jsonl",
+        "GUARD_PROBE_MODE": "fresh-missing-ancestors",
+        "GUARD_PROBE_VICTIM": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fresh-missing-ancestors/protected"
+      },
+      "exit_code": 1,
+      "summary": {
+        "outcome": "error",
+        "cases": 0,
+        "report": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fresh-missing-ancestors/new-parent/new-child/result/report.json",
+        "release_approved": false
+      },
+      "preparation_invoked": true,
+      "prior_paths_preserved": true,
+      "assertions": "pass",
+      "before": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        }
+      },
+      "after": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "new-parent": {
+          "mode": 448,
+          "kind": "dir"
+        },
+        "new-parent/new-child": {
+          "mode": 448,
+          "kind": "dir"
+        },
+        "new-parent/new-child/result": {
+          "mode": 448,
+          "kind": "dir"
+        },
+        "new-parent/new-child/result/report.json": {
+          "mode": 384,
+          "kind": "file",
+          "sha256": "7b9484f33dc73137907cc0f3e98d2008e0dda431c542bad4538ca4dded9415a1"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "stderr.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "5da34e3cb83baf28464cde102f1bddd4a8f6a75df1329e753879ac728b180f37"
+        }
+      }
+    },
+    {
+      "id": "report-collision",
+      "mode": "synthetic filesystem guard probe; prerequisite deliberately fails before compiler/browser",
+      "command": [
+        "node",
+        "--require",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fixed-date.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/brand-output-guard-review/tools/check_consumer_browser.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/report-collision/fake-root",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/report-collision/result"
+      ],
+      "environment": {
+        "PYTHON": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/synthetic-prerequisite.py",
+        "GUARD_PROBE_MARKER": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/invocations.jsonl",
+        "GUARD_PROBE_MODE": "report-collision",
+        "GUARD_PROBE_VICTIM": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/report-collision/protected"
+      },
+      "exit_code": 1,
+      "summary": {
+        "outcome": "error",
+        "cases": 0,
+        "report": null,
+        "error": "Could not exclusively record evidence; prior output was preserved",
+        "release_approved": false
+      },
+      "preparation_invoked": true,
+      "prior_paths_preserved": true,
+      "assertions": "pass",
+      "before": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        }
+      },
+      "after": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "result": {
+          "mode": 448,
+          "kind": "dir"
+        },
+        "result/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "61737f4eaad95224fa06d6487422198750aaa9263dc2047e444ea3f6c31e305d"
+        },
+        "stderr.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "737670020306419da84361f706cc0ceba2bc7a4b6c73eb43e96364eda35d72f5"
+        }
+      }
+    },
+    {
+      "id": "report-symlink",
+      "mode": "synthetic filesystem guard probe; prerequisite deliberately fails before compiler/browser",
+      "command": [
+        "node",
+        "--require",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fixed-date.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/brand-output-guard-review/tools/check_consumer_browser.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/report-symlink/fake-root",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/report-symlink/result"
+      ],
+      "environment": {
+        "PYTHON": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/synthetic-prerequisite.py",
+        "GUARD_PROBE_MARKER": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/invocations.jsonl",
+        "GUARD_PROBE_MODE": "report-symlink",
+        "GUARD_PROBE_VICTIM": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/report-symlink/protected/report.json"
+      },
+      "exit_code": 1,
+      "summary": {
+        "outcome": "error",
+        "cases": 0,
+        "report": null,
+        "error": "Could not exclusively record evidence; prior output was preserved",
+        "release_approved": false
+      },
+      "preparation_invoked": true,
+      "prior_paths_preserved": true,
+      "assertions": "pass",
+      "before": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        }
+      },
+      "after": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "result": {
+          "mode": 448,
+          "kind": "dir"
+        },
+        "result/report.json": {
+          "mode": 511,
+          "kind": "symlink",
+          "target": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/report-symlink/protected/report.json"
+        },
+        "stderr.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "737670020306419da84361f706cc0ceba2bc7a4b6c73eb43e96364eda35d72f5"
+        }
+      }
+    },
+    {
+      "id": "report-dangling-symlink",
+      "mode": "synthetic filesystem guard probe; prerequisite deliberately fails before compiler/browser",
+      "command": [
+        "node",
+        "--require",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fixed-date.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/brand-output-guard-review/tools/check_consumer_browser.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/report-dangling-symlink/fake-root",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/report-dangling-symlink/result"
+      ],
+      "environment": {
+        "PYTHON": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/synthetic-prerequisite.py",
+        "GUARD_PROBE_MARKER": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/invocations.jsonl",
+        "GUARD_PROBE_MODE": "report-dangling-symlink",
+        "GUARD_PROBE_VICTIM": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/report-dangling-symlink/never-created"
+      },
+      "exit_code": 1,
+      "summary": {
+        "outcome": "error",
+        "cases": 0,
+        "report": null,
+        "error": "Could not exclusively record evidence; prior output was preserved",
+        "release_approved": false
+      },
+      "preparation_invoked": true,
+      "prior_paths_preserved": true,
+      "assertions": "pass",
+      "before": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        }
+      },
+      "after": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "result": {
+          "mode": 448,
+          "kind": "dir"
+        },
+        "result/report.json": {
+          "mode": 511,
+          "kind": "symlink",
+          "target": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/report-dangling-symlink/never-created"
+        },
+        "stderr.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "737670020306419da84361f706cc0ceba2bc7a4b6c73eb43e96364eda35d72f5"
+        }
+      }
+    },
+    {
+      "id": "replace-directory",
+      "mode": "synthetic filesystem guard probe; prerequisite deliberately fails before compiler/browser",
+      "command": [
+        "node",
+        "--require",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fixed-date.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/brand-output-guard-review/tools/check_consumer_browser.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/replace-directory/fake-root",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/replace-directory/result"
+      ],
+      "environment": {
+        "PYTHON": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/synthetic-prerequisite.py",
+        "GUARD_PROBE_MARKER": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/invocations.jsonl",
+        "GUARD_PROBE_MODE": "replace-directory",
+        "GUARD_PROBE_VICTIM": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/replace-directory/protected"
+      },
+      "exit_code": 1,
+      "summary": {
+        "outcome": "error",
+        "cases": 0,
+        "report": null,
+        "error": "Could not exclusively record evidence; prior output was preserved",
+        "release_approved": false
+      },
+      "preparation_invoked": true,
+      "prior_paths_preserved": true,
+      "assertions": "pass",
+      "before": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        }
+      },
+      "after": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "result": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "result/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "bfbe29a0df2c54ca03e35a5658f0c4e9d0e0fdc9093b126b4ee8d01ce1de1495"
+        },
+        "result-reserved-original": {
+          "mode": 448,
+          "kind": "dir"
+        },
+        "stderr.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "737670020306419da84361f706cc0ceba2bc7a4b6c73eb43e96364eda35d72f5"
+        }
+      }
+    },
+    {
+      "id": "replace-with-symlink",
+      "mode": "synthetic filesystem guard probe; prerequisite deliberately fails before compiler/browser",
+      "command": [
+        "node",
+        "--require",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/fixed-date.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/brand-output-guard-review/tools/check_consumer_browser.cjs",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/replace-with-symlink/fake-root",
+        "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/replace-with-symlink/result"
+      ],
+      "environment": {
+        "PYTHON": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/synthetic-prerequisite.py",
+        "GUARD_PROBE_MARKER": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/invocations.jsonl",
+        "GUARD_PROBE_MODE": "replace-with-symlink",
+        "GUARD_PROBE_VICTIM": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/replace-with-symlink/protected"
+      },
+      "exit_code": 1,
+      "summary": {
+        "outcome": "error",
+        "cases": 0,
+        "report": null,
+        "error": "Could not exclusively record evidence; prior output was preserved",
+        "release_approved": false
+      },
+      "preparation_invoked": true,
+      "prior_paths_preserved": true,
+      "assertions": "pass",
+      "before": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        }
+      },
+      "after": {
+        "fake-root": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected": {
+          "mode": 493,
+          "kind": "dir"
+        },
+        "protected/other.bin": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "897f2253cf349cad65b17da5c8beca69d43293731be1bda2da9829dfc6f4ac12"
+        },
+        "protected/report.json": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "1752ab1195e7ff50c249b80cbb3932ee7844607cd1de737bdf5a9cac49e69583"
+        },
+        "result": {
+          "mode": 511,
+          "kind": "symlink",
+          "target": "/workspace/scratch/5ecc3c6cf97a/triage/output-guard-review-94qmv34e/replace-with-symlink/protected"
+        },
+        "result-reserved-original": {
+          "mode": 448,
+          "kind": "dir"
+        },
+        "stderr.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "mode": 420,
+          "kind": "file",
+          "sha256": "737670020306419da84361f706cc0ceba2bc7a4b6c73eb43e96364eda35d72f5"
+        }
+      }
+    }
+  ],
+  "scope": "Output reservation, final report collision and identity change before failed synthetic prerequisite only; no browser or release pass is claimed."
+}

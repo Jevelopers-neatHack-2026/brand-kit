@@ -1,0 +1,534 @@
+{
+  "candidate": "c59cafdca396e7c08e65d0b66989dc6d7b6ffaa2",
+  "mode": "synthetic acceptance/rights records with real local CLI, extraction, recovery and Tailwind compilation; no owner/provider/consumer acceptance",
+  "archive_source": "aa9265d342dd6da68bc3be4f62b4ee9e5b52d77c",
+  "archive_sha256": "491694724cbdbe39685163ea880db3cd7a36366060903e5105104aeb46386a02",
+  "files_digest": "9c225444fc4a1c79ea330f200df1586bec63f6f5415c7f9743a3f273d1d572f9",
+  "cases": [
+    {
+      "name": "baseline",
+      "mode": "synthetic records; actual Tailwind compile; no real approval, provider result or consumer adoption",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "tools/check_consumers.py",
+        "--archive",
+        "/workspace/scratch/5ecc3c6cf97a/triage/consumer-current-eligibility-9vt0zmg1/synthetic-historical-never-release.zip",
+        "--source",
+        "aa9265d342dd6da68bc3be4f62b4ee9e5b52d77c",
+        "--sha256",
+        "491694724cbdbe39685163ea880db3cd7a36366060903e5105104aeb46386a02"
+      ],
+      "exit": 0,
+      "result": "pass",
+      "scope": "consumer_contract_checks",
+      "checker_source": "aa9265d342dd6da68bc3be4f62b4ee9e5b52d77c",
+      "tailwind": {
+        "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css",
+        "local_links_after_compile": {
+          "plain.html": 3,
+          "tailwind.html": 2
+        },
+        "node": "v24.19.0",
+        "required": true,
+        "status": "pass",
+        "tailwind": "3.4.19",
+        "utilities_checked": 4
+      },
+      "font_provider_checks": {
+        "performed_this_run": false,
+        "reason": "this offline command never performs provider requests or browser font checks",
+        "status": "not_run"
+      },
+      "problems": [],
+      "release_approved": false,
+      "report_sha256": "f42d40335442d5d5b35aeea79be93d94f01bff5d8ab6611f8c8b967b959be142"
+    },
+    {
+      "name": "core_rights_revoked",
+      "mode": "synthetic records; actual Tailwind compile; no real approval, provider result or consumer adoption",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "tools/check_consumers.py",
+        "--archive",
+        "/workspace/scratch/5ecc3c6cf97a/triage/consumer-current-eligibility-9vt0zmg1/synthetic-historical-never-release.zip",
+        "--source",
+        "aa9265d342dd6da68bc3be4f62b4ee9e5b52d77c",
+        "--sha256",
+        "491694724cbdbe39685163ea880db3cd7a36366060903e5105104aeb46386a02"
+      ],
+      "exit": 1,
+      "result": "blocked",
+      "scope": "consumer_contract_checks",
+      "checker_source": "8881de5c9f48b8fef631a4523ed54fff025d6012",
+      "tailwind": {
+        "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css",
+        "local_links_after_compile": {
+          "plain.html": 3,
+          "tailwind.html": 2
+        },
+        "node": "v24.19.0",
+        "required": true,
+        "status": "pass",
+        "tailwind": "3.4.19",
+        "utilities_checked": 4
+      },
+      "font_provider_checks": {
+        "performed_this_run": false,
+        "reason": "this offline command never performs provider requests or browser font checks",
+        "status": "not_run"
+      },
+      "problems": [
+        "current candidate provenance/allowlist or distribution decisions block this contract; historical approval cannot restore eligibility"
+      ],
+      "release_approved": false,
+      "report_sha256": "85779e118adc612e0f819d20f3dbc998ea9d92b53ccfa2c43f8cadbde3b44549"
+    },
+    {
+      "name": "core_rights_revoked-local",
+      "mode": "synthetic records; actual Tailwind compile; no real approval, provider result or consumer adoption",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "tools/check_consumers.py",
+        "--archive",
+        "/workspace/scratch/5ecc3c6cf97a/triage/consumer-current-eligibility-9vt0zmg1/synthetic-historical-never-release.zip",
+        "--source",
+        "aa9265d342dd6da68bc3be4f62b4ee9e5b52d77c",
+        "--sha256",
+        "491694724cbdbe39685163ea880db3cd7a36366060903e5105104aeb46386a02",
+        "--local"
+      ],
+      "exit": 0,
+      "result": "pass",
+      "scope": "local_fixture_mechanics",
+      "checker_source": "8881de5c9f48b8fef631a4523ed54fff025d6012",
+      "tailwind": {
+        "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css",
+        "local_links_after_compile": {
+          "plain.html": 3,
+          "tailwind.html": 2
+        },
+        "node": "v24.19.0",
+        "required": true,
+        "status": "pass",
+        "tailwind": "3.4.19",
+        "utilities_checked": 4
+      },
+      "font_provider_checks": {
+        "performed_this_run": false,
+        "reason": "this offline command never performs provider requests or browser font checks",
+        "status": "not_run"
+      },
+      "problems": [],
+      "release_approved": false,
+      "report_sha256": "7b657c5d3e6a9ce3248541286cb0a6aa6b1e734cfec7f3d62576db83e4dd91e6"
+    },
+    {
+      "name": "allowlist_emptied",
+      "mode": "synthetic records; actual Tailwind compile; no real approval, provider result or consumer adoption",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "tools/check_consumers.py",
+        "--archive",
+        "/workspace/scratch/5ecc3c6cf97a/triage/consumer-current-eligibility-9vt0zmg1/synthetic-historical-never-release.zip",
+        "--source",
+        "aa9265d342dd6da68bc3be4f62b4ee9e5b52d77c",
+        "--sha256",
+        "491694724cbdbe39685163ea880db3cd7a36366060903e5105104aeb46386a02"
+      ],
+      "exit": 1,
+      "result": "blocked",
+      "scope": "consumer_contract_checks",
+      "checker_source": "12dcfc252a1a503d763be23cf22f12a06483f6df",
+      "tailwind": {
+        "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css",
+        "local_links_after_compile": {
+          "plain.html": 3,
+          "tailwind.html": 2
+        },
+        "node": "v24.19.0",
+        "required": true,
+        "status": "pass",
+        "tailwind": "3.4.19",
+        "utilities_checked": 4
+      },
+      "font_provider_checks": {
+        "performed_this_run": false,
+        "reason": "this offline command never performs provider requests or browser font checks",
+        "status": "not_run"
+      },
+      "problems": [
+        "current candidate provenance/allowlist or distribution decisions block this contract; historical approval cannot restore eligibility"
+      ],
+      "release_approved": false,
+      "report_sha256": "0b9e7f459c5bc491c18cde2a346b556f303d9890bb24151ede11819c96c28e6c"
+    },
+    {
+      "name": "allowlist_emptied-local",
+      "mode": "synthetic records; actual Tailwind compile; no real approval, provider result or consumer adoption",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "tools/check_consumers.py",
+        "--archive",
+        "/workspace/scratch/5ecc3c6cf97a/triage/consumer-current-eligibility-9vt0zmg1/synthetic-historical-never-release.zip",
+        "--source",
+        "aa9265d342dd6da68bc3be4f62b4ee9e5b52d77c",
+        "--sha256",
+        "491694724cbdbe39685163ea880db3cd7a36366060903e5105104aeb46386a02",
+        "--local"
+      ],
+      "exit": 0,
+      "result": "pass",
+      "scope": "local_fixture_mechanics",
+      "checker_source": "12dcfc252a1a503d763be23cf22f12a06483f6df",
+      "tailwind": {
+        "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css",
+        "local_links_after_compile": {
+          "plain.html": 3,
+          "tailwind.html": 2
+        },
+        "node": "v24.19.0",
+        "required": true,
+        "status": "pass",
+        "tailwind": "3.4.19",
+        "utilities_checked": 4
+      },
+      "font_provider_checks": {
+        "performed_this_run": false,
+        "reason": "this offline command never performs provider requests or browser font checks",
+        "status": "not_run"
+      },
+      "problems": [],
+      "release_approved": false,
+      "report_sha256": "b1f99bce494dd9282eca4e1e899249265806cddc739dc1bd29b7f5bc47cce1c4"
+    },
+    {
+      "name": "optional_path_removed",
+      "mode": "synthetic records; actual Tailwind compile; no real approval, provider result or consumer adoption",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "tools/check_consumers.py",
+        "--archive",
+        "/workspace/scratch/5ecc3c6cf97a/triage/consumer-current-eligibility-9vt0zmg1/synthetic-historical-never-release.zip",
+        "--source",
+        "aa9265d342dd6da68bc3be4f62b4ee9e5b52d77c",
+        "--sha256",
+        "491694724cbdbe39685163ea880db3cd7a36366060903e5105104aeb46386a02"
+      ],
+      "exit": 1,
+      "result": "blocked",
+      "scope": "consumer_contract_checks",
+      "checker_source": "6f394572f4224f98432d44394b35e7bc2877acf4",
+      "tailwind": {
+        "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css",
+        "local_links_after_compile": {
+          "plain.html": 3,
+          "tailwind.html": 2
+        },
+        "node": "v24.19.0",
+        "required": true,
+        "status": "pass",
+        "tailwind": "3.4.19",
+        "utilities_checked": 4
+      },
+      "font_provider_checks": {
+        "performed_this_run": false,
+        "reason": "this offline command never performs provider requests or browser font checks",
+        "status": "not_run"
+      },
+      "problems": [
+        "current candidate provenance/allowlist or distribution decisions block this contract; historical approval cannot restore eligibility"
+      ],
+      "release_approved": false,
+      "report_sha256": "52590c04911c7e048da3d6251a4a4a65c11b1d8a3ac47384005d08412b57bc45"
+    },
+    {
+      "name": "optional_path_removed-local",
+      "mode": "synthetic records; actual Tailwind compile; no real approval, provider result or consumer adoption",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "tools/check_consumers.py",
+        "--archive",
+        "/workspace/scratch/5ecc3c6cf97a/triage/consumer-current-eligibility-9vt0zmg1/synthetic-historical-never-release.zip",
+        "--source",
+        "aa9265d342dd6da68bc3be4f62b4ee9e5b52d77c",
+        "--sha256",
+        "491694724cbdbe39685163ea880db3cd7a36366060903e5105104aeb46386a02",
+        "--local"
+      ],
+      "exit": 0,
+      "result": "pass",
+      "scope": "local_fixture_mechanics",
+      "checker_source": "6f394572f4224f98432d44394b35e7bc2877acf4",
+      "tailwind": {
+        "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css",
+        "local_links_after_compile": {
+          "plain.html": 3,
+          "tailwind.html": 2
+        },
+        "node": "v24.19.0",
+        "required": true,
+        "status": "pass",
+        "tailwind": "3.4.19",
+        "utilities_checked": 4
+      },
+      "font_provider_checks": {
+        "performed_this_run": false,
+        "reason": "this offline command never performs provider requests or browser font checks",
+        "status": "not_run"
+      },
+      "problems": [],
+      "release_approved": false,
+      "report_sha256": "91bb4469ebfe225adfba542846c1a65ac0e311817ca8e1057595f158cb662e34"
+    },
+    {
+      "name": "brand_version",
+      "mode": "synthetic records; actual Tailwind compile; no real approval, provider result or consumer adoption",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "tools/check_consumers.py",
+        "--archive",
+        "/workspace/scratch/5ecc3c6cf97a/triage/consumer-current-eligibility-9vt0zmg1/synthetic-historical-never-release.zip",
+        "--source",
+        "aa9265d342dd6da68bc3be4f62b4ee9e5b52d77c",
+        "--sha256",
+        "491694724cbdbe39685163ea880db3cd7a36366060903e5105104aeb46386a02"
+      ],
+      "exit": 1,
+      "result": "blocked",
+      "scope": "consumer_contract_checks",
+      "checker_source": "b2ecbfda6f7acf3269f28acdc24617896a3f0671",
+      "tailwind": {
+        "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css",
+        "local_links_after_compile": {
+          "plain.html": 3,
+          "tailwind.html": 2
+        },
+        "node": "v24.19.0",
+        "required": true,
+        "status": "pass",
+        "tailwind": "3.4.19",
+        "utilities_checked": 4
+      },
+      "font_provider_checks": {
+        "performed_this_run": false,
+        "reason": "this offline command never performs provider requests or browser font checks",
+        "status": "not_run"
+      },
+      "problems": [
+        "archive contract differs from current version, distribution or font decision records"
+      ],
+      "release_approved": false,
+      "report_sha256": "4cff58e54734667adeb574f8db53fb99f64f35a1a8418d654f9e44686ad382d8"
+    },
+    {
+      "name": "brand_version-local",
+      "mode": "synthetic records; actual Tailwind compile; no real approval, provider result or consumer adoption",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "tools/check_consumers.py",
+        "--archive",
+        "/workspace/scratch/5ecc3c6cf97a/triage/consumer-current-eligibility-9vt0zmg1/synthetic-historical-never-release.zip",
+        "--source",
+        "aa9265d342dd6da68bc3be4f62b4ee9e5b52d77c",
+        "--sha256",
+        "491694724cbdbe39685163ea880db3cd7a36366060903e5105104aeb46386a02",
+        "--local"
+      ],
+      "exit": 0,
+      "result": "pass",
+      "scope": "local_fixture_mechanics",
+      "checker_source": "b2ecbfda6f7acf3269f28acdc24617896a3f0671",
+      "tailwind": {
+        "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css",
+        "local_links_after_compile": {
+          "plain.html": 3,
+          "tailwind.html": 2
+        },
+        "node": "v24.19.0",
+        "required": true,
+        "status": "pass",
+        "tailwind": "3.4.19",
+        "utilities_checked": 4
+      },
+      "font_provider_checks": {
+        "performed_this_run": false,
+        "reason": "this offline command never performs provider requests or browser font checks",
+        "status": "not_run"
+      },
+      "problems": [],
+      "release_approved": false,
+      "report_sha256": "50acb45ace0e91072c88a5537ab6f347961794e52211e550707519f0704d1151"
+    },
+    {
+      "name": "font_policy",
+      "mode": "synthetic records; actual Tailwind compile; no real approval, provider result or consumer adoption",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "tools/check_consumers.py",
+        "--archive",
+        "/workspace/scratch/5ecc3c6cf97a/triage/consumer-current-eligibility-9vt0zmg1/synthetic-historical-never-release.zip",
+        "--source",
+        "aa9265d342dd6da68bc3be4f62b4ee9e5b52d77c",
+        "--sha256",
+        "491694724cbdbe39685163ea880db3cd7a36366060903e5105104aeb46386a02"
+      ],
+      "exit": 1,
+      "result": "blocked",
+      "scope": "consumer_contract_checks",
+      "checker_source": "63217d0f4368030350eb7e78586d385b68349d1a",
+      "tailwind": {
+        "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css",
+        "local_links_after_compile": {
+          "plain.html": 3,
+          "tailwind.html": 2
+        },
+        "node": "v24.19.0",
+        "required": true,
+        "status": "pass",
+        "tailwind": "3.4.19",
+        "utilities_checked": 4
+      },
+      "font_provider_checks": {
+        "performed_this_run": false,
+        "reason": "this offline command never performs provider requests or browser font checks",
+        "status": "not_run"
+      },
+      "problems": [
+        "archive contract differs from current version, distribution or font decision records"
+      ],
+      "release_approved": false,
+      "report_sha256": "d14a988311beaa32f2237bee35a95eff2873d1d62b8f903468ba662d94f01781"
+    },
+    {
+      "name": "font_policy-local",
+      "mode": "synthetic records; actual Tailwind compile; no real approval, provider result or consumer adoption",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "tools/check_consumers.py",
+        "--archive",
+        "/workspace/scratch/5ecc3c6cf97a/triage/consumer-current-eligibility-9vt0zmg1/synthetic-historical-never-release.zip",
+        "--source",
+        "aa9265d342dd6da68bc3be4f62b4ee9e5b52d77c",
+        "--sha256",
+        "491694724cbdbe39685163ea880db3cd7a36366060903e5105104aeb46386a02",
+        "--local"
+      ],
+      "exit": 0,
+      "result": "pass",
+      "scope": "local_fixture_mechanics",
+      "checker_source": "63217d0f4368030350eb7e78586d385b68349d1a",
+      "tailwind": {
+        "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css",
+        "local_links_after_compile": {
+          "plain.html": 3,
+          "tailwind.html": 2
+        },
+        "node": "v24.19.0",
+        "required": true,
+        "status": "pass",
+        "tailwind": "3.4.19",
+        "utilities_checked": 4
+      },
+      "font_provider_checks": {
+        "performed_this_run": false,
+        "reason": "this offline command never performs provider requests or browser font checks",
+        "status": "not_run"
+      },
+      "problems": [],
+      "release_approved": false,
+      "report_sha256": "f77c4debe851769ca39306ca4dcb9305d6c0a42eac242c9d6bf8368df0341f69"
+    },
+    {
+      "name": "reviewed_source",
+      "mode": "synthetic records; actual Tailwind compile; no real approval, provider result or consumer adoption",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "tools/check_consumers.py",
+        "--archive",
+        "/workspace/scratch/5ecc3c6cf97a/triage/consumer-current-eligibility-9vt0zmg1/synthetic-historical-never-release.zip",
+        "--source",
+        "aa9265d342dd6da68bc3be4f62b4ee9e5b52d77c",
+        "--sha256",
+        "491694724cbdbe39685163ea880db3cd7a36366060903e5105104aeb46386a02"
+      ],
+      "exit": 1,
+      "result": "blocked",
+      "scope": "consumer_contract_checks",
+      "checker_source": "0ce50d50914884b8492a7ae2f04d139c8d815627",
+      "tailwind": {
+        "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css",
+        "local_links_after_compile": {
+          "plain.html": 3,
+          "tailwind.html": 2
+        },
+        "node": "v24.19.0",
+        "required": true,
+        "status": "pass",
+        "tailwind": "3.4.19",
+        "utilities_checked": 4
+      },
+      "font_provider_checks": {
+        "performed_this_run": false,
+        "reason": "this offline command never performs provider requests or browser font checks",
+        "status": "not_run"
+      },
+      "problems": [
+        "archive contract differs from current version, distribution or font decision records"
+      ],
+      "release_approved": false,
+      "report_sha256": "3a305875dee5ec0c43e6fb73b06e2bdd472c07d3c5740c9335e7bf03b94181e6"
+    },
+    {
+      "name": "reviewed_source-local",
+      "mode": "synthetic records; actual Tailwind compile; no real approval, provider result or consumer adoption",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "tools/check_consumers.py",
+        "--archive",
+        "/workspace/scratch/5ecc3c6cf97a/triage/consumer-current-eligibility-9vt0zmg1/synthetic-historical-never-release.zip",
+        "--source",
+        "aa9265d342dd6da68bc3be4f62b4ee9e5b52d77c",
+        "--sha256",
+        "491694724cbdbe39685163ea880db3cd7a36366060903e5105104aeb46386a02",
+        "--local"
+      ],
+      "exit": 0,
+      "result": "pass",
+      "scope": "local_fixture_mechanics",
+      "checker_source": "0ce50d50914884b8492a7ae2f04d139c8d815627",
+      "tailwind": {
+        "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css",
+        "local_links_after_compile": {
+          "plain.html": 3,
+          "tailwind.html": 2
+        },
+        "node": "v24.19.0",
+        "required": true,
+        "status": "pass",
+        "tailwind": "3.4.19",
+        "utilities_checked": 4
+      },
+      "font_provider_checks": {
+        "performed_this_run": false,
+        "reason": "this offline command never performs provider requests or browser font checks",
+        "status": "not_run"
+      },
+      "problems": [],
+      "release_approved": false,
+      "report_sha256": "80c50d2c8250714194dc167ef19fae969525ae48bd6b9fa4f27c31a342377801"
+    }
+  ]
+}

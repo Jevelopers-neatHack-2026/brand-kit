@@ -1,0 +1,1452 @@
+[
+  {
+    "path": "README.md",
+    "blob_sha": "094ed7856dd834a3ea8f0bf0d4c53c4645941664",
+    "findings": [
+      {
+        "kind": "URL with credentials or query",
+        "line": 13,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 14,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 15,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 16,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 29,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 30,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 31,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 32,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 33,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 34,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "index.html",
+    "blob_sha": "fdfefe5039ec4944595d8f3546d01245863ff272",
+    "findings": [
+      {
+        "kind": "URL with credentials or query",
+        "line": 11,
+        "urls": [
+          {
+            "host": "fonts.googleapis.com",
+            "embedded_credentials": false,
+            "query_keys": [
+              "display",
+              "family"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "tokens/external-fonts-google.css",
+    "blob_sha": "5f426b45be6a8ffbcbb40e94abe4a59d0652ddff",
+    "findings": [
+      {
+        "kind": "URL with credentials or query",
+        "line": 13,
+        "urls": [
+          {
+            "host": "fonts.googleapis.com",
+            "embedded_credentials": false,
+            "query_keys": [
+              "display",
+              "family"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "tokens/profile.json",
+    "blob_sha": "b291ff0e346882edd049790cf0275726e1ee1ef4",
+    "findings": [
+      {
+        "kind": "URL with credentials or query",
+        "line": 49,
+        "urls": [
+          {
+            "host": "fonts.googleapis.com",
+            "embedded_credentials": false,
+            "query_keys": [
+              "display",
+              "family"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "tools/tests/fixtures/baseline/tokens.css",
+    "blob_sha": "5201162d0c05062cb909e54b2176157a74cecfd1",
+    "findings": [
+      {
+        "kind": "URL with credentials or query",
+        "line": 5,
+        "urls": [
+          {
+            "host": "fonts.googleapis.com",
+            "embedded_credentials": false,
+            "query_keys": [
+              "display",
+              "family"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "tools/tests/test_accessibility_browser.cjs",
+    "blob_sha": "fd6fe001853dc2e96165b0a26754b27a56b7352f",
+    "findings": [
+      {
+        "kind": "email address",
+        "line": 46,
+        "reserved_example_domains_only": true,
+        "context": "  git(['-c', 'user.name=Local synthetic accessibility regression', '-c', 'user.email=[REDACTED-EMAIL]',"
+      }
+    ]
+  },
+  {
+    "path": "tools/tests/test_checks.py",
+    "blob_sha": "45d610a318afcbdef65847c3e079458d1b475e7d",
+    "findings": [
+      {
+        "kind": "email address",
+        "line": 94,
+        "reserved_example_domains_only": true,
+        "context": "        git = [\"git\", \"-C\", str(self.tmp), \"-c\", \"user.name=t\", \"-c\", \"user.email=[REDACTED-EMAIL]\"]"
+      }
+    ]
+  },
+  {
+    "path": "tools/tests/test_distribution.py",
+    "blob_sha": "df01735a6599117f2de68f32d2ef5b8353ee8bb3",
+    "findings": [
+      {
+        "kind": "email address",
+        "line": 46,
+        "reserved_example_domains_only": true,
+        "context": "    subprocess.run([\"git\", \"-c\", \"user.name=Synthetic fixture\", \"-c\", \"user.email=[REDACTED-EMAIL]\","
+      },
+      {
+        "kind": "email address",
+        "line": 99,
+        "reserved_example_domains_only": true,
+        "context": "                     (\"-c\", \"user.name=Synthetic fixture\", \"-c\", \"user.email=[REDACTED-EMAIL]\","
+      }
+    ]
+  },
+  {
+    "path": "tools/tests/test_provenance.py",
+    "blob_sha": "060d9afeac1a27fff6fba73d9ba7f45979d1bacf",
+    "findings": [
+      {
+        "kind": "email address",
+        "line": 198,
+        "reserved_example_domains_only": true,
+        "context": "        self.reg[\"records\"][2][\"notes\"] = [\"contact [REDACTED-EMAIL]\"]"
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 201,
+        "urls": [
+          {
+            "host": "x.example",
+            "embedded_credentials": false,
+            "query_keys": [
+              "sig"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "tools/tests/test_tokens.py",
+    "blob_sha": "caded9b4ed9bf6c129864b961bdd24694a6cac98",
+    "findings": [
+      {
+        "kind": "URL with credentials or query",
+        "line": 443,
+        "urls": [
+          {
+            "host": "fonts.googleapis.com",
+            "embedded_credentials": false,
+            "query_keys": [
+              "family"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "tools/tests/test_distribution.py",
+    "blob_sha": "51130c7cbf2c13b2631611039479f82239d615ce",
+    "findings": [
+      {
+        "kind": "email address",
+        "line": 51,
+        "reserved_example_domains_only": true,
+        "context": "                     (\"-c\", \"user.name=Synthetic fixture\", \"-c\", \"user.email=[REDACTED-EMAIL]\","
+      }
+    ]
+  },
+  {
+    "path": "tools/tests/test_accessibility_browser.cjs",
+    "blob_sha": "0b051e12b5997a8f065fc55ada6dbb78cfa0c334",
+    "findings": [
+      {
+        "kind": "email address",
+        "line": 46,
+        "reserved_example_domains_only": true,
+        "context": "  git(['-c', 'user.name=Local synthetic accessibility regression', '-c', 'user.email=[REDACTED-EMAIL]',"
+      }
+    ]
+  },
+  {
+    "path": "tools/tests/test_checks.py",
+    "blob_sha": "35961a7e0504f16b7c4564a9c965cb338d1cf285",
+    "findings": [
+      {
+        "kind": "email address",
+        "line": 94,
+        "reserved_example_domains_only": true,
+        "context": "        git = [\"git\", \"-C\", str(self.tmp), \"-c\", \"user.name=t\", \"-c\", \"user.email=[REDACTED-EMAIL]\"]"
+      }
+    ]
+  },
+  {
+    "path": "README.md",
+    "blob_sha": "2d42e460f331b1e1c0eed785d41efe4ecf216e43",
+    "findings": [
+      {
+        "kind": "URL with credentials or query",
+        "line": 13,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 14,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 15,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 16,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 29,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 30,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 31,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 32,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 33,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 34,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "tools/tests/test_distribution.py",
+    "blob_sha": "4402d0bc50895f9348124af6b09a7d5a94d98590",
+    "findings": [
+      {
+        "kind": "email address",
+        "line": 44,
+        "reserved_example_domains_only": true,
+        "context": "                     (\"-c\", \"user.name=Synthetic fixture\", \"-c\", \"user.email=[REDACTED-EMAIL]\","
+      }
+    ]
+  },
+  {
+    "path": "README.md",
+    "blob_sha": "f1c9b019e0a1a29e02448a611ec2c1e17cb17f46",
+    "findings": [
+      {
+        "kind": "URL with credentials or query",
+        "line": 13,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 14,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 15,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 16,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 29,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 30,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 31,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 32,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 33,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 34,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "tokens/external-fonts-google.css",
+    "blob_sha": "f764d8f50bd70efdf4f18476308b3e3e38971c9e",
+    "findings": [
+      {
+        "kind": "URL with credentials or query",
+        "line": 13,
+        "urls": [
+          {
+            "host": "fonts.googleapis.com",
+            "embedded_credentials": false,
+            "query_keys": [
+              "display",
+              "family"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "README.md",
+    "blob_sha": "fda2ae5464408a18c93dd8e73a88d65c9317195f",
+    "findings": [
+      {
+        "kind": "URL with credentials or query",
+        "line": 13,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 14,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 15,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 16,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 27,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 28,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 29,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 30,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 31,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 32,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "index.html",
+    "blob_sha": "39b0dd3a863d59d789eecefc58ec146651896598",
+    "findings": [
+      {
+        "kind": "URL with credentials or query",
+        "line": 11,
+        "urls": [
+          {
+            "host": "fonts.googleapis.com",
+            "embedded_credentials": false,
+            "query_keys": [
+              "display",
+              "family"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "tools/tests/test_distribution.py",
+    "blob_sha": "6df79d4df1ace88ff4587be1b7484724b70a3371",
+    "findings": [
+      {
+        "kind": "email address",
+        "line": 44,
+        "reserved_example_domains_only": true,
+        "context": "                     (\"-c\", \"user.name=Synthetic fixture\", \"-c\", \"user.email=[REDACTED-EMAIL]\","
+      }
+    ]
+  },
+  {
+    "path": "README.md",
+    "blob_sha": "a585b3e185e3e50aa0821085a9487aa1dccdb19e",
+    "findings": [
+      {
+        "kind": "URL with credentials or query",
+        "line": 13,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 14,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 15,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 16,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 27,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 28,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 29,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 30,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 31,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 32,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "README.md",
+    "blob_sha": "d7b686905515c68a4df1908cbd4cfd18af173d3e",
+    "findings": [
+      {
+        "kind": "URL with credentials or query",
+        "line": 13,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 14,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 15,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 16,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 27,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 28,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 29,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 30,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 31,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 32,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "tools/tests/test_checks.py",
+    "blob_sha": "46ce0e2ce423403caf7b4d33c9554bd7fd0166ea",
+    "findings": [
+      {
+        "kind": "email address",
+        "line": 91,
+        "reserved_example_domains_only": true,
+        "context": "        git = [\"git\", \"-C\", str(self.tmp), \"-c\", \"user.name=t\", \"-c\", \"user.email=[REDACTED-EMAIL]\"]"
+      }
+    ]
+  },
+  {
+    "path": "README.md",
+    "blob_sha": "adf4f9fe5020c8bf583fb4969aee0e006f1369bc",
+    "findings": [
+      {
+        "kind": "URL with credentials or query",
+        "line": 13,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 14,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 15,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 16,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 27,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 28,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 29,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 30,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 31,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 32,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "tools/tests/test_checks.py",
+    "blob_sha": "f05e1ca816e482f0425b5992782c7980b02c6607",
+    "findings": [
+      {
+        "kind": "email address",
+        "line": 91,
+        "reserved_example_domains_only": true,
+        "context": "        git = [\"git\", \"-C\", str(self.tmp), \"-c\", \"user.name=t\", \"-c\", \"user.email=[REDACTED-EMAIL]\"]"
+      }
+    ]
+  },
+  {
+    "path": "README.md",
+    "blob_sha": "9764c88822afc22d037eb3076e7920d0511be88a",
+    "findings": [
+      {
+        "kind": "URL with credentials or query",
+        "line": 13,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 14,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 15,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 16,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "labelColor",
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 27,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 28,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 29,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 30,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 31,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "URL with credentials or query",
+        "line": 32,
+        "urls": [
+          {
+            "host": "img.shields.io",
+            "embedded_credentials": false,
+            "query_keys": [
+              "style"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "index.html",
+    "blob_sha": "a806038d20f64ad0a8f0eea5a2b30d46fa52c998",
+    "findings": [
+      {
+        "kind": "URL with credentials or query",
+        "line": 11,
+        "urls": [
+          {
+            "host": "fonts.googleapis.com",
+            "embedded_credentials": false,
+            "query_keys": [
+              "display",
+              "family"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "index.html",
+    "blob_sha": "d0196b8604613bd51d7e6165fd6ec127a4be9288",
+    "findings": [
+      {
+        "kind": "URL with credentials or query",
+        "line": 11,
+        "urls": [
+          {
+            "host": "fonts.googleapis.com",
+            "embedded_credentials": false,
+            "query_keys": [
+              "display",
+              "family"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

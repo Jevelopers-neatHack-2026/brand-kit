@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "reviewer": "Astra agent /root/pr3_reconcile",
+  "review_type": "independent scoped engineering review",
+  "reviewed_at": "2026-10-12T16:55:51.403198+00:00",
+  "source_sha": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+  "source_tree": "8fa6555f217cf4ba141f54b3f0b5bae9e33078a3",
+  "remote_evidence": {
+    "branch_url": "https://api.github.com/repos/Jevelopers-neatHack-2026/brand-kit/git/ref/heads/integration/bk-mvp-readiness-20261012",
+    "ref": "refs/heads/integration/bk-mvp-readiness-20261012",
+    "branch_head": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+    "commit_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/commit/d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+    "commit_sha": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+    "tree_sha": "8fa6555f217cf4ba141f54b3f0b5bae9e33078a3",
+    "parents": [
+      "3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4"
+    ]
+  },
+  "clean_before_and_after": true,
+  "prior_review_source": "4e9666630803b8dad43325e42a6f83fa8bed03db",
+  "disposition": "APPROVE",
+  "blocking_findings": [],
+  "reviewed_changed_paths": [
+    "Makefile",
+    "inventory/brand-inventory.json",
+    "tools/check_brand_release.py",
+    "tools/tests/test_checks.py"
+  ],
+  "unchanged_reviewed_paths_sha256": {
+    "tools/asset_lib.py": "1f2e2426aff4298c5433437e19f8f98cdecaa1d81e96a1aa34ed448a7151eac6",
+    "tools/build_assets.py": "a5ff6a6733f6ae303dee8de2a14b15177e473299241190ff26943a9dc28c782b",
+    "tools/check_asset.py": "c8027e2592e4fd453df043825196c208b7a1c794e7a65167fffdeca377b61e68",
+    "tools/build_logos.py": "6d6419ca22d79f0f542666c3ee20301d3d2653d81ffb1d2d248d1c97e05b9a06",
+    "tools/tests/test_assets.py": "08c0852f67e7be9c58e0bc47a61d6caa22f8964a52141f738bc501c36bec278c",
+    "fonts/Fraunces-OFL.txt": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb",
+    "fonts/InterTight-OFL.txt": "50240ab035cf1b6b3307940235481d515c4b6de3ab1fa843dbe59e7892cb9d58",
+    "fonts/InterTight[wght].ttf": "b81b73dcb64df3c230cabade7df6c5773bf863233f24c9ee51087519f1f88b6f",
+    "logo/app-icon.svg": "22129ff127d1c229d33206d5df48c36f7e3338cb697ac04fe97090448b77456e",
+    "logo/favicon.svg": "ad9701d4ae6416c6a9d789c80b422ace7ab70cf1feac57adab4bbcc25d47d3b1",
+    "logo/lockup-horizontal-mono.svg": "07c25323b72a10cf98b023b95c13fd3e51851405731b04b83f30eaf1d1b6cfe3",
+    "logo/lockup-horizontal.svg": "1f810daf26caebd3f661b30a4406dbea61d5cd294e6e887c0b994780d9b3750f",
+    "logo/lockup-stacked.svg": "66a16141405d18cca1ea709c0a8a9d59f248b442e7fc27ffb4e655501741edb0",
+    "logo/ts-stamp-currentcolor.svg": "61007e1795eac0582f20f57bcdaf83eab5d8c9cadc054e824ce686cf1796a5a9",
+    "logo/ts-stamp-mono-cream.svg": "077f0b2936af1a842991d5922f5471067486447fb3e9c570b8510f2260f9dae5",
+    "logo/ts-stamp-mono-ink.svg": "2b3ec01e538a1ff55250965c324ac0e999234a9039b8dbbf8864c09430ea8bae",
+    "logo/ts-stamp-mono-orange.svg": "f00077dfb41815c3e26d8b32e4d572eff66834861433e301bb208108c21f07a8",
+    "logo/ts-stamp.svg": "a1279c701ff62a20288854bef1e7a7718128125d745485e30a019f2a2c78efd8",
+    "logo/wordmark-compact.svg": "9c147c238f5734d0673760ca95c8ea031e313b3fbeb4d91e440e746e49bfa9dc",
+    "logo/wordmark-cream.svg": "4a0bb63ef3d4712e0ada667d36b8b1f8b4b22cc4049468260d1742ab69cc4478",
+    "logo/wordmark-orange.svg": "ba247fb4be9ee19803f487ee3abb048b5f0905ef944673a5a78cc4544a2a5906",
+    "logo/wordmark.svg": "4efa5c6a27904c18dcb2dc482d1d6c525fbcaabed74914129efa1af9e834fb4c",
+    "tools/assets/export-matrix.json": "76eaabd3a5923a63471af5b6aab5f7b761007c87d2fa7f515c3e31468756979f",
+    "tools/assets/requirements.txt": "48392b83c5c0517221ff710a06a11279c3249b77c2b2d0756c72567105299fc6",
+    "tools/assets/toolchain.json": "bda1bd8911080c944c5e2114d2a1d9e507b2fcc25bd736c981cb10860742955b",
+    "docs/source-of-truth.md": "0f0d5e31d6d1a904002db378303311d26f6a8d3c6b1095308a13d7d6a5dd353d",
+    "provenance/allowlist.json": "40b7842c9c30972e95e81f9fe7151aa954bf802d486b0108e244bc0164d38524",
+    "provenance/register.json": "8e6a6349299cb8a9a5e08ad505e6c18c855821d0a0a563329141324a2f46c6ae",
+    "tokens/external-fonts-google.css": "1ef1548293ec7bc35b11c58a802fb283a4abf795d5344949c5ee0c62b4108595",
+    "tokens/mapping.json": "7db9104591711ff10a86f2fa26f2ec64fc995f3fb5eec9b7040be6ae363ffb45",
+    "tokens/profile.json": "18ce404d9e9f667bcab5a6cc0a87ca7be9e9866c5b7e69bff0c529e21742fef3",
+    "tokens/tailwind.preset.js": "44a48264838822b41954f946765264740196621b4504947258e54734b20c79ae",
+    "tokens/token-matrix.md": "45808874e91f2821e179b66726ed8d21b835c7565d46fe4e19ffccce8f8def82",
+    "tokens/tokens.css": "e34223aecf3b5459f046506f5bb97b415b0feeef1d237021d672c5cc59ef3f98",
+    "tokens/tokens.json": "f441264f2e56f8fc8be5129a5a5b3f50403582ee5eb43821c7afb3ed1129b551"
+  },
+  "unchanged_vs_prior_review": {
+    "tools/asset_lib.py": true,
+    "tools/build_assets.py": true,
+    "tools/check_asset.py": true,
+    "tools/build_logos.py": true,
+    "tools/tests/test_assets.py": true,
+    "fonts/Fraunces-OFL.txt": true,
+    "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf": true,
+    "fonts/InterTight-OFL.txt": true,
+    "fonts/InterTight[wght].ttf": true,
+    "logo/app-icon.svg": true,
+    "logo/favicon.svg": true,
+    "logo/lockup-horizontal-mono.svg": true,
+    "logo/lockup-horizontal.svg": true,
+    "logo/lockup-stacked.svg": true,
+    "logo/ts-stamp-currentcolor.svg": true,
+    "logo/ts-stamp-mono-cream.svg": true,
+    "logo/ts-stamp-mono-ink.svg": true,
+    "logo/ts-stamp-mono-orange.svg": true,
+    "logo/ts-stamp.svg": true,
+    "logo/wordmark-compact.svg": true,
+    "logo/wordmark-cream.svg": true,
+    "logo/wordmark-orange.svg": true,
+    "logo/wordmark.svg": true,
+    "tools/assets/export-matrix.json": true,
+    "tools/assets/requirements.txt": true,
+    "tools/assets/toolchain.json": true,
+    "docs/source-of-truth.md": true,
+    "provenance/allowlist.json": true,
+    "provenance/register.json": true,
+    "tokens/external-fonts-google.css": true,
+    "tokens/mapping.json": true,
+    "tokens/profile.json": true,
+    "tokens/tailwind.preset.js": true,
+    "tokens/token-matrix.md": true,
+    "tokens/tokens.css": true,
+    "tokens/tokens.json": true
+  },
+  "canonical_logo_count": 14,
+  "canonical_logos_equal_merged_pr22_baseline": true,
+  "inventory": {
+    "entries": 117,
+    "added": [
+      "tools/check_consumer_browser.cjs"
+    ],
+    "removed": [],
+    "previous_records_unchanged": true,
+    "other_top_level_fields_unchanged": true,
+    "all_approval_status_unknown": true,
+    "added_record": {
+      "id": "tools/check_consumer_browser.cjs",
+      "path": "tools/check_consumer_browser.cjs",
+      "type": "javascript",
+      "category": "tooling",
+      "classification": "canonical-source",
+      "description": "Offline pinned-browser checks for extracted plain-CSS and Tailwind review fixtures across themes, narrow layout, fallback fonts and reduced motion; freezes source and records exact archive/input hashes. No provider or consumer acceptance.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "tools/check_consumer_browser.cjs"
+    }
+  },
+  "gate": {
+    "distinct_required_checks": 17,
+    "targets": [
+      "check-inventory",
+      "check-links",
+      "check-governance",
+      "check-provenance",
+      "build-tokens",
+      "check-tokens",
+      "check-tokens-tailwind",
+      "build-assets",
+      "check-assets",
+      "check-accessibility",
+      "check-accessibility-browser",
+      "check-guidelines",
+      "test",
+      "check-package",
+      "package-brand",
+      "check-consumers",
+      "check-consumers-browser"
+    ],
+    "production_provenance_and_approved_packaging_and_consumer_contract_retained": true,
+    "release_and_foreign_acceptance_flags_remain_false": true
+  },
+  "verification": [
+    {
+      "command": "/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python -m unittest tools.tests.test_checks.GovernanceTests tools.tests.test_checks.RealRepo -v",
+      "exit_code": 0,
+      "tests_passed": 4,
+      "scope": "governance fixture, contradictory release-eligible negative, actual inventory/links/classifications"
+    },
+    {
+      "command": "make -n check-consumers-browser PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python",
+      "exit_code": 0,
+      "scope": "recipe inspection only; browser was not executed by this review"
+    },
+    {
+      "command": "git diff --check 4e9666630803b8dad43325e42a6f83fa8bed03db HEAD",
+      "exit_code": 0
+    },
+    {
+      "command": "Git blob/AST comparison script used to produce this JSON",
+      "exit_code": 0,
+      "scope": "exact input identity, 117 inventory entries, retained authority, 17 distinct gate targets"
+    }
+  ],
+  "prior_preserved_evidence": {
+    "asset-tests.json": {
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/asset-review-4e96666/asset-tests.json",
+      "sha256": "f21a22c31aeefa396db783854c838d6687b972d2e41f086147401f4c156221ad"
+    },
+    "fixed-probes.json": {
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/asset-review-4e96666/fixed-probes.json",
+      "sha256": "6a9dd41624ae3e5a88320b71da3b30a203e2d165f75c0ae9aae019b7ea94349c"
+    },
+    "metadata-review.json": {
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/asset-review-4e96666/metadata-review.json",
+      "sha256": "e80e54990cd65e890586841eb9af744ac17db694bd2830d79ff3f7a3fc83f03b"
+    }
+  },
+  "full_suite_rerun_this_review": false,
+  "full_suite_note": "Root is independently executing the required aggregate gate on this exact remote candidate; no full-suite outcome is asserted here. Prior 22 asset tests and five negative probes are retained as prior results with byte-identical inputs, not relabeled as rerun.",
+  "excluded_from_independent_approval": [
+    "README.md",
+    "SPEC.md",
+    "index.html",
+    "docs/voice.md",
+    "docs/architecture/OWNERSHIP.md",
+    "docs/brand-governance.md",
+    "docs/identity-decision-packet.md",
+    "docs/usage.md",
+    "docs/usage-examples.html",
+    "docs/claims-register.md",
+    "docs/consumers.md",
+    "tools/check_guidelines.py",
+    "tools/tests/test_guidelines.py",
+    "distribution/fixtures/*",
+    "tools/check_consumer_browser.cjs",
+    "tools/check_consumers.py",
+    "tools/tests/test_distribution.py",
+    "tools/check_accessibility_browser.cjs",
+    "tools/tests/test_accessibility_browser.cjs"
+  ],
+  "pending_manual_acceptance": [
+    "identity ratification and accountable reviewer acknowledgment",
+    "provenance/rights and font distribution",
+    "provider font available/unavailable evidence",
+    "consumer owner acknowledgment and actual application acceptance",
+    "release/gate/epic closure and foreign/global acceptance"
+  ],
+  "diagnostic_history": [
+    {
+      "outcome": "path lookup error",
+      "path": "source-of-truth.md",
+      "disposition": "Corrected to the actual tracked docs/source-of-truth.md; no repository file changed. The final exact-blob comparison passed."
+    }
+  ],
+  "github_mutations_performed": false,
+  "verbatim_review_summary": "Independent scoped engineering review by Astra agent /root/pr3_reconcile: APPROVE for commit d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0 (tree 8fa6555f217cf4ba141f54b3f0b5bae9e33078a3). I independently refreshed the GitHub branch and commit, confirmed the clean detached checkout, and compared the asset and integration metadata scope with previously reviewed 4e9666630803b8dad43325e42a6f83fa8bed03db. The asset builders, validator, export matrix, toolchain, asset tests, font sources, 14 canonical SVGs, provenance and token files are byte-identical to that reviewed revision; all 14 SVGs also retain the merged PR #22 baseline bytes. The previous 22 asset tests and five reproduced negative-probe rejections remain applicable by exact input identity. On this candidate, the focused governance and real-inventory/link/classification tests passed 4/4. The inventory adds exactly one internal checker and preserves all previous records and unknown approval states. The Make target correctly passes the pinned Python path to the browser runner; the gate now contains 17 distinct required checks and retains production provenance, approved packaging and the full consumer contract checks. The governance test change supplies the actual linked decision document without weakening its rejection assertion. No blocking finding remains in this scope. This independent approval excludes my authored documentation, guidelines checker, consumer fixtures and consumer browser runner, and excludes the peer-owned distribution/consumer and general accessibility-browser deltas. It is engineering review only: identity, rights, provider fonts, named consumer acceptance, release/gate/epic closure and foreign/global acceptance remain pending. No GitHub mutation was performed by this reviewer."
+}

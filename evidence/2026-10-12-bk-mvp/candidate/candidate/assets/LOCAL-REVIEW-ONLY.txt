@@ -1,0 +1,3 @@
+UNAPPROVED LOCAL REVIEW ARTIFACTS. Do not distribute, publish, upload to an app store, or include in a release.
+Identity, rights and accountable visual review remain pending (#9, #7, #8, #11). No font files are included.
+Rendered panels are synthetic QA evidence, never canonical marks or approval evidence.

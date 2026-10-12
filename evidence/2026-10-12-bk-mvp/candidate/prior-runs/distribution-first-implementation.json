@@ -1,0 +1,81 @@
+{
+  "kind": "local_implementation_evidence",
+  "source_sha": "a25e915ab2868aa4574864524ad752f21941967b",
+  "commits": [
+    "b8b696a48ddb49009fbb34a2bfa937f17d1d6d0d",
+    "a25e915ab2868aa4574864524ad752f21941967b"
+  ],
+  "mode": "offline_source_and_synthetic_fixtures",
+  "earlier_failures": [
+    {
+      "candidate": "uncommitted author worktree before b8b696a",
+      "command": "python3 -m unittest tools.tests.test_distribution -v",
+      "tests": 19,
+      "failures": 1,
+      "errors": 2,
+      "source": "exec output chunk b7c703",
+      "causes": [
+        "Empty-source test helper incorrectly substituted default source",
+        "Manifest font_policy list raised AttributeError instead of controlled rejection",
+        "Manifest kind list raised TypeError instead of controlled rejection"
+      ],
+      "disposition": "Fixed before b8b696a; later 20 distribution tests pass"
+    },
+    {
+      "candidate": "a25e915ab2868aa4574864524ad752f21941967b",
+      "command": "python3 -m unittest discover -s tools/tests",
+      "tests": 216,
+      "failures": 1,
+      "errors": 0,
+      "cause": "Existing RealRepo inventory test rejects twelve newly committed paths pending parent-owned integration inventory update",
+      "disposition": "Expected integration dependency; not a pass"
+    }
+  ],
+  "results": [
+    {
+      "key": "final-package",
+      "chunk_id": "ad2249",
+      "wall_time_seconds": 0.355789977,
+      "exit_code": 0,
+      "original_token_count": 98,
+      "output": "{\"archive_sha256\": \"78bba778b46fa759ee7fb64ebdb50b989d54348086009ffacda51c410795f937\", \"deterministic\": true, \"file_count\": 25, \"files_digest\": \"82c1d9aaef0cb9ea4e33f1aa53824b73a3b93fbf90a230baf092c94d9f37a112\", \"mode\": \"offline_review_candidate\", \"release_approved\": false, \"source_sha\": \"a25e915ab2868aa4574864524ad752f21941967b\", \"toolchain\": {\"python\": \"3.12.14\", \"zip\": \"ZIP_STORED\"}}\n"
+    },
+    {
+      "key": "final-consumer-local",
+      "chunk_id": "553101",
+      "wall_time_seconds": 0.852566806,
+      "exit_code": 0,
+      "original_token_count": 489,
+      "output": "{\n  \"archive_sha256\": \"78bba778b46fa759ee7fb64ebdb50b989d54348086009ffacda51c410795f937\",\n  \"checker_sha\": \"a25e915ab2868aa4574864524ad752f21941967b\",\n  \"consumer_acknowledgments\": {\n    \"problems\": [\n      \"no exact reviewed distribution source SHA is recorded\",\n      \"brand version has not been selected by the owner\",\n      \"distribution: missing exact decision fields\",\n      \"font_delivery: missing exact decision fields\",\n      \"getticketstub.com: missing exact decision fields\",\n      \"landing-page-repo: missing exact decision fields\",\n      \"marketing-material: missing exact decision fields\",\n      \"external_font_available_and_unavailable: missing exact decision fields\"\n    ],\n    \"status\": \"blocked\"\n  },\n  \"consumer_adoption\": false,\n  \"files_digest\": \"82c1d9aaef0cb9ea4e33f1aa53824b73a3b93fbf90a230baf092c94d9f37a112\",\n  \"font_provider_available\": {\n    \"reason\": \"external provider decision and actual network/browser evidence are pending\",\n    \"required_for_release\": true,\n    \"status\": \"skipped\"\n  },\n  \"limitations\": [\n    \"CSS inspection is structural; it is not browser font, visual, accessibility or owner review.\",\n    \"Review acknowledgments are local records; their authenticity requires independent human verification.\"\n  ],\n  \"mode\": \"offline_review_fixture\",\n  \"plain_css\": {\n    \"local_links\": 3,\n    \"status\": \"pass\"\n  },\n  \"recovery\": {\n    \"exact_bytes_restored\": true,\n    \"missing_import_rejected\": true,\n    \"scope\": \"local re-extraction only; no approved historical rollback target exists\"\n  },\n  \"release_approved\": false,\n  \"result\": \"pass\",\n  \"schema_version\": 1,\n  \"scope\": \"local_fixture_mechanics\",\n  \"source_sha\": \"a25e915ab2868aa4574864524ad752f21941967b\",\n  \"tailwind\": {\n    \"command\": \"node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css\",\n    \"node\": \"v24.19.0\",\n    \"required\": true,\n    \"status\": \"pass\",\n    \"tailwind\": \"3.4.19\",\n    \"utilities_checked\": 4\n  }\n}\n"
+    },
+    {
+      "key": "final-approved",
+      "chunk_id": "34c4bc",
+      "wall_time_seconds": 0.017082857,
+      "exit_code": 1,
+      "original_token_count": 22,
+      "output": "BLOCKED provenance/allowlist checks block approved packaging; run make check-provenance\n"
+    },
+    {
+      "key": "final-consumer-contract",
+      "chunk_id": "9780b9",
+      "wall_time_seconds": 0.89620876,
+      "exit_code": 1,
+      "original_token_count": 534,
+      "output": "{\n  \"archive_sha256\": \"78bba778b46fa759ee7fb64ebdb50b989d54348086009ffacda51c410795f937\",\n  \"checker_sha\": \"a25e915ab2868aa4574864524ad752f21941967b\",\n  \"consumer_acknowledgments\": {\n    \"problems\": [\n      \"no exact reviewed distribution source SHA is recorded\",\n      \"brand version has not been selected by the owner\",\n      \"distribution: missing exact decision fields\",\n      \"font_delivery: missing exact decision fields\",\n      \"approved artifact unavailable; executed fixtures use an unapproved review candidate\",\n      \"an unapproved review archive cannot satisfy the approved consumer contract\",\n      \"getticketstub.com: missing exact decision fields\",\n      \"landing-page-repo: missing exact decision fields\",\n      \"marketing-material: missing exact decision fields\",\n      \"external_font_available_and_unavailable: missing exact decision fields\"\n    ],\n    \"status\": \"blocked\"\n  },\n  \"consumer_adoption\": false,\n  \"files_digest\": \"82c1d9aaef0cb9ea4e33f1aa53824b73a3b93fbf90a230baf092c94d9f37a112\",\n  \"font_provider_available\": {\n    \"reason\": \"external provider decision and actual network/browser evidence are pending\",\n    \"required_for_release\": true,\n    \"status\": \"skipped\"\n  },\n  \"limitations\": [\n    \"CSS inspection is structural; it is not browser font, visual, accessibility or owner review.\",\n    \"Review acknowledgments are local records; their authenticity requires independent human verification.\"\n  ],\n  \"mode\": \"offline_review_fixture\",\n  \"plain_css\": {\n    \"local_links\": 3,\n    \"status\": \"pass\"\n  },\n  \"recovery\": {\n    \"exact_bytes_restored\": true,\n    \"missing_import_rejected\": true,\n    \"scope\": \"local re-extraction only; no approved historical rollback target exists\"\n  },\n  \"release_approved\": false,\n  \"result\": \"blocked\",\n  \"schema_version\": 1,\n  \"scope\": \"consumer_contract_checks\",\n  \"source_sha\": \"a25e915ab2868aa4574864524ad752f21941967b\",\n  \"tailwind\": {\n    \"command\": \"node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css\",\n    \"node\": \"v24.19.0\",\n    \"required\": true,\n    \"status\": \"pass\",\n    \"tailwind\": \"3.4.19\",\n    \"utilities_checked\": 4\n  }\n}\n"
+    }
+  ],
+  "full_unit_run": {
+    "chunk_id": "e4c2ca",
+    "wall_time_seconds": 0.000055804,
+    "exit_code": 1,
+    "original_token_count": 408,
+    "output": ".....................................F..................................................................................................................................................................................\n======================================================================\nFAIL: test_repository_passes (test_checks.RealRepo.test_repository_passes)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/workspace/scratch/5ecc3c6cf97a/brand-distribution/tools/tests/test_checks.py\", line 278, in test_repository_passes\n    self.assertEqual(check_inventory.check(ROOT), [])\nAssertionError: Lists differ: ['uncatalogued file: distribution/acceptan[563 chars].py'] != []\n\nFirst list contains 12 additional elements.\nFirst extra element 0:\n'uncatalogued file: distribution/acceptance.json'\n\nDiff is 651 characters long. Set self.maxDiff to None to see it.\n\n----------------------------------------------------------------------\nRan 216 tests in 3.668s\n\nFAILED (failures=1)\nFAIL uncatalogued file: notes.md\ncheck-inventory: 1 problem(s)\ncheck-inventory: OK (4 entries cover all tracked files)\ncheck-inventory: OK (4 entries cover all tracked files)\nFAIL uncatalogued file: stray.txt\ncheck-inventory: 1 problem(s)\nFAIL README.md: broken local link 'docs/nope.md'\nlocal links resolved: 0; broken: 1\nexternal links UNCHECKED (offline mode, not verified): 0\nFAIL missing required input: README.md\nFAIL missing required input: docs/source-of-truth.md\nFAIL missing required input: no tracked .md or .html files to check\nlocal links resolved: 0; broken: 3\nexternal links UNCHECKED (offline mode, not verified): 0\n"
+  },
+  "acceptance": false,
+  "limitations": [
+    "No remote repository mutations or consumer changes were made by this worker.",
+    "No font provider request, real owner ACK, rights clearance, browser/manual acceptance or release approval was fabricated.",
+    "Make targets and canonical inventory updates are parent-owned integration work."
+  ]
+}

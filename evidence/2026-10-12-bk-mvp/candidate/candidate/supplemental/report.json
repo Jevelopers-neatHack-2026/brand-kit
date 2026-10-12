@@ -1,0 +1,90 @@
+{
+  "source_sha": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+  "mode": "actual local source/package checks; synthetic consumer fixture; no provider execution or acceptance",
+  "commands": [
+    {
+      "label": "register",
+      "command": [
+        "make",
+        "check-provenance-register"
+      ],
+      "started_at": "2026-10-12T17:05:56.015110+00:00",
+      "exit_code": 0,
+      "streams": {
+        "stdout": {
+          "path": "register.stdout.txt",
+          "sha256": "c512bf3339922dea3883721f9a76ca0d3f11fb2adcc300d01f5a0562acea1a26"
+        },
+        "stderr": {
+          "path": "register.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "outcome": "pass"
+    },
+    {
+      "label": "local-consumers",
+      "command": [
+        "make",
+        "check-consumers-local"
+      ],
+      "started_at": "2026-10-12T17:05:56.093975+00:00",
+      "exit_code": 0,
+      "streams": {
+        "stdout": {
+          "path": "local-consumers.stdout.txt",
+          "sha256": "c3bc92fe1f6d4e931762b2805cfa542e3a286f8e58fc14eee7d495be89c690c7"
+        },
+        "stderr": {
+          "path": "local-consumers.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "outcome": "pass"
+    },
+    {
+      "label": "diff",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "started_at": "2026-10-12T17:05:57.595433+00:00",
+      "exit_code": 0,
+      "streams": {
+        "stdout": {
+          "path": "diff.stdout.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "diff.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "outcome": "pass"
+    },
+    {
+      "label": "clean",
+      "command": [
+        "git",
+        "status",
+        "--porcelain",
+        "--untracked-files=all"
+      ],
+      "started_at": "2026-10-12T17:05:57.598214+00:00",
+      "exit_code": 0,
+      "streams": {
+        "stdout": {
+          "path": "clean.stdout.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "clean.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "outcome": "pass"
+    }
+  ],
+  "outcome": "pass"
+}

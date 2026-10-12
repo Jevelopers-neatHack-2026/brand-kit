@@ -1,0 +1,4 @@
+make[1]: Entering directory '/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate'
+PYTHON="/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python" node tools/check_consumer_browser.cjs
+{"outcome":"pass","cases":16,"report":"/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate/out/brand/consumer-browser/2026-10-12T16-57-27-829Z/report.json","release_approved":false}
+make[1]: Leaving directory '/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate'

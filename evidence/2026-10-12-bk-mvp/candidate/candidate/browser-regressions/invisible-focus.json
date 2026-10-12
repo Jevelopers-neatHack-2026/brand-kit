@@ -1,0 +1,36 @@
+{
+  "schema": "ticketstub-local-browser-evidence@1",
+  "started_at": "2026-10-12T17:04:17.355Z",
+  "mode": "offline local browser; synthetic content; all external requests blocked",
+  "outcome": "error",
+  "release_eligible": false,
+  "cases": [],
+  "external_requests_blocked": 0,
+  "required_followup": [
+    "Named accessibility/brand reviewer acceptance on exact source and report hashes.",
+    "Approved external provider fonts available at 200% browser zoom and narrow width; not exercised or approved here.",
+    "Real browser 200% zoom and assistive-technology walkthrough; automated CSS zoom below is only a layout proxy.",
+    "Consumer application keyboard, focus, imagery, runtime motion and adopted artifact verification."
+  ],
+  "source_revision": "da506584354cd782580d864a7b29c84e5713e9a4",
+  "worktree_diff_present": true,
+  "inputs_sha256": {
+    "tokens/tokens.css": "e34223aecf3b5459f046506f5bb97b415b0feeef1d237021d672c5cc59ef3f98",
+    "tokens/tokens.json": "f441264f2e56f8fc8be5129a5a5b3f50403582ee5eb43821c7afb3ed1129b551",
+    "tokens/profile.json": "18ce404d9e9f667bcab5a6cc0a87ca7be9e9866c5b7e69bff0c529e21742fef3",
+    "tokens/mapping.json": "7db9104591711ff10a86f2fa26f2ec64fc995f3fb5eec9b7040be6ae363ffb45",
+    "tools/accessibility-fixture/index.html": "ee827b92eef36ef05ea630afc496d2bd954fbbfaddb6a274a938197f15c3c483",
+    "tools/accessibility-fixture/fixture.css": "b7095e7a36bfe1e4569a58e9ec9c403e65d4f3448bf349126121dbbe5af77fe5",
+    "tools/accessibility-fixture/fixture.js": "1a4605cc0177079be3d1ccadfa259f400727a2a1cfb2e5d741b973977c86234c",
+    "tools/check_accessibility_browser.cjs": "9ba79204f4c604ab58df4aed8c20b6736cab895fbf154948658ddf4b59d1847e",
+    "tools/browser-dev/package.json": "a6bd1b89da41442895e2da086554cf735943d96dedf1a71fb79cd70cd1595e50",
+    "tools/browser-dev/package-lock.json": "1cc174b0a3d51c115cecba0fde9b6eb56794c4443d442dd180dd53eeaae6ca15"
+  },
+  "input_mode": "frozen source buffers; end-of-run source comparison required",
+  "node": "v24.19.0",
+  "playwright": "1.56.1",
+  "browser": "141.0.7390.37",
+  "error_type": "Error",
+  "error": "os-light: focus indicator is invisible or below 3:1 against its adjacent surface",
+  "finished_at": "2026-10-12T17:04:18.286Z"
+}

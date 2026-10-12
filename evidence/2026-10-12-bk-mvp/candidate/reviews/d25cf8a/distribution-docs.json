@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "reviewer": "independent /root/asset_pipeline reviewer",
+  "reviewed_at": "2026-10-12T17:05:22.422202+00:00",
+  "candidate_sha": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+  "candidate_tree": "9b4e5bffc559494731cfdcc23c5df7582792736c",
+  "working_tree_clean": true,
+  "matches_local_integration_revision": "5a0c0e2",
+  "exact_tree_match": true,
+  "verdict": "APPROVE",
+  "scope": "Independent code/documentation review of non-authored docs/guidelines/root numerical accessibility, non-authored distribution/consumer/gate portions including current eligibility revocation, and consumer fixture/browser code including focus clipping and exclusive evidence output. This is not brand, rights, consumer or release acceptance.",
+  "excluded_authorship": [
+    "Own asset implementation (2f891321, integrated afb59f6); root reviews it.",
+    "Own source-bound distribution metadata/extraction/provider-reporting implementation (e6d4c6e, integrated 39a1de5); root independently reviews it.",
+    "Own accessibility-browser freeze/clipped-ring implementation (7fb13539, integrated fd31017); root independently reviews it.",
+    "Own new guide-source-context prose d340ab76845001f2420a203ad5fe939e47fb09f9 in docs/distribution.md and docs/consumers.md. Independently reviewed and approved by /root/pr3_reconcile; excluded from this reviewer approval."
+  ],
+  "prior_review": {
+    "candidate_sha": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+    "verdict": "request_changes",
+    "preserved_path": "triage/final-review-distribution-docs-d7d4fb3.json",
+    "sha256": "7c5e1d636f73cd27e1a4e5e32158cfec70ffbd16bcb29e90fc0f00dbab37dfce"
+  },
+  "reviewed_paths_sha256": {
+    "docs/distribution.md": "6ce378046aeea4e05ca180882197007890575285d1dc773a1ef7d6687910f82b",
+    "docs/consumers.md": "53723abb67ed5346cbaf88e70085dee301fd2cc727bcc6d396c5408522e8f663",
+    "docs/identity-decision-packet.md": "ad3bd084375b64f231e6a11cbf4eec4f9d3344bb9d329879a4e0a7915f6662cd",
+    "docs/claims-register.md": "7ede13aaddee7756d061a1fae100243d02135364ecbd95b590c89ea1f220dc07",
+    "docs/usage.md": "5dce0185b63be1d7bbbc49630b21a52bfbccd36ecb01123749d9b8fdf67a82fb",
+    "docs/usage-examples.html": "26e4e7d5a58644057c7003eef2e5513bec1e94e05d68ceec8f26f8470f29d3d0",
+    "docs/guidelines-source-snapshot.json": "a1ded314ab7da0da1d96f5d70a0e09b0799fb18879c6abae41ddc1e86a82f58d",
+    "README.md": "b949a4fff170d775028d9c5db2cb6ef2e32ce482708e1f7a2d69b021f5ceabeb",
+    "SPEC.md": "0d9de5f012a3f3671a46b66f3d08910e9e61497df89320563c4488a25f189ade",
+    "index.html": "ef7e1c8073736a8fdc2a2f3ba1d4e7029f89fe7f24e61a36d990ef463b5c8e77",
+    "docs/voice.md": "82ce10f753dfd6f5693c0a70159950e91d0da6ba072b6868704849e58a0a7c9e",
+    "tools/check_guidelines.py": "a15d59812cae1506555c39d9f04a8bad10f2dd189f233a79100e7123b1fdd2ea",
+    "tools/tests/test_guidelines.py": "1c9a2bfcbe86b03de9e2d133ca7e13997564596cd08325c1987734ee15ba4923",
+    "tools/check_accessibility.py": "bb2f07e525fa33940c878d8f848e38dc4d6c7529616f39c743095b7a84c2267d",
+    "tools/tests/test_accessibility.py": "09e8c14da95c130cf73a82c40a36c51db443546d191d61b9ce59e778a58c9e1e",
+    "tools/check_brand_release.py": "26a31c01a3aa78bd9468c2680b5b2e332f0f661537e9ec7a705640242b55bbd0",
+    "tools/check_consumers.py": "5c8518f02013b5f7647394a38764d071bd4789c8162a2e56c83dc4bc892cbbf3",
+    "tools/tests/test_distribution.py": "7df24161ccb44e00841bf0a6ce935271117d25910ad209fff1286de144663cff",
+    "tools/check_consumer_browser.cjs": "569d72cf5b91a8ca78dc88b5348f814dec828810de702f6acab843f06f4a97d2",
+    "distribution/proposal.json": "9b1c84556bf7c1ff3998e53fa1bced6940697dd777384486f391f3e7e3282a61",
+    "distribution/acceptance.json": "7b1fed909a2be92a1cdc9e68ddb84b8e626d5a58b33526d92d13f4df4151f4ff",
+    "distribution/fixtures/plain.html.in": "885de693c4400d3bea5b339534e5dc5e1fd37e5778b4a18016dd01a7a111cb43",
+    "distribution/fixtures/plain.css": "90965f8529fff2f018d80a943a42e0d99bbdcff14b000138a54a9c8611ba30b4",
+    "distribution/fixtures/tailwind.html.in": "a84185e7911bbc50f1bcd733e7d75ba589022d3cc982e9cf3833d9502261d5e5",
+    "distribution/fixtures/tailwind.css": "0e5844ec75de2fb4a76097b26bb624bf8f9d9cf59f6d947855b743dd25f920fb"
+  },
+  "carry_forward": {
+    "method": "Compared exact file bytes from previously reviewed d7d4fb3; only the two authored guide-context additions and non-authored consumer checker fixes differ. All remaining scoped code/docs unchanged.",
+    "unchanged_paths": [
+      "README.md",
+      "SPEC.md",
+      "distribution/acceptance.json",
+      "distribution/fixtures/plain.css",
+      "distribution/fixtures/plain.html.in",
+      "distribution/fixtures/tailwind.css",
+      "distribution/fixtures/tailwind.html.in",
+      "distribution/proposal.json",
+      "docs/claims-register.md",
+      "docs/guidelines-source-snapshot.json",
+      "docs/identity-decision-packet.md",
+      "docs/usage-examples.html",
+      "docs/usage.md",
+      "docs/voice.md",
+      "index.html",
+      "tools/check_accessibility.py",
+      "tools/check_brand_release.py",
+      "tools/check_consumers.py",
+      "tools/check_guidelines.py",
+      "tools/tests/test_accessibility.py",
+      "tools/tests/test_distribution.py",
+      "tools/tests/test_guidelines.py"
+    ],
+    "prior_focused_checks": [
+      {
+        "command": "python -I tools/check_guidelines.py",
+        "revision": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+        "exit_code": 0,
+        "result": "pass",
+        "summary": "4 public source hashes, 14 claim rows, 8 usage pairs, 14 canonical SVG variants. Source structure only; approvals remain pending."
+      },
+      {
+        "command": "python -I tools/check_accessibility.py check",
+        "revision": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+        "exit_code": 0,
+        "result": "pass",
+        "summary": "36 palette and 26 semantic pairs using unrounded thresholds; browser/approval evidence separate."
+      },
+      {
+        "command": "node --check tools/check_consumer_browser.cjs",
+        "revision": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+        "exit_code": 0,
+        "result": "pass",
+        "summary": "Syntax check only. Root performs the actual full browser run in the final gate."
+      }
+    ],
+    "historical_eligibility_review": {
+      "revision": "c59cafdca396e7c08e65d0b66989dc6d7b6ffaa2",
+      "paths": [
+        "tools/check_consumers.py",
+        "tools/tests/test_distribution.py"
+      ],
+      "byte_identity_at_candidate": true,
+      "scope": "Non-authored current eligibility/allowlist/path/version/font-policy/decision revocation delta independently approved. Both focused historical-archive regressions passed at c59; synthetic approvals and compiler mock stay labelled.",
+      "evidence": "triage/asset-agent-c59cafd-focused-review.log"
+    }
+  },
+  "new_code_review": [
+    {
+      "commit": "11d5feebbaf5bbc72fd7602241b10d7e81cbcf3c",
+      "scope": "Full offset-ring geometry, ancestor padding-box clipping and unsupported clip/mask/containment rejection.",
+      "verdict": "APPROVE",
+      "evidence": "triage/final-review-consumer-focus.json",
+      "evidence_sha256": "7a8790cac2d9ac1a635539d392a6e4cf2ec2271e5bc44a291e561f31e55e89b6",
+      "actual_browser_evidence_reviewed": "Author-run Chromium 141.0.7390.37 fixed baseline 16/16 pass; same clipping negative fails 8 plain cases for the specific outline defect and leaves 8 Tailwind cases passing. Initial setup error and original false pass retained."
+    },
+    {
+      "commit": "43f9e035fc03442fb05613bba562527ed215793e",
+      "scope": "Reject existing or symlink/non-directory output paths before writing, exclusively reserve new output, compare directory identity before final record, and use exclusive report creation.",
+      "verdict": "APPROVE",
+      "code_sha256_at_final_candidate": "569d72cf5b91a8ca78dc88b5348f814dec828810de702f6acab843f06f4a97d2",
+      "byte_identity_with_probe_revision": true,
+      "actual_independent_reproduction": {
+        "path": "triage/final-consumer-output-preservation-d25cf8a.json",
+        "sha256": "7a8454b64a6b129fe4613c6e3b1aa3bfab1fb6c56bddeb7fb0bd86bf5f328f87",
+        "source_sha": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+        "result": "pass: original sentinel report unchanged and invocation exits 1 with report=null before preparation",
+        "mode": "synthetic filesystem regression, no compiler/browser/provider run"
+      },
+      "additional_runtime_evidence_reviewed": {
+        "path": "triage/output-guard-review-94qmv34e/guard-probes.json",
+        "sha256": "27045adde3d1b641ab4478dc8326025f0435975061332e81006b5ab291ca906e",
+        "source_sha": "43f9e035fc03442fb05613bba562527ed215793e",
+        "checker_matches_final_candidate": true,
+        "result": "15/15 guard probes pass",
+        "scope": "Output reservation, final report collision and identity change before failed synthetic prerequisite only; no browser or release pass is claimed.",
+        "cases": [
+          {
+            "id": "existing-directory",
+            "assertions": "pass",
+            "exit_code": 1,
+            "prior_paths_preserved": true
+          },
+          {
+            "id": "existing-file",
+            "assertions": "pass",
+            "exit_code": 1,
+            "prior_paths_preserved": true
+          },
+          {
+            "id": "symlink-output",
+            "assertions": "pass",
+            "exit_code": 1,
+            "prior_paths_preserved": true
+          },
+          {
+            "id": "dangling-output",
+            "assertions": "pass",
+            "exit_code": 1,
+            "prior_paths_preserved": true
+          },
+          {
+            "id": "symlink-ancestor",
+            "assertions": "pass",
+            "exit_code": 1,
+            "prior_paths_preserved": true
+          },
+          {
+            "id": "dangling-ancestor",
+            "assertions": "pass",
+            "exit_code": 1,
+            "prior_paths_preserved": true
+          },
+          {
+            "id": "file-ancestor",
+            "assertions": "pass",
+            "exit_code": 1,
+            "prior_paths_preserved": true
+          },
+          {
+            "id": "default-existing",
+            "assertions": "pass",
+            "exit_code": 1,
+            "prior_paths_preserved": true
+          },
+          {
+            "id": "default-symlink-ancestor",
+            "assertions": "pass",
+            "exit_code": 1,
+            "prior_paths_preserved": true
+          },
+          {
+            "id": "fresh-missing-ancestors",
+            "assertions": "pass",
+            "exit_code": 1,
+            "prior_paths_preserved": true
+          },
+          {
+            "id": "report-collision",
+            "assertions": "pass",
+            "exit_code": 1,
+            "prior_paths_preserved": true
+          },
+          {
+            "id": "report-symlink",
+            "assertions": "pass",
+            "exit_code": 1,
+            "prior_paths_preserved": true
+          },
+          {
+            "id": "report-dangling-symlink",
+            "assertions": "pass",
+            "exit_code": 1,
+            "prior_paths_preserved": true
+          },
+          {
+            "id": "replace-directory",
+            "assertions": "pass",
+            "exit_code": 1,
+            "prior_paths_preserved": true
+          },
+          {
+            "id": "replace-with-symlink",
+            "assertions": "pass",
+            "exit_code": 1,
+            "prior_paths_preserved": true
+          }
+        ]
+      }
+    }
+  ],
+  "resolved_findings": [
+    {
+      "id": "REVIEW-OUTPUT-01",
+      "disposition": "Resolved by 43f9 code, original exact-candidate reproduction and 15 guarded-output probes. Prior failure evidence preserved."
+    },
+    {
+      "id": "REVIEW-GUIDE-01",
+      "disposition": "Clarified by author change d340ab7; independently approved by /root/pr3_reconcile, not this reviewer. No allowlist expansion or permission change."
+    }
+  ],
+  "findings": [],
+  "required_final_checks": "Root is running the complete 17-command gate on this exact final head and will attach actual results. This scoped review does not assert those in-progress commands passed or that the intentionally blocked release gate became green.",
+  "release_limits": [
+    "All identity, rights, approved-version, provider, named consumer and release decisions remain pending.",
+    "#6 may be closed only after required final merged checks/review. Other scoped issues and gate remain open.",
+    "Real consumer implementation, release and tested consumer commit pins are not required for BK-09 early contract ACK; do not fabricate ACKs.",
+    "Actual available external fonts, true browser zoom, assistive-technology/manual review and physical print proof remain outside local checks.",
+    "New consumer harness is a fixed synthetic fixture check, not a general accessibility validator.",
+    "Root records complete final gate and affected postmerge outcomes. Required rights/identity/font/claim/consumer/release evidence remains missing; no required skipped case becomes a pass."
+  ],
+  "pr_comment_attribution": "APPROVE \u2014 independent scoped code/docs review by asset_pipeline at d25cf8a023a7b1d110c105a1c2a36cb5577df7f3 (tree 9b4e5bffc559494731cfdcc23c5df7582792736c). Reviewed non-authored docs/guidelines, root numerical accessibility, distribution/consumer/gate changes, historical eligibility revocation, and consumer fixture/browser fixes including 11d5 and 43f9. Existing-output regression is fixed; all 15 additional synthetic guard probes passed against identical checker bytes. Own asset, source-bound archive, accessibility-browser and new guide-context changes are excluded and require the other recorded independent reviewers. No remaining blocking finding in this scope. Brand/rights/provider/consumer/release acceptance remains pending."
+}

@@ -1,0 +1,188 @@
+{
+  "schema": "ticketstub-targeted-consumer-focus-review@1",
+  "candidate_sha": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+  "candidate_tree": "8fa6555f217cf4ba141f54b3f0b5bae9e33078a3",
+  "reviewer": "dependency_audit",
+  "finding": "The d7 consumer browser runner accepted focus rings clipped by fit-content overflow:hidden ancestors. Actual Chromium returned all 16 cases pass.",
+  "mutation": "Each plain-fixture button is wrapped with <div style=\"width:fit-content;max-width:100%;overflow:hidden\">; all original button and outline styles remain unchanged.",
+  "fix_sha": "11d5feebbaf5bbc72fd7602241b10d7e81cbcf3c",
+  "fix_tree": "a9f156980bcbea3334f00bda6eca3df3b2bdf8fd",
+  "fix_scope": [
+    "tools/check_consumer_browser.cjs"
+  ],
+  "fix": "Reuse the general checker full offset-ring geometry, clipping-ancestor padding boxes and unsupported clip/mask rejection. Viewport check now measures the actual ring extent.",
+  "environment": {
+    "PLAYWRIGHT_BROWSERS_PATH": "/tmp/ticketstub-browser-1194",
+    "provider_requests": false,
+    "runtime_mocked": false
+  },
+  "command_pattern": [
+    "node",
+    "tools/check_consumer_browser.cjs",
+    "<clean-source-root>",
+    "<unique-report-directory>"
+  ],
+  "cases": [
+    {
+      "id": "original_setup_error",
+      "report": "/workspace/scratch/5ecc3c6cf97a/triage/consumer-focus-final-yh0xf6x1/result/report.json",
+      "report_sha256": "c5d9cfa27ed15402eb7b20518a41e49f1084832812df7c8f4c78e1900e63a775",
+      "exit_code": 1,
+      "outcome": "error",
+      "source_sha": null,
+      "source_tree": null,
+      "cases": 0,
+      "failed_cases": [],
+      "playwright": null,
+      "browser": null,
+      "node": null,
+      "tailwind": null,
+      "mode": "synthetic local review archive",
+      "error": "Command failed: python3 -I -c \nimport json, sys\nfrom pathlib import Path\nroot, output = map(Path, sys.argv[1:])\nsys.path.insert(0, str(root / 'tools'))\nimport build_distribution as dist\nimport check_consumers as consumers\nsource, tree = dist.source_identity(root)\ndata, initial = dist.build_bytes(root, 'review')\nmanifest, blobs = dist.verify_bytes(data, dist.digest(data), source)\ndist.verify_source(root, source, manifest, blobs)\nfixture = output / 'fixture'\nfixture.mkdir()\nfor name, content in blobs.items():\n    target = fixture / name\n    target.parent.mkdir(parents=True, exist_ok=True)\n    target.write_bytes(content)\nfixture_hashes = {}\nfor name in ('plain.html', 'plain.css', 'tailwind.html', 'tailwind.css'):\n    source_name = name + '.in' if name.endswith('.html') else name\n    source_path = 'distribution/fixtures/' + source_name\n    content = dist.source_blob(root, source, source_path)\n    (fixture / name).write_bytes(content)\n    fixture_hashes[source_path] = dist.digest(content)\nconsumers.validate_plain(fixture / 'brand-kit', fixture)\ntailwind = consumers.validate_tailwind(root, fixture, fixture / 'brand-kit')\nif tailwind['status'] != 'pass':\n    raise dist.DistributionError('pinned Tailwind compile is required; a skip is not a pass')\nif dist.source_identity(root) != (source, tree):\n    raise dist.DistributionError('source changed during fixture preparation')\n(output / 'review-candidate.zip').write_bytes(data)\nprint(json.dumps(dict(source_sha=source, source_tree=tree, archive_sha256=dist.digest(data),\n    files_digest=manifest['files_digest'], fixture_sha256=fixture_hashes, tailwind=tailwind,\n    compiled_css_sha256=dist.digest((fixture / 'compiled.css').read_bytes()))))\n /workspace/scratch/5ecc3c6cf97a/triage/consumer-focus-final-yh0xf6x1/source /workspace/scratch/5ecc3c6cf97a/triage/consumer-focus-final-yh0xf6x1/result\nTraceback (most recent call last):\n  File \"<string>\", line 8, in <module>\n  File \"/workspace/scratch/5ecc3c6cf97a/triage/consumer-focus-final-yh0xf6x1/source/tools/build_distribution.py\", line 93, in source_identity\n    raise DistributionError(\"a clean committed checkout is required\")\nbuild_distribution.DistributionError: a clean committed checkout is required\n"
+    },
+    {
+      "id": "original_false_pass",
+      "report": "/workspace/scratch/5ecc3c6cf97a/triage/consumer-focus-final-yh0xf6x1/result-valid-runtime/report.json",
+      "report_sha256": "babf0bf73222ae172fba4072821e3f359d3b4cc92f6516eb3e413e60840faa39",
+      "exit_code": 0,
+      "outcome": "pass",
+      "source_sha": "236bad84d6e95c39d166a38e8ac739f3d59ae7c2",
+      "source_tree": "4d534b403f7d5f1817382780ab9a0a96d09d663f",
+      "cases": 16,
+      "failed_cases": [],
+      "playwright": "1.56.1",
+      "browser": "141.0.7390.37",
+      "node": "v24.19.0",
+      "tailwind": {
+        "status": "pass",
+        "required": true,
+        "tailwind": "3.4.19",
+        "node": "v24.19.0",
+        "utilities_checked": 4,
+        "local_links_after_compile": {
+          "plain.html": 3,
+          "tailwind.html": 2
+        },
+        "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css"
+      },
+      "mode": "synthetic local review archive",
+      "error": null
+    },
+    {
+      "id": "fixed_baseline",
+      "report": "/workspace/scratch/5ecc3c6cf97a/triage/consumer-focus-final-yh0xf6x1/fixed-baseline/report.json",
+      "report_sha256": "7e83982793264b3e1c20736bf4ad4448123e39f609f47b1b332cad9339ff7c74",
+      "exit_code": 0,
+      "outcome": "pass",
+      "source_sha": "11d5feebbaf5bbc72fd7602241b10d7e81cbcf3c",
+      "source_tree": "a9f156980bcbea3334f00bda6eca3df3b2bdf8fd",
+      "cases": 16,
+      "failed_cases": [],
+      "playwright": "1.56.1",
+      "browser": "141.0.7390.37",
+      "node": "v24.19.0",
+      "tailwind": {
+        "status": "pass",
+        "required": true,
+        "tailwind": "3.4.19",
+        "node": "v24.19.0",
+        "utilities_checked": 4,
+        "local_links_after_compile": {
+          "plain.html": 3,
+          "tailwind.html": 2
+        },
+        "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css"
+      },
+      "mode": "synthetic local review archive",
+      "error": null
+    },
+    {
+      "id": "fixed_negative",
+      "report": "/workspace/scratch/5ecc3c6cf97a/triage/consumer-focus-final-yh0xf6x1/fixed-negative/report.json",
+      "report_sha256": "9ac546191adc2ab38527e3c0960e3ff53785117cc5e9da4801ae5f871714f86d",
+      "exit_code": 1,
+      "outcome": "fail",
+      "source_sha": "261eb71b1f380dd541f863ce823cba7dbb156615",
+      "source_tree": "a810d505893b6856dd925c79b05726b4948c5e6f",
+      "cases": 16,
+      "failed_cases": [
+        [
+          "plain-os-light-1080-no-preference",
+          [
+            "keyboard focus outline is clipped or its clipping effect is unsupported",
+            "keyboard focus outline is clipped or its clipping effect is unsupported"
+          ]
+        ],
+        [
+          "plain-os-light-375-reduce",
+          [
+            "keyboard focus outline is clipped or its clipping effect is unsupported",
+            "keyboard focus outline is clipped or its clipping effect is unsupported"
+          ]
+        ],
+        [
+          "plain-os-dark-1080-no-preference",
+          [
+            "keyboard focus outline is clipped or its clipping effect is unsupported",
+            "keyboard focus outline is clipped or its clipping effect is unsupported"
+          ]
+        ],
+        [
+          "plain-os-dark-375-reduce",
+          [
+            "keyboard focus outline is clipped or its clipping effect is unsupported",
+            "keyboard focus outline is clipped or its clipping effect is unsupported"
+          ]
+        ],
+        [
+          "plain-explicit-light-1080-no-preference",
+          [
+            "keyboard focus outline is clipped or its clipping effect is unsupported",
+            "keyboard focus outline is clipped or its clipping effect is unsupported"
+          ]
+        ],
+        [
+          "plain-explicit-light-375-reduce",
+          [
+            "keyboard focus outline is clipped or its clipping effect is unsupported",
+            "keyboard focus outline is clipped or its clipping effect is unsupported"
+          ]
+        ],
+        [
+          "plain-explicit-dark-1080-no-preference",
+          [
+            "keyboard focus outline is clipped or its clipping effect is unsupported",
+            "keyboard focus outline is clipped or its clipping effect is unsupported"
+          ]
+        ],
+        [
+          "plain-explicit-dark-375-reduce",
+          [
+            "keyboard focus outline is clipped or its clipping effect is unsupported",
+            "keyboard focus outline is clipped or its clipping effect is unsupported"
+          ]
+        ]
+      ],
+      "playwright": "1.56.1",
+      "browser": "141.0.7390.37",
+      "node": "v24.19.0",
+      "tailwind": {
+        "status": "pass",
+        "required": true,
+        "tailwind": "3.4.19",
+        "node": "v24.19.0",
+        "utilities_checked": 4,
+        "local_links_after_compile": {
+          "plain.html": 3,
+          "tailwind.html": 2
+        },
+        "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css"
+      },
+      "mode": "synthetic local review archive",
+      "error": null
+    }
+  ],
+  "setup_error_note": "Initial node_modules root symlinks were untracked, so clean-source validation correctly rejected before any browser case; retained unchanged. Replaced them with ignored directories containing package symlinks, then reran in a new output directory.",
+  "verdict": "Original false pass reproduced; clean fixed baseline passes all 16 cases; same actual-browser negative fails exactly all 8 plain cases for clipped outline; all 8 unmodified Tailwind cases pass.",
+  "review_authority": "Technical reproduction and fix validation only. Fix author does not independently approve their fix; root review required. No named accessibility, font, rights, release, foreign consumer or global acceptance is supplied."
+}

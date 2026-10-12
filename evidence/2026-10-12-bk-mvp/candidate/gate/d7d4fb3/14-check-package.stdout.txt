@@ -1,0 +1,4 @@
+make[1]: Entering directory '/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate'
+/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python -I tools/build_distribution.py check
+{"archive_sha256": "343f49acb0f5540f2d73ba3fe271a92a529b0ff853718e8da6ea04ae391130c2", "deterministic": true, "file_count": 25, "files_digest": "9b5753c2322f2aa8e4ba6e165e4a522e517d9f0f202a0772d04d4879dab80a16", "mode": "offline_review_candidate", "release_approved": false, "source_sha": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0", "toolchain": {"python": "3.12.14", "zip": "ZIP_STORED"}}
+make[1]: Leaving directory '/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate'

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "reviewer": "independent /root/asset_pipeline reviewer",
+  "candidate_sha": "d25cf8a023a7b1d110c105a1c2a36cb5577df7f3",
+  "tested_at": "2026-10-12T17:04:02.560683+00:00",
+  "mode": "synthetic prior-failure preservation negative; no browser/provider run and no real prior evidence modified",
+  "command": [
+    "node",
+    "tools/check_consumer_browser.cjs",
+    "/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate",
+    "/workspace/scratch/5ecc3c6cf97a/triage/consumer-output-fixed-probe-76w1_0gl"
+  ],
+  "exit_code": 1,
+  "stdout": {
+    "outcome": "error",
+    "cases": 0,
+    "report": null,
+    "error": "Evidence output already exists; choose a new directory",
+    "release_approved": false
+  },
+  "stderr": "",
+  "before_report_sha256": "b411bf4604f6410aeee6736e70cb574af2de9c94655c0773f7aa2aac9498ef31",
+  "after_report_sha256": "b411bf4604f6410aeee6736e70cb574af2de9c94655c0773f7aa2aac9498ef31",
+  "prior_report_preserved": true,
+  "directory_members": [
+    "fixture",
+    "report.json"
+  ],
+  "result": "pass"
+}

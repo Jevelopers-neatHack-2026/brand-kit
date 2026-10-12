@@ -1,0 +1,115 @@
+{
+  "schema": "ticketstub-scoped-independent-review@1",
+  "reviewed_at_utc": "2026-10-12T17:01:18.024743+00:00",
+  "reviewer": "dependency_audit",
+  "repository": "Jevelopers-neatHack-2026/brand-kit",
+  "candidate_sha": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+  "candidate_tree": "8fa6555f217cf4ba141f54b3f0b5bae9e33078a3",
+  "clean_checkout_verified": true,
+  "candidate_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/commit/d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+  "verdict": "changes_requested",
+  "summary": "The independently authored contrast tooling, root fixture/docs, asset-agent frozen-source and clipped-ring delta, and consumer fixture corrections have no additional blocking finding in the reviewed scope. The new consumer browser runner has a reproduced focus-outline false pass and therefore this exact candidate should not be treated as review-approved.",
+  "scope": [
+    {
+      "slice": "Root contrast calculations, tests, generated evidence, local accessibility fixture and guidance",
+      "verdict": "no_blocking_finding",
+      "basis": "Read current source and compare to previously reviewed root revision 0203ee1. Source alpha is composited before luminance, thresholds use unrounded ratios, known prohibited pair controls exist, generated reports bind token and generator inputs. Runtime-font, actual browser zoom, assistive technology and accountable acceptance remain separately pending. The fixture uses token themes, text borders, separated focus, fallback fonts, meaningful text/status and reduced motion. No self-hosted or external font request is introduced."
+    },
+    {
+      "slice": "Asset-agent delta 7fb13539ff6b88e863e776b7b8d28465de0160e9 in general browser checker and regressions",
+      "verdict": "no_blocking_finding",
+      "basis": "Reviewed only the newly added frozen input buffers, same-buffer serving, end-of-run hash/HEAD comparison, full outline geometry versus clipping ancestor padding boxes and masks/unsupported clipping, and the two new regressions. Exact-candidate root-run report rejects clipping and source drift for specific expected reasons, records source_unchanged=false for drift, and requires baseline source_unchanged=true. Missing browser cannot satisfy a negative expected reason."
+    },
+    {
+      "slice": "Final consumer fixture corrections and local browser runner authored by pr3_reconcile",
+      "verdict": "changes_requested",
+      "basis": "Cream plate keeps the existing ink wordmark visible in dark mode; Tailwind CTA uses ink on orange with the body semantic foreground retained. Actual compiler and browser, exact package/source/template/checker/served-input hashes, 16 theme/width/motion scenarios and external-request blocking are present. A targeted overflow:hidden ancestor mutation nevertheless passes all 16 before the follow-up, because the focus test checked only viewport bounds."
+    }
+  ],
+  "excluded_from_independent_approval": [
+    {
+      "scope": "Distribution/build_distribution.py/check_consumers.py/check_brand_release.py and original distribution/receipt tests, docs and policies",
+      "reason": "Authored by this reviewer; independent review is assigned to root and other agents."
+    },
+    {
+      "scope": "First general browser fix a0510f12bf2ba4de13b23b881d7bcf5beed74e57 and its initial regressions",
+      "reason": "Authored by this reviewer; only subsequent asset-agent delta 7fb13539 is independently reviewed here."
+    },
+    {
+      "scope": "Follow-up consumer focus fix 11d5feebbaf5bbc72fd7602241b10d7e81cbcf3c",
+      "reason": "Authored by this reviewer after reproducing the defect. Validation is reported but independent approval is assigned to root/asset agent."
+    },
+    {
+      "scope": "Whole PR, all 17 release-gate commands, owner rights/font approvals, real provider or foreign consumer acceptance, and global acceptance",
+      "reason": "Outside this scoped review. Root runs the whole gate and accountable owners retain their decisions."
+    }
+  ],
+  "findings": [
+    {
+      "id": "CONSUMER-FOCUS-ANCESTOR-CLIP",
+      "severity": "blocking_for_checker_accuracy",
+      "file": "tools/check_consumer_browser.cjs",
+      "candidate": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+      "problem": "A button can remain fully within the viewport while an overflow:hidden ancestor removes its 3px outline and 4px offset. The runner reported its focus visible and accepted all 16 cases.",
+      "reproduction": "At a clean synthetic descendant 236bad84d6e95c39d166a38e8ac739f3d59ae7c2, wrap both plain fixture buttons in a width:fit-content;max-width:100%;overflow:hidden ancestor; run the unchanged checker with the real pinned Tailwind and Chromium dependencies.",
+      "observed": "Original exit 0, 16 passes. Narrow dark screenshot visibly shows the full focus outline absent; unchanged baseline screenshot shows the complete cyan ring.",
+      "fix_candidate": "11d5feebbaf5bbc72fd7602241b10d7e81cbcf3c",
+      "fix_validation": "One-file follow-up copies the reviewed full-ring geometry. Clean fixed baseline exits 0 with 16 passes. The identical negative fixture exits 1 with exactly 8 plain failures for clipped outline and 8 Tailwind passes. Original false pass and setup failure preserved.",
+      "required_next_action": "Root integrates the follow-up after independent review, freezes/pushes a new exact candidate and reruns affected checks. This d7 verdict remains retained."
+    }
+  ],
+  "reviewed_file_sha256": {
+    "tools/check_accessibility.py": "bb2f07e525fa33940c878d8f848e38dc4d6c7529616f39c743095b7a84c2267d",
+    "tools/tests/test_accessibility.py": "09e8c14da95c130cf73a82c40a36c51db443546d191d61b9ce59e778a58c9e1e",
+    "docs/accessibility.md": "dfdbfd8824b36576f6a1786d3a0bb1f4aff41181369e620fed98a62f68b5ecaa",
+    "docs/accessibility/contrast-report.json": "ae86ac08cf8a955710c91360ffc5fcbde16587e71aeab2662962a15d33041279",
+    "docs/accessibility/contrast-report.md": "88130e7e40c537676ce7602ea9a448b7bce755c53da89cb4d54556cc4e1bc932",
+    "tools/accessibility-fixture/index.html": "ee827b92eef36ef05ea630afc496d2bd954fbbfaddb6a274a938197f15c3c483",
+    "tools/accessibility-fixture/fixture.css": "fba1a8bcda50b739c3c6df2046d5c98fbd62a948be97d502bc6191960e965d4b",
+    "tools/accessibility-fixture/fixture.js": "1a4605cc0177079be3d1ccadfa259f400727a2a1cfb2e5d741b973977c86234c",
+    "tools/check_accessibility_browser.cjs": "9ba79204f4c604ab58df4aed8c20b6736cab895fbf154948658ddf4b59d1847e",
+    "tools/tests/test_accessibility_browser.cjs": "3cb8e39b83f6fbe58380e534685ae75ae4b9a0a59248d430d3a4ea7a4276becb",
+    "tools/check_consumer_browser.cjs": "5a16653cd3ab4a693c3d44f2f83b1f0c6b56107b15c56929b1c666068572a1c3",
+    "distribution/fixtures/plain.html.in": "885de693c4400d3bea5b339534e5dc5e1fd37e5778b4a18016dd01a7a111cb43",
+    "distribution/fixtures/plain.css": "90965f8529fff2f018d80a943a42e0d99bbdcff14b000138a54a9c8611ba30b4",
+    "distribution/fixtures/tailwind.html.in": "a84185e7911bbc50f1bcd733e7d75ba589022d3cc982e9cf3833d9502261d5e5",
+    "distribution/fixtures/tailwind.css": "0e5844ec75de2fb4a76097b26bb624bf8f9d9cf59f6d947855b743dd25f920fb",
+    "docs/consumers.md": "d5ce82006702f0ebd6971bce34520316fac7b17c9b5bc7a2a7ca9b65e08784a5"
+  },
+  "inspected_root_run_evidence": [
+    {
+      "path": "/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate/out/brand/accessibility-browser-regressions/2026-10-12T16-56-34-396Z-QfspoZ/report.json",
+      "sha256": "be4fecfcb2df4ec2a1b323686a95bf6c5783ca785f4f15f116eed22530237bdc",
+      "source_revision": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+      "origin": "Actual local Chromium run performed by root; report and exact input hashes inspected independently by dependency_audit.",
+      "outcome": "pass",
+      "case_count": 5,
+      "mode": "synthetic baseline and deliberately invalid local fixture copies; no owner acceptance"
+    },
+    {
+      "path": "/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate/out/brand/accessibility-browser/2026-10-12T16-56-47-120Z/report.json",
+      "sha256": "c63a40def1e18bc2757c97d4b300501ca4e4150b7eabb085a8e471ba4da95392",
+      "source_revision": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+      "origin": "Actual local Chromium run performed by root; report and exact input hashes inspected independently by dependency_audit.",
+      "outcome": "pass-local-fixture",
+      "case_count": 4,
+      "mode": "offline local browser; synthetic content; all external requests blocked"
+    }
+  ],
+  "reviewer_executed_probe": {
+    "validation_path": "/workspace/scratch/5ecc3c6cf97a/triage/consumer-focus-final-yh0xf6x1/validation.json",
+    "validation_sha256": "ce066fc8ad48b727247e6e40165057b7d415edfad7180eac0d8cf0042bddbd02",
+    "origin": "Synthetic committed local fixture mutations, actual Tailwind 3.4.19 and Playwright 1.56.1 / Chromium 141.0.7390.37; no mocked browser/compiler or provider requests.",
+    "commands": "See exact source roots, source SHAs, report paths and command pattern in the linked validation record. node --check tools/check_consumer_browser.cjs and git diff --check also returned 0 for the fix."
+  },
+  "visual_inspection": [
+    "/workspace/scratch/5ecc3c6cf97a/triage/consumer-focus-final-yh0xf6x1/result-valid-runtime/plain-explicit-dark-375-reduce.png",
+    "/workspace/scratch/5ecc3c6cf97a/triage/consumer-focus-final-yh0xf6x1/fixed-baseline/plain-explicit-dark-375-reduce.png"
+  ],
+  "limitations": [
+    "Technical agent review only; no GitHub review post or owner signature is represented.",
+    "No complete suite duplicated. Existing exact-candidate root-run reports were read and hashes checked; the reviewer executed only the targeted consumer defect and fix probes.",
+    "Local fallback-only synthetic evidence remains separate from approved-font availability, actual 200% browser zoom, AT/human walkthrough, real consumer adoption, release rights and global acceptance."
+  ],
+  "github_posted": false
+}

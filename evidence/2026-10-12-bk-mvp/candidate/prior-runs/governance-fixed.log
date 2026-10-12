@@ -1,0 +1,7 @@
+test_release_eligibility_rejects_contradictory_trailing_text (tools.tests.test_checks.GovernanceTests.test_release_eligibility_rejects_contradictory_trailing_text) ... ok
+test_valid_governance_documents_pass (tools.tests.test_checks.GovernanceTests.test_valid_governance_documents_pass) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.018s
+
+OK

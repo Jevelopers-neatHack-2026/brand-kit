@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "reviewer": "independent /root/asset_pipeline reviewer",
+  "reviewed_at": "2026-10-12T17:02:41.080600+00:00",
+  "candidate_sha": "11d5feebbaf5bbc72fd7602241b10d7e81cbcf3c",
+  "candidate_tree": "a9f156980bcbea3334f00bda6eca3df3b2bdf8fd",
+  "verdict": "approve_scoped_change",
+  "scope": [
+    "tools/check_consumer_browser.cjs: full outline clipping fix only"
+  ],
+  "method": "Read exact diff; inspected actual author-run baseline/negative reports; recomputed report and checker hashes; confirmed negative source differs from fixed baseline only by overflow:hidden fit-content wrappers around both plain-fixture buttons. No duplicate browser execution by this reviewer.",
+  "code_sha256": "e646c29e5da3b57db4819783407271d227a8e4e606dddc0c86d9568e633b7db9",
+  "reports": [
+    {
+      "case": "result",
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/consumer-focus-final-yh0xf6x1/result/report.json",
+      "sha256": "c5d9cfa27ed15402eb7b20518a41e49f1084832812df7c8f4c78e1900e63a775",
+      "outcome": "error",
+      "case_count": 0,
+      "source_sha": null,
+      "checker_sha256": "5a16653cd3ab4a693c3d44f2f83b1f0c6b56107b15c56929b1c666068572a1c3",
+      "fixed_checker_match": false,
+      "failed_case_count": 0,
+      "actual_browser": null
+    },
+    {
+      "case": "result-valid-runtime",
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/consumer-focus-final-yh0xf6x1/result-valid-runtime/report.json",
+      "sha256": "babf0bf73222ae172fba4072821e3f359d3b4cc92f6516eb3e413e60840faa39",
+      "outcome": "pass",
+      "case_count": 16,
+      "source_sha": "236bad84d6e95c39d166a38e8ac739f3d59ae7c2",
+      "checker_sha256": "5a16653cd3ab4a693c3d44f2f83b1f0c6b56107b15c56929b1c666068572a1c3",
+      "fixed_checker_match": false,
+      "failed_case_count": 0,
+      "actual_browser": "141.0.7390.37"
+    },
+    {
+      "case": "fixed-baseline",
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/consumer-focus-final-yh0xf6x1/fixed-baseline/report.json",
+      "sha256": "7e83982793264b3e1c20736bf4ad4448123e39f609f47b1b332cad9339ff7c74",
+      "outcome": "pass",
+      "case_count": 16,
+      "source_sha": "11d5feebbaf5bbc72fd7602241b10d7e81cbcf3c",
+      "checker_sha256": "e646c29e5da3b57db4819783407271d227a8e4e606dddc0c86d9568e633b7db9",
+      "fixed_checker_match": true,
+      "failed_case_count": 0,
+      "actual_browser": "141.0.7390.37"
+    },
+    {
+      "case": "fixed-negative",
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/consumer-focus-final-yh0xf6x1/fixed-negative/report.json",
+      "sha256": "9ac546191adc2ab38527e3c0960e3ff53785117cc5e9da4801ae5f871714f86d",
+      "outcome": "fail",
+      "case_count": 16,
+      "source_sha": "261eb71b1f380dd541f863ce823cba7dbb156615",
+      "checker_sha256": "e646c29e5da3b57db4819783407271d227a8e4e606dddc0c86d9568e633b7db9",
+      "fixed_checker_match": true,
+      "failed_case_count": 8,
+      "actual_browser": "141.0.7390.37"
+    }
+  ],
+  "findings": [],
+  "remaining_separate_findings": [
+    "Existing-output report preservation remains blocked until the root-authored exclusive output guard is reviewed."
+  ],
+  "limits": [
+    "Synthetic local Chromium fixtures only; no human accessibility, font-provider, rights, release or consumer acceptance.",
+    "Prior setup error and original false pass are preserved; fixed baseline 16/16 and targeted negative 8 plain failures/8 Tailwind passes remain distinct."
+  ]
+}

@@ -1,0 +1,70 @@
+make[1]: Entering directory '/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate'
+/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python -I tools/check_consumers.py
+{
+  "archive_sha256": "343f49acb0f5540f2d73ba3fe271a92a529b0ff853718e8da6ea04ae391130c2",
+  "checker_sha": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+  "consumer_acknowledgments": {
+    "problems": [
+      "no exact reviewed distribution source SHA is recorded",
+      "brand version has not been selected by the owner",
+      "distribution: missing exact decision fields",
+      "font_delivery: missing exact decision fields",
+      "approved artifact unavailable; executed fixtures use an unapproved review candidate",
+      "an unapproved review archive cannot satisfy the approved consumer contract",
+      "getticketstub.com: missing exact decision fields",
+      "landing-page-repo: missing exact decision fields",
+      "marketing-material: missing exact decision fields",
+      "external_font_available_and_unavailable: missing exact decision fields"
+    ],
+    "status": "blocked"
+  },
+  "consumer_adoption": false,
+  "external_font_evidence": {
+    "performed_this_run": false,
+    "problems": [
+      "external_font_available_and_unavailable: missing exact decision fields"
+    ],
+    "record": null,
+    "required_for_release": true,
+    "scope": "receipt shape and exact file-set binding; authenticate actual provider/browser outcomes independently",
+    "status": "blocked"
+  },
+  "files_digest": "9b5753c2322f2aa8e4ba6e165e4a522e517d9f0f202a0772d04d4879dab80a16",
+  "font_provider_checks": {
+    "performed_this_run": false,
+    "reason": "this offline command never performs provider requests or browser font checks",
+    "status": "not_run"
+  },
+  "limitations": [
+    "CSS inspection is structural; it is not browser font, visual, accessibility or owner review.",
+    "Review acknowledgments are local records; their authenticity requires independent human verification."
+  ],
+  "mode": "offline_review_fixture",
+  "plain_css": {
+    "local_links": 3,
+    "status": "pass"
+  },
+  "recovery": {
+    "exact_bytes_restored": true,
+    "missing_import_rejected": true,
+    "scope": "local re-extraction only; no approved historical rollback target exists"
+  },
+  "release_approved": false,
+  "result": "blocked",
+  "schema_version": 1,
+  "scope": "consumer_contract_checks",
+  "source_sha": "d7d4fb3ac7311e1083e70f17ec0e8a06c0ee63c0",
+  "tailwind": {
+    "command": "node <pinned-tailwind>/lib/cli.js -c tailwind.config.cjs -i tailwind.css -o compiled.css",
+    "local_links_after_compile": {
+      "plain.html": 3,
+      "tailwind.html": 2
+    },
+    "node": "v24.19.0",
+    "required": true,
+    "status": "pass",
+    "tailwind": "3.4.19",
+    "utilities_checked": 4
+  }
+}
+make[1]: Leaving directory '/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate'

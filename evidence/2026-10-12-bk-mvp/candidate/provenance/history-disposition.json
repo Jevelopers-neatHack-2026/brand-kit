@@ -1,0 +1,16 @@
+{
+  "reviewer": "GPT-6 Astra integration supervisor; source-context review, not named release approval",
+  "result": "no_unexplained_heuristic_match",
+  "classified_findings": {
+    "img.shields.io public/synthetic query": 80,
+    "fonts.googleapis.com public/synthetic query": 9,
+    "reserved-domain synthetic test email": 12,
+    "x.example public/synthetic query": 1
+  },
+  "unexplained": [],
+  "basis": "Inspected read-only historical text flag contexts. Badge formatting and existing font-family requests contain no credential fields; all matched addresses and signed-query examples are reserved-domain synthetic test inputs. No matched values are published.",
+  "limitations": [
+    "Pattern scan does not guarantee absence of sensitive data.",
+    "Named release sanitization approval remains pending."
+  ]
+}
