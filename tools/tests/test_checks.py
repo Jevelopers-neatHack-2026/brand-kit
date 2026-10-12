@@ -174,6 +174,30 @@ class LinkTests(Fixture):
         self.assertEqual(errors, [])
         self.assertEqual(ext, {"https://example.invalid/"})
 
+    def test_shortcut_reference_broken_destination(self):
+        (self.tmp / "README.md").write_text("see [gone] and ![pic]\n\n[gone]: docs/nope.md\n[pic]: nope.png\n")
+        errors = check_links.check(self.tmp)[0]
+        self.assertTrue(any("docs/nope.md" in e for e in errors))
+        self.assertTrue(any("nope.png" in e for e in errors))
+
+    def test_shortcut_reference_broken_anchor(self):
+        (self.tmp / "README.md").write_text("see [spec]\n\n[Spec]: SPEC.md#nothing\n")
+        self.assertTrue(any("missing anchor '#nothing'" in e for e in check_links.check(self.tmp)[0]))
+
+    def test_shortcut_reference_external_listed_not_verified(self):
+        (self.tmp / "README.md").write_text("see [ext]\n\n[ext]: https://example.invalid/x\n")
+        errors, ext, _ = check_links.check(self.tmp)
+        self.assertEqual(errors, [])
+        self.assertEqual(ext, {"https://example.invalid/x"})
+
+    def test_valid_shortcut_reference_passes(self):
+        (self.tmp / "README.md").write_text("see [spec] and\n\n> [spec]: SPEC.md#colour\n")
+        self.assertEqual(check_links.check(self.tmp)[0], [])
+
+    def test_unmatched_plain_brackets_are_text(self):
+        (self.tmp / "README.md").write_text("- [ ] todo [x] done [note] and [a, b] array\n")
+        self.assertEqual(check_links.check(self.tmp)[0], [])
+
     def test_reference_in_code_fence_ignored(self):
         (self.tmp / "README.md").write_text("```\n[x][nope]\n[a]: gone.md\n```\n")
         self.assertEqual(check_links.check(self.tmp)[0], [])
@@ -213,6 +237,20 @@ class RealRepo(unittest.TestCase):
     def test_repository_passes(self):
         self.assertEqual(check_inventory.check(ROOT), [])
         self.assertEqual(check_links.check(ROOT)[0], [])
+
+    def test_repository_classifications_are_honest(self):
+        inv = json.loads((ROOT / INVENTORY).read_text(encoding="utf-8"))
+        by = {e["path"]: e for e in inv["entries"]}
+        for p in ("tokens/tokens.css", "tokens/tailwind.preset.js"):
+            self.assertEqual(by[p]["classification"], "derived-manual")
+        for p in ("fonts/Fraunces-OFL.txt", "fonts/InterTight-OFL.txt"):
+            self.assertEqual(by[p]["classification"], "licence-provenance")
+            self.assertEqual(by[p]["release_class"], "candidate-unapproved")
+        for e in inv["entries"]:
+            self.assertEqual(e["approval_status"], "unknown")
+        for p in ("docs/brand-governance.md", "docs/governance/decision-template.md",
+                  "docs/governance/simulated-walkthrough.md", "tools/check_governance.py"):
+            self.assertIn(p, by)
 
 
 if __name__ == "__main__":

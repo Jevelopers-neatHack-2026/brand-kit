@@ -22,7 +22,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from inventory_lib import ROOT, list_files  # noqa: E402
 
 MD_LINK = re.compile(r"!?\[[^\]]*\]\(\s*<?([^)\s>]+)>?(?:\s+\"[^\"]*\")?\s*\)")
-REF_DEF = re.compile(r"^ {0,3}\[([^\]]+)\]:[ \t]*(<[^>\n]*>|\S*)", re.M)
+REF_DEF = re.compile(r"^(?: {0,3}>)* {0,3}\[([^\]]+)\]:[ \t]*(<[^>\n]*>|\S*)", re.M)
 REF_USE = re.compile(r"!?\[((?:[^\[\]\\]|\\.)*)\]\[([^\]]*)\]")
 HTML_ATTR = re.compile(r"""\b(?:src|href|srcset)\s*=\s*["']([^"']+)["']""", re.I)
 CSS_URL = re.compile(r"""url\(\s*["']?([^"')]+)["']?\s*\)""", re.I)
@@ -71,10 +71,14 @@ def extract(path: Path) -> tuple[list[str], list[str]]:
                 continue
             defs.setdefault(label, target)
             links.append(target)
-        for m in REF_USE.finditer(REF_DEF.sub("", text)):
+        body = REF_DEF.sub("", text)
+        for m in REF_USE.finditer(body):
             label = norm_label(m.group(2) or m.group(1))
             if not label.startswith("^") and label not in defs:
                 problems.append(f"reference '[{m.group(2) or m.group(1)}]' has no definition")
+        # Shortcut uses `[label]` / `![label]` need no separate pass: every definition target is checked
+        # above whether or not it is used, so a shortcut to a broken destination, anchor or external URL is
+        # covered, and an unmatched `[text]` is ordinary text, never an error.
     else:
         links = HTML_ATTR.findall(text) + CSS_URL.findall(text)
     return [u for part in links for u in (part.split(",") if "," in part and " " in part.strip() else [part])], problems

@@ -55,6 +55,8 @@ def check(root: Path, include_untracked: bool = False) -> list[str]:
             for key in ("generated_by", "generated_from"):
                 if not e.get(key):
                     errors.append(f"{where}: generated entry needs '{key}'")
+        if e.get("classification") == "derived-manual" and str(e.get("generated_by", "")).endswith(".py"):
+            errors.append(f"{where}: derived-manual entry names a generator; classify it 'generated'")
 
     all_paths = paths
     for i, e in enumerate(entries):
@@ -79,7 +81,7 @@ def check(root: Path, include_untracked: bool = False) -> list[str]:
         for p in topic.get("paths", []):
             if p not in all_paths:
                 errors.append(f"source_of_truth '{topic.get('topic')}': '{p}' is not catalogued")
-        for p in topic.get("generated_outputs", []):
+        for p in topic.get("generated_outputs", []) + topic.get("derived_manual_outputs", []):
             if not (root / p).exists():
                 errors.append(f"source_of_truth '{topic.get('topic')}': output '{p}' does not exist")
     for m in inv.get("path_map", []):
