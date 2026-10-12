@@ -127,7 +127,7 @@ Fictional check: additive-only diff confirmed by `sim-tech` (see the reviewer li
 
 ## Scenario C: revocation, rollback and fresh fallback authorization (fictional)
 
-On 2099-02-01 a fictional consumer reports a clash with `ts-example-accent`. The approver records a revocation of `SIM-B-token-add` and notifies the consumer. The historical records stay: `SIM-B-token-add` is not edited or deleted. Because `SIM-0-baseline` was an older approval, the fallback hashes do **not** regain eligibility by themselves. The approver must record a fresh decision that reinstates them, with current rights evidence and the required review, dated after the rollback was proposed. Until that record exists, there is no valid current decision for the fallback hashes and the release stays ineligible (fail closed).
+On 2099-02-01 a fictional consumer reports a clash with `ts-example-accent`. The approver records a revocation of `SIM-B-token-add` and notifies the consumer. The historical records stay: `SIM-B-token-add` is not edited or deleted. Because `SIM-0-baseline` was an older approval, the fallback hashes do **not** regain eligibility by themselves. The approver must record a fresh decision that reinstates them, with current rights evidence and the required review of the breaking token/asset/path class (approver, technical, provenance, affected consumer, plus migration record), dated after the rollback was proposed. Until that record exists, there is no valid current decision for the fallback hashes and the release stays ineligible (fail closed).
 
 - Affected version: `SIM-REL-1.1.0` (contains SIM-B). Fallback version: `SIM-REL-1.0.0`.
 - Fallback revision: `2222222222222222222222222222222222222222`.
@@ -141,7 +141,7 @@ FICTIONAL SIMULATION - not a historical approval - not release eligible
 
 - **Decision ID:** SIM-C-reinstate-1-0-0
 - **Status:** approved (fictional)
-- **Change class:** compatible token addition
+- **Change class:** breaking token/asset/path (removes existing token `ts-example-accent` and its exported path entries; the BEFORE state is compatible only for consumers that never adopted it)
 - **Proposed by / date:** sim-approver / 2099-02-01
 - **Superseded by / supersedes:** supersedes SIM-B-token-add (revoked 2099-02-01)
 - **Reinstates:** SIM-0-baseline
@@ -171,10 +171,12 @@ Rights ref `SIM-RIGHTS-0002` (fictional), re-checked 2099-02-02 and unexpired: `
 ## Affected consumers
 | Consumer | Impact | Reviewer | Notified (where/when) |
 |---|---|---|---|
-| sim-consumer-1 | pin `SIM-REL-1.0.0`, drop `ts-example-accent` | sim-consumer-1 | `https://example.invalid/sim/notify/SIM-C-1`, 2099-02-03 |
+| sim-consumer-1 | breaking: token `ts-example-accent` removed from `tokens.json`, `tokens.css`, `tailwind.preset.js`; consumer pins `SIM-REL-1.0.0` | sim-consumer-1 (approved, fictional, 2099-02-03) | `https://example.invalid/sim/notify/SIM-C-1`, 2099-02-03 |
+
+Migration record (fictional, dated 2099-02-03, after the 2099-02-01 rollback proposal): `https://example.invalid/sim/migration/SIM-C-1`. Steps: replace uses of `--ts-example-accent` / `exampleAccent` with `--ts-ink` / `ink`, pin `SIM-REL-1.0.0`, re-run the consumer's own build. Deprecation window: none, as the token was in release `SIM-REL-1.1.0` only. The producer edits no consumer repository.
 
 ## Evidence and validation
-Fictional check: BEFORE hashes recomputed on 2099-02-02 and match the table.
+Fictional check: BEFORE hashes recomputed on 2099-02-02 and match the table. Fictional migration evidence: `https://example.invalid/sim/migration/SIM-C-1` (2099-02-03).
 
 ## Reviewers
 | Role | Name | Dated evidence link | Verdict |
@@ -182,12 +184,12 @@ Fictional check: BEFORE hashes recomputed on 2099-02-02 and match the table.
 | Accountable approver | sim-approver | `https://example.invalid/sim/review/SIM-C-approver` (2099-02-03) | approve (fictional) |
 | Technical token/export | sim-tech | `https://example.invalid/sim/review/SIM-C-tech` (2099-02-02) | approve (fictional) |
 | Provenance | sim-prov | `https://example.invalid/sim/review/SIM-C-prov` (2099-02-02) | approve (fictional) |
-| Consumer: sim-consumer-1 | sim-consumer-1 | `https://example.invalid/sim/notify/SIM-C-1` (2099-02-03) | notified |
+| Consumer: sim-consumer-1 | sim-consumer-1 | `https://example.invalid/sim/review/SIM-C-consumer` (2099-02-03) | approve migration (fictional) |
 
 ## Disposition
 - **Decision date:** 2099-02-03
 - **Decision:** approved (fictional); controls the BEFORE hashes from this date
 - **Release eligible:** no
 - **Deprecation / rollback / revocation notes:** revokes `SIM-B-token-add`; affected `SIM-REL-1.1.0`; fallback `SIM-REL-1.0.0` with the hashes above; consumer pins fallback
-- **Fresh authorization for fallback:** rights `SIM-RIGHTS-0002` (2099-02-02) and the three reviewer links above, all dated after the 2099-02-01 rollback proposal
+- **Fresh authorization for fallback:** rights `SIM-RIGHTS-0002` (2099-02-02) and the four required review links above (approver, technical, provenance, affected consumer) plus the migration record, all dated after the 2099-02-01 rollback proposal
 ```
