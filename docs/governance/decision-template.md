@@ -12,6 +12,7 @@ Do not fill the reviewer or decision fields on anyone's behalf. Leave `pending` 
 - **Change class:** core identity | breaking token/asset/path | compatible token addition | documentation-only
 - **Proposed by / date:** <github handle> / <yyyy-mm-dd>
 - **Superseded by / supersedes:** <decision ID or none>
+- **Reinstates:** <earlier decision ID whose exact hashes this fresh decision re-authorizes, or none>
 
 ## Change and exact diff
 - **Base revision:** <full commit SHA>
@@ -53,6 +54,7 @@ Do not fill the reviewer or decision fields on anyone's behalf. Leave `pending` 
 - **Decision:** pending
 - **Release eligible:** no (becomes yes only when Status is approved and all rows above are filled with real evidence)
 - **Deprecation / rollback / revocation notes:** <fallback version and hashes, owner actions>
+- **Fresh authorization for fallback:** <for a rollback or reinstatement: link to current rights evidence and required-role review dated after the rollback was proposed, else `not applicable`>
 ```
 
-Required fields checked by `tools/check_governance.py`: every heading and bullet label above.
+Required fields checked by `tools/check_governance.py`: every `##` heading and every bullet label in the template block above must appear in each simulated record, and each simulated record must state `Release eligible: no`. The checker is structural: it cannot tell whether a real person acted.

@@ -45,6 +45,7 @@ Every decision record must carry: exact files, revision (commit SHA) and SHA-256
 
 Rules:
 
+0. **Controlling decision.** Eligibility is judged per exact path and SHA-256. Of all decisions listing that path at that hash, the controlling one is the latest by decision date (record order breaks ties). Only its status counts. A rejected or superseded record does not block a hash if a later `approved` decision lists the same hash (a resubmission, or a successor that carries the file unchanged, or a reinstatement). A hash with no decision, or whose controlling decision is not `approved` or has been revoked, is ineligible. Older records are never edited or deleted.
 1. Pending assets cannot be labelled approved. "Approved" appears only in a record whose reviewer evidence links to a real dated action by the named person.
 2. A decision covers only the listed files at the listed hashes. Any other file or hash is unapproved.
 3. Decisions are append-only. Correct a mistake with a new record that supersedes the old one.
@@ -68,7 +69,7 @@ When in doubt, use the stricter class. A change that touches consumers needs the
 
 **Replacement.** The replacement goes through its own proposal/review. The old decision becomes `superseded` only once the replacement is `approved`, and the old record then links to the new one.
 
-**Rollback.** If an approved version causes a problem, the approver (or, if absent, the release owner team) records a rollback entry naming: the affected version, the previously approved version and its hashes, who acts, and what each consumer must change. The producer never edits consumer repositories. Consumers apply the rollback themselves.
+**Rollback.** If an approved version causes a problem, the approver (or, if absent, the release owner team) records a rollback entry naming: the affected version, the fallback version and its hashes, who acts, and what each consumer must change. The producer never edits consumer repositories. Consumers apply the rollback themselves. A fallback is **not** eligible just because it was approved once. Its hashes regain eligibility only through a fresh decision that `Reinstates` the earlier one (or a new approved decision at those hashes), carrying rights evidence that is current and unexpired and the review the change class requires, all dated after the rollback was proposed. Earlier records stay unedited. With no such fresh decision, the fallback is ineligible (fail closed).
 
 **Revocation.** An approval is revoked when any of these happens: a source file's hash no longer matches the record, a permission or licence expires or is withdrawn, or a reviewer withdraws their approval in writing. Revocation:
 
@@ -82,8 +83,9 @@ When in doubt, use the stricter class. A change that touches consumers needs the
 
 A release candidate is eligible only if every item holds. Otherwise it is rejected:
 
-- every shipped file appears in an `approved` decision, at the same hash;
-- no decision covering it is `rejected`, `superseded`, revoked or marked simulated/fictional;
+- every shipped file's exact path and hash has a controlling decision (see lifecycle rule 0) whose status is `approved` and not revoked, within its scope;
+- that controlling decision is real, not simulated/fictional; historical rejected or superseded records for the same hash do not matter once a later approved decision controls it;
+- a rollback or fallback version counts only through its own fresh controlling decision;
 - every role required by the change class is named with linked dated evidence;
 - rights references are present and unexpired;
 - affected consumers have been notified.
