@@ -63,4 +63,4 @@ Imports affected by any future move: the README `@import "brand-kit/tokens/token
 
 ## Checks
 
-See [inventory checks](inventory-checks.md): `make check-inventory`, `make check-links`, `make test`, and `make check-governance` (document shape only). `make check` runs all four.
+See [inventory checks](inventory-checks.md): `make check-inventory`, `make check-links`, `make test`, and `make check-governance` (document shape only). `make check-provenance-register` validates the [provenance register](provenance.md); `make check` runs all five. `make check-provenance` (export eligibility) fails by design until rights and approvals exist and is not part of `make check`.
