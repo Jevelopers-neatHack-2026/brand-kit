@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: check-governance check-inventory check-links check-links-external check-provenance-register check-provenance test check
+.PHONY: check-governance check-inventory check-links check-links-external check-provenance-register check-provenance test check build-tokens check-tokens check-tokens-tailwind
 
 check-inventory:
 	$(PYTHON) tools/check_inventory.py
@@ -27,4 +27,19 @@ check-links-external:
 test:
 	$(PYTHON) -m unittest discover -s tools/tests -v
 
-check: check-inventory check-links check-governance check-provenance-register test
+# Validate tokens/tokens.json and regenerate tokens/tokens.css, tailwind.preset.js, external-fonts-google.css, token-matrix.md.
+build-tokens:
+	$(PYTHON) -I tools/build_tokens.py build
+
+# Offline: schema/type/unit/alias/mapping validation, two identical builds, drift against committed outputs,
+# CSS/JSON parity, then the token unit tests (invalid-fixture cases). Needs no npm.
+check-tokens:
+	$(PYTHON) -I tools/build_tokens.py check
+	$(PYTHON) -m unittest tools/tests/test_tokens.py
+
+# Real Tailwind build with the pinned dev dependency (npm ci from the lockfile; needs network and Node >= 18).
+check-tokens-tailwind: check-tokens
+	cd tools/tokens-dev && npm ci --ignore-scripts --no-audit --no-fund
+	$(PYTHON) -I tools/check_tokens_tailwind.py
+
+check: check-inventory check-links check-governance check-provenance-register check-tokens test

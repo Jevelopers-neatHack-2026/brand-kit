@@ -10,6 +10,8 @@ Standard library only; Python 3.9 or newer. Nothing is installed, published or s
 | `make check-provenance-register` | Structural validation of [`provenance/register.json`](../provenance/register.json) and the allowlist shape: coverage of `logo/ fonts/ references/ tokens/ docs/assets/`, exact sha256, safe paths, required fields (`UNKNOWN` allowed). See [provenance](provenance.md). | 0 only if the structure is sound |
 | `make check-provenance` | Production export eligibility; fails closed. **Expected nonzero today** (empty allowlist, unknown core rights). Not part of `make check`. | 0 only with a reviewed allowlist and cleared core evidence |
 | `make test` | Unit tests including negative cases: missing path, duplicate entry, uncatalogued asset, deleted tracked file, untracked-notes default, broken canonical reference, broken local link, broken or undefined reference-style link, missing anchor, empty root. | 0 only if all pass |
+| `make check-tokens` | Validates `tokens/tokens.json` against the token profile, builds twice, compares with the committed generated files and runs the token tests. Details in the [token profile](token-profile.md). | 0 only if all pass |
+| `make check-tokens-tailwind` | `npm ci` from the lockfile, then a real Tailwind 3.4.19 build checked against the token source. Needs network and Node 18+; not part of `make check`. | 0 only if all pass |
 | `make check-links-external` | Optional. Sends a request to each external URL. | 1 if any fails |
 
 ## Limits
@@ -19,5 +21,5 @@ Standard library only; Python 3.9 or newer. Nothing is installed, published or s
 - `check-links` is deterministic and offline. External `http(s)` links are printed as `UNCHECKED` and are **not** verified by it. Anchors are only checked for local Markdown targets, not HTML ids or external pages.
 - `check-links-external` proves reachability at run time only, depends on the network, and is not part of `make check`. On 2026-10-12 it reported 35 reachable and 2 failed; the failures are the bare `fonts.googleapis.com` and `fonts.gstatic.com` preconnect hosts, which answer 404 at their root and are not real broken links. It does not show that the target content is right; for example, a link that resolves on a branch may not on `main`. As of 2026-10-12 PR #3's getticketstub.com `docs/studio/` targets exist on getticketstub.com `main` (`388005240aa6`); that is link evidence only, not approval or deployment.
 - The inventory checker proves coverage and referential integrity, not that descriptions, owners or statuses are true. `approval_status: unknown` is a statement of absent evidence; the checker does not decide approval.
-- Drift between `tokens.json`, `tokens.css` and the Tailwind preset, and between `SPEC.md` and the tokens, is not checked.
+- Drift between `tokens.json` and its generated outputs is now checked by `make check-tokens`. Drift between `SPEC.md` prose and the tokens is still not checked.
 - Adding a file to the repository fails `check-inventory` until it gets an entry. That is intended.
