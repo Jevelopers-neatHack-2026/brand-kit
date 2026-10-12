@@ -245,6 +245,51 @@ class InvalidSourceTests(Base):
         self.edit("tokens/tokens.json", lambda d: d["semantic"]["day"]["bg"].update({"$value": "{space.1}"}))
         self.fails("alias type mismatch: color -> space.1 is dimension")
 
+    def test_alias_unit_metadata_validated(self):
+        def f(d):
+            d["motion"]["tilt"]["maxDeg"].update({"$value": "{font.line-height.body}"})
+            d["motion"]["tilt"]["maxDeg"]["$extensions"]["com.ticketstub"]["unit"] = "px"
+        self.edit("tokens/tokens.json", f)
+        self.fails("unit 'px' not in")
+
+    def test_alias_unit_must_match_target(self):
+        def f(d):
+            d["motion"]["tilt"]["maxDeg"].update({"$value": "{font.line-height.body}"})
+        self.edit("tokens/tokens.json", f)
+        self.fails("alias unit mismatch: deg -> font.line-height.body is unitless")
+
+    def test_alias_ms_to_hz_rejected(self):
+        self.edit("tokens/tokens.json", lambda d: d["motion"]["smoothing"]["tauTiltMs"].update({"$value": "{motion.spring.stepHz}"}))
+        self.fails("alias unit mismatch: ms -> motion.spring.stepHz is hz")
+
+    def test_alias_unit_chain_checked_recursively(self):
+        def f(d):
+            d["motion"]["smoothing"]["tauLightMs"].update({"$value": "{motion.smoothing.tauTiltMs}"})
+            d["motion"]["smoothing"]["tauTiltMs"].update({"$value": "{motion.spring.stepHz}"})
+        self.edit("tokens/tokens.json", f)
+        self.fails("tauTiltMs: alias unit mismatch")
+
+    def test_same_unit_number_alias_passes(self):
+        self.edit("tokens/tokens.json", lambda d: d["motion"]["smoothing"]["tauLightMs"].update({"$value": "{motion.smoothing.tauTiltMs}"}))
+        self.rebuild()
+        self.assertEqual(self.problems(), "")
+
+    def test_font_family_alias_emits_resolved_list(self):
+        self.edit("tokens/tokens.json", lambda d: d["font"]["family"]["display"].update({"$value": "{font.family.ui}"}))
+        self.rebuild()
+        self.assertEqual(self.problems(), "")
+        m = T.load_model(self.tmp)
+        want = T.family_list(m.leaves["font.family.ui"].value)
+        js = (self.tmp / "tokens/tailwind.preset.js").read_text()
+        self.assertNotIn("{font.family", js)
+        self.assertIn("display: [" + ", ".join(json.dumps(x) for x in want) + "]", js)
+
+    def test_unresolved_family_alias_never_emitted(self):
+        self.edit("tokens/tokens.json", lambda d: d["font"]["family"]["display"].update({"$value": "{font.family.nope}"}))
+        self.fails("alias target 'font.family.nope'")
+        with self.assertRaises(T.TokenError):
+            T.final_family(T.load_model(self.tmp), "font.family.display")
+
     def test_embedded_alias_rejected(self):
         self.edit("tokens/tokens.json", lambda d: d["gradient"]["foil"].update({"$value": "linear-gradient(135deg, {color.copper} 0%, #000 100%)"}))
         self.fails("malformed or embedded alias")

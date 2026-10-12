@@ -99,7 +99,7 @@ def check(root: Path):
             problems.append(f"{p}: Tailwind built no rule for {sel}")
             continue
         if sections[sec]["form"] == "family-list":
-            want = ", ".join(T.family_list(m.leaves[p].value))
+            want = ", ".join(T.family_list(T.final_family(m, p)))
         else:
             want = f"var({e['css']})"
         if decls.get(prop) != want:

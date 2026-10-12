@@ -172,6 +172,11 @@ def split_top(s: str):
 def check_value(leaf: Leaf, profile, errors):
     t, v, p = leaf.type, leaf.value, leaf.path
     spec = profile["types"][t]
+    if leaf.unit is not None:
+        if t != "number":
+            errors.append(f"{p}: $extensions unit is only valid on $type number")
+        elif "units" in spec and leaf.unit not in spec["units"]:
+            errors.append(f"{p}: unit {leaf.unit!r} not in {spec['units']}")
     if leaf.alias():
         return
     if isinstance(v, str) and UNSAFE.search(v):
@@ -190,11 +195,6 @@ def check_value(leaf: Leaf, profile, errors):
     if kind == "integer" and (isinstance(v, bool) or not isinstance(v, int)):
         errors.append(f"{p}: $type {t} needs an integer, got {v!r}")
         return
-    if leaf.unit is not None and "units" in spec and t == "number":
-        if leaf.unit not in spec["units"]:
-            errors.append(f"{p}: unit {leaf.unit!r} not in {spec['units']}")
-    elif leaf.unit is not None:
-        errors.append(f"{p}: $extensions unit is only valid on $type number")
     if t == "color":
         if HEX_RE.match(v):
             return
@@ -238,6 +238,18 @@ def check_value(leaf: Leaf, profile, errors):
             errors.append(f"{p}: shadow {v!r} needs comma-separated layers of 2-4 lengths then a colour")
 
 
+def effective_unit(leaves, leaf):
+    """Effective number unit: the declared unit, else the unit of the alias target chain (None = unitless)."""
+    seen = set()
+    while leaf.unit is None and leaf.alias() and leaf.path not in seen:
+        seen.add(leaf.path)
+        nxt = leaves.get(leaf.alias())
+        if nxt is None:
+            return None
+        leaf = nxt
+    return leaf.unit
+
+
 def resolve(leaves, path, errors, seen=None):
     """Follow aliases to the final leaf; report missing target, type mismatch and cycles."""
     chain = []
@@ -256,6 +268,9 @@ def resolve(leaves, path, errors, seen=None):
             return None
         if nxt.type != cur.type:
             errors.append(f"{cur.path}: alias type mismatch: {cur.type} -> {target} is {nxt.type}")
+            return None
+        if cur.type == "number" and cur.unit != effective_unit(leaves, nxt):
+            errors.append(f"{cur.path}: alias unit mismatch: {cur.unit or 'unitless'} -> {target} is {effective_unit(leaves, nxt) or 'unitless'}")
             return None
         cur = nxt
     return cur
@@ -427,6 +442,14 @@ def render_family_css(v: str) -> str:
     return ", ".join('"' + x[1:-1] + '"' if x[0] in "'\"" else x for x in parts)
 
 
+def final_family(m, path):
+    """Resolved font-family value; an unresolved alias must never reach an adapter."""
+    final = m.final(path)
+    if final is None or final.alias() or not isinstance(final.value, str):
+        raise TokenError(f"{path}: font family alias does not resolve to a literal family list")
+    return final.value
+
+
 def family_list(v: str):
     parts, _ = split_top(v)
     return [x[1:-1] if x[0] in "'\"" else x for x in parts]
@@ -560,7 +583,7 @@ def render_tailwind(m: Model) -> str:
         if "tailwind" in e:
             sec, _, key = e["tailwind"].partition(".")
             if secs[sec]["form"] == "family-list":
-                val = "[" + ", ".join(json.dumps(x) for x in family_list(leaf.value)) + "]"
+                val = "[" + ", ".join(json.dumps(x) for x in family_list(final_family(m, p))) + "]"
             else:
                 val = json.dumps(f"var({e['css']})")
             data[sec].append((key, val))
