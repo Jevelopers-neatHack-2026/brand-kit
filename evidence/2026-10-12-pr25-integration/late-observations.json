@@ -1,0 +1,79 @@
+{
+  "record_type": "Late source and owner-scope observation; not an approval or acceptance schema",
+  "observation_interval_utc": {
+    "after": "2026-10-12T20:13:34Z",
+    "before": "2026-10-12T20:14:54Z"
+  },
+  "retrieval_timestamp_note": "Per-request exact timestamps were not captured; this interval is bounded by actual clock observations. Comment created_at/updated_at values below are exact server values.",
+  "brand_main": {
+    "sha": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+    "protected": false
+  },
+  "open_pull_requests": [
+    {
+      "number": 3,
+      "head": "289b22659f0699649abd65ba7a3b7e710839f4d3",
+      "draft": false,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3"
+    }
+  ],
+  "pr3": {
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3",
+    "head": "289b22659f0699649abd65ba7a3b7e710839f4d3",
+    "state": "open",
+    "draft": false,
+    "mergeable": false,
+    "mergeable_state": "dirty",
+    "requested_reviewers": [
+      "CompleteDotTech"
+    ],
+    "comment_count": 8,
+    "latest_owner_scope": {
+      "author": "lmvdz",
+      "comment_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3#issuecomment-6131820571",
+      "comment_id": 6131820571,
+      "created_at": "2026-10-12T20:12:04Z",
+      "updated_at": "2026-10-12T20:12:04Z",
+      "scope_summary": "Original author requests holding PR3 unmerged until after the neatHack submission to avoid disruption before the deadline, then resuming it afterward.",
+      "action": "Preserve the existing branch and open proposal. Do not merge during the explicit hold or infer new identity/rights approval. After the hold, actual remaining policy decisions and conflicts still need owner-compatible resolution."
+    }
+  },
+  "actual_main_checks": {
+    "source_sha": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+    "check_run_count": 0,
+    "status_count": 0,
+    "aggregate_status": "pending",
+    "formal_pr25_review_count": 0,
+    "interpretation": "Empty remote collections are not passes or formal approval. Local exact-main command and independent review evidence is separate."
+  },
+  "canonical_acceptance": {
+    "url": "https://github.com/Jevelopers-neatHack-2026/integration-evals/blob/13bde39399a09d4a14cc97d72cd769b51da83e00/planning/acceptance-checklist.json",
+    "evidence_method": "Root directly retrieved this exact JSON after the independent refresh.",
+    "criterion_count": 47,
+    "status_counts": {
+      "planned": 44,
+      "verified": 3
+    },
+    "brand_related": [
+      {
+        "id": "ART-05",
+        "title": "Approved asset inputs",
+        "status": "planned",
+        "priority": "P0",
+        "owner_role": "Creative and fulfillment",
+        "evidence_refs": [],
+        "tested_revision_refs": []
+      },
+      {
+        "id": "EVAL-04",
+        "title": "Secrets and customer data",
+        "status": "planned",
+        "priority": "P0",
+        "owner_role": "Finance and reliability",
+        "evidence_refs": [],
+        "tested_revision_refs": []
+      }
+    ]
+  },
+  "mutations_performed": false
+}

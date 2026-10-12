@@ -1,0 +1,141 @@
+{
+  "record_type": "local Brand documentation verification; not an acceptance schema",
+  "repository": "Jevelopers-neatHack-2026/brand-kit",
+  "phase": "premerge",
+  "source_revision": "aa22b3833a7510e1ece215926faab6c6394e5258",
+  "source_tree": "7fcbfa65fd3423fec10b77d90f7655d2b228e84a",
+  "base_revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+  "reviewed_candidate_revision": "aa22b3833a7510e1ece215926faab6c6394e5258",
+  "reviewed_candidate_tree": "7fcbfa65fd3423fec10b77d90f7655d2b228e84a",
+  "parents": [
+    "6416a5018066f229a9f3dfa2d82c96bc080e5e50",
+    "e254df5444f0bfedd5526b0e148b0cdf36cbd31f"
+  ],
+  "tracked_file_count": 117,
+  "changed_paths_from_prior_main": [
+    "docs/architecture/ACCEPTANCE.md",
+    "docs/architecture/OWNERSHIP.md",
+    "docs/source-of-truth.md"
+  ],
+  "unchanged_tracked_file_count": 114,
+  "clean_before": true,
+  "started_at_utc": "2026-10-12T20:00:35.154049+00:00",
+  "captured_by": "brand-kit execution supervisor /root",
+  "environment": {
+    "cwd": "/dev/shm/brandkit-pr25-1955/candidate",
+    "PYTHON": "/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python",
+    "PLAYWRIGHT_BROWSERS_PATH": "/tmp/ticketstub-browser-1194",
+    "TMPDIR": "/dev/shm/brandkit-pr25-1955/tmp",
+    "npm_config_logs_dir": "/dev/shm/brandkit-pr25-1955/npm-logs"
+  },
+  "execution_mode": "local source verification; negative fixture data explicitly synthetic",
+  "provider_mode": "N/A: no font, application, paid, sandbox, or live provider operation",
+  "provider_budget_cost": "N/A for absent provider operations; no product or development-cost claim",
+  "storage_note": "Overlay filesystem is full; isolated checkout, temporary outputs and evidence use available memory-backed storage without deleting other writers files.",
+  "commands": [
+    {
+      "label": "python-version",
+      "argv": [
+        "/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python",
+        "-VV"
+      ],
+      "cwd": "/dev/shm/brandkit-pr25-1955/candidate",
+      "source_revision": "aa22b3833a7510e1ece215926faab6c6394e5258",
+      "started_at_utc": "2026-10-12T20:00:35.154189+00:00",
+      "finished_at_utc": "2026-10-12T20:00:35.157042+00:00",
+      "elapsed_seconds": 0.002856,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "passed",
+      "expected_missing_acceptance_observed": false,
+      "stdout": "01-python-version.stdout.txt",
+      "stdout_sha256": "1136b347106711865de4555f802cbe2530f9f9a0802157234e7d833ee0465278",
+      "stderr": "01-python-version.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "asset-library-versions",
+      "argv": [
+        "/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python",
+        "-c",
+        "import importlib.metadata,json; print(json.dumps({n:importlib.metadata.version(n) for n in (\"fonttools\",\"uharfbuzz\",\"Pillow\")},sort_keys=True))"
+      ],
+      "cwd": "/dev/shm/brandkit-pr25-1955/candidate",
+      "source_revision": "aa22b3833a7510e1ece215926faab6c6394e5258",
+      "started_at_utc": "2026-10-12T20:00:35.157262+00:00",
+      "finished_at_utc": "2026-10-12T20:00:35.211817+00:00",
+      "elapsed_seconds": 0.054568,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "passed",
+      "expected_missing_acceptance_observed": false,
+      "stdout": "02-asset-library-versions.stdout.txt",
+      "stdout_sha256": "2f7d8fb241806bafa02061ab5f4a89f68983ef3cf6f7cf8d1f374706c4e725e4",
+      "stderr": "02-asset-library-versions.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "diff-check",
+      "argv": [
+        "git",
+        "diff",
+        "--check",
+        "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+        "aa22b3833a7510e1ece215926faab6c6394e5258"
+      ],
+      "cwd": "/dev/shm/brandkit-pr25-1955/candidate",
+      "source_revision": "aa22b3833a7510e1ece215926faab6c6394e5258",
+      "started_at_utc": "2026-10-12T20:00:35.212071+00:00",
+      "finished_at_utc": "2026-10-12T20:00:35.215972+00:00",
+      "elapsed_seconds": 0.003907,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "passed",
+      "expected_missing_acceptance_observed": false,
+      "stdout": "03-diff-check.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "03-diff-check.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "affected-documentation-checks",
+      "argv": [
+        "make",
+        "check-inventory",
+        "check-links",
+        "check-governance",
+        "check-guidelines"
+      ],
+      "cwd": "/dev/shm/brandkit-pr25-1955/candidate",
+      "source_revision": "aa22b3833a7510e1ece215926faab6c6394e5258",
+      "started_at_utc": "2026-10-12T20:00:35.216164+00:00",
+      "finished_at_utc": "2026-10-12T20:00:35.841352+00:00",
+      "elapsed_seconds": 0.6252,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "passed",
+      "expected_missing_acceptance_observed": false,
+      "stdout": "04-affected-documentation-checks.stdout.txt",
+      "stdout_sha256": "19aa2910f80025ab34b3794c72eacc84a7200f93e37efa823c64ae0e542ae590",
+      "stderr": "04-affected-documentation-checks.stderr.txt",
+      "stderr_sha256": "921ed0fd4ac4dd80c9a3997e921c4e10d2985fb8fd19a6657de0df907c1dc79a"
+    }
+  ],
+  "reused_evidence": {
+    "exact_candidate_full_suite": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/04cbe9d6eb6c7cc650fe570a20bc66e6f12fd830/evidence/2026-10-12-bk-mvp/late-owner-aa22/README.md",
+    "historical_full_release_gate": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/cd744af6da5b1f89f410383fac5937e1ea8d6705/evidence/2026-10-12-bk10-candidate-binding/postmerge/README.md"
+  },
+  "not_executed": [
+    "Full 17-target release gate: prior run remains pinned to 41001e1 with 14 passes, three failures, 30 blockers and release_approved=false.",
+    "Approved-font provider availability, true browser UI zoom, assistive-technology and accountable visual/content acceptance remain missing; no pass inferred.",
+    "General external URL probing: local checker reports these unchecked; specific required GitHub targets have separate source observations.",
+    "Foreign Product runtime suite: only live GitHub status inspected, not rerun here."
+  ],
+  "release_approved": false,
+  "master_acceptance_changed": false,
+  "finished_at_utc": "2026-10-12T20:00:35.841611+00:00",
+  "clean_after": true,
+  "final_source_revision": "aa22b3833a7510e1ece215926faab6c6394e5258",
+  "candidate_tree_matches_source": true,
+  "documentation_verification_passed": true
+}

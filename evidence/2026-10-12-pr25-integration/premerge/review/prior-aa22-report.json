@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "source_sha": "aa22b3833a7510e1ece215926faab6c6394e5258",
+  "source_tree": "7fcbfa65fd3423fec10b77d90f7655d2b228e84a",
+  "cwd": "/dev/shm/brand-kit-aa22-candidate-5ecc3c6cf97a",
+  "mode": "actual local source checks; synthetic regression fixtures remain labeled; no provider or consumer execution",
+  "environment": {
+    "PYTHON": "/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python",
+    "PLAYWRIGHT_BROWSERS_PATH": "/tmp/ticketstub-browser-1194",
+    "TMPDIR": "/dev/shm/brand-kit-aa22-validation-5ecc3c6cf97a/tmp"
+  },
+  "reason_for_memory_staging": "Overlay filesystem full; source checkout, temporary test data and logs use available memory filesystem. No test semantics or source is altered.",
+  "commands": [
+    {
+      "command": [
+        "make",
+        "check"
+      ],
+      "started_at": "2026-10-12T18:41:25.460461+00:00",
+      "elapsed_seconds": 42.029,
+      "exit_code": 0,
+      "result": "pass",
+      "streams": {
+        "stdout": {
+          "path": "/dev/shm/brand-kit-aa22-validation-5ecc3c6cf97a/00.stdout.txt",
+          "sha256": "bc728bb28b010167bebcab39a5ee3d0116ea0d0dde8b32e9d5bef96b8f0f4764",
+          "bytes": 21380
+        },
+        "stderr": {
+          "path": "/dev/shm/brand-kit-aa22-validation-5ecc3c6cf97a/00.stderr.txt",
+          "sha256": "5018e4247977ea603dfd127ac9bf10f74204c3874fc88f3a2e4279c0eca0a57f",
+          "bytes": 35178
+        }
+      }
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+        "HEAD"
+      ],
+      "started_at": "2026-10-12T18:42:07.490278+00:00",
+      "elapsed_seconds": 0.003,
+      "exit_code": 0,
+      "result": "pass",
+      "streams": {
+        "stdout": {
+          "path": "/dev/shm/brand-kit-aa22-validation-5ecc3c6cf97a/01.stdout.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "stderr": {
+          "path": "/dev/shm/brand-kit-aa22-validation-5ecc3c6cf97a/01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--name-only",
+        "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+        "HEAD"
+      ],
+      "started_at": "2026-10-12T18:42:07.493755+00:00",
+      "elapsed_seconds": 0.002,
+      "exit_code": 0,
+      "result": "pass",
+      "streams": {
+        "stdout": {
+          "path": "/dev/shm/brand-kit-aa22-validation-5ecc3c6cf97a/02.stdout.txt",
+          "sha256": "e845351fccaa5a3139d0bc08dab1519a74d92bba2711b198faa993341b1c489e",
+          "bytes": 31
+        },
+        "stderr": {
+          "path": "/dev/shm/brand-kit-aa22-validation-5ecc3c6cf97a/02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--porcelain",
+        "--untracked-files=all"
+      ],
+      "started_at": "2026-10-12T18:42:07.496185+00:00",
+      "elapsed_seconds": 0.017,
+      "exit_code": 0,
+      "result": "pass",
+      "streams": {
+        "stdout": {
+          "path": "/dev/shm/brand-kit-aa22-validation-5ecc3c6cf97a/03.stdout.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "stderr": {
+          "path": "/dev/shm/brand-kit-aa22-validation-5ecc3c6cf97a/03.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "state": "complete",
+  "release_approved": false,
+  "owner_pr25_qualification_hold_waived": false,
+  "product117_merge_hold_waived": false,
+  "all_scoped_commands_passed": true
+}

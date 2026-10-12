@@ -1,0 +1,206 @@
+{
+  "reviewer": "/root/pr_1956",
+  "observed_at": "2026-10-12 19:59:09 UTC",
+  "completed_at": "2026-10-12T20:00:25.783605+00:00",
+  "base": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+  "head": "aa22b3833a7510e1ece215926faab6c6394e5258",
+  "tree": "7fcbfa65fd3423fec10b77d90f7655d2b228e84a",
+  "candidate": {
+    "sha": "95c430532e378b85f2a3d98598daed29aa45c5a7",
+    "tree": "7fcbfa65fd3423fec10b77d90f7655d2b228e84a",
+    "parents": [
+      "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "aa22b3833a7510e1ece215926faab6c6394e5258"
+    ]
+  },
+  "files": [
+    {
+      "path": "docs/architecture/ACCEPTANCE.md",
+      "git_blob": "31fc1870af89cbfd6333f177700d1f0a75513919",
+      "sha256": "ecb06519ba27f57b45c7e005d52aec979500af5daeed33decfe8d3d140aef4e4",
+      "bytes": 1131,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/architecture/OWNERSHIP.md",
+      "git_blob": "7fa7e8f864d9b9f1049e6b932e4721d7dc2ba503",
+      "sha256": "fa2e5912867d183667ead22d3f877f46e264cd29f90faf509bf97aeb5324d993",
+      "bytes": 8624,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/source-of-truth.md",
+      "git_blob": "f648fca3a58154fad3b58b8dfc0e3c0a5f5994e5",
+      "sha256": "11f452af00b620addbaccb5a52d5ad5eb65beaa990f095b5c0fc90674a06365d",
+      "bytes": 13977,
+      "mode": "100644"
+    }
+  ],
+  "tracked_paths": 117,
+  "unchanged_paths_and_modes": 114,
+  "ancestors": [
+    {
+      "sha": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "is_ancestor": true
+    },
+    {
+      "sha": "3eebe0c15ed025c5a074b56629c3ca2cf1483829",
+      "is_ancestor": true
+    },
+    {
+      "sha": "ba65bb20e9f4e820666cbb3a40154c74676d133d",
+      "is_ancestor": true
+    },
+    {
+      "sha": "41001e1875c544d21ad6b481cfe98c9283b0c58c",
+      "is_ancestor": true
+    }
+  ],
+  "product_target": {
+    "path": "docs/architecture/CURRENT-STATE.md",
+    "main": "aec83af65ee75be80246d88782c8f8ce00a10c31",
+    "sha256": "e7d05bc9827b0a7aa9daeee1a2021692b2c683550b9000e070f5234876f11f29",
+    "git_blob": "31d199072287b80237a9b7c65deed2c434a188de",
+    "bytes": 18430,
+    "main_equals_exact": true,
+    "referencing_occurrences": 2,
+    "fragments": []
+  },
+  "historical_svg_comparison": {
+    "brand_sha": "3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4",
+    "product_sha": "783a9fa03e3d64b752cd8c5ad913c223db29118d",
+    "pairs": [
+      {
+        "product_path": "public/brand/app-icon.svg",
+        "brand_path": "logo/app-icon.svg",
+        "product_sha": "83d73b396da1c74e868773c426b5118d878f7268",
+        "brand_sha": "83d73b396da1c74e868773c426b5118d878f7268",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/favicon.svg",
+        "brand_path": "logo/favicon.svg",
+        "product_sha": "6b4df7c7a909bf46182e69f242ed163f0a34180e",
+        "brand_sha": "6b4df7c7a909bf46182e69f242ed163f0a34180e",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/lockup-horizontal-mono.svg",
+        "brand_path": "logo/lockup-horizontal-mono.svg",
+        "product_sha": "73eb76e4ce1ed2db5431f1a21e0214dc92937a64",
+        "brand_sha": "73eb76e4ce1ed2db5431f1a21e0214dc92937a64",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/lockup-horizontal.svg",
+        "brand_path": "logo/lockup-horizontal.svg",
+        "product_sha": "6b17f9f18bd5b5784d5c7ef269e2e35b363d8b95",
+        "brand_sha": "6b17f9f18bd5b5784d5c7ef269e2e35b363d8b95",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/lockup-stacked.svg",
+        "brand_path": "logo/lockup-stacked.svg",
+        "product_sha": "d91b363460652bef435ecb1d0aeb6b8fe50b8dc3",
+        "brand_sha": "d91b363460652bef435ecb1d0aeb6b8fe50b8dc3",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/ts-stamp-currentcolor.svg",
+        "brand_path": "logo/ts-stamp-currentcolor.svg",
+        "product_sha": "7e58592a33301afe223b7541278d3061584417a0",
+        "brand_sha": "7e58592a33301afe223b7541278d3061584417a0",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/ts-stamp-mono-cream.svg",
+        "brand_path": "logo/ts-stamp-mono-cream.svg",
+        "product_sha": "ce2d222ee40d9de9c7c0abca6a09c2a955697ed7",
+        "brand_sha": "ce2d222ee40d9de9c7c0abca6a09c2a955697ed7",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/ts-stamp-mono-ink.svg",
+        "brand_path": "logo/ts-stamp-mono-ink.svg",
+        "product_sha": "aca1e449b9d1384e8293386df22268da9faae498",
+        "brand_sha": "aca1e449b9d1384e8293386df22268da9faae498",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/ts-stamp-mono-orange.svg",
+        "brand_path": "logo/ts-stamp-mono-orange.svg",
+        "product_sha": "9c03e00beb4270082ad8a57fe8ac2a35fe5c254a",
+        "brand_sha": "9c03e00beb4270082ad8a57fe8ac2a35fe5c254a",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/ts-stamp.svg",
+        "brand_path": "logo/ts-stamp.svg",
+        "product_sha": "dae8c394057e475f59bfd624586246a17784d732",
+        "brand_sha": "dae8c394057e475f59bfd624586246a17784d732",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/wordmark-compact.svg",
+        "brand_path": "logo/wordmark-compact.svg",
+        "product_sha": "09acb8303bc9b7279ac70227a823a1203d2f1017",
+        "brand_sha": "09acb8303bc9b7279ac70227a823a1203d2f1017",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/wordmark-cream.svg",
+        "brand_path": "logo/wordmark-cream.svg",
+        "product_sha": "c0e3be6e098916ccaac69e59dc4860f2b619d27a",
+        "brand_sha": "c0e3be6e098916ccaac69e59dc4860f2b619d27a",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/wordmark-orange.svg",
+        "brand_path": "logo/wordmark-orange.svg",
+        "product_sha": "79470025b69f80bed1c3a54770ba8b5e042b0aea",
+        "brand_sha": "79470025b69f80bed1c3a54770ba8b5e042b0aea",
+        "equal": true
+      },
+      {
+        "product_path": "public/brand/wordmark.svg",
+        "brand_path": "logo/wordmark.svg",
+        "product_sha": "251a2508a5a04fd05d1f69f2997ddc103d2f8f02",
+        "brand_sha": "251a2508a5a04fd05d1f69f2997ddc103d2f8f02",
+        "equal": true
+      }
+    ],
+    "limitation": "Git blob equality only; no rights, distribution, deployed behavior, selected version, or consumer ACK."
+  },
+  "master_anchors": [
+    "art-05-approved-asset-inputs",
+    "eval-04-secrets-and-customer-data"
+  ],
+  "policy_sources": {
+    "brand_governance": {
+      "sha256": "ea1248927feeec6df1d4051d22e47edfa2043d08e03787d6b6bdc2ee42039f2c",
+      "git_blob": "312e15e211a6cb257af655e638cefe6c92a07efd"
+    },
+    "contributing": {
+      "ref": "c9b08a1c2a7e3e1e0f49051fce0be0603d3e138c",
+      "sha256": "07ad4e62cedf572e4d552c688afa10955638048ffa6bbba37586bab98020bb71"
+    },
+    "workflow": {
+      "ref": "c9b08a1c2a7e3e1e0f49051fce0be0603d3e138c",
+      "sha256": "0d7b06d937966640f9341f6b170142c20b77ff4093becc89eb567fb1a46cf2e7"
+    }
+  },
+  "command_count": 11,
+  "all_recorded_commands_pass": true,
+  "functional_suite_rerun": false,
+  "prior_failed_diagnostic": {
+    "cwd": "/workspace/scratch/3af480cc2b4f/brand-kit",
+    "observation": "Initial git show / diff attempted aa22 in the main clone, which does not contain that object; exact-head checkout located separately.",
+    "exit_code": 128,
+    "errors": [
+      "fatal: path 'docs/brand-governance.md' exists on disk, but not in 'aa22b3833a7510e1ece215926faab6c6394e5258'",
+      "fatal: path 'docs/architecture/OWNERSHIP.md' exists on disk, but not in 'aa22b3833a7510e1ece215926faab6c6394e5258'",
+      "fatal: bad object aa22b3833a7510e1ece215926faab6c6394e5258"
+    ],
+    "counted_as_pass": false
+  }
+}

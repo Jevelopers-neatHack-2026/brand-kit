@@ -1,0 +1,148 @@
+{
+  "record_type": "public evidence copy manifest",
+  "copied_files": [
+    {
+      "path": "commands/01-python-version.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "none",
+      "size_bytes": 0
+    },
+    {
+      "path": "commands/01-python-version.stdout.txt",
+      "original_sha256": "1136b347106711865de4555f802cbe2530f9f9a0802157234e7d833ee0465278",
+      "published_sha256": "1136b347106711865de4555f802cbe2530f9f9a0802157234e7d833ee0465278",
+      "transformation": "none",
+      "size_bytes": 61
+    },
+    {
+      "path": "commands/02-asset-library-versions.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "none",
+      "size_bytes": 0
+    },
+    {
+      "path": "commands/02-asset-library-versions.stdout.txt",
+      "original_sha256": "2f7d8fb241806bafa02061ab5f4a89f68983ef3cf6f7cf8d1f374706c4e725e4",
+      "published_sha256": "2f7d8fb241806bafa02061ab5f4a89f68983ef3cf6f7cf8d1f374706c4e725e4",
+      "transformation": "none",
+      "size_bytes": 67
+    },
+    {
+      "path": "commands/03-diff-check.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "none",
+      "size_bytes": 0
+    },
+    {
+      "path": "commands/03-diff-check.stdout.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "none",
+      "size_bytes": 0
+    },
+    {
+      "path": "commands/04-affected-documentation-checks.stderr.txt",
+      "original_sha256": "921ed0fd4ac4dd80c9a3997e921c4e10d2985fb8fd19a6657de0df907c1dc79a",
+      "published_sha256": "921ed0fd4ac4dd80c9a3997e921c4e10d2985fb8fd19a6657de0df907c1dc79a",
+      "transformation": "none",
+      "size_bytes": 123
+    },
+    {
+      "path": "commands/04-affected-documentation-checks.stdout.txt",
+      "original_sha256": "19aa2910f80025ab34b3794c72eacc84a7200f93e37efa823c64ae0e542ae590",
+      "published_sha256": "19aa2910f80025ab34b3794c72eacc84a7200f93e37efa823c64ae0e542ae590",
+      "transformation": "none",
+      "size_bytes": 19850
+    },
+    {
+      "path": "commands/changed-source.diff",
+      "original_sha256": "fd5b82942043c1d854b1b1c232f09bec6b9e52ccf009ad55d0ce4283f802887d",
+      "published_sha256": "fd5b82942043c1d854b1b1c232f09bec6b9e52ccf009ad55d0ce4283f802887d",
+      "transformation": "none",
+      "size_bytes": 18308
+    },
+    {
+      "path": "commands/execution.json",
+      "original_sha256": "d0b6c7ba0ae269638e579abab4748e1a497fff28147b2e73ec099a5e51e532b0",
+      "published_sha256": "d0b6c7ba0ae269638e579abab4748e1a497fff28147b2e73ec099a5e51e532b0",
+      "transformation": "none",
+      "size_bytes": 6813
+    },
+    {
+      "path": "commands/source-tree.json",
+      "original_sha256": "40d631b3bb677e399def606017c89abb541c75511ffd65dd706be6737795428e",
+      "published_sha256": "40d631b3bb677e399def606017c89abb541c75511ffd65dd706be6737795428e",
+      "transformation": "none",
+      "size_bytes": 16025
+    },
+    {
+      "path": "github-observations.json",
+      "original_sha256": "38a37b2c72283fabd220e084ca6c48b64da59a760c08d45f188fae472400c53c",
+      "published_sha256": "38a37b2c72283fabd220e084ca6c48b64da59a760c08d45f188fae472400c53c",
+      "transformation": "none",
+      "size_bytes": 11713
+    },
+    {
+      "path": "run_verification.py",
+      "original_sha256": "6d1f20ab7132334a28247fc22906acb45f3be7705d753f96f4c08f2201b5d660",
+      "published_sha256": "6d1f20ab7132334a28247fc22906acb45f3be7705d753f96f4c08f2201b5d660",
+      "transformation": "none",
+      "size_bytes": 7845
+    },
+    {
+      "path": "review/review.json",
+      "original_sha256": "d2de23f07290a1345bd7646d7163c60a17132869e75474bec07fb6ad7fba8569",
+      "published_sha256": "d2de23f07290a1345bd7646d7163c60a17132869e75474bec07fb6ad7fba8569",
+      "transformation": "none",
+      "size_bytes": 7237
+    },
+    {
+      "path": "review/review.md",
+      "original_sha256": "d6b8893e4420f24d49e82fed41363fa112d83eb949903790179249e2d76f2f86",
+      "published_sha256": "d6b8893e4420f24d49e82fed41363fa112d83eb949903790179249e2d76f2f86",
+      "transformation": "none",
+      "size_bytes": 5647
+    },
+    {
+      "path": "review/inspection.json",
+      "original_sha256": "ad75f68b97cdcf3bff5ada19eb776bce277c996c2b261943a6023e83b597d1c2",
+      "published_sha256": "ad75f68b97cdcf3bff5ada19eb776bce277c996c2b261943a6023e83b597d1c2",
+      "transformation": "none",
+      "size_bytes": 7759
+    },
+    {
+      "path": "review/commands.json",
+      "original_sha256": "86676a5529ad289cdc7a25f2510b13573015b632809ca319d1fbf2cea53ee134",
+      "published_sha256": "86676a5529ad289cdc7a25f2510b13573015b632809ca319d1fbf2cea53ee134",
+      "transformation": "none",
+      "size_bytes": 50861
+    },
+    {
+      "path": "review/prior-aa22-report.json",
+      "original_sha256": "b230a92935d65b26d6736a927746f04fc5b2d6fbc1c934d717bc6616de8a22aa",
+      "published_sha256": "b230a92935d65b26d6736a927746f04fc5b2d6fbc1c934d717bc6616de8a22aa",
+      "transformation": "none",
+      "size_bytes": 3893
+    }
+  ],
+  "locally_retained_inputs": [
+    {
+      "local_file": "/dev/shm/brandkit-pr25-1955/review/source-inputs.json",
+      "sha256": "9ebdd0b0b319de5f2886420ffdff8ab8ccf355064219eb00c1f96a4e825484dd",
+      "reason": "Full fetched public source snapshots retained locally; original digest preserved. Specific source hashes and URLs are in inspection/review/observations."
+    },
+    {
+      "local_file": "/dev/shm/brandkit-pr25-1955/review/inspect.py",
+      "sha256": "1dd34003694e427f7b0c38408ff12013b664d5a80d9058bdfac3a3beb093112c",
+      "reason": "Local inspection helper depends on the omitted full fetched source snapshots; command records are published."
+    },
+    {
+      "local_file": "/dev/shm/brandkit-pr25-1955/review/SHA256SUMS",
+      "sha256": "620aac3daa2d701f6d48886c00e353fcaecac2271bdacca0acfbf173e0f8972c",
+      "reason": "Original reviewer checksum list includes locally retained inputs; this packet supplies its own complete public checksum list."
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python -I tools/build_distribution.py check
+{"archive_sha256": "b6dfb695e3ed364517473a69dec53310a841af32771b4cd2360296e21ed04311", "deterministic": true, "file_count": 25, "files_digest": "738026492ee5ce8b9e8b39e04e20e994fd48d6954acfc39621acaaa2bc4963b5", "mode": "offline_review_candidate", "release_approved": false, "source_sha": "f34c71a0961dc0c67f1ecb293a5bbb633addb663", "toolchain": {"python": "3.12.14", "zip": "ZIP_STORED"}}

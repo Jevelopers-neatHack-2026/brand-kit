@@ -1,0 +1,322 @@
+{
+  "record_type": "local Brand documentation verification; not an acceptance schema",
+  "repository": "Jevelopers-neatHack-2026/brand-kit",
+  "phase": "postmerge",
+  "source_revision": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+  "source_tree": "7fcbfa65fd3423fec10b77d90f7655d2b228e84a",
+  "base_revision": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+  "reviewed_candidate_revision": "aa22b3833a7510e1ece215926faab6c6394e5258",
+  "reviewed_candidate_tree": "7fcbfa65fd3423fec10b77d90f7655d2b228e84a",
+  "parents": [
+    "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "aa22b3833a7510e1ece215926faab6c6394e5258"
+  ],
+  "tracked_file_count": 117,
+  "changed_paths_from_prior_main": [
+    "docs/architecture/ACCEPTANCE.md",
+    "docs/architecture/OWNERSHIP.md",
+    "docs/source-of-truth.md"
+  ],
+  "unchanged_tracked_file_count": 114,
+  "clean_before": true,
+  "started_at_utc": "2026-10-12T20:09:09.699052+00:00",
+  "captured_by": "brand-kit execution supervisor /root",
+  "environment": {
+    "cwd": "/dev/shm/brandkit-pr25-1955/postmerge-checkout",
+    "PYTHON": "/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python",
+    "PLAYWRIGHT_BROWSERS_PATH": "/tmp/ticketstub-browser-1194",
+    "TMPDIR": "/dev/shm/brandkit-pr25-1955/tmp",
+    "npm_config_logs_dir": "/dev/shm/brandkit-pr25-1955/npm-logs"
+  },
+  "execution_mode": "local source verification; negative fixture data explicitly synthetic",
+  "provider_mode": "N/A: no font, application, paid, sandbox, or live provider operation",
+  "provider_budget_cost": "N/A for absent provider operations; no product or development-cost claim",
+  "storage_note": "Overlay filesystem is full; isolated checkout, temporary outputs and evidence use available memory-backed storage without deleting other writers files.",
+  "commands": [
+    {
+      "label": "python-version",
+      "argv": [
+        "/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python",
+        "-VV"
+      ],
+      "cwd": "/dev/shm/brandkit-pr25-1955/postmerge-checkout",
+      "source_revision": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+      "started_at_utc": "2026-10-12T20:09:09.699194+00:00",
+      "finished_at_utc": "2026-10-12T20:09:09.701111+00:00",
+      "elapsed_seconds": 0.001919,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "passed",
+      "expected_missing_acceptance_observed": false,
+      "stdout": "01-python-version.stdout.txt",
+      "stdout_sha256": "1136b347106711865de4555f802cbe2530f9f9a0802157234e7d833ee0465278",
+      "stderr": "01-python-version.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "asset-library-versions",
+      "argv": [
+        "/workspace/scratch/3af480cc2b4f/validation/asset-venv/bin/python",
+        "-c",
+        "import importlib.metadata,json; print(json.dumps({n:importlib.metadata.version(n) for n in (\"fonttools\",\"uharfbuzz\",\"Pillow\")},sort_keys=True))"
+      ],
+      "cwd": "/dev/shm/brandkit-pr25-1955/postmerge-checkout",
+      "source_revision": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+      "started_at_utc": "2026-10-12T20:09:09.701304+00:00",
+      "finished_at_utc": "2026-10-12T20:09:09.769720+00:00",
+      "elapsed_seconds": 0.068452,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "passed",
+      "expected_missing_acceptance_observed": false,
+      "stdout": "02-asset-library-versions.stdout.txt",
+      "stdout_sha256": "2f7d8fb241806bafa02061ab5f4a89f68983ef3cf6f7cf8d1f374706c4e725e4",
+      "stderr": "02-asset-library-versions.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "diff-check",
+      "argv": [
+        "git",
+        "diff",
+        "--check",
+        "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+        "f34c71a0961dc0c67f1ecb293a5bbb633addb663"
+      ],
+      "cwd": "/dev/shm/brandkit-pr25-1955/postmerge-checkout",
+      "source_revision": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+      "started_at_utc": "2026-10-12T20:09:09.770014+00:00",
+      "finished_at_utc": "2026-10-12T20:09:09.773915+00:00",
+      "elapsed_seconds": 0.003905,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "passed",
+      "expected_missing_acceptance_observed": false,
+      "stdout": "03-diff-check.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "03-diff-check.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "inkscape-version",
+      "argv": [
+        "inkscape",
+        "--version"
+      ],
+      "cwd": "/dev/shm/brandkit-pr25-1955/postmerge-checkout",
+      "source_revision": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+      "started_at_utc": "2026-10-12T20:09:09.774104+00:00",
+      "finished_at_utc": "2026-10-12T20:09:09.830596+00:00",
+      "elapsed_seconds": 0.056504,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "passed",
+      "expected_missing_acceptance_observed": false,
+      "stdout": "04-inkscape-version.stdout.txt",
+      "stdout_sha256": "09f993f834813212b64386a0e119d9c28b877e64c59d4e6dd0b58a3e60d52070",
+      "stderr": "04-inkscape-version.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "node-version",
+      "argv": [
+        "node",
+        "--version"
+      ],
+      "cwd": "/dev/shm/brandkit-pr25-1955/postmerge-checkout",
+      "source_revision": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+      "started_at_utc": "2026-10-12T20:09:09.830898+00:00",
+      "finished_at_utc": "2026-10-12T20:09:09.838225+00:00",
+      "elapsed_seconds": 0.007333,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "passed",
+      "expected_missing_acceptance_observed": false,
+      "stdout": "05-node-version.stdout.txt",
+      "stdout_sha256": "b7677d3ec37ee1897ba07dc2cfe8292fe421c9ac93396cca5bbece486d1a2a41",
+      "stderr": "05-node-version.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "npm-version",
+      "argv": [
+        "npm",
+        "--version"
+      ],
+      "cwd": "/dev/shm/brandkit-pr25-1955/postmerge-checkout",
+      "source_revision": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+      "started_at_utc": "2026-10-12T20:09:09.838500+00:00",
+      "finished_at_utc": "2026-10-12T20:09:09.959738+00:00",
+      "elapsed_seconds": 0.121251,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "passed",
+      "expected_missing_acceptance_observed": false,
+      "stdout": "06-npm-version.stdout.txt",
+      "stdout_sha256": "d9f29f5aab43c8c1a8d6acc856e258b89735f541aa5e1f07b39a62f28bfa8d06",
+      "stderr": "06-npm-version.stderr.txt",
+      "stderr_sha256": "7125f194612fcff2f454c05d848e7cb71facc1967b4d5017e25b34fdee3ba74f"
+    },
+    {
+      "label": "make-check",
+      "argv": [
+        "make",
+        "check"
+      ],
+      "cwd": "/dev/shm/brandkit-pr25-1955/postmerge-checkout",
+      "source_revision": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+      "started_at_utc": "2026-10-12T20:09:09.960051+00:00",
+      "finished_at_utc": "2026-10-12T20:09:51.691529+00:00",
+      "elapsed_seconds": 41.731493,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "passed",
+      "expected_missing_acceptance_observed": false,
+      "stdout": "07-make-check.stdout.txt",
+      "stdout_sha256": "94201d039c2dc7c88b23f2ddbaaf3eb4c6994cc7de27c16c736f14d49a3687b8",
+      "stderr": "07-make-check.stderr.txt",
+      "stderr_sha256": "72da6c3660718d3b4fb2af3e381a8b2ca0e7c700161f68670834147c2107acaf"
+    },
+    {
+      "label": "check-package",
+      "argv": [
+        "make",
+        "check-package"
+      ],
+      "cwd": "/dev/shm/brandkit-pr25-1955/postmerge-checkout",
+      "source_revision": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+      "started_at_utc": "2026-10-12T20:09:51.691891+00:00",
+      "finished_at_utc": "2026-10-12T20:09:52.789169+00:00",
+      "elapsed_seconds": 1.097293,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "passed",
+      "expected_missing_acceptance_observed": false,
+      "stdout": "08-check-package.stdout.txt",
+      "stdout_sha256": "316d86d4b82a1c88da8cb8409aa6260a914b0d10c08429094139fd76bfbc4bba",
+      "stderr": "08-check-package.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "install-pinned-tailwind-offline",
+      "argv": [
+        "npm",
+        "ci",
+        "--offline",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund"
+      ],
+      "cwd": "/dev/shm/brandkit-pr25-1955/postmerge-checkout/tools/tokens-dev",
+      "source_revision": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+      "started_at_utc": "2026-10-12T20:09:52.789486+00:00",
+      "finished_at_utc": "2026-10-12T20:09:53.566796+00:00",
+      "elapsed_seconds": 0.777327,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "passed",
+      "expected_missing_acceptance_observed": false,
+      "stdout": "09-install-pinned-tailwind-offline.stdout.txt",
+      "stdout_sha256": "9434a4abd3ced28587e4786f90f26d581681989bf789ff0ca807082bbaae1838",
+      "stderr": "09-install-pinned-tailwind-offline.stderr.txt",
+      "stderr_sha256": "7125f194612fcff2f454c05d848e7cb71facc1967b4d5017e25b34fdee3ba74f"
+    },
+    {
+      "label": "check-consumers-local",
+      "argv": [
+        "make",
+        "check-consumers-local"
+      ],
+      "cwd": "/dev/shm/brandkit-pr25-1955/postmerge-checkout",
+      "source_revision": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+      "started_at_utc": "2026-10-12T20:09:53.567134+00:00",
+      "finished_at_utc": "2026-10-12T20:09:54.998711+00:00",
+      "elapsed_seconds": 1.431592,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "outcome": "passed",
+      "expected_missing_acceptance_observed": false,
+      "stdout": "10-check-consumers-local.stdout.txt",
+      "stdout_sha256": "891fac844d541ab637bd7ec9d4cde91791f749f8cfd08ebacae4b2fca5d989b9",
+      "stderr": "10-check-consumers-local.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "check-provenance",
+      "argv": [
+        "make",
+        "check-provenance"
+      ],
+      "cwd": "/dev/shm/brandkit-pr25-1955/postmerge-checkout",
+      "source_revision": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+      "started_at_utc": "2026-10-12T20:09:54.999147+00:00",
+      "finished_at_utc": "2026-10-12T20:09:55.079452+00:00",
+      "elapsed_seconds": 0.080323,
+      "expected_exit_code": 2,
+      "actual_exit_code": 2,
+      "outcome": "failed",
+      "expected_missing_acceptance_observed": true,
+      "stdout": "11-check-provenance.stdout.txt",
+      "stdout_sha256": "58e836815eaf7fcb89cfe40026b56fdd56ac143644dd040646722e3c6abb59fe",
+      "stderr": "11-check-provenance.stderr.txt",
+      "stderr_sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748"
+    },
+    {
+      "label": "package-brand",
+      "argv": [
+        "make",
+        "package-brand"
+      ],
+      "cwd": "/dev/shm/brandkit-pr25-1955/postmerge-checkout",
+      "source_revision": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+      "started_at_utc": "2026-10-12T20:09:55.079985+00:00",
+      "finished_at_utc": "2026-10-12T20:09:55.536308+00:00",
+      "elapsed_seconds": 0.456336,
+      "expected_exit_code": 2,
+      "actual_exit_code": 2,
+      "outcome": "failed",
+      "expected_missing_acceptance_observed": true,
+      "stdout": "12-package-brand.stdout.txt",
+      "stdout_sha256": "04efdb028451348d9f0ba579730844a060db752bc0ec362ef0efc61108e40168",
+      "stderr": "12-package-brand.stderr.txt",
+      "stderr_sha256": "71e89083a078a0bf21890172988d4e41be2e94bd1a107f2ee5a610b26082839d"
+    },
+    {
+      "label": "check-consumers",
+      "argv": [
+        "make",
+        "check-consumers"
+      ],
+      "cwd": "/dev/shm/brandkit-pr25-1955/postmerge-checkout",
+      "source_revision": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+      "started_at_utc": "2026-10-12T20:09:55.536662+00:00",
+      "finished_at_utc": "2026-10-12T20:09:57.413053+00:00",
+      "elapsed_seconds": 1.876401,
+      "expected_exit_code": 2,
+      "actual_exit_code": 2,
+      "outcome": "failed",
+      "expected_missing_acceptance_observed": true,
+      "stdout": "13-check-consumers.stdout.txt",
+      "stdout_sha256": "6514c736f92a0c0bd12cd52db9d6c768ad05966eadf122ba3310b3e8f57543e8",
+      "stderr": "13-check-consumers.stderr.txt",
+      "stderr_sha256": "0c081ca0951218d833ad2144a1c2d89211fe6336f0630bb6d988107976581cd0"
+    }
+  ],
+  "reused_evidence": {
+    "exact_candidate_full_suite": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/04cbe9d6eb6c7cc650fe570a20bc66e6f12fd830/evidence/2026-10-12-bk-mvp/late-owner-aa22/README.md",
+    "historical_full_release_gate": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/cd744af6da5b1f89f410383fac5937e1ea8d6705/evidence/2026-10-12-bk10-candidate-binding/postmerge/README.md"
+  },
+  "not_executed": [
+    "Full 17-target release gate: prior run remains pinned to 41001e1 with 14 passes, three failures, 30 blockers and release_approved=false.",
+    "Approved-font provider availability, true browser UI zoom, assistive-technology and accountable visual/content acceptance remain missing; no pass inferred.",
+    "General external URL probing: local checker reports these unchecked; specific required GitHub targets have separate source observations.",
+    "Foreign Product runtime suite: only live GitHub status inspected, not rerun here."
+  ],
+  "release_approved": false,
+  "master_acceptance_changed": false,
+  "finished_at_utc": "2026-10-12T20:09:57.413383+00:00",
+  "clean_after": true,
+  "final_source_revision": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+  "candidate_tree_matches_source": true,
+  "documentation_verification_passed": true
+}

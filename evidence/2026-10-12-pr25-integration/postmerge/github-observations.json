@@ -1,0 +1,49 @@
+{
+  "record_type": "Public GitHub observation of actual documentation merge; not an acceptance schema",
+  "observation_time_note": "Fresh retrieval occurred within the recorded interval; server merged_at is exact. No precise retrieval timestamp was captured.",
+  "repository": "Jevelopers-neatHack-2026/brand-kit",
+  "pull_request": {
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25",
+    "number": 25,
+    "state": "closed",
+    "merged": true,
+    "merged_at": "2026-10-12T20:05:08Z",
+    "merged_by": "CompleteDotTech",
+    "head": "aa22b3833a7510e1ece215926faab6c6394e5258",
+    "base": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "merge_commit": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+    "updated_at": "2026-10-12T20:05:11Z",
+    "body_status": "At this observation the body still carried stale pending Product117 and exact-head review wording. It was not overwritten during concurrent ownership."
+  },
+  "actual_merge": {
+    "sha": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+    "tree": "7fcbfa65fd3423fec10b77d90f7655d2b228e84a",
+    "parents": [
+      "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "aa22b3833a7510e1ece215926faab6c6394e5258"
+    ],
+    "message": "Merge pull request #25 from Jevelopers-neatHack-2026/docs/org-documentation-20261012\n\ndocs: clarify brand source and distribution status"
+  },
+  "supervisor_actions": {
+    "merge_invoked_by_this_supervisor": false,
+    "source_branch_edited": false,
+    "independent_review_completed_at_utc": "2026-10-12T20:02:08Z",
+    "review_publication_before_merge": false,
+    "postmerge_verification": "root/postmerge/execution.json is the original local command record; copied under commands/execution.json in this public packet."
+  },
+  "boundaries": {
+    "release_approved": false,
+    "consumer_adoption": false,
+    "master_acceptance_changed": false,
+    "foreign_runtime_acceptance": false,
+    "formal_github_approval_claimed": false
+  },
+  "urls": {
+    "merge": "https://github.com/Jevelopers-neatHack-2026/brand-kit/commit/f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+    "pull_request": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25"
+  },
+  "observation_interval_utc": {
+    "after": "2026-10-12T20:08:33Z",
+    "before": "2026-10-12T20:09:57Z"
+  }
+}

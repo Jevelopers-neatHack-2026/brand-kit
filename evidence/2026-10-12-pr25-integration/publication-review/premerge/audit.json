@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "review_type": "independent publication audit only",
+  "reviewer": "/root/acceptance_1956",
+  "reviewed_at_utc": "2026-10-12T20:07:18.516560+00:00",
+  "verdict": "READY for publication as timestamped premerge evidence",
+  "blocking_findings": [],
+  "independence": "This agent did not author the candidate, source review, command records, or publication packet. Prior read-only acceptance observations attributed to this agent were checked against its actual retrievals.",
+  "packet_path": "/dev/shm/brandkit-pr25-1955/publication/evidence/2026-10-12-pr25-integration/premerge",
+  "candidate": {
+    "repository": "Jevelopers-neatHack-2026/brand-kit",
+    "pull_request": 25,
+    "head": "aa22b3833a7510e1ece215926faab6c6394e5258",
+    "tree": "7fcbfa65fd3423fec10b77d90f7655d2b228e84a",
+    "base": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f"
+  },
+  "integrity": {
+    "file_count": 21,
+    "checksum_entries": 20,
+    "checksum_coverage": "Every file except SHA256SUMS itself, without duplicates, unsafe paths, missing files or mismatches",
+    "copied_file_manifest_entries": 18,
+    "all_copies_match_original_and_published_hash_size_and_bytes": true,
+    "all_copies_transformation": "none",
+    "locally_retained_inputs": 3,
+    "all_locally_retained_hashes_match": true,
+    "fresh_command_stream_hashes_verified": 8,
+    "review_embedded_stream_hashes_verified": 22,
+    "source_tree_records": 117,
+    "source_tree_matches_checkout": true,
+    "published_diff_matches_exact_git_diff": true,
+    "changed_source_files_hash_blob_size_verified": 3,
+    "key_hashes": {
+      "README.md": "a376eb0fb08cee937b167330356b28a13444d918f0b166ddbf351b6aa8834784",
+      "manifest.json": "8a449a69db35e2bb5610ffa145b23802881a94921fe124b6e11de23a110cf35c",
+      "SHA256SUMS": "65a287688a69d2614e00510061faeef3cdf91ac4af36e894626e48a2818977d8"
+    }
+  },
+  "findings": [
+    "README, execution, inspection and independent source review consistently name exact head aa22, tree 7fcbfa and base e254. The local checkout and entire 117-file source-tree record match; the three-file diff and per-source blob/SHA256/size records match.",
+    "The /root/pr_1956 source review is dated 20:02:08 UTC and explicitly distinguishes independent source review from formal GitHub approval, domain rights, release approval and consumer ACK. This audit is publication review only.",
+    "The retained owner PR body hash matches its 19:51:45 UTC snapshot and explicitly excludes a central model-profile gate. No approval authority is fabricated.",
+    "Fresh four-command results and 24 guideline tests are preserved with their actual timestamps and original streams. The separate exact-aa22 289-test report is correctly labeled previously executed; its hash matches the copied prior report.",
+    "The initial missing-object exit 128 remains explicitly failed and uncounted as a pass; all actual release prerequisites and the earlier full 17-target gate remain separately qualified.",
+    "Product #117 merge/navigation is distinguished from Product runtime acceptance. A fresh read-only GitHub job retrieval confirms run 38300264410 / job 114981202686 failed: analytics journeys passed, authentication/storage/agent-journey verification failed, production-server verification skipped. No runtime failure cause or Product acceptance is inferred.",
+    "Full foreign source snapshots, the local inspection helper and original reviewer checksum list are explicitly described as locally retained in README and manifest. Their three recorded hashes match actual local files; omitted source-inputs.json is not claimed to be publicly included.",
+    "All 21 published files are regular UTF8 text, with no NULs, symlink files/directories, archive, raster, font or binary payload. Eight JSON files parse. Review command stdout contains Brand diff/tree data rather than private conversation or foreign workflow logs.",
+    "Scoped content inspection and credential-pattern checks found no credentials, signed URLs, private keys, customer data or private transcripts. Heuristic scan coverage is limited to this packet and does not certify repository history or third-party rights.",
+    "All identity, rights, font, version, artifact, accessibility/manual/content, consumer and release decisions remain pending. Canonical master and foreign consumer acceptance are not changed by this evidence."
+  ],
+  "publication_scan": {
+    "scope": "all 21 packet files",
+    "high_confidence_patterns": [
+      "private-key headers",
+      "GitHub tokens",
+      "AWS access keys",
+      "Bearer credentials",
+      "JWT-shaped tokens",
+      "quoted secret assignments",
+      "URL userinfo",
+      "sensitive signed/token query parameters"
+    ],
+    "matches": 0,
+    "limitations": "Pattern checks plus scoped content inspection; not proof of rights, complete repository-history sanitization, or platform access control."
+  },
+  "later_observation": {
+    "source": "fresh read-only GitHub PR25 retrieval during this publication audit",
+    "state": "closed",
+    "merged": true,
+    "merged_at": "2026-10-12T20:05:08Z",
+    "merge_commit_sha": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+    "head_unchanged": true,
+    "qualification": "The packet accurately preserves its earlier premerge observations. Actual merge and postmerge verification belong in a separate later record; this audit does not relabel premerge output as postmerge."
+  },
+  "source_test_reruns": false,
+  "source_or_packet_mutations": false,
+  "remote_mutations": false,
+  "provider_calls": false,
+  "written_outputs": "Only this publication audit JSON/Markdown outside the packet.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "a376eb0fb08cee937b167330356b28a13444d918f0b166ddbf351b6aa8834784",
+      "size_bytes": 6894
+    },
+    {
+      "path": "SHA256SUMS",
+      "sha256": "65a287688a69d2614e00510061faeef3cdf91ac4af36e894626e48a2818977d8",
+      "size_bytes": 1920
+    },
+    {
+      "path": "commands/01-python-version.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "commands/01-python-version.stdout.txt",
+      "sha256": "1136b347106711865de4555f802cbe2530f9f9a0802157234e7d833ee0465278",
+      "size_bytes": 61
+    },
+    {
+      "path": "commands/02-asset-library-versions.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "commands/02-asset-library-versions.stdout.txt",
+      "sha256": "2f7d8fb241806bafa02061ab5f4a89f68983ef3cf6f7cf8d1f374706c4e725e4",
+      "size_bytes": 67
+    },
+    {
+      "path": "commands/03-diff-check.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "commands/03-diff-check.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "commands/04-affected-documentation-checks.stderr.txt",
+      "sha256": "921ed0fd4ac4dd80c9a3997e921c4e10d2985fb8fd19a6657de0df907c1dc79a",
+      "size_bytes": 123
+    },
+    {
+      "path": "commands/04-affected-documentation-checks.stdout.txt",
+      "sha256": "19aa2910f80025ab34b3794c72eacc84a7200f93e37efa823c64ae0e542ae590",
+      "size_bytes": 19850
+    },
+    {
+      "path": "commands/changed-source.diff",
+      "sha256": "fd5b82942043c1d854b1b1c232f09bec6b9e52ccf009ad55d0ce4283f802887d",
+      "size_bytes": 18308
+    },
+    {
+      "path": "commands/execution.json",
+      "sha256": "d0b6c7ba0ae269638e579abab4748e1a497fff28147b2e73ec099a5e51e532b0",
+      "size_bytes": 6813
+    },
+    {
+      "path": "commands/source-tree.json",
+      "sha256": "40d631b3bb677e399def606017c89abb541c75511ffd65dd706be6737795428e",
+      "size_bytes": 16025
+    },
+    {
+      "path": "github-observations.json",
+      "sha256": "38a37b2c72283fabd220e084ca6c48b64da59a760c08d45f188fae472400c53c",
+      "size_bytes": 11713
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "8a449a69db35e2bb5610ffa145b23802881a94921fe124b6e11de23a110cf35c",
+      "size_bytes": 6556
+    },
+    {
+      "path": "review/commands.json",
+      "sha256": "86676a5529ad289cdc7a25f2510b13573015b632809ca319d1fbf2cea53ee134",
+      "size_bytes": 50861
+    },
+    {
+      "path": "review/inspection.json",
+      "sha256": "ad75f68b97cdcf3bff5ada19eb776bce277c996c2b261943a6023e83b597d1c2",
+      "size_bytes": 7759
+    },
+    {
+      "path": "review/prior-aa22-report.json",
+      "sha256": "b230a92935d65b26d6736a927746f04fc5b2d6fbc1c934d717bc6616de8a22aa",
+      "size_bytes": 3893
+    },
+    {
+      "path": "review/review.json",
+      "sha256": "d2de23f07290a1345bd7646d7163c60a17132869e75474bec07fb6ad7fba8569",
+      "size_bytes": 7237
+    },
+    {
+      "path": "review/review.md",
+      "sha256": "d6b8893e4420f24d49e82fed41363fa112d83eb949903790179249e2d76f2f86",
+      "size_bytes": 5647
+    },
+    {
+      "path": "run_verification.py",
+      "sha256": "6d1f20ab7132334a28247fc22906acb45f3be7705d753f96f4c08f2201b5d660",
+      "size_bytes": 7845
+    }
+  ]
+}

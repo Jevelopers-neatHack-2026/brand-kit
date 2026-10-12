@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "review_type": "independent combined evidence publication audit",
+  "reviewer": "/root/acceptance_1956",
+  "reviewed_at_utc": "2026-10-12T20:17:11.510520+00:00",
+  "verdict": "READY for publication",
+  "blocking_findings": [],
+  "scope": "All 63 prepared publication files, 388502 bytes, including unchanged premerge record, actual postmerge execution/review, acceptance-refresh copies, prior publication-audit copies, and late owner-scope supplement.",
+  "independence": "This reviewer authored only the separately attributed acceptance refresh and prior publication audit; it did not author or edit candidate source, source review, execution records, wrapper documentation or assembled packet. This is publication review, not a formal GitHub approval or domain acceptance.",
+  "packet_path": "/dev/shm/brandkit-pr25-1955/publication/evidence/2026-10-12-pr25-integration",
+  "packet_binding": {
+    "main_revision": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+    "reviewed_head": "aa22b3833a7510e1ece215926faab6c6394e5258",
+    "tree": "7fcbfa65fd3423fec10b77d90f7655d2b228e84a",
+    "prior_main": "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+    "root_readme_sha256": "440e1707cb36ae472e0182fec763fea55f47be4b9baa8786465edf6a5907c720",
+    "root_sha256sums_sha256": "8554a74dc5c88337b5c0693deb838ec7e8bdbc238f079f7c18d340b56c478562",
+    "late_observations_sha256": "d90480c2acff2073c2eccc9d0a5ecb177e5ad97ba0175f61f532deb7ac8a549f"
+  },
+  "integrity": {
+    "file_count": 63,
+    "total_bytes": 388502,
+    "top_level_checksum_entries": 62,
+    "top_level_coverage_complete": true,
+    "top_level_all_hashes_match": true,
+    "per_directory_checksums": [
+      {
+        "segment": "premerge",
+        "files": 21,
+        "checksum_entries": 20,
+        "duplicates": false,
+        "coverage_matches": true,
+        "all_entries_pass": true,
+        "mismatches": []
+      },
+      {
+        "segment": "postmerge",
+        "files": 35,
+        "checksum_entries": 34,
+        "duplicates": false,
+        "coverage_matches": true,
+        "all_entries_pass": true,
+        "mismatches": []
+      }
+    ],
+    "original_premerge_files_unchanged": 21,
+    "postmerge_manifest_copies_match_original_hash_size_bytes": 32,
+    "acceptance_refresh_and_premerge_audit_copies_identical": 4,
+    "postmerge_command_stream_hashes_match": 26,
+    "copied_file_transformations": "none",
+    "premerge_postmerge_source_tree_records_identical": true,
+    "actual_git_source_tree_records_match": 117,
+    "actual_git_changed_source_diff_matches": true,
+    "actual_merge_parents_and_tree_match_review": true
+  },
+  "chronology": {
+    "independent_source_reviewer": "/root/pr_1956",
+    "source_review_completed_at_utc": "2026-10-12T20:02:08Z",
+    "actual_other_workflow_merge_at_utc": "2026-10-12T20:05:08Z",
+    "review_publicly_posted_before_merge": false,
+    "root_merge_invoked": false,
+    "actual_postmerge_verification_started_at_utc": "2026-10-12T20:09:09.699052+00:00",
+    "actual_postmerge_verification_finished_at_utc": "2026-10-12T20:09:57.413383+00:00",
+    "postmerge_source_review_completed_at_utc": "2026-10-12T20:11:47.479704+00:00",
+    "interpretation": "Wrapper and postmerge README explicitly distinguish source-review completion from publication, do not claim the merging actor relied on that review, and do not fabricate formal approval. The unchanged premerge open/pending observations remain historical."
+  },
+  "execution_claims_verified": {
+    "command_groups": 13,
+    "exit_zero": 10,
+    "actual_failed_commands_exit_2": [
+      "check-provenance",
+      "package-brand",
+      "check-consumers"
+    ],
+    "failed_outcomes_remain_failed": true,
+    "full_unit_tests": 289,
+    "full_unit_suite_seconds": 38.522,
+    "whole_make_check_seconds": 41.731493,
+    "inventory_entries": 117,
+    "local_links_resolved": 387,
+    "broken_local_links": 0,
+    "external_urls_unchecked": 167,
+    "review_archive_file_count": 25,
+    "review_archive_sha256": "b6dfb695e3ed364517473a69dec53310a841af32771b4cd2360296e21ed04311",
+    "review_file_set_digest": "738026492ee5ce8b9e8b39e04e20e994fd48d6954acfc39621acaaa2bc4963b5",
+    "review_archive_payload_published": false,
+    "release_approved": false,
+    "consumer_adoption_claimed": false,
+    "provider_font_execution_claimed": false,
+    "full_17_target_gate_rerun_claimed": false
+  },
+  "preserved_failures": [
+    "Premerge missing-object diagnostic, exit 128, remains in its original independent review and is not counted as pass.",
+    "Postmerge reviewer evidence-reader failure, exit 1, selecting the first 66-test summary is embedded with original script hash and the 66/12/24/289 summaries. Corrected reader evidence is separate; repository tests were not rerun by that reviewer.",
+    "Actual provenance/package/consumer prerequisites remain failed with exit 2, including 23 uncleared core assets, empty/unreviewed allowlist and missing real version/font/artifact/consumer inputs.",
+    "Product runtime job 114981202686 in run 38300264410 remains failed after successful analytics journeys; authentication/storage/agent-journey failed and production-server verification was skipped. Earlier Product failure remains separately referenced.",
+    "The prior full 17-target gate stays pinned to 41001e1 with 14 passes, three failures and 30 blockers. This actual-main run does not replace or relabel it."
+  ],
+  "owner_scope": {
+    "late_comment_independently_retrieved": true,
+    "comment_url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3#issuecomment-6131820571",
+    "api_url": "https://api.github.com/repos/Jevelopers-neatHack-2026/brand-kit/issues/comments/6131820571",
+    "author": "lmvdz",
+    "created_at": "2026-10-12T20:12:04Z",
+    "updated_at": "2026-10-12T20:12:04Z",
+    "meaning": "Hold PR #3 unmerged until after the neatHack submission to avoid disruption before the deadline, then resume. The late supplement and wrapper accurately record it without implying identity or rights approval.",
+    "previous_refresh_unchanged": true,
+    "post_hold_work": "Remaining unique direction/foil/sound decisions and actual conflicts still need owner-compatible resolution after the hold."
+  },
+  "acceptance_boundary": "Remaining identity, rights, font, version, artifact, manual/accessibility/content, consumer and release inputs stay open. Existing Marketing receiver role is preserved without authority transfer or new deployment prerequisite. Canonical ART-05/EVAL-04 remain planned with no evidence or tested revisions.",
+  "sanitization": {
+    "all_files_regular_utf8_no_nul": true,
+    "json_files_parsed": 16,
+    "symlinks_or_unsafe_payloads_found": false,
+    "credential_pattern_hits": 0,
+    "content_findings": [],
+    "excluded_payloads": [
+      "fonts",
+      "images",
+      "archives",
+      "private transcripts",
+      "customer data",
+      "credentials",
+      "signed URLs",
+      "foreign workflow logs"
+    ],
+    "scope_limit": "Scoped publication-content inspection and heuristic credential patterns; this is not a certification of repository-history sanitization or third-party rights."
+  },
+  "actions_by_this_audit": {
+    "source_tests_rerun": false,
+    "remote_mutations": false,
+    "source_or_packet_mutations": false,
+    "provider_calls": false,
+    "read_only_new_owner_comment_retrieval": true,
+    "written_outputs": "Audit JSON/Markdown and core-integrity record outside the publication packet."
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "440e1707cb36ae472e0182fec763fea55f47be4b9baa8786465edf6a5907c720",
+      "size_bytes": 9253
+    },
+    {
+      "path": "SHA256SUMS",
+      "sha256": "8554a74dc5c88337b5c0693deb838ec7e8bdbc238f079f7c18d340b56c478562",
+      "size_bytes": 6620
+    },
+    {
+      "path": "acceptance-refresh/refresh.json",
+      "sha256": "65a7edbede7ac6c1c8a155a73e88598040a08ef4e4ded83a021e369e084775dd",
+      "size_bytes": 17797
+    },
+    {
+      "path": "acceptance-refresh/refresh.md",
+      "sha256": "64a8d74aa7d02d92240c464df0bfc5c34a87aeee3f603f012a6b1d877ba12768",
+      "size_bytes": 3310
+    },
+    {
+      "path": "late-observations.json",
+      "sha256": "d90480c2acff2073c2eccc9d0a5ecb177e5ad97ba0175f61f532deb7ac8a549f",
+      "size_bytes": 3094
+    },
+    {
+      "path": "postmerge/README.md",
+      "sha256": "1adec8e9995b930564ceea4eb91f5c3987805f4335c10bff1d4e901329df7b77",
+      "size_bytes": 7267
+    },
+    {
+      "path": "postmerge/SHA256SUMS",
+      "sha256": "f5fafafdf08ca6f0988124b7d9a3e87661437951a07256aa8d137494ae559156",
+      "size_bytes": 3440
+    },
+    {
+      "path": "postmerge/commands/01-python-version.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "postmerge/commands/01-python-version.stdout.txt",
+      "sha256": "1136b347106711865de4555f802cbe2530f9f9a0802157234e7d833ee0465278",
+      "size_bytes": 61
+    },
+    {
+      "path": "postmerge/commands/02-asset-library-versions.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "postmerge/commands/02-asset-library-versions.stdout.txt",
+      "sha256": "2f7d8fb241806bafa02061ab5f4a89f68983ef3cf6f7cf8d1f374706c4e725e4",
+      "size_bytes": 67
+    },
+    {
+      "path": "postmerge/commands/03-diff-check.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "postmerge/commands/03-diff-check.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "postmerge/commands/04-inkscape-version.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "postmerge/commands/04-inkscape-version.stdout.txt",
+      "sha256": "09f993f834813212b64386a0e119d9c28b877e64c59d4e6dd0b58a3e60d52070",
+      "size_bytes": 40
+    },
+    {
+      "path": "postmerge/commands/05-node-version.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "postmerge/commands/05-node-version.stdout.txt",
+      "sha256": "b7677d3ec37ee1897ba07dc2cfe8292fe421c9ac93396cca5bbece486d1a2a41",
+      "size_bytes": 9
+    },
+    {
+      "path": "postmerge/commands/06-npm-version.stderr.txt",
+      "sha256": "7125f194612fcff2f454c05d848e7cb71facc1967b4d5017e25b34fdee3ba74f",
+      "size_bytes": 99
+    },
+    {
+      "path": "postmerge/commands/06-npm-version.stdout.txt",
+      "sha256": "d9f29f5aab43c8c1a8d6acc856e258b89735f541aa5e1f07b39a62f28bfa8d06",
+      "size_bytes": 7
+    },
+    {
+      "path": "postmerge/commands/07-make-check.stderr.txt",
+      "sha256": "72da6c3660718d3b4fb2af3e381a8b2ca0e7c700161f68670834147c2107acaf",
+      "size_bytes": 35178
+    },
+    {
+      "path": "postmerge/commands/07-make-check.stdout.txt",
+      "sha256": "94201d039c2dc7c88b23f2ddbaaf3eb4c6994cc7de27c16c736f14d49a3687b8",
+      "size_bytes": 21446
+    },
+    {
+      "path": "postmerge/commands/08-check-package.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "postmerge/commands/08-check-package.stdout.txt",
+      "sha256": "316d86d4b82a1c88da8cb8409aa6260a914b0d10c08429094139fd76bfbc4bba",
+      "size_bytes": 492
+    },
+    {
+      "path": "postmerge/commands/09-install-pinned-tailwind-offline.stderr.txt",
+      "sha256": "7125f194612fcff2f454c05d848e7cb71facc1967b4d5017e25b34fdee3ba74f",
+      "size_bytes": 99
+    },
+    {
+      "path": "postmerge/commands/09-install-pinned-tailwind-offline.stdout.txt",
+      "sha256": "9434a4abd3ced28587e4786f90f26d581681989bf789ff0ca807082bbaae1838",
+      "size_bytes": 28
+    },
+    {
+      "path": "postmerge/commands/10-check-consumers-local.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "postmerge/commands/10-check-consumers-local.stdout.txt",
+      "sha256": "891fac844d541ab637bd7ec9d4cde91791f749f8cfd08ebacae4b2fca5d989b9",
+      "size_bytes": 2510
+    },
+    {
+      "path": "postmerge/commands/11-check-provenance.stderr.txt",
+      "sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748",
+      "size_bytes": 50
+    },
+    {
+      "path": "postmerge/commands/11-check-provenance.stdout.txt",
+      "sha256": "58e836815eaf7fcb89cfe40026b56fdd56ac143644dd040646722e3c6abb59fe",
+      "size_bytes": 679
+    },
+    {
+      "path": "postmerge/commands/12-package-brand.stderr.txt",
+      "sha256": "71e89083a078a0bf21890172988d4e41be2e94bd1a107f2ee5a610b26082839d",
+      "size_bytes": 47
+    },
+    {
+      "path": "postmerge/commands/12-package-brand.stdout.txt",
+      "sha256": "04efdb028451348d9f0ba579730844a060db752bc0ec362ef0efc61108e40168",
+      "size_bytes": 205
+    },
+    {
+      "path": "postmerge/commands/13-check-consumers.stderr.txt",
+      "sha256": "0c081ca0951218d833ad2144a1c2d89211fe6336f0630bb6d988107976581cd0",
+      "size_bytes": 49
+    },
+    {
+      "path": "postmerge/commands/13-check-consumers.stdout.txt",
+      "sha256": "6514c736f92a0c0bd12cd52db9d6c768ad05966eadf122ba3310b3e8f57543e8",
+      "size_bytes": 2683
+    },
+    {
+      "path": "postmerge/commands/changed-source.diff",
+      "sha256": "fd5b82942043c1d854b1b1c232f09bec6b9e52ccf009ad55d0ce4283f802887d",
+      "size_bytes": 18308
+    },
+    {
+      "path": "postmerge/commands/execution.json",
+      "sha256": "ffa4f6729002ca0720717e440c155e37c8a3f85c1e1de4e721b79b8ce09fb5d0",
+      "size_bytes": 14224
+    },
+    {
+      "path": "postmerge/commands/source-tree.json",
+      "sha256": "40d631b3bb677e399def606017c89abb541c75511ffd65dd706be6737795428e",
+      "size_bytes": 16025
+    },
+    {
+      "path": "postmerge/github-observations.json",
+      "sha256": "b821052d3762d19d29d1447e7d4cf94f871d47d66999e40897dfbc6fc5d98e65",
+      "size_bytes": 2287
+    },
+    {
+      "path": "postmerge/manifest.json",
+      "sha256": "2bdda0ffad852ae13f2fe2ee45db5ffbd8a6d312979429275c872373f395e6c1",
+      "size_bytes": 9982
+    },
+    {
+      "path": "postmerge/review/review.json",
+      "sha256": "c46437ebe6c28d171df7b66e611b9508f44dd61eece13e410c2d74f84d7ebfc3",
+      "size_bytes": 24602
+    },
+    {
+      "path": "postmerge/review/review.md",
+      "sha256": "2b6ca6caf4d01e03182f3efc7b0dd5516e1c7a8940d6c77629de45e46ee20cb4",
+      "size_bytes": 4869
+    },
+    {
+      "path": "premerge/README.md",
+      "sha256": "a376eb0fb08cee937b167330356b28a13444d918f0b166ddbf351b6aa8834784",
+      "size_bytes": 6894
+    },
+    {
+      "path": "premerge/SHA256SUMS",
+      "sha256": "65a287688a69d2614e00510061faeef3cdf91ac4af36e894626e48a2818977d8",
+      "size_bytes": 1920
+    },
+    {
+      "path": "premerge/commands/01-python-version.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "premerge/commands/01-python-version.stdout.txt",
+      "sha256": "1136b347106711865de4555f802cbe2530f9f9a0802157234e7d833ee0465278",
+      "size_bytes": 61
+    },
+    {
+      "path": "premerge/commands/02-asset-library-versions.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "premerge/commands/02-asset-library-versions.stdout.txt",
+      "sha256": "2f7d8fb241806bafa02061ab5f4a89f68983ef3cf6f7cf8d1f374706c4e725e4",
+      "size_bytes": 67
+    },
+    {
+      "path": "premerge/commands/03-diff-check.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "premerge/commands/03-diff-check.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "premerge/commands/04-affected-documentation-checks.stderr.txt",
+      "sha256": "921ed0fd4ac4dd80c9a3997e921c4e10d2985fb8fd19a6657de0df907c1dc79a",
+      "size_bytes": 123
+    },
+    {
+      "path": "premerge/commands/04-affected-documentation-checks.stdout.txt",
+      "sha256": "19aa2910f80025ab34b3794c72eacc84a7200f93e37efa823c64ae0e542ae590",
+      "size_bytes": 19850
+    },
+    {
+      "path": "premerge/commands/changed-source.diff",
+      "sha256": "fd5b82942043c1d854b1b1c232f09bec6b9e52ccf009ad55d0ce4283f802887d",
+      "size_bytes": 18308
+    },
+    {
+      "path": "premerge/commands/execution.json",
+      "sha256": "d0b6c7ba0ae269638e579abab4748e1a497fff28147b2e73ec099a5e51e532b0",
+      "size_bytes": 6813
+    },
+    {
+      "path": "premerge/commands/source-tree.json",
+      "sha256": "40d631b3bb677e399def606017c89abb541c75511ffd65dd706be6737795428e",
+      "size_bytes": 16025
+    },
+    {
+      "path": "premerge/github-observations.json",
+      "sha256": "38a37b2c72283fabd220e084ca6c48b64da59a760c08d45f188fae472400c53c",
+      "size_bytes": 11713
+    },
+    {
+      "path": "premerge/manifest.json",
+      "sha256": "8a449a69db35e2bb5610ffa145b23802881a94921fe124b6e11de23a110cf35c",
+      "size_bytes": 6556
+    },
+    {
+      "path": "premerge/review/commands.json",
+      "sha256": "86676a5529ad289cdc7a25f2510b13573015b632809ca319d1fbf2cea53ee134",
+      "size_bytes": 50861
+    },
+    {
+      "path": "premerge/review/inspection.json",
+      "sha256": "ad75f68b97cdcf3bff5ada19eb776bce277c996c2b261943a6023e83b597d1c2",
+      "size_bytes": 7759
+    },
+    {
+      "path": "premerge/review/prior-aa22-report.json",
+      "sha256": "b230a92935d65b26d6736a927746f04fc5b2d6fbc1c934d717bc6616de8a22aa",
+      "size_bytes": 3893
+    },
+    {
+      "path": "premerge/review/review.json",
+      "sha256": "d2de23f07290a1345bd7646d7163c60a17132869e75474bec07fb6ad7fba8569",
+      "size_bytes": 7237
+    },
+    {
+      "path": "premerge/review/review.md",
+      "sha256": "d6b8893e4420f24d49e82fed41363fa112d83eb949903790179249e2d76f2f86",
+      "size_bytes": 5647
+    },
+    {
+      "path": "premerge/run_verification.py",
+      "sha256": "6d1f20ab7132334a28247fc22906acb45f3be7705d753f96f4c08f2201b5d660",
+      "size_bytes": 7845
+    },
+    {
+      "path": "publication-review/premerge/audit.json",
+      "sha256": "d0eaff898269914b9ac610e80806615eca4923d4cd70aa8bbafa5d1d4eff8112",
+      "size_bytes": 9182
+    },
+    {
+      "path": "publication-review/premerge/audit.md",
+      "sha256": "0e42536afe9c220d43f03cbf2d7b4acad1b633db72110809b31b47cbbbe6041d",
+      "size_bytes": 2921
+    }
+  ]
+}

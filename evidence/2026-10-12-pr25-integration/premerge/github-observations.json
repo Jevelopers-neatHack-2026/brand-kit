@@ -1,0 +1,270 @@
+{
+  "observed_at_utc": "2026-10-12 20:01:06 UTC",
+  "source": "fresh read-only GitHub API retrieval",
+  "items": [
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/pull/117",
+      "state": "closed",
+      "merged": true,
+      "merged_at": "2026-10-12T19:54:14Z",
+      "merge_commit_sha": "aec83af65ee75be80246d88782c8f8ce00a10c31",
+      "head": "bc973b536f12d93f3ec20501d926dcc5e634190f",
+      "base": "01c65ae2290447c523823bf4601d6373ce4c6ca2",
+      "updated_at": "2026-10-12T19:54:16Z"
+    },
+    {
+      "url": "https://api.github.com/repos/Jevelopers-neatHack-2026/getticketstub.com/actions/runs/38300264410/jobs",
+      "total_count": 1,
+      "jobs": [
+        {
+          "id": 114981202686,
+          "html_url": "https://github.com/Jevelopers-neatHack-2026/getticketstub.com/actions/runs/38300264410/job/114981202686",
+          "head_sha": "bc973b536f12d93f3ec20501d926dcc5e634190f",
+          "status": "completed",
+          "conclusion": "failure",
+          "started_at": "2026-10-12T19:52:48Z",
+          "completed_at": "2026-10-12T19:57:46Z",
+          "steps": [
+            {
+              "number": 1,
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-10-12T19:52:49Z",
+              "completed_at": "2026-10-12T19:52:50Z"
+            },
+            {
+              "number": 2,
+              "name": "Run actions/checkout@v4",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-10-12T19:52:50Z",
+              "completed_at": "2026-10-12T19:52:51Z"
+            },
+            {
+              "number": 3,
+              "name": "Run actions/setup-node@v4",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-10-12T19:52:51Z",
+              "completed_at": "2026-10-12T19:52:53Z"
+            },
+            {
+              "number": 4,
+              "name": "Select pinned npm",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-10-12T19:52:53Z",
+              "completed_at": "2026-10-12T19:52:55Z"
+            },
+            {
+              "number": 5,
+              "name": "Run npm ci",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-10-12T19:52:55Z",
+              "completed_at": "2026-10-12T19:53:06Z"
+            },
+            {
+              "number": 6,
+              "name": "Run npm run lint",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-10-12T19:53:06Z",
+              "completed_at": "2026-10-12T19:53:27Z"
+            },
+            {
+              "number": 7,
+              "name": "Run npm test",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-10-12T19:53:27Z",
+              "completed_at": "2026-10-12T19:53:49Z"
+            },
+            {
+              "number": 8,
+              "name": "Run npm run typecheck",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-10-12T19:53:49Z",
+              "completed_at": "2026-10-12T19:53:57Z"
+            },
+            {
+              "number": 9,
+              "name": "Run npm run build",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-10-12T19:53:57Z",
+              "completed_at": "2026-10-12T19:54:15Z"
+            },
+            {
+              "number": 10,
+              "name": "Verify analytics consent and page-view ordering in Chrome (offline, synthetic ID)",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-10-12T19:54:15Z",
+              "completed_at": "2026-10-12T19:54:46Z"
+            },
+            {
+              "number": 11,
+              "name": "Verify analytics customer journeys in Chrome (offline, synthetic ID, phone and desktop)",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-10-12T19:54:46Z",
+              "completed_at": "2026-10-12T19:57:38Z"
+            },
+            {
+              "number": 12,
+              "name": "Verify authentication, storage fixtures and the agent journey (Chrome, offline)",
+              "status": "completed",
+              "conclusion": "failure",
+              "started_at": "2026-10-12T19:57:38Z",
+              "completed_at": "2026-10-12T19:57:43Z"
+            },
+            {
+              "number": 13,
+              "name": "Verify production server on platform port",
+              "status": "completed",
+              "conclusion": "skipped",
+              "started_at": "2026-10-12T19:57:43Z",
+              "completed_at": "2026-10-12T19:57:43Z"
+            },
+            {
+              "number": 14,
+              "name": "Retain product verification evidence",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-10-12T19:57:43Z",
+              "completed_at": "2026-10-12T19:57:45Z"
+            },
+            {
+              "number": 27,
+              "name": "Post Run actions/setup-node@v4",
+              "status": "completed",
+              "conclusion": "skipped",
+              "started_at": "2026-10-12T19:57:45Z",
+              "completed_at": "2026-10-12T19:57:45Z"
+            },
+            {
+              "number": 28,
+              "name": "Post Run actions/checkout@v4",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-10-12T19:57:45Z",
+              "completed_at": "2026-10-12T19:57:45Z"
+            },
+            {
+              "number": 29,
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2026-10-12T19:57:45Z",
+              "completed_at": "2026-10-12T19:57:45Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://api.github.com/repos/Jevelopers-neatHack-2026/getticketstub.com/contents/docs/architecture/CURRENT-STATE.md?ref=aec83af65ee75be80246d88782c8f8ce00a10c31",
+      "result": "retrieved",
+      "sha256": "e7d05bc9827b0a7aa9daeee1a2021692b2c683550b9000e070f5234876f11f29",
+      "git_blob_sha1": "31d199072287b80237a9b7c65deed2c434a188de",
+      "size_bytes": 18430,
+      "headings": [
+        "# Current architecture and integration state",
+        "## Runtime present in getticketstub.com",
+        "### Identity, persistence, and provider boundaries",
+        "## Cross-repository integration state",
+        "### Separately accepted Neatlogs evidence",
+        "## How to read status and evidence"
+      ]
+    },
+    {
+      "url": "https://api.github.com/repos/Jevelopers-neatHack-2026/getticketstub.com/contents/docs/architecture/CURRENT-STATE.md?ref=main",
+      "result": "retrieved",
+      "sha256": "e7d05bc9827b0a7aa9daeee1a2021692b2c683550b9000e070f5234876f11f29",
+      "git_blob_sha1": "31d199072287b80237a9b7c65deed2c434a188de",
+      "size_bytes": 18430,
+      "headings": [
+        "# Current architecture and integration state",
+        "## Runtime present in getticketstub.com",
+        "### Identity, persistence, and provider boundaries",
+        "## Cross-repository integration state",
+        "### Separately accepted Neatlogs evidence",
+        "## How to read status and evidence"
+      ]
+    },
+    {
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit",
+      "visibility": "public",
+      "default_branch": "main",
+      "permissions": {
+        "admin": true,
+        "maintain": true,
+        "push": true,
+        "triage": true,
+        "pull": true
+      },
+      "allow_merge_commit": true,
+      "allow_squash_merge": true,
+      "allow_rebase_merge": true,
+      "archived": false
+    }
+  ],
+  "policy": {
+    "source_revision": "c9b08a1c2a7e3e1e0f49051fce0be0603d3e138c",
+    "documents": [
+      {
+        "path": "CONTRIBUTING.md",
+        "sha256": "07ad4e62cedf572e4d552c688afa10955638048ffa6bbba37586bab98020bb71",
+        "url": "https://github.com/Jevelopers-neatHack-2026/.github/blob/c9b08a1c2a7e3e1e0f49051fce0be0603d3e138c/CONTRIBUTING.md"
+      },
+      {
+        "path": "standards/contribution-workflow.md",
+        "sha256": "0d7b06d937966640f9341f6b170142c20b77ff4093becc89eb567fb1a46cf2e7",
+        "url": "https://github.com/Jevelopers-neatHack-2026/.github/blob/c9b08a1c2a7e3e1e0f49051fce0be0603d3e138c/standards/contribution-workflow.md"
+      },
+      {
+        "path": "standards/governance-lifecycle.md",
+        "sha256": "13ff85cc2455154846336169f6be529212205878332b4e17edc2e9d0abab614c",
+        "url": "https://github.com/Jevelopers-neatHack-2026/.github/blob/c9b08a1c2a7e3e1e0f49051fce0be0603d3e138c/standards/governance-lifecycle.md"
+      },
+      {
+        "path": ".github/pull_request_template.md",
+        "sha256": "37c39cc0d21f4c253b96e804205ef7a4ebb15233d3e039a246a2aa72aec06c14",
+        "url": "https://github.com/Jevelopers-neatHack-2026/.github/blob/c9b08a1c2a7e3e1e0f49051fce0be0603d3e138c/.github/pull_request_template.md"
+      },
+      {
+        "path": "standards/security-secret-handling.md",
+        "sha256": "60f64b9351c39d2ebf039d993ae811092b7b6e5e69798092f347e4f644982138",
+        "url": "https://github.com/Jevelopers-neatHack-2026/.github/blob/c9b08a1c2a7e3e1e0f49051fce0be0603d3e138c/standards/security-secret-handling.md"
+      }
+    ],
+    "brand_local_rule": "Documentation-only: any one reviewer other than the author; approver informed. Brand docs/brand-governance.md at exact aa22.",
+    "adoption_boundary": "Central model routing, CODEOWNERS and workflow source are not automatically installed in Brand."
+  },
+  "brand_owner_scope": {
+    "pr": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/25",
+    "head": "aa22b3833a7510e1ece215926faab6c6394e5258",
+    "body_updated_at": "2026-10-12T19:51:45Z",
+    "review_route": "Owner now explicitly excludes the central model-profile gate and retains applicable independent current-candidate review.",
+    "body_sha256": "6a3b0701f5c8ffad037315145f2fe9ed873ba861ee4c13e375b18cf311636d7a"
+  },
+  "foreign_acceptance": {
+    "observed_at_utc": "2026-10-12T19:58:00Z",
+    "integration_evals_main": "7b44ab9ab8b779102a26db9d1932ba1d43404fb1",
+    "shared_contracts_main": "532e455377ad368f3632d915027e6c89ce45cdd6",
+    "product_main": "aec83af65ee75be80246d88782c8f8ce00a10c31",
+    "dashboard_main": "7d861af7dd655d97c6cf8c90a9c87cf34e6e8a86",
+    "landing_main": "dda1b5d48e71ed9c111b82111676b7ef033fe5ef",
+    "marketing_main": "79ae21607eb4d98188f85ce3c42b8be6eb5688bc",
+    "findings": "Independent read-only acceptance refresh /root/acceptance_1956 found all scoped Brand and consumer decisions unchanged; master checklist files unchanged; no Brand-relevant contract/schema or Dashboard token change.",
+    "source_links": [
+      "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/5#issuecomment-6130613696",
+      "https://github.com/Jevelopers-neatHack-2026/integration-evals/blob/7b44ab9ab8b779102a26db9d1932ba1d43404fb1/planning/acceptance-checklist.json",
+      "https://github.com/Jevelopers-neatHack-2026/team-dashboard/compare/d65a1540296cf44bc88bf4910b8a8bb07abd248d...7d861af7dd655d97c6cf8c90a9c87cf34e6e8a86"
+    ]
+  },
+  "publication_boundary": "Curated metadata, command identities and public-source hashes only. No full foreign source, private transcript, workflow log, font, raster or archive copied."
+}

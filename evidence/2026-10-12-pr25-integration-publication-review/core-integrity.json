@@ -1,0 +1,149 @@
+{
+  "directory_checksums": [
+    {
+      "segment": "premerge",
+      "files": 21,
+      "checksum_entries": 20,
+      "duplicates": false,
+      "coverage_matches": true,
+      "all_entries_pass": true,
+      "mismatches": []
+    },
+    {
+      "segment": "postmerge",
+      "files": 35,
+      "checksum_entries": 34,
+      "duplicates": false,
+      "coverage_matches": true,
+      "all_entries_pass": true,
+      "mismatches": []
+    }
+  ],
+  "original_premerge_files": 21,
+  "premerge_all_unchanged": true,
+  "premerge_mismatches": [],
+  "postmerge_copied_files": 32,
+  "copies_all_match": true,
+  "copy_mismatches": [],
+  "auxiliary_copies": [
+    {
+      "path": "acceptance-refresh/refresh.json",
+      "byte_identical": true,
+      "sha256": "65a7edbede7ac6c1c8a155a73e88598040a08ef4e4ded83a021e369e084775dd"
+    },
+    {
+      "path": "acceptance-refresh/refresh.md",
+      "byte_identical": true,
+      "sha256": "64a8d74aa7d02d92240c464df0bfc5c34a87aeee3f603f012a6b1d877ba12768"
+    },
+    {
+      "path": "publication-review/premerge/audit.json",
+      "byte_identical": true,
+      "sha256": "d0eaff898269914b9ac610e80806615eca4923d4cd70aa8bbafa5d1d4eff8112"
+    },
+    {
+      "path": "publication-review/premerge/audit.md",
+      "byte_identical": true,
+      "sha256": "0e42536afe9c220d43f03cbf2d7b4acad1b633db72110809b31b47cbbbe6041d"
+    }
+  ],
+  "postmerge_streams": 26,
+  "streams_all_match": true,
+  "scan": {
+    "file_count_at_scan": 63,
+    "total_bytes_at_scan": 388502,
+    "utf8_failures": [],
+    "nonregular_or_symlink_files": [],
+    "json_file_count": 16,
+    "sensitive_pattern_hits": [],
+    "patterns": [
+      "private_key",
+      "github_token",
+      "aws_key",
+      "bearer",
+      "jwt",
+      "secret_assignment",
+      "url_credentials",
+      "sensitive_url_query"
+    ]
+  },
+  "source_binding": {
+    "head": "f34c71a0961dc0c67f1ecb293a5bbb633addb663",
+    "tree": "7fcbfa65fd3423fec10b77d90f7655d2b228e84a",
+    "parents": [
+      "e254df5444f0bfedd5526b0e148b0cdf36cbd31f",
+      "aa22b3833a7510e1ece215926faab6c6394e5258"
+    ],
+    "matches_report": true,
+    "source_tree_matches": true,
+    "source_diff_matches": true,
+    "premerge_postmerge_source_tree_same": true,
+    "clean_checkout": true
+  },
+  "execution_outcomes": {
+    "command_groups": 13,
+    "exit_zero": 10,
+    "failed_exit_two": [
+      "check-provenance",
+      "package-brand",
+      "check-consumers"
+    ],
+    "release_approved": false,
+    "master_acceptance_changed": false,
+    "unit_summaries": [
+      [
+        "66",
+        "1.667"
+      ],
+      [
+        "12",
+        "0.096"
+      ],
+      [
+        "24",
+        "0.505"
+      ],
+      [
+        "289",
+        "38.522"
+      ]
+    ],
+    "final_unit_summary_matches": true
+  },
+  "prior_review_audit_failure": {
+    "reviewer": "/root/pr_1956",
+    "kind": "review audit parser failure, not a repository test failure",
+    "command": [
+      "python",
+      "/dev/shm/brandkit-pr25-1955/postmerge-review/verify.py"
+    ],
+    "exit_code": 1,
+    "script_sha256": "4288c099255ea009e79087bbe5a786b5de3c0806a481ec0df2b57146e07891b6",
+    "error": "AssertionError: assert match and match.group(1) == 289",
+    "cause": "The initial parser selected the first unittest summary instead of the final full-suite summary.",
+    "observed_summaries": [
+      [
+        "66",
+        "1.667"
+      ],
+      [
+        "12",
+        "0.096"
+      ],
+      [
+        "24",
+        "0.505"
+      ],
+      [
+        "289",
+        "38.522"
+      ]
+    ],
+    "counted_as_pass": false
+  },
+  "audit_recovery": {
+    "status": "passed",
+    "corrected_script_sha256": "1fdfa8678aad113723ad6c8dc986775db9975c80c5fda25aa8f914bb95a56b37",
+    "correction": "Anchor the summary parser to the final full-suite OK record; retain earlier 66/12/24 subset summaries and the failed first audit. This changes only the evidence reader, not source or test results."
+  }
+}
