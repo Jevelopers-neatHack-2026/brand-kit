@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "source_sha": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+  "files": [
+    {
+      "path": "verification/check.stderr.txt",
+      "bytes": 34206,
+      "sha256": "a87797012036cd5021649dcbde240e3f65c7dd26acd803c2614c976769154a85",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/check.stderr.txt"
+    },
+    {
+      "path": "verification/check.stdout.txt",
+      "bytes": 20499,
+      "sha256": "f5c7459dc6e5da017fc96ef6def8145b97fb1f8aaf8e0d28343e85bfd853b892",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/check.stdout.txt"
+    },
+    {
+      "path": "verification/clean.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/clean.stderr.txt"
+    },
+    {
+      "path": "verification/clean.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/clean.stdout.txt"
+    },
+    {
+      "path": "verification/consumer-acceptance-blocked.stderr.txt",
+      "bytes": 49,
+      "sha256": "0c081ca0951218d833ad2144a1c2d89211fe6336f0630bb6d988107976581cd0",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/consumer-acceptance-blocked.stderr.txt"
+    },
+    {
+      "path": "verification/consumer-acceptance-blocked.stdout.txt",
+      "bytes": 2677,
+      "sha256": "947e807fbad64cfa6729ab07c826886da0a49a8dff7476b134d97719cdaa8ae8",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/consumer-acceptance-blocked.stdout.txt"
+    },
+    {
+      "path": "verification/consumer-local.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/consumer-local.stderr.txt"
+    },
+    {
+      "path": "verification/consumer-local.stdout.txt",
+      "bytes": 2504,
+      "sha256": "91a92a462e5eb913a028158a71716a1f4798290162265e9978c7a76bc730090a",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/consumer-local.stdout.txt"
+    },
+    {
+      "path": "verification/diff.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/diff.stderr.txt"
+    },
+    {
+      "path": "verification/diff.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/diff.stdout.txt"
+    },
+    {
+      "path": "verification/owner-head-equality.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/owner-head-equality.stderr.txt"
+    },
+    {
+      "path": "verification/owner-head-equality.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/owner-head-equality.stdout.txt"
+    },
+    {
+      "path": "verification/package.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/package.stderr.txt"
+    },
+    {
+      "path": "verification/package.stdout.txt",
+      "bytes": 486,
+      "sha256": "2b8de56d4879a9c1e327e53db77924148b34085cce32fb77b1fa9fc852160ae1",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/package.stdout.txt"
+    },
+    {
+      "path": "verification/production-package-blocked.stderr.txt",
+      "bytes": 47,
+      "sha256": "71e89083a078a0bf21890172988d4e41be2e94bd1a107f2ee5a610b26082839d",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/production-package-blocked.stderr.txt"
+    },
+    {
+      "path": "verification/production-package-blocked.stdout.txt",
+      "bytes": 199,
+      "sha256": "ae29f6caabe23faedb1a84584af21104a48b5df7fb8617ae00b29a7f13cd818b",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/production-package-blocked.stdout.txt"
+    },
+    {
+      "path": "verification/provenance-blocked.stderr.txt",
+      "bytes": 50,
+      "sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/provenance-blocked.stderr.txt"
+    },
+    {
+      "path": "verification/provenance-blocked.stdout.txt",
+      "bytes": 673,
+      "sha256": "725d12624c694d5d3db67370e1b2d84c466b36d7667f2987fc4156a4c4cf7dde",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/provenance-blocked.stdout.txt"
+    },
+    {
+      "path": "verification/report.json",
+      "bytes": 7632,
+      "sha256": "27c129c3d51fff53b7063a59a7cfc7ee4a8eb39e834d16321f53f07f2893ca02",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-a664cc9/report.json"
+    },
+    {
+      "path": "review/commands.json",
+      "bytes": 5791,
+      "sha256": "6cc0b272989ca037ed53dd270ca3115b7cecd0c4cd102f59706978f06b54fdd4",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/commands.json"
+    },
+    {
+      "path": "review/diff-check.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/diff-check.stderr"
+    },
+    {
+      "path": "review/diff-check.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/diff-check.stdout"
+    },
+    {
+      "path": "review/governance.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/governance.stderr"
+    },
+    {
+      "path": "review/governance.stdout",
+      "bytes": 107,
+      "sha256": "24719e864e86e498ce68b4605498b5b6d5aed93ffd719a9e25a6e374b936ca12",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/governance.stdout"
+    },
+    {
+      "path": "review/guidelines.stderr",
+      "bytes": 123,
+      "sha256": "edaed8282dacfdc71d77b119e607f4a23ed4c3e185da544a589ee1c00b3e23b3",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/guidelines.stderr"
+    },
+    {
+      "path": "review/guidelines.stdout",
+      "bytes": 416,
+      "sha256": "688960e3a797958de00cbe255e1b7a80a64b7a8ad7ea4b5cd62645bffa2f44eb",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/guidelines.stdout"
+    },
+    {
+      "path": "review/inventory.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/inventory.stderr"
+    },
+    {
+      "path": "review/inventory.stdout",
+      "bytes": 142,
+      "sha256": "2b9cf110fcfb0e6ea7c3bee3401e33e02708e220aed4c8b35adee256103ecf67",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/inventory.stdout"
+    },
+    {
+      "path": "review/links.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/links.stderr"
+    },
+    {
+      "path": "review/links.stdout",
+      "bytes": 18274,
+      "sha256": "e721dfaf5737a7c244ab45b3b1dcf66fcf5f5fe481f4f5978c138b727c4f9b6b",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/links.stdout"
+    },
+    {
+      "path": "review/merged-tree-parity.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/merged-tree-parity.stderr"
+    },
+    {
+      "path": "review/merged-tree-parity.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/merged-tree-parity.stdout"
+    },
+    {
+      "path": "review/postmerge-review.json",
+      "bytes": 14240,
+      "sha256": "0a6eec402b6aaa78f6cc1f6d3e0ac14a92ad0bebe3c5dd486068d653e27c7d90",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/postmerge-review.json"
+    },
+    {
+      "path": "review/readme-shell-1.sh",
+      "bytes": 264,
+      "sha256": "deb6b02f1cbd1488bfafae10b098ff23399f4bd19ed44976c3c03d27f2ecb5f7",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/readme-shell-1.sh"
+    },
+    {
+      "path": "review/readme-shell-1.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/readme-shell-1.stderr"
+    },
+    {
+      "path": "review/readme-shell-1.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/readme-shell-1.stdout"
+    },
+    {
+      "path": "review/readme-shell-2.sh",
+      "bytes": 117,
+      "sha256": "3bb7c09cfc2e2464a900bde265575dc29be3f52adb5a02a891e695ad0b62e004",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/readme-shell-2.sh"
+    },
+    {
+      "path": "review/readme-shell-2.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/readme-shell-2.stderr"
+    },
+    {
+      "path": "review/readme-shell-2.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/readme-shell-2.stdout"
+    },
+    {
+      "path": "review/review.json",
+      "bytes": 10617,
+      "sha256": "b1e344c65ce1a8d44563382ba26976f44c2d9db4a2901048e731b8c55eb8f60f",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/review.json"
+    },
+    {
+      "path": "review/source-proof.json",
+      "bytes": 2395,
+      "sha256": "ab9b6963075cdb2cff1e8da9c3507a07ae1d1e632b612cb10db0c00873f34fe0",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/source-proof.json"
+    },
+    {
+      "path": "github-state.json",
+      "bytes": 2634,
+      "sha256": "c3a34ba210243183f42ec7c13eebcb08ff9eba35920a7abb62703344c41467c6",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/final-main-github-state.json"
+    },
+    {
+      "path": "prior-packet-publication-review.json",
+      "bytes": 4445,
+      "sha256": "793d6f51482478c8614481b5e8d7053bfa927db293800ef2bf7aec01abfb8729",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-packet-review-v3.json"
+    },
+    {
+      "path": "unused-local-proposal/validation.json",
+      "bytes": 23069,
+      "sha256": "d35d9d3150c445d8b0e5caf058e93dfb9c235696cc8895213b7242f208ffcc7f",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-followup-validation.json"
+    },
+    {
+      "path": "unused-local-proposal/initial-source-drift.log",
+      "bytes": 636,
+      "sha256": "7c9cbcecf40ad1643ee45e182fd7b1401c922a1da3b291af65141d0886c89c89",
+      "original_local_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-followup-first-guidelines.log"
+    },
+    {
+      "path": "verification/invocation.json",
+      "bytes": 947,
+      "sha256": "0db9a57f9c35a956bfda4f05d6f519a6dd18e9f27443bc6c389cf1154c141391",
+      "original_local_path": null
+    },
+    {
+      "path": "README.md",
+      "bytes": 6768,
+      "sha256": "e9770f3b8107814d68e9e88024d715bb07677c71fb7a891a73df73b5e09410f6",
+      "original_local_path": null
+    }
+  ],
+  "exclusions": [
+    "Full remote issue/comment snapshots, binaries, fonts, ZIPs, screenshots and reference images."
+  ],
+  "source_boundary": "Root checks on actual final M; independent owner-candidate checks and earlier evidence retain their original distinct revisions."
+}

@@ -1,0 +1,20 @@
+{
+  "source_sha": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+  "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-candidate",
+  "environment_overrides": {
+    "PYTHON": "/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python",
+    "PLAYWRIGHT_BROWSERS_PATH": "/tmp/ticketstub-browser-1194"
+  },
+  "mode": "Actual local merged-source commands; synthetic unit and consumer fixtures; no provider execution or acceptance.",
+  "previous_branch_fetch": {
+    "command": "git fetch origin docs/organization-readme-refresh-2026",
+    "exit_code": 128,
+    "result": "Original branch unavailable after owner merged; used git fetch origin main and exact merge SHA. This was a read-only retrieval failure, not a test result."
+  },
+  "postmerge_checkout": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+  "unused_local_proposal": {
+    "sha": "21758e7bf6a9f2a49b1684e4c1675ddae8aa80dc",
+    "published_source": false,
+    "duplicate_pr_created": false
+  }
+}

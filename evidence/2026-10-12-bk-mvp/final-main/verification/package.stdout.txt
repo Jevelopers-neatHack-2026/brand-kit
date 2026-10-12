@@ -1,0 +1,2 @@
+/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python -I tools/build_distribution.py check
+{"archive_sha256": "7f435adb46dc22cd6a19824c35acb69522560dd874c30203f48631461dba91e8", "deterministic": true, "file_count": 25, "files_digest": "bc7cd5a7c7fffe42e8d48059bdebd31b6dc83a24a3ad6d1bf1fc838bc1095dc6", "mode": "offline_review_candidate", "release_approved": false, "source_sha": "a664cc99884b2679f2c6ea15c6c3e8b98b768755", "toolchain": {"python": "3.12.14", "zip": "ZIP_STORED"}}

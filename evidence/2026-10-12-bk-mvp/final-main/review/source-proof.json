@@ -1,0 +1,45 @@
+{
+  "head": "a66440bd273adc62c5345342c9edf7f85164d6c1",
+  "tree": "2ac4a11def0c044639c1b1625311a3281a1daf4b",
+  "merged": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+  "merged_tree": "2ac4a11def0c044639c1b1625311a3281a1daf4b",
+  "base": "6222a745195e9f15a14069e79210ad45daa16c94",
+  "changed_paths": [
+    "README.md",
+    "docs/guidelines-source-snapshot.json"
+  ],
+  "unchanged_tracked_paths": 115,
+  "snapshot_changes": {
+    "README.md": [
+      "b949a4fff170d775028d9c5db2cb6ef2e32ce482708e1f7a2d69b021f5ceabeb",
+      "d73634363f7d3053b5940aaea13ff08682d57e14c9b0d6f93d312d3cb28366d0"
+    ]
+  },
+  "snapshot_other_fields_unchanged": true,
+  "source_hashes": {
+    "README.md": "d73634363f7d3053b5940aaea13ff08682d57e14c9b0d6f93d312d3cb28366d0",
+    "docs/guidelines-source-snapshot.json": "6c48a751d76c9de3a8c31fdf4f13db5ce8515e0e2b3a4a496be54417ec9a3d9f",
+    "Makefile": "7c9355056ebcc30629415ff56854913a748faf47890424ff71582d2696cf9ea9",
+    "tools/assets/requirements.txt": "48392b83c5c0517221ff710a06a11279c3249b77c2b2d0756c72567105299fc6",
+    "tools/assets/toolchain.json": "bda1bd8911080c944c5e2114d2a1d9e507b2fcc25bd736c981cb10860742955b",
+    "tools/tokens-dev/package.json": "8b54114f86505050a78e99d539a5c53ebb91b44333b1b13b8d7dcf8d1d1e5bc8",
+    "tools/browser-dev/package.json": "a6bd1b89da41442895e2da086554cf735943d96dedf1a71fb79cd70cd1595e50",
+    "docs/asset-exports.md": "7a01f22b95783c829a573d7d09e1687cea7236f51d21e620f4e2f89cc17b6836",
+    "docs/brand-governance.md": "c713ffd4eda035da3cd1dca2cfe45b45d9a76bcc59f3b4f694006fb3e9d6f421",
+    "docs/token-profile.md": "0c749f99025460604949bf130e86c899162b5b5ad2bcb05af76d3276462b593d",
+    "docs/distribution.md": "6ce378046aeea4e05ca180882197007890575285d1dc773a1ef7d6687910f82b",
+    "docs/consumers.md": "53723abb67ed5346cbaf88e70085dee301fd2cc727bcc6d396c5408522e8f663",
+    "docs/accessibility.md": "dfdbfd8824b36576f6a1786d3a0bb1f4aff41181369e620fed98a62f68b5ecaa"
+  },
+  "shell_snippets": [
+    {
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/readme-shell-1.sh",
+      "sha256": "deb6b02f1cbd1488bfafae10b098ff23399f4bd19ed44976c3c03d27f2ecb5f7"
+    },
+    {
+      "path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/readme-shell-2.sh",
+      "sha256": "3bb7c09cfc2e2464a900bde265575dc29be3f52adb5a02a891e695ad0b62e004"
+    }
+  ],
+  "worktree_clean": true
+}

@@ -1,0 +1,66 @@
+{
+  "observed_at": "2026-10-12T17:36:06.254Z",
+  "repository": "Jevelopers-neatHack-2026/brand-kit",
+  "main_sha": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+  "pr24": {
+    "number": 24,
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/24",
+    "head": "a66440bd273adc62c5345342c9edf7f85164d6c1",
+    "base": "6222a745195e9f15a14069e79210ad45daa16c94",
+    "merged": true,
+    "merged_at": "2026-10-12T17:31:59Z",
+    "merged_by": "CompleteDotTech",
+    "merge_commit_sha": "a664cc99884b2679f2c6ea15c6c3e8b98b768755"
+  },
+  "pr24_review_observation": {
+    "formal_reviews": 0,
+    "check_runs": 0,
+    "status_contexts": 0,
+    "comments": [
+      {
+        "id": 6128788242,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/24#issuecomment-6128788242",
+        "created_at": "2026-10-12T16:57:39Z",
+        "author": "chatgpt-codex-connector[bot]"
+      },
+      {
+        "id": 6129215372,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/24#issuecomment-6129215372",
+        "created_at": "2026-10-12T17:25:44Z",
+        "author": "CompleteDotTech"
+      },
+      {
+        "id": 6129319113,
+        "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/24#issuecomment-6129319113",
+        "created_at": "2026-10-12T17:32:17Z",
+        "author": "CompleteDotTech"
+      }
+    ],
+    "limit": "Owner PR body describes a separate premerge audit but no independently verifiable receipt is linked in the fetched records. Our review and commands were performed after the owner's merge and are not backdated."
+  },
+  "open_prs": [
+    {
+      "number": 3,
+      "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3",
+      "head": "289b22659f0699649abd65ba7a3b7e710839f4d3",
+      "draft": false
+    }
+  ],
+  "issue6": {
+    "state": "closed",
+    "state_reason": "completed",
+    "closed_at": "2026-10-12T17:30:26Z",
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6#issuecomment-6129290656"
+  },
+  "prior_pr23_evidence": {
+    "source_sha": "6222a745195e9f15a14069e79210ad45daa16c94",
+    "evidence_sha": "ca716e1fd218bd9ecdc49675f92f94520998b3d0",
+    "url": "https://github.com/Jevelopers-neatHack-2026/brand-kit/blob/ca716e1fd218bd9ecdc49675f92f94520998b3d0/evidence/2026-10-12-bk-mvp/postmerge/README.md"
+  },
+  "unused_proposal": {
+    "local_commit": "21758e7bf6a9f2a49b1684e4c1675ddae8aa80dc",
+    "source_published": false,
+    "pr_created": false,
+    "reason": "Owner reconciled PR24 before our final expected-head guard. Existing PR reused; no source branch overwrite or duplicate PR."
+  }
+}

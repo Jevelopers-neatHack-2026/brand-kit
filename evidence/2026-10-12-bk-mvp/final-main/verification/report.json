@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "source_sha": "a664cc99884b2679f2c6ea15c6c3e8b98b768755",
+  "source_tree": "2ac4a11def0c044639c1b1625311a3281a1daf4b",
+  "source_parents": [
+    "6222a745195e9f15a14069e79210ad45daa16c94",
+    "a66440bd273adc62c5345342c9edf7f85164d6c1"
+  ],
+  "owner_pr_head": "a66440bd273adc62c5345342c9edf7f85164d6c1",
+  "mode": "actual local merged-source commands, synthetic unit and consumer fixtures; no provider execution or acceptance",
+  "commands": [
+    {
+      "label": "check",
+      "command": [
+        "make",
+        "check"
+      ],
+      "started_at": "2026-10-12T17:33:40.376187+00:00",
+      "ended_at": "2026-10-12T17:34:54.330190+00:00",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "result": "pass",
+      "expected_outcome_observed": true,
+      "streams": {
+        "stdout": {
+          "path": "check.stdout.txt",
+          "sha256": "f5c7459dc6e5da017fc96ef6def8145b97fb1f8aaf8e0d28343e85bfd853b892"
+        },
+        "stderr": {
+          "path": "check.stderr.txt",
+          "sha256": "a87797012036cd5021649dcbde240e3f65c7dd26acd803c2614c976769154a85"
+        }
+      }
+    },
+    {
+      "label": "package",
+      "command": [
+        "make",
+        "check-package"
+      ],
+      "started_at": "2026-10-12T17:34:54.330529+00:00",
+      "ended_at": "2026-10-12T17:34:55.954802+00:00",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "result": "pass",
+      "expected_outcome_observed": true,
+      "streams": {
+        "stdout": {
+          "path": "package.stdout.txt",
+          "sha256": "2b8de56d4879a9c1e327e53db77924148b34085cce32fb77b1fa9fc852160ae1"
+        },
+        "stderr": {
+          "path": "package.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "label": "consumer-local",
+      "command": [
+        "make",
+        "check-consumers-local"
+      ],
+      "started_at": "2026-10-12T17:34:55.955065+00:00",
+      "ended_at": "2026-10-12T17:34:58.022766+00:00",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "result": "pass",
+      "expected_outcome_observed": true,
+      "streams": {
+        "stdout": {
+          "path": "consumer-local.stdout.txt",
+          "sha256": "91a92a462e5eb913a028158a71716a1f4798290162265e9978c7a76bc730090a"
+        },
+        "stderr": {
+          "path": "consumer-local.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "label": "provenance-blocked",
+      "command": [
+        "make",
+        "check-provenance"
+      ],
+      "started_at": "2026-10-12T17:34:58.023140+00:00",
+      "ended_at": "2026-10-12T17:34:58.097589+00:00",
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "result": "fail",
+      "expected_outcome_observed": true,
+      "streams": {
+        "stdout": {
+          "path": "provenance-blocked.stdout.txt",
+          "sha256": "725d12624c694d5d3db67370e1b2d84c466b36d7667f2987fc4156a4c4cf7dde"
+        },
+        "stderr": {
+          "path": "provenance-blocked.stderr.txt",
+          "sha256": "5d85c0e58c1826e4d0e582e214131699723ed5bf5641eb9d2aad47b57f2b6748"
+        }
+      }
+    },
+    {
+      "label": "production-package-blocked",
+      "command": [
+        "make",
+        "package-brand"
+      ],
+      "started_at": "2026-10-12T17:34:58.097978+00:00",
+      "ended_at": "2026-10-12T17:34:58.699996+00:00",
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "result": "fail",
+      "expected_outcome_observed": true,
+      "streams": {
+        "stdout": {
+          "path": "production-package-blocked.stdout.txt",
+          "sha256": "ae29f6caabe23faedb1a84584af21104a48b5df7fb8617ae00b29a7f13cd818b"
+        },
+        "stderr": {
+          "path": "production-package-blocked.stderr.txt",
+          "sha256": "71e89083a078a0bf21890172988d4e41be2e94bd1a107f2ee5a610b26082839d"
+        }
+      }
+    },
+    {
+      "label": "consumer-acceptance-blocked",
+      "command": [
+        "make",
+        "check-consumers"
+      ],
+      "started_at": "2026-10-12T17:34:58.700435+00:00",
+      "ended_at": "2026-10-12T17:35:02.031999+00:00",
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "result": "fail",
+      "expected_outcome_observed": true,
+      "streams": {
+        "stdout": {
+          "path": "consumer-acceptance-blocked.stdout.txt",
+          "sha256": "947e807fbad64cfa6729ab07c826886da0a49a8dff7476b134d97719cdaa8ae8"
+        },
+        "stderr": {
+          "path": "consumer-acceptance-blocked.stderr.txt",
+          "sha256": "0c081ca0951218d833ad2144a1c2d89211fe6336f0630bb6d988107976581cd0"
+        }
+      }
+    },
+    {
+      "label": "diff",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "started_at": "2026-10-12T17:35:02.033153+00:00",
+      "ended_at": "2026-10-12T17:35:02.036845+00:00",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "result": "pass",
+      "expected_outcome_observed": true,
+      "streams": {
+        "stdout": {
+          "path": "diff.stdout.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "diff.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "label": "owner-head-equality",
+      "command": [
+        "git",
+        "diff",
+        "--exit-code",
+        "a66440bd273adc62c5345342c9edf7f85164d6c1",
+        "HEAD"
+      ],
+      "started_at": "2026-10-12T17:35:02.037272+00:00",
+      "ended_at": "2026-10-12T17:35:02.042421+00:00",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "result": "pass",
+      "expected_outcome_observed": true,
+      "streams": {
+        "stdout": {
+          "path": "owner-head-equality.stdout.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "owner-head-equality.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "label": "clean",
+      "command": [
+        "git",
+        "status",
+        "--porcelain",
+        "--untracked-files=all"
+      ],
+      "started_at": "2026-10-12T17:35:02.042864+00:00",
+      "ended_at": "2026-10-12T17:35:02.047969+00:00",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "result": "pass",
+      "expected_outcome_observed": true,
+      "streams": {
+        "stdout": {
+          "path": "clean.stdout.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "clean.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    }
+  ],
+  "expected_release_prerequisite_failures": [
+    "provenance-blocked",
+    "production-package-blocked",
+    "consumer-acceptance-blocked"
+  ],
+  "prior_full_gate_source": "6222a745195e9f15a14069e79210ad45daa16c94",
+  "not_rerun": [
+    "Full 17-target release aggregate, asset raster/browser/consumer-browser runs: implementation, fixtures and distributed payloads are unchanged; their actual earlier M evidence remains separately identified.",
+    "External font availability/unavailability, true browser zoom, manual/rights/consumer acceptance: actual required inputs still missing."
+  ],
+  "postcheck_clean": true,
+  "unchanged_tool_fixture_and_payload_paths": true,
+  "engineering_outcome": "pass",
+  "release_approved": false
+}

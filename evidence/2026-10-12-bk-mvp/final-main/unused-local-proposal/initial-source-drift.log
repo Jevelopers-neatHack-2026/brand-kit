@@ -1,0 +1,9 @@
+Command: /workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python -I tools/check_guidelines.py
+Mode: local development, README changed before deliberate source-snapshot update
+Base revision: 6222a745195e9f15a14069e79210ad45daa16c94
+Exit: 1
+STDOUT:
+FAIL: README.md: public-source drift; review wording/rendering and deliberately update the snapshot (expected b949a4fff170d775028d9c5db2cb6ef2e32ce482708e1f7a2d69b021f5ceabeb, actual 14f161bf8a366e24726dda3103323ba7ee01d00c5ee176be00b0395ee1afed1d)
+Scope: local source snapshot and structure only. Public claim approvals remain PENDING; release eligibility is NOT established.
+
+STDERR:

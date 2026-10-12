@@ -1,0 +1,101 @@
+{
+  "schema": "ticketstub-postmerge-packet-review@1",
+  "reviewer": "independent /root/dependency_audit reviewer",
+  "reviewed_at": "2026-10-12T17:28:37.214572+00:00",
+  "verdict": "APPROVE scoped evidence publication; no remaining blocking findings",
+  "packet_path": "/workspace/scratch/5ecc3c6cf97a/triage/postmerge-evidence-packet-v3",
+  "source_revision": "6222a745195e9f15a14069e79210ad45daa16c94",
+  "source_tree": "9b4e5bffc559494731cfdcc23c5df7582792736c",
+  "packet_integrity_sha256": "80690f5972154485acc21c133e24c8f8dbd26561223b1b96d0d2dd5e4df3723d",
+  "readme_sha256": "3d712092a64b8e62731b5793958b6e79590bad8fec9060c340dc8607aa848f66",
+  "scope": "Read-only integrity, source identity, preserved outcomes, coverage pointers and text-publication review. No implementation or optional test-suite reruns.",
+  "checks": {
+    "utf8_files": 103,
+    "non_utf8_files": 0,
+    "symlinks": 0,
+    "nul_bytes_found": false,
+    "integrity_entries_verified": 102,
+    "integrity_self_exclusion": "packet-integrity.json",
+    "evidence_entries_verified": 101,
+    "copied_originals_byte_verified": 95,
+    "gate_and_supplemental_stream_hashes_verified": 46,
+    "actual_M_source_input_hashes_verified": 111,
+    "source_hash_mismatches": [],
+    "gate_commands": 17,
+    "gate_passes": 14,
+    "gate_prerequisite_failures": 3,
+    "retained_blockers": 29,
+    "gate_failure_targets": [
+      "check-provenance",
+      "package-brand",
+      "check-consumers"
+    ],
+    "python_tests": 283,
+    "asset_payloads": 184,
+    "asset_qa_cases": 80,
+    "general_browser_cases": 4,
+    "consumer_browser_cases": 16,
+    "fresh_browser_regression_outcomes": [
+      "baseline",
+      "invisible-focus",
+      "ancestor-clipping",
+      "clipped-focus-ring",
+      "source-drift-during-run"
+    ],
+    "source_checkbox_counts": {
+      "6": 6,
+      "7": 6,
+      "9": 7,
+      "11": 7,
+      "12": 7,
+      "13": 8,
+      "14": 7,
+      "15": 7,
+      "5": 19
+    },
+    "mapped_leaf_criteria": 55,
+    "mapped_gate_rows": 19,
+    "mapped_epic_dependency_pointers": 11,
+    "criterion_source_snapshot_sha256_verified": true,
+    "criterion_ordinals_and_local_evidence_paths_verified": true,
+    "epic_key_issue_urls_match_source": true,
+    "dependency_comment_body_fields": 0,
+    "dependency_bodyhashes_verified_against_original": 28,
+    "dependency_original_snapshot_hash_verified": true,
+    "tested_secret_shapes": [
+      "GitHub/OpenAI/AWS access-token patterns",
+      "private-key headers",
+      "Authorization bearer/basic values",
+      "URL user credentials",
+      "credential/signature query values"
+    ],
+    "tested_secret_shape_hits": [],
+    "final_v2_to_v3_delta": [
+      "README.md",
+      "evidence-files.json",
+      "packet-integrity.json"
+    ]
+  },
+  "resolved_findings": [
+    {
+      "observed_packet": "postmerge-evidence-packet",
+      "finding": "Dependency snapshot contained 28 full comment bodies totaling 38770 characters despite excluded-transcript publication scope.",
+      "resolution": "Unpublished v2/v3 removes all body fields, retains matching URL/body hashes, explicit derivative note and verified original snapshot hash. Original v1 remains local; parent confirmed it was never published."
+    },
+    {
+      "observed_packet": "postmerge-evidence-packet-v2",
+      "finding": "README attributed missing-runtime to the five fresh merged-source regression outcomes although that failure only exists in prior evidence.",
+      "resolution": "v3 identifies baseline plus the four actual negative cases and explicitly limits missing-runtime to retained prior E1 evidence."
+    }
+  ],
+  "approval_limits": [
+    "Publication evidence scope only; not self-approval of authored distribution or focus-check implementation.",
+    "Heuristic pattern checks and curated text inspection do not certify all history, binaries or secrets; EVAL-04 and accountable sanitization acceptance remain open.",
+    "BK-01 remains verified-ready-for-recorded-closure at capture; no recipient acknowledgment, rights, identity or release receipt is inferred.",
+    "Gate remains blocked; no foreign/global acceptance, provider execution, font availability or consumer adoption is granted.",
+    "PR24 is recorded as a separately reconciled proposal; this review grants no PR24 code approval."
+  ],
+  "source_or_packet_mutations_by_reviewer": false,
+  "github_mutations_by_reviewer": false,
+  "remaining_blocking_findings": []
+}

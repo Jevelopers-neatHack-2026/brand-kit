@@ -1,0 +1,126 @@
+[
+  {
+    "name": "inventory",
+    "command": [
+      "make",
+      "check-inventory",
+      "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr24-owner-review",
+    "source": "a66440bd273adc62c5345342c9edf7f85164d6c1",
+    "exit_code": 0,
+    "stdout_sha256": "2b9cf110fcfb0e6ea7c3bee3401e33e02708e220aed4c8b35adee256103ecf67",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/inventory.stdout",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/inventory.stderr"
+  },
+  {
+    "name": "links",
+    "command": [
+      "make",
+      "check-links",
+      "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr24-owner-review",
+    "source": "a66440bd273adc62c5345342c9edf7f85164d6c1",
+    "exit_code": 0,
+    "stdout_sha256": "e721dfaf5737a7c244ab45b3b1dcf66fcf5f5fe481f4f5978c138b727c4f9b6b",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/links.stdout",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/links.stderr"
+  },
+  {
+    "name": "governance",
+    "command": [
+      "make",
+      "check-governance",
+      "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr24-owner-review",
+    "source": "a66440bd273adc62c5345342c9edf7f85164d6c1",
+    "exit_code": 0,
+    "stdout_sha256": "24719e864e86e498ce68b4605498b5b6d5aed93ffd719a9e25a6e374b936ca12",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/governance.stdout",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/governance.stderr"
+  },
+  {
+    "name": "guidelines",
+    "command": [
+      "make",
+      "check-guidelines",
+      "PYTHON=/workspace/scratch/5ecc3c6cf97a/asset-toolchain/bin/python"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr24-owner-review",
+    "source": "a66440bd273adc62c5345342c9edf7f85164d6c1",
+    "exit_code": 0,
+    "stdout_sha256": "688960e3a797958de00cbe255e1b7a80a64b7a8ad7ea4b5cd62645bffa2f44eb",
+    "stderr_sha256": "edaed8282dacfdc71d77b119e607f4a23ed4c3e185da544a589ee1c00b3e23b3",
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/guidelines.stdout",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/guidelines.stderr"
+  },
+  {
+    "name": "diff-check",
+    "command": [
+      "git",
+      "diff",
+      "--check",
+      "6222a745195e9f15a14069e79210ad45daa16c94",
+      "a66440bd273adc62c5345342c9edf7f85164d6c1"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr24-owner-review",
+    "source": "a66440bd273adc62c5345342c9edf7f85164d6c1",
+    "exit_code": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/diff-check.stdout",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/diff-check.stderr"
+  },
+  {
+    "name": "merged-tree-parity",
+    "command": [
+      "git",
+      "diff",
+      "--exit-code",
+      "a66440bd273adc62c5345342c9edf7f85164d6c1",
+      "a664cc99884b2679f2c6ea15c6c3e8b98b768755"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr24-owner-review",
+    "source": "a66440bd273adc62c5345342c9edf7f85164d6c1",
+    "exit_code": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/merged-tree-parity.stdout",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/merged-tree-parity.stderr"
+  },
+  {
+    "name": "readme-shell-1",
+    "command": [
+      "bash",
+      "-n",
+      "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/readme-shell-1.sh"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr24-owner-review",
+    "source": "a66440bd273adc62c5345342c9edf7f85164d6c1",
+    "exit_code": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/readme-shell-1.stdout",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/readme-shell-1.stderr"
+  },
+  {
+    "name": "readme-shell-2",
+    "command": [
+      "bash",
+      "-n",
+      "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/readme-shell-2.sh"
+    ],
+    "cwd": "/workspace/scratch/5ecc3c6cf97a/brand-kit-pr24-owner-review",
+    "source": "a66440bd273adc62c5345342c9edf7f85164d6c1",
+    "exit_code": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/readme-shell-2.stdout",
+    "stderr_path": "/workspace/scratch/5ecc3c6cf97a/triage/pr24-owner-review-a66440b/readme-shell-2.stderr"
+  }
+]
