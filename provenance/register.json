@@ -1076,7 +1076,7 @@
       "restrictions": "UNKNOWN",
       "reviewer": "UNKNOWN",
       "notes": [
-        "Classified reference-only from evidence: file sits in references/, index.html shows it on the internal board, and inventory records origin and rights as unknown. No origin, creator, tool or licence is recorded. It is not treated as first-party or generated on visual appearance alone."
+        "Classified reference-only from evidence: the file sits in references/ and inventory/brand-inventory.json records origin and rights as unknown. Not referenced by index.html (the board renders 6 of the 7 references; this is the one not rendered) nor named in docs/imagery.md, checked at 91157ac. No origin, creator, tool or licence is recorded. It is not treated as first-party or generated on visual appearance alone."
       ],
       "classification": "reference-unknown",
       "core": false,
@@ -1086,7 +1086,7 @@
       "notice_required": "UNKNOWN",
       "notice_files": [],
       "intended_uses": [
-        "Internal visual reference on the brand board (index.html)"
+        "Reference image kept in references/; not shown on the brand board"
       ],
       "disposition": {
         "release": "excluded",
