@@ -71,7 +71,7 @@ The [accessibility matrix](accessibility/contrast-report.md) owns calculated pai
 
 The 2026-10-15 source-integration candidate reconciles the original proposal at
 `289b22659f0699649abd65ba7a3b7e710839f4d3` with repaired main
-`047957df6355c6f0184928d8064bd7d1f88bd0f8`. Source integration is authorized;
+`0b41188f1d57560befd7d3c861a51ed41d151b06`. Source integration is authorized;
 identity ratification, rights and consumer/release acceptance remain separate.
 
 - Preserve current main's immutable edition/foil links, token-profile description,
