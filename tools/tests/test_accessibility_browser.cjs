@@ -62,6 +62,18 @@ try {
     JSON.stringify(stylesheet) + ", '\\n/* Synthetic post-snapshot source drift. */\\n'));return listen.apply(this,args);};\n");
   const cases = [
     { name: 'baseline', css: '', expectedExit: 0, expectedOutcome: 'pass-local-fixture' },
+    { name: 'visible-heading-overflow',
+      css: '@media(max-width:700px){h1 {height:1px;overflow:visible;margin-bottom:10rem;}}',
+      expectedExit: 0, expectedOutcome: 'pass-local-fixture' },
+    { name: 'hidden-heading-overflow',
+      css: '@media(max-width:700px){h1 {height:1px;overflow:hidden;margin-bottom:10rem;}}',
+      expectedExit: 1, expectedOutcome: 'error', expectedReason: 'clipped essential fixture content at 200% layout zoom' },
+    { name: 'visible-text-beyond-child-box', textOverflow: true,
+      css: '@media(max-width:700px){.text-extent {height:5px;overflow:visible;margin-bottom:3rem}.text-extent h3 {height:1px;line-height:24px;margin:0;overflow:visible}}',
+      expectedExit: 0, expectedOutcome: 'pass-local-fixture' },
+    { name: 'ancestor-clips-text-beyond-child-box', textOverflow: true,
+      css: '@media(max-width:700px){.text-extent {height:5px;overflow:hidden;margin-bottom:3rem}.text-extent h3 {height:1px;line-height:24px;margin:0;overflow:visible}}',
+      expectedExit: 1, expectedOutcome: 'error', expectedReason: 'clipped essential fixture content at 200% layout zoom' },
     { name: 'invisible-focus', css: ':is(button,input,textarea,select,a):focus-visible {outline-color:transparent;}',
       expectedExit: 1, expectedOutcome: 'error', expectedReason: 'focus indicator is invisible or below 3:1' },
     { name: 'ancestor-clipping', css: '@media(max-width:700px){.surface {height:50px;overflow:hidden;}}',
@@ -73,8 +85,11 @@ try {
   ];
   for (const scenario of cases) {
     fs.writeFileSync(stylesheet, baselineCss + '\n/* Synthetic regression: ' + scenario.name + ' */\n' + scenario.css + '\n');
-    fs.writeFileSync(document, scenario.clipFocus ? baselineHtml.replace(action,
-      '<div style="width:fit-content;max-width:100%;overflow:hidden">' + action + '</div>') : baselineHtml);
+    let scenarioHtml = scenario.clipFocus ? baselineHtml.replace(action,
+      '<div style="width:fit-content;max-width:100%;overflow:hidden">' + action + '</div>') : baselineHtml;
+    if (scenario.textOverflow) scenarioHtml = scenarioHtml.replace('<div class="controls">',
+      '<div class="text-extent"><h3>Sample text</h3></div><div class="controls">');
+    fs.writeFileSync(document, scenarioHtml);
     const command = [...(scenario.mutateDuringRun ? ['--require', mutator] : []), 'tools/check_accessibility_browser.cjs'];
     const processResult = spawnSync(process.execPath, command, {
       cwd: fixtureRoot, env: process.env, encoding: 'utf8', timeout: 60000, maxBuffer: 1024 * 1024,

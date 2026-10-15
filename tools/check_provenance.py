@@ -107,10 +107,29 @@ def load_json(root: Path, rel: str):
     p = root / rel
     if not p.is_file():
         return None, [f"missing required input: {rel}"]
+    class AmbiguousJSON(ValueError):
+        """Only fixed parser-hook diagnostics may be shown to the caller."""
+
+    def unique_object(pairs):
+        result = {}
+        for key, value in pairs:
+            if key in result:
+                # Never include an input key/value in this diagnostic.
+                raise AmbiguousJSON("duplicate JSON key")
+            result[key] = value
+        return result
+
+    def reject_constant(_):
+        raise AmbiguousJSON("nonfinite JSON")
+
     try:
-        return json.loads(p.read_text(encoding="utf-8")), []
+        return json.loads(p.read_text(encoding="utf-8"), object_pairs_hook=unique_object,
+                          parse_constant=reject_constant), []
     except json.JSONDecodeError as exc:
         return None, [f"{rel}: invalid JSON at line {exc.lineno} column {exc.colno}"]
+    except AmbiguousJSON as exc:
+        # These messages are fixed by the parser hooks above, not input text.
+        return None, [f"{rel}: invalid JSON ({exc})"]
     except (UnicodeDecodeError, RecursionError) as exc:
         return None, [f"{rel}: unreadable input ({type(exc).__name__})"]
 
