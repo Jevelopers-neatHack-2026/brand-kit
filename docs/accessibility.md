@@ -56,6 +56,12 @@ covered by these examples. Forced-colors mode keeps a system-color focus outline
 
 The browser checker measures actual outline color/style and composited adjacent
 surface contrast, and checks clipping ancestors as well as each text/control box.
+Visible fallback-font ink outside a heading's line box is not clipping. The checker
+requires an actual clipping viewport before treating a box's scroll overflow as
+hidden content; native select/textarea viewports remain checked independently.
+Paired synthetic cases keep an overflowing heading visible or hide the same
+overflow, requiring the first to pass and the second to fail. Clipping ancestors,
+focus rings and document horizontal overflow retain their separate checks.
 `make check-accessibility-browser` also runs synthetic regressions: a transparent
 focus outline and a short parent with hidden overflow must fail for their specific
 assertion reason. An unavailable browser fails the prerequisite; it cannot count

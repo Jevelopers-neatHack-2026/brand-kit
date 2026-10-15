@@ -62,6 +62,12 @@ try {
     JSON.stringify(stylesheet) + ", '\\n/* Synthetic post-snapshot source drift. */\\n'));return listen.apply(this,args);};\n");
   const cases = [
     { name: 'baseline', css: '', expectedExit: 0, expectedOutcome: 'pass-local-fixture' },
+    { name: 'visible-heading-overflow',
+      css: '@media(max-width:700px){h1 {height:1px;overflow:visible;margin-bottom:10rem;}}',
+      expectedExit: 0, expectedOutcome: 'pass-local-fixture' },
+    { name: 'hidden-heading-overflow',
+      css: '@media(max-width:700px){h1 {height:1px;overflow:hidden;margin-bottom:10rem;}}',
+      expectedExit: 1, expectedOutcome: 'error', expectedReason: 'clipped essential fixture content at 200% layout zoom' },
     { name: 'invisible-focus', css: ':is(button,input,textarea,select,a):focus-visible {outline-color:transparent;}',
       expectedExit: 1, expectedOutcome: 'error', expectedReason: 'focus indicator is invisible or below 3:1' },
     { name: 'ancestor-clipping', css: '@media(max-width:700px){.surface {height:50px;overflow:hidden;}}',

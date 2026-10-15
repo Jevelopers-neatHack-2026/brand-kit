@@ -188,7 +188,14 @@ function save() {
           const clips = value => ['hidden', 'clip', 'scroll', 'auto'].includes(value);
           for (const el of document.querySelectorAll('p,h1,h2,h3,li,dd,dt,label,button,select,textarea')) {
             const rect = el.getBoundingClientRect();
-            let problem = el.scrollWidth > el.clientWidth + 1 || el.scrollHeight > el.clientHeight + 1 ||
+            const ownStyle = getComputedStyle(el);
+            // Fallback glyph ink can extend outside a line box while remaining
+            // fully visible. Only a clipping viewport hides that overflow.
+            // Native form controls have internal viewports even when their
+            // computed overflow is visible.
+            const control = ['SELECT', 'TEXTAREA'].includes(el.tagName);
+            let problem = ((control || clips(ownStyle.overflowX)) && el.scrollWidth > el.clientWidth + 1) ||
+              ((control || clips(ownStyle.overflowY)) && el.scrollHeight > el.clientHeight + 1) ||
               rect.width === 0 || rect.height === 0;
             for (let node = el; node; node = node.parentElement) {
               const style = getComputedStyle(node);
