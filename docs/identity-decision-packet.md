@@ -67,6 +67,185 @@ Every row is **candidate / approval pending**. Existing combinations are shown f
 
 The [accessibility matrix](accessibility/contrast-report.md) owns calculated pair restrictions. These restrictions qualify how existing colors may be used; they do not approve a new palette or establish whole-product accessibility.
 
+## PR 3 source integration
+
+The 2026-10-15 source-integration candidate reconciles the original proposal at
+`289b22659f0699649abd65ba7a3b7e710839f4d3` with repaired main
+`0b41188f1d57560befd7d3c861a51ed41d151b06`. Source integration is authorized;
+identity ratification, rights and consumer/release acceptance remain separate.
+
+- Preserve current main's immutable edition/foil links, token-profile description,
+  generated outputs, corrected contrast wording and all source/release checks.
+- Preserve current main's unratified A+B baseline and existing motion/sound guidance.
+  Do not enact the original branch's unsupported “Decided: A only” assertion.
+- Retain every original hunk below as **proposal evidence only**. The paper-only
+  scope, flake-film parameters and WebAudio/sound recommendations still require
+  the exact decisions requested in the six-row baseline table above. Quoted
+  source claims, including upstream license and implementation claims, have not
+  been independently adopted or authenticated by this integration.
+- The original branch commits remain in the merge ancestry. This is a semantic
+  reconciliation, not a claim that every proposal was already implemented or
+  that the issue's approval requirements have been satisfied.
+
+The following historical diff records the immutable original proposal (display-only trailing whitespace removed). Its
+mutable links, prior token-profile wording and unapproved rules are not consumer
+instructions; use the current canonical sources and decision table instead.
+
+<details><summary>Original PR #3 proposal diff, preserved for review</summary>
+
+```diff
+diff --git a/README.md b/README.md
+index 9764c88..41a20a2 100644
+--- a/README.md
++++ b/README.md
+@@ -88,7 +88,7 @@ The script takes no arguments. It shapes `fonts/Fraunces[SOFT,WONK,opsz,wght].tt
+
+ ## Related repositories
+
+-This kit covers the master brand: app UI, logo, marketing and packaging. Stub editions (Classic, Letterpress, Risograph, Minimal, Researched) are the user's artwork with their own palettes ([two tiers](SPEC.md#two-tiers)).
++This kit covers the master brand: app UI, logo, marketing and packaging. Stub editions (Classic, Letterpress, Risograph, Minimal, Researched) are the user's artwork with their own palettes ([two tiers](SPEC.md#two-tiers)); the edition system is specified in [getticketstub.com `docs/studio/stub-system.md`](https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/main/docs/studio/stub-system.md).
+
+ - [getticketstub.com](https://github.com/Jevelopers-neatHack-2026/getticketstub.com): the studio app, which carries copies of these logos in [`public/brand`](https://github.com/Jevelopers-neatHack-2026/getticketstub.com/tree/main/public/brand)
+ - [creative-engine](https://github.com/Jevelopers-neatHack-2026/creative-engine/blob/main/docs/architecture/OWNERSHIP.md) owns artwork versions; [print-production](https://github.com/Jevelopers-neatHack-2026/print-production/blob/main/docs/architecture/OWNERSHIP.md) owns printable composition
+diff --git a/SPEC.md b/SPEC.md
+index ea277fc..cfa17e9 100644
+--- a/SPEC.md
++++ b/SPEC.md
+@@ -23,15 +23,15 @@ Every design decision below has to serve that sentence. "Keep the night" asks fo
+ | Direction | Look | Verdict |
+ |---|---|---|
+ | A. Paper Desk | Cream stock, warm window light, letterpress serif | The base. It reads as tactile and as a keepsake. |
+-| B. Night Stage | Ink and moss, copper-to-cyan foil light leaks | Used for moments: printing, reveal, finishes, tear. It reads as premium. |
++| B. Night Stage | Ink and moss, copper-to-cyan foil light leaks | Dropped for the app. The studio never goes dark; the night tokens stay in the brand kit for the print and marketing material that needs a dark ground. |
+ | C. Box Office | Thermal mono, Swiss grid, security wave | Rejected as the master brand, because it feels transactional (it's what a ticketing vendor looks like). It survives as the Classic stub edition. |
+
+-**Recommended: A + B, "paper by day, foil by night".** The everyday studio is paper, so it feels like handling a real stub. The moments that sell the product switch to the dark stage, because foil only glows against dark.
++**Decided: A only, "always on paper".** The whole studio is cream paper, so it always feels like handling a real stub. There is no dark stage: printing, the finish picker, the tear and a lifted stub all happen on the paper desk. The moments are sold by physical depth (a printer sitting on the desk, a stub raised under a warm pool of light with a deep soft shadow) and by motion and sound, not by switching the room dark. Foil is tuned to read on cream (multiply on light stock).
+
+ ## Two tiers
+
+ 1. **Master brand** (this repo): the app UI, logo, marketing, packaging. Six colours, two typefaces, fixed.
+-2. **Stub editions** (`ticket-studio/docs/stub-system.md`): Classic, Letterpress, Risograph, Minimal and Researched. Each has its own palette and type, because the stub is the user's artwork, not our chrome. The only parts of the master brand that appear on an edition are the "Ts" stamp on the back and the foil material.
++2. **Stub editions** ([getticketstub.com `docs/studio/stub-system.md`](https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/main/docs/studio/stub-system.md)): Classic, Letterpress, Risograph, Minimal and Researched. Each has its own palette and type, because the stub is the user's artwork, not our chrome. The only parts of the master brand that appear on an edition are the "Ts" stamp on the back and the foil material.
+
+ ## Colour
+
+@@ -39,10 +39,10 @@ Every design decision below has to serve that sentence. "Keep the night" asks fo
+ |---|---|---|---|
+ | Ticket Orange | `#E4572E` | Primary. CTAs, the stamp, the one orange accent in generated art | Ink label on orange 5.0:1. On cream: large text only (3.1:1) |
+ | Copper | `#B4693E` | Secondary. Foil gradient start, premium tiers (print, frame) | Large text only on cream (3.6:1) |
+-| Stage Moss | `#26302A` | Secondary dark. Raised surfaces at night (sheets, panels, printing screen) | Cream on moss 11.6:1 |
++| Stage Moss | `#26302A` | Secondary dark. Brand and print material only; the app has no night surfaces | Cream on moss 11.6:1 |
+ | Holo Cyan | `#7CC6D2` | Accent. Foil gradient end, focus and selection on dark | 9.5:1 on ink. Never text on cream |
+ | Stub Cream | `#F4ECDD` | Neutral light. Paper, day background | |
+-| Night Ink | `#17140F` | Neutral dark. Body text, night background | 15.6:1 on cream |
++| Night Ink | `#17140F` | Neutral dark. Body text on paper, the printer body object | 15.6:1 on cream |
+
+ - **Muted text** is ink or cream at 66% opacity: 5.6:1 on cream, 7.3:1 on ink. It is not a seventh colour.
+ - **Foil** is `linear-gradient(135deg, copper 0%, orange 45%, cyan 100%)`.
+diff --git a/docs/material-foil.md b/docs/material-foil.md
+index 0a759f3..41c8b2a 100644
+--- a/docs/material-foil.md
++++ b/docs/material-foil.md
+@@ -1,6 +1,6 @@
+ # Foil and holo material
+
+-The technique is adapted from lmvdz/coven-cave (`feat/cave-3rz-conjure-flow`, `src/lib/foil/*`, `src/styles/familiar-card.css`). The full engineering notes live in `ticket-studio/research/holo-foil-technique.md`.
++The technique is adapted from lmvdz/coven-cave (`feat/cave-3rz-conjure-flow`, `src/lib/foil/*`, `src/styles/familiar-card.css`). The full engineering notes live in [getticketstub.com `docs/studio/research/holo-foil-technique.md`](https://github.com/Jevelopers-neatHack-2026/getticketstub.com/blob/main/docs/studio/research/holo-foil-technique.md).
+
+ ## Principle: the pattern stays fixed, the colour moves
+
+@@ -19,7 +19,7 @@ Real stamped foil has a fixed shape and a colour that shifts as you move it. We
+ | **Brand foil** (Ts stamp, foil titles) | Text or logo raster, white on black | `--ts-foil` (copper → orange → cyan) |
+ | **Gold / copper foil** (Letterpress, Researched editions) | Text raster | Copper-weighted foil |
+ | **Spot holo** (lamplight, windows in art) | Highlight mask taken from the art (about 6% coverage) | `--ts-holo-spectrum` |
+-| **Holographic stock** (print upgrade) | Full-bleed halftone, no mask | `--ts-holo-spectrum` |
++| **Holographic stock** (print upgrade) | Full-bleed **flake film**: seeded fractal noise, thresholded so only the brightest flakes catch light. Never a halftone dot grid | A softened spectrum, screened onto dark areas and multiplied into light stock, only inside the pool of light |
+ | **Emboss / deboss** | Height map from the text raster | Light and shadow driven by the same light position (new; not in coven-cave) |
+
+ The full rainbow appears only on holographic stock and spot holo. Everything branded uses the brand foil.
+@@ -44,16 +44,18 @@ The first board shipped with a foil effect that snapped on when the pointer ente
+ |---|---|---|
+ | Brand foil sheen (copper/cyan band, about 40% of the gradient length, travels 90% across) | `overlay` | 0.5 |
+ | Glare (white radial) | `overlay` | 0.3 at the centre |
+-| Rainbow spectrum (holo stock only) | `screen`, multiplied into a plate | 0.94 (coven-cave's 0.42 + 0.52) |
++| Rainbow spectrum (holo stock only) | `screen` on dark, `multiply` on light stock, both through the flake plate | Screen 0.12 + 0.6 × glow, multiply 0.06 + 0.8 × glow. coven-cave's 0.42 + 0.52 was tuned for dark cards and turned cream stock into polka dots |
+
+ - **Never use `color-dodge`** or full-coverage rainbow on the brand mark. Dodge blows out the orange.
+ - **Tilt is at most ±11°.**
++- **Holo never animates on its own** (no looping keyframes) and is never a second layer on the frame or mat. It lives on the stub's face and moves only with the light.
++- **No visible pattern at rest.** Holo stock at rest should look like the matte stub from arm's length. If you can see dots or a grid, the plate is too coarse.
+
+ ### Acceptance check
+
+ Before you ship a foil change:
+ - At 60 Hz, sheen opacity may change by **at most 0.02 per frame** while entering, moving or leaving. Today's values give 0.018 at 60 Hz.
+-- Watch it at real speed on a dark and on a light background. If you notice the foil before you notice the stamp, it's too strong. If you have to hunt for it while moving the pointer, it's too weak.
++- The app is always on cream paper (no dark stage), so foil and holo are tuned for light stock first: multiply tints do the work, and the screen layer only lifts dark art inside the stub. Watch it at real speed on the cream desk and on dark art. If you notice the foil before you notice the stamp, it's too strong. If you have to hunt for it while moving the pointer, it's too weak.
+
+ **Calibration history:** sheen 0.32 with `soft-light` and glare 0.18 was too subtle, because `soft-light` barely changes orange. Sheen 0.5 with `overlay` and glare 0.3 is the current setting. When you raise the caps, slow `tauGlowIn` to keep the 0.02 per-frame limit; the per-frame step scales with cap × (1 − e^(−16.7/τ)).
+
+diff --git a/docs/motion-sound-haptics.md b/docs/motion-sound-haptics.md
+index 3e8c86e..f33e854 100644
+--- a/docs/motion-sound-haptics.md
++++ b/docs/motion-sound-haptics.md
+@@ -17,17 +17,18 @@ Every interaction should feel like handling paper. Tokens are in `tokens/tokens.
+ - **Spring for drag-spin and swipe:** stiffness 0.055, damping 0.9, stepped at a fixed 60 Hz, maximum velocity 34. A fixed step means the stub settles in the same time on a 60 Hz phone and a 120 Hz laptop.
+ - **Tilt:** at most ±11° with 1400 px perspective.
+ - **Foil and tilt never step.** Pointer and gyro inputs are eased every frame (tilt τ 110 ms, glow in 400 ms and out 600 ms) instead of being set directly. See "Rules: foil must never pop" in `material-foil.md`.
++- **The app stays on paper.** There is no dark stage and no lights-down transition. Printing, the finish picker, the tear and a lifted stub all happen on the same cream desk; depth comes from contact shadows and a warm pool of light, and the motion and sound carry the moment.
+ - **Signature move: the tear.** Drag along the perforation. The stub follows with slight resistance; past 60% it rips free, flies to the wall, rotates to a random angle between -4° and 4°, and pins.
+ - **Reduced motion:** no tilt, spin or glitch. Foil holds a still sheen (`glow` 0.45), and transitions become instant cross-fades.
+
+ ## Sound
+
+-Sound is **on by default**, with a mute toggle always visible in the top bar. Source all sounds from **[cuelume.dev](https://cuelume.dev/)** and keep each one under 600 ms (the printer loop is the exception), mixed quietly at -18 LUFS or below.
++Sound is **on by default**, with a mute toggle always visible in the top bar. Synthesize every sound live with the Web Audio API, built the way **[cuelume.dev](https://cuelume.dev/)** builds its sounds (rules below). Keep each one under 600 ms (the printer loop is the exception), mixed quietly at -18 LUFS or below.
+
+ | Event | Character |
+ |---|---|
+ | Ticket dropped | Soft paper slide, short |
+-| Printing (loop while researching) | Thermal printer whirr, low and steady; fades out on completion |
++| Printing (while the stub feeds) | Thermal head stepping the paper: soft ticks in short runs, timed with the feed, over a faint paper whisper. No hum or steady drone (it reads as a microwave); very quiet |
+ | Print complete | Single crisp paper snap together with the shutter flash |
+ | Style shuffle | Card flick |
+ | Remix | Short shuffle and riffle |
+@@ -39,6 +40,20 @@ Sound is **on by default**, with a mute toggle always visible in the top bar. So
+
+ - **Browser rule:** audio can only start after the first user gesture. The drop or tap that starts a stub unlocks it.
+
++### Rules: sounds must never be harsh or interchangeable
++
++The first build got both wrong. Every cue was a 1–2 ms burst of high-passed noise with an exponential attack, so they all sounded like the same sharp click. These rules come from how cuelume builds its sounds (MIT, [source](https://github.com/danielwh2/cuelume)):
++
++1. **Swell in, don't click.** Every layer rises along a straight line (1–6 ms for strikes, 50+ ms for air), then dies away exponentially. An exponential attack stays silent and then jumps in, which is heard as a late second hit.
++2. **No unfiltered noise, and nothing centred above 5 kHz.** Noise is always band- or low-passed at the material's hardness: felt about 1 kHz, card about 2.4 kHz, a hard mallet about 3 kHz.
++3. **Struck objects, not test tones.** Tones are sines at the modes of a real object (free bar 1 / 2.76 / 5.40, marimba bar 1 / 3.99). Higher modes die out faster (decay ∝ 1/ratio). A knock is a sine struck 1.6× sharp that drops to its pitch in 18 ms.
++4. **One shared room.** Every cue sends about -22 dB into one short stereo room (8 ms to the first reflection, 250 ms tail, walls low-passed at 3.5 kHz), then goes through one limiter. Results (success) send twice as much.
++5. **One job, one shape.** Pick by the job (tap, select, toggle, open, close, drop, success, stamp, flick, flip, tear, pin, print). Each has its own layers. Never make a cue by changing the volume or EQ of another.
++6. **Alive, not random.** Frequent cues vary each strike by about 1–3% in pitch and 10% in level, and each layer's ring varies by up to 10%. Outcomes play the same every time. A cue that repeats within 70–220 ms gets lighter (up to -22% level, -25% length). Each cue plays one voice at a time, so a new play fades the last one out over 80 ms instead of stacking on it.
++7. **Emphasis by arrangement.** "Subtle" (frequent actions) drops the ornament layers, and "strong" (rare, important) adds one low layer of its own.
++
++The reference implementation is `getticketstub.com/src/customer/studio/feedback.ts`, with an audition board at `/parts`.
++
+ ## Haptics
+
+ Use `navigator.vibrate` on Android. iOS Safari doesn't support web vibration, so on iOS the sound carries the feedback, and a native wrapper can map these to `UIImpactFeedbackGenerator` later.
+diff --git a/tokens/tokens.json b/tokens/tokens.json
+index f2bdb9f..b795037 100644
+--- a/tokens/tokens.json
++++ b/tokens/tokens.json
+@@ -1,5 +1,5 @@
+ {
+-  "$description": "TicketStub master-brand tokens (DTCG format). Stub editions have their own palettes in ticket-studio; these tokens cover the app UI, the logo and marketing only.",
++  "$description": "TicketStub master-brand tokens (DTCG format). Stub editions have their own palettes in getticketstub.com docs/studio/stub-system.md; these tokens cover the app UI, the logo and marketing only.",
+   "color": {
+     "$type": "color",
+     "orange": { "$value": "#E4572E", "$description": "Primary. Calls to action, the logo stamp, the one orange accent in generated art. Large text only on cream (3.1:1); labels on orange use ink (5.0:1)." },
+```
+
+</details>
+
 ## PR 3 reconciliation
 
 Refresh observed on 2026-10-12: main `3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4`; PR #3 head `289b22659f0699649abd65ba7a3b7e710839f4d3`; merge base `74bc86fe5b520cae792066fbe0d7dd129664bbd3`. Main has seven unique commits and the proposal five. GitHub reports PR #3 open, non-draft and conflicting. Its author/branch owner is @lmvdz; @CompleteDotTech is requested for review. No submitted GitHub review, review thread, commit status or PR workflow run was returned at refresh. A conversation [request-changes review](https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3#issuecomment-6117604850) and the [latest hold receipt](https://github.com/Jevelopers-neatHack-2026/brand-kit/pull/3#issuecomment-6122164575) remain controlling evidence of unresolved work.
