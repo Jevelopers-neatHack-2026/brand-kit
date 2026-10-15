@@ -86,6 +86,40 @@ class Fixture(unittest.TestCase):
 
 
 class RegisterTests(Fixture):
+    def test_conflicting_approval_keys_fail_closed(self):
+        path = self.tmp / cp.REGISTER
+        content = path.read_text().replace('"status": "approved"',
+            '"status": "rejected", "status": "approved"', 1)
+        path.write_text(content)
+        self.assertIn("duplicate JSON key", self.structural())
+        self.assertIn("duplicate JSON key", self.production())
+
+    def test_conflicting_allowlist_keys_fail_closed(self):
+        path = self.tmp / cp.ALLOWLIST
+        content = path.read_text().replace('"entries": [', '"entries": [], "entries": [', 1)
+        path.write_text(content)
+        self.assertIn("duplicate JSON key", self.structural())
+        self.assertIn("duplicate JSON key", self.production())
+
+    def test_nonfinite_json_fails_even_in_unknown_fields(self):
+        for rel in (cp.REGISTER, cp.ALLOWLIST):
+            for value in ("NaN", "Infinity", "-Infinity"):
+                with self.subTest(path=rel, value=value):
+                    self.write()
+                    path = self.tmp / rel
+                    content = path.read_text()
+                    path.write_text(content[:-1] + ', "unrecognized": ' + value + '}')
+                    self.assertIn("nonfinite JSON", self.structural())
+                    self.assertIn("nonfinite JSON", self.production())
+
+    def test_duplicate_key_diagnostic_withholds_input(self):
+        path = self.tmp / cp.REGISTER
+        key = "sensitive-example-key"
+        path.write_text(json.dumps({key: 1})[:-1] + ', "' + key + '": 2}')
+        output = self.structural()
+        self.assertIn("duplicate JSON key", output)
+        self.assertNotIn(key, output)
+
     def test_valid_register_passes(self):
         self.assertEqual(self.structural(), "")
 

@@ -17,6 +17,12 @@ Standard library only, Python 3.9+; offline; nothing installed, published, merge
 
 `check-provenance` passes only when all hold: the structural checks pass; the allowlist is **reviewed** (status `reviewed`, reviewer, evidence, date all present) and **non-empty**; every allowlist entry names an exact path and sha256 that match both the register and the file bytes; each entry's register record is first-party (`first-party-canonical|generated|derived|readme`) or an accurately classified `licence-notice`, is a `candidate`, has `approval.status: approved` with evidence, date and reviewer, `rights_status: cleared`, known `intended_uses`, `permitted_uses` and `restrictions`, and the entry's `use` equals (exact string match, not substring or case-folded) one of its permitted uses, which must be a list; a `licence-notice` entry additionally needs an allowlisted eligible non-font asset that names it in `notice_files`, and carries its own hash, approval and permitted use; a record whose notice is required lists that notice in the allowlist too, and a notice requirement of `UNKNOWN` blocks; no font file is ever listed; synthetic data is refused. **Independently of the allowlist, every required-core file must have `rights_status: cleared` and an approval** (see Scope and core policy), so an otherwise complete register cannot release while core rights are unknown. Today the allowlist is empty and 19 core files have unknown rights, so the command exits 1. That is the expected result and not a failure of the tooling.
 
+Both provenance JSON inputs reject duplicate object keys at every nesting level and
+the non-standard constants `NaN`, `Infinity` and `-Infinity`. A contradictory
+`rejected`/`approved` pair must fail before eligibility is evaluated; the last value
+must never silently win. Parser diagnostics withhold the offending key/value.
+This applies to structural checks, production checks and the decision report.
+
 ## Classification (BK-06.2)
 
 | Class | Meaning here | Release-eligible class? |
