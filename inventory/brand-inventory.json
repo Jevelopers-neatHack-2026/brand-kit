@@ -7,7 +7,7 @@
     "method": "git ls-files compared with entries by tools/check_inventory.py",
     "issue": "https://github.com/Jevelopers-neatHack-2026/brand-kit/issues/6",
     "integrated_main": "3c48922b54bf0cc7d92bf9de1f59b1bd3cdad4a4",
-    "integrated_note": "Baseline includes merged PRs #17\u2013#22. This integration indexes remaining local tooling and review proposals; exact candidate SHA and checks are recorded in its PR. No approval is inferred.",
+    "integrated_note": "Baseline includes merged PRs #17–#22. This integration indexes remaining local tooling and review proposals; exact candidate SHA and checks are recorded in its PR. No approval is inferred.",
     "integrated_history": {
       "revision": "00e4129ddce2d8d646b9d6d5a118d254a30b637f",
       "note": "Governance PR #17 merged into this branch; its four new files are catalogued."
@@ -2095,6 +2095,45 @@
       "provenance_status": "unknown",
       "release_class": "internal",
       "canonical_authority": "tools/tokens-dev/tailwind.config.js"
+    },
+    {
+      "id": "LICENSE",
+      "path": "LICENSE",
+      "type": "text",
+      "category": "licensing",
+      "classification": "licence-provenance",
+      "description": "Software licensing and attribution; no brand asset approval or rights clearance.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "LICENSE"
+    },
+    {
+      "id": "COPYRIGHT.md",
+      "path": "COPYRIGHT.md",
+      "type": "markdown",
+      "category": "licensing",
+      "classification": "licence-provenance",
+      "description": "Software licensing and attribution; no brand asset approval or rights clearance.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "COPYRIGHT.md"
+    },
+    {
+      "id": "THIRD_PARTY_NOTICES.md",
+      "path": "THIRD_PARTY_NOTICES.md",
+      "type": "markdown",
+      "category": "licensing",
+      "classification": "licence-provenance",
+      "description": "Software licensing and attribution; no brand asset approval or rights clearance.",
+      "owner_role": "Product and frontend (brand-system maintainer)",
+      "approval_status": "unknown",
+      "provenance_status": "unknown",
+      "release_class": "internal",
+      "canonical_authority": "THIRD_PARTY_NOTICES.md"
     }
   ]
 }

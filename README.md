@@ -146,6 +146,6 @@ Follow the [organization contribution guidance](https://github.com/Jevelopers-ne
 
 ## License
 
-No licence is declared for the repository itself. The bundled fonts carry their own [Fraunces OFL](fonts/Fraunces-OFL.txt) and [Inter Tight OFL](fonts/InterTight-OFL.txt) terms; those licences do not cover unrelated logos, reference artwork or other repository content.
+Original tooling and technical documentation use the [MIT License](LICENSE); [COPYRIGHT.md](COPYRIGHT.md) records the exact scope, team attribution and excluded brand assets. The bundled fonts carry their own [Fraunces OFL](fonts/Fraunces-OFL.txt) and [Inter Tight OFL](fonts/InterTight-OFL.txt) terms; those licences do not cover unrelated logos, reference artwork or other repository content.
 
 Historical workflow attribution from the original source: brandkit skill workflow, curated by Collective Brain (collectivebrain.de) and WhiteFox Automations (whitefox-automations.com). This attribution is not a sponsor or endorsement claim; its public use remains subject to the [claim register](docs/claims-register.md).
