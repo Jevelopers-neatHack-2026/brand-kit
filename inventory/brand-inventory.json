@@ -2105,7 +2105,7 @@
       "description": "Software licensing and attribution; no brand asset approval or rights clearance.",
       "owner_role": "Product and frontend (brand-system maintainer)",
       "approval_status": "unknown",
-      "provenance_status": "licence-text-present",
+      "provenance_status": "unknown",
       "release_class": "internal",
       "canonical_authority": "LICENSE"
     },
@@ -2118,7 +2118,7 @@
       "description": "Software licensing and attribution; no brand asset approval or rights clearance.",
       "owner_role": "Product and frontend (brand-system maintainer)",
       "approval_status": "unknown",
-      "provenance_status": "licence-text-present",
+      "provenance_status": "unknown",
       "release_class": "internal",
       "canonical_authority": "COPYRIGHT.md"
     },
@@ -2131,7 +2131,7 @@
       "description": "Software licensing and attribution; no brand asset approval or rights clearance.",
       "owner_role": "Product and frontend (brand-system maintainer)",
       "approval_status": "unknown",
-      "provenance_status": "licence-text-present",
+      "provenance_status": "unknown",
       "release_class": "internal",
       "canonical_authority": "THIRD_PARTY_NOTICES.md"
     }
