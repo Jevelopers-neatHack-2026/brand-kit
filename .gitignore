@@ -1,3 +1,7 @@
 __pycache__/
 *.pyc
 .DS_Store
+node_modules/
+out/brand/
+build/asset-review/
+.venv-assets/
