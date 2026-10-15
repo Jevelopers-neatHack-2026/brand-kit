@@ -197,13 +197,32 @@ function save() {
             let problem = ((control || clips(ownStyle.overflowX)) && el.scrollWidth > el.clientWidth + 1) ||
               ((control || clips(ownStyle.overflowY)) && el.scrollHeight > el.clientHeight + 1) ||
               rect.width === 0 || rect.height === 0;
+            // A small border box does not bound overflow-visible text. Measure
+            // text fragments in viewport coordinates (including layout zoom),
+            // then test those extents against every ancestor clipping viewport.
+            // Native control text is checked through its own scroll viewport;
+            // DOM ranges do not describe its browser-internal rendering.
+            const extent = { left: rect.left, right: rect.right, top: rect.top, bottom: rect.bottom };
+            const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+            for (let text = walker.nextNode(); text; text = walker.nextNode()) {
+              if (!text.textContent.trim() || text.parentElement.closest('select,textarea')) continue;
+              const range = document.createRange();
+              range.selectNodeContents(text);
+              for (const fragment of range.getClientRects()) {
+                if (!fragment.width || !fragment.height) continue;
+                extent.left = Math.min(extent.left, fragment.left);
+                extent.right = Math.max(extent.right, fragment.right);
+                extent.top = Math.min(extent.top, fragment.top);
+                extent.bottom = Math.max(extent.bottom, fragment.bottom);
+              }
+            }
             for (let node = el; node; node = node.parentElement) {
               const style = getComputedStyle(node);
               if (style.visibility !== 'visible' || style.display === 'none' || Number(style.opacity) === 0) problem = true;
               if (node === el || (!clips(style.overflowX) && !clips(style.overflowY))) continue;
               const ancestor = node.getBoundingClientRect();
               // getBoundingClientRect includes CSS zoom; client/offset dimensions do
-              // not. Compare every essential box against each clipping padding box
+              // not. Compare border and text extents against each clipping padding box
               // in the same coordinate system, allowing only rounding tolerance.
               const scaleX = node.offsetWidth ? ancestor.width / node.offsetWidth : 1;
               const scaleY = node.offsetHeight ? ancestor.height / node.offsetHeight : 1;
@@ -211,8 +230,8 @@ function save() {
               const top = ancestor.top + node.clientTop * scaleY;
               const right = left + node.clientWidth * scaleX;
               const bottom = top + node.clientHeight * scaleY;
-              if ((clips(style.overflowX) && (rect.left < left - 1 || rect.right > right + 1)) ||
-                  (clips(style.overflowY) && (rect.top < top - 1 || rect.bottom > bottom + 1))) problem = true;
+              if ((clips(style.overflowX) && (extent.left < left - 1 || extent.right > right + 1)) ||
+                  (clips(style.overflowY) && (extent.top < top - 1 || extent.bottom > bottom + 1))) problem = true;
             }
             if (problem) failures.push(el.id || el.tagName);
           }

@@ -62,6 +62,12 @@ hidden content; native select/textarea viewports remain checked independently.
 Paired synthetic cases keep an overflowing heading visible or hide the same
 overflow, requiring the first to pass and the second to fail. Clipping ancestors,
 focus rings and document horizontal overflow retain their separate checks.
+Ancestor checks include DOM Range text-fragment rectangles as well as the child
+border box, in the same zoomed viewport coordinates. This catches a 1px-tall,
+overflow-visible heading whose text extends beyond a 5px-tall clipping parent
+(BK-REVIEW-001). Paired regressions retain the same text with a visible parent as
+a passing case and require the hidden-parent variant to fail. Native control text
+continues to use its scroll viewport rather than DOM text ranges.
 `make check-accessibility-browser` also runs synthetic regressions: a transparent
 focus outline and a short parent with hidden overflow must fail for their specific
 assertion reason. An unavailable browser fails the prerequisite; it cannot count
