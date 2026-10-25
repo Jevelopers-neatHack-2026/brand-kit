@@ -94,13 +94,24 @@ def transform(value: str) -> Transform:
 def validate_svg(data: bytes, *, expected_current_color: bool | None = None) -> dict:
     """Validate structure, resources, dimensions and transformed outline bounds.
 
-    No DOCTYPE/entities/processing instructions, foreign namespace, CSS, event
-    attributes, links, images, scripts, fonts, text glyphs or animation is accepted.
+    Only UTF-8 XML is supported. No DOCTYPE/entities/processing instructions,
+    foreign namespace, CSS, event attributes, links, images, scripts, fonts,
+    text glyphs or animation is accepted.
     """
-    if len(data) > 1_000_000 or b"<!" in data or b"<?" in data:
+    if len(data) > 1_000_000:
         raise AssetError("SVG declarations, processing instructions or oversized input are forbidden")
     try:
-        root = ET.fromstring(data)
+        source = data.decode("utf-8")
+    except UnicodeDecodeError as exc:
+        raise AssetError("SVG input must use UTF-8 encoding") from exc
+    # Check the same decoded input that reaches the XML parser. NUL bytes can
+    # otherwise let XML's UTF-16/32 autodetection bypass byte-level checks.
+    if "\x00" in source:
+        raise AssetError("SVG input must use UTF-8 encoding without NUL characters")
+    if "<!" in source or "<?" in source:
+        raise AssetError("SVG declarations, processing instructions or oversized input are forbidden")
+    try:
+        root = ET.fromstring(source)
     except ET.ParseError as exc:
         raise AssetError(f"Malformed SVG XML: {exc}") from exc
     if root.tag != f"{{{SVG_NS}}}svg":
