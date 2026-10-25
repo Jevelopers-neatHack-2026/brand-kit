@@ -31,6 +31,35 @@ class SvgValidationTests(unittest.TestCase):
     def test_valid_outlined_fixture(self):
         self.assertEqual(validate_svg(VALID)["outline_bounds"], [1, 1, 19, 19])
 
+    def test_utf8_accessible_labels_preserve_non_ascii_text(self):
+        source = VALID.decode("utf-8").replace("Synthetic fixture", "Édition — café")
+        self.assertEqual(validate_svg(source.encode("utf-8"))["outline_bounds"], [1, 1, 19, 19])
+
+    def test_invalid_utf8_rejected(self):
+        with self.assertRaises(AssetError):
+            validate_svg(VALID.replace(b"Synthetic fixture", b"Invalid \xff label"))
+
+    def test_utf16_declarations_cannot_bypass_validation_or_reach_renderer(self):
+        # XML parsers can detect UTF-16 without a BOM. The same forbidden
+        # declaration must not become acceptable merely by changing encoding.
+        entity_source = '<!DOCTYPE svg [<!ENTITY label "Synthetic entity value">]>' + \
+            VALID.decode("utf-8").replace("Synthetic fixture", "&label;")
+        instruction_source = '<?xml-stylesheet href="https://invalid.example/style.css"?>' + \
+            VALID.decode("utf-8")
+        encodings = (("utf-16-le", b""), ("utf-16-be", b""),
+                     ("utf-16-le", b"\xff\xfe"), ("utf-16-be", b"\xfe\xff"))
+        with tempfile.TemporaryDirectory() as temporary:
+            for source_name, source in (("entity", entity_source), ("instruction", instruction_source)):
+                for encoding, bom in encodings:
+                    data = bom + source.encode(encoding)
+                    with self.subTest(source=source_name, encoding=encoding, bom=bool(bom)):
+                        with self.assertRaises(AssetError):
+                            validate_svg(data)
+                        with patch("tools.asset_lib.subprocess.run") as renderer:
+                            with self.assertRaises(AssetError):
+                                rasterize(data, Path(temporary) / "bad.png", 20, 20)
+                            renderer.assert_not_called()
+
     def test_active_external_and_font_content_rejected_before_render(self):
         additions = [
             b'<script>alert(1)</script>',
