@@ -19,6 +19,12 @@ references, mockups, resized photographs or previously rasterized marks as input
 Screenshots and review sheets are QA captures only; they cannot replace canonical
 vectors, source provenance or a dated approval record.
 
+The SVG validator accepts UTF-8 input only and checks the decoded text before XML
+parsing. XML declarations, document types, entities and processing instructions
+are outside this profile. Non-UTF-8 input, NUL characters and unsupported XML
+constructs fail before rendering; ordinary UTF-8 text in accessible labels remains
+supported.
+
 The source font is `fonts/Fraunces[SOFT,WONK,opsz,wght].ttf`, SHA-256
 `177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb`.
 Its existing notice is [Fraunces-OFL.txt](../fonts/Fraunces-OFL.txt). This is a
